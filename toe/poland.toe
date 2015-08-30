@@ -1,0 +1,62 @@
+<TOEs combatant=Poland>
+	<toe name=ghq des="#" size=XXXXX badge=hq3 hq>
+	</>
+	<toe name=army des="# Army" size=XXXX badge=army >
+		<section badge=hq2 size=XXXX hq>
+		</>
+	</>
+	<toe name=op.gp des="# Operational Group" size=XXX badge=army >
+		<section badge=hq4 size=XXX hq>
+		</>
+	</>
+	<toe name=inf.div badge=inf size=XX des="# Infantry">
+		<section toe=div.hq />
+	</>
+	<toe name=mtn.div badge=mtn size=XX des="# Mountain">
+		<section toe=div.hq />
+	</>
+	<toe name=arm.mot.bg badge=arm size=X des="# Armored Motorized" >
+		<section toe=mot.bg.hq />
+	</>
+	<toe name=mtn.bg badge=mtn size=X des="# Mountain">
+		<section toe=bg.hq />
+	</>
+	<toe name=inf.bg badge=inf size=X des="# Infantry" >
+		<section toe=bg.hq />
+	</>
+	<toe name=mot.cav.bg badge=mot.cav size=X des="# Motorized Cavalry" >
+		<section toe=mot.reg.hq />
+	</>
+	<toe name=cav.bg badge=cav size=X des="# Cavalry" >
+		<section toe=bg.hq />
+	</>
+	<toe name=bdr.reg badge=bdr size="I I I" des="# Border" >
+		<section toe=reg.hq />
+	</>
+	<toe name=mot.art.reg badge=mot.art size="I I I" des="# Motorized Artillery" >
+		<section toe=mot.reg.hq />
+	</>
+	<toe name=hvy.art.reg badge=hvy.art size="I I I" des="# Heavy Artillery" >
+		<section toe=mot.reg.hq />
+	</>
+	<toe name=tank.bn badge=arm size="I I" des="# Tank" >
+		<section toe=mot.bn.hq />
+	</>
+	<toe name=inf.bn badge=inf size="I I" des="# Infantry" >
+		<section toe=bn.hq />
+	</>
+	<toe name=div.hq badge=hq size=XX des="# HQ" hq>
+	</>
+	<toe name=mot.bg.hq badge=hq size=X des="# HQ" hq>
+	</>
+	<toe name=bg.hq badge=hq size=X des="# HQ" hq>
+	</>
+	<toe name=mot.reg.hq badge=hq size="I I I" des="# HQ" hq>
+	</>
+	<toe name=reg.hq badge=hq size="I I I" des="# HQ" hq>
+	</>
+	<toe name=mot.bn.hq badge=hq size="I I" des="# HQ" hq>
+	</>
+	<toe name=bn.hq badge=hq size="I I" des="# HQ" hq>
+	</>
+</>

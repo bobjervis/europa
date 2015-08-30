@@ -1,0 +1,155 @@
+<root images=..\images\units.bmp>
+	<badge id=inf label=Infantry index=0 role=attdef />
+	<badge id=aa label=Anti-Aircraft index=1 role=def />
+	<badge id=mot.inf label="Motorized Infantry" index=2 role=attdef />
+	<badge id=mcycle label=Motorcycle index=3 role=attdef />
+	<badge id=recon label="Armored Recon" index=4 role=tac />
+	<badge id=cav.art label="Horse Artillery" index=5 role=art />
+	<badge id=mgun label="Machine Gun" index=6 role=def />
+	<badge id=gl.arm label="Glider Armored" index=7 role=tac />
+	<badge id=cav label=Cavalry index=8 role=attdef />
+	<badge id=para.cav label="Parachute Recon" index=9 role=attdef />
+	<badge id=para.inf label="Parachute Infantry" index=10 role=attdef />
+	<badge id=gl.at label="Glider Antitank" index=11 role=def />
+	<badge id=para.art label="Airborne Artillery" index=12 role=art />
+	<badge id=mot.cav label="Motorized Cavalry" index=13 role=tac />
+	<badge id=inf.art label="Infantry Artillery" index=14 role=art />
+	<badge id=gl.hvy label="Glider Heavy Weapon" index=15 role=attdef/>
+	<badge id=art label=Artillery index=16 role=art />
+	<badge id=eng label=Engineer index=17 role=attdef />
+	<badge id=para label=Parachute index=18 role=attdef />
+	<badge id=glider label=Glider index=19 role=attdef />
+	<badge id=c.art label="Coastal Artillery" index=20 role=art />
+	<badge id=mot.art label="Motorized Artillery" index=21 role=art />
+	<badge id=mot.hvy label="Motorized Heavy Weapon" index=22 role=attdef />
+	<badge id=gl.art label="Glider Artillery" index=23 role=art />
+	<badge id=hq label=Headquarters index=24 role=hq />
+	<badge id=rocket label=Rocket index=25 role=art />
+	<badge id=mtn label=Mountain index=26 role=attdef />
+	<badge id=mar label=Marine index=27 role=attdef />
+	<badge id=c.art2 label="Coastal Artillery" index=28 role=art />
+	<badge id=mtn.cav label="Mountain Cavalry" index=29 role=attdef />
+	<badge id=mot.at label="Motorized Antitank" index=30 role=attdef />
+	<badge id=para.eng label="Airborne Engineer" index=31 role=attdef />
+	<badge id=hq2 label=Headquarters index=32 role=hq />
+	<badge id=kg label=Kampfgruppe index=33 role=attdef />
+	<badge id=hq3 label=Headquarters index=34 role=hq />
+	<badge id=cdo label=Commando index=35 role=attdef />
+	<badge id=bridge label="Ferry/Bridge Engineer" index=36 role=passive />
+	<badge id=mtn.art label="Mountain Artillery" index=37 role=art />
+	<badge id=mot.art2 label="Motorized Artillery" index=38 role=art />
+	<badge id=rail.art label="Railroad Gun" index=39 role=art />
+	<badge id=arm label=Armored index=40 role=tac />
+	<badge id=arm.cav label="Armored Cavalry" index=41 role=tac />
+	<badge id=arm.art label="Self-propelled Artillery" index=42 role=art />
+	<badge id=mech label=Mechanized index=43 role=tac />
+	<badge id=chem label="Chemical Weapons" index=44 role=art />
+	<badge id=veh label=Transport index=45 role=passive />
+	<badge id=mot.aa label="Motorized Anti-Aircraft" index=46 role=def />
+	<badge id=irr label=Irregulars index=47 role=attdef />
+	<badge id=depot label=Supply index=48 role=supplyDepot />
+	<badge id=arm.at label="Armored Antitank" index=49 role=def />
+	<badge id=hvy.arm label="Heavy Armored" index=50 role=tac />
+	<badge id=arm.eng label="Armored Engineer" index=51 role=tac />
+	<badge id=mech2 label=Mechanized index=52 role=attdef />
+	<badge id=mot.rocket label="Motorized Rocket" index=53 role=art />
+	<badge id=hvy.mtn label="Mountain Heavy Weapon" index=54 role=attdef />
+	<badge id=mp label="Military Police" index=55 role=passive />
+	<badge id=at label="Antitank Artillery" index=56 role=def />
+	<badge id=ag label="Assault Gun" index=57 role=tac />
+	<badge id=amph.arm label="Amphibious Armored" index=58 role=tac />
+	<badge id=hvy.arm.at label="Heavy Armored Antitank" index=59 role=tac />
+	<badge id=amph.arm2 label="Amphibious Armored" index=60 role=tac />
+	<badge id=hvy label="Heavy Weapon" index=61 role=attdef />
+	<badge id=hvy.para label="Parachute Heavy Weapons" index=62 role=def />
+	<badge id=tf label="Task Force" index=63 role=attdef />
+	<badge id=mot.mgun label="Motorized Machine Gun" index=64 role=def />
+	<badge id=mort label=Mortar index=65 role=art />
+	<badge id=mot.eng label="Motorized Engineer" index=66 role=attdef />
+	<badge id=hvy.arm.art label="Heavy Self-propelled Artillery" index=67 role=art />
+	<badge id=bdr label="Border" index=68 role=attdef />
+	<badge id=const label="Construction" index=69 role=passive />
+	<badge id=bike label="Bicycle" index=70 role=attdef />
+	<badge id=hvy.art label="Heavy Artillery" index=71 role=art />
+	<badge id=stat label="Static" index=72 role=def />
+	<badge id=hvy.mort label="Heavy Mortar" index=73 role=art />
+	<badge id=sec label=Security index=74 role=attdef />
+	<badge id=ski label=Ski index=75 role=attdef />
+	<badge id=bg label="Battle Group" index=76 role=attdef />
+	<badge id=dest label="Destroyer" index=77 role=art />
+	<badge id=cru label=Cruiser index=78 role=art />
+	<badge id=batt label=Battleship index=79 role=art />
+	<badge id=carr label="Aircraft Carrier" index=80 role=passive/>
+	<badge id=sub label=Submarine index=81 role=passive />
+	<badge id=ftr label=Fighter index=82 role=fighter/>
+	<badge id=la.bmb label="Low-altitude Bomber" index=83 role=lowbomb />
+	<badge id=lr.bmb label="Long-Range Bomber" index=84 role=hibomb />
+	<badge id=ha.bmb label="High-altitude Bomber" index=85 role=hibomb />
+	<badge id=jet.ftr label="Jet Fighter" index=86 role=fighter />
+	<badge id=jet.bmb label="Jet Bomber" index=87 role=lowbomb />
+	<badge id=jet.ftr2 label="Jet Fighter" index=88 role=fighter />
+	<badge id=jet.ftr3 label="Jet Fighter" index=89 role=fighter />
+	<badge id=hvy.mgun label="Heavy Machine Gun" index=90 role=def />
+	<badge id=hq4 label=Headquarters index=91 role=hq />
+	<badge id=signal label=Signals index=92 role=passive />
+	<badge id=sup label=Supplies index=93 role=supply />
+	<badge id=rep label=Repair index=94 role=passive />
+	<badge id=med label=Medical index=95 role=passive />
+	<badge id=miss label=Missile index=96 role=def />
+	<badge id=sup.3 label=Supplies index=97 role=supply />
+	<badge id=aa.miss label="Anti-Aircraft Missile" index=98 role=def />
+	<badge id=rkt.art label="Rocket Artillery" index=99 role=art />
+	<badge id=mot.rkt.art label="Motorized Rocket Artillery" index=100 role=art />
+	<badge id=svc label="Support Services" index=101 role=passive />
+	<badge id=para.cav.2 label="Parachute Recon" index=102 role=attdef />
+	<badge id=para.inf.2 label="Parachute Infantry" index=103 role=attdef />
+	<badge id=para.2 label="Parachute" index=104 role=attdef />
+	<badge id=hvy.para.inf.2 label="Parachute Heavy Weapons" index=105 role=attdef />
+	<badge id=air.art label="Airlanding Artillery" index=106 role=art />
+	<badge id=okw label="OKW Headquarters" index=107 role=hq />
+	<badge id=star label="Star Headquarters" index=108 role=hq />
+	<badge id=stavka label="STAVKA Headquarters" index=109 role=hq />
+	<badge id=mot.ski label=Aerosleigh index=110 role=attdef />
+	<badge id=hvy.ag label="Heavy Assault Gun" index=111 role=tac />
+	<badge id=air label="Air Command" index=112 role=hq />
+	<badge id=map label="Cartographic" index=113 role=passive />
+	<badge id=post label="Post Office" index=114 role=passive />
+	<badge id=vet label=Veterinary index=115 role=passive />
+	<badge id=ordn label=Ordnance index=116 role=passive />
+	<badge id=admin label="HQ Support" index=117 role=passive />
+	<badge id=hvy.aa label="Heavy Anti-Aircraft" index=118 role=def/>
+	<badge id=inf.rec label="Reconnaissance" index=119 role=tac />
+	<badge id=cav.mgun label="Mounted Machinegun" index=120 role=def/>
+	<badge id=air.bmb label="Bomber" index=121 role=hibomb/>
+	<badge id=air.recon label="Air Reconnaissance" index=122 role=passive/>
+	<badge id=air.dive label="Dive Bomber" index=123 role=lowbomb/>
+	<badge id=air.ftr label="Fighter" index=124 role=fighter/>
+	<badge id=army label="Combined-Arms" index=125 role=attdef />
+	<badge id=df.mort label="Direct-Fire Mortar" index=126 role=attdef />
+	<badge id=df.cav.art label="Direct-Fire Horse Artillery" index=127 role=attdef />
+	<badge id=df.gl.art label="Direct-Fire Glider Artillery" index=128 role=attdef />
+	<badge id=df.para.art label="Direct-Fire Airborne Artillery" index=129 role=attdef />
+	<badge id=df.inf.art label="Direct-Fire Infantry Artillery" index=130 role=attdef />
+	<badge id=df.art label="Direct-Fire Artillery" index=131 role=attdef />
+	<badge id=df.mtn.art label="Direct-Fire Mountain Artillery" index=132 role=attdef />
+	<badge id=jgr label="Light/Jaeger Infantry" index=133 role=attdef />
+	<badge id=gas label="Chemical weapons" index=134 role=passive />
+	<badge id=ordn.2 label="Ordinance" index=135 role=passive />
+	<badge id=quart label="Quartermaster" index=136 role=passive />
+	<badge id=sig.2 label="Signals" index=137 role=passive />
+	<badge id=td label="Tank Destroyer" index=138 role=attdef />
+	<badge id=vet.2 label="Veterinary" index=139 role=passive />
+	<badge id=para.3 label="Parachute Infantry" index=140 role=attdef />
+	<badge id=amph.eng label="Landing Engineers" index=141 role=attdef />
+	<badge id=reserve label="Reserve" index=142 role=attdef />
+	<badge id=training label="Training" index=143 role=attdef />
+	<badge id=res.arm label="Armored Reserve" index=144 role=attdef />
+	<badge id=res.mot label="Motorized Reserve" index=145 role=attdef />
+	<badge id=air.trns label="Air Transport" index=146 role=passive/>
+	<badge id=pow label="Prisoner of War" index=147 role=passive />
+	<badge id=ammo label=Ammunition index=148 role=passive/>
+	<badge id=hrs.veh label="Horse-Drawn Transportation" index=149 role=passive />
+	<badge id=freighter label=Freighter index=150 role=supply />
+	<badge id=sup.train label="Supply Train" index=151 role=supply />
+	<badge id=trp.train label="Troop Train" index=152 role=passive />
+</root>

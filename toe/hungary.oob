@@ -1,0 +1,237 @@
+<OOB combatant=Hungary >
+	<unit name="Higher Commands" colors=Hungarian >
+		<unit army=1 start=1/6/44 />
+		<unit army=2 start=4/10/42 end=4/1/44 />
+		<unit army=2 start=8/23/44 end=11/13/44 />
+		<unit army=3 start=4/6/41 end=6/12/43 />
+		<unit army=3 start=6/12/43 end=5/1/44 />
+		<unit army=3 start=9/10/44 />
+		<unit corps=1 start=8/1/44 >
+			<hq>
+				<unit eng.bn=ind />
+			</>
+			<unit mot.hvy.art.co=I />
+			<unit cav.bn=ind />
+			<unit inf.bn=Budapest />
+		</>
+		<unit corps=2 start=8/30/44 >
+			<hq>
+				<unit eng.bn=52 />
+				<unit aa.co=II />
+			</>
+			<unit mot.hvy.art.co=II />
+		</>
+		<unit corps=3 start=4/10/42 end=4/1/43 >
+			<hq>
+				<unit sig.bn=III />
+				<unit eng.bn=III />
+				<unit aa.bn=III />
+			</>
+			<unit bike.bn=III />
+			<unit hvy.art.bn=III />
+		</>
+		<unit corps=3 start=8/4/44 >
+			<hq>
+				<unit eng.bn=53 />
+				<unit aa.co=III />
+			</>
+			<unit mot.hvy.art.co=III />
+		</>
+		<unit corps=4 start=4/10/42 end=2/1/43 >
+			<hq>
+				<unit sig.bn=IV />
+				<unit eng.bn=IV />
+				<unit aa.bn=IV />
+			</>
+			<unit bike.bn=IV />
+			<unit hvy.art.bn=IV />
+		</>
+		<unit corps=4 start=8/4/44 >
+			<hq>
+				<unit eng.bn=54 />
+				<unit aa.co=IV />
+			</>
+			<unit mot.hvy.art.co=IV />
+		</>
+		<unit corps=5 start=8/4/44 >
+			<hq>
+				<unit eng.bn=55 />
+				<unit aa.co=V />
+			</>
+			<unit mot.hvy.art.co=V />
+		</>
+		<unit corps=6 start=1/6/44 >
+			<hq>
+				<unit eng.bn=56 />
+				<unit aa.co=VI />
+			</>
+			<unit mot.hvy.art.co=VI />
+		</>
+		<unit corps=7 start=4/10/42 end=11/15/44 >
+			<hq>
+				<unit sig.bn=VII end=5/1/43 />
+				<unit eng.bn=VII end=5/1/43 />
+				<unit eng.bn=57 start=5/1/43 />
+				<unit aa.bn=VII end=5/1/43 />
+				<unit aa.co=VII start=5/1/43 />
+			</>
+			<unit bike.bn=VII end=5/1/43 />
+			<unit hvy.art.bn=VII end=5/1/43 />
+			<unit mot.hvy.art.co=VII start=5/1/43 />
+		</>
+		<unit corps=8 start=6/21/41 end=11/1/41 >
+			<hq>
+				<unit sig.bn=VIII />
+				<unit eng.bn=VIII />
+				<unit aa.bn=VIII />
+			</>
+			<unit bike.bn=VIII />
+			<unit hvy.art.bn=VIII />
+		</>
+		<unit corps=8 start=5/1/43 >
+			<hq>
+				<unit eng.bn=58  />
+				<unit aa.co=VIII />
+			</>
+			<unit mot.hvy.art.co=VIII />
+		</>
+		<unit corps=9 start=1/6/44 >
+			<hq>
+				<unit eng.bn=59 />
+				<unit aa.co=IX />
+			</>
+			<unit mot.hvy.art.co=IX />
+		</>
+		<unit uid=mobile name="Mobile" badge=arm size=XXX start=6/27/41 end=11/6/41 >
+			<unit mot.bg=1 />
+			<unit mot.bg=2 />
+			<unit cav.bg=1 />
+			<unit cav.bg=2 />
+		</>
+		<unit uid=hoc name="Hungarian Occupation Command" badge=army size=XXX start=10/6/41 end=2/9/42 >
+			<unit corps.hq=HOC />
+		</>
+		<unit uid=hogw name="Hungarian Occupation Group West" badge=army size=XXX start=2/9/42 end=5/1/43 >
+			<unit corps.hq="HOG West" />
+		</>
+		<unit uid=hoge name="Hungarian Occupation Group East" badge=army size=XXX start=2/9/42 end=5/18/43 >
+			<unit corps.hq="HOG East" />
+		</>
+		<unit name="Szekler Command" uid=szekler badge=inf size=XX start=2/1/43>
+			<unit div.hq=Szekler >
+				<unit sig.bn="X Szekel" />
+				<unit aa.bn="IX Szekel" />
+			</>
+			<unit bdr.bg=9 />
+			<unit cav.co=2 />
+			<unit *art.bn=2 >
+				<unit art.co=35 />
+			</>
+			<unit eng.bn="X Szekel" />
+		</>
+	</>
+	<unit name=Army colors=Hungarian >
+	
+			Note: The Hungarian Army used very confusing numbering for
+			their infantry units.  They began the war as brigades with
+			single-digit unit numbers, but were later renumbered in the
+			100 series and then some were redisignated back to single
+			digit numbering.  This OOB does not try to follow the details
+			but stays with the single-digit numbers.
+			
+			What is given here also should be treated as highly provisional.
+			The Hungarians seem to have attached battalions more or less at
+			random to regimental headquarters during the early parts of the
+			war, and seems to have shifted them over time.
+			
+		<unit *lt.inf.div=1 start=2/17/42 end=5/10/44 >
+			<unit *inf.reg=33 >
+				<unit inf.bn=II/33 />
+				<unit inf.bn=II/37 />
+				<unit march.bn=41 />
+				<unit mort.co=33 />
+			</>
+			<unit *inf.reg=46 >
+				<unit inf.bn=II/40 />
+				<unit inf.bn=III/46 />
+				<unit march.bn=44 />
+				<unit mort.co=46 />
+			</>
+		</>
+		<unit *lt.inf.div=5 start=6/1/43 end=10/1/43 >
+			<unit *inf.reg=32 >
+				<unit inf.bn=II/32 />
+				<unit inf.bn=III/33 />
+				<unit march.bn=? />
+				<unit mort.co=32 />
+			</>
+			<unit *inf.reg=52 >
+				<unit inf.bn=II/52 />
+				<unit march.bn=? />
+				<unit march.bn=? />
+				<unit mort.co=52 />
+			</>
+			<unit cav.co=5 />
+		</>
+		<unit *lt.inf.div=23 start=2/17/42 end=8/10/43 >
+			<unit *inf.reg=21 >
+				<unit inf.bn=III/21 />
+				<unit inf.bn=I/32 />
+				<unit inf.bn=II/32 />
+				<unit mort.co=21 />
+			</>
+			<unit *inf.reg=51 >
+				<unit inf.bn=III/31 />
+				<unit inf.bn=II/54 />
+				<unit inf.bn=III/54 />
+				<unit mort.co=51 />
+			</>
+			<unit art.bn=I/23 />
+			<unit art.bn=II/23 />
+			<unit cav.co=23 />
+		</>
+		<unit *lt.inf.div=18 start=2/17/42 end=8/10/43 >
+			<unit inf.reg=19 />
+			<unit inf.reg=47 />
+			<unit inf.reg=49 />
+			<unit art.bn=I/18 />
+			<unit cav.co=18 />
+		</>
+		<unit *lt.inf.div=102 start=2/17/42 end=7/1/43 >
+			<unit *inf.reg=40 >
+				<unit inf.bn=I/40 />
+				<unit inf.bn=II/42 />
+				<unit inf.bn=III/42 />
+				<unit mort.co=40 />
+			</>
+			<unit *inf.reg=53 >
+				<unit inf.bn=II/43 />
+				<unit inf.bn=III/43 />
+				<unit inf.bn=II/52 />
+				<unit mort.co=53 />
+			</>
+			<unit cav.co=14 />
+		</>
+		<unit *inf.bg=1 start=1/23/39 end=2/17/42 >
+			<unit inf.reg=1 />
+			<unit inf.reg=31 />
+			<unit cav.co=1 />
+			<unit art.bn=I/1 />
+			<unit art.bn=II/1 />
+		</>
+		<unit *inf.bg=2 start=1/23/39 end=10/1/41 >
+			<unit inf.reg=2 />
+			<unit inf.reg=32 />
+			<unit cav.co=2 />
+			<unit art.bn=I/2 />
+			<unit art.bn=II/2 />
+		</>
+		<unit *inf.bg=102 start=10/1/41 end=2/17/42 >
+			<unit inf.reg=2 />
+			<unit inf.reg=32 />
+			<unit cav.co=2 />
+			<unit art.bn=I/2 />
+			<unit art.bn=II/2 />
+		</>
+	</>
+</>

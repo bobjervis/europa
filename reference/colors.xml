@@ -1,0 +1,51 @@
+<colors>
+	<color name=Force1 face=0000ff badge=0 text=0 planFace=8080ff />
+	<color name=Force2 face=ff0000 badge=0 text=0 planFace=ff8080 />
+	<color name=Allies face=ff0000 badge=0 text=0 planFace=ff8080 />
+	<color name=Axis face=0000ff badge=0 text=0 planFace=8080ff />
+
+		-- Axis Colors --
+
+	<color name=Wehrmacht face=c0c0c0 badge=f0f0f0 text=0 
+							planFace=e0e0e0 planBadge=ffffff planText=c0c0c0 />
+	<color name=LW face=c0c0c0 badge=c0f8f0 text=0000ff 
+							planFace=e0e0e0 planBadge=e0f8ff planText=c0c0ff />
+	<color name=KrMar face=c0c0c0 badge=0080e0 text=ffffff
+							planFace=e0e0e0 planBadge=80c0f0 planText=ffffff />
+	<color name=SS face=0 badge=0 text=ffffff 
+							planFace=c0c0c0 planBadge=c0c0c0/>
+	<color name=freiSS face=0 badge=0x00c000 text=ffffff 
+							planFace=c0c0c0 planBadge=c0f0c0/>
+	<color name=cossSS face=0 badge=0xffff80 text=ff0000 
+							planFace=c0c0c0 planBadge=ffffe0 planText=ffc0c0/>
+	<color name=Cossack face=c0c0c0 badge=ffff80 text=ff0000
+							planFace=e0e0e0 planBadge=ffffe0 planText=ffc0c0 />
+	<color name=Finnish face=ffffff badge=ffffff text=0000ff 
+							planText=d0d0ff />
+	<color name=Hungarian face=40c040 badge=60f060 text=0 
+							planFace=80e080 planBadge=a0ffa0/>
+	<color name=Romanian face=4090f0 badge=80c0ff text=0 
+							planFace=80c0ff planBadge=c0e0ff/>
+	<color name=Slovakian face=80f080 badge=ffffff text=0 
+							planFace=c0ffc0 planBadge=ffffff/>
+	<color name=Bulgarian face=00d0d0 badge=00ffff text=0 
+							planFace=80f0f0 planBadge=80ffff/>
+	<color name=Italian face=f7f118 badge=ffffe0 text=a0a000 /> 
+							planFace=fcfac0 planBadge=fffff0/>
+	<color name=Spanish face=30b0f0 badge=60d0f8 text=ffffff 
+							planFace=c0c0ff planBadge=80e0ff/>
+	<color name=Croatian face=50d070 badge=a5e5b5 text=0 planFace=75c292 planBadge=def4df />
+
+		-- Allied Colors --
+
+	<color name=Soviet face=b0a000 badge=f0c080 text=0 
+							planFace=f0c040 planBadge=fff0c0 planText=808080/>
+	<color name=Guards face=d00000 badge=f04040 text=ffff00 
+							planFace=f0c0c0 planBadge=f0c0c0/>
+	<color name=STAVKA face=b0a000 badge=b0a000 text=0
+							planFace=f0c040 planBadge=f0c040 planText=808080/>
+	<color name=NKVD face=e0a000 badge=40b040 text=0 
+							planFace=f0e040 planBadge=80e080/>
+	<color name=Polish face=f7f118 badge=ffffe0 text=0 
+							planFace=fcfac0 planBadge=fffff0/>
+</colors>

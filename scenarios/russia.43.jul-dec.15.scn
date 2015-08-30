@@ -1,0 +1,131 @@
+<Scenario name="Scorched Earth" end=9/1/1943 start=7/5/1943 deployment=../operations/kursk.15.dep >
+
+	<force railcap=1000 colors=Axis name=Axis>
+		<join combatant=Germany/>
+		<join combatant=Italy/>
+		<join combatant=Finland/>
+		<join combatant=Bulgaria/>
+		<join combatant=Slovakia/>
+		<join combatant=Hungary/>
+		<join combatant=Romania/>
+		<join combatant=Croatia/>
+		<victory value=340 level=Major />
+		<victory value=300 level=Minor />
+	</force>
+
+	<force railcap=1000 colors=Allies name=Allies>
+		<join combatant="Soviet Union" />
+		<victory value=365 level=Major />
+		<victory value=325 level=Minor />
+	</force>
+
+
+		- Soviet historical end -
+
+	<objective value=100 place=Moskva/>
+	<objective value=20 place=Kursk/>
+	<objective value=50 place=Kiyev/>
+	<objective value=50 place=Leningrad/>
+	<objective value=20 place=Khar'kov/>
+	<objective value=20 place=Stalino/>
+	<objective value=5 place=Kupyansk/>
+	<objective value=10 place=Smolensk/>
+	<objective value=10 place=Krasnodar/>
+	<objective value=10 place=Murmansk/>
+	<objective value=10 place=Orel/>
+
+		- German historical end -
+
+	<objective value=100 place=Berlin/>
+	<objective value=10 place=Sevastopol'/>
+	<objective value=20 place=Riga/>
+	<objective value=20 place="Krivoy Rog"/>
+	<objective value=10 place=Pskov/>
+	<objective value=20 place=Minsk/>
+	<objective value=50 place=Warszawa/>
+	<objective value=10 place=Helsinki/>
+	<objective value=30 place=Bucuresti/>
+	<objective value=10 place=Narvik/>
+
+	<description><![cdata]
+		This scenario starts July 5, 1943.
+		<p>
+			It covers the entire Russian Front from Murmansk to Sevastopol for the 
+			latter half of the year.  If they're stupid, the Germans can try to 
+			attack at the exact spot they did, or they can scrub the offensive and 
+			regroup for some other effort elsewhere.  If they persist in following 
+			the historical folly, they will be attacking into the teeth of the best
+			defensive position the Red Army ever put together.
+		</p>
+		<p>
+			This scenario really exists for those who want to see what a couple of 
+			frustrating turns can produce when an attack is just not strong enough
+			to prevail.
+		</p>
+		<p>
+			Of course, letting the Germans bloody themselves will make the subsequent
+			Russian offensive come off much more historically.  With an intelligent 
+			German player, the preserved panzer forces become really interesting 
+			instruments to torment the Russian bear.
+		</p>
+		<p>
+			It is still incumbent upon the Soviet player to liberate his country's 
+			soil by whatever means are available.  It is clear that the western 
+			allies will take every advantage if they defeat Germany in France while
+			the Soviets are tied up in Russia.  It is vital to break through and
+			get to Berlin before the west.  The Cold War will be very different if
+			the Soviets fail here.
+		</p>
+		<p>
+			There is even the extreme possibility that Hitler could survive and 
+			negotiate a peace if he managed to exhaust the Soviet Union.  It somehow
+			doesn't seem like that was a very likely outcome.  The British and Americans
+			were already in Tunisia at this point, and during the fall campaign
+			landed in Italy and took Naples.
+		</p>
+		<p>
+			It was only a matter of time (one year) before Eisenhower would land in France.
+			German defensive success in 1943 might have meant greater success in Normandy.
+			It is more likely that it would have meant that the drain in blood of the Eastern
+			Front would have continued into 1944.  The difference would have been perhaps
+			fewer casualties, which would mean even greater success in 1944 in the east.
+			The drain to the west would have perhaps been a little greater, since they could
+			have afforded the reserves better.
+		</p>
+		<p>
+			It's impossible to know what the results would have been.  My guess is that
+			the drain in blood would have continued and the German army might have cracked
+			in late 1944.  It would have meant that the Americans would have reached the
+			Rhine in early 1945, maybe as late as April.  The Russians could have been in
+			Warsaw around the same time.  It's anyone's guess whether Berlin would have gone 
+			to the Russians or to the Americans, but it seems likely that the German Reich would
+			have done everything in their power to let the Americans take it first.
+		</p>
+		<p>
+			I think the German player would need a stupendous victory, absolutely stopping
+			the Red's in their tracks, in order for the tide to have turned back again.  Anything 
+			less and the war still would end with total German defeat.  Given the steadily 
+			rising tide of opposition, Nazi Germany's days were numbered really starting in
+			1939.  
+		</p>
+	]]>
+	</description>
+	<combatant name=Germany>
+	</combatant>
+	<combatant name=Finland>
+	</combatant>
+	<combatant name="Soviet Union">
+	</combatant>
+	<combatant name=Bulgaria>
+	</combatant>
+	<combatant name=Romania>
+	</combatant>
+	<combatant name=Hungary>
+	</combatant>
+	<combatant name=Spain>
+	</combatant>
+	<combatant name=Italy>
+	</combatant>
+	<combatant name=Slovakia>
+	</combatant>
+</Scenario>

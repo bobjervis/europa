@@ -1,0 +1,3632 @@
+<Scenario map=russia5.Xmp hex=5 start=7/5/1943 end=8/24/1943 strengthScale=100 name="s43.7.2: The Battle of Kursk" xminSize="I I" x=366 y=388 width=120 height=100>
+
+		- Initial Alliances -
+
+	<force railcap=1000 colors=Axis name=Axis>
+		<join combatant=Germany/>
+		<join combatant=Italy/>
+		<join combatant=Finland/>
+		<join combatant=Bulgaria/>
+		<join combatant=Slovakia/>
+		<join combatant=Hungary/>
+		<join combatant=Romania/>
+		<join combatant=Croatia/>
+		<victory value=340 level=Major />
+		<victory value=300 level=Minor />
+	</force>
+
+	<force railcap=1000 colors=Allies name=Allies>
+		<join combatant="Soviet Union" />
+		<victory value=365 level=Major />
+		<victory value=325 level=Minor />
+	</force>
+
+		- Soviet historical end -
+
+	<objective place=Kursk value=20/>
+	<objective place=Khar'kov value=20/>
+	<objective place=Kupyansk value=5/>
+	<objective place=Orel value=10/>
+
+		- German historical end -
+
+	<description>
+		This scenario starts July 5, 1943.
+		<p>
+			It covers the entire Russian Front from Murmansk to Sevastopol for the 
+			latter half of the year.  If they're stupid, the Germans can try to 
+			attack at the exact spot they did, or they can scrub the offensive and 
+			regroup for some other effort elsewhere.  If they persist in following 
+			the historical folly, they will be attacking into the teeth of the best
+			defensive position the Red Army ever put together.
+		</p>
+		<p>
+			This scenario really exists for those who want to see what a couple of 
+			frustrating turns can produce when an attack is just not strong enough
+			to prevail.
+		</p>
+		<p>
+			Of course, letting the Germans bloody themselves will make the subsequent
+			Russian offensive come off much more historically.  With an intelligent 
+			German player, the preserved panzer forces become really interesting 
+			instruments to torment the Russian bear.
+		</p>
+		<p>
+			It is still incumbent upon the Soviet player to liberate his country's 
+			soil by whatever means are available.  It is clear that the western 
+			allies will take every advantage if they defeat Germany in France while
+			the Soviets are tied up in Russia.  It is vital to break through and
+			get to Berlin before the west.  The Cold War will be very different if
+			the Soviets fail here.
+		</p>
+		<p>
+			There is even the extreme possibility that Hitler could survive and 
+			negotiate a peace if he managed to exhaust the Soviet Union.  It somehow
+			doesn't seem like that was a very likely outcome.  The British and Americans
+			were already in Tunisia at this point, and during the fall campaign
+			landed in Italy and took Naples.
+		</p>
+		<p>
+			It was only a matter of time (one year) before Eisenhower would land in France.
+			German defensive success in 1943 might have meant greater success in Normandy.
+			It is more likely that it would have meant that the drain in blood of the Eastern
+			Front would have continued into 1944.  The difference would have been perhaps
+			fewer casualties, which would mean even greater success in 1944 in the east.
+			The drain to the west would have perhaps been a little greater, since they could
+			have afforded the reserves better.
+		</p>
+		<p>
+			It's impossible to know what the results would have been.  My guess is that
+			the drain in blood would have continued and the German army might have cracked
+			in late 1944.  It would have meant that the Americans would have reached the
+			Rhine in early 1945, maybe as late as April.  The Russians would have been in
+			Warsaw around the same time.  It's anyone's guess whether Berlin would have gone 
+			to the Russians or to the Americans, but it seems likely that the German Reich would
+			have done everything in their power to let the Americans take it first.
+		</p>
+		<p>
+			I think the German player would need a stupendous victory, absolutely stopping
+			the Red's in their tracks, in order for the tide to have turned back again.  Anything 
+			less and the war still would end with total German defeat.  Given the steadily 
+			rising tide of opposition, Nazi Germany's days were numbered really starting in
+			1939.  
+		</p>
+	</description>
+	<force name=Axis colors=Axis railcap=1000>
+		<combatant name=Germany colors=Wehrmacht skill=.3>
+			<replacements level=1%/>
+			<unit name=OKW commander=Hitler size=GHQ tip=100>
+				<unit name="OKW HQ" abbreviation=OKW toe=okw mode=command visibility=1 x=0 y=3/>
+				<unit name=OKH fills=10 size=XXXXXX>
+					<unit name="Army Group Center" commander="von Kluge" badge=army size=XXXXX>
+						<unit des="AG Center" abbreviation=C toe=ger.ag.hq mode=command visibility=3>
+							<unit des=18 toe=ger.flak.div>
+								<unit des=6 toe=ger.flak.reg>
+									<unit des=I/141 toe=ger.flak.bn/>
+									<unit des=II/441 toe=ger.flak.bn/>
+									<unit des=741 toe=ger.flak.bn/>
+									<unit des=841 toe=ger.flak.bn/>
+								</unit>
+								<unit des=74 toe=ger.flak.bn/>
+								<unit des=93 toe=ger.flak.bn/>
+							</unit>
+							<unit des=12 toe=ger.flak.div>
+								<unit des=21 toe=ger.flak.reg>
+								</unit>
+								<unit des=34 toe=ger.flak.reg>
+								</unit>
+								<unit des=35 toe=ger.flak.reg>
+								</unit>
+								<unit des=101 toe=ger.flak.reg>
+								</unit>
+								<unit des=133 toe=ger.flak.reg>
+									<unit des=II/23 toe=ger.flak.bn/>
+								</unit>
+								<unit des=II/26 toe=ger.flak.bn/>
+								<unit des=I/52 toe=ger.flak.bn/>
+							</unit>
+							<unit des=10 toe=ger.flak.bg>
+							</unit>
+							<unit des=I/22 toe=ger.flak.bn/>
+							<unit des=I/29 toe=ger.flak.bn/>
+							<unit des=I/36 toe=ger.flak.bn/>
+							<unit des=II/49 toe=ger.flak.bn/>
+							<unit des=71 toe=ger.flak.bn/>
+						</unit>
+						<unit name=2nd badge=army size=XXXX>
+							<unit des=2 toe=ger.army.hq mode=command visibility=6>
+								<unit des=10 toe=ger.flak.div>
+									<unit des=124 toe=ger.flak.reg>
+										<unit des=142 toe=ger.flak.bn/>
+										<unit des=84 toe=ger.flak.bn/>
+									</unit>
+								</unit>
+								<unit des=156 toe=ger.bridge.bn/>
+								<unit des=162 toe=ger.bridge.bn/>
+								<unit des=168 toe=ger.bridge.bn/>
+								<unit des=175 toe=ger.bridge.bn/>
+								<unit des=198 toe=ger.bridge.bn/>
+								<unit des=33 toe=ger.bridge.bn/>
+								<unit des=34 toe=ger.bridge.bn/>
+								<unit des=442 toe=ger.bridge.bn/>
+								<unit des=534 toe=ger.bridge.bn/>
+								<unit des=3/62 toe=ger.bridge.co/>
+								<unit des=660 toe=ger.bridge.bn/>
+								<unit des=664 toe=ger.bridge.bn/>
+								<unit des=672 toe=ger.bridge.bn/>
+								<unit des=Auffr. toe=ger.bridge.bn/>
+								<unit des=221 toe=ger.eng.bn note="Partial only"/>
+							</unit>
+							<unit name=XIII badge=inf size=XXX>
+								<unit des=13 toe=ger.corps.hq mode=command>
+									<unit des=39 toe=ger.bridge.bn/>
+									<unit des=742 toe=ger.eng.bn note="Partial equipment"/>
+								</unit>
+								<unit des=327 toe=ger.inf.div.39 note="only 3 art abt" mode=defend>
+									<unit des=855 toe=ger.art.bn/>
+								</unit>
+								<unit des=340 toe=ger.inf.div.39 mode=defend>
+									<unit des=625 toe=ger.fh150.co/>
+									<xunit des=377 toe=ger.inf.div.39 note="remnants att to 340ID"/>
+								</unit>
+								<unit des=82 toe=ger.inf.div.39 mode=defend>
+									<unit des=I/252 toe=ger.art.bn/>
+								</unit>
+							</unit>
+							<unit name=VII badge=inf size=XXX>
+								<unit des=7 toe=ger.corps.hq mode=command>
+									<unit des=98 toe=ger.bridge.bn/>
+									<unit des=215 toe=ger.eng.bn/>
+								</unit>
+								<unit des=26 toe=ger.wave1.inf.div note="only 3 art abt" mode=rest>
+									<unit des=II/43 toe=ger.hvy.art.bn note="4 100mm K 18/6 150mm sFH18"/>
+								</unit>
+								<unit des=68 toe=ger.wave2.inf.div mode=defend/>
+								<unit des=75 toe=ger.wave2.inf.div mode=defend>
+									<unit des=16 toe=ger.at.bn/>
+								</unit>
+								<unit des=88 toe=ger.inf.div.39 note="only 3 art abt" mode=defend/>
+								<unit des=202 toe=ger.stug.bn mode=rest/>
+							</unit>
+							<unit des=202 toe=ger.at.bn mode=rest/>
+							<unit des=559 toe=ger.at.bn mode=rest/>
+							<unit des=616 toe=ger.at.bn mode=rest/>
+							<unit des=201 toe=ger.stug.bn mode=rest/>
+						</unit>
+						<unit name="2nd Panzer" badge=arm size=XXXX tip=300>
+							<unit des="2nd Panzer" abbreviation=2Pz toe=ger.army.hq mode=defend visibility=6 x=24 y=19>
+								<unit des=I/11 toe=ger.flak.bn/>
+								<unit des=94 toe=ger.flak.bn/>
+							</unit>
+							<unit name=XXXV badge=inf size=XXX>
+								<unit des=35 toe=ger.corps.hq mode=command x=57 y=20/>
+								<unit des=262 toe=ger.wave4.inf.div mode=defend x=67 y=22/>
+								<unit des=299 toe=ger.inf.div.39 mode=defend x=60 y=18/>
+								<unit des=34 toe=ger.wave1.inf.div note="only 3 art abt" mode=defend x=57 y=14/>
+								<unit des=56 toe=ger.wave2.inf.div mode=defend x=65 y=26/>
+							</unit>
+							<unit name=LIII badge=inf size=XXX>
+								<unit des=53 toe=ger.corps.hq mode=defend x=43 y=11/>
+								<unit des=208 toe=ger.wave3.inf.div mode=defend x=51 y=11/>
+								<unit des=211 toe=ger.wave3.inf.div mode=defend x=46 y=11/>
+								<unit des=25 toe=ger.pg.div mode=defend x=46 y=14/>
+								<unit des=293 toe=ger.inf.div.39 mode=defend x=40 y=7/>
+							</unit>
+							<unit name=LV badge=inf size=XXX>
+								<unit des=55 toe=ger.corps.hq mode=defend x=30 y=8/>
+								<unit name="110th Infantry" badge=inf size=XX>
+									<unit des=110 toe=ger.div.hq x=27 y=5 mode=command/>
+									<unit des=252 toe=ger.inf.44.reg x=29 y=4 mode=defend/>
+									<unit des=254 toe=ger.inf.44.reg x=30 y=5 mode=defend/>
+									<unit des=255 toe=ger.inf.44.reg x=27 y=4 mode=defend/>
+									<unit des=120 toe=ger.art.reg x=29 y=5 mode=defend/>
+									<unit des=110 toe=ger.divs.bn x=26 y=5 mode=defend/>
+									<unit des=110 toe=ger.eng.bn x=28 y=6 mode=defend/>
+								</unit>
+								<unit name="134th Infantry" badge=inf size=XX>
+									<unit des=134 toe=ger.div.hq x=39 y=8 mode=command/>
+									<unit des=439 toe=ger.inf.reg x=37 y=7 mode=defend/>
+									<unit des=445 toe=ger.inf.reg x=38 y=7 mode=defend/>
+									<unit des=446 toe=ger.inf.reg x=39 y=9 mode=defend/>
+									<unit des=134 toe=ger.art.reg x=38 y=8 mode=defend/>
+									<unit des=134 toe=ger.divs.bn x=36 y=9 mode=defend/>
+									<unit des=134 toe=ger.eng.bn x=37 y=8 mode=defend/>
+								</unit>
+								<unit name="296th Infantry" badge=inf size=XX>
+									<unit des=296 toe=ger.div.hq x=32 y=8 mode=command/>
+									<unit des=519 toe=ger.inf.44.reg x=35 y=5 mode=defend/>
+									<unit des=520 toe=ger.inf.44.reg x=31 y=5 mode=defend/>
+									<unit des=521 toe=ger.inf.reg x=33 y=5 mode=defend/>
+									<unit des=296 toe=ger.art.reg x=33 y=6 mode=defend/>
+									<unit des=296 toe=ger.at.bn x=31 y=5 mode=defend/>
+									<unit des=296 toe=ger.eng.bn x=32 y=7 mode=defend/>
+								</unit>
+								<unit name="339th Infantry" badge=inf size=XX>
+									<unit des=339 toe=ger.div.hq x=21 y=3 mode=command/>
+									<unit des=691 toe=ger.inf.44.reg x=23 y=2 mode=defend/>
+									<unit des=692 toe=ger.inf.44.reg x=21 y=0 mode=defend/>
+									<unit des=693 toe=ger.inf.44.reg x=25 y=3 mode=defend/>
+									<unit name="339th Artillery" badge=art size="I I I" x=22 y=3 mode=defend>
+										<unit des=339 toe=ger.art.reg.hq>
+											<unit des=339 toe=ger.art.sup.co/>
+										</unit>
+										<unit des=I/339 toe=ger.art.bn/>
+										<unit des=II/339 toe=ger.art.bn/>
+									</unit>
+									<unit des=339 toe=ger.at.bn x=25 y=3 mode=defend/>
+									<unit des=339 toe=ger.eng.bn x=23 y=4 mode=defend/>
+								</unit>
+							</unit>
+							<unit des=112 toe=ger.inf.div.39 mode=rest x=46 y=21/>
+							<unit des=707 toe=ger.stat.div mode=rest x=15 y=13/>
+							<unit des=8 toe=ger.jgr.bn mode=rest x=26 y=16/>
+							<unit des=II/57 toe=ger.kan105.bn mode=rest x=24 y=18/>
+						</unit>
+						<unit name=9th badge=army size=XXXX>
+							<unit des=9 toe=ger.army.hq mode=command visibility=6 x=53 y=25>
+								<unit des=1/430 toe=ger.bridge.co/>
+								<unit des=535 toe=ger.bridge.bn/>
+								<unit des=654 toe=ger.eng.bn/>
+								<unit des=751 toe=ger.eng.bn/>
+							</unit>
+							<unit name=XX size=XXX badge=inf>
+								<unit des=20 toe=ger.corps.hq mode=command>
+									<unit des=512 toe=ger.eng.bn/>
+									<unit des=750 toe=ger.eng.bn/>
+									<unit des=626 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=137 toe=ger.inf.div.39 note=2IR mode=defend/>
+								<unit des=251 toe=ger.wave4.inf.div mode=defend>
+									<unit des=I/99 toe=ger.art.bn/>
+								</unit>
+								<unit des=45 toe=ger.wave1.inf.div note="only 3 art abt" mode=defend>
+									<unit des=860 toe=ger.mot.art.bn note="12 105mm IFH18;motorized"/>
+								</unit>
+								<unit des=72 toe=ger.inf.div.39 mode=defend/>
+							</unit>
+							<unit name=XXIII badge=inf size=XXX>
+								<unit des=23 toe=ger.corps.hq mode=command x=58 y=26>
+									<unit des=746 toe=ger.eng.bn/>
+									<unit des="85th Mountain" toe=ger.eng.bn/>
+									<unit des=88 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=216 toe=ger.wave3.inf.div note=2IR mode=defend x=59 y=35/>
+								<unit des=383 toe=ger.inf.div.39 mode=defend x=63 y=30/>
+								<unit des=78 toe=ger.sturm.div mode=attack x=57 y=36>
+									<unit des=185 toe=ger.stug.bn/>
+									<unit des=189 toe=ger.stug.bn/>
+									<unit des=1/653 toe=ger.fh150.co/>
+									<unit des=2/653 toe=ger.fh150.co/>
+									<unit des=1/817 toe=ger.kan170.co/>
+									<unit des=4/69 toe=ger.art.co/>
+									<unit des=422 toe=ger.mot.art.bn/>
+									<unit des=426 toe=ger.art.bn/>
+									<unit des=709 toe=ger.art.bn note="100mm K18"/>
+									<unit des=848 toe=ger.hvy.art.bn/>
+									<unit des=851 toe=ger.art.bn note="122mm Russian guns"/>
+									<unit des=859 toe=ger.hvy.art.bn note=210mm/>
+									<unit des=II/59 toe=ger.mot.art.bn/>
+									<unit des=II/66 toe=ger.hvy.art.bn/>
+								</unit>
+							</unit>
+							<unit name="XLI Panzer" size=XXX badge=arm>
+								<unit des=41 abbreviation=41p toe=ger.pz.corps.hq mode=command x=58 y=34>
+									<unit des=42 toe=ger.eng.bn/>
+									<unit des=2/409 toe=ger.bridge.co/>
+									<unit des=606 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=18 toe=ger.nas.pz.div mode=attack x=55 y=35>
+								</unit>
+								<unit des=292 toe=ger.inf.div.39 mode=attack x=55 y=37>
+								</unit>
+								<unit des=244 toe=ger.stug.bn mode=attack x=55 y=37/>
+								<unit des=2/620 toe=ger.150k18.co mode=attack x=55 y=36/>
+								<unit des=425 toe=ger.art.bn note="105mm iFH18" mode=attack x=55 y=36/>
+								<unit des=616 toe=ger.art.bn note="105mm iFH18" mode=attack x=55 y=36/>
+								<unit des=86 toe=ger.wave2.inf.div mode=attack x=56 y=37>
+								</unit>
+								<unit des=216 toe=ger.brummbar.bn note="150mm Brummbar StmPz (67) / Kp. 312,313,314 - pz III/StuG III" mode=attack x=56 y=37/>
+								<unit des=177 toe=ger.stug.bn mode=attack x=56 y=37/>
+								<unit des=427 toe=ger.art.bn note="105mm iFH18" mode=attack x=56 y=36/>
+								<unit des=604 toe=ger.hvy.art.bn note=210mm mode=attack x=56 y=35/>
+								<unit des=II/61 toe=ger.hvy.art1.bn mode=attack x=55 y=35/>
+								<unit des=II/64 toe=ger.mot.art.bn mode=attack x=56 y=36/>
+								<unit name="21st Panzer" size=X badge=arm mode=rest>
+									<unit des=909 toe=ger.stug.bn x=53 y=36 mode=attack/>
+									<unit des=505 toe=ger.hvy.pz.bn note="2cos to start, 3rd on 8.7" x=54 y=37 mode=attack/>
+								</unit>
+								<unit name="656th Schwere Panzer Jaeger" size="I I I" badge=hvy.arm.at>
+									<unit des=653 toe=ger.ele.bn mode=attack x=55 y=36/>
+									<unit des=654 toe=ger.ele.bn mode=attack x=55 y=36/>
+								</unit>
+							</unit>
+							<unit name="XLVI Panzer" size=XXX badge=arm>
+								<unit des=46 abbreviation=46p toe=ger.pz.corps.hq mode=command x=48 y=31>
+									<unit des=443 toe=ger.eng.bn/>
+									<unit des=29 toe=ger.bridge.bn/>
+									<unit des=752 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=102 toe=ger.inf.div.39 mode=defend x=43 y=35/>
+								<unit des=258 toe=ger.wave4.inf.div mode=defend x=49 y=37/>
+								<unit des=31 toe=ger.wave1.inf.div note="only 3 art abt" mode=defend x=52 y=37>
+									<unit des=3/637 toe=ger.kan210.co/>
+									<unit des=430 toe=ger.mot.art.bn note="105mm IFH18; motorized"/>
+									<unit des=611 toe=ger.hvy.art.bn note="100mm K18; motorized"/>
+								</unit>
+								<unit des=7 toe=ger.wave1.inf.div note="only 3 art abt" mode=defend x=51 y=37>
+									<unit des=18 toe=ger.rocket.reg note="12 launchers"/>
+									<unit des=3/620 toe=ger.150k18.co/>
+									<unit des=433 toe=ger.art.bn note="105mm IFH18"/>
+									<unit des=I/67 toe=ger.art.bn/>
+									<unit des=II/47 toe=ger.hvy.art.bn note="150mm sFH"/>
+								</unit>
+								<unit name="Gruppe von Manteuffel" abbreviation=GM size=X badge=inf mode=defend x=47 y=36>
+									<unit des=9 toe=ger.jgr.bn/>
+									<unit des=10 toe=ger.jgr.bn/>
+									<unit des=11 toe=ger.jgr.bn/>
+								</unit>
+							</unit>
+							<unit name="XLVII Panzer" size=XXX badge=arm>
+								<unit des=47 abbreviation=47p toe=ger.pz.corps.hq mode=command x=54 y=34>
+									<unit des="2nd Lehr" toe=ger.eng.bn/>
+									<unit des=47 toe=ger.eng.bn/>
+									<unit des=2/420 toe=ger.bridge.co/>
+									<unit des=47 toe=ger.bridge.bn/>
+									<unit des=845 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=2 toe=ger.pz.div mode=attack x=53 y=35>
+								</unit>
+								<unit des=20 toe=ger.pz.div mode=attack x=53 y=37>
+									<unit des=245 toe=ger.stug.bn/>
+									<unit des=2/637 toe=ger.kan210.co/>
+									<unit des=2 toe=ger.rocket.reg/>
+									<unit des=1/637 toe=ger.kan210.co/>
+								</unit>
+								<unit des=4 toe=ger.pz.div mode=rest x=54 y=33>
+								</unit>
+								<unit des=6 toe=ger.wave1.inf.div note="only 3 art abt" mode=attack x=54 y=37>
+									<unit des=904 toe=ger.stug.bn/>
+									<unit des=1/620 toe=ger.150k18.co/>
+									<unit des=II/63 toe=ger.hvy.art.bn note="150mm sFH"/>
+									<unit des=I/42 toe=ger.art.bn/>
+								</unit>
+								<unit des=9 toe=ger.pz.div mode=attack x=54 y=36>
+								</unit>
+							</unit>
+							<unit des=10 toe=ger.pg.div mode=rest x=53 y=34/>
+							<unit des=12 toe=ger.pz.div mode=rest x=55 y=34/>
+							<unit des=13 toe=ger.jgr.bn mode=rest x=51 y=26/>
+							<unit des=18 toe=ger.mort.bn mode=rest x=52 y=30/>
+						</unit>
+						<unit name="8th Hungarian" badge=inf size=XXX country=Hungary colors=Hungarian>
+							<unit des=8 toe=hun.corps.hq country=Hungary mode=command/>
+							<unit des=1 country=Hungary toe=hun.lt.inf.div mode=security/>
+							<unit des=2 country=Hungary toe=hun.lt.inf.div mode=security/>
+							<unit des=5 country=Hungary toe=hun.lt.inf.div mode=security/>
+							<unit des=8 country=Hungary toe=hun.lt.inf.div mode=security/>
+							<unit des=201 country=Hungary toe=hun.lt.inf.div mode=security/>
+						</unit>
+						<unit des=36 toe=ger.wave1.inf.div mode=rest/>
+						<unit des=5 toe=ger.pz.div mode=rest/>
+						<unit des=8 toe=ger.pz.div mode=rest x=13 y=14/>
+						<unit des=83 toe=ger.inf.div.39 mode=rest/>
+						<unit des=203 toe=ger.sec.div note="No art+2IR" mode=security/>
+						<unit des=221 toe=ger.sec.div note="2IR+1 Art" mode=security/>
+						<unit des=286 toe=ger.sec.div mode=security/>
+						<unit des=270 toe=ger.stug.bn mode=rest x=47 y=25/>
+						<unit des=II/213 toe=ger.art.bn mode=rest/>
+						<unit des=7 abbreviation=7c toe=ger.cossack.reg mode=security/>
+						<unit des=1 toe=ger.rail.eng.reg mode=rest/>
+						<unit des=139 toe=ger.rail.eng.bn mode=rest/>
+						<unit des=23 toe=ger.flak.div when=10/10/1943 mode=security/>
+						<unit des=1 toe=ger.ski.bg when=12/1/1943 mode=rest/>
+					</unit>
+					<unit name="Army Group South" badge=army size=XXXXX>
+						<unit des="AG South" abbreviation=S toe=ger.ag.hq mode=command visibility=3>
+							<unit des=50 toe=ger.eng.bn/>
+						</unit>
+						<unit name="1st Panzer" badge=arm size=XXXX>
+							<unit des="1st Panzer" abbreviation=1Pz toe=ger.army.hq mode=command visibility=6/>
+							<unit name="XXIV Panzer" size=XXX badge=arm>
+								<unit des=24 abbreviation=24p toe=ger.pz.corps.hq mode=command/>
+								<unit des=17 toe=ger.pz.div mode=rest/>
+								<unit des=23 toe=ger.pz.div mode=rest/>
+								<unit des="SS Wiking" abbreviation=Wik toe=ger.ss.pg.div mode=rest/>
+							</unit>
+							<unit name=XXX size=XXX badge=inf>
+								<unit des=30 toe=ger.corps.hq mode=command/>
+								<unit des=38 toe=ger.sm.inf.div mode=defend>
+									<unit des=II/140 toe=ger.mot.art.bn/>
+								</unit>
+								<unit des=387 toe=ger.inf.div.39 mode=defend/>
+								<unit des=62 toe=ger.wave2.inf.div mode=defend/>
+							</unit>
+							<unit name="XL Panzer" size=XXX badge=arm>
+								<unit des=40 abbreviation=40p toe=ger.pz.corps.hq mode=command/>
+								<unit des=257 toe=ger.wave4.inf.div mode=defend/>
+								<unit des=333 toe=ger.inf.div.39 note="only 3 art abt" mode=defend/>
+								<unit des=46 toe=ger.wave1.inf.div note="only 3 art abt" mode=defend/>
+							</unit>
+							<unit name="LVII Panzer" size=XXX badge=arm>
+								<unit des=57 abbreviation=57p toe=ger.pz.corps.hq mode=command/>
+								<unit des=15 toe=ger.wave1.inf.div note="only 3 art abt" mode=defend/>
+								<unit des=198 toe=ger.inf.div.39 note="only 3 art abt" mode=defend>
+									<unit des=II/52 toe=ger.hvy.art1.bn/>
+								</unit>
+								<unit des=328 toe=ger.inf.div.39 note="only 2 art abt" mode=defend/>
+							</unit>
+							<unit des=209 toe=ger.stug.bn mode=rest/>
+							<unit des=203 toe=ger.stug.bn mode=rest/>
+							<unit des=232 toe=ger.stug.bn mode=rest/>
+							<unit des=II/70 toe=ger.hvy.art1.bn mode=rest/>
+							<unit des=I/84 toe=ger.kan240.bn mode=rest/>
+							<unit des=I/127 toe=ger.mot.art.bn mode=rest/>
+						</unit>
+						<unit name="4th Panzer" badge=arm size=XXXX>
+							<unit des="4th Panzer" abbreviation=4Pz toe=ger.army.hq mode=command visibility=6>
+								<unit des=2/413 toe=ger.bridge.co/>
+								<unit des=671 toe=ger.bridge.bn/>
+							</unit>
+							<unit name="II SS Panzer" abbreviation="II SS Pz" size=XXX badge=arm colors=SS>
+								<unit des="II SS" abbreviation=2SS toe=ger.pz.corps.hq mode=rest>
+									<unit des="II/1st Lehr" toe=ger.rocket.bn colors=Wehrmacht/>
+									<unit des=III/818 toe=ger.art.bn colors=Wehrmacht/>
+									<unit des=627 toe=ger.mot.eng.bn colors=Wehrmacht/>
+									<unit des=666 toe=ger.mot.eng.bn colors=Wehrmacht/>
+									<unit des=11 toe=ger.bridge.bn colors=Wehrmacht/>
+									<unit des=2/41 toe=ger.bridge.co colors=Wehrmacht/>
+									<unit des=21 toe=ger.bridge.bn colors=Wehrmacht/>
+									<unit des=31 toe=ger.bridge.bn colors=Wehrmacht/>
+									<unit des=573 toe=ger.bridge.bn colors=Wehrmacht/>
+									<unit des=840 toe=ger.bridge.bn colors=Wehrmacht/>
+								</unit>
+								<unit des="SS LAH" abbreviation=AH toe=ger.ss.pg.div mode=attack>
+									<unit des=861 toe=ger.art.bn colors=Wehrmacht/>
+									<unit des=55 toe=ger.rocket.reg colors=Wehrmacht/>
+								</unit>
+								<unit des="SS Das Reich" abbreviation=DR toe=ger.ss.pg.div mode=attack>
+									<unit des="III/1st Lehr" toe=ger.rocket.bn/>
+								</unit>
+								<unit des="SS Totenkopf" abbreviation=Tot toe=ger.ss.pg.div mode=attack>
+									<unit des="SS Corps" toe=ger.rocket.bn/>
+								</unit>
+							</unit>
+							<unit name="XLVIII Panzer" size=XXX badge=arm>
+								<unit des=48 abbreviation=48p toe=ger.pz.corps.hq mode=command>
+									<unit des=101 toe=ger.hummel.bn/>
+									<unit des=842 toe=ger.hvy.art.bn note="100 mm guns"/>
+									<unit des=I/108 toe=ger.mot.art.bn/>
+									<unit des=616 toe=ger.flak.bn/>
+									<unit des="1st Lehr" toe=ger.mot.eng.bn/>
+									<unit des=48 toe=ger.mot.eng.bn/>
+									<unit des=22 toe=ger.bridge.bn/>
+									<unit des=609 toe=ger.bridge.bn/>
+									<unit des=639 toe=ger.bridge.bn/>
+									<unit des=640 toe=ger.bridge.bn/>
+									<unit des=641 toe=ger.bridge.bn/>
+									<unit des=642 toe=ger.bridge.bn/>
+									<unit des=643 toe=ger.bridge.bn/>
+									<unit des=644 toe=ger.bridge.bn/>
+									<unit des=645 toe=ger.bridge.bn/>
+									<unit des=646 toe=ger.bridge.bn/>
+									<unit des=647 toe=ger.bridge.bn/>
+									<unit des=648 toe=ger.bridge.bn/>
+									<unit des=649 toe=ger.bridge.bn/>
+									<unit des=676 toe=ger.bridge.bn/>
+									<unit des=841 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=11 toe=ger.pz.div note="Half strength at start, 13 FlammPz" mode=attack/>
+								<unit des=167 toe=ger.inf.div.39 mode=attack>
+									<unit des="I/1st Lehr" toe=ger.rocket.bn/>
+								</unit>
+								<unit des=3 toe=ger.pz.div note="Half strength at start" mode=attack/>
+								<xunit src=3p note="Half strength at start" mode=attack/>
+								<unit des=Grossdeutschland abbreviation=GD toe=ger.gd.pg.div note="163 tanks, 35 AG at start, 4 art abt" mode=attack>
+								</unit>
+								<unit name="10th Panzer" size=X badge=arm mode=rest>
+									<unit name="39th Panzer" toe=ger.mot.reg.hq/>
+									<unit des=51 toe=ger.panther.bn/>
+									<unit des=52 toe=ger.panther.bn/>
+								</unit>
+								<unit des=911 toe=ger.stug.bn mode=rest/>
+							</unit>
+							<unit name=LII size=XXX badge=inf>
+								<unit des=52 toe=ger.corps.hq mode=command>
+									<unit des=74 toe=ger.eng.bn/>
+									<unit des=23 toe=ger.bridge.bn/>
+									<unit des=80 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=255 toe=ger.wave4.inf.div note=2IR mode=defend/>
+								<unit des=332 toe=ger.inf.div.39 mode=attack>
+									<unit des=I/1 toe=ger.rocket.bn/>
+									<unit des=III/1 toe=ger.rocket.bn/>
+									<unit des=III/109 toe=ger.kan210.bn/>
+									<unit des=3/731 toe=ger.fh150.co/>
+								</unit>
+								<unit des=57 toe=ger.wave2.inf.div mode=defend/>
+							</unit>
+							<unit des=249 toe=ger.stug.bn mode=rest/>
+						</unit>
+						<unit name="Detachment Kempf" specialName= badge=army size=XXXX>
+							<unit des="Det. Kempf" abbreviation=K toe=ger.army.hq mode=command visibility=6>
+								<unit des=603 toe=ger.bridge.bn/>
+							</unit>
+							<unit name="III Panzer" abbreviation="III Pz" size=XXX badge=arm>
+								<unit des=3 abbreviation=3p toe=ger.pz.corps.hq mode=command>
+									<unit des=857 toe=ger.hvy.art.bn note="21cm Mtr"/>
+									<unit des=II/62 toe=ger.kan105.bn/>
+									<unit des=II/71 toe=ger.hvy.art1.bn/>
+									<unit des=153 toe=ger.flak.reg>
+										<unit des=I/61 toe=ger.flak.bn/>
+										<unit des=II/43 toe=ger.flak.bn/>
+									</unit>
+									<unit des=99 toe=ger.flak.reg>
+										<unit des=I/38 toe=ger.flak.bn/>
+										<unit des=II/38 toe=ger.flak.bn/>
+									</unit>
+									<unit des=91 toe=ger.flak.bn/>
+									<unit des=127 toe=ger.eng.bn note="1 co det."/>
+									<unit des=601 toe=ger.eng.bn/>
+									<unit des=651 toe=ger.eng.bn/>
+									<unit des=674 toe=ger.eng.bn/>
+									<unit des=70 toe=ger.eng.bn/>
+									<unit des=1/505 toe=ger.bridge.co/>
+									<unit des=110 toe=ger.bridge.bn/>
+									<unit des=2/411 toe=ger.bridge.co/>
+									<unit des="2nd S" toe=ger.bridge.bn/>
+									<unit des=602 toe=ger.bridge.bn/>
+									<unit des=842 toe=ger.bridge.bn/>
+									<unit des=843 toe=ger.bridge.bn/>
+									<unit des=9 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=168 toe=ger.inf.div.39 mode=attack/>
+								<unit des=19 toe=ger.pz.div mode=attack>
+									<unit des=I/54 toe=ger.rocket.bn/>
+									<unit des=II/54 toe=ger.rocket.bn/>
+								</unit>
+								<unit des=6 toe=ger.pz.div note="+14 flammPz" mode=attack>
+									<unit des=III/54 toe=ger.rocket.bn/>
+									<unit des=228 toe=ger.stug.bn/>
+								</unit>
+								<unit des=7 toe=ger.pz.div mode=attack/>
+								<unit des=503 toe=ger.hvy.pz.bn note=Tigers mode=rest/>
+							</unit>
+							<unit name=XLII size=XXX badge=inf>
+								<unit des=42 toe=ger.corps.hq mode=command>
+									<unit des=125 toe=ger.flak.bn/>
+									<unit des="620th Mountain" toe=ger.eng.bn note="1 co det."/>
+								</unit>
+								<unit des=161 toe=ger.inf.div.39 mode=defend>
+									<unit des=II/800 toe=ger.hvy.art.bn note="15cm How"/>
+								</unit>
+								<unit des=282 toe=ger.inf.div.39 mode=defend/>
+								<unit des=39 toe=ger.sm.inf.div note="only 3 art abt" mode=defend/>
+								<unit des=560 toe=ger.nas.bn note=Hornisse mode=rest/>
+								<unit des=III/140 toe=ger.hvy.art1.bn mode=rest/>
+							</unit>
+							<unit name="Raus (XI)" size=XXX badge=inf>
+								<unit des=Raus abbreviation=Ra toe=ger.corps.hq mode=command>
+									<unit des=15 toe=ger.flak.div>
+										<unit des=4 toe=ger.flak.reg>
+											<unit des=I/7 toe=ger.flak.bn/>
+											<unit des=II/24 toe=ger.flak.bn/>
+											<unit des=77 toe=ger.flak.bn/>
+										</unit>
+										<unit des=7 toe=ger.flak.reg>
+											<unit des=I/25 toe=ger.flak.bn/>
+											<unit des=II/241 toe=ger.flak.bn/>
+										</unit>
+										<unit des=48 toe=ger.flak.reg>
+											<unit des=II/Lehr toe=ger.flak.bn/>
+										</unit>
+									</unit>
+									<unit des=52 toe=ger.eng.bn/>
+									<unit des=102 toe=ger.bridge.bn/>
+									<unit des=151 toe=ger.bridge.bn/>
+									<unit des=2/407 toe=ger.bridge.co/>
+									<unit des=2/410 toe=ger.bridge.co/>
+									<unit des=2/60 toe=ger.bridge.co/>
+									<unit des=20 toe=ger.bridge.bn/>
+									<unit des=297 toe=ger.bridge.bn/>
+									<unit des=610 toe=ger.bridge.bn/>
+									<unit des=666 toe=ger.bridge.bn/>
+									<unit des=7 toe=ger.bridge.bn/>
+									<unit des=8 toe=ger.bridge.bn/>
+								</unit>
+								<unit des=106 toe=ger.inf.div.39 mode=attack>
+									<unit des=II/54 toe=ger.mot.art.bn note="105 mm How"/>
+									<unit des=I/19 toe=ger.flak.bn/>
+									<unit des=II/1 toe=ger.rocket.bn/>
+									<unit des=II/52 toe=ger.rocket.bn/>
+									<unit des=905 toe=ger.stug.bn/>
+								</unit>
+								<unit des=320 toe=ger.inf.div.39 note="only 3 art abt" mode=attack>
+									<unit des=I/33rd toe=ger.flak.bn/>
+									<unit des=I/5 toe=ger.flak.bn/>
+									<unit des=I/241 toe=ger.flak.bn/>
+									<unit des=I/213 toe=ger.art.bn note="105mm how"/>
+									<unit des=I/77 toe=ger.mot.art.bn note="105mm How"/>
+									<unit des=I/52 toe=ger.rocket.bn/>
+									<unit des=III/52 toe=ger.rocket.bn/>
+									<unit des=393 toe=ger.stug.co/>
+								</unit>
+							</unit>
+						</unit>
+						<unit des=2 toe=ger.rail.eng.reg mode=rest/>
+						<unit des=3 toe=ger.rail.eng.reg mode=rest/>
+						<unit des=5 toe=ger.rail.eng.reg mode=rest/>
+						<unit des=111 toe=ger.rail.eng.bn mode=rest/>
+						<unit des=9 toe=ger.mort.bn mode=rest/>
+						<unit des=24 toe=rom.inf.div country=Romania colors=Romanian mode=security/>
+						<unit des=II/221 toe=ger.art.bn mode=rest/>
+						<unit des=213 toe=ger.sec.div mode=security/>
+						<unit des=444 toe=ger.sec.div note="Staff only?" mode=security/>
+						<unit des=454 toe=ger.sec.div mode=security/>
+					</unit>
+					<unit des=259 toe=ger.stug.bn when=7/15/1943 mode=rest/>
+					<unit des=113 toe=ger.inf.div.39 when=7/20/1943 mode=move/>
+					<unit des=239 toe=ger.stug.bn when=8/22/1943 mode=rest/>
+				</unit>
+			</unit>
+		</combatant>
+		<combatant name=Romania colors=Romanian skill=.8>
+			<replacements level=1%/>
+		</combatant>
+		<combatant name=Hungary colors=Hungarian skill=.8>
+			<replacements level=1%/>
+		</combatant>
+	</force>
+	<force name=Allies colors=Allies railcap=1000>
+		<combatant name="Soviet Union" colors=Soviet skill=.5>
+			<replacements level=1%/>
+			<unit name=STAVKA commander=Stalin size=GHQ tip=100 fills=15>
+				<unit name="STAVKA HQ" toe=stavka abbreviation=STAVKA mode=command visibility=1 colors=STAVKA x=118 y=0/>
+				<unit name="Western Front" badge=army size=XXXXX>
+					<unit des=Western toe=sov.front.hq mode=command visibility=6>
+						<unit des=7 toe=sov.aero.bn/>
+						<unit des=37 toe=sov.aero.bn/>
+						<unit des=38 toe=sov.aero.bn/>
+						<unit des=40 toe=sov.aero.bn/>
+						<unit des=1272 toe=sov.aa.reg/>
+						<unit des=1281 toe=sov.aa.reg/>
+						<unit des=324 toe=sov.aa.bn/>
+						<unit des=11 toe=sov.eng.bg/>
+						<unit des=12 toe=sov.eng.bg/>
+						<unit des=6 toe=sov.eng.bn/>
+						<unit des=113 toe=sov.eng.bn/>
+						<unit des=122 toe=sov.eng.bn/>
+						<unit des=129 toe=sov.eng.bn/>
+						<unit des=133 toe=sov.eng.bn/>
+						<unit des=229 toe=sov.eng.bn/>
+						<unit des=230 toe=sov.eng.bn/>
+						<unit des=537 toe=sov.sap.bn/>
+						<unit des=738 toe=sov.sap.bn/>
+						<unit des=9 toe=sov.bridge.bn/>
+						<unit des=51 toe=sov.bridge.bn/>
+						<unit des=62 toe=sov.bridge.bn/>
+						<unit des=87 toe=sov.bridge.bn/>
+						<unit des=88 toe=sov.bridge.bn/>
+						<unit des=89 toe=sov.bridge.bn/>
+						<unit des=90 toe=sov.bridge.bn/>
+						<unit des=91 toe=sov.bridge.bn/>
+						<unit des=99 toe=sov.bridge.bn/>
+					</unit>
+					<unit name="10th Guards" badge=army size=XXXX colors=Guards>
+						<unit des="10th Guards" abbreviation=10G colors=Guards toe=sov.army.hq mode=command>
+							<unit des=263 toe=sov.eng.bn colors=Soviet/>
+							<unit des=369 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="7th Guards Rifle" size=XXX badge=inf mode=rest>
+							<unit des="7th Guards" toe=sov.corps.hq/>
+							<unit des=29 toe=sov.gds.rifle.div/>
+						</unit>
+						<unit name="15th Guards Rifle" size=XXX badge=inf colors=Guards mode=rest>
+							<unit des="15th Guards" toe=sov.corps.hq/>
+							<unit des=30 toe=sov.gds.rifle.div/>
+							<unit des=85 toe=sov.gds.rifle.div/>
+							<unit des=119 toe=sov.tank.reg colors=Soviet/>
+						</unit>
+						<unit name="19th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="19th Guards" toe=sov.corps.hq/>
+							<unit des=22 toe=sov.gds.rifle.div/>
+							<unit des=56 toe=sov.gds.rifle.div/>
+							<unit des=65 toe=sov.gds.rifle.div/>
+							<unit des=83 toe=sov.gds.art.reg/>
+						</unit>
+						
+					</unit>
+					<unit name="11th Guards" badge=army size=XXXX colors=Guards tip=300>
+						<unit des="11th Guards" abbreviation=11G colors=Guards toe=sov.army.hq mode=command x=45 y=3>
+							<unit name="14th Anti-Aircraft" badge=aa size=XX colors=Soviet>
+								<unit des=14 toe=sov.aa.div.hq/>
+								<unit des=525 toe=sov.aa.reg/>
+								<unit des=715 toe=sov.aa.reg/>
+								<unit des=718 toe=sov.aa.reg/>
+								<unit des=721 toe=sov.aa.reg/>
+							</unit>
+							<unit name="17th Anti-Aircraft" badge=aa size=XX colors=Soviet>
+								<unit des=17 toe=sov.aa.div.hq/>
+								<unit des=500 toe=sov.aa.reg/>
+								<unit des=1267 toe=sov.aa.reg/>
+								<unit des=1276 toe=sov.aa.reg/>
+								<unit des=1279 toe=sov.aa.reg/>
+							</unit>
+							<unit name="48th Anti-Aircraft" badge=aa size=XX colors=Soviet>
+								<unit des=48 toe=sov.aa.div.hq/>
+								<unit des=231 toe=sov.gds.aa.reg/>
+								<unit des=50 toe=sov.aa.reg/>
+								<unit des=1277 toe=sov.aa.reg/>
+								<unit des=1278 toe=sov.aa.reg/>
+							</unit>
+							<unit des=716 toe=sov.aa.reg colors=Soviet/>
+							<unit des=739 toe=sov.aa.reg colors=Soviet/>
+							<unit des=1280 toe=sov.aa.reg colors=Soviet/>
+							<unit des=1484 toe=sov.aa.reg colors=Soviet/>
+							<unit des=4 toe=sov.aa.bn colors=Soviet/>
+							<unit des=614 toe=sov.aa.bn colors=Soviet/>
+							<unit des=6 toe=sov.gds.eng.bn/>
+							<unit des=84 toe=sov.eng.bn colors=Soviet/>
+							<unit des=226 toe=sov.eng.bn colors=Soviet/>
+							<unit des=243 toe=sov.eng.bn colors=Soviet/>
+							<unit des=367 toe=sov.eng.bn colors=Soviet/>
+							<unit des=61 toe=sov.bridge.bn colors=Soviet/>
+						</unit>
+						<unit name="8th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="8th Guards" toe=sov.corps.hq x=43 y=0 mode=rest/>
+							<unit des=11 toe=sov.gds.rifle.div x=44 y=0 mode=rest/>
+							<unit des=26 toe=sov.gds.rifle.div x=43 y=0 mode=rest/>
+							<unit des=83 toe=sov.gds.rifle.div x=44 y=0 mode=rest/>
+							<unit des=43 toe=sov.gds.tank.bg x=43 y=0 mode=rest/>
+							<unit des=74 toe=sov.gds.cannon.reg x=44 y=0 mode=rest/>
+							<unit des=761 toe=sov.cannon.reg colors=Soviet x=43 y=0 mode=rest/>
+							<unit des=1165 toe=sov.cannon.reg colors=Soviet x=44 y=0 mode=rest/>
+							<unit des=16 toe=sov.gds.how.reg x=45 y=0 mode=rest/>
+							<unit des=1 toe=sov.gds.cannon.reg x=45 y=0 mode=rest/>
+							<unit des=537 toe=sov.cannon.reg colors=Soviet x=45 y=0 mode=rest/>
+							<unit des=25 toe=sov.rocket.bg x=44 y=0 mode=rest/>
+							<unit des=4 toe=sov.gds.hvy.tank.reg x=45 y=0 mode=rest/>
+							<unit des=15 toe=sov.gds.how.reg x=43 y=0 mode=rest/>
+						</unit>
+						<unit name="16th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="16th Guards" toe=sov.corps.hq x=47 y=0 mode=command/>
+							<unit des=1 toe=sov.gds.rifle.div x=46 y=1 mode=rest/>
+							<unit des=16 toe=sov.gds.rifle.div x=46 y=2 mode=rest/>
+							<unit des=31 toe=sov.gds.rifle.div x=48 y=0 mode=rest/>
+							<unit des=169 toe=sov.rifle.div colors=Soviet x=47 y=1 mode=rest/>
+							<unit des=2 toe=sov.gds.hvy.tank.reg x=46 y=2 mode=rest/>
+							<unit des=75 toe=sov.gds.cannon.reg x=46 y=1 mode=rest/>
+							<unit des=39 toe=sov.cannon.reg colors=Soviet x=47 y=1 mode=rest/>
+							<unit des=546 toe=sov.mort.reg colors=Soviet x=47 y=0 mode=rest/>
+							<unit des=24 toe=sov.rocket.bg x=46 y=1 mode=rest/>
+							<unit des=17 toe=sov.gds.cannon.reg x=46 y=2 mode=rest/>
+							<unit des=29 toe=sov.gds.tank.bg x=47 y=1 mode=rest/>
+						</unit>
+						<unit name="36th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="36th Guards" toe=sov.corps.hq x=54 y=0 mode=command/>
+							<unit des=5 toe=sov.gds.rifle.div x=53 y=0 mode=rest/>
+							<unit des=18 toe=sov.gds.rifle.div x=54 y=0 mode=rest/>
+							<unit des=84 toe=sov.gds.rifle.div x=55 y=0 mode=rest/>
+							<unit des=2 toe=sov.gds.cannon.reg x=53 y=0 mode=rest/>
+							<unit des=995 toe=sov.cannon.reg colors=Soviet x=54 y=0 mode=rest/>
+							<unit des=1093 toe=sov.cannon.reg colors=Soviet x=55 y=0 mode=rest/>
+							<unit des=128 toe=sov.how.reg colors=Soviet x=53 y=0 mode=rest/>
+							<unit des=545 toe=sov.mort.reg colors=Soviet x=54 y=0 mode=rest/>
+							<unit des=10 toe=sov.gds.tank.bg x=53 y=0 mode=rest/>
+							<unit des=364 toe=sov.how.reg colors=Soviet x=55 y=0 mode=rest/>
+						</unit>
+						<unit name="8th Breakthrough Artillery" badge=art size=XXX colors=Soviet>
+							<unit name="3rd Breakthrough Artillery" size=XX badge=art colors=Soviet x=42 y=0 mode=rest>
+								<unit des=15 toe=sov.la.bg/>
+								<unit des=1 toe=sov.how.bg/>
+								<unit des=5 toe=sov.cannon.bg/>
+								<unit des=117 toe=sov.shh.bg/>
+								<unit des=7 toe=sov.pen.mort.bg/>
+								<unit des=3 toe=sov.obs.bn/>
+							</unit>
+							<unit name="6th Breakthrough Artillery" size=XX badge=art colors=Soviet x=42 y=0 mode=rest>
+								<unit des=21 toe=sov.la.bg/>
+								<unit des=18 toe=sov.how.bg/>
+								<unit des=10 toe=sov.cannon.bg/>
+								<unit des=119 toe=sov.shh.bg/>
+								<unit des=2 toe=sov.pen.mort.bg/>
+								<unit des=6 toe=sov.obs.bn/>
+							</unit>
+						</unit>
+						<unit name="14th Artillery" size=XX badge=art colors=Soviet mode=rest x=51 y=0>
+							<unit des=54 toe=sov.la.bg/>
+							<unit des=60 toe=sov.how.bg/>
+							<unit des=53 toe=sov.cannon.bg/>
+							<unit des=9 toe=sov.mort.bg/>
+							<unit des=14 toe=sov.obs.bn/>
+						</unit>
+						<unit des=108 toe=sov.rifle.div colors=Soviet mode=defend x=46 y=9>
+							<unit des=1453 toe=sov.su.reg colors=Soviet/>
+							<unit des=56 toe=sov.gds.art.reg/>
+							<unit des=360 toe=sov.how.reg colors=Soviet/>
+							<unit des=5 toe=sov.gds.at.reg/>
+						</unit>
+						<unit des=217 toe=sov.rifle.div colors=Soviet mode=defend x=44 y=7>
+							<unit des=213 toe=sov.tank.bg colors=Soviet/>
+							<unit des=403 toe=sov.cannon.reg colors=Soviet/>
+						</unit>
+					</unit>
+					<unit name=5th badge=army size=XXXX>
+						<unit des=5 toe=sov.army.hq mode=command>
+							<unit des=1479 toe=sov.aa.reg/>
+							<unit des=296 toe=sov.eng.bn/>
+							<unit des=297 toe=sov.eng.bn/>
+						</unit>
+						<unit des=207 toe=sov.rifle.div mode=defend>
+							<unit des=696 toe=sov.at.reg/>
+						</unit>
+						<unit des=208 toe=sov.rifle.div mode=defend>
+							<unit des=153 toe=sov.tank.bg/>
+						</unit>
+						<unit des=312 toe=sov.rifle.div mode=defend>
+							<unit des=537 toe=sov.mort.reg/>
+						</unit>
+						<unit des=352 toe=sov.rifle.div mode=rest>
+							<unit des=66 toe=sov.gds.cannon.reg/>
+							<unit des=41 toe=sov.rocket.bn/>
+						</unit>
+					</unit>
+					<unit name=10th badge=army size=XXXX tip=300>
+						<unit des=10 toe=sov.army.hq mode=command x=30 y=0>
+							<unit des=1 toe=armd.trn/>
+							<unit des=1268 toe=sov.aa.reg/>
+							<unit des=303 toe=sov.eng.bn/>
+							<unit des=345 toe=sov.eng.bn/>
+							<unit des=368 toe=sov.eng.bn/>
+						</unit>
+						<unit des=139 toe=sov.rifle.div mode=defend x=22 y=1>
+							<unit des=520 toe=sov.at.reg/>
+							<unit des=188 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=247 toe=sov.rifle.div mode=defend x=27 y=2>
+							<unit des=564 toe=sov.cannon.reg/>
+							<unit des=992 toe=sov.at.reg/>
+						</unit>
+						<unit des=290 toe=sov.rifle.div mode=defend x=29 y=3>
+							<unit des=572 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=330 toe=sov.rifle.div mode=defend x=31 y=4>
+							<unit des=2 toe=sov.rocket.bn/>
+						</unit>
+						<unit des=385 toe=sov.rifle.div mode=defend x=24 y=2>
+							<unit des=544 toe=sov.mort.reg/>
+						</unit>
+					</unit>
+					<unit name=20th badge=army size=XXXX>
+						<unit des=20 toe=sov.army.hq mode=command>
+							<unit des=1265 toe=sov.aa.reg/>
+							<unit des=1270 toe=sov.aa.reg/>
+							<unit des=64 toe=sov.aa.bn/>
+							<unit des=291 toe=sov.eng.bn/>
+							<unit des=301 toe=sov.eng.bn/>
+							<unit des=302 toe=sov.eng.bn/>
+						</unit>
+						<unit des=152 toe=sov.fort.area mode=defend/>
+						<unit des=154 toe=sov.fort.area mode=defend>
+							<unit des=535 toe=sov.mort.reg/>
+						</unit>
+						<unit des=1 toe=sov.gds.at.bg mode=rest/>
+					</unit>
+					<unit name=31st badge=army size=XXXX>
+						<unit des=31 toe=sov.army.hq mode=command>
+							<unit name="49th Anti-Aircraft" badge=aa size=XX colors=Soviet>
+								<unit des=49 toe=sov.aa.div.hq/>
+								<unit des=245 toe=sov.aa.reg/>
+								<unit des=1271 toe=sov.aa.reg/>
+							</unit>
+							<unit des=6 toe=sov.aero.bn/>
+							<unit des=20 toe=sov.aero.bn/>
+							<unit des=240 toe=sov.aa.reg/>
+							<unit des=341 toe=sov.aa.reg/>
+							<unit des=1269 toe=sov.aa.reg/>
+							<unit des=1478 toe=sov.aa.reg/>
+							<unit des=72 toe=sov.eng.bn/>
+						</unit>
+						<unit name="36th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=36 toe=sov.corps.hq/>
+							<unit des=215 toe=sov.rifle.div/>
+							<unit des=274 toe=sov.rifle.div/>
+							<unit des=359 toe=sov.rifle.div/>
+							<unit des=392 toe=sov.cannon.reg/>
+							<unit des=529 toe=sov.at.reg/>
+							<unit des=536 toe=sov.mort.reg/>
+							<unit des=28 toe=sov.rocket.bn/>
+						</unit>
+						<unit name="45th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=45 toe=sov.corps.hq/>
+							<unit des=88 toe=sov.rifle.div/>
+							<unit des=220 toe=sov.rifle.div/>
+							<unit des=331 toe=sov.rifle.div/>
+							<unit des=542 toe=sov.cannon.reg/>
+							<unit des=873 toe=sov.at.reg/>
+						</unit>
+						<unit des=82 toe=sov.rifle.div mode=defend>
+							<unit des=644 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=133 toe=sov.rifle.div mode=defend>
+							<unit des=549 toe=sov.mort.reg/>
+							<unit des=201 toe=sov.rocket.bn/>
+						</unit>
+						<unit des=251 toe=sov.rifle.div mode=defend>
+							<unit des=646 toe=sov.cannon.reg/>
+							<unit des=42 toe=sov.gds.tank.bg/>
+						</unit>
+						<unit des=2 toe=sov.gds.mcycle.reg mode=rest/>
+					</unit>
+					<unit name=33rd badge=army size=XXXX>
+						<unit des=33 toe=sov.army.hq mode=command>
+							<unit des=1266 toe=sov.aa.reg/>
+							<unit des=1480 toe=sov.aa.reg/>
+							<unit des=298 toe=sov.eng.bn/>
+							<unit des=321 toe=sov.eng.bn/>
+						</unit>
+						<unit des=42 toe=sov.rifle.div mode=defend>
+							<unit des=55 toe=sov.gds.art.reg/>
+							<unit des=40 toe=sov.rocket.bn/>
+						</unit>
+						<unit des=144 toe=sov.rifle.div mode=defend>
+							<unit des=557 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=160 toe=sov.rifle.div mode=defend>
+							<unit des=35 toe=sov.rocket.bn/>
+						</unit>
+						<unit des=164 toe=sov.rifle.div mode=defend>
+							<unit des=256 toe=sov.tank.bg/>
+							<unit des=2 toe=sov.gds.at.reg/>
+						</unit>
+						<unit des=222 toe=sov.rifle.div mode=defend>
+							<unit des=520 toe=sov.tank.bn/>
+							<unit des=517 toe=sov.cannon.reg/>
+							<unit des=538 toe=sov.mort.reg/>
+						</unit>
+					</unit>
+					<unit name=49th badge=army size=XXXX>
+						<unit des=49 toe=sov.army.hq mode=command>
+							<unit des=6 toe=armd.trn/>
+							<unit des=52 toe=armd.trn/>
+							<unit des=1273 toe=sov.aa.reg/>
+							<unit des=1481 toe=sov.aa.reg/>
+							<unit des=305 toe=sov.eng.bn/>
+							<unit des=306 toe=sov.eng.bn/>
+						</unit>
+						<unit des=58 toe=sov.rifle.div mode=rest>
+							<unit des=317 toe=sov.rocket.reg/>
+						</unit>
+						<unit des=146 toe=sov.rifle.div mode=defend>
+							<unit des=138 toe=sov.tank.bn/>
+							<unit des=49 toe=sov.how.reg/>
+							<unit des=540 toe=sov.mort.reg/>
+						</unit>
+						<unit des=277 toe=sov.rifle.div mode=defend>
+							<unit des=570 toe=sov.cannon.reg/>
+							<unit des=593 toe=sov.at.reg/>
+						</unit>
+						<unit des=338 toe=sov.rifle.div mode=defend/>
+						<unit des=344 toe=sov.rifle.div mode=defend>
+							<unit des=1099 toe=sov.cannon.reg/>
+							<unit des=3 toe=sov.at.bg/>
+							<unit des=1537 toe=sov.hvy.su.reg/>
+						</unit>
+						<unit des=23 toe=sov.gds.tank.bg mode=rest/>
+					</unit>
+					<unit name=50th badge=army size=XXXX tip=300>
+						<unit des=50 toe=sov.army.hq mode=command x=36 y=2>
+							<unit des=21 toe=armd.trn/>
+							<unit des=43 toe=armd.trn/>
+							<unit des=1275 toe=sov.aa.reg/>
+							<unit des=1482 toe=sov.aa.reg/>
+							<unit des=1483 toe=sov.aa.reg/>
+							<unit des=307 toe=sov.eng.bn/>
+							<unit des=309 toe=sov.eng.bn/>
+						</unit>
+						<unit name="38th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=38 toe=sov.corps.hq x=38 y=3 mode=command/>
+							<unit des=17 toe=sov.rifle.div x=38 y=6 mode=defend/>
+							<unit des=326 toe=sov.rifle.div x=37 y=6 mode=defend/>
+							<unit des=413 toe=sov.rifle.div x=36 y=4 mode=rest/>
+							<unit des=447 toe=sov.cannon.reg x=38 y=5 mode=rest/>
+							<unit des=600 toe=sov.at.reg x=37 y=5 mode=rest/>
+							<unit des=541 toe=sov.mort.reg x=37 y=5 mode=rest/>
+						</unit>
+						<unit des=49 toe=sov.rifle.div mode=defend x=39 y=5>
+							<unit des=1536 toe=sov.hvy.su.reg/>
+							<unit des=523 toe=sov.cannon.reg/>
+							<unit des=542 toe=sov.mort.reg/>
+						</unit>
+						<unit des=64 toe=sov.rifle.div mode=defend x=32 y=5>
+							<unit des=1091 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=212 toe=sov.rifle.div mode=defend x=41 y=5>
+							<unit des=54 toe=sov.rocket.reg/>
+						</unit>
+						<unit des=324 toe=sov.rifle.div mode=defend x=34 y=5>
+							<unit des=196 toe=sov.tank.bg/>
+						</unit>
+					</unit>
+					<unit des=371 toe=sov.rifle.div mode=rest>
+						<unit des=758 toe=sov.at.reg/>
+						<unit des=248 toe=sov.tank.reg/>
+					</unit>
+					<unit name="1st Tank" size=XXX badge=arm colors=Soviet mode=rest>
+						<unit des="1st Tank" toe=sov.corps.hq/>
+						<unit des=89 toe=sov.tank.bg note="3 tank bns"/>
+						<unit des=117 toe=sov.tank.bg note="3 tank bns"/>
+						<unit des=159 toe=sov.tank.bg note="3 tank bns"/>
+						<unit des=44 toe=sov.motor.bg/>
+						<unit des=1437 toe=sov.su.reg/>
+						<unit des=10 toe=sov.rocket.bn/>
+						<unit des=108 toe=sov.mort.reg/>
+						<unit des=1514 toe=sov.lt.at.reg/>
+						<unit des=86 toe=sov.mcycle.bn/>
+						<unit des=11 toe=sov.rocket.bn/>
+					</unit>
+					<unit name="5th Tank" size=XXX badge=arm colors=Soviet mode=rest x=46 y=0>
+						<unit des="5th Tank" toe=sov.corps.hq/>
+						<unit des=24 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=41 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=70 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=5 toe=sov.motor.bg/>
+						<unit des=1435 toe=sov.su.reg/>
+						<unit des=1708 toe=sov.aa.reg note="16 37mm AA"/>
+						<unit des=277 toe=sov.mort.reg/>
+						<unit des=1515 toe=sov.lt.at.reg/>
+						<unit des=731 toe=sov.at.bn note="12 85mm AT"/>
+						<unit des=188 toe=sov.mot.sap.bn/>
+						<unit des=307 toe=sov.rocket.reg/>
+						<unit des=233 toe=sov.tank.reg/>
+					</unit>
+					<unit des=36 toe=sov.rifle.bg mode=rest>
+						<unit des=161 toe=sov.tank.reg/>
+					</unit>
+					<unit des=2 toe=sov.gds.tank.bg mode=rest/>
+					<unit des=94 toe=sov.tank.bg mode=rest/>
+					<unit des=120 toe=sov.tank.bg mode=rest/>
+					<unit des=187 toe=sov.tank.bg mode=rest/>
+					<unit des=56 toe=sov.gds.tank.reg mode=rest/>
+					<unit des=5 toe=sov.rail.bg mode=rest/>
+					<xunit name="13th NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<xunit name="7th NKVD" size=XX badge=bdr colors=NKVD mode=security>
+						<unit name=NKVD toe=sov.nkvd.reg colors=NKVD/>
+						<unit name=NKVD toe=sov.nkvd.reg colors=NKVD/>
+						<unit name=NKVD toe=sov.nkvd.reg colors=NKVD/>
+						<unit name=NKVD toe=sov.nkvd.reg colors=NKVD/>
+					</xunit>
+					<xunit name="86th NKVD" toe=sov.nkvd.reg colors=NKVD mode=move/>
+					<xunit name="87th NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<unit name="1st Air" badge=air size=XXXX>
+						<unit name="1st Air" badge=air size=XXXX hq= mode=command>
+							<unit des=1550 toe=sov.aa.reg/>
+							<unit des=1551 toe=sov.aa.reg/>
+							<unit des=1552 toe=sov.aa.reg/>
+							<unit des=1553 toe=sov.aa.reg/>
+							<unit des=1554 toe=sov.aa.reg/>
+							<unit des=65 toe=sov.corr.air.sqd/>
+							<unit des=10 toe=sov.air.recon.reg/>
+							<unit des=713 toe=sov.trans.air.reg/>
+						</unit>
+						<unit name="2nd Assault Air Corps">
+							<unit des=231 toe=sov.att.air.div mode=rest/>
+							<unit des=232 toe=sov.att.air.div mode=rest/>
+						</unit>
+						<unit name="2nd Fighter Air Corps">
+							<unit des=7 toe=sov.gds.ftr.air.div mode=rest/>
+						</unit>
+						<unit name="8th Fighter Air Corps">
+							<unit des=215 toe=sov.ftr.air.div mode=rest/>
+							<unit des=323 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit des=204 toe=sov.bmb.air.div mode=rest/>
+						<unit des=224 toe=sov.att.air.div mode=rest/>
+						<unit des=233 toe=sov.att.air.div mode=rest/>
+						<unit des=311 toe=sov.att.air.div mode=rest/>
+						<unit des=309 toe=sov.ftr.air.div mode=rest/>
+						<unit des=303 toe=sov.ftr.air.div mode=rest/>
+						<unit des=213 toe=sov.ngt.air.div mode=rest/>
+					</unit>
+				</unit>
+				<unit name="Bryansk Front" badge=army size=XXXXX>
+					<unit des=Bryansk toe=sov.front.hq mode=command visibility=6 x=85 y=21>
+						<unit des=54 toe=armd.trn/>
+						<unit des=1477 toe=sov.aa.reg/>
+						<unit des=386 toe=sov.aa.bn/>
+						<unit des=8 toe=sov.sp.pur.eng.bg/>
+						<unit des=57 toe=sov.eng.bg/>
+						<unit des=131 toe=sov.sap.bn/>
+						<unit des=231 toe=sov.eng.bn/>
+						<unit des=740 toe=sov.eng.bn/>
+						<unit des=48 toe=sov.bridge.bn/>
+						<unit des=53 toe=sov.bridge.bn/>
+						<unit des=131 toe=sov.bridge.bn/>
+						<unit des=136 toe=sov.bridge.bn/>
+					</unit>
+					<unit name=3rd badge=army size=XXXX tip=300>
+						<unit des=3 toe=sov.army.hq mode=command x=66 y=14>
+							<unit name="24th Anti-Aircraft" badge=aa size=XX colors=Soviet>
+								<unit des=24 toe=sov.aa.div.hq/>
+								<unit des=1045 toe=sov.aa.reg/>
+								<unit des=1337 toe=sov.aa.reg/>
+								<unit des=1343 toe=sov.aa.reg/>
+								<unit des=1349 toe=sov.aa.reg/>
+							</unit>
+							<unit des=1284 toe=sov.aa.reg/>
+							<unit des=348 toe=sov.eng.bn/>
+						</unit>
+						<unit des=235 toe=sov.rifle.div mode=rest x=62 y=13/>
+						<unit des=269 toe=sov.rifle.div mode=defend x=59 y=15>
+							<unit des=114 toe=sov.tank.reg/>
+							<unit des=475 toe=sov.mort.reg/>
+						</unit>
+						<unit des=283 toe=sov.rifle.div mode=defend x=62 y=17>
+							<unit des=420 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=308 toe=sov.rifle.div mode=defend x=61 y=16>
+							<unit des=1538 toe=sov.hvy.su.reg/>
+						</unit>
+						<unit des=342 toe=sov.rifle.div mode=defend x=63 y=18>
+							<unit des=584 toe=sov.at.reg/>
+						</unit>
+						<unit des=380 toe=sov.rifle.div mode=defend x=64 y=19>
+							<unit des=82 toe=sov.tank.reg/>
+						</unit>
+						<unit name="20th Breakthrough Artillery" size=XX badge=art colors=Soviet mode=rest x=68 y=13>
+							<unit des=34 toe=sov.la.bg/>
+							<unit des=60 toe=sov.how.bg/>
+							<unit des=53 toe=sov.cannon.bg/>
+							<unit des=93 toe=sov.hh.bg/>
+							<unit des=102 toe=sov.shh.bg/>
+							<unit des=20 toe=sov.pen.mort.bg/>
+							<unit des=20 toe=sov.obs.bn/>
+						</unit>
+					</unit>
+					<unit name=61st badge=army size=XXXX tip=300>
+						<unit des=61 toe=sov.army.hq mode=command x=58 y=11>
+							<unit name="13th Anti-Aircraft" badge=aa size=XX colors=Soviet>
+								<unit des=13 toe=sov.aa.div.hq/>
+								<unit des=1065 toe=sov.aa.reg/>
+								<unit des=1173 toe=sov.aa.reg/>
+								<unit des=1175 toe=sov.aa.reg/>
+								<unit des=1218 toe=sov.aa.reg/>
+							</unit>
+							<unit des=31 toe=armd.trn/>
+							<unit des=45 toe=armd.trn/>
+							<unit des=1282 toe=sov.aa.reg/>
+							<unit des=310 toe=sov.eng.bn/>
+							<unit des=344 toe=sov.eng.bn/>
+						</unit>
+						<unit name="9th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="9th Guards" toe=sov.corps.hq x=62 y=8 mode=command/>
+							<unit des=12 toe=sov.gds.rifle.div x=60 y=8 mode=rest/>
+							<unit des=76 toe=sov.gds.rifle.div x=63 y=7 mode=rest/>
+							<unit des=77 toe=sov.gds.rifle.div x=61 y=9 mode=rest/>
+							<unit des=60 toe=sov.gds.cannon.reg x=63 y=8 mode=rest/>
+							<unit des=12 toe=sov.dest.bg colors=Soviet note="16 76mm ZIS-3" x=61 y=7 mode=rest/>
+						</unit>
+						<unit des=97 toe=sov.rifle.div mode=defend x=48 y=11>
+							<unit des=554 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=110 toe=sov.rifle.div mode=defend x=51 y=10>
+							<unit des=26 toe=sov.gds.hvy.tank.reg note=KVs/>
+							<unit des=533 toe=sov.at.reg/>
+						</unit>
+						<unit des=336 toe=sov.rifle.div mode=defend x=55 y=11>
+							<unit des=36 toe=sov.tank.reg colors=Soviet/>
+							<unit des=67 toe=sov.gds.cannon.reg/>
+						</unit>
+						<unit des=356 toe=sov.rifle.div mode=defend x=53 y=10>
+							<unit des=1539 toe=sov.su.reg/>
+						</unit>
+						<unit des=415 toe=sov.rifle.div mode=defend x=57 y=13>
+							<unit des=68 toe=sov.tank.bg/>
+							<unit des=547 toe=sov.mort.reg/>
+						</unit>
+					</unit>
+					<unit name=63rd badge=army size=XXXX tip=200>
+						<unit des=63 toe=sov.army.hq mode=rest x=73 y=23>
+							<unit name="28th Anti-Aircraft" badge=aa size=XX>
+								<unit des=28 toe=sov.aa.div.hq/>
+								<unit des=1355 toe=sov.aa.reg/>
+								<unit des=1359 toe=sov.aa.reg/>
+								<unit des=1365 toe=sov.aa.reg/>
+								<unit des=1371 toe=sov.aa.reg/>
+							</unit>
+							<unit des=356 toe=sov.eng.bn/>
+						</unit>
+						<unit des=5 toe=sov.rifle.div mode=rest x=74 y=20/>
+						<unit des=41 toe=sov.rifle.div mode=defend x=66 y=20>
+							<unit des=1071 toe=sov.at.reg/>
+						</unit>
+						<unit des=129 toe=sov.rifle.div mode=defend x=68 y=25>
+							<unit des=231 toe=sov.tank.reg/>
+						</unit>
+						<unit des=250 toe=sov.rifle.div mode=defend x=69 y=21>
+							<unit des=1452 toe=sov.su.reg/>
+						</unit>
+						<unit des=287 toe=sov.rifle.div mode=defend x=68 y=26>
+							<unit des=1311 toe=sov.at.reg/>
+						</unit>
+						<unit des=348 toe=sov.rifle.div mode=defend x=67 y=20/>
+						<unit des=397 toe=sov.rifle.div mode=defend x=69 y=22>
+							<unit des=286 toe=sov.mort.reg/>
+						</unit>
+					</unit>
+					<unit name="25th Rifle" badge=inf size=XXX mode=rest>
+						<unit des=25 toe=sov.corps.hq x=85 y=13 mode=command/>
+						<unit des=186 toe=sov.rifle.div x=84 y=12 mode=rest/>
+						<unit des=238 toe=sov.rifle.div x=87 y=12 mode=rest/>
+						<unit des=362 toe=sov.rifle.div x=86 y=13 mode=rest/>
+						<unit des=1445 toe=sov.su.reg x=85 y=12 mode=rest/>
+						<unit des=1444 toe=sov.su.reg x=84 y=11 mode=rest/>
+						<unit des=13 toe=sov.mort.bg x=83 y=13 mode=rest/>
+						<unit des=85 toe=sov.rocket.reg x=87 y=13 mode=rest/>
+						<unit des=312 toe=sov.rocket.reg x=86 y=13 mode=rest/>
+						<unit des=313 toe=sov.rocket.reg x=87 y=12 mode=rest/>
+						
+					<unit des=93 toe=sov.rocket.reg x=84 y=12 mode=rest/></unit>
+					<unit name="1st Guards Tank" size=XXX badge=arm colors=Guards mode=rest x=98 y=26>
+						<unit des="1st Guards Tank" toe=sov.corps.hq/>
+						<unit des=15 toe=sov.gds.tank.bg note=2bns/>
+						<unit des=16 toe=sov.gds.tank.bg note=2bns/>
+						<unit des=17 toe=sov.gds.tank.bg note=2bns/>
+						<unit des=34 toe=sov.gds.hvy.tank.reg/>
+						<unit des=1 toe=sov.gds.motor.bg/>
+						<unit des=80 toe=sov.gds.aa.reg note="16 37mm AA"/>
+						<unit des=455 toe=sov.mort.reg colors=Soviet/>
+						<unit des=1001 toe=sov.lt.at.reg colors=Soviet/>
+						<unit des=732 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+						<unit des=65 toe=sov.mcycle.bn colors=Soviet/>
+						<unit des=174 toe=sov.rep.bn colors=Soviet/>
+						<unit des=44 toe=sov.cannon.bg colors=Soviet/>
+					</unit>
+					<unit name="2nd Breakthrough Artillery" size=XXX badge=art>
+						<unit name="13th Breakthrough Artillery" size=XX badge=art colors=Soviet x=80 y=15 mode=rest>
+							<unit des=42 toe=sov.la.bg/>
+							<unit des=47 toe=sov.how.bg/>
+							<unit des=33 toe=sov.cannon.bg/>
+							<unit des=88 toe=sov.hh.bg/>
+							<unit des=91 toe=sov.hh.bg/>
+							<unit des=101 toe=sov.shh.bg/>
+							<unit des=17 toe=sov.pen.mort.bg/>
+						</unit>
+						<unit name="15th Breakthrough Artillery" size=XX badge=art colors=Soviet x=82 y=16 mode=rest>
+							<unit des=69 toe=sov.la.bg/>
+							<unit des=35 toe=sov.how.bg/>
+							<unit des=85 toe=sov.hh.bg colors=Soviet/>
+							<unit des=87 toe=sov.hh.bg colors=Soviet/>
+							<unit des=106 toe=sov.shh.bg colors=Soviet/>
+							<unit des=18 toe=sov.pen.mort.bg colors=Soviet/>
+						</unit>
+						<unit name="3rd Guards Mortar" badge=rocket size=XX colors=Guards note="2,5,6GMB; M-30 300mm, 4 rails per launcher" x=81 y=14 mode=rest>
+							<unit des="3rd Guards" toe=sov.art.div.hq/>
+							<unit des=15 toe=sov.rocket.bg/>
+							<unit des=18 toe=sov.rocket.bg/>
+							<unit des=19 toe=sov.rocket.bg/>
+							<unit des=3 toe=sov.obs.bn/>
+						</unit>
+					</unit>
+					<unit name="7th Breakthrough Artillery" size=XXX badge=art mode=rest>
+						<unit name="16th Breakthrough Artillery" size=XX badge=art colors=Soviet x=87 y=24 mode=rest>
+							<unit des=49 toe=sov.la.bg/>
+							<unit des=52 toe=sov.how.bg/>
+							<unit des=61 toe=sov.cannon.bg/>
+							<unit des=90 toe=sov.hh.bg/>
+							<unit des=109 toe=sov.shh.bg/>
+							<unit des=14 toe=sov.pen.mort.bg/>
+						</unit>
+						<unit name="17th Breakthrough Artillery" size=XX badge=art colors=Soviet x=88 y=26 mode=rest>
+							<unit des=37 toe=sov.la.bg/>
+							<unit des=50 toe=sov.how.bg/>
+							<unit des=39 toe=sov.cannon.bg/>
+							<unit des=92 toe=sov.hh.bg/>
+							<unit des=108 toe=sov.shh.bg/>
+							<unit des=22 toe=sov.pen.mort.bg/>
+						</unit>
+						<unit name="2nd Guards Mortar" badge=rocket size=XX colors=Guards note="2,5,6GMB; M-30 300mm, 4 rails per launcher" x=89 y=25 mode=rest>
+							<unit des="2nd Guards" toe=sov.art.div.hq/>
+							<unit des=3 toe=sov.rocket.bg/>
+							<unit des=17 toe=sov.rocket.bg/>
+							<unit des=26 toe=sov.rocket.bg/>
+							<unit des=2 toe=sov.obs.bn/>
+						</unit>
+					</unit>
+					<unit des=11 toe=sov.gds.tank.reg mode=rest x=81 y=23/>
+					<unit des=12 toe=sov.gds.tank.reg mode=rest x=83 y=24/>
+					<unit des=13 toe=sov.gds.tank.reg mode=rest x=85 y=26/>
+					<unit des=26 toe=sov.gds.tank.reg mode=rest x=80 y=29/>
+					<unit des=253 toe=sov.tank.reg mode=rest x=92 y=17/>
+					<unit des=1535 toe=sov.su.reg mode=rest x=88 y=23/>
+					<unit des=55 toe=sov.mcycle.bn mode=rest x=76 y=17/>
+					<unit des=12 toe=sov.at.bg mode=rest x=85 y=22/>
+					<unit des=8 toe=sov.rocket.bg mode=rest x=79 y=18/>
+					<unit des=310 toe=sov.rocket.reg mode=rest x=82 y=28/>
+					<unit des=311 toe=sov.rocket.reg mode=rest x=81 y=26/>
+					<unit des=10 toe=sov.rocket.bn mode=rest x=77 y=17/>
+					<unit des=6 toe=sov.rail.bg mode=rest x=85 y=10/>
+					<xunit name="17th NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<xunit name="38th NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<unit name="15th Air" badge=air size=XXXX>
+						<unit name="15th Air" badge=air size=XXXX hq= mode=command>
+						<unit des=99 toe=sov.gds.air.recon.reg/></unit>
+						<unit name="3rd Assault Air Corps">
+							<unit des=307 toe=sov.att.air.div mode=rest/>
+							<unit des=308 toe=sov.att.air.div mode=rest/>
+						</unit>
+						<unit name="1st Guards Fighter Air Corps">
+							<unit des=3 toe=sov.gds.ftr.air.div mode=rest/>
+							<unit des=4 toe=sov.gds.ftr.air.div mode=rest/>
+						</unit>
+						<unit des=113 toe=sov.bmb.air.div mode=rest/>
+						<unit des=225 toe=sov.att.air.div mode=rest/>
+						<unit des=234 toe=sov.ftr.air.div mode=rest/>
+						<unit des=315 toe=sov.ftr.air.div mode=rest/>
+						<unit des=284 toe=sov.ngt.air.div mode=rest/>
+						
+					</unit>
+				</unit>
+				<unit name="Central Front" badge=army size=XXXXX>
+					<unit des=Central toe=sov.front.hq mode=command visibility=6>
+						<unit des=40 toe=armd.trn/>
+						<unit name="10th Anti-Aircraft" size=XX badge=aa>
+							<unit des=10 toe=sov.aa.div.hq/>
+							<unit des=802 toe=sov.aa.reg/>
+							<unit des=975 toe=sov.aa.reg/>
+							<unit des=984 toe=sov.aa.reg/>
+							<unit des=994 toe=sov.aa.reg/>
+						</unit>
+						<unit des=997 toe=sov.aa.reg/>
+						<unit des=325 toe=sov.aa.reg/>
+						<unit des=1259 toe=sov.aa.reg/>
+						<unit des=1263 toe=sov.aa.reg/>
+						<unit des=13 toe=sov.gds.aa.bn/>
+						<unit des=27 toe=sov.aa.bn/>
+						<unit des=31 toe=sov.aa.bn/>
+						<unit des=1 toe=sov.gds.sp.pur.eng.bg/>
+						<unit des=6 toe=sov.eng.bg/>
+						<unit des=120 toe=sov.eng.bn/>
+						<unit des=257 toe=sov.eng.bn/>
+						<unit des=9 toe=sov.bridge.bn/>
+						<unit des=49 toe=sov.bridge.bn/>
+						<unit des=50 toe=sov.bridge.bn/>
+						<unit des=104 toe=sov.bridge.bn/>
+					</unit>
+					<unit name=13th badge=army size=XXXX>
+						<unit des=13 toe=sov.army.hq mode=command>
+							<unit name="1st Anti-Aircraft" size=XX badge=aa>
+								<unit des=1 toe=sov.aa.div.hq/>
+								<unit des=1042 toe=sov.aa.reg/>
+								<unit des=1068 toe=sov.aa.reg/>
+								<unit des=1085 toe=sov.aa.reg/>
+								<unit des=1090 toe=sov.aa.reg/>
+							</unit>
+							<unit name="25th Anti-Aircraft" size=XX badge=aa>
+								<unit des=25 toe=sov.aa.div.hq/>
+								<unit des=1067 toe=sov.aa.reg/>
+								<unit des=1356 toe=sov.aa.reg/>
+								<unit des=1362 toe=sov.aa.reg/>
+								<unit des=1368 toe=sov.aa.reg/>
+							</unit>
+							<unit des=1287 toe=sov.aa.reg/>
+							<unit des=275 toe=sov.eng.bn/>
+						</unit>
+						<unit name="17th Guards Rifle" badge=inf size=XXX colors=Guards mode=defend>
+							<unit des="17th Guards" toe=sov.corps.hq/>
+							<unit des=6 toe=sov.gds.rifle.div/>
+							<unit des=70 toe=sov.gds.rifle.div/>
+							<unit des=75 toe=sov.gds.rifle.div/>
+							<unit des=237 toe=sov.tank.reg colors=Soviet/>
+						</unit>
+						<unit name="18th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="18th Guards" toe=sov.corps.hq/>
+							<unit des=2 toe=sov.air.div/>
+							<unit des=3 toe=sov.air.div/>
+							<unit des=4 toe=sov.air.div/>
+							<unit des=19 toe=sov.gds.cannon.reg/>
+							<unit des=65 toe=sov.rocket.reg/>
+							<unit des=86 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="15th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=15 toe=sov.corps.hq/>
+							<unit des=8 toe=sov.rifle.div/>
+							<unit des=74 toe=sov.rifle.div/>
+							<unit des=148 toe=sov.rifle.div/>
+						</unit>
+						<unit name="29th Rifle" badge=inf size=XXX>
+							<unit des=29 toe=sov.corps.hq mode=command/>
+							<unit des=15 toe=sov.rifle.div mode=defend>
+								<unit des=43 toe=sov.tank.reg/>
+							</unit>
+							<unit des=81 toe=sov.rifle.div mode=defend>
+								<unit des=874 toe=sov.at.reg/>
+							</unit>
+							<unit des=307 toe=sov.rifle.div mode=defend>
+								<unit des=324 toe=sov.rocket.reg/>
+							</unit>
+						</unit>
+						<unit name="4th Breakthrough Artillery" size=XXX badge=art>
+							<unit name="5th Breakthrough Artillery" size=XX badge=art colors=Soviet mode=defend>
+								<unit des=16 toe=sov.la.bg/>
+								<unit des=9 toe=sov.how.bg/>
+								<unit des=24 toe=sov.cannon.bg/>
+								<unit des=86 toe=sov.hh.bg colors=Soviet/>
+								<unit des=100 toe=sov.shh.bg colors=Soviet/>
+								<unit des=1 toe=sov.pen.mort.bg colors=Soviet/>
+							</unit>
+							<unit name="12th Breakthrough Artillery" size=XX badge=art colors=Soviet mode=defend>
+								<unit des=46 toe=sov.la.bg/>
+								<unit des=32 toe=sov.how.bg/>
+								<unit des=41 toe=sov.cannon.bg/>
+								<unit des=89 toe=sov.hh.bg colors=Soviet/>
+								<unit des=104 toe=sov.shh.bg colors=Soviet/>
+								<unit des=11 toe=sov.pen.mort.bg colors=Soviet/>
+							</unit>
+							<unit name="5th Guards Mortar" badge=rocket size=XX colors=Guards note="2,5,6GMB; M-30 300mm, 4 rails per launcher" mode=defend>
+								<unit des="5th Guards" toe=sov.art.div.hq/>
+								<unit des=16 toe=sov.rocket.bg/>
+								<unit des=22 toe=sov.rocket.bg/>
+								<unit des=23 toe=sov.rocket.bg/>
+								<unit des=5 toe=sov.obs.bn/>
+							</unit>
+						</unit>
+						<unit des=129 toe=sov.tank.bg colors=Soviet mode=rest/>
+						<unit des=27 toe=sov.gds.hvy.tank.reg mode=rest/>
+						<unit des=30 toe=sov.gds.hvy.tank.reg mode=rest/>
+						<unit des=58 toe=sov.tank.reg mode=defend/>
+						<unit des=1442 toe=sov.su.reg mode=rest/>
+						<unit des=476 toe=sov.mort.reg mode=rest/>
+						<unit des=477 toe=sov.mort.reg mode=rest/>
+						<unit des=6 toe=sov.rocket.reg mode=rest/>
+						<unit des=37 toe=sov.rocket.reg mode=rest/>
+					</unit>
+					<unit name=48th badge=army size=XXXX>
+						<unit des=48 toe=sov.army.hq mode=command x=69 y=35>
+							<unit des=37 toe=armd.trn/>
+							<unit name="16th Anti-Aircraft" size=XX badge=aa>
+								<unit des=16 toe=sov.aa.div.hq/>
+								<unit des=728 toe=sov.aa.reg/>
+								<unit des=1283 toe=sov.aa.reg/>
+								<unit des=1285 toe=sov.aa.reg/>
+								<unit des=1286 toe=sov.aa.reg/>
+							</unit>
+							<unit des=461 toe=sov.aa.reg/>
+							<unit des=615 toe=sov.aa.bn/>
+							<unit des=313 toe=sov.eng.bn/>
+						</unit>
+						<unit name="42nd Rifle" badge=inf size=XXX mode=defend>
+							<unit des=42 toe=sov.corps.hq x=63 y=35 mode=command/>
+							<unit des=16 toe=sov.rifle.div x=62 y=33 mode=defend/>
+							<unit des=202 toe=sov.rifle.div x=61 y=34 mode=defend/>
+							<unit des=399 toe=sov.rifle.div x=60 y=34 mode=defend/>
+							<unit des=299 toe=sov.tank.reg x=63 y=33 mode=rest/>
+							<unit des=1168 toe=sov.cannon.reg x=62 y=35 mode=rest/>
+							<unit des=479 toe=sov.mort.reg x=63 y=34 mode=rest/>
+						</unit>
+						<unit des=73 toe=sov.rifle.div mode=defend x=65 y=30>
+							<unit des=45 toe=sov.tank.reg/>
+							<unit des=220 toe=sov.gds.at.reg/>
+							<unit des=1455 toe=sov.su.reg note=76mm/>
+						</unit>
+						<unit des=137 toe=sov.rifle.div mode=defend x=66 y=27/>
+						<unit des=143 toe=sov.rifle.div mode=defend x=65 y=28>
+							<unit des=193 toe=sov.tank.reg/>
+						</unit>
+						<unit des=170 toe=sov.rifle.div mode=defend x=63 y=31>
+							<unit des=1454 toe=sov.su.reg note=76mm/>
+							<unit des=1540 toe=sov.su.reg note=152mm/>
+							<unit des=2 toe=sov.at.bg note="60 AT; 3 AT Rgts"/>
+						</unit>
+					</unit>
+					<unit name=60th badge=army size=XXXX>
+						<unit des=60 toe=sov.army.hq mode=command>
+							<unit des=217 toe=sov.aa.reg/>
+							<unit des=59 toe=sov.eng.bg/>
+							<unit des=317 toe=sov.eng.bn/>
+							<unit des=221 toe=sov.gds.aa.reg/>
+						</unit>
+						<unit name="24th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=24 toe=sov.corps.hq/>
+							<unit des=112 toe=sov.rifle.div/>
+							<unit des=42 toe=sov.rifle.div/>
+							<unit des=129 toe=sov.rifle.bg/>
+							<unit des=98 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="30th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=30 toe=sov.corps.hq/>
+							<unit des=121 toe=sov.rifle.div/>
+							<unit des=141 toe=sov.rifle.div/>
+							<unit des=322 toe=sov.rifle.div/>
+							<unit des=1178 toe=sov.at.reg/>
+							<unit des=138 toe=sov.mort.reg/>
+						</unit>
+						<unit des=55 toe=sov.rifle.div mode=defend>
+							<unit des=286 toe=sov.rocket.bn/>
+							<unit des=497 toe=sov.mort.reg/>
+						</unit>
+						<unit des=248 toe=sov.rifle.bg mode=defend>
+							<unit des=1156 toe=sov.cannon.reg/>
+							<unit des=128 toe=sov.mort.reg/>
+						</unit>
+						<unit des=150 toe=sov.tank.bg mode=rest/>
+					</unit>
+					<unit name=65th badge=army size=XXXX>
+						<unit des=65 toe=sov.army.hq mode=command>
+							<unit des=235 toe=sov.aa.reg/>
+							<unit des=14 toe=sov.eng.bg/>
+							<unit des=321 toe=sov.eng.bn/>
+						</unit>
+						<unit name="18th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=18 toe=sov.corps.hq/>
+							<unit des=69 toe=sov.rifle.div/>
+							<unit des=149 toe=sov.rifle.div/>
+							<unit des=246 toe=sov.rifle.div/>
+							<unit des=84 toe=sov.tank.reg/>
+							<unit des=143 toe=sov.gds.mort.reg/>
+						</unit>
+						<unit name="27th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=27 toe=sov.corps.hq/>
+							<unit des=60 toe=sov.rifle.div/>
+							<unit des=193 toe=sov.rifle.div/>
+							<unit des=115 toe=sov.rifle.bg/>
+							<unit des=29 toe=sov.gds.tank.reg/>
+							<unit des=543 toe=sov.at.reg/>
+							<unit des=94 toe=sov.rocket.reg/>
+						</unit>
+						<unit des=37 toe=sov.gds.rifle.div mode=defend>
+							<unit des=218 toe=sov.mort.reg/>
+						</unit>
+						<unit des=181 toe=sov.rifle.div mode=defend>
+							<unit des=255 toe=sov.tank.reg/>
+						</unit>
+						<unit des=194 toe=sov.rifle.div mode=defend>
+							<unit des=120 toe=sov.at.reg/>
+						</unit>
+						<unit des=354 toe=sov.rifle.div mode=defend>
+							<unit des=40 toe=sov.tank.reg/>
+							<unit des=478 toe=sov.mort.reg/>
+						</unit>
+					</unit>
+					<unit name=70th badge=army size=XXXX>
+						<unit des=70 toe=sov.army.hq mode=command>
+							<unit name="12th Anti-Aircraft" size=XX badge=aa>
+								<unit des=12 toe=sov.aa.div.hq/>
+								<unit des=836 toe=sov.aa.reg/>
+								<unit des=977 toe=sov.aa.reg/>
+								<unit des=990 toe=sov.aa.reg/>
+							</unit>
+							<unit des=581 toe=sov.aa.reg/>
+							<unit des=169 toe=sov.eng.bn/>
+							<unit des=371 toe=sov.eng.bn/>
+							<unit des=386 toe=sov.eng.bn/>
+						</unit>
+						<unit name="28th Rifle" badge=inf size=XXX>
+							<unit des=28 toe=sov.corps.hq mode=command/>
+							<unit des=132 toe=sov.rifle.div mode=defend/>
+							<unit des=211 toe=sov.rifle.div mode=defend/>
+							<unit des=280 toe=sov.rifle.div mode=defend><unit des=251 toe=sov.tank.reg/></unit>
+							
+						</unit>
+						<xunit name="19th Rifle" badge=inf size=XXX colors=Soviet note="added july 20th"/>
+						<unit des=102 toe=sov.rifle.div mode=defend/>
+						<unit des=106 toe=sov.rifle.div mode=defend>
+							<unit des=136 toe=sov.mort.reg/>
+						</unit>
+						<unit des=140 toe=sov.rifle.div mode=defend>
+							<unit des=378 toe=sov.at.reg/>
+						</unit>
+						<unit des=162 toe=sov.rifle.div mode=defend/>
+						<unit des=175 toe=sov.rifle.div mode=defend>
+							<unit des=259 toe=sov.tank.reg/>
+							<unit des=240 toe=sov.tank.reg/>
+						</unit>
+						<unit name="1st Guards Artillery" size=XX badge=art colors=Guards mode=defend>
+							<unit des=1 toe=sov.gds.cannon.bg/>
+							<unit des=3 toe=sov.gds.la.bg/>
+							<unit des=2 toe=sov.gds.how.bg/>
+						</unit>
+						<unit des=3 toe=sov.dest.bg mode=rest/>
+					</unit>
+					<unit name="2nd Tank" badge=arm size=XXXX>
+						<unit des="2nd Tank" abbreviation=2Tk toe=sov.tank.army.hq mode=command>
+							<unit des=357 toe=sov.eng.bn/>
+						</unit>
+						<unit name="3rd Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="3rd Tank" toe=sov.corps.hq/>
+							<unit des=50 toe=sov.tank.bg/>
+							<unit des=51 toe=sov.tank.bg/>
+							<unit des=103 toe=sov.tank.bg/>
+							<unit des=57 toe=sov.motor.bg/>
+							<unit des=121 toe=sov.aa.reg note="16 37mm AA"/>
+							<unit des=234 toe=sov.mort.reg/>
+							<unit des=881 toe=sov.lt.at.reg/>
+							<unit des=728 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=74 toe=sov.mcycle.bn/>
+							<unit des=126 toe=sov.rocket.bn/>
+							<unit des=90 toe=sov.mot.sap.bn/>
+						</unit>
+						<unit name="16th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="16th Tank" toe=sov.corps.hq/>
+							<unit des=107 toe=sov.tank.bg/>
+							<unit des=109 toe=sov.tank.bg/>
+							<unit des=164 toe=sov.tank.bg/>
+							<unit des=15 toe=sov.motor.bg/>
+							<unit des=1441 toe=sov.su.reg/>
+							<unit des=226 toe=sov.mort.reg/>
+							<unit des=614 toe=sov.lt.at.reg/>
+							<unit des=729 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=51 toe=sov.mcycle.bn/>
+							<unit des=89 toe=sov.rocket.bn/>
+							<unit des=205 toe=sov.mot.sap.bn/>
+						</unit>
+						<unit des=11 toe=sov.gds.tank.bg mode=rest/>
+						<unit des=87 toe=sov.mcycle.bn mode=rest/>
+					</unit>
+					<unit name="2nd Destroyer" size=XX badge=at mode=defend>
+						<unit des=4 toe=sov.dest.bg/>
+					</unit>
+					<unit des=115 toe=sov.fort.area mode=defend/>
+					<unit des=119 toe=sov.fort.area mode=defend/>
+					<unit des=161 toe=sov.fort.area mode=defend/>
+					<unit des=14 toe=sov.dest.bg mode=defend/>
+					<unit name="9th Tank" size=XXX badge=arm colors=Soviet mode=rest carriers=ftrack>
+						<unit des="9th Tank" toe=sov.corps.hq/>
+						<unit des=23 toe=sov.tank.bg/>
+						<unit des=95 toe=sov.tank.bg/>
+						<unit des=108 toe=sov.tank.bg/>
+						<unit des=8 toe=sov.motor.bg/>
+						<unit des=730 toe=sov.at.bn note="12 85mm AT"/>
+						<unit des=133 toe=sov.rocket.bn/>
+					</unit>
+					<unit name="19th Tank" size=XXX badge=arm colors=Soviet mode=defend>
+						<unit des="19th Tank" toe=sov.corps.hq/>
+						<unit des=79 toe=sov.tank.bg/>
+						<unit des=101 toe=sov.tank.bg/>
+						<unit des=202 toe=sov.tank.bg/>
+						<unit des=26 toe=sov.motor.bg/>
+					</unit>
+					<unit des=1541 toe=sov.su.reg mode=rest/>
+					<unit des=68 toe=sov.cannon.bg mode=rest/>
+					<unit des=1 toe=sov.at.bg mode=rest/>
+					<unit des=13 toe=sov.at.bg mode=rest/>
+					<unit des=130 toe=sov.at.reg mode=rest/>
+					<unit des=563 toe=sov.at.reg mode=rest/>
+					<unit des=21 toe=sov.mort.bg mode=rest/>
+					<unit des=84 toe=sov.rocket.reg mode=rest/>
+					<unit des=92 toe=sov.rocket.reg mode=rest/>
+					<unit des=323 toe=sov.rocket.reg mode=rest/>
+					<unit des=7 toe=sov.rail.bg mode=rest/>
+					<unit name="16th Air" badge=air size=XXXX>
+						<unit name="16th Air" badge=air size=XXXX hq= mode=command>
+							<unit des=1610 toe=sov.aa.reg/>
+							<unit des=1611 toe=sov.aa.reg/>
+							<unit des=1612 toe=sov.aa.reg/>
+						<unit des=14 toe=sov.corr.air.sqd/><unit des=16 toe=sov.air.recon.reg/></unit>
+						<unit name="3rd Bomber Air Corps">
+							<unit des=241 toe=sov.bmb.air.div mode=rest/>
+							<unit des=301 toe=sov.bmb.air.div mode=rest/>
+						</unit>
+						<unit name="6th Mixed Air Corps">
+							<unit des=221 toe=sov.bmb.air.div mode=rest/>
+							<unit des=282 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit name="6th Fighter Air Corps">
+							<unit des=273 toe=sov.ftr.air.div mode=rest/>
+							<unit des=279 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit des=2 toe=sov.gds.att.air.div mode=rest/>
+						<unit des=299 toe=sov.att.air.div mode=rest/>
+						<unit des=1 toe=sov.gds.ftr.air.div mode=rest/>
+						<unit des=283 toe=sov.ftr.air.div mode=rest/>
+						<unit des=286 toe=sov.ftr.air.div mode=rest/>
+						<unit des=271 toe=sov.ngt.air.div mode=rest/>
+						
+						
+					</unit>
+				</unit>
+				<unit name="Voronezh Front" badge=army size=XXXXX>
+					<unit des=Voronezh toe=sov.front.hq mode=command visibility=6>
+						<unit des=22 toe=sov.gds.aa.bn/>
+						<unit des=4 toe=sov.eng.bg colors=Soviet/>
+						<unit des=5 toe=sov.eng.bg colors=Soviet/>
+						<unit des=6 toe=sov.bridge.bg/>
+						<unit des="42nd (Spetznaz)" toe=sov.sp.pur.eng.bg colors=Soviet/>
+						<unit des=6 toe=sov.bridge.bn/>
+						<unit des=20 toe=sov.bridge.bn/>
+					</unit>
+					<unit name="6th Guards" badge=army size=XXXX colors=Guards>
+						<unit des="6th Guards" abbreviation=6G colors=Guards toe=sov.army.hq mode=command>
+							<unit des=60 toe=armd.trn colors=Soviet/>
+							<unit name="26th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+								<unit des=26 toe=sov.aa.div.hq/>
+								<unit des=1352 toe=sov.aa.reg/>
+								<unit des=1357 toe=sov.aa.reg/>
+								<unit des=1363 toe=sov.aa.reg/>
+								<unit des=1369 toe=sov.aa.reg/>
+							</unit>
+							<unit des=1487 toe=sov.aa.reg colors=Soviet/>
+							<unit des=205 toe=sov.eng.bn colors=Soviet/>
+							<unit des=540 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="22nd Guards Rifle" badge=inf size=XXX>
+							<unit des="22nd Guards" abbreviation=22G colors=Guards toe=sov.corps.hq mode=command/>
+							<unit des=67 mode=defend toe=sov.gds.rifle.div>
+								<unit des=245 toe=sov.tank.reg colors=Soviet/>
+								<unit des=1440 toe=sov.su.reg colors=Soviet/>
+								<unit des=33 toe=sov.cannon.bg colors=Soviet/>
+								<unit des=496 toe=sov.at.reg colors=Soviet/>
+								<unit des=611 toe=sov.at.reg colors=Soviet/>
+								<unit des=5 toe=sov.rocket.reg/>
+							</unit>
+							<unit des=71 toe=sov.gds.rifle.div mode=defend>
+								<unit des=628 toe=sov.cannon.reg colors=Soviet/>
+								<unit des=868 toe=sov.at.reg colors=Soviet/>
+								<unit des=1666 toe=sov.at.reg colors=Soviet/>
+								<unit des=295 toe=sov.mort.reg colors=Soviet/>
+								<unit des=493 toe=sov.at.reg colors=Soviet/>
+							</unit>
+							<unit des=90 mode=defend toe=sov.gds.rifle.div/>
+							<unit des=314 toe=sov.rocket.reg mode=rest/>
+						</unit>
+						<unit name="23rd Guards Rifle" badge=inf size=XXX>
+							<unit des="23rd Guards" abbreviation=23G colors=Guards toe=sov.corps.hq mode=command/>
+							<unit des=51 toe=sov.gds.rifle.div mode=defend/>
+							<unit des=52 mode=defend toe=sov.gds.rifle.div>
+								<unit des=230 toe=sov.tank.reg colors=Soviet/>
+								<unit des=538 toe=sov.at.reg colors=Soviet/>
+								<unit des=1008 toe=sov.at.reg colors=Soviet/>
+							</unit>
+							<unit des=375 toe=sov.rifle.div colors=Soviet mode=defend>
+								<unit des=96 colors=Soviet toe=sov.tank.bg/>
+								<unit des=27 toe=sov.cannon.bg colors=Soviet/>
+								<unit des=694 toe=sov.at.reg colors=Soviet/>
+								<unit des=1240 toe=sov.at.reg colors=Soviet/>
+								<unit des=1667 toe=sov.at.reg colors=Soviet/>
+								<unit des=263 toe=sov.mort.reg colors=Soviet/>
+								<unit des=16 toe=sov.rocket.reg/>
+								<unit des=79 toe=sov.rocket.reg/>
+							</unit>
+						</unit>
+						<unit des=89 toe=sov.gds.rifle.div mode=defend/>
+						<unit des=27 toe=sov.at.bg colors=Soviet mode=defend/>
+						<unit des=28 toe=sov.at.bg colors=Soviet mode=defend/>
+					</unit>
+					<unit name="7th Guards" badge=army size=XXXX colors=Guards>
+						<unit des="7th Guards" abbreviation=7G colors=Guards toe=sov.army.hq mode=command>
+							<unit name="5th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+								<unit des=5 toe=sov.aa.div.hq/>
+								<unit des=670 toe=sov.aa.reg/>
+								<unit des=743 toe=sov.aa.reg/>
+								<unit des=1119 toe=sov.aa.reg/>
+								<unit des=1181 toe=sov.aa.reg/>
+							</unit>
+							<unit des=162 toe=sov.gds.aa.reg/>
+							<unit des=258 toe=sov.gds.aa.reg/>
+							<unit des=60 toe=sov.eng.bg colors=Soviet/>
+							<unit des=175 toe=sov.eng.bn colors=Soviet/>
+							<unit des=329 toe=sov.eng.bn colors=Soviet/>
+							<unit des=34 toe=armd.trn colors=Soviet/>
+							<unit des=38 toe=armd.trn colors=Soviet/>
+						</unit>
+						<unit name="24th Guards Rifle" badge=inf size=XXX>
+							<unit des="24th Guards" abbreviation=24G colors=Guards toe=sov.corps.hq mode=command/>
+							<unit des=15 toe=sov.gds.rifle.div mode=rest>
+								<unit des=109 toe=sov.gds.cannon.reg/>
+								<unit des=1670 toe=sov.at.reg colors=Soviet/>
+							</unit>
+							<unit des=36 toe=sov.gds.rifle.div mode=defend>
+								<unit des=1 toe=sov.atr.bn colors=Soviet/>
+								<unit des=115 toe=sov.gds.at.reg/>
+								<unit des=1669 toe=sov.at.reg colors=Soviet/>
+								<unit des=148 toe=sov.tank.reg colors=Soviet/>
+							</unit>
+							<unit des=72 toe=sov.gds.rifle.div mode=defend>
+								<unit des=5 toe=sov.atr.bn colors=Soviet/>
+							<unit des=1529 toe=sov.hvy.su.reg colors=Soviet/></unit>
+						</unit>
+						<unit name="25th Guards Rifle" badge=inf size=XXX>
+							<unit des="25th Guards" abbreviation=25G colors=Guards toe=sov.corps.hq mode=command/>
+							<unit des=73 toe=sov.gds.rifle.div mode=defend>
+								<unit des=167 toe=sov.tank.reg colors=Soviet/>
+								<unit des=265 toe=sov.gds.cannon.reg/>
+								<unit des=1438 toe=sov.su.reg colors=Soviet/>
+								<unit des=290 toe=sov.mort.reg colors=Soviet/>
+							</unit>
+							<unit des=78 toe=sov.gds.rifle.div mode=defend>
+								<unit des=4 colors=Soviet toe=sov.atr.bn/>
+							</unit>
+							<unit des=81 toe=sov.gds.rifle.div mode=defend>
+								<unit des=2 colors=Soviet toe=sov.atr.bn/>
+								<unit des=262 toe=sov.tank.reg colors=Soviet/>
+								<unit des=161 toe=sov.gds.cannon.reg/>
+								<unit des=114 toe=sov.gds.at.reg/>
+							</unit>
+						</unit>
+						<unit des=213 toe=sov.rifle.div colors=Soviet mode=defend>
+							<unit des=3 colors=Soviet toe=sov.atr.bn/>
+						</unit>
+						<unit des=27 toe=sov.gds.tank.bg mode=rest/>
+						<unit des=201 colors=Soviet toe=sov.tank.bg mode=rest/>
+						<unit des=30 toe=sov.at.bg colors=Soviet mode=defend/>
+					</unit>
+					<unit name=38th badge=army size=XXXX>
+						<unit des=38 toe=sov.army.hq mode=command>
+							<unit des=981 toe=sov.aa.reg colors=Soviet/>
+							<unit des=1288 toe=sov.aa.reg colors=Soviet/>
+							<unit des=235 toe=sov.eng.bn colors=Soviet/>
+							<unit des=268 toe=sov.eng.bn colors=Soviet/>
+							<unit des=108 toe=sov.bridge.bn/>
+							<unit des=1505 toe=sov.sap.bn colors=Soviet/>
+						</unit>
+						<unit name="50th Rifle" badge=inf size=XXX>
+							<unit des=50 toe=sov.corps.hq mode=command/>
+							<unit des=167 toe=sov.rifle.div mode=defend>
+								<unit des=180 colors=Soviet toe=sov.tank.bg/>
+								<unit des=441 toe=sov.rocket.reg/>
+							</unit>
+							<unit des=232 toe=sov.rifle.div mode=defend>
+								<unit des=222 toe=sov.at.reg colors=Soviet/>
+								<unit des=491 toe=sov.mort.reg colors=Soviet/>
+							</unit>
+							<unit des=340 toe=sov.rifle.div mode=defend>
+								<unit des=111 toe=sov.gds.how.reg/>
+								<unit des=1660 toe=sov.at.reg colors=Soviet/>
+							</unit>
+						</unit>
+						<unit name="51st Rifle" badge=inf size=XXX mode=defend>
+							<unit des=51 toe=sov.corps.hq/>
+							<unit des=180 toe=sov.rifle.div colors=Soviet/>
+							<unit des=240 toe=sov.rifle.div colors=Soviet/>
+							<unit des=29 toe=sov.at.bg colors=Soviet/>
+							<unit des=66 toe=sov.rocket.reg/>
+							<unit des=112 toe=sov.gds.cannon.reg/>
+							<unit des=1658 toe=sov.at.reg colors=Soviet/>
+						</unit>
+						<unit des=204 toe=sov.rifle.div mode=defend>
+							<unit des=192 colors=Soviet toe=sov.tank.bg/>
+							<unit des=483 toe=sov.at.reg colors=Soviet/>
+							<unit des=492 toe=sov.mort.reg colors=Soviet/>
+						</unit>
+					</unit>
+					<unit name=40th badge=army size=XXXX>
+						<unit des=40 toe=sov.army.hq mode=command>
+							<unit name="9th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+								<unit des=9 toe=sov.aa.div.hq/>
+								<unit des=800 toe=sov.aa.reg/>
+								<unit des=974 toe=sov.aa.reg/>
+								<unit des=993 toe=sov.aa.reg/>
+							</unit>
+							<unit des=1488 toe=sov.aa.reg/>
+							<unit des=14 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="47th Rifle" badge=inf size=XXX>
+							<unit des=47 toe=sov.corps.hq mode=command/>
+							<unit des=161 toe=sov.rifle.div mode=defend>
+								<unit des=12 toe=sov.at.reg/>
+								<unit des=494 toe=sov.mort.reg colors=Soviet/>
+							</unit>
+							<unit des=206 toe=sov.rifle.div mode=defend>
+								<unit des=1244 toe=sov.at.reg colors=Soviet/>
+								<unit des=9 toe=sov.mtn.mort.reg colors=Soviet/>
+							</unit>
+							<unit des=237 toe=sov.rifle.div mode=defend>
+								<unit des=1664 toe=sov.at.reg colors=Soviet/>
+								<unit des=32 toe=sov.at.bg colors=Soviet/>
+							</unit>
+						</unit>
+						<unit name="52nd Rifle" badge=inf size=XXX>
+							<unit des=52 toe=sov.corps.hq mode=command/>
+							<unit des=100 toe=sov.rifle.div mode=defend>
+								<unit des=493 toe=sov.mort.reg colors=Soviet/>
+								<unit des=59 colors=Soviet toe=sov.tank.reg/>
+							</unit>
+							<unit des=219 toe=sov.rifle.div mode=defend>
+								<unit des=1663 toe=sov.at.reg colors=Soviet/>
+								<unit des=10 toe=sov.mtn.mort.reg colors=Soviet/>
+								<unit des=36 toe=sov.cannon.bg colors=Soviet/>
+								<unit des=869 toe=sov.at.reg colors=Soviet/>
+							</unit>
+							<unit des=309 toe=sov.rifle.div mode=defend>
+								<unit des=60 toe=sov.hvy.tank.reg/>
+							</unit>
+						</unit>
+						<unit des=184 toe=sov.rifle.div colors=Soviet mode=defend>
+							<unit des=76 toe=sov.gds.cannon.reg/>
+							<unit des=4 toe=sov.gds.at.reg/>
+						</unit>
+						<unit des=86 colors=Soviet toe=sov.tank.bg mode=rest/>
+						<unit des=29 toe=sov.how.bg mode=rest/>
+					</unit>
+					<unit name=69th badge=army size=XXXX>
+						<unit des=69 toe=sov.army.hq mode=command>
+							<unit des=225 toe=sov.gds.aa.reg/>
+							<unit des=322 toe=sov.aa.bn/>
+							<unit des=328 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="48th Rifle" badge=inf size=XXX>
+							<unit des=48 toe=sov.corps.hq mode=command/>
+								<unit des=107 toe=sov.rifle.div mode=defend>
+								<unit des=1661 toe=sov.at.reg/>
+							</unit>
+							<unit des=183 toe=sov.rifle.div mode=defend>
+								<unit des=496 toe=sov.mort.reg/>
+							</unit>
+							<unit des=305 toe=sov.rifle.div mode=defend/>
+						</unit>
+						<unit name="49th Rifle" badge=inf size=XXX mode=rest>
+							<unit des=49 toe=sov.corps.hq/>
+							<unit des=111 toe=sov.rifle.div/>
+							<unit des=270 toe=sov.rifle.div/>
+						</unit>
+					</unit>
+					<unit name="1st Tank" badge=arm size=XXXX>
+						<unit des="1st Tank" abbreviation=1Tk toe=sov.tank.army.hq mode=command>
+							<unit name="8th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+								<unit des=8 toe=sov.aa.div.hq/>
+								<unit des=797 toe=sov.aa.reg/>
+								<unit des=848 toe=sov.aa.reg/>
+								<unit des=978 toe=sov.aa.reg/>
+								<unit des=1063 toe=sov.aa.reg/>
+							</unit>
+							<unit des=71 toe=sov.eng.bn colors=Soviet/>
+							<unit des=267 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="3rd Mechanized" size=XXX badge=mech colors=Soviet mode=rest>
+							<unit des="3rd Mechanized" toe=sov.corps.hq/>
+							<unit des=1 toe=sov.gds.tank.bg/>
+							<unit des=49 toe=sov.tank.bg/>
+							<unit des=1 toe=sov.mech.bg/>
+							<unit des=3 toe=sov.mech.bg/>
+							<unit des=10 toe=sov.mech.bg/>
+							<unit des=265 toe=sov.mort.reg/>
+							<unit des=405 toe=sov.rocket.bn/>
+							<unit des=35 toe=sov.at.reg/>
+							<unit des=58 toe=sov.mcycle.bn/>
+							<unit des=34 toe=sov.ac.bn/>
+							<unit des=756 toe=sov.at.bn/>
+							<unit des=1707 toe=sov.aa.reg/>
+							<unit des=316 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="6th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="6th Tank" toe=sov.corps.hq/>
+							<unit des=22 toe=sov.tank.bg/>
+							<unit des=112 toe=sov.tank.bg/>
+							<unit des=200 toe=sov.tank.bg/>
+							<unit des=6 toe=sov.motor.bg/>
+							<unit des=1461 toe=sov.su.reg/>
+							<unit des=270 toe=sov.mort.reg/>
+							<unit des=538 toe=sov.lt.at.reg/>
+							<unit des=129 toe=sov.rocket.bn/>
+							<unit des=1008 toe=sov.lt.at.reg/>
+							<unit des=85 toe=sov.mcycle.bn/>
+							<unit des=85 toe=sov.mot.sap.bn/>
+							<unit des=351 toe=sov.sig.bn/>
+							<unit des=40 toe=sov.ac.bn/>
+						</unit>
+						<unit name="31st Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="31st Tank" toe=sov.corps.hq/>
+							<unit des=100 toe=sov.tank.bg/>
+							<unit des=237 toe=sov.tank.bg/>
+							<unit des=242 toe=sov.tank.bg/>
+							<unit des=210 toe=sov.atr.bn colors=Soviet/>
+							<unit des=31 toe=sov.ac.bn/>
+						</unit>
+					</unit>
+					<unit name="35th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+						<unit des="35th Guards" toe=sov.corps.hq/>
+						<unit des=92 toe=sov.gds.rifle.div/>
+						<unit des=93 toe=sov.gds.rifle.div/>
+						<unit des=94 toe=sov.gds.rifle.div/>
+					</unit>
+					<unit name="2nd Guards Tank" size=XXX badge=arm colors=Guards mode=rest>
+						<unit des="2nd Guards Tank" toe=sov.corps.hq/>
+						<unit des=4 toe=sov.gds.tank.bg/>
+						<unit des=25 toe=sov.gds.tank.bg/>
+						<unit des=26 toe=sov.gds.tank.bg/>
+						<unit des=4 toe=sov.gds.motor.bg/>
+						<unit des=47 toe=sov.gds.hvy.tank.reg/>
+						<unit des=273 toe=sov.mort.reg colors=Soviet/>
+						<unit des=755 toe=sov.at.bn colors=Soviet/>
+						<unit des=1500 toe=sov.lt.at.reg colors=Soviet/>
+						<unit des=1695 toe=sov.aa.reg colors=Soviet/>
+						<unit des=79 toe=sov.mcycle.bn colors=Soviet/>
+						<unit des=19 toe=sov.ac.bn colors=Soviet/>
+						<unit des=51 toe=sov.sap.bn colors=Soviet/>
+						<unit des=1 toe=sov.gds.sig.bn/>
+						<unit des=1076 toe=sov.lt.at.reg colors=Soviet/>
+					</unit>
+					<unit name="5th Guards Tank" size=XXX badge=arm colors=Guards mode=defend>
+						<unit des="5th Guards Tank" toe=sov.corps.hq/>
+						<unit des=20 toe=sov.gds.tank.bg/>
+						<unit des=21 toe=sov.gds.tank.bg/>
+						<unit des=22 toe=sov.gds.tank.bg/>
+						<unit des=6 toe=sov.gds.motor.bg/>
+						<unit des=48 toe=sov.gds.hvy.tank.reg/>
+						<unit des=454 toe=sov.mort.reg colors=Soviet/>
+						<unit des=1499 toe=sov.lt.at.reg colors=Soviet/>
+						<unit des=1696 toe=sov.aa.reg colors=Soviet/>
+						<unit des=80 toe=sov.mcycle.bn colors=Soviet/>
+						<unit des=23 toe=sov.ac.bn colors=Soviet/>
+						<unit des=60 toe=sov.sap.bn colors=Soviet/>
+						<unit des=4 toe=sov.gds.sig.bn/>
+						<unit des=49 toe=sov.rep.bn colors=Soviet/>
+						<unit des=95 toe=sov.rep.bn colors=Soviet/>
+					</unit>
+					<unit des=I/203rd toe=sov.hvy.tank.bn colors=Soviet mode=rest/>
+					<unit des=1528 toe=sov.how.reg mode=rest/>
+					<unit des=522 toe=sov.shh.reg mode=rest/>
+					<unit des=1148 toe=sov.shh.reg mode=rest/>
+					<unit des=14 toe=sov.at.bg colors=Soviet mode=defend/>
+					<unit des=31 toe=sov.at.bg colors=Soviet mode=defend/>
+					<unit des=1689 toe=sov.lt.at.reg colors=Soviet mode=rest/>
+					<unit des=12 toe=sov.mort.bg colors=Soviet mode=rest/>
+					<unit des=469 toe=sov.mort.reg colors=Soviet mode=rest/>
+					<unit des=36 toe=sov.rocket.reg mode=rest/>
+					<unit des=80 toe=sov.rocket.reg mode=rest/>
+					<unit des=97 toe=sov.rocket.reg mode=rest/>
+					<unit des=309 toe=sov.rocket.reg mode=rest/>
+					<unit des=315 toe=sov.rocket.reg mode=rest/>
+					<unit des=8 toe=sov.rail.bg mode=rest/>
+					<unit name="2nd Air" badge=air size=XXXX>
+						<unit name="2nd Air" badge=air size=XXXX hq= mode=command>
+							<unit des=1554 toe=sov.aa.reg/>
+							<unit des=1555 toe=sov.aa.reg/>
+							<unit des=1605 toe=sov.aa.reg/>
+						<unit des=331 toe=sov.corr.air.sqd/><unit des=50 toe=sov.air.recon.reg/></unit>
+						<unit name="1st Bomber Air Corps">
+							<unit des=1 toe=sov.gds.bmb.air.div mode=rest/>
+							<unit des=293 toe=sov.bmb.air.div mode=rest/>
+						</unit>
+						<unit name="1st Assault Air Corps">
+							<unit des=266 toe=sov.att.air.div mode=rest/>
+							<unit des=292 toe=sov.att.air.div mode=rest/>
+						</unit>
+						<unit name="4th Fighter Air Corps">
+							<unit des=294 toe=sov.ftr.air.div mode=rest/>
+							<unit des=302 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit name="5th Fighter Air Corps">
+							<unit des=8 toe=sov.gds.ftr.air.div mode=rest/>
+							<unit des=205 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit des=291 toe=sov.att.air.div mode=rest/>
+						<unit des=203 toe=sov.ftr.air.div mode=rest/>
+						<unit des=208 toe=sov.ngt.air.div mode=rest/>
+						<unit des=385 toe=sov.lt.bmb.air.reg mode=rest/>
+						<unit des=454 toe=sov.lt.bmb.air.reg mode=rest/>
+						
+						
+					</unit>
+				</unit>
+				<unit name="Southwest Front" badge=army size=XXXXX>
+					<unit des=Southwest toe=sov.front.hq mode=command visibility=6>
+						<unit name="3rd Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=3 toe=sov.aa.div.hq/>
+							<unit des=1084 toe=sov.aa.reg/>
+							<unit des=1089 toe=sov.aa.reg/>
+							<unit des=1114 toe=sov.aa.reg/>
+							<unit des=1118 toe=sov.aa.reg/>
+						</unit>
+						<unit name="4th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=4 toe=sov.aa.div.hq/>
+							<unit des=253 toe=sov.gds.aa.reg/>
+							<unit des=254 toe=sov.gds.aa.reg/>
+							<unit des=606 toe=sov.aa.reg/>
+							<unit des=658 toe=sov.aa.reg/>
+						</unit>
+						<unit name="22nd Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=22 toe=sov.aa.div.hq/>
+							<unit des=1335 toe=sov.aa.reg/>
+							<unit des=1344 toe=sov.aa.reg/>
+							<unit des=1347 toe=sov.aa.reg/>
+							<unit des=1353 toe=sov.aa.reg/>
+						</unit>
+						<unit des=247 toe=sov.aa.reg/>
+						<unit des=303 toe=sov.aa.reg/>
+						<unit des=470 toe=sov.aa.reg/>
+						<unit des=1474 toe=sov.aa.reg/>
+						<unit des=15 toe=sov.eng.bg/>
+						<unit des=44 toe=sov.sp.pur.eng.bg/>
+						<unit des=51 toe=sov.eng.bg/>
+						<unit des=4 toe=sov.bridge.bg/>
+						<unit des=5 toe=sov.bridge.bg/>
+						<unit des=8 toe=sov.bridge.reg/>
+					</unit>
+					<unit name="1st Guards" badge=army size=XXXX colors=Guards>
+						<unit des="1st Guards" abbreviation=1G colors=Guards toe=sov.army.hq mode=command>
+							<unit des=579 colors=Soviet toe=sov.aa.reg/>
+							<unit des=580 colors=Soviet toe=sov.aa.reg/>
+							<unit des=139 colors=Soviet toe=sov.aa.bn/>
+							<unit des=62 colors=Soviet toe=sov.eng.bg/>
+							<unit des=351 colors=Soviet toe=sov.eng.bn/>
+							<unit des=358 colors=Soviet toe=sov.eng.bn/>
+						</unit>
+						<unit name="6th Guards Rifle" badge=inf size=XXX colors=Guards mode=defend>
+							<unit des="6th Guards" toe=sov.corps.hq/>
+							<unit des=57 toe=sov.gds.rifle.div/>
+							<unit des=53 toe=sov.gds.rifle.div/>
+							<unit des=195 toe=sov.rifle.div colors=Soviet/>
+							<unit des=42 toe=sov.gds.art.reg/>
+							<unit des=536 colors=Soviet toe=sov.at.reg/>
+						</unit>
+						<unit name="33rd Rifle" size=XXX badge=inf mode=defend colors=Soviet>
+							<unit des=33 toe=sov.corps.hq/>
+							<unit des=230 toe=sov.rifle.div/>
+							<unit des=50 toe=sov.rifle.div/>
+							<unit des=243 toe=sov.rifle.div/>
+							<unit des=253 toe=sov.rifle.bg/>
+							<unit des=174 toe=sov.at.reg/>
+							<unit des=525 toe=sov.mort.reg/>
+						</unit>
+						<unit des=44 toe=sov.gds.rifle.div mode=defend>
+							<unit des=16 toe=sov.mcycle.bn/>
+						</unit>
+						<unit des=60 toe=sov.gds.rifle.div mode=defend>
+							<unit des=518 toe=sov.cannon.reg/>
+							<unit des=35 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="7th Artillery" badge=art size=XX mode=rest colors=Soviet>
+							<unit des=7 toe=sov.art.div.hq/>
+							<unit des=25 toe=sov.how.bg/>
+							<unit des=17 toe=sov.cannon.bg/>
+							<unit des=3 toe=sov.mort.bg/>
+							<unit des=7 toe=sov.obs.bn/>
+						</unit>
+						<unit des=301 toe=sov.rocket.reg mode=rest/>
+					</unit>
+					<unit name="3rd Guards" badge=army size=XXXX colors=Guards>
+						<unit des="3rd Guards" abbreviation=3G colors=Guards toe=sov.army.hq mode=command>
+							<unit des=586 toe=sov.aa.reg colors=Soviet/>
+							<unit des=626 toe=sov.aa.reg colors=Soviet/>
+							<unit des=1257 toe=sov.aa.reg colors=Soviet/>
+							<unit des=60 toe=sov.aa.bn colors=Soviet/>
+							<unit des=322 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="34th Guards Rifle" badge=inf size=XXX colors=Guards mode=defend>
+							<unit des="34th Guards" abbreviation=34G colors=Guards toe=sov.corps.hq/>
+							<unit des=47 toe=sov.gds.rifle.div/>
+							<unit des=61 toe=sov.gds.rifle.div/>
+							<unit des=59 toe=sov.gds.rifle.div/>
+							<unit des=54 toe=sov.mcycle.bn colors=Soviet/>
+							<unit des=30 toe=sov.cannon.bg colors=Soviet/>
+							<unit des=152 toe=sov.how.reg colors=Soviet/>
+							<unit des=179 toe=sov.at.reg colors=Soviet/>
+							<unit des=58 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="32nd Rifle" badge=inf size=XXX colors=Soviet mode=defend>
+							<unit des=32 toe=sov.corps.hq/>
+							<unit des=259 toe=sov.rifle.div colors=Soviet/>
+							<unit des=266 toe=sov.rifle.div colors=Soviet/>
+							<unit des=279 toe=sov.rifle.div colors=Soviet/>
+							<unit des=243 toe=sov.tank.reg colors=Soviet/>
+							<unit des=312 colors=Soviet toe=sov.cannon.reg/>
+							<unit des=1312 toe=sov.at.reg colors=Soviet/>
+							<unit des=23 toe=sov.mort.reg colors=Soviet/>
+							<unit des=1232 toe=sov.cannon.reg colors=Soviet/>
+							<unit des=100 toe=sov.rocket.reg/>
+						</unit>
+						<unit des=78 toe=sov.rifle.div colors=Soviet mode=defend>
+							<unit des=222 toe=sov.gds.cannon.reg/>
+							<unit des=534 toe=sov.at.reg colors=Soviet/>
+							<unit des=52 toe=sov.tank.reg colors=Soviet/>
+						</unit>
+						<unit des=5 toe=sov.gds.motor.bg mode=rest>
+							<unit des=50 toe=sov.mcycle.bn colors=Soviet/>
+						</unit>
+						<unit des=11 toe=sov.tank.bg colors=Soviet mode=rest/>
+						<xunit name="25th NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					</unit>
+					<unit name="8th Guards" badge=army size=XXXX colors=Guards>
+						<unit des="8th Guards" abbreviation=8G colors=Guards toe=sov.army.hq mode=command>
+							<unit des=878 toe=sov.aa.reg colors=Soviet/>
+							<unit des=326 toe=sov.eng.bn colors=Soviet/>
+							<unit des=327 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="28th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="28th Guards" abbreviation=28G colors=Guards toe=sov.corps.hq/>
+							<unit des=39 toe=sov.gds.rifle.div/>
+							<unit des=79 toe=sov.gds.rifle.div/>
+							<unit des=88 toe=sov.gds.rifle.div/>
+							<unit des=5 toe=sov.gds.hvy.tank.reg/>
+							<unit des=99 toe=sov.cannon.reg colors=Soviet/>
+							<unit des=302 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="29th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="29th Guards" abbreviation=29G colors=Guards toe=sov.corps.hq/>
+							<unit des=27 toe=sov.gds.rifle.div/>
+							<unit des=74 toe=sov.gds.rifle.div/>
+							<unit des=82 toe=sov.gds.rifle.div/>
+							<unit des=224 toe=sov.tank.reg colors=Soviet/>
+							<unit des=184 toe=sov.at.reg colors=Soviet/>
+							<unit des=141 toe=sov.mort.reg colors=Soviet/>
+							<unit des=9 toe=sov.gds.hvy.tank.reg/>
+						</unit>
+					</unit>
+					<unit name=6th badge=army size=XXXX>
+						<unit des=6 toe=sov.army.hq mode=command>
+							<unit des=241 toe=sov.aa.reg/>
+							<unit des=1290 toe=sov.aa.reg/>
+							<unit des=126 toe=sov.aa.bn/>
+							<unit des=350 toe=sov.eng.bn/>
+							<unit des=370 toe=sov.eng.bn/>
+						</unit>
+						<unit name="4th Guards Rifle" badge=inf size=XXX colors=Guards mode=defend>
+							<unit des="4th Guards" abbreviation=4G colors=Guards toe=sov.corps.hq/>
+							<unit des=20 toe=sov.rifle.div colors=Soviet/>
+							<unit des=35 toe=sov.gds.rifle.div/>
+							<unit des=228 toe=sov.rifle.div colors=Soviet/>
+							<unit des=263 toe=sov.rifle.div colors=Soviet/>
+							<unit des=1176 toe=sov.at.reg/>
+							<unit des=87 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="26th Guards Rifle" badge=inf size=XXX colors=Guards mode=defend>
+							<unit des="26th Guards" abbreviation=26G colors=Guards toe=sov.corps.hq/>
+							<unit des=6 toe=sov.rifle.div colors=Soviet/>
+							<unit des=41 toe=sov.rifle.div colors=Soviet/>
+							<unit des=62 toe=sov.gds.rifle.div/>
+							<unit des=40 toe=sov.gds.art.reg/>
+							<unit des=33 toe=sov.at.reg/>
+							<unit des=75 toe=sov.rocket.reg/>
+						</unit>
+						<unit name="34th Rifle" badge=inf size=XXX mode=defend>
+							<unit des=34 toe=sov.corps.hq/>
+							<unit des=152 toe=sov.rifle.div/>
+							<unit des=267 toe=sov.rifle.div/>
+							<unit des=212 toe=sov.tank.reg colors=Soviet/>
+							<unit des=1249 toe=sov.at.reg/>
+							<unit des=524 toe=sov.mort.reg/>
+						</unit>
+						<unit des=25 toe=sov.gds.rifle.div mode=defend>
+							<unit des=170 toe=sov.gds.cannon.reg/>
+							<unit des=115 toe=sov.rocket.bn/>
+						</unit>
+						<unit des=38 toe=sov.gds.rifle.div mode=defend/>
+						<unit name="11th Artillery" size=XX badge=art colors=Soviet mode=rest>
+							<unit des=11 toe=sov.art.div.hq/>
+							<unit des=31 toe=sov.la.bg/>
+							<unit des=40 toe=sov.how.bg/>
+							<unit des=45 toe=sov.cannon.bg/>
+							<unit des=11 toe=sov.obs.bn/>
+						</unit>
+						<unit des=115 toe=sov.tank.bg colors=Soviet mode=rest/>
+					</unit>
+					<unit name=12th badge=army size=XXXX>
+						<unit des=12 toe=sov.army.hq mode=command>
+							<unit des=1587 toe=sov.aa.reg/>
+							<unit des=181 toe=sov.eng.bn/>
+							<unit des=269 toe=sov.eng.bn/>
+						</unit>
+						<unit des=172 toe=sov.rifle.div mode=rest>
+							<unit des=56 toe=sov.mcycle.bn/>
+						</unit>
+						<unit des=203 toe=sov.rifle.div mode=rest>
+							<unit des=1248 toe=sov.at.reg/>
+						</unit>
+						<unit des=244 toe=sov.rifle.div mode=rest>
+							<unit des=103 toe=sov.gds.cannon.reg/>
+						</unit>
+						<unit des=333 toe=sov.rifle.div mode=rest>
+							<unit des=141 toe=sov.tank.reg colors=Soviet/>
+							<unit des=531 toe=sov.mort.reg/>
+						</unit>
+						<unit des=350 toe=sov.rifle.div mode=rest/>
+					</unit>
+					<unit name=46th badge=army size=XXXX>
+						<unit des=46 toe=sov.army.hq mode=command>
+							<unit des=1654 toe=sov.aa.reg/>
+							<unit des=68 toe=sov.eng.bn/>
+							<unit des=273 toe=sov.eng.bn/>
+						</unit>
+						<unit des=31 toe=sov.rifle.div mode=rest>
+							<unit des=462 toe=sov.mort.reg/>
+						</unit>
+						<unit des=223 toe=sov.rifle.div mode=rest/>
+						<unit des=236 toe=sov.rifle.div mode=rest/>
+						<unit des=353 toe=sov.rifle.div mode=rest/>
+						<unit des=394 toe=sov.rifle.div mode=rest>
+							<unit des=437 toe=sov.at.reg/>
+						</unit>
+						<unit des=409 toe=sov.rifle.div mode=rest/>
+					</unit>
+					<unit name=57th badge=army size=XXXX>
+						<unit des=57 toe=sov.army.hq mode=command>
+							<unit des=71 toe=sov.aa.reg/>
+							<unit des=227 toe=sov.aa.bn/>
+						</unit>
+						<unit name="27th Guards Rifle" badge=inf size=XXX colors=Guards mode=rest>
+							<unit des="27th Guards" abbreviation=27G colors=Guards toe=sov.corps.hq/>
+							<unit des=14 toe=sov.gds.rifle.div/>
+							<unit des=48 toe=sov.gds.rifle.div/>
+							<unit des=58 toe=sov.gds.rifle.div/>
+						</unit>
+						<unit des=19 toe=sov.rifle.div mode=defend>
+							<unit des=179 toe=sov.tank.reg colors=Soviet/>
+							<unit des=9 toe=sov.gds.cannon.bg/>
+							<unit des=45 toe=sov.gds.mort.reg/>
+						</unit>
+						<unit des=24 toe=sov.rifle.div mode=defend>
+							<unit des=173 toe=sov.tank.reg colors=Soviet/>
+							<unit des=1110 toe=sov.cannon.reg/>
+						</unit>
+						<unit des=52 toe=sov.rifle.div mode=defend>
+							<unit des=26 toe=sov.la.bg/>
+							<unit des=595 toe=sov.lt.at.reg colors=Soviet/>
+							<unit des=523 toe=sov.mort.reg colors=Soviet/>
+						</unit>
+						<unit des=113 toe=sov.rifle.div mode=defend>
+							<unit des=374 toe=sov.lt.at.reg colors=Soviet/>
+							<unit des=1 toe=sov.dest.bg/>
+						</unit>
+						<unit des=303 toe=sov.rifle.div mode=defend>
+							<unit des=303 toe=sov.gds.mort.reg/>
+						</unit>
+					</unit>
+					<unit des=104 toe=sov.rifle.bg mode=rest>
+						<unit des=62 toe=sov.rocket.reg/>
+					</unit>
+					<unit name="1st Guards Cavalry" size=XXX badge=cav colors=Guards mode=rest>
+						<unit des="1st Guards Cavalry" abbreviation=1GC colors=Guards toe=sov.corps.hq/>
+						<unit des=1 toe=sov.gds.cav.div/>
+						<unit des=2 toe=sov.gds.cav.div/>
+						<unit des=7 toe=sov.gds.cav.div/>
+						<unit des=143 toe=sov.gds.at.reg/>
+						<unit des=1 toe=sov.gds.mcycle.bn/>
+						<unit des=319 toe=sov.aa.reg colors=Soviet/>
+						<unit des=1 toe=sov.gds.at.bn/>
+						<unit des=49 toe=sov.mort.bn/>
+						<unit des=406 toe=sov.rocket.bn/>
+					</unit>
+					<unit name="1st Guards Mechanized" size=XXX badge=mech colors=Guards mode=rest carriers=ftrack>
+						<unit des="1st Guards Mechanized" toe=sov.corps.hq/>
+						<unit des=1 toe=sov.gds.mech.bg/>
+						<unit des=2 toe=sov.gds.mech.bg/>
+						<unit des=3 toe=sov.gds.mech.bg/>
+						<unit des=1544 toe=sov.hvy.su.reg colors=Soviet note=su152s/>
+						<unit des=116 toe=sov.gds.art.reg note="3Bns, each 8 76mm + 4 122mm how"/>
+						<unit des=267 toe=sov.mort.reg colors=Soviet/>
+						<unit des=407 toe=sov.rocket.bn/>
+						<unit des=1504 toe=sov.lt.at.reg colors=Soviet/>
+						<unit des=741 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+						<unit des=1699 toe=sov.aa.reg colors=Soviet/>
+						<unit des=84 toe=sov.mcycle.bn colors=Soviet/>
+						<unit des=54 toe=sov.gds.sap.bn/>
+						<unit des=75 toe=sov.gds.sig.bn/>
+						<unit des=48 toe=sov.gds.med.bn/>
+						<unit des=40 toe=sov.rep.bn colors=Soviet/>
+						<unit des=101 toe=sov.rep.bn colors=Soviet/>
+						<unit des=61 toe=sov.rocket.reg/>
+					</unit>
+					<unit name="2nd Tank" size=XXX badge=arm colors=Soviet mode=rest>
+						<unit des="2nd Tank" toe=sov.corps.hq/>
+						<unit des=26 toe=sov.tank.bg/>
+						<unit des=99 toe=sov.tank.bg/>
+						<unit des=169 toe=sov.tank.bg/>
+						<unit des=58 toe=sov.motor.bg/>
+						<unit des=1698 toe=sov.aa.reg note="16 37mm AA"/>
+						<unit des=269 toe=sov.mort.reg/>
+						<unit des=307 toe=sov.rocket.bn/>
+						<unit des=48 toe=sov.lt.at.reg/>
+						<unit des=1502 toe=sov.lt.at.reg/>
+						<unit des=83 toe=sov.mcycle.bn/>
+						<unit des=74 toe=sov.mot.sap.bn/>
+						<unit des=804 toe=sov.sig.bn/>
+					</unit>
+					<unit name="23rd Tank" size=XXX badge=arm colors=Soviet mode=rest>
+						<unit des="23rd Tank" toe=sov.corps.hq/>
+						<unit des=135 toe=sov.tank.bg/>
+						<unit des=3 toe=sov.tank.bg/>
+						<unit des=39 toe=sov.tank.bg/>
+						<unit des=56 toe=sov.motor.bg/>
+						<unit des=1443 toe=sov.su.reg colors=Soviet/>
+						<unit des=1501 toe=sov.lt.at.reg/>
+						<unit des=457 toe=sov.mort.reg/>
+						<unit des=1697 toe=sov.aa.reg/>
+						<unit des=739 toe=sov.at.bn/>
+						<unit des=442 toe=sov.rocket.bn/>
+						<unit des=82 toe=sov.mcycle.bn/>
+						<unit des=10 toe=sov.gds.tank.reg/>
+					</unit>
+					<unit name="9th Artillery" badge=art size=XX mode=rest colors=Soviet>
+						<unit des=9 toe=sov.art.div.hq/>
+						<unit des=23 toe=sov.how.bg/>
+						<unit des=10 toe=sov.mort.bg/>
+						<unit des=9 toe=sov.obs.bn/>
+					</unit>
+					<unit des=9 toe=sov.gds.tank.bg mode=rest>
+						<unit des=10 toe=sov.smg.bn/>
+					</unit>
+					<unit des=3 toe=sov.gds.mcycle.reg mode=rest/>
+					<unit des=11 toe=sov.la.bg mode=rest/>
+					<unit des=9 toe=sov.at.bg note="60 AT; 3 AT Rgts" mode=rest/>
+					<unit des=10 toe=sov.at.bg mode=rest/>
+					<unit des=11 toe=sov.at.bg note="60 AT; 3 AT Rgts" mode=rest/>
+					<unit des=9 toe=sov.rail.bg mode=rest/>
+					<xunit name="2nd NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<xunit name="90th NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<xunit name="91st NKVD" toe=sov.nkvd.reg colors=NKVD mode=security/>
+					<unit name="17th Air" badge=air size=XXXX>
+						<unit name="17th Air" badge=air size=XXXX hq= mode=command>
+						<unit des=39 toe=sov.air.recon.reg/></unit>
+						<unit name="1st Mixed Air Corps">
+							<unit des=5 toe=sov.gds.att.air.div mode=rest/>
+							<unit des=288 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit name="3rd Mixed Air Corps">
+							<unit des=290 toe=sov.att.air.div mode=rest/>
+							<unit des=207 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit name="9th Mixed Air Corps">
+							<unit des=305 toe=sov.att.air.div mode=rest/>
+							<unit des=295 toe=sov.ftr.air.div mode=rest/>
+						</unit>
+						<unit des=244 toe=sov.bmb.air.div mode=rest/>
+						<unit des=306 toe=sov.att.air.div mode=rest/>
+						<unit des=262 toe=sov.ngt.air.div mode=rest/>
+						
+					</unit>
+				</unit>
+				<unit name="STAVKA Reserve" size=XXXXXX>
+					<unit des="STAVKA Reserve" toe=sov.res.hq mode=command>
+						<unit des=22 toe=armd.trn/>
+						<unit des=59 toe=armd.trn/>
+						<unit des=56 toe=sov.bridge.bn/>
+						<unit des=85 toe=sov.bridge.bn/>
+					</unit>
+					<unit name="Steppe Front" badge=army size=XXXXX>
+						<unit des=Steppe toe=sov.front.hq mode=command visibility=6>
+							<unit name="11th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+								<unit des=11 toe=sov.aa.div.hq/>
+								<unit des=804 toe=sov.aa.reg/>
+								<unit des=976 toe=sov.aa.reg/>
+								<unit des=987 toe=sov.aa.reg/>
+								<unit des=996 toe=sov.aa.reg/>
+							</unit>
+							<unit des=8 toe=sov.eng.bg colors=Soviet/>
+							<unit des=27 toe=sov.sp.pur.eng.bg/>
+							<unit des=7 toe=sov.bridge.bn/>
+							<unit des=19 toe=sov.bridge.bn/>
+							<unit des=40 toe=sov.bridge.bn/>
+							<unit des=246 toe=sov.eng.bn/>
+							<unit des=247 toe=sov.eng.bn/>
+							<unit des=248 toe=sov.eng.bn/>
+							<unit des=250 toe=sov.eng.bn/>
+							<unit des=284 toe=sov.eng.bn/>
+						</unit>
+						<unit name="4th Guards" badge=army size=XXXX colors=Guards>
+							<unit des="4th Guards" abbreviation=4G colors=Guards toe=sov.army.hq mode=command>
+								<unit name="27th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+									<unit des=27 toe=sov.aa.div.hq/>
+									<unit des=1354 toe=sov.aa.reg/>
+									<unit des=1358 toe=sov.aa.reg/>
+									<unit des=1364 toe=sov.aa.reg/>
+									<unit des=1170 toe=sov.aa.reg/>
+								</unit>
+								<unit des=48 toe=sov.eng.bn colors=Soviet/>
+							</unit>
+							<unit name="20th Guards Rifle" badge=inf size=XXX mode=rest>
+								<unit des="20th Guards" toe=sov.corps.hq/>
+								<unit des=5 toe=sov.gds.air.div/>
+								<unit des=7 toe=sov.gds.air.div/>
+								<unit des=8 toe=sov.gds.air.div/>
+								<unit des=452 toe=sov.at.reg colors=Soviet/>
+								<unit des=466 toe=sov.mort.reg colors=Soviet/>
+							</unit>
+							<unit name="21st Guards Rifle" badge=inf size=XXX mode=rest>
+								<unit des="21st Guards" toe=sov.corps.hq/>
+								<unit des=68 toe=sov.gds.rifle.div/>
+								<unit des=69 toe=sov.gds.rifle.div/>
+								<unit des=80 toe=sov.gds.rifle.div/>
+								<unit des=1317 toe=sov.at.reg colors=Soviet/>
+								<unit des=96 toe=sov.rocket.reg/>
+							</unit>
+							<unit name="3rd Guards Tank" size=XXX badge=arm colors=Guards mode=rest>
+								<unit des="3rd Guards Tank" abbreviation=3GT colors=Guards toe=sov.corps.hq/>
+								<unit des=18 toe=sov.gds.tank.bg note=2bns/>
+								<unit des=19 toe=sov.gds.tank.bg note=2bns/>
+								<unit des=2 toe=sov.gds.motor.bg/>
+								<unit des=1436 toe=sov.su.reg colors=Soviet/>
+								<unit des=1701 toe=sov.aa.reg note="16 37mm AA" colors=Soviet/>
+								<unit des=324 toe=sov.rocket.bn/>
+								<unit des=266 toe=sov.mort.reg colors=Soviet/>
+								<unit des=1496 toe=sov.lt.at.reg colors=Soviet/>
+								<unit des=749 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+								<unit des=76 toe=sov.mcycle.bn colors=Soviet/>
+							</unit>
+						</unit>
+						<unit name="5th Guards" badge=army size=XXXX colors=Guards>
+							<unit des="5th Guards" abbreviation=5G colors=Guards toe=sov.army.hq mode=command>
+								<unit name="29th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+									<unit des=29 toe=sov.aa.div.hq/>
+									<unit des=1360 toe=sov.aa.reg/>
+									<unit des=1366 toe=sov.aa.reg/>
+									<unit des=1372 toe=sov.aa.reg/>
+									<unit des=1374 toe=sov.aa.reg/>
+								</unit>
+								<unit des=256 toe=sov.eng.bn colors=Soviet/>
+								<unit des=431 toe=sov.eng.bn colors=Soviet/>
+							</unit>
+							<unit name="32nd Guards Rifle" badge=inf size=XXX mode=rest>
+								<unit des="32nd Guards" toe=sov.corps.hq/>
+								<unit des=13 toe=sov.gds.rifle.div/>
+								<unit des=66 toe=sov.gds.rifle.div/>
+								<unit des=6 toe=sov.gds.air.div/>
+								<unit des=308 toe=sov.rocket.reg/>
+								<unit des=301 toe=sov.lt.at.reg colors=Soviet/>
+							</unit>
+							<unit name="33rd Guards Rifle" badge=inf size=XXX mode=rest>
+								<unit des="33rd Guards" toe=sov.corps.hq/>
+								<unit des=95 toe=sov.gds.rifle.div/>
+								<unit des=97 toe=sov.gds.rifle.div/>
+								<unit des=9 toe=sov.gds.air.div/>
+								<unit des=42 toe=sov.gds.rifle.div/>
+								<unit des=1322 toe=sov.lt.at.reg colors=Soviet/>
+							</unit>
+							<unit name="10th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+								<unit des="10th Tank" toe=sov.corps.hq/>
+								<unit des=178 toe=sov.tank.bg/>
+								<unit des=183 toe=sov.tank.bg/>
+								<unit des=186 toe=sov.tank.bg/>
+								<unit des=11 toe=sov.motor.bg/>
+								<unit des=1450 toe=sov.su.reg/>
+								<unit des=287 toe=sov.mort.reg/>
+								<unit des=727 toe=sov.lt.at.reg/>
+								<unit des=1693 toe=sov.aa.reg/>
+								<unit des=77 toe=sov.mcycle.bn/>
+								<unit des=30 toe=sov.ac.bn/>
+								<unit des=128 toe=sov.rocket.bn/>
+							</unit>
+						</unit>
+						<unit name=27th badge=army size=XXXX>
+							<unit des=27 toe=sov.army.hq mode=command>
+								<unit name="23rd Anti-Aircraft" size=XX badge=aa colors=Soviet>
+									<unit des=23 toe=sov.aa.div.hq/>
+									<unit des=1064 toe=sov.aa.reg/>
+									<unit des=1342 toe=sov.aa.reg/>
+									<unit des=1336 toe=sov.aa.reg/>
+									<unit des=1348 toe=sov.aa.reg/>
+								</unit>
+								<unit des=25 toe=sov.eng.bn/>
+								<unit des=38 toe=sov.eng.bn/>
+							</unit>
+							<unit des=71 toe=sov.rifle.div mode=defend>
+								<unit des=680 toe=sov.at.reg colors=Soviet/>
+							</unit>
+							<unit des=147 toe=sov.rifle.div colors=Soviet mode=defend>
+								<unit des=39 colors=Soviet toe=sov.tank.reg/>
+							</unit>
+							<unit des=155 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=480 toe=sov.mort.reg colors=Soviet/>
+							</unit>
+							<unit des=163 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=47 toe=sov.rocket.reg/>
+							</unit>
+							<unit des=166 toe=sov.rifle.div colors=Soviet mode=rest/>
+							<unit des=241 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=1070 toe=sov.at.reg colors=Soviet/>
+							</unit>
+							<unit des=93 colors=Soviet toe=sov.tank.bg mode=rest/>
+						</unit>
+						<unit name=47th badge=army size=XXXX>
+							<unit des=47 toe=sov.army.hq mode=command>
+								<unit name="21st Anti-Aircraft" size=XX badge=aa colors=Soviet>
+									<unit des=21 toe=sov.aa.div.hq/>
+									<unit des=1044 toe=sov.aa.reg/>
+									<unit des=1334 toe=sov.aa.reg/>
+									<unit des=1340 toe=sov.aa.reg/>
+									<unit des=1346 toe=sov.aa.reg/>
+								</unit>
+								<unit des=91 toe=sov.eng.bn/>
+							</unit>
+							<unit name="21st Rifle" badge=inf size=XXX mode=rest>
+								<unit des=21 toe=sov.corps.hq/>
+								<unit des=23 toe=sov.rifle.div colors=Soviet/>
+								<unit des=218 toe=sov.rifle.div colors=Soviet/>
+								<unit des=337 toe=sov.rifle.div colors=Soviet/>
+								<unit des=269 toe=sov.at.reg colors=Soviet/>
+								<unit des=83 toe=sov.rocket.reg/>
+							</unit>
+							<unit name="23rd Rifle" badge=inf size=XXX mode=rest>
+								<unit des=23 toe=sov.corps.hq/>
+								<unit des=29 toe=sov.rifle.div colors=Soviet/>
+								<unit des=30 toe=sov.rifle.div colors=Soviet/>
+								<unit des=38 toe=sov.rifle.div colors=Soviet/>
+								<unit des=460 toe=sov.mort.reg colors=Soviet/>
+								<unit des=1593 toe=sov.at.reg colors=Soviet/>
+							</unit>
+						</unit>
+						<unit name=53rd badge=army size=XXXX>
+							<unit des=53 toe=sov.army.hq mode=command>
+								<unit name="30th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+									<unit des=30 toe=sov.aa.div.hq/>
+									<unit des=1361 toe=sov.aa.reg/>
+									<unit des=1367 toe=sov.aa.reg/>
+									<unit des=1373 toe=sov.aa.reg/>
+									<unit des=1375 toe=sov.aa.reg/>
+								</unit>
+								<unit des=11 toe=sov.eng.bn colors=Soviet/>
+								<unit des=17 toe=sov.eng.bn colors=Soviet/>
+							</unit>
+							<unit des=28 toe=sov.gds.rifle.div mode=rest>
+								<unit des=34 colors=Soviet toe=sov.tank.reg/>
+							</unit>
+							<unit des=84 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=232 toe=sov.lt.at.reg colors=Soviet/>
+							</unit>
+							<unit des=116 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=35 colors=Soviet toe=sov.tank.reg/>
+							</unit>
+							<unit des=214 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=89 toe=sov.rocket.reg/>
+							</unit>
+							<unit des=233 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=461 toe=sov.mort.reg colors=Soviet/>
+							</unit>
+							<unit des=252 toe=sov.rifle.div colors=Soviet mode=rest/>
+							<unit des=299 toe=sov.rifle.div colors=Soviet mode=rest>
+								<unit des=1316 toe=sov.lt.at.reg colors=Soviet/>
+							</unit>
+						</unit>
+						<unit name="5th Guards Tank" badge=arm size=XXXX colors=Guards>
+							<unit des="5th Guards Tank" abbreviation=5GT colors=Guards toe=sov.tank.army.hq mode=command>
+								<unit name="6th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+									<unit des=6 toe=sov.aa.div.hq/>
+									<unit des=146 toe=sov.aa.reg/>
+									<unit des=366 toe=sov.aa.reg/>
+									<unit des=516 toe=sov.aa.reg/>
+									<unit des=1062 toe=sov.aa.reg/>
+								</unit>
+								<unit des=377 toe=sov.eng.bn colors=Soviet/>
+							</unit>
+							<unit name="5th Guards Mechanized" size=XXX badge=mech colors=Guards mode=rest>
+								<unit des="5th Guards Mechanized" toe=sov.corps.hq/>
+								<unit des=24 toe=sov.gds.tank.bg/>
+								<unit des=10 toe=sov.gds.mech.bg/>
+								<unit des=11 toe=sov.gds.mech.bg/>
+								<unit des=12 toe=sov.gds.mech.bg/>
+								<unit des=1447 toe=sov.su.reg colors=Soviet/>
+								<unit des=285 toe=sov.mort.reg note="120mm Mtr" colors=Soviet/>
+								<unit des=409 toe=sov.rocket.bn/>
+								<unit des=104 toe=sov.gds.at.reg/>
+								<unit des=737 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+								<unit des=2 toe=sov.gds.mcycle.bn/>
+								<unit des=4 toe=sov.gds.ac.bn/>
+								<unit des=388 toe=sov.sig.bn colors=Soviet/>
+								<unit des=46 toe=sov.med.bn colors=Soviet/>
+								<unit des=86 toe=sov.rep.bn colors=Soviet/>
+								<unit des=689 toe=sov.lt.at.reg colors=Soviet/>
+								<unit des=1549 toe=sov.hvy.su.reg colors=Soviet/>
+								<unit des=678 toe=sov.how.reg colors=Soviet/>
+							</unit>
+							<unit name="29th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+								<unit des="29th Tank" toe=sov.corps.hq/>
+								<unit des=25 toe=sov.tank.bg/>
+								<unit des=31 toe=sov.tank.bg/>
+								<unit des=32 toe=sov.tank.bg/>
+								<unit des=53 toe=sov.motor.bg/>
+								<unit des=1446 toe=sov.su.reg/>
+								<unit des=271 toe=sov.mort.reg/>
+								<unit des=108 toe=sov.lt.at.reg/>
+								<unit des=747 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+								<unit des=75 toe=sov.mcycle.bn/>
+								<unit des=38 toe=sov.ac.bn/>
+								<unit des=193 toe=sov.mot.sap.bn colors=Soviet/>
+								<unit des=76 toe=sov.rocket.reg/>
+							</unit>
+							<unit des=53 toe=sov.gds.tank.reg mode=rest/>
+							<unit des=1 toe=sov.gds.mcycle.reg mode=rest/>
+						</unit>
+						<unit name="35th Rifle" size=XXX badge=inf mode=rest>
+							<unit des=35 toe=sov.corps.hq/>
+						</unit>
+						<unit name="3rd Guards Cavalry" size=XXX badge=cav colors=Guards mode=rest>
+							<unit des="3rd Guards Cavalry" toe=sov.corps.hq/>
+							<unit des=32 toe=sov.cav.div colors=Soviet/>
+							<unit des=5 toe=sov.gds.cav.div note="No tanks, Don Cossacks"/>
+							<unit des=6 toe=sov.gds.cav.div/>
+							<unit des=144 toe=sov.gds.at.reg/>
+							<unit des=3 toe=sov.gds.at.bn note="12 85mm AT"/>
+							<unit des=64 toe=sov.rocket.bn/>
+							<unit des=1731 toe=sov.aa.reg note="16 37mm AA" colors=Soviet/>
+						</unit>
+						<unit name="5th Guards Cavalry" size=XXX badge=cav colors=Guards mode=rest>
+							<unit des="5th Guards Cavalry" toe=sov.corps.hq/>
+							<unit des=63 toe=sov.cav.div colors=Soviet/>
+							<unit des=11 toe=sov.gds.cav.div/>
+							<unit des=12 toe=sov.gds.cav.div/>
+							<unit des=150 toe=sov.gds.at.reg/>
+							<unit des=5 toe=sov.gds.at.bn note="12 85mm AT"/>
+							<unit des=72 toe=sov.rocket.bn/>
+							<unit des=585 toe=sov.aa.reg note="16 37mm AA" colors=Soviet/>
+						</unit>
+						<unit name="7th Guards Cavalry" size=XXX badge=cav colors=Guards mode=rest>
+							<unit des="7th Guards Cavalry" toe=sov.corps.hq/>
+							<unit des=14 toe=sov.gds.cav.div note=114tr/>
+							<unit des=15 toe=sov.gds.cav.div note=57tr/>
+							<unit des=16 toe=sov.gds.cav.div/>
+							<unit des=145 toe=sov.gds.at.reg/>
+							<unit des=7 toe=sov.gds.at.bn note="12 85mm AT"/>
+							<unit des=57 toe=sov.rocket.bn/>
+							<unit des=1733 toe=sov.aa.reg note="16 37mm AA" colors=Soviet/>
+						</unit>
+						<unit name="4th Guards Tank" size=XXX badge=arm colors=Guards mode=rest>
+							<unit des="4th Guards Tank" toe=sov.corps.hq/>
+							<unit des=12 toe=sov.gds.tank.bg note=2bns/>
+							<unit des=13 toe=sov.gds.tank.bg note=2bns/>
+							<unit des=14 toe=sov.gds.tank.bg note=2bns/>
+							<unit des=3 toe=sov.gds.motor.bg/>
+							<unit des=1451 toe=sov.su.reg colors=Soviet/>
+							<unit des=120 toe=sov.gds.aa.reg note="16 37mm AA"/>
+							<unit des=264 toe=sov.mort.reg colors=Soviet/>
+							<unit des=756 toe=sov.lt.at.reg colors=Soviet/>
+							<unit des=752 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+							<unit des=76 toe=sov.mcycle.bn colors=Soviet/>
+							<unit des=106 toe=sov.mot.sap.bn colors=Soviet/>
+							<unit des=413 toe=sov.sig.bn colors=Soviet/>
+							<unit des=85 toe=sov.rep.bn colors=Soviet/>
+							<unit des=92 toe=sov.rep.bn colors=Soviet/>
+						</unit>
+						<unit name="3rd Guards Mechanized" size=XXX badge=mech colors=Guards mode=rest>
+							<unit des="3rd Guards Mechanized" toe=sov.corps.hq/>
+							<unit des=35 toe=sov.gds.tank.bg/>
+							<unit des=7 toe=sov.gds.mech.bg/>
+							<unit des=8 toe=sov.gds.mech.bg/>
+							<unit des=9 toe=sov.gds.mech.bg/>
+							<unit des=1831 toe=sov.hvy.su.reg colors=Soviet/>
+							<unit des=129 toe=sov.mort.reg colors=Soviet/>
+							<unit des=334 toe=sov.rocket.bn/>
+							<unit des=1510 toe=sov.lt.at.reg colors=Soviet/>
+							<unit des=743 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+							<unit des=1705 toe=sov.aa.reg note="16 37mm AA" colors=Soviet/>
+							<unit des=1 toe=sov.gds.mcycle.bn/>
+							<unit des=62 toe=sov.gds.sap.bn/>
+							<unit des=11 toe=sov.gds.sig.bn/>
+							<unit des=554 toe=sov.med.bn colors=Soviet/>
+							<unit des=79 toe=sov.rep.bn colors=Soviet/>
+						</unit>
+						<unit name="1st Mechanized" size=XXX badge=mech colors=Soviet mode=rest x=44 y=2>
+							<unit des="1st Mechanized" toe=sov.corps.hq/>
+							<unit des=219 toe=sov.tank.bg/>
+							<unit des=19 toe=sov.mech.bg/>
+							<unit des=35 toe=sov.mech.bg/>
+							<unit des=37 toe=sov.mech.bg/>
+							<unit des=1382 toe=sov.aa.reg note="16 37mm AA"/>
+							<unit des=294 toe=sov.mort.reg note="120mm Mtr"/>
+							<unit des=75 toe=sov.at.reg/>
+							<unit des=751 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=57 toe=sov.mcycle.bn note="includes 22 US m3a1's"/>
+						</unit>
+						<unit name="2nd Mechanized" size=XXX badge=mech colors=Soviet mode=rest>
+							<unit des="2nd Mechanized" toe=sov.corps.hq/>
+							<unit des=33 toe=sov.tank.bg/>
+							<unit des=18 toe=sov.mech.bg/>
+							<unit des=34 toe=sov.mech.bg/>
+							<unit des=43 toe=sov.mech.bg/>
+							<unit des=1706 toe=sov.aa.reg note="16 37mm AA"/>
+							<unit des=468 toe=sov.mort.reg/>
+							<unit des=410 toe=sov.rocket.bn/>
+							<unit des=79 toe=sov.at.reg/>
+							<unit des=734 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=68 toe=sov.mcycle.bn/>
+						</unit>
+						<unit name="5th Air" badge=air size=XXXX>
+							<unit name="5th Air" badge=air size=XXXX hq= mode=command>
+							</unit>
+							<unit name="7th Mixed Air Corps">
+								<unit des=202 toe=sov.bmb.air.div mode=rest/>
+								<unit des=287 toe=sov.ftr.air.div mode=rest/>
+							</unit>
+							<unit name="8th Mixed Air Corps">
+								<unit des=4 toe=sov.gds.att.air.div mode=rest/>
+								<unit des=264 toe=sov.att.air.div mode=rest/>
+								<unit des=256 toe=sov.ftr.air.div mode=rest/>
+							</unit>
+							<unit name="3rd Fighter Air Corps">
+								<unit des=265 toe=sov.ftr.air.div mode=rest/>
+								<unit des=278 toe=sov.ftr.air.div mode=rest/>
+							</unit>
+							<unit name="7th Fighter Air Corps">
+								<unit des=259 toe=sov.ftr.air.div mode=rest/>
+								<unit des=304 toe=sov.ftr.air.div mode=rest/>
+							</unit>
+							<unit des=69 toe=sov.gds.ftr.air.reg mode=rest/>
+							<unit des=511 toe=sov.air.recon.reg mode=rest/>
+						</unit>
+					</unit>
+					<unit name=11th badge=army size=XXXX>
+						<unit des=11 toe=sov.army.hq mode=rest x=66 y=0>
+							<unit name="31st Anti-Aircraft" size=XX badge=aa colors=Soviet>
+								<unit des=31 toe=sov.aa.div.hq/>
+								<unit des=1376 toe=sov.aa.reg/>
+								<unit des=1380 toe=sov.aa.reg/>
+								<unit des=1386 toe=sov.aa.reg/>
+								<unit des=1392 toe=sov.aa.reg/>
+							</unit>
+							<unit des=202 toe=sov.eng.bn/>
+							<unit des=277 toe=sov.eng.bn/>
+						</unit>
+						<unit name="53rd Rifle" badge=inf size=XXX mode=rest>
+							<unit des=53 toe=sov.corps.hq x=67 y=0 mode=rest/>
+							<unit des=135 toe=sov.rifle.div colors=Soviet x=66 y=1 mode=rest/>
+							<unit des=197 toe=sov.rifle.div colors=Soviet x=67 y=1 mode=rest/>
+							<unit des=369 toe=sov.rifle.div colors=Soviet x=68 y=0 mode=rest>
+								<unit des=1179 toe=sov.at.reg/>
+							</unit>
+						</unit>
+						<unit des=4 toe=sov.rifle.div colors=Soviet mode=rest x=65 y=0/>
+						<unit des=96 toe=sov.rifle.div colors=Soviet mode=rest x=64 y=0>
+							<unit des=90 toe=sov.rocket.reg/>
+						</unit>
+						<unit des=260 toe=sov.rifle.div colors=Soviet mode=rest x=64 y=0>
+							<unit des=225 toe=sov.tank.reg/>
+							<unit des=481 toe=sov.mort.reg/>
+						</unit>
+						<unit des=273 toe=sov.rifle.div colors=Soviet mode=rest x=66 y=3/>
+						<unit des=323 toe=sov.rifle.div colors=Soviet mode=rest x=64 y=1>
+							<unit des=1321 toe=sov.at.reg/>
+						</unit>
+					</unit>
+					<unit name=52nd badge=army size=XXXX>
+						<unit des=52 toe=sov.army.hq mode=command>
+							<unit des=366 toe=sov.eng.bn/>
+						</unit>
+						<unit des=93 toe=sov.rifle.div colors=Soviet mode=rest>
+							<unit des=17 toe=sov.rocket.reg/>
+						</unit>
+						<unit des=136 toe=sov.rifle.div colors=Soviet mode=rest/>
+						<unit des=138 toe=sov.rifle.div colors=Soviet mode=rest/>
+						<unit des=253 toe=sov.rifle.div colors=Soviet mode=rest/>
+						<unit des=254 toe=sov.rifle.div mode=rest/>
+						<unit des=294 toe=sov.rifle.div mode=rest/>
+						<unit des=373 toe=sov.rifle.div colors=Soviet mode=rest/>
+					</unit>
+					<unit name=68th badge=army size=XXXX>
+						<unit des=68 toe=sov.army.hq mode=command>
+							<unit des=726 toe=sov.aa.reg/>
+							<unit des=122 toe=sov.eng.bn/>
+							<unit des=175 toe=sov.eng.bn/>
+						</unit>
+						<unit des=153 toe=sov.rifle.div mode=rest>
+							<unit des=211 toe=sov.gds.cannon.reg/>
+						</unit>
+						<unit des=154 toe=sov.rifle.div mode=rest/>
+						<unit des=156 toe=sov.rifle.div mode=rest>
+							<unit des=1427 toe=sov.at.reg/>
+						</unit>
+						<unit des=157 toe=sov.rifle.div mode=rest/>
+						<unit des=159 toe=sov.rifle.div mode=rest/>
+						<unit des=192 toe=sov.rifle.div mode=rest/>
+						<unit des=199 toe=sov.rifle.div mode=rest>
+							<unit des=77 toe=sov.rocket.reg/>
+						</unit>
+					</unit>
+					<unit name="3rd Reserve" badge=army size=XXXX>
+						<unit des="3rd Reserve" abbreviation=3R toe=sov.army.hq mode=command>
+							<unit des=260 toe=sov.eng.bn/>
+						</unit>
+						<unit des=51 toe=sov.rifle.div colors=Soviet mode=rest>
+							<unit des=649 toe=sov.at.reg/>
+						</unit>
+						<unit des=62 toe=sov.rifle.div mode=rest>
+							<unit des=1072 toe=sov.at.reg/>
+						</unit>
+						<unit des=63 toe=sov.rifle.div mode=rest/>
+						<unit des=70 toe=sov.rifle.div mode=rest/>
+						<unit des=76 toe=sov.rifle.div mode=rest/>
+						<unit des=95 toe=sov.rifle.div mode=rest/>
+						<unit des=119 toe=sov.rifle.div colors=Soviet mode=rest/>
+						<unit des=174 toe=sov.rifle.div colors=Soviet mode=rest/>
+					</unit>
+					<unit name="3rd Guards Tank" badge=arm size=XXXX colors=Guards>
+						<unit des="3rd Guards Tank" abbreviation=3GT colors=Guards toe=sov.tank.army.hq mode=command>
+							<unit des=182 toe=sov.eng.bn colors=Soviet/>
+						</unit>
+						<unit name="12th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="12th Tank" toe=sov.corps.hq/>
+							<unit des=106 toe=sov.tank.bg note="full strength"/>
+							<unit des=30 toe=sov.tank.bg note="full strength"/>
+							<unit des=97 toe=sov.tank.bg note="full strength"/>
+							<unit des=13 toe=sov.motor.bg/>
+							<unit des=1417 toe=sov.su.reg/>
+							<unit des=1703 toe=sov.aa.reg note="16 37mm AA"/>
+							<unit des=272 toe=sov.mort.reg/>
+							<unit des=1498 toe=sov.lt.at.reg/>
+							<unit des=757 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=66 toe=sov.mcycle.bn/>
+							<unit des=50 toe=sov.mcycle.reg colors=Soviet/>
+						</unit>
+						<unit name="15th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="15th Tank" toe=sov.corps.hq/>
+							<unit des=88 toe=sov.tank.bg/>
+							<unit des=113 toe=sov.tank.bg/>
+							<unit des=195 toe=sov.tank.bg/>
+							<unit des=52 toe=sov.motor.bg/>
+							<unit des=1418 toe=sov.su.reg/>
+							<unit des=1704 toe=sov.aa.reg note="16 37mm AA"/>
+							<unit des=467 toe=sov.mort.reg/>
+							<unit des=1503 toe=sov.lt.at.reg/>
+							<unit des=733 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=89 toe=sov.ac.bn/>
+						</unit>
+						<unit des=91 toe=sov.tank.bg note="full strength" colors=Soviet mode=rest/>
+					</unit>
+					<unit des=1 toe=sov.gds.air.bg mode=rest/>
+					<unit des=2 toe=sov.gds.air.bg mode=rest/>
+					<unit des=3 toe=sov.gds.air.bg mode=rest/>
+					<unit des=4 toe=sov.gds.air.bg mode=rest/>
+					<unit des=5 toe=sov.gds.air.bg mode=rest/>
+					<unit des=6 toe=sov.gds.air.bg mode=rest/>
+					<unit des=7 toe=sov.gds.air.bg mode=rest/>
+					<unit des=8 toe=sov.gds.air.bg mode=rest/>
+					<unit des=9 toe=sov.gds.air.bg mode=rest/>
+					<unit des=10 toe=sov.gds.air.bg mode=rest/>
+					<unit des=11 toe=sov.gds.air.bg mode=rest/>
+					<unit des=12 toe=sov.gds.air.bg mode=rest/>
+					<unit des=13 toe=sov.gds.air.bg mode=rest/>
+					<unit des=14 toe=sov.gds.air.bg mode=rest/>
+					<unit des=15 toe=sov.gds.air.bg mode=rest/>
+					<unit des=16 toe=sov.gds.air.bg mode=rest/>
+					<unit des=17 toe=sov.gds.air.bg mode=rest/>
+					<unit des=18 toe=sov.gds.air.bg mode=rest/>
+					<unit des=19 toe=sov.gds.air.bg mode=rest/>
+					<unit des=20 toe=sov.gds.air.bg mode=rest/>
+					<unit name="2nd Guards Cavalry" size=XXX badge=cav colors=Guards mode=rest>
+						<unit des="2nd Guards Cavalry" toe=sov.corps.hq/>
+						<unit des=20 toe=sov.cav.div colors=Soviet/>
+						<unit des=3 toe=sov.gds.cav.div note="No tanks, Don Cossacks"/>
+						<unit des=4 toe=sov.gds.cav.div/>
+						<unit des=149 toe=sov.gds.at.reg/>
+						<unit des=2 toe=sov.gds.at.bn note="12 85mm AT"/>
+						<unit des=60 toe=sov.rocket.bn/>
+						<unit des=1730 toe=sov.aa.reg note="16 37mm AA" colors=Soviet/>
+					</unit>
+					<unit name="6th Guards Cavalry" size=XXX badge=cav colors=Guards mode=rest>
+						<unit des="6th Guards Cavalry" toe=sov.corps.hq/>
+						<unit des=8 toe=sov.cav.div colors=Soviet note=154tr/>
+						<unit des=13 toe=sov.gds.cav.div note=250tr/>
+						<unit des=8 toe=sov.gds.cav.div/>
+						<unit des=142 toe=sov.gds.at.reg/>
+						<unit des=1732 toe=sov.aa.reg colors=Soviet/>
+						<unit des=6 toe=sov.gds.at.bn/>
+						<unit des=47 toe=sov.rocket.bn/>
+					</unit>
+					<unit name="5th Mechanized" size=XXX badge=mech mode=rest>
+						<unit des="5th Mechanized" toe=sov.corps.hq/>
+						<unit des=233 toe=sov.tank.bg/>
+						<unit des=2 toe=sov.mech.bg/>
+						<unit des=45 toe=sov.mech.bg/>
+						<unit des=9 toe=sov.mech.bg/>
+						<unit des=1700 toe=sov.aa.reg note="16 37mm AA"/>
+						<unit des=458 toe=sov.mort.reg/>
+						<unit des=1228 toe=sov.at.reg/>
+						<unit des=745 toe=sov.at.bn note="12 85mm AT"/>
+						<unit des=64 toe=sov.mcycle.bn/>
+					</unit>
+					<unit name="18th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+						<unit des="18th Tank" toe=sov.corps.hq/>
+						<unit des=110 toe=sov.tank.bg/>
+						<unit des=170 toe=sov.tank.bg/>
+						<unit des=181 toe=sov.tank.bg/>
+						<unit des=32 toe=sov.motor.bg/>
+						<unit des=36 toe=sov.gds.hvy.tank.reg/>
+						<unit des=1446 toe=sov.su.reg/>
+						<unit des=292 toe=sov.mort.reg/>
+						<unit des=1000 toe=sov.lt.at.reg/>
+						<unit des=736 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+						<unit des=1694 toe=sov.aa.reg/>
+						<unit des=78 toe=sov.mcycle.bn/>
+						<unit des=29 toe=sov.ac.bn/>
+						<unit des=115 toe=sov.mot.sap.bn/>
+						<unit des=419 toe=sov.sig.bn/>
+					</unit>
+					<unit name="25th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+						<unit des="25th Tank" toe=sov.corps.hq/>
+						<unit des=111 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=162 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=175 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=20 toe=sov.motor.bg/>
+						<unit des=1702 toe=sov.aa.reg note="16 37mm AA"/>
+						<unit des=459 toe=sov.mort.reg/>
+						<unit des=1497 toe=sov.lt.at.reg/>
+						<unit des=746 toe=sov.at.bn note="12 85mm AT"/>
+						<unit des=53 toe=sov.mcycle.bn/>
+					</unit>
+					<unit name="23rd Artillery" size=XX badge=art colors=Soviet mode=rest>
+						<unit des=23 toe=sov.art.div.hq/>
+						<unit des=58 toe=sov.how.bg/>
+						<unit des=96 toe=sov.hh.bg colors=Soviet/>
+						<unit des=28 toe=sov.mort.bg colors=Soviet/>
+						<unit des=23 toe=sov.obs.bn/>
+					</unit>
+					<unit name="1st Guards Mortar" size=XX badge=rocket colors=Guards mode=rest>
+						<unit des="1st Guards" toe=sov.art.div.hq/>
+						<unit des=2 toe=sov.rocket.bg/>
+						<unit des=1 toe=sov.obs.bn/>
+					</unit>
+					<unit des=126 toe=sov.tank.reg mode=rest/>
+					<unit des=127 toe=sov.tank.reg mode=rest/>
+					<unit des=1547 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1548 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=86 toe=sov.mcycle.bn mode=rest/>
+					<unit des=89 toe=sov.mcycle.bn mode=rest/>
+					<unit des=137 toe=sov.shh.reg mode=rest/>
+					<unit des=1150 toe=sov.shh.reg mode=rest/>
+					<unit des=753 toe=sov.at.bn mode=rest/>
+					<unit des=754 toe=sov.at.bn mode=rest/>
+					<unit des=756 toe=sov.at.bn mode=rest/>
+					<unit des=227 toe=sov.att.air.div mode=rest/>
+					<unit des=269 toe=sov.ftr.air.div mode=rest/>
+					<unit des=322 toe=sov.ftr.air.div mode=rest/>
+				</unit>
+				<unit name="Moscow Military District" size=XXXXX>
+					<unit des=Moscow toe=sov.mil.dis.hq mode=command>
+						<unit des=12 toe=sov.aero.bn/>
+						<unit des=33 toe=sov.aero.bn/>
+						<unit des=41 toe=sov.aero.bn/>
+						<unit des=56 toe=sov.aero.bn/>
+						<unit des=7 toe=armd.trn/>
+						<unit des=16 toe=armd.trn/>
+						<unit des=23 toe=armd.trn/>
+						<unit des=24 toe=armd.trn/>
+						<unit des=26 toe=armd.trn/>
+						<unit des=39 toe=armd.trn/>
+						<unit des=44 toe=armd.trn/>
+						<unit des=51 toe=armd.trn/>
+						<unit des=53 toe=armd.trn/>
+						<unit des=56 toe=armd.trn/>
+						<unit des=61 toe=armd.trn/>
+						<unit des=79 toe=armd.trn/>
+						<unit name="32nd Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=32 toe=sov.aa.div.hq/>
+							<unit des=1377 toe=sov.aa.reg/>
+							<unit des=1381 toe=sov.aa.reg/>
+							<unit des=1387 toe=sov.aa.reg/>
+							<unit des=1393 toe=sov.aa.reg/>
+						</unit>
+						<unit name="33rd Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=33 toe=sov.aa.div.hq/>
+							<unit des=1378 toe=sov.aa.reg/>
+							<unit des=1382 toe=sov.aa.reg/>
+							<unit des=1388 toe=sov.aa.reg/>
+							<unit des=1394 toe=sov.aa.reg/>
+						</unit>
+						<unit name="34th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=34 toe=sov.aa.div.hq/>
+							<unit des=1379 toe=sov.aa.reg/>
+							<unit des=1383 toe=sov.aa.reg/>
+							<unit des=1389 toe=sov.aa.reg/>
+							<unit des=1395 toe=sov.aa.reg/>
+						</unit>
+						<unit name="35th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=35 toe=sov.aa.div.hq/>
+							<unit des=1384 toe=sov.aa.reg/>
+							<unit des=1390 toe=sov.aa.reg/>
+							<unit des=1396 toe=sov.aa.reg/>
+							<unit des=1398 toe=sov.aa.reg/>
+						</unit>
+						<unit name="36th Anti-Aircraft" size=XX badge=aa colors=Soviet>
+							<unit des=36 toe=sov.aa.div.hq/>
+							<unit des=1385 toe=sov.aa.reg/>
+							<unit des=1391 toe=sov.aa.reg/>
+							<unit des=1397 toe=sov.aa.reg/>
+							<unit des=1399 toe=sov.aa.reg/>
+						</unit>
+						<unit des=1707 toe=sov.aa.reg/>
+						<unit des=1708 toe=sov.aa.reg/>
+						<unit des=1709 toe=sov.aa.reg/>
+						<unit des=1710 toe=sov.aa.reg/>
+						<unit des=1712 toe=sov.aa.reg/>
+						<unit des=1713 toe=sov.aa.reg/>
+						<unit des=1714 toe=sov.aa.reg/>
+						<unit des=1715 toe=sov.aa.reg/>
+						<unit des=1716 toe=sov.aa.reg/>
+						<unit des=1717 toe=sov.aa.reg/>
+						<unit des=1718 toe=sov.aa.reg/>
+						<unit des=1719 toe=sov.aa.reg/>
+						<unit des=1720 toe=sov.aa.reg/>
+						<unit des=1721 toe=sov.aa.reg/>
+						<unit des=67 toe=sov.aa.bn/>
+						<unit des=141 toe=sov.aa.bn/>
+						<unit des=1 toe=sov.aslt.eng.bg/>
+						<unit des=2 toe=sov.aslt.eng.bg/>
+						<unit des=3 toe=sov.aslt.eng.bg/>
+						<unit des=4 toe=sov.aslt.eng.bg/>
+						<unit des=5 toe=sov.aslt.eng.bg/>
+						<unit des=6 toe=sov.aslt.eng.bg/>
+						<unit des=7 toe=sov.aslt.eng.bg/>
+						<unit des=8 toe=sov.aslt.eng.bg/>
+						<unit des=9 toe=sov.aslt.eng.bg/>
+						<unit des=10 toe=sov.aslt.eng.bg/>
+						<unit des=11 toe=sov.aslt.eng.bg/>
+						<unit des=12 toe=sov.aslt.eng.bg/>
+						<unit des=13 toe=sov.aslt.eng.bg/>
+						<unit des=14 toe=sov.aslt.eng.bg/>
+						<unit des=15 toe=sov.aslt.eng.bg/>
+						<unit des=61 toe=sov.eng.bn/>
+						<unit des=88 toe=sov.eng.bn/>
+						<unit des=132 toe=sov.eng.bn/>
+						<unit des=233 toe=sov.eng.bn/>
+						<unit des=245 toe=sov.eng.bn/>
+						<unit des=737 toe=sov.sap.bn/>
+						<unit des=742 toe=sov.sap.bn/>
+						<unit des=124 toe=sov.bridge.bn/>
+					</unit>
+					<unit name="4th Tank" badge=arm size=XXXX>
+						<unit des="4th Tank" abbreviation=4Tk toe=sov.tank.army.hq mode=command>
+							<unit des=88 toe=sov.mot.eng.bn/>
+							<unit des=118 toe=sov.sig.bn/>
+						</unit>
+						<unit name="6th Guards Mechanized" size=XXX badge=mech colors=Guards mode=rest>
+							<unit des="6th Guards Mechanized" toe=sov.corps.hq/>
+							<unit des=16 toe=sov.gds.mech.bg/>
+							<unit des=17 toe=sov.gds.mech.bg/>
+							<unit des=49 toe=sov.mech.bg colors=Soviet/>
+							<unit des=29 toe=sov.tank.reg colors=Soviet/>
+							<unit des=56 toe=sov.tank.reg colors=Soviet/>
+							<unit des=1 toe=sov.gds.su.reg/>
+							<unit des=95 toe=sov.mcycle.bn colors=Soviet/>
+							<unit des=51 toe=sov.gds.at.reg/>
+							<unit des=740 toe=sov.at.bn note="12 85mm AT" colors=Soviet/>
+							<unit des=240 toe=sov.mort.reg colors=Soviet/>
+							<unit des=31 toe=sov.gds.at.bn/>
+							<unit des=22 toe=sov.gds.sap.bn/>
+							<unit des=33 toe=sov.gds.sig.bn/>
+							<unit des=95 toe=sov.rep.bn colors=Soviet/>
+
+							<unit des=1545 toe=sov.hvy.su.reg colors=Soviet/>
+						</unit>
+						<unit name="11th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="11th Tank" toe=sov.corps.hq/>
+							<unit des=20 toe=sov.tank.bg note="2bns t34s"/>
+							<unit des=36 toe=sov.tank.bg note="2bns t34s"/>
+							<unit des=65 toe=sov.tank.bg note="2bns t34s"/>
+							<unit des=12 toe=sov.motor.bg/>
+							<unit des=1493 toe=sov.su.reg/>
+							<unit des=93 toe=sov.mcycle.bn/>
+							<unit des=1507 toe=sov.lt.at.reg/>
+							<unit des=738 toe=sov.at.bn note="12 85mm AT"/>
+							<unit des=243 toe=sov.mort.reg/>
+							<unit des=1388 toe=sov.aa.reg note="16 37mm AA"/>
+							<unit des=51 toe=sov.ac.bn/>
+						</unit>
+						<unit name="30th Tank" size=XXX badge=arm colors=Soviet mode=rest>
+							<unit des="30th Tank" toe=sov.corps.hq/>
+							<unit des=197 toe=sov.tank.bg note="full strength"/>
+							<unit des=243 toe=sov.tank.bg note="full strength"/>
+							<unit des=244 toe=sov.tank.bg note="full strength"/>
+							<unit des=30 toe=sov.motor.bg/>
+							<unit des=1621 toe=sov.su.reg/>
+							<unit des=88 toe=sov.mcycle.bn/>
+							<unit des=1513 toe=sov.lt.at.reg/>
+							<unit des=299 toe=sov.mort.reg/>
+							<unit des=219 toe=sov.aa.reg/>
+							<unit des=742 toe=sov.at.bn/>
+							<unit des=248 toe=sov.rocket.bn/>
+						</unit>
+						<unit des=51 toe=sov.mcycle.reg mode=rest/>
+					</unit>
+					<unit name="7th Mechanized" size=XXX badge=mech mode=rest>
+						<unit des="7th Mechanized" toe=sov.corps.hq/>
+						<unit des=16 toe=sov.mech.bg note=58tr/>
+						<unit des=63 toe=sov.mech.bg note=84tr/>
+						<unit des=64 toe=sov.mech.bg note=177tr/>
+						<unit des=93 toe=sov.tank.bg/>
+					</unit>
+					<unit name="8th Mechanized" size=XXX badge=mech mode=rest>
+						<unit des="8th Mechanized" toe=sov.corps.hq/>
+						<unit des=116 toe=sov.tank.bg/>
+						<unit des=66 toe=sov.mech.bg note=41tr/>
+						<unit des=67 toe=sov.mech.bg note=83tr/>
+						<unit des=68 toe=sov.mech.bg note=139tr/>
+						<unit des=1822 toe=sov.su.reg colors=Soviet/>
+					</unit>
+					<unit name="20th Tank" size=XXX badge=arm colors=Soviet mode=rest x=58 y=7>
+						<unit des="20th Tank" toe=sov.corps.hq/>
+						<unit des=155 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=8 toe=sov.gds.tank.bg note="full strength"/>
+						<unit des=80 toe=sov.tank.bg note="1942 shtat"/>
+						<unit des=7 toe=sov.gds.motor.bg/>
+						<unit des=1419 toe=sov.su.reg/>
+						<unit des=1711 toe=sov.aa.reg note="16 37mm AA"/>
+						<unit des=291 toe=sov.mort.reg/>
+						<unit des=1506 toe=sov.lt.at.reg/>
+						<unit des=735 toe=sov.at.bn note="12 85mm AT"/>
+						<unit des=96 toe=sov.mcycle.bn/>
+						<unit des=206 toe=sov.mot.sap.bn/>
+						<unit des=710 toe=sov.sig.bn/>
+					</unit>
+					<unit des="1st Women's" toe=sov.rifle.bg mode=rest/>
+					<unit des=31 toe=sov.gds.tank.bg note="Mix of t34/ot-34 FT tanks" mode=rest/>
+					<unit des=34 toe=sov.gds.tank.bg note=Re-equipping mode=defend/>
+					<unit des=83 toe=sov.tank.bg mode=rest/>
+					<unit des=92 toe=sov.tank.bg mode=rest/>
+					<unit des=118 toe=sov.tank.bg mode=rest/>
+					<unit des=144 toe=sov.tank.bg mode=rest/>
+					<unit des=149 toe=sov.tank.bg mode=rest/>
+					<unit des=151 toe=sov.tank.bg mode=rest/>
+					<unit des=154 toe=sov.tank.bg mode=rest/>
+					<unit des=177 toe=sov.tank.bg mode=rest/>
+					<unit des=184 toe=sov.tank.bg mode=rest/>
+					<unit des=232 toe=sov.tank.bg mode=rest/>
+					<unit des=238 toe=sov.tank.bg mode=rest/>
+					<unit des=1 toe=sov.gds.hvy.tank.reg mode=rest/>
+					<unit des=7 toe=sov.gds.hvy.tank.reg mode=rest/>
+					<unit des=8 toe=sov.gds.hvy.tank.reg note="Heavy losses; 18 T-34s 8 KVs" mode=rest/>
+					<unit des=14 toe=sov.gds.hvy.tank.reg mode=rest/>
+					<unit des=28 toe=sov.gds.hvy.tank.reg mode=rest/>
+					<unit des=41 toe=sov.tank.reg mode=rest/>
+					<unit des=42 toe=sov.tank.reg mode=rest/>
+					<unit des=53 toe=sov.tank.reg mode=rest/>
+					<unit des=54 toe=sov.tank.reg mode=rest/>
+					<unit des=57 toe=sov.tank.reg mode=rest/>
+					<unit des=128 toe=sov.tank.reg mode=rest/>
+					<unit des=134 toe=sov.tank.reg mode=rest/>
+					<unit des=136 toe=sov.tank.reg mode=rest/>
+					<unit des=139 toe=sov.tank.reg mode=rest/>
+					<unit des=160 toe=sov.tank.reg mode=rest/>
+					<unit des=166 toe=sov.tank.reg mode=rest/>
+					<unit des=184 toe=sov.tank.reg mode=rest/>
+					<unit des=189 toe=sov.tank.reg mode=rest/>
+					<unit des=198 toe=sov.tank.reg mode=rest/>
+					<unit des=223 toe=sov.tank.reg mode=rest/>
+					<unit des=52 toe=sov.mcycle.reg mode=rest/>
+					<unit des=991 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=999 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1219 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1416 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1456 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1457 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1458 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1459 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1460 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1462 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1494 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1495 toe=sov.su.reg colors=Soviet mode=rest/>
+					<unit des=1542 toe=sov.hvy.su.reg colors=Soviet mode=rest/>
+					<unit des=1543 toe=sov.hvy.su.reg colors=Soviet mode=rest/>
+					<unit des=1544 toe=sov.hvy.su.reg mode=rest/>
+					<unit des=1546 toe=sov.hvy.su.reg colors=Soviet mode=rest/>
+					<unit des=51 toe=sov.tank.bn mode=rest/>
+					<unit des=62 toe=sov.tank.bn mode=rest/>
+					<unit des=510 toe=sov.tank.bn mode=rest/>
+					<unit des=511 toe=sov.tank.bn mode=rest/>
+					<unit des=512 toe=sov.tank.bn mode=rest/>
+					<unit des=513 toe=sov.tank.bn mode=rest/>
+					<unit des=516 toe=sov.tank.bn mode=rest/>
+					<unit des=517 toe=sov.tank.bn mode=rest/>
+					<unit des=519 toe=sov.tank.bn mode=rest/>
+					<unit des=565 toe=sov.tank.bn mode=rest/>
+					<unit des=90 toe=sov.mcycle.bn mode=rest/>
+					<unit des=91 toe=sov.mcycle.bn mode=rest/>
+					<unit des=92 toe=sov.mcycle.bn mode=rest/>
+					<unit des=93 toe=sov.mcycle.bn mode=rest/>
+					<unit des=94 toe=sov.mcycle.bn mode=rest/>
+					<unit des=95 toe=sov.mcycle.bn mode=rest/>
+					<unit des=96 toe=sov.mcycle.bn mode=rest/>
+					<unit des=97 toe=sov.mcycle.bn mode=rest/>
+					<unit des=98 toe=sov.mcycle.bn mode=rest/>
+					<unit name="5th Breakthrough Artillery" size=XXX badge=art mode=rest>
+						<unit name="3rd Guards Breakthrough Artillery" size=XX badge=art colors=Guards>
+							<unit des=3 toe=sov.art.div.hq/>
+							<unit des=7 toe=sov.gds.la.bg/>
+							<unit des=8 toe=sov.gds.how.bg/>
+							<unit des=22 toe=sov.gds.cannon.bg/>
+							<unit des=99 toe=sov.hh.bg colors=Soviet/>
+							<unit des=107 toe=sov.shh.bg colors=Soviet/>
+							<unit des=43 toe=sov.pen.mort.bg colors=Soviet/>
+							<unit des=3 toe=sov.obs.bn/>
+						</unit>
+						<unit name="5th Guards Breakthrough Artillery" size=XX badge=art colors=Guards>
+							<unit des=5 toe=sov.art.div.hq/>
+							<unit des=71 toe=sov.la.bg colors=Soviet/>
+							<unit des=67 toe=sov.how.bg colors=Soviet/>
+							<unit des=17 toe=sov.gds.cannon.bg/>
+							<unit des=95 toe=sov.hh.bg colors=Soviet/>
+							<unit des=18 toe=sov.gds.shh.bg/>
+							<unit des=27 toe=sov.pen.mort.bg colors=Soviet/>
+							<unit des=5 toe=sov.obs.bn/>
+						</unit>
+						<unit name="7th Guards Mortar" badge=rocket size=XX colors=Guards note="2,5,6GMB; M-30 300mm, 4 rails per launcher">
+							<unit des="7th Guards" toe=sov.art.div.hq/>
+							<unit des=4 toe=sov.rocket.bg/>
+							<unit des=9 toe=sov.rocket.bg/>
+							<unit des=11 toe=sov.rocket.bg/>
+							<unit des=7 toe=sov.obs.bn/>
+						</unit>
+					</unit>
+					<unit name="21st Breakthrough Artillery" size=XX badge=art mode=rest>
+						<unit des=21 toe=sov.art.div.hq/>
+						<unit des=64 toe=sov.cannon.bg/>
+						<unit des=66 toe=sov.la.bg/>
+						<unit des=55 toe=sov.how.bg/>
+						<unit des=25 toe=sov.mort.bg/>
+						<unit des=94 toe=sov.hh.bg/>
+						<unit des=103 toe=sov.shh.bg/>
+						<unit des=21 toe=sov.obs.bn/>
+					</unit>
+					<unit name="22nd Artillery" size=XX badge=art colors=Soviet mode=rest>
+						<unit des=22 toe=sov.art.div.hq/>
+						<unit des=59 toe=sov.cannon.bg/>
+						<unit des=56 toe=sov.cannon.bg/>
+						<unit des=97 toe=sov.hh.bg/>
+						<unit des=98 toe=sov.hh.bg/>
+						<unit des=20 toe=sov.gds.shh.bg/>
+						<unit des=22 toe=sov.obs.bn/>
+					</unit>
+					<unit name="4th Guards Mortar" badge=rocket size=XX colors=Guards mode=rest>
+						<unit des="4th Guards" toe=sov.art.div.hq>
+							<unit des=4 toe=sov.obs.bn/>
+						</unit>
+						<unit des=20 toe=sov.rocket.bg/>
+						<unit des=21 toe=sov.rocket.bg/>
+					</unit>
+					<unit name="6th Guards Mortar" badge=rocket size=XX colors=Guards mode=rest>
+						<unit des="6th Guards" toe=sov.art.div.hq>
+							<unit des=6 toe=sov.obs.bn/>
+						</unit>
+						<unit des=13 toe=sov.rocket.bg/>
+						<unit des=14 toe=sov.rocket.bg/>
+					</unit>
+					<unit des=27 toe=sov.rocket.bg mode=rest/>
+					<unit des=3 toe=sov.rocket.reg mode=rest/>
+					<unit des=7 toe=sov.rocket.reg mode=rest/>
+					<unit des=9 toe=sov.rocket.reg mode=rest/>
+					<unit des=10 toe=sov.rocket.reg mode=rest/>
+					<unit des=11 toe=sov.rocket.reg mode=rest/>
+					<unit des=12 toe=sov.rocket.reg mode=rest/>
+					<unit des=18 toe=sov.rocket.reg mode=rest/>
+					<unit des=39 toe=sov.rocket.reg mode=rest/>
+					<unit des=56 toe=sov.rocket.reg mode=rest/>
+					<unit des=57 toe=sov.rocket.reg mode=rest/>
+					<unit des=72 toe=sov.rocket.reg mode=rest/>
+					<unit des=88 toe=sov.rocket.reg mode=rest/>
+					<unit des=91 toe=sov.rocket.reg mode=rest/>
+					<unit des=326 toe=sov.rocket.reg mode=rest/>
+					<unit des=328 toe=sov.rocket.reg mode=rest/>
+					<unit des=8 toe=sov.art.reg mode=rest/>
+					<unit des=116 toe=sov.art.reg mode=rest/>
+					<unit des=129 toe=sov.art.reg mode=rest/>
+					<unit des=154 toe=sov.art.reg mode=rest/>
+					<unit des=1157 toe=sov.art.reg mode=rest/>
+					<unit des=1517 toe=sov.art.reg mode=rest/>
+					<unit des=1518 toe=sov.art.reg mode=rest/>
+					<unit des=1519 toe=sov.art.reg mode=rest/>
+					<unit des=1520 toe=sov.art.reg mode=rest/>
+					<unit des=1521 toe=sov.art.reg mode=rest/>
+					<unit des=1522 toe=sov.art.reg mode=rest/>
+					<unit des=19 toe=sov.at.bg note="60 AT; (288,338,1810) AT Rgts" mode=rest/>
+					<unit des=20 toe=sov.at.bg mode=rest/>
+					<unit des=1506 toe=sov.at.reg mode=rest/>
+					<unit des=1508 toe=sov.at.reg mode=rest/>
+					<unit des=1509 toe=sov.at.reg mode=rest/>
+					<unit des=1511 toe=sov.at.reg mode=rest/>
+					<unit des=1512 toe=sov.at.reg mode=rest/>
+					<unit des=1514 toe=sov.at.reg mode=rest/>
+					<unit des=1515 toe=sov.at.reg mode=rest/>
+					<unit des=1723 toe=sov.at.reg mode=rest/>
+					<unit des=1724 toe=sov.at.reg mode=rest/>
+					<unit des=1725 toe=sov.at.reg mode=rest/>
+					<unit des=1726 toe=sov.at.reg mode=rest/>
+					<unit des=1727 toe=sov.at.reg mode=rest/>
+					<unit des=1728 toe=sov.at.reg mode=rest/>
+					<unit des=1729 toe=sov.at.reg mode=rest/>
+					<unit des=32 toe=sov.shg.bn mode=rest/>
+					<unit des=40 toe=sov.shg.bn mode=rest/>
+					<unit des=226 toe=sov.shg.bn mode=rest/>
+					<unit des=245 toe=sov.shg.bn mode=rest/>
+					<unit des=329 toe=sov.shg.bn mode=rest/>
+					<unit des=331 toe=sov.shg.bn mode=rest/>
+					<unit des=739 toe=sov.at.bn mode=rest/>
+					<unit des=741 toe=sov.at.bn mode=rest/>
+					<unit des=744 toe=sov.at.bn mode=rest/>
+					<unit des=748 toe=sov.at.bn mode=rest/>
+					<unit des=750 toe=sov.at.bn mode=rest/>
+					<unit des=751 toe=sov.at.bn mode=rest/>
+					<unit des=33 toe=sov.mort.bg mode=rest/>
+					<unit des=108 toe=sov.mort.reg mode=rest/>
+				</unit>
+			</unit>
+		</combatant>
+	</force>
+	<territory>wc$bJb
+wc$bJb
+yc$bHb
+Ac$bFb
+Ccbbbc$bBb
+Gcbbbcbbcc$bub
+Lcebbc$bpb
+Rc$bob
+Sc$bnb
+Uc$blb
+Wc$bjb
+Wcdbbc$bfb
+4c$bbb
+4c$bbb
+6c_b
+6c_b
+8c8b
+_c6b
+$cac5b
+$cbc4b
+$cdc2b
+$cfc0b
+$cgcZb
+$cgcZb
+$cgcZb
+$cgcZb
+$cec1b
+$cdc2b
+Rcbavc3b
+Mclaqc3b
+Nckaqc3b
+Nckaoc5b
+Mchasc5b
+Mchaqc7b
+Lciapc8b
+Lciapc8b
+Kcjaoc9b
+Jcjabcbbbcbbjc$bab
+Hcjabcca$bmb
+Fckaccca$bmb
+Fckabcda$bmb
+Dclabcea$bmb
+Dclabcea$bmb
+Cclabcfa$bmb
+Bclabcha$blb
+Bcta$blb
+zcnabcla$bhb
+zcAa$bgb
+ycoabcna$bfb
+ycnabcoa$bfb
+ycDa$beb
+ycnabcpa$beb
+ycnabcqa$bdb
+ycnabcra$bcb
+xcEa$beb
+xcpabcpa$bdb
+xcqabcoa$bdb
+xcGa$bcb
+wcsabcoa$bcb
+wctabcna$bcb
+wcGa$bdb
+wcuabcla$bdb
+xcuabcka$bdb
+xcwabcia$bdb
+xcFa$bdb
+ycwabcha$bdb
+Acwabcfa$bdb
+Ccxabcca$bdb
+Ecya$bdb
+Gcwabbba$bbb
+Hcza_b
+IcAa8b
+IcAa8b
+Kchafcbabcla7b
+Mcdancia6b
+4cgabbba4b
+6cga4b
+8cea4b
+_cbabc4b
+$cbc4b
+$ccc3b
+$cdc2b
+$cec1b
+$cfc0b
+$cfc0b
+$cfc0b
+$cfc0b
+$cfc0b
+$cfc0b
+$cfc0b
+$cfc0b
+$cfc0b
+$cgcZb
+$chcYb
+$chcYb
+$cccdbbcZb
+$cbc4b
+$cac5b
+9c7b
+8c8b
+</territory>
+	<forts>$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+$a5a
+</forts>
+</Scenario>

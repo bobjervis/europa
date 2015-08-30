@@ -1,0 +1,58 @@
+<root><unit name="Finnish HQ" toe=fin.ghq/>
+<unit name="Aunus Group" badge=army size=XXXX/>
+<unit name="Kannas Group" badge=army size=XXXX/>
+<unit des=Aunus toe=fin.army.hq/>
+<unit des=Kannas toe=fin.army.hq/>
+<unit name="Masselka Group" badge=inf size=XXX/>
+<unit name="3rd Finnish" size=XXX badge=inf/>
+<unit name="5th Finnish" badge=inf size=XXX/>
+<unit name="6th Finnish" badge=inf size=XXX/>
+<unit des=Masselka toe=fin.corps.hq/>
+<unit des=3 toe=fin.corps.hq/>
+<unit des=5 toe=fin.corps.hq/>
+<unit des=6 toe=fin.corps.hq/>
+<unit des=1 toe=fin.inf.div/>
+<unit des=2 toe=fin.inf.div/>
+<unit des=3 toe=fin.inf.div/>
+<unit des=4 toe=fin.inf.div/>
+<unit des="5th 'Lynx'" toe=fin.inf.div/>
+<unit des=6 toe=fin.inf.div/>
+<unit des=7 toe=fin.inf.div/>
+<unit des=8 toe=fin.inf.div/>
+<unit des=10 toe=fin.inf.div/>
+<unit des=11 toe=fin.inf.div/>
+<unit des=14 toe=fin.inf.div/>
+<unit des=15 toe=fin.inf.div/>
+<unit des="17th 'Oak'" toe=fin.inf.div/>
+<unit des=18 toe=fin.inf.div/>
+<unit name=Panssari toe=fin.pz.div/>
+<unit name="Ratsuväkiprikaati Cavalry" toe=fin.cav.bg/>
+<unit name="2nd Coastal Art" toe=fin.coast.bg/>
+<unit name="Aan Infantry" toe=fin.inf.bg/>
+<unit name="Laa Infantry" toe=fin.inf.bg/>
+<unit name="15th Infantry" toe=fin.inf.bg/>
+<unit name="1st Regiment" badge=air size="I I I"/>
+<unit name="2nd Regiment" badge=ftr size="I I I"/>
+<unit name="3rd Regiment" badge=ftr size="I I I"/>
+<unit name="4th Regiment" badge=air size="I I I"/>
+<unit name="5th Regiment" badge=air size="I I I"/>
+<unit name="1st Frontier Infantry" toe=fin.bdr.bn/>
+<unit name="Er.P 1 Infantry" toe=fin.erp.bn/>
+<unit name="Er.P 2 Infantry" toe=fin.erp.bn/>
+<unit name="Er.P 4 Infantry" toe=fin.erp.bn/>
+<unit des=3 toe=fin.tribal.bn/>
+<unit des=6 toe=fin.air.sqdn/>
+<unit des=12 toe=fin.air.sqdn/>
+<unit des=30 toe=fin.air.sqdn/>
+<unit des=32 toe=fin.air.sqdn/>
+<unit des=42 toe=fin.air.sqdn/>
+<unit des=44 toe=fin.air.sqdn/>
+<unit des=46 toe=fin.air.sqdn/>
+<unit des=48 toe=fin.air.sqdn/>
+<unit des=16 toe=fin.ftr.sqdn/>
+<unit des=24 toe=fin.ftr.sqdn/>
+<unit des=26 toe=fin.ftr.sqdn/>
+<unit des=28 toe=fin.ftr.sqdn/>
+<unit des=34 toe=fin.ftr.sqdn/>
+<unit name="Finnish Forces" commander=Mannerheim/>
+</root>

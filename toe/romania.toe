@@ -1,0 +1,512 @@
+<TOEs combatant=Romania>
+
+	These TOEs are trying to reflect the full range of manpower assigned to field forces.
+	Thus these TOEs generally include all support elements.  The reason is that the game
+	model is designed to give each of these elements some role to play in the game.  In
+	general, support functions are carried out automatically, so the player need not be
+	concerned with managing those units unless they really feel the urge.
+
+	I have tried to put significant efforts into producing good TOE's.  As I have uncovered
+	ever more detailed TOE data on the respective combatants, I have realized that TOEs
+	are a subject far more extensive than I want to address in its entirety (if that would 
+	even be possible).  For example, the Germans alone issued thousands of different TOEs
+	throughout the war.
+
+	Even if someone were to uncover all of those TOEs and then code them, they would still
+	be faced with the challenge of discovering whether and when any given field unit conformed 
+	to that TOE or a different one.  Field units often did not change their composition
+	for a long period of time when a new TOE was issued.  In other cases, old units retained
+	their old structure alongside newer units raised under a different TOE.
+
+	Knowing the designation (infantry, panzer, etc.) of a unit usually isn't enough to know
+	the exact TOE of the unit.
+
+	Plus, most units had variations of one sort or another that departed completely from any
+	given TOE.  Independent units were routinely attached to larger formations for specific
+	missions, but then stayed with their new organizations for long periods of time.  Units
+	also periodically renumbered subunits so that temporary attachments dissolved into 
+	permanent new organizations.
+
+	Finally, forces deployed in quiet sectors, particularly German occupation troops, tended
+	to acquire lots of ad hoc organization by scavenging captured equipment (since these units 
+	rarely had priority for top of the line weapons).  But using captured equipment was not
+	limited to esoteric outposts.  During the very battle of Kursk itself, a unit no less than 
+	the SS Das Reich Division used Russian T-34 tanks because their Panthers were still back at
+	the factory in Germany.
+
+	The pratical reality is that the TOEs for this game have to be a simplified form of the
+	actual force levels.  
+
+		-- Romanian TOEs --
+
+	<toe name=army uidpat=army badge=army size=XXXX des="# Army">
+		<section toe=army.hq/>
+	</>
+	<toe name=corps uidpat=ac badge=army size=XXX des="# Corps">
+		<section toe=corps.hq/>
+	</>
+	<toe name=army.hq badge=hq2 size=XXXX hq des="Romanian # Army HQ">
+		<equip
+			general=5
+			truck=1
+		 />
+	</>
+	<toe name=corps.hq badge=hq4 size=XXX des="@ Corps HQ" hq>
+		<equip
+			general=5
+			truck=1
+		 />
+	</>
+	<toe name=div.hq badge=hq size=XX hq>
+		<equip 
+			sroff=4
+			jroff=15
+			svc=108
+		 />
+		<section badge=mp size=I>
+			<equip
+				hmg=2
+				rifle=124
+				wagon=3
+			 />
+		</>
+	</>
+	<toe name=bg.hq badge=hq size=XX hq>
+		<equip 
+			sroff=3
+			jroff=10
+			svc=97
+		 />
+		<section badge=mp size=I>
+			<equip
+				hmg=2
+				rifle=124
+				wagon=3
+			 />
+		</>
+	</>
+	<toe name=reg.hq badge=hq size="I I I" hq>
+		<equip
+			sroff=1
+			jroff=8
+			svc=78
+			rifle=12
+			radio=10
+			telephone=30
+			wagon=20
+		 />
+	</>
+	<toe name=bn.hq badge=hq size="I I" hq>
+		<equip
+			jroff=3
+			scout=1
+			svc=46
+			wagon=10
+		 />
+	</>
+	<toe name=inf.div uidpat=i des="# Romanian Infantry" badge=inf size=XX>
+		<section toe=div.hq>
+			<section toe=sig.co/>
+			<section toe=div.sup/>
+		< />
+		<section badge=inf size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=inf.bn quant=3/>
+			<section toe=cav.co/>
+			<section badge=eng size=I>
+				<equip
+					lmg=2
+					eng=80
+				 />
+			</>
+			<section toe=hvy.co/>
+		</>
+		<section badge=art size="I I I" quant=2>
+			<section toe=reg.hq>
+				<section badge=aa size=p>
+					<equip
+						hmg=4
+						wagon=5
+						rifle=10
+					 />
+				</>
+			</>
+			<section toe=hvy.art.bn/>
+			<section toe=art.bn quant=2/>
+		</>
+		<section toe=recce.co />
+		<section toe=at.co />
+		<section toe=aa.co />
+		<section toe=eng.bn/>
+	</>
+	<toe name=cav.div uidpat=c badge=cav size=XX carriers=horse>
+		<section toe=div.hq />
+		<section badge=cav size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=cav.bn quant=3/>
+		</>
+		<section badge=cav.art size="I I I">
+			<section toe=reg.hq/>
+			<section badge=cav.art size="I I" quant=2>
+				<section toe=cav.art.co quant=4/>
+			</>
+		</>
+		<section toe=recce.co />
+		<section toe=at.co />
+		<section toe=aa.co />
+		<section toe=eng.bn/>
+		<section toe=sig.co/>
+		<section toe=div.sup/>
+	</>
+	<toe name=mtn.div uidpat=m badge=mtn size=XX des="# Romanian Mountain">
+		<section toe=div.hq />
+		<section badge=mtn size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=mtn.bn quant=3/>
+			<section toe=eng.co/>
+		</>
+		<section badge=mtn.art size="I I I" quant=2>
+			<section toe=reg.hq>
+				<section badge=aa size=p>
+					<equip
+						hmg=4
+						wagon=5
+						rifle=10
+					 />
+				</>
+			</>
+			<section toe=hvy.art.bn/>
+			<section toe=art.bn quant=2/>
+		</>
+		<section toe=recce.co />
+		<section toe=at.co />
+		<section toe=aa.co />
+		<section toe=eng.bn/>
+		<section toe=sig.co/>
+		<section toe=div.sup/>
+	</>
+	<toe name=bdr.div badge=bdr size=XX>
+	</>
+	<toe name=mot.bg badge=mot.inf size=X carriers=2wd>
+	</>
+	<toe name=stat.bg badge=stat size=X>
+	</>
+	<toe name=mtn.bg badge=mtn size=X>
+		<section toe=bg.hq />
+		<section badge=mtn size="I I I" quant=2>
+			<section toe=reg.hq/>
+			<section toe=mtn.bn quant=3/>
+			<section toe=eng.co/>
+		</>
+		<section badge=mtn.art size="I I I">
+			<section toe=reg.hq>
+				<section badge=aa size=p>
+					<equip
+						hmg=4
+						wagon=5
+						rifle=10
+					 />
+				</>
+			</>
+			<section toe=hvy.art.bn/>
+			<section toe=art.bn quant=2/>
+		</>
+		<section toe=recce.co />
+		<section toe=at.co />
+		<section toe=aa.co />
+		<section toe=eng.bn/>
+		<section toe=sig.co/>
+		<section toe=bg.sup/>
+	</>
+	<toe name=cav.bg badge=cav size=X carriers=horse>
+		<section toe=bg.hq />
+		<section toe=mot.cav.bn/>
+		<section toe=cav.bn quant=3/>
+		<section badge=cav.art size="I I I">
+			<section toe=cav.art.co quant=4/>
+		</>
+		<section toe=mbl.co/>
+		<section toe=aa.co />
+		<section toe=eng.co/>
+		<section toe=sig.co/>
+		<section toe=bg.sup/>
+	</>
+	<toe name=mar.bn badge=mar size="I I">
+		<section toe=bn.hq/>
+		<section badge=mar size=I quant=3>
+			<equip
+				lmg=13
+				rifle=104
+				60mtr=2
+				mmg=2
+				wagon=4
+			 />
+		</>
+	</>
+	<toe name=inf.bn badge=inf size="I I">
+		<section toe=bn.hq/>
+		<section badge=inf size=I quant=3>
+			<equip
+				lmg=13
+				rifle=104
+				60mtr=2
+				mmg=2
+				wagon=4
+			 />
+		</>
+		<section badge=mgun size=I>
+			<equip
+				hmg=16
+				rifle=88
+				wagon=20
+			 />
+		</>
+	</>
+	<toe name=mtn.bn badge=mtn size="I I">
+		<section toe=bn.hq/>
+		<section badge=inf size=I quant=3>
+			<equip
+				lmg=13
+				rifle=104
+				60mtr=2
+				mmg=2
+				wagon=4
+			 />
+		</>
+		<section badge=mgun size=I>
+			<equip
+				hmg=16
+				rifle=88
+				wagon=20
+			 />
+		</>
+	</>
+	<toe name=mot.cav.bn badge=mot.cav size="I I" carriers=2wd>
+		<section toe=reg.hq>
+			<section badge=eng size=p>
+				<equip
+					eng=40
+					truck=4
+				 />
+			</>
+			<section badge=veh size=p>
+				<equip
+					truck=15
+				 />
+			</>
+		</>
+		<section badge=mot.cav size=I quant=4 carriers=2wd>
+			<equip
+				lmg=13
+				rifle=104
+				truck=10
+			 />
+		</>
+		<section badge=mot.at size=I>
+			<equip
+				37at=9
+				rifle=90
+				truck=9
+			 />
+		</>
+	</>
+	<toe name=cav.bn badge=cav size="I I" carriers=horse>
+		<section toe=bn.hq>
+			<section badge=eng size=p>
+				<equip
+					eng=40
+					mount=40
+				 />
+			</>
+		</>
+		<section badge=cav size=I quant=4>
+			<equip
+				lmg=13
+				rifle=106
+				mount=132
+			 />
+		</>
+		<section badge=cav.mgun size=I>
+			<equip
+				hmg=6
+				60mtr=6
+				rifle=25
+				wagon=14
+				mount=25
+			 />
+		</>
+	</>
+	<toe name=mbl.co badge=cav size=I carriers=ftrack>
+		<equip
+			r1=6
+			lmg=12
+			rifle=96
+			37at=2
+			truck=11
+		 />
+	</>
+	<toe name=hvy.art.bn badge=art size="I I">
+		<section toe=bn.hq/>
+		<section badge=hvy.art size=I quant=2>
+			<equip
+				100sk=4
+				med-htrack=4
+				lmg=2
+				wagon=30
+				rifle=25
+				svc=14
+			 />
+		</>
+		<section badge=signal size=p>
+			<equip
+				radio=8
+				telephone=26
+			 />
+		</>
+	</>
+	<toe name=art.bn badge=art size="I I">
+		<section toe=bn.hq/>
+		<section badge=art size=I quant=3>
+			<equip
+				75ig=4
+				lmg=2
+				wagon=25
+				rifle=25
+				svc=10
+			 />
+		</>
+		<section badge=signal size=p>
+			<equip
+				radio=8
+				telephone=26
+			 />
+		</>
+	</>
+	<toe name=eng.bn badge=eng size="I I">
+		<section toe=bn.hq/>
+		<section toe=eng.co quant=3/>
+	</>
+	<toe name=hvy.co badge=hvy size=I>
+		<equip
+			47ig=6
+			37at=6
+			81mtr=6
+			rifle=60
+			wagon=8
+		 />
+	</>
+	<toe name=recce.co badge=inf.rec size=I>
+		<equip
+			lmg=12
+			81mtr=3
+			hmg=2
+			rifle=96
+			truck=3
+		 />
+	</>
+	<toe name=at.co badge=at size=I>
+		<equip
+			47at=6
+			rifle=104
+			horses=6
+		 />
+	</>
+	<toe name=aa.co badge=aa size=I>
+		<equip
+			hmg=12
+			rifle=80
+			wagon=15
+		 />
+	</>
+	<toe name=cav.co badge=cav size=I carriers=horse>
+		<equip
+			lmg=8
+			rifle=120
+			mount=136
+		 />
+	</>
+	<toe name=eng.co badge=eng size=I>
+		<equip
+			lmg=6
+			flame=6
+			eng=95
+		 />
+	</>
+	<toe name=cav.art.co badge=cav.art size=I>
+		<equip
+			75ig=4
+			lmg=2
+			wagon=30
+			rifle=25
+			svc=14
+		 />
+	</>
+	<toe name=sig.co badge=signal size=I>
+		<equip
+			radio=40
+			telephone=120
+			svc=40
+		 />
+	</>
+	<toe name=div.sup badge=sup size="I I">
+		<section toe=bn.hq/>
+		<section badge=sup size=p>
+			<equip
+				wagon=35
+				svc=6
+			 />
+		</>
+		<section badge=veh size=p quant=2>
+			<equip
+				wagon=40
+			 />
+		</>
+		<section badge=admin size=I>
+			<equip
+				svc=375
+			 />
+		</>
+		<section badge=med size=p quant=2>
+			<equip
+				doctor=3
+				medic=38
+			 />
+		</>
+		<section badge=vet size=p>
+			<equip
+				svc=52
+			 />
+		</>
+	</>
+	<toe name=bg.sup badge=sup size="I I">
+		<section toe=bn.hq/>
+		<section badge=sup size=p>
+			<equip
+				wagon=35
+				svc=6
+			 />
+		</>
+		<section badge=veh size=p quant=2>
+			<equip
+				wagon=40
+			 />
+		</>
+		<section badge=admin size=I>
+			<equip
+				svc=175
+			 />
+		</>
+		<section badge=med size=p quant=2>
+			<equip
+				doctor=3
+				medic=38
+			 />
+		</>
+		<section badge=vet size=p>
+			<equip
+				svc=52
+			 />
+		</>
+	</>
+
+</TOEs>

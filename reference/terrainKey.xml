@@ -1,0 +1,312 @@
+<TerrainKey count=16>
+
+		- Note: all movement costs are in km/h -
+
+	<terrain index=0 color=00000000 />Out of Play
+	<terrain index=1 color=0000a4e5 />Deep Water
+	<terrain index=2 color=00ffffff />Alpine
+	<terrain index=3 color=00ffff00 />Deep Sand
+	<terrain index=4 color=00d5ffff density=2.0 defense=1.5 fuel=2.0 >Tundra
+		<foot move=1.25/>
+		<horse move=3/>
+		<ftrack move=5/>
+		<htrack move=4.5/>
+		<2wd move=4 />
+		<4wd move=4.3 />
+		<bicycle move=1.1 />
+		<motorcycle move=3.5 />
+	</>
+	<terrain index=5 color=0000d0c0 density=2.0 defense=1.2 fuel=2.0 >Marsh
+		<foot move=.4/>
+		<horse move=1/>
+		<ftrack move=.2 />
+		<htrack move=.22/>
+		<2wd move=.25 />
+		<4wd move=.45 />
+		<bicycle move=.35 />
+		<motorcycle move=.3 />
+	</>
+	<terrain index=6 color=00f8b850 density=1.5 defense=1.5 fuel=1.4 >Urban
+		<foot move=1.25/>
+		<horse move=3/>
+		<ftrack move=7 />
+		<htrack move=7.5/>
+		<2wd move=8 />
+		<4wd move=8 />
+		<bicycle move=1.3 />
+		<motorcycle move=7 />
+	</>
+	<terrain index=7 color=0090b448 density=2.0 defense=2.0 fuel=1.7 >Dense Broadleaf
+		<foot move=.75/>
+		<horse move=1.5/>
+		<ftrack move=.35/>
+		<htrack move=.35/>
+		<2wd move=.35/>
+		<4wd move=.4/>
+		<bicycle move=.7 />
+		<motorcycle move=.5 />
+	</>
+	<terrain index=8 color=00c0f060 density=1.5 defense=1.5 fuel=1.6 >Sparse Broadleaf
+		<foot move=1/>
+		<horse move=2.5/>
+		<ftrack move=3 />
+		<htrack move=3/>
+		<2wd move=3 />
+		<4wd move=3/>
+		<bicycle move=.9 />
+		<motorcycle move=3 />
+	</>
+	<terrain index=9 color=00f08020 density=2.0 defense=2.0 fuel=1.3 >Dense Urban
+		<foot move=1.25/>
+		<horse move=3/>
+		<ftrack move=7 />
+		<htrack move=7.5/>
+		<2wd move=8 />
+		<4wd move=8/>
+		<bicycle move=1.3 />
+		<motorcycle move=7 />
+	</>
+	<terrain index=10 xcolor=00c0f060 color=0074ecb0 density=1.5 defense=1.5 fuel=1.6 >Sparse Needleleaf
+		<foot move=.75/>
+		<horse move=1.75/>
+		<ftrack move=2.5 />
+		<htrack move=2.5/>
+		<2wd move=2.5 />
+		<4wd move=2.5/>
+		<bicycle move=.7 />
+		<motorcycle move=2 />
+	</>
+	<terrain index=11 xcolor=0090b448 color=0059b384 density=2.0 defense=2.0 fuel=1.7 >Dense Needleleaf
+		<foot move=.5/>
+		<horse move=1/>
+		<ftrack move=.3/>
+		<htrack move=.3/>
+		<2wd move=.3 />
+		<4wd move=.3/>
+		<bicycle move=.4 />
+		<motorcycle move=.4 />
+	</>
+	<!--
+	<xterrain index=11 color=0090b448 density=2.0 defense=2.0 fuel=1.7 />Dense Broadleaf
+	<xterrain index=10 color=00c0f060 density=1.5 defense=1.5 fuel=1.6 />Sparse Broadleaf
+	-->
+	<terrain index=12 color=00fff8c0 density=1.0 defense=1.0 fuel=1.5 >Grass
+		<foot move=1.25/>
+		<horse move=3/>
+		<ftrack move=6 />
+		<htrack move=5.5/>
+		<2wd move=5 />
+		<4wd move=5.3/>
+		<bicycle move=1.1 />
+		<motorcycle move=5/>
+	</>
+	<terrain index=13 color=00dee3c2 density=1.0 defense=1.0 fuel=1.5 >Arid
+		<foot move=1/>
+		<horse move=2.5/>
+		<ftrack move=7 />
+		<htrack move=6.5/>
+		<2wd move=6 />
+		<4wd move=6.4/>
+		<bicycle move=1 />
+		<motorcycle move=6 />
+	</>
+	<terrain index=14 color=00fdfdd0 density=1.0 defense=1.0 fuel=1.5 >Desert
+		<foot move=.5/>
+		<horse move=.5/>
+		<ftrack move=7 />
+		<htrack move=6.5/>
+		<2wd move=6 />
+		<4wd move=6.3/>
+		<bicycle move=.5 />
+		<motorcycle move=6 />
+	</>
+	<terrain index=15 color=00fff080 density=1.2 defense=1.2 fuel=1.4 >Cultivation
+		<foot move=1.25/>
+		<horse move=3/>
+		<ftrack move=7 />
+		<htrack move=7.5/>
+		<2wd move=8 />
+		<4wd move=8/>
+		<bicycle move=1.3 />
+		<motorcycle move=7 />
+	</>
+
+	<edge index=0>Plain
+	</>
+	<edge index=1>Border
+	</>
+	<edge index=2>River
+		<foot move=12/>
+		<horse move=12/>
+		<ftrack move=15/>
+		<htrack move=15/>
+		<2wd move=14 />
+		<4wd move=14/>
+		<bicycle move=12 />
+		<motorcycle move=12 />
+	</>
+	<edge index=3>Coast
+		<foot move=18/>
+		<horse move=18/>
+		<ftrack move=22/>
+		<htrack move=22/>
+		<2wd move=20 />
+		<4wd move=20/>
+		<bicycle move=18 />
+		<motorcycle move=18/>
+	</>
+	<foot length=.002 />
+	<horse length=.002 />
+	<ftrack length=.020 />
+	<htrack length=.020/>
+	<2wd length=.020 />
+	<4wd length=.020/>
+	<bicycle length=.002 />
+	<motorcycle length=.002 />
+
+		// Transport features
+
+	<transport index=0 />Unused
+	<transport index=1 color=b09000 dx=2 dy=3 width=1 importance=1 style=dot fuel=1.3 >Trail
+		<foot move=1.25/>
+		<horse move=3/>
+		<ftrack move=7.5 />
+		<htrack move=7/>
+		<2wd move=8 />
+		<4wd move=8/>
+		<bicycle move=1.3 />
+		<motorcycle move=7/>
+	</>
+	<transport index=2 color=b09000 dx=2 dy=3 width=2 importance=3 fuel=1.1 >Road
+		<foot move=1.5 />
+		<horse move=3.5 />
+		<ftrack move=8 />
+		<htrack move=9/>
+		<2wd move=10 />
+		<4wd move=10/>
+		<bicycle move=4 />
+		<motorcycle move=9 />
+	</>
+	<transport index=3 color=ff0000 dx=2 dy=3 width=2 importance=5 fuel=1 >Paved
+		<foot move=2.25 />
+		<horse move=5 />
+		<ftrack move=14 />
+		<htrack move=15/>
+		<2wd move=17 />
+		<4wd move=17/>
+		<bicycle move=6 />
+		<motorcycle move=16 />
+	</>
+	<transport index=4 color=ff0000 dx=2 dy=3 width=4 importance=7 tinyImportance=5 fuel=1 >Freeway
+		<foot move=2.5 />
+		<horse move=6 />
+		<ftrack move=17 />
+		<htrack move=18/>
+		<2wd move=20 />
+		<4wd move=20/>
+		<bicycle move=7 />
+		<motorcycle move=19 />
+	</>
+	<transport index=5 color=808080 dx=-2 dy=-3 width=2 importance=4 fuel=0 railCap=1 >Rail
+		<foot move=1.5 />
+		<horse move=3.5 />
+		<ftrack move=8 />
+		<htrack move=8.5/>
+		<2wd move=9 />
+		<4wd move=9/>
+		<bicycle move=4 />
+		<motorcycle move=8 />
+	</>
+	<transport index=6 color=808080 dx=-2 dy=-3 width=1 importance=4 style=dot  />Torn Rail
+	<transport index=7 color=808080 dx=-2 dy=-3 width=4 importance=7 tinyImportance=4 fuel=0 railCap=2 >Double Rail
+		<foot move=1.5 />
+		<horse move=3.5 />
+		<ftrack move=8 />
+		<htrack move=8.5/>
+		<2wd move=9 />
+		<4wd move=9/>
+		<bicycle move=4 />
+		<motorcycle move=8 />
+	</>
+	<transport index=8 color=ffff00 style=dot importance=1 />Blown Bridge
+	<transport index=9 color=00d0d0 importance=1 />Rail Clogged
+	<transport index=10 color=ffffff importance=1 />Clogged
+	<transport index=11 color=0 importance=1 >Bridge
+	</>
+	
+	<rough index=0 move=1.0 density=1.0 defense=1.0 fuel=1/>
+	<rough index=1 move=1.2 density=1.2 defense=1.2 fuel=1.1/>
+	<rough index=2 move=2.0 density=1.5 defense=1.5 fuel=1.3/>
+	<rough index=3 move=4.0 density=2.0 defense=2.0 fuel=1.5/>
+
+		Duration is in hours for a 10km hex
+
+	<mode from=attack to=attack duration=0 fuel=0/>
+	<mode from=attack to=command duration=16 fuel=.1/>
+	<mode from=attack to=defend duration=2 fuel=.3/>
+	<mode from=attack to=entrained duration=48 fuel=.2/>
+	<mode from=attack to=move duration=1 fuel=0/>
+	<mode from=attack to=rest duration=1 fuel=0/>
+	<mode from=attack to=security duration=24 fuel=.3/>
+	<mode from=attack to=training duration=16 fuel=.1/>
+	<mode from=command to=attack duration=8 fuel=.1/>
+	<mode from=command to=command duration=0 fuel=0/>
+	<mode from=command to=defend duration=2 fuel=.3/>
+	<mode from=command to=entrained duration=48 fuel=.1/>
+	<mode from=command to=move duration=8 fuel=.1/>
+	<mode from=command to=rest duration=1 fuel=0/>
+	<mode from=command to=security duration=24 fuel=.3/>
+	<mode from=command to=training duration=16 fuel=.1/>
+	<mode from=defend to=attack duration=8 fuel=.2/>
+	<mode from=defend to=command duration=20 fuel=.1/>
+	<mode from=defend to=defend duration=0 fuel=0/>
+	<mode from=defend to=entrained duration=52 fuel=.2/>
+	<mode from=defend to=move duration=12 fuel=.1/>
+	<mode from=defend to=rest duration=1 fuel=.1/>
+	<mode from=defend to=security duration=24 fuel=.3/>
+	<mode from=defend to=training duration=18 fuel=.1/>
+	<mode from=entrained to=attack duration=24 fuel=.2/>
+	<mode from=entrained to=command duration=30 fuel=.1/>
+	<mode from=entrained to=defend duration=26 fuel=.3/>
+	<mode from=entrained to=entrained duration=0 fuel=0/>
+	<mode from=entrained to=move duration=24 fuel=.1/>
+	<mode from=entrained to=rest duration=24 fuel=0/>
+	<mode from=entrained to=security duration=42 fuel=.3/>
+	<mode from=entrained to=training duration=36 fuel=.1/>
+	<mode from=move to=attack duration=1 fuel=.2/>
+	<mode from=move to=command duration=16 fuel=.1/>
+	<mode from=move to=defend duration=2 fuel=.3/>
+	<mode from=move to=entrained duration=48 fuel=.2/>
+	<mode from=move to=move duration=0 fuel=0/>
+	<mode from=move to=rest duration=1 fuel=0/>
+	<mode from=move to=security duration=24 fuel=.3/>
+	<mode from=move to=training duration=16 fuel=.1/>
+	<mode from=rest to=attack duration=6 fuel=.2/>
+	<mode from=rest to=command duration=16 fuel=.1/>
+	<mode from=rest to=defend duration=2 fuel=.3/>
+	<mode from=rest to=entrained duration=48 fuel=.2/>
+	<mode from=rest to=move duration=6 fuel=.1/>
+	<mode from=rest to=rest duration=0 fuel=0/>
+	<mode from=rest to=security duration=24 fuel=.3/>
+	<mode from=rest to=training duration=16 fuel=.1/>
+	<mode from=security to=attack duration=10 fuel=.3/>
+	<mode from=security to=command duration=20 fuel=.3/>
+	<mode from=security to=defend duration=6 fuel=.4/>
+	<mode from=security to=entrained duration=60 fuel=.4/>
+	<mode from=security to=move duration=10 fuel=.3/>
+	<mode from=security to=rest duration=5 fuel=.3/>
+	<mode from=security to=security duration=0 fuel=0/>
+	<mode from=security to=training duration=20 fuel=.2/>
+	<mode from=training to=attack duration=6 fuel=.2/>
+	<mode from=training to=command duration=16 fuel=.1/>
+	<mode from=training to=defend duration=3 fuel=.3/>
+	<mode from=training to=entrained duration=48 fuel=.2/>
+	<mode from=training to=move duration=6 fuel=.1/>
+	<mode from=training to=rest duration=1 fuel=0/>
+	<mode from=training to=security duration=48 fuel=.3/>
+	<mode from=training to=training duration=0 fuel=0/>
+
+		// Scale factor is to convert from hexScale 
+
+	<modeScaleFactor value=.1/>
+</TerrainKey>

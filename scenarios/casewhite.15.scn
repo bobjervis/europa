@@ -1,0 +1,170 @@
+<Scenario map=russia15.xmp hex=15 start=9/1/1939 end=10/7/1939 strengthScale=3000 name="s39.9.2: Case White" x=14 y=116 width=80 height=60>
+
+		- Initial Alliances -
+
+	<force railcap=1000 colors=Axis name=Axis>
+		<join combatant=Germany/>
+		<join combatant=Italy/>
+		<victory value=200 level=Major />
+		<victory value=100 level=Minor />
+	</force>
+
+	<force railcap=1000 colors=Allies name=Allies>
+		<join combatant=Poland />
+		<victory value=100 level=Major />
+		<victory value=50 level=Minor />
+	</force>
+
+
+		- Polish historical end -
+
+
+		- German historical end -
+
+	<objective place=Berlin value=100/>
+	<objective place=Warszawa value=100/>
+
+	<description>
+	</description>
+	<force name=Axis colors=Axis railcap=>
+		<combatant name=Germany nation=Germany colors=Wehrmacht>
+			<replacements level=1%/>
+			<unit name=OKW tip=5 xfills=10>
+			</unit>
+		</combatant>
+		<combatant name="Soviet Union" nation="Soviet Union" colors=Soviet>
+			<replacements level=1%/>
+			<unit name=STAVKA commander=Stalin tip=100 xfills=15>
+			</unit>
+		</combatant>
+	</force>
+	<force name=Allies colors=Allies railcap=>
+		<combatant name=Poland nation=Poland colors=Polish>
+			<replacements level=1%/>
+			<unit name=GHQ tip=100 xfills=15>
+			</unit>
+		</combatant>
+	</force>
+	<territory>bvbahiKaccCsfq
+bvcahiKacczshq
+caiiKaccysiq
+cadibabibabiLaccxsjq
+labiHafctsbabsjq
+laciGahcrslq
+mabiAabcbabcbabcbajcnsnq
+Babcbabqjapcmsnqbb
+dabctabcbadcdqjancmsoqbb
+dadcpahceqhaocmsoqbb
+bafcnaicfqfaqcbqlsnqcb
+fcmakchqtcdqjsnqcb
+ecbabchanchqocbafceqgsoqdb
+icbaqciqucfqdsqqdb
+hcbaqciqvcxqeb
+icbapciqpcbafcxqeb
+zchqbcbqdcbqnczqeb
+zcoqicbqbcBqeb
+xcrqfcFqeb
+xc1qeb
+vc3qeb
+tc5qeb
+rc7qeb
+qc_qcb
+pc$qcq
+qc$qbq
+qc$qaqbb
+qc$qaqbb
+qc$qbq
+sc_q
+tc8qbb
+ucbqdc4q
+yc4q
+zc2qbb
+AcbqbcZqbb
+CcYqcb
+DcXqcb
+DcXqcb
+EcWqcb
+EcVqdb
+EcTqfb
+DcSqhb
+BcUqhb
+BcTqib
+CcSqib
+CcfqbhMqib
+DcbhdqbhNqhb
+BcdhbqehcqbhbqbhbqfhBqhb
+AckhbqkhAqhb
+zczhbqbfvqhb
+zcyhdfvqhb
+xcAhfftqhb
+ucChifrqhb
+tcuhbfbhbfbhbfdhkfrqbbbeeb
+scuhifbhlflqjecb
+scthxfhqne
+scphCfgqne
+sclhbfbhbfbhDfdqpe
+sccfjhHfbqre
+pcbfbabcefbhbfbhbfbhbfbhHfbqre
+</territory>
+	<forts>$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+$ara
+</forts>
+</Scenario>

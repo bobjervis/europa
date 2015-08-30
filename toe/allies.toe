@@ -1,0 +1,70 @@
+<TOEs>
+
+	These TOEs are trying to reflect the full range of manpower assigned to field forces.
+	Thus these TOEs generally include all support elements.  The reason is that the game
+	model is designed to give each of these elements some role to play in the game.  In
+	general, support functions are carried out automatically, so the player need not be
+	concerned with managing those units unless they really feel the urge.
+
+	I have tried to put significant efforts into producing good TOE's.  As I have uncovered
+	ever more detailed TOE data on the respective combatants, I have realized that TOEs
+	are a subject far more extensive than I want to address in its entirety (if that would 
+	even be possible).  For example, the Germans alone issued thousands of different TOEs
+	throughout the war.
+
+	Even if someone were to uncover all of those TOEs and then code them, they would still
+	be faced with the challenge of discovering whether and when any given field unit conformed 
+	to that TOE or a different one.  Field units often did not change their composition
+	for a long period of time when a new TOE was issued.  In other cases, old units retained
+	their old structure alongside newer units raised under a different TOE.
+
+	Knowing the designation (infantry, panzer, etc.) of a unit usually isn't enough to know
+	the exact TOE of the unit.
+
+	Plus, most units had variations of one sort or another that departed completely from any
+	given TOE.  Independent units were routinely attached to larger formations for specific
+	missions, but then stayed with their new organizations for long periods of time.  Units
+	also periodically renumbered subunits so that temporary attachments dissolved into 
+	permanent new organizations.
+
+	Finally, forces deployed in quiet sectors, particularly German occupation troops, tended
+	to acquire lots of ad hoc organization by scavenging captured equipment (since these units 
+	rarely had priority for top of the line weapons).  But using captured equipment was not
+	limited to esoteric outposts.  During the very battle of Kursk itself, a unit no less than 
+	the SS Das Reich Division used Russian T-34 tanks because their Panthers were still back at
+	the factory in Germany.
+
+	The pratical reality is that the TOEs for this game have to be a simplified form of the
+	actual force levels.  
+
+		-- Allied TOEs --
+
+	<toe name=fr.reg.hq badge=hq size="I I I" hq colors=Italian>
+	</>
+	<toe name=fr.inf.div des="# Infantry" badge=inf size=XX colors=French>
+		<section badge=hq size=XX hq>
+			<section badge=sup size=p>
+			</>
+			<section badge=med size=I>
+			</>
+			<section badge=veh size=p>
+			</>
+		</>
+		<section badge=inf size="I I I" quant=2>
+			<section toe=fr.reg.hq/>
+		</>
+		<section badge=inf size="I I I" >
+			<section toe=fr.reg.hq/>
+		</>
+		<section badge=art size="I I I">
+			<section toe=fr.reg.hq/>
+		</>
+		<section badge=mort size="I I">
+		</>
+		<section badge=eng size="I I">
+		</>
+		<section badge=at size=I>
+		</>
+	</>
+
+</TOEs>

@@ -1,0 +1,417 @@
+<root>
+
+		- Germany -
+
+	<xplace name=Berlin lat=52d31 long=13d24 imp=3/>
+	<xplace name=Magdeburg lat=52d00 long=11d40 imp=1/>
+	<xplace name=Dresden lat=51d03 long=13d45 imp=2/>
+	<xplace name=Leipzig lat=51d18 long=12d20 imp=1/>
+	<xplace name=Rostock lat=54d05 long=12d08 imp=1/>
+	<xplace name=Potsdam lat=52d24 long=13d04 imp=2/>
+	<xplace name=Munchen lat=48d09 long=11d35 imp=3/>
+	<xplace name=Nurnberg lat=49d26 long=11d04 imp=2/>
+	<xplace name=Erfurt lat=50d59 long=11d02 imp=2/>
+	<xplace name=Halle lat=51d30 long=12d00 imp=2 />
+	<xplace name=Cottbus lat=51d46 long=14d20 imp=1/>
+	<xplace name=Konigsberg lat=54d42 long=20d30 imp=2/>
+	<xplace name=Allenstein lat=53d47 long=20d29 />
+	<xplace name=Rastenburg lat=54d05 long=21d23 imp=1 />
+	<xplace name=Lyck lat=53d50 long=22d21 />
+	<xplace name=Memel lat=55d43 long=21d07 imp=1/>
+	<xplace name=Frankfurt lat=52d21 long=14d33 imp=1 />
+	<xplace name=Glogau lat=51d40 long=16d06 imp=1 />
+	<xplace name=Kolberg lat=54d11 long=15d35 imp=1 />
+	<xplace name=Oppeln lat=50d40 long=17d57 imp=1 />
+	<xplace name=Regensburg lat=49d00 long=12d05 imp=1 />
+	<xplace name=Passau lat=48d35 long=13d29 />
+	<xplace name=Weiden lat=49d40 long=12d09 />
+	<xplace name="Neu Brandenburg" lat=53d34 long=13d16 imp=1 />
+	<xplace name=Peenemunde lat=54d08 long=13d47 />
+	<xplace name=Stralsund lat=54d18 long=13d06 imp=1 />
+	<xplace name=Lubeck lat=53d52 long=10d42 imp=1 />
+	<xplace name=Kiel lat=54d20 long=10d08 />
+
+		- Austria -
+
+	<xplace name=Salzburg lat=47d48 long=13d15 imp=2 />
+	<xplace name=Wien lat=48d12 long=16d22 imp=3 />
+	<xplace name=Innsbruck lat=47d16 long=11d24 imp=2 />
+	<xplace name=Linz lat=48d18 long=14d18 imp=1 />
+	<xplace name=Klagenfurt lat=46d37 long=14d18 imp=1 />
+	<xplace name=Spittal lat=46d48 long=13d30 />
+	<xplace name=Graz lat=47d04 long=15d27 imp=1 />
+
+		- Czech Republic - 
+
+	<xplace name=Praha lat=50d05 long=14d28 imp=2 />
+	<xplace name=Brno lat=49d12 long=16d38 imp=2 />
+	<xplace name=Ostrava lat=49d50 long=18d17 imp=1 />
+	<xplace name=Plzen lat=49d45 long=13d22 imp=1 />
+
+		- Slovakia -
+
+	<xplace name=Bratislava lat=48d09 long=17d07 imp=1 />
+	<xplace name="Banska Bystrica" lat=48d44 long=19d09 />
+	<xplace name=Kosice lat=48d43 long=21d15 />
+
+		- Hungary -
+
+	<xplace name=Budapest lat=47d30 long=19d05 imp=2 />
+	<xplace name=Pecs lat=46d05 long=18d14 imp=1 />
+	<xplace name=Gyor lat=47d41 long=17d38 imp=1 />
+	<xplace name=Debrecen lat=47d32 long=21d38 imp=1 />
+	<xplace name="Lake Balaton" lat=46d50 long=17d45 />
+	<xplace name=Miskolc lat=48d06 long=20d47 />
+
+		- Yugoslavia -
+
+	<xplace name=Belgrade lat=44d48 long=20d27 imp=2 />
+	<xplace name=Zagreb lat=45d48 long=16d00 imp=1 />
+	<xplace name=Sarajevo lat=43d51 long=18d23 imp=1 />
+	<xplace name="Novi Sad" lat=45d15 long=19d50 />
+	<xplace name=Podgorica lat=42d26 long=19d15 />
+	<xplace name=Skopje lat=42d00 long=21d26 imp=1 />
+	<xplace name=Kraljevo lat=43d43 long=20d43 />
+
+		- Albania -
+
+	<xplace name=Tirane lat=41d19 long=19d49 imp=1 />
+
+		- Greece -
+
+	<xplace name=Thessaloniki lat=40d38 long=22d56 imp=1 />
+	<xplace name=Xanthi lat=41d08 long=24d53 />
+	<place name=Athinai lat=37d59 long=23d44 imp=1 />
+	<xplace name=Larisa lat=39d38 long=22d25 />
+	<place name=Sparti lat=37d05 long=22d26 />
+	<place name=Korinthos lat=37d56 long=22d56 />
+	<place name=Thivai lat=38d19 long=23d19 />
+	<place name=Mykinai lat=37d45 long=22d44 />
+	<place name=Rodhos lat=36d26 long=28d13 />
+	<xplace name=Patrai lat=38d15 long=21d44 imp=1 />
+
+
+		- Poland -
+
+	<xplace name=Poznan lat=52d25 long=16d58 imp=2/>
+	<xplace name=Krakow lat=50d05 long=19d55 imp=2 />
+	<xplace name=Warszawa lat=52d15 long=21d00 imp=2 />
+	<xplace name=Gdansk lat=54d21 long=18d40 imp=2 />
+	<xplace name=Bialystok lat=53d08 long=23d09 imp=1 />
+	<xplace name=Przemysl lat=49d47 long=22d47 imp=1 />
+	<xplace name=Torun lat=53d02 long=18d36 imp=1 />
+	<xplace name=Kielce lat=50d50 long=20d40 imp=1 />
+	<xplace name=Lublin lat=51d15 long=22d34 imp=1 />
+	<xplace name=Lodz lat=51d45 long=19d28 imp=2 />
+	<xplace name=Katowice lat=50d16 long=19d01 />
+	<xplace name=Czestochowa lat=50d48 long=19d07 />
+	<xplace name=Tarnow lat=50d01 long=20d59 imp=1 />
+	<xplace name=Radom lat=51d25 long=21d09 imp=1 />
+	<xplace name=Siedlce lat=52d10 long=22d18 imp=1 />
+	<xplace name=Wyszkow lat=52d36 long=21d28 />
+	<xplace name=Kalisz lat=51d45 long=18d05 />
+	<xplace name=Modlin lat=52d26 long=20d41 />
+	<xplace name=Mlawa lat=53d07 long=20d23 imp=1 />
+	<xplace name=Bydgoszcz lat=53d09 long=18d00 imp=1 />
+	<xplace name=Gdynia lat=54d30 long=18d33 imp=1 />
+	<xplace name=Tarnowice lat=50d26 long=18d50 />
+	<xplace name=Szczecin lat=53d25 long=14d35 imp=2/>
+	<xplace name=Wroclaw lat=51d06 long=17d02 imp=2/>
+	<xplace name=Czluchow lat=53d40 long=17d22 />
+	<xplace name=Pila lat=53d09 long=16d45 />
+	<xplace name=Bytow lat=54d10 long=17d30 />
+	<xplace name=Trzebnica lat=51d19 long=17d03 />
+	<xplace name=Nysa lat=50d28 long=17d20 />
+	<xplace name=Kluczbork lat=50d59 long=18d13 />
+	<xplace name=Gliwice lat=50d17 long=18d40 />
+
+		- Italy -
+
+	<xplace name=Trieste lat=45d38 long=13d46 imp=2 />
+	<xplace name=Milano lat=45d28 long=9d12 imp=2 />
+	<place name=Rome lat=41d54 long=12d29 imp=3 />
+	<xplace name=Firenze lat=43d46 long=11d15 imp=1 />
+	<xplace name=Napoli lat=40d50 long=14d15 imp=2 />
+	<xplace name=Torino lat=45d03 long=7d40 imp=2 />
+	<xplace name=Palermo lat=38d07 long=13d22 imp=2 />
+	<xplace name=Genova lat=44d25 long=8d57 imp=2 />
+	<xplace name=Brescia lat=45d33 long=10d15 imp=2 />
+	<xplace name=Piacenza lat=45d01 long=9d40 imp=1 />
+	<xplace name=Novara lat=45d28 long=8d38 imp=1 />
+	<xplace name=Alessandria lat=44d54 long=8d37 imp=1 />
+	<xplace name="La Spezia" lat=44d07 long=9d50 imp=1 />
+	<xplace name=Verona lat=45d27 long=11d00 imp=1 />
+	<xplace name=Vicenza lat=45d33 long=11d33 imp=1 />
+	<xplace name=Venezia lat=45d26 long=12d19 imp=1 />
+	<xplace name=Bolzano lat=46d31 long=11d30 imp=1 />
+	<xplace name=Bologna lat=44d29 long=11d20 imp=1 />
+	<xplace name=Ferrara lat=44d50 long=11d35 imp=1 />
+	<xplace name=Ravenna lat=44d25 long=12d12 />
+	<xplace name=Pisa lat=43d43 long=10d23 />
+	<xplace name=Siena lat=43d19 long=11d21 />
+	<xplace name=Piombino lat=42d55 long=10d32 />
+	<xplace name=Civitavecchia lat=42d06 long=11d48 />
+	<xplace name=Perugia lat=43d08 long=12d22 />
+	<xplace name=Rimini lat=44d03 long=12d34 />
+	<xplace name=Modena lat=44d40 long=10d55 />
+	<xplace name=Mantova lat=45d09 long=10d48 />
+	<xplace name=Parma lat=44d48 long=10d20 imp=1 />
+	<xplace name=Anzio lat=41d27 long=12d37 />
+	<xplace name=Salerno lat=40d41 long=14d47 />
+	<xplace name=Pescara lat=42d28 long=14d13 />
+	<xplace name=Foggia lat=41d27 long=15d34 imp=1 />
+	<xplace name=Taranto lat=40d28 long=17d13 imp=1 />
+	<xplace name=Brindisi lat=40d38 long=17d56 />
+	<xplace name=Cassino lat=41d30 long=13d49 />
+	<xplace name="Reggio di Calabria" lat=38d06 long=15d39 imp=1 />
+	<xplace name=Messina lat=38d11 long=15d34 />
+	<xplace name=Catania lat=37d30 long=15d06 imp=1 />
+	<place name=Syracuse lat=37d04 long=15d18 />
+	<xplace name=Cagliari lat=39d13 long=9d07 imp=1 />
+
+		- San Marino -
+
+	<xplace name="San Marino" lat=43d55 long=12d28 />
+
+		- Romania -
+
+	<xplace name=Bucuresti lat=44d26 long=26d06 imp=2 />
+	<xplace name=Constanta lat=44d11 long=28d39 imp=1 />
+	<xplace name=Ploiesti lat=44d57 long=26d01 imp=1 />
+	<xplace name=Galati lat=45d27 long=28d03 imp=1 />
+	<xplace name=Iasi lat=47d10 long=27d36 imp=1 />
+	<xplace name=Cluj-Napoca lat=46d46 long=23d36 imp=1 />
+	<xplace name=Craiova lat=44d19 long=23d48 />
+	<xplace name=Timisoara lat=45d45 long=21d13 />
+	<xplace name=Bacau lat=46d34 long=26d54 />
+	<xplace name=Pitesti lat=44d51 long=24d52 />
+	<xplace name=Braila lat=45d16 long=27d59 />
+
+		- Moldova -
+
+	<xplace name=Kishinev lat=47d00 long=28d51 imp=1 />
+	<xplace name="Bel'tsy" lat=47d44 long=27d52 imp=1 />
+	<xplace name=Tiraspol lat=46d50 long=29d38 imp=1 />
+	<xplace name=Rybnitsa lat=47d45 long=29d00 />
+	<xplace name=Kagul lat=45d54 long=28d11 />
+
+		- Ukraine -
+
+	<xplace name=Korsun lat=49d26 long=31d15 />
+	<xplace name=Uman lat=48d45 long=30d13 />
+	<xplace name=Charkassy lat=49d26 long=32d04 imp=1 />
+	<xplace name=Lvov lat=49d50 long=24d00 imp=1/>
+	<xplace name=Lutsk lat=50d45 long=25d20 imp=1 />
+	<xplace name=Vinnitsa lat=49d14 long=28d29 imp=1 />
+	<xplace name=Kiyev lat=50d26 long=30d31 imp=2 />
+	<xplace name=Chernigov lat=51d30 long=31d18 imp=1 />
+	<xplace name=Chernovtsy lat=48d18 long=25d56 imp=1 />
+	<xplace name=Odessa lat=46d28 long=30d44 imp=2 />
+	<xplace name=Nikolayev lat=46d58 long=32d00 imp=1 />
+	<xplace name=Kherson lat=46d38 long=32d36 imp=1 />
+	<xplace name=Dnepropetrovsk lat=48d27 long=34d59 imp=2 />
+	<xplace name=Zaporozh'ye lat=47d49 long=35d11 imp=1 />
+	<xplace name=Donetsk lat=48d00 long=37d48 imp=1 />
+	<xplace name=Mariupol lat=47d06 long=37d33 imp=1 />
+	<xplace name=Melitopol lat=46d50 long=35d22 imp=1 />
+	<xplace name=Simferopol lat=44d57 long=34d06 imp=1 />
+	<xplace name=Sevastopol lat=44d36 long=33d32 imp=2 />
+	<xplace name=Kerch lat=45d21 long=36d28 />
+	<xplace name=Poltava lat=49d35 long=34d34 />
+	<xplace name=Kupyansk lat=49d43 long=37d35 />
+	<xplace name=Kremenchug lat=49d04 long=33d25 imp=1 />
+	<xplace name=Zhitomir lat=50d15 long=28d40 imp=1 />
+	<xplace name=Rovno lat=50d37 long=26d15 imp=1 />
+	<xplace name=Ternopol lat=49d33 long=25d35 />
+	<xplace name=Korosten lat=50d57 long=28d39 />
+	<xplace name=Radomyshl lat=50d30 long=29d14 />
+	<xplace name="Belaya Tserkov" lat=49d47 long=30d07 imp=1/>
+	<xplace name=Konotop lat=51d14 long=33d12 />
+	<xplace name=Sumy lat=50d55 long=34d46 imp=1 />
+	<xplace name=Kirovograd lat=48d30 long=32d15 imp=1 />
+	<xplace name=Slavyansk lat=48d52 long=37d37 imp=1 />
+	<xplace name=Kharkov lat=50d00 long=36d15 imp=3/>
+
+		- Belarus -
+
+	<xplace name=Minsk lat=53d54 long=27d34 imp=2/>
+	<xplace name=Vitebsk lat=55d11 long=30d11 imp=1/>
+	<xplace name=Bobruysk lat=53d09 long=29d14 imp=1 />
+	<xplace name=Gomel lat=52d26 long=30d59 imp=1 />
+	<xplace name=Orsha lat=54d30 long=30d24 />
+	<xplace name=Mogilev lat=53d54 long=30d20 imp=1/>
+	<xplace name=Polotsk lat=55d29 long=28d48 />
+	<xplace name=Borisov lat=54d13 long=28d29 />
+	<xplace name=Pinsk lat=52d07 long=26d04 imp=1 />
+	<xplace name=Baranovichi lat=53d08 long=26d02 />
+	<xplace name="Brest Litovsk" lat=52d06 long=23d42 imp=1 />
+	<xplace name=Grodno lat=53d41 long=23d50 imp=1 />
+	<xplace name=Molodechno lat=54d19 long=26d50 />
+
+
+	<xplace name=Moscow lat=55d45 long=37d35 />
+	<xplace name=Minsk lat=53d54 long=27d34 />
+	<xplace name=Riga lat=56d57 long=24d06 />
+	<xplace name="St. Petersburg" lat=59d53 long=30d15 />
+	<xplace name=Kharkov lat=50d00 long=36d15 />
+	<xplace name=Krasnodar lat=45d01 long=38d58 />
+	<xplace name=Maikop lat=44d36 long=40d06 />
+	<xplace name=Armavir lat=44d59 long=41d07 />
+	<xplace name=Groznyy lat=43d18 long=45d42 />
+	<xplace name=Sukhumi lat=42d59 long=41d01 />
+	<xplace name=Tiblisi lat=41d43 long=44d47 />
+	<xplace name=Astrakhan lat=46d20 long=48d02 />
+	<xplace name=Rostov-na-Donu lat=47d14 long=39d42 />
+	<xplace name=Volgograd lat=48d48 long=44d35 />
+	<xplace name=Kursk lat=51d43 long=36d11 />
+	<xplace name=Voronezh lat=51d39 long=39d10 />
+	<xplace name=Saratov lat=51d34 long=46d02 />
+	<xplace name=Penza lat=53d11 long=45d00 />
+	<xplace name=Tambov lat=52d43 long=41d26 />
+	<xplace name=Kazan lat=55d45 long=49d08 />
+	<xplace name=Tula lat=54d12 long=37d36 />
+	<xplace name=Taganrog lat=47d13 long=38d54 />
+	<xplace name=Vitebsk lat=55d11 long=30d11 />
+	<xplace name=Tuapse lat=44d06 long=39d04 />
+	<xplace name=Tikhoretsk lat=45d51 long=40d07 />
+	<xplace name=Kotel'nikovo lat=47d37 long=43d08 />
+	<xplace name=Akhtubinsk lat=48d16 long=46d10 />
+	<xplace name=Rtishchevo lat=52d15 long=43d47 />
+
+	<place name=Harappa lat=30d38 long=72d52 />
+	<place name="Mohen jo Daro" lat=27d19 long=68d07 />
+	<place name="Angkor Wat" lat=13d25 long=103d52 />
+	<place name=Chang'an lat=34d15 long=108d56 />
+	<place name=Luoyang lat=34d41 long=112d28 />
+
+	<place name=Carthage lat=36d52 long=10d20 />
+
+	<xplace name=Semna lat=21d28 long=31d01 />
+	<xplace name="Abu Simbel" lat=22d22 long=31d37 />
+
+	<acity name=Aswan lat=24d05 long=32d53 imp=1 cult=Hamite/>
+	<acity name=Idfu lat=24d58 long=32d52 imp=1 cult=Hamite/>
+	<acity name=Thebes lat=25d44 long=32d45 imp=3 cult=Hamite/>
+	<acity name=Koptos lat=26d01 long=32d46 imp=2 cult=Hamite/>
+	<acity name=Dandara lat=26d14 long=32d39 imp=1 cult=Hamite/>
+	<acity name=Abydos lat=26d11 long=31d55 imp=1 cult=Hamite/>
+	<acity name=This lat=26d18 long=31d47 imp=1 cult=Hamite/>
+	<acity name=Antaeopolis lat=26d57 long=31d30 imp=1 cult=Hamite/>
+	<acity name=Siut lat=27d11 long=31d11 imp=2 cult=Hamite/>
+	<acity name=Hermopolis lat=27d48 long=30d48 imp=1 cult=Hamite/>
+	<acity name=Cynopolis lat=28d29 long=30d47 imp=1 cult=Hamite/>
+	<acity name=Heracleopolis lat=29d05 long=30d56 imp=1 cult=Hamite/>
+	<acity name=Fayyum lat=29d19 long=30d50 imp=2 cult=Hamite/>
+	<acity name=Itj-towy lat=29d35 long=31d14 imp=2 cult=Hamite/>
+	<acity name=Memphis lat=29d52 long=31d15 imp=1 cult=Hamite/>
+	<acity name=Heliopolis lat=30d09 long=31d19 imp=1 cult=Hamite/>
+	<acity name=Naucratis lat=30d54 long=30d35 imp=1 cult=Hamite/>
+	<acity name=Sais lat=30d57 long=30d46 imp=1 cult=Hamite/>
+	<acity name=Buto lat=31d12 long=30d44 imp=1 cult=Hamite/>
+	<acity name=Xois lat=31d05 long=30d56 imp=2 cult=Hamite/>
+	<acity name=Busiris lat=30d55 long=31d15 imp=2 cult=Hamite/>
+	<acity name=Athribis lat=30d27 long=31d11 imp=1 cult=Hamite/>
+	<acity name=Bubastis lat=30d34 long=31d31 imp=2 cult=Hamite/>
+	<acity name=Mendes lat=30d58 long=31d31 imp=2 cult=Hamite/>
+	<acity name=Tanis lat=30d58 long=31d52 imp=1 cult=Hamite/>
+	<acity name=Tjel lat=30d52 long=32d19 imp=1 cult=Hamite/>
+
+	<acity name=Gaza lat=31d30 long=34d28 imp=1 cult=Canaanite/>
+	<acity name=Lachish lat=31d34 long=34d51 imp=1 cult=Canaanite/>
+	<acity name=Gezer lat=31d51 long=34d55 imp=1 cult=Canaanite/>
+	<acity name=Megiddo lat=32d35 long=35d11 imp=1 cult=Canaanite/>
+	<acity name=Hazor lat=33d01 long=35d34 imp=1 cult=Canaanite/>
+
+	<acity name=Sidon lat=33d33 long=35d22 imp=1 cult=Canaanite/>
+	<acity name=Byblos lat=34d07 long=35d39 imp=2 cult=Canaanite/>
+	<acity name=Tripoli lat=34d26 long=35d51 imp=1 cult=Canaanite/>
+
+	<acity name=Kadesh lat=34d34 long=36d30 imp=1 cult=Amorite/>
+	<acity name=Qatna lat=34d50 long=36d52 imp=2 cult=Amorite/>
+	<acity name=Ugarit lat=35d35 long=35d45 imp=1 cult=Amorite/>
+	<acity name=Tadmur lat=34d33 long=38d17 imp=1 cult=Amorite/>
+	<acity name=Alalakh lat=36d14 long=36d19 imp=1 cult=Amorite/>
+	<acity name=Aleppo lat=36d12 long=37d10 imp=2 cult=Amorite/>
+	<acity name=Ebla lat=35d48 long=36d47 imp=1 cult=Amorite/>
+	<acity name=Carchemish lat=36d55 long=38d00 imp=1 cult=Amorite/>
+
+	<acity name=Khahhu lat=37d42 long=38d25 imp=1 cult=Hurrian/>
+	<acity name=Urshu lat=37d20 long=38d05 imp=1 cult=Hurrian/>
+	<acity name=Khashshu lat=37d40 long=39d08 imp=1 cult=Hurrian/>
+
+	<acity name=Adaniya lat=37d01 long=35d18 imp=1 cult=Luwian />
+	<acity name=Tarsus lat=36d55 long=34d53 imp=1 cult=Luwian />
+	<acity name=Antalya lat=36d53 long=30d42 imp=1 cult=Luwian />
+	<acity name=Parduwata lat=38d10 long=33d15 imp=1 cult=Luwian />
+	<acity name=Tuwanuwa lat=37d58 long=34d43 imp=1 cult=Luwian />
+
+	<xplace name=Soandus lat=38d28 long=34d45 />
+	<acity name=Purushkhanda lat=38d25 long=33d51 imp=2 cult=Hittite />
+	<acity name=Shallapa lat=38d38 long=34d43 imp=1 cult=Hittite />
+	<acity name=Kanesh lat=38d33 long=36d13 imp=2 cult=Hittite />
+	<acity name=Ankuwa lat=39d35 long=35d15 imp=1 cult=Hittite />
+	<acity name=Hattusha lat=40d01 long=34d38 imp=1 cult=Hittite />
+	<xplace name=Tawiniya lat=40d10 long=34d47 />
+	<acity name=Zalpa lat=40d10 long=34d51 imp=2 cult=Hittite />
+	<acity name=Khushshar lat=38d20 long=36d19 imp=1 cult=Hittite />
+	<acity name=Tegarama lat=38d43 long=37d17 imp=1 cult=Hittite />
+
+	<acity name=Shanakhuitta lat=40d34 long=35d51 imp=1 cult=Palaic />
+
+	<acity name=Tuttul lat=35d50 long=39d15 imp=1 cult=Amorite/>
+	<acity name=Terqa lat=35d00 long=40d30 imp=1 cult=Amorite/>
+	<acity name=Mari lat=34d35 long=40d53 imp=2 cult=Amorite/>
+	<acity name=Rapiqum lat=33d22 long=43d38 imp=1 cult=Amorite/>
+	<acity name=Sabaratim lat=35d28 long=40d45 imp=1 cult=Amorite/>
+	<acity name=Tuttul lat=33d38 long=42d49 imp=1 cult=Amorite/>
+
+	<acity name=Shubat-Enlil lat=36d51 long=40d54 imp=1 cult=Akkadian/>
+	<acity name=Urkish lat=37d07 long=40d54 imp=1 cult=Hurrian/>
+	<xplace name="Jaghir Bazar" lat=36d51 long=40d54 />
+
+	<acity name=Ninawa lat=36d22 long=43d09 imp=2 cult=Akkadian/>
+	<acity name=Assur lat=35d27 long=43d16 imp=2 cult=Akkadian/>
+	<acity name=Ekallatum lat=35d06 long=43d35 imp=1 cult=Akkadian/>
+	<acity name=Arrapha lat=35d28 long=44d23 imp=2 cult=Akkadian/>
+
+	<acity name=Sippar lat=33 long=44d10 imp=2 cult=Akkadian/>
+	<acity name=Kutha lat=32d45 long=44d30 imp=1 cult=Akkadian/>
+	<acity name=Babylon lat=32d32 long=44d25 imp=2 cult=Akkadian/>
+	<acity name=Kish lat=32d32 long=44d32 imp=2 cult=Akkadian/>
+
+	<acity name=Nippur lat=32d18 long=45d16 imp=1 cult=Akkadian/>
+	<acity name=Isin lat=31d59 long=44d57 imp=2 cult=Akkadian/>
+	<acity name=Uruk lat=31d19 long=45d39 imp=1 cult=Akkadian/>
+	<acity name=Lagash lat=31d33 long=46d11 imp=1 cult=Akkadian/>
+	<acity name=Larsa lat=31d16 long=45d52 imp=2 cult=Akkadian/>
+	<acity name=Ur lat=30d56 long=46d07 imp=2 cult=Akkadian/>
+	<acity name=Eridu lat=30d49 long=45d59 imp=1 cult=Sumerian/>
+
+	<acity name=Eshnunna lat=33d28 long=45d00 imp=2 cult=Akkadian/>
+	<acity name=Der lat=33d07 long=45d57 imp=2 cult=Akkadian/>
+	<acity name=Malgium lat=32d39 long=45d20 imp=1 cult=Amorite/>
+
+	<acity name=Susa lat=32d11 long=48d14 imp=2 cult=Elamite/>
+	<acity name=Liyan lat=28d58 long=50d50 imp=1 cult=Elamite/>
+	<acity name=Khukhnur lat=31d50 long=49d52 imp=1 cult=Elamite/>
+
+	<place name=Umma lat=31d43 long=45d57 />
+	<xplace name=Qadisiyah lat=31d35 long=44d26 />
+	<xplace name=Wabila lat=31d35 long=46d56 />
+	<xplace name=Tall Jidr lat=31d51 long=45d58 />
+	<xplace name=Kauli lat=31d56 long=46d57 />
+	<xplace name=Kisurra lat=31d57 long=45d39 />
+	<xplace name=Drehem lat=32d05 long=45d28 />
+	<xplace name=Ukhaydir lat=32d19 long=43d20 />
+
+	<acity name=Troy lat=39d57 long=26d15 imp=1 />
+	<acity name=Knosos lat=35d18 long=25d11 imp=1 />
+	<acity name="Antika Thera" lat=36d23 long=25d27 imp=1 />
+	<acity name=Buhen lat=21d48 long=31d21 imp=1 cult=Hamite/>
+	<acity name=Amada lat=22d40 long=32d10 imp=1 cult=Hamite/>
+	<country name=Nubia>
+		<acity name=Buhen lat=21d48 long=31d21 >
+			<pop culture=Hamite value=1 />
+		</>
+	</>
+</>

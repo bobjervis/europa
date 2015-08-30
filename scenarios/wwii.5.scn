@@ -1,0 +1,2070 @@
+<Scenario map=europe5.Xmp hex=5 start=9/1/1939 end=5/11/1945 strengthScale=3500 name="s39.9.3: The War in Europe">
+
+		- Initial Alliances -
+
+	<force railcap=1000 colors=Axis name=Axis>
+		<join combatant=Germany/>
+		<join combatant=Italy/>
+		<victory value=340 level=Major />
+		<victory value=300 level=Minor />
+	</force>
+
+	<force railcap=1000 colors=Allies name=Allies>
+		<join combatant=Poland />
+		<join combatant=France />
+		<join combatant="Great Britain" />
+		<victory value=365 level=Major />
+		<victory value=325 level=Minor />
+	</force>
+
+	<description>
+		This scenario starts September 1st, 1939.
+		<p>
+			It covers the entire European Theater of War beginning with the invasion
+			of Poland
+		</p>
+	</description>
+	<force name=Axis colors=Axis>
+		<combatant name=Germany nation=Germany colors=Wehrmacht>
+			<reinforcements>
+				<unit name="708th Static" badge=stat note="to AGC autumn 43"/>
+				<unit name="113th Infantry" note="to AGC in summer?"/>
+			</reinforcements>
+			<unit name=OKW commander=Hitler>
+				<unit name="Army Group Finland">
+					<unit name="211th Panzer" size="I I" badge=arm note="Mostly French tanks"/>
+					<unit name="741st Stug" size="I I" badge=ag/>
+					<unit name="742nd Stug" size="I I" badge=ag/>
+					<unit name="20th Mountain" size=XXXX badge=mtn>
+						<unit name="18th Mountain" size=XXX badge=mtn>
+							<unit name="6th SS Mountain" colors=SS badge=mtn/>
+							<unit name="7th Mountain" badge=mtn/>
+						</unit>
+						<unit name="19th Mountain" size=XXX badge=mtn>
+							<unit name="2nd Mountain" badge=mtn/>
+							<unit name="210th Infantry"/>
+							<unit name="6th Mountain" badge=mtn/>
+						</unit>
+						<unit name="36th Mountain" size=XXX badge=mtn hq=hq2>
+							<unit name="163rd Infantry"/>
+							<unit name="169th Infantry"/>
+						</unit>
+					</unit>
+				</unit>
+				<unit name=OKH>
+					<unit name="Army Group North">
+						<unit name="18th PzGren" badge=mech/>
+						<unit name="388th Training" badge=stat/>
+						<unit name="207th Security" badge=sec/>
+						<unit name="281st Security" badge=sec/>
+						<unit name="285th Security" badge=sec/>
+						<unit name="16th Army" size=XXXX>
+							<unit name="223rd Infantry"/>
+							<unit name="8th Jaeger" note=2IR/>
+							<unit name="10th Corps" size=XXX>
+								<unit name="126th Infantry"/>
+								<unit name="30th Infantry" note="Only 3 art abt"/>
+								<unit name="329th Infantry"/>
+								<unit name="5th Jaeger"/>
+								<unit name="I/66 Light Howitzer" size="I I" badge=art/>
+							</unit>
+							<unit name="2nd Corps" size=XXX>
+								<unit name="12th Infantry" note="only 3 art abt"/>
+								<unit name="123rd Infantry"/>
+								<unit name="218th Infantry"/>
+								<unit name="331st Infantry" note="only 2 art abt"/>
+								<unit name="93rd Infantry"/>
+								<unit name="I/48 Light Howitzer" size="I I" badge=art/>
+							</unit>
+							<unit name="8th Corps" size=XXX>
+								<unit name="122nd Infantry"/>
+								<unit name="21st LW" colors=LW/>
+								<unit name="32nd Infantry" note="only 3 art abt"/>
+								<unit name="I/68 Light Howitzer" size="I I" badge=art/>
+							</unit>
+						</unit>
+						<unit name="18th Army" size=XXXX>
+							<unit name="23rd Infantry" note="only 3 art abt"/>
+							<unit name="I/59 Light Howitzer" size="I I" badge=art/>
+							<unit name="1st Corps" size=XXX badge=hq2>
+								<unit name="13th LW" colors=LW/>
+								<unit name="227th Infantry"/>
+							</unit>
+							<unit name="26th Corps" size=XXX>
+								<unit name="1st Infantry"/>
+								<unit name="11th Infantry"/>
+								<unit name="121st Infantry"/>
+								<unit name="132nd Infantry"/>
+								<unit name="212th Infantry" note="only 3 art abt"/>
+								<unit name="290th Infantry"/>
+								<unit name="5th Mountain" badge=mtn note="2IR+3art abt"/>
+								<unit name="69th Infantry" note="2IR+3art abt"/>
+								<unit name="I/37 Light Howitzer" size="I I" badge=art/>
+								<unit name="IV/216 Light Howitzer" size="I I" badge=art/>
+							</unit>
+							<unit name="28th Corps" size=XXX>
+								<unit name="12th LW" colors=LW note=2IR/>
+								<unit name="225th Infantry" note="only 3 art abt"/>
+								<unit name="28th Jaeger" note=2IR/>
+								<unit name="61st Infantry"/>
+								<unit name="81st Infantry"/>
+								<unit name="96th Infantry"/>
+							</unit>
+							<unit name="38th Corps" size=XXX>
+								<unit name="1st LW" colors=LW/>
+								<unit name="217th Infantry"/>
+								<unit name="2nd SS Infantry" size=X colors=SS/>
+							</unit>
+							<unit name="3rd Luftwaffe Corps" size=XXX>
+								<unit name="10th LW" colors=LW/>
+								<unit name="9th LW" colors=LW/>
+							</unit>
+							<unit name="50th Corps" size=XXX>
+								<unit name="170th Infantry" note="only 3 art abt"/>
+								<unit name="215th Infantry" note="only 3 art abt"/>
+								<unit name="250th Spanish Blue Infantry" note="withdraws 5.10.43"/>
+							</unit>
+							<unit name="54th Corps" size=XXX>
+								<unit name="21st Infantry" note="only 3 art abt"/>
+								<unit name="24th Infantry" note="only 3 art abt"/>
+								<unit name="254th Infantry"/>
+								<unit name="4th SS Polizei PzGren" badge=mech colors=SS note=1PzAbt/>
+								<unit name="58th Infantry"/>
+								<unit name="I/57 Light Howitzer" size="I I" badge=art/>
+								<unit name="I/60 Light Howitzer" size="I I" badge=art/>
+							</unit>
+						</unit>
+					</unit>
+					<unit name="Army Group Center" commander="von Kluge">
+						<unit name="36th Infantry"/>
+						<unit name="390th Training" badge=stat/>
+						<unit name="391st Training" badge=stat/>
+						<unit name="5th Panzer" badge=arm/>
+						<unit name="8th Panzer" badge=arm/>
+						<unit name="83rd Infantry"/>
+						<unit name="II/213 Light Howitzer" size="I I" badge=art/>
+						<unit name="203rd Security" badge=sec note="No art+2IR"/>
+						<unit name="221st Security" badge=sec note="2IR+1 Art"/>
+						<unit name="286th Security" badge=sec/>
+						<unit name="7th Corps" size=XXX nation=Hungary colors=Hungarian>
+							<unit name="18th Infantry" nation=Hungary/>
+							<unit name="19th Infantry" nation=Hungary/>
+							<unit name="20th Infantry" nation=Hungary/>
+							<unit name="201st Infantry" nation=Hungary/>
+							<unit name="8th Infantry" nation=Hungary/>
+						</unit>
+						<unit name="8th Corps" size=XXX nation=Hungary colors=Hungarian>
+							<unit name="12th Infantry" nation=Hungary/>
+							<unit name="23rd Infantry" nation=Hungary/>
+							<unit name="24th Infantry" nation=Hungary/>
+							<unit name="25th Infantry" nation=Hungary/>
+							<unit name="2nd Infantry" nation=Hungary/>
+							<unit name="5th Infantry" nation=Hungary/>
+							<unit name="9th Infantry" nation=Hungary/>
+							<unit name="1st Infantry" nation=Hungary/>
+						</unit>
+						<unit name="2nd Army" size=XXXX>
+							<unit name="156th Bridging Column" size="I I" badge=bridge/>
+							<unit name="162nd Bridging Column" size="I I" badge=bridge/>
+							<unit name="168th Bridging Column" size="I I" badge=bridge/>
+							<unit name="175th Bridging Column" size="I I" badge=bridge/>
+							<unit name="198th Bridging Column" size="I I" badge=bridge/>
+							<unit name="33rd Light Bridging Column" size="I I" badge=bridge/>
+							<unit name="34th Bridging Column" size="I I" badge=bridge/>
+							<unit name="442nd Light Bridging Column" size="I I" badge=bridge/>
+							<unit name="534th Bridging Column" size="I I" badge=bridge/>
+							<unit name="3/62 Light Bridging Column" size=I badge=bridge/>
+							<unit name="660th Bridging Column" size="I I" badge=bridge/>
+							<unit name="664th Bridging Column" size="I I" badge=bridge/>
+							<unit name="672th Bridging Column" size="I I" badge=bridge/>
+							<unit name="Auffr. Bridging Column" size="I I" badge=bridge/>
+							<unit name="221st Pioneer" size="I I" badge=eng note="Partial only"/>
+							<unit name="202nd Panzer Jaeger" size="I I" badge=at/>
+							<unit name="559th Panzer Jaeger" size="I I" badge=at/>
+							<unit name="616th Panzer Jaeger" size="I I" badge=at/>
+							<unit name="13th Corps" size=XXX>
+								<unit name="327th Infantry" note="only 3 art abt"/>
+								<unit name="340th Infantry">
+									<unit name="377th Infantry" note="remnants att to 340ID"/>
+								</unit>
+								<unit name="82nd Infantry"/>
+								<unit name="625th Heavy Art (det.)" size=I badge=hvy.art/>
+								<unit name="855th Light Howitzer" size="I I" badge=art/>
+								<unit name="I/252 Light Howitzer" size="I I" badge=art/>
+								<unit name="39th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="742nd Pioneer" size="I I" badge=eng note="Partial equipment"/>
+							</unit>
+							<unit name="7th Corps" size=XXX>
+								<unit name="26th Infantry" note="only 3 art abt"/>
+								<unit name="68th Infantry"/>
+								<unit name="75th Infantry"/>
+								<unit name="88th Infantry" note="only 3 art abt"/>
+								<unit name="I/62 Light Howitzer" size="I I" badge=art/>
+								<unit name="II/43 Heavy Howitzer" size="I I" note="4 100mm K 18/6 150mm sFH18"/>
+								<unit name="98th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="215th Pioneer" size="I I" badge=eng/>
+								<unit name="16th Panzer Jaeger" size="I I" badge=at/>
+							</unit>
+						</unit>
+						<unit name="2nd Panzer Army" size=XXXX badge=arm>
+							<unit name="112th Infantry"/>
+							<unit name="707th Static" badge=stat/>
+							<unit name="35th Corps" size=XXX>
+								<unit name="262nd Infantry"/>
+								<unit name="299th Infantry"/>
+								<unit name="34th Infantry" note="only 3 art abt"/>
+								<unit name="56th Infantry"/>
+								<unit name="I/70 Light Howitzer" size="I I" badge=art/>
+							</unit>
+							<unit name="53rd Corps" size=XXX>
+								<unit name="208th Infantry"/>
+								<unit name="211th Infantry"/>
+								<unit name="25th PzGren" badge=mech/>
+								<unit name="293rd Infantry"/>
+							</unit>
+							<unit name="55th Corps" size=XXX>
+								<unit name="110th Infantry"/>
+								<unit name="134th Infantry"/>
+								<unit name="296th Infantry"/>
+								<unit name="339th Infantry" note="only 3 art abt"/>
+							</unit>
+						</unit>
+						<unit name="3rd Panzer Army" size=XXXX badge=arm>
+							<unit name="III/213 Light Howitzer" size="I I" badge=art/>
+							<unit name="201st Security" badge=sec/>
+							<unit name="2nd Luftwaffe Corps" size=XXX>
+								<unit name="2nd LW" colors=LW note="maybe bde strength?"/>
+								<unit name="3rd LW" colors=LW note="maybe bde strength?"/>
+								<unit name="4th LW" colors=LW note="maybe bde strength?"/>
+								<unit name="6th LW" colors=LW note="maybe bde strength?"/>
+							</unit>
+							<unit name="43rd Corps" size=XXX>
+								<unit name="20th PzGren" badge=mech/>
+								<unit name="205th Infantry" note=2IR/>
+							</unit>
+							<unit name="59th Corps" size=XXX>
+								<unit name="263rd Infantry" note=2IR/>
+								<unit name="291st Infantry" note=2IR/>
+							</unit>
+							<unit name="6th Corps" size=XXX>
+								<unit name="206th Infantry" note=2IR/>
+								<unit name="330th Infantry" note="2IR + 2 Art Abt"/>
+								<unit name="87th Infantry"/>
+							</unit>
+						</unit>
+						<unit name="4th Army" size=XXXX>
+							<unit name="183rd Infantry"/>
+							<unit name="253rd Infantry"/>
+							<unit name="12th Corps" size=XXX>
+								<unit name="260th Infantry"/>
+								<unit name="267th Infantry" note=2IR/>
+								<unit name="268th Infantry" note=2IR/>
+							</unit>
+							<unit name="27th Corps" size=XXX>
+								<unit name="197th Infantry"/>
+								<unit name="245th Infantry"/>
+								<unit name="246th Infantry" note="2IR + 3 Art Abt"/>
+								<unit name="256th Infantry" note=2IR/>
+								<unit name="52nd Infantry"/>
+							</unit>
+							<unit name="39th Panzer Corps" size=XXX badge=arm>
+								<unit name="129th Infantry"/>
+								<unit name="337th Infantry" note="only 3 art abt"/>
+								<unit name="95th Infantry"/>
+							</unit>
+							<unit name="56th Panzer Corps" size=XXX badge=arm>
+								<unit name="131st Infantry"/>
+								<unit name="14th Infantry" badge=mot.inf note="2IR + 3 Art Abt"/>
+								<unit name="321st Infantry" note="only 3 art abt"/>
+							</unit>
+							<unit name="9th Corps" size=XXX>
+								<unit name="252nd Infantry" note="2IR + 3 Art Abt"/>
+								<unit name="342nd Infantry" note="2IR + 3 Art Abt"/>
+								<unit name="35th Infantry" note="only 3 art abt"/>
+								<unit name="I/71 Light Howitzer" size="I I" badge=art/>
+							</unit>
+						</unit>
+						<unit name="9th Army" size=XXXX>
+							<unit name="10th PzGren" badge=mech/>
+							<unit name="12th Panzer" badge=arm/>
+							<unit name="1/430 Light Bridging Column" size=I badge=bridge/>
+							<unit name="535th Bridging Column" size="I I" badge=bridge/>
+							<unit name="654th Pioneer" size="I I" badge=eng/>
+							<unit name="751st Pioneer" size="I I" badge=eng/>
+							<unit name="177th Stug" size="I I" badge=ag/>
+							<unit name="185th Stug" size="I I" badge=ag/>
+							<unit name="189th Stug" size="I I" badge=ag/>
+							<unit name="216th Panzer" size="I I" badge=arm note="150mm Brummbar StmPz"/>
+							<unit name="244th Stug" size="I I" badge=ag/>
+							<unit name="245th Stug" size="I I" badge=ag/>
+							<unit name="301st (FKL) Panzer" size="I I" note="Kp. 312,313,314 - pz III/StuG III" badge=arm/>
+							<unit name="505th Schwere Panzer" size="I I" badge=hvy.arm note="2cos to start, 3rd on 8.7"/>
+							<unit name="656th Schwere Panzer Jaeger" size="I I I" badge=hvy.arm.at>
+								<unit name="653rd Schwere Panzer Jaeger" size="I I" badge=hvy.arm.at note=Elefants/>
+								<unit name="654th Schwere Panzer Jaeger" size="I I" badge=hvy.arm.at note=Elefants/>
+							</unit>
+							<unit name="904th Stug" size="I I" badge=ag/>
+							<unit name="909th Stug" size="I I" badge=ag/>
+							<unit name="20th Corps" size=XXX>
+								<unit name="137th Infantry" note=2IR/>
+								<unit name="251st Infantry"/>
+								<unit name="45th Infantry" note="only 3 art abt"/>
+								<unit name="72nd Infantry" mode=move/>
+								<unit name="860 Light Howitzer" size="I I" badge=mot.art note="12 105mm IFH18;motorized"/>
+								<unit name="I/99 Light Howitzer" size="I I" badge=art/>
+								<unit name="626th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="512th Pioneer" size="I I" badge=eng mode=move/>
+								<unit name="750th Pioneer" size="I I" badge=eng/>
+							</unit>
+							<unit name="23rd Corps" size=XXX>
+								<unit name="216th Infantry" note=2IR/>
+								<unit name="383rd Infantry"/>
+								<unit name="78th Sturm Infantry"/>
+								<unit name="1/653 Heavy Art" size=I badge=hvy.art/>
+								<unit name="2/653 Heavy Art" size=I badge=hvy.art/>
+								<unit name="1/817 Heavy Art" size=I badge=hvy.art note=170mm/>
+								<unit name="4/69 Light Howitzer" size=I note="105mm iFH"/>
+								<unit name="422nd Heavy Howitzer" size="I I" badge=hvy.art note="8 150mm sFH18 + 4 100mm K18"/>
+								<unit name="426th Light Howitzer" size="I I" badge=art/>
+								<unit name="709th Light Howitzer" size="I I" badge=art note="100mm K18"/>
+								<unit name="848th Heavy Howitzer" size="I I" badge=hvy.art/>
+								<unit name="851st Light Howitzer" size="I I" badge=art note="122mm Russian guns"/>
+								<unit name="859th Heavy Art" size="I I" badge=hvy.art note=210mm/>
+								<unit name="51st Rocket" size="I I I" badge=rocket>
+									<unit name="I/51 Rocket" size="I I" badge=rocket note="18 150mm"/>
+									<unit name="II/51 Rocket" size="I I" badge=rocket note="12 150mm + 6 SP 150mm (10 tubes)"/>
+									<unit name="III/51 Rocket" size="I I" badge=rocket note="12 210mm"/>
+								</unit>
+								<unit name="II/59 Light Howitzer" size="I I" badge=art/>
+								<unit name="II/66 Heavy Howitzer" size="I I" badge=hvy.art/>
+								<unit name="88th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="746th Pioneer" size="I I" badge=eng/>
+								<unit name="85th Mountain Pioneer" size="I I" badge=eng/>
+							</unit>
+							<unit name="41st Panzer Corps" size=XXX badge=arm>
+								<unit name="18th Panzer" badge=arm/>
+								<unit name="292nd Infantry"/>
+								<unit name="86th Infantry"/>
+								<unit name="2/620 Heavy Art" size=I badge=hvy.art note="150mm K18"/>
+								<unit name="425th Light Howitzer" size="I I" note="105mm iFH18"/>
+								<unit name="427th Light Howitzer" size="I I" note="105mm iFH18"/>
+								<unit name="604th Heavy Art" size="I I" badge=hvy.art note=210mm/>
+								<unit name="616th Light Howitzer" size="I I" note="105mm iFH18"/>
+								<unit name="53rd Heavy Rocket" size="I I I" badge=rocket>
+									<unit name="I/53 Heavy Rocket" size="I I" badge=rocket note="18 150mm"/>
+									<unit name="II/53 Heavy Rocket" size="I I" badge=rocket note="12 150mm + 6 SP 150mm"/>
+									<unit name="III/53 Heavy Rocket" size="I I" badge=rocket note="12 210mm"/>
+								</unit>
+								<unit name="II/61 Heavy Howitzer" size="I I" badge=hvy.art note="150mm sFH"/>
+								<unit name="II/64 Light Howitzer" size="I I" badge=mot.art note="105mm IFH18; motorized"/>
+								<unit name="2/409 Bridging Column" size=I badge=bridge/>
+								<unit name="606th Bridging Column" size="I I" badge=bridge/>
+								<unit name="42nd Pioneer" size="I I" badge=eng/>
+							</unit>
+							<unit name="46th Panzer Corps" size=XXX badge=arm>
+								<unit name="102nd Infantry"/>
+								<unit name="258th Infantry"/>
+								<unit name="31st Infantry" note="only 3 art abt"/>
+								<unit name="7th Infantry" note="only 3 art abt"/>
+								<unit name="Gruppe von Manteuffel" size=X note="9,10,11 Jaeger btn"/>
+								<unit name="18th Heavy Rocket" size="I I I" badge=rocket note="12 launchers"/>
+								<unit name="3/620 Heavy Art" size=I badge=hvy.art note="150mm K18"/>
+								<unit name="3/637 Heavy Art" size=I badge=hvy.art note=210mm/>
+								<unit name="430th Light Howitzer" size="I I" badge=mot.art note="105mm IFH18; motorized"/>
+								<unit name="433th Light Howitzer" size="I I" badge=art note="105mm IFH18"/>
+								<unit name="611th Light Howitzer" size="I I" badge=mot.art note="100mm K18; motorized"/>
+								<unit name="I/43 Light Howitzer" size="I I" badge=art/>
+								<unit name="I/67 Light Howitzer" size="I I" badge=art/>
+								<unit name="II/47 Heavy Howitzer" size="I I" badge=hvy.art note="150mm sFH"/>
+								<unit name="29th Bridging Column" size="I I" badge=bridge/>
+								<unit name="752nd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="443rd Pioneer" size="I I" badge=eng/>
+							</unit>
+							<unit name="47th Panzer Corps" size=XXX badge=arm>
+								<unit name="2nd Panzer" badge=arm/>
+								<unit name="20th Panzer" badge=arm/>
+								<unit name="4th Panzer" badge=arm/>
+								<unit name="6th Infantry" note="only 3 art abt"/>
+								<unit name="9th Panzer" badge=arm/>
+								<unit name="1/620 Heavy Art" size=I badge=hvy.art note="150mm K18"/>
+								<unit name="1/637 Heavy Art" size=I badge=hvy.art note=210mm/>
+								<unit name="2/637 Heavy Art" size=I badge=hvy.art note=210mm/>
+								<unit name="2nd Heavy Rocket" size="I I I" badge=rocket>
+									<unit name="I/2 Heavy Rocket" size=I badge=rocket note="12 300mm"/>
+									<unit name="II/2 Heavy Rocket" size=I badge=rocket note="12 300mm"/>
+									<unit name="III/2 Heavy Rocket" size=I badge=rocket note="12 280/300mm + 8 SP 150mm"/>
+								</unit>
+								<unit name="I/42 Light Howitzer" size="I I" badge=art/>
+								<unit name="II/63 Heavy Howitzer" size="I I" badge=hvy.art note="150mm sFH"/>
+								<unit name="2/420 Bridging Column" size=I badge=bridge/>
+								<unit name="47th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="845th Medium Bridging Column" size="I I" badge=bridge/>
+								<unit name="2nd Lehr Pioneer" size="I I" badge=eng/>
+								<unit name="47th Pioneer" size="I I" badge=eng/>
+							</unit>
+						</unit>
+					</unit>
+					<unit name="Army Group South">
+						<unit name="24th Infantry" nation=Romania colors=Romanian/>
+						<unit name="II/221 Light Howitzer" size="I I" badge=art/>
+						<unit name="213th Security" badge=sec/>
+						<unit name="444th Security" badge=sec note="Staff only?"/>
+						<unit name="454th Security" badge=sec/>
+						<unit name="1st Panzer Army" size=XXXX badge=arm>
+							<unit name="209th Stug" size="I I" badge=ag/>
+							<unit name="24th Panzer Corps" size=XXX badge=arm>
+								<unit name="17th Panzer" badge=arm/>
+								<unit name="23rd Panzer" badge=arm/>
+								<unit name="5th SS Wiking PzGren" badge=mech colors=SS note="1PzAbt+5art Abt"/>
+							</unit>
+							<unit name="30th Corps" size=XXX>
+								<unit name="38th Infantry" note="2IR + 3Art Abt"/>
+								<unit name="387th Infantry"/>
+								<unit name="62nd Infantry"/>
+							</unit>
+							<unit name="40th Panzer Corps" size=XXX badge=arm>
+								<unit name="257th Infantry"/>
+								<unit name="333rd Infantry" note="only 3 art abt"/>
+								<unit name="46th Infantry" note="only 3 art abt"/>
+								<unit name="I/115 Light Howitzer" size="I I" badge=art/>
+							</unit>
+							<unit name="57th Panzer Corps" size=XXX badge=arm>
+								<unit name="15th Infantry" note="only 3 art abt"/>
+								<unit name="198th Infantry" note="only 3 art abt"/>
+								<unit name="328th Infantry" note="only 2 art abt"/>
+								<unit name="I/51 Light Howitzer" size="I I" badge=art/>
+							</unit>
+						</unit>
+						<unit name="4th Panzer Army" size=XXXX badge=arm>
+							<unit name="2/413 Bridging Column" size=I badge=bridge/>
+							<unit name="671st Bridging Column" size="I I" badge=bridge/>
+							<unit name="2nd SS Panzer Corps" size=XXX badge=arm colors=SS>
+								<unit name="1st SS LAH PzGren" badge=mech colors=SS note="1pzAbt+4 art abt"/>
+								<unit name="2nd SS Das Reich PzGren" badge=mech colors=SS note="1pzAbt+5 art abt"/>
+								<unit name="3rd SS Totenkopf PzGren" badge=mech colors=SS note="5 art abt"/>
+								<unit name="1st Lehr Rocket" size="I I I" badge=rocket colors=Wehrmacht>
+									<unit name="I/1 Lehr Rocket" size="I I" badge=rocket note="12 150mm (6 tubes)"/>
+									<unit name="II/1 Lehr Rocket" size="I I" badge=rocket note="12 150mm (6 tubes)"/>
+									<unit name="III/1 Lehr Rocket" size="I I" badge=rocket note="12 210mm (5 tubes) + some SP"/>
+								</unit>
+								<unit name="55th Rocket" size="I I I" badge=rocket colors=Wehrmacht/>
+								<unit name="861st Light Howitzer" size="I I" badge=art colors=Wehrmacht/>
+								<unit name="III/818 Light Howitzer" size="I I" badge=art colors=Wehrmacht/>
+								<unit name="11th Light Bridging Column" size="I I" badge=bridge colors=Wehrmacht/>
+								<unit name="2/41 Light Bridging Column" size=I badge=bridge colors=Wehrmacht/>
+								<unit name="21st Light Bridging Column" size="I I" badge=bridge colors=Wehrmacht/>
+								<unit name="31st Light Bridging Column" size="I I" badge=bridge colors=Wehrmacht/>
+								<unit name="573rd Light Bridging Column" size="I I" badge=bridge colors=Wehrmacht/>
+								<unit name="840th Medium Bridging Column" size="I I" badge=bridge colors=Wehrmacht/>
+								<unit name="627th Pioneer" size="I I" badge=mot.eng colors=Wehrmacht/>
+								<unit name="666th Pioneer" size="I I" badge=mot.eng colors=Wehrmacht/>
+							</unit>
+							<unit name="48th Panzer Corps" size=XXX badge=arm>
+								<unit name="11th Panzer" badge=arm note="Half strength at start, 13 FlammPz"/>
+								<unit name="167th Infantry"/>
+								<unit name="3rd Panzer" badge=arm note="Half strength at start"/>
+								<unit name="Grossdeutschland PzGren" badge=mech note="163 tanks, 35 AG at start, 4 art abt"/>
+								<unit name="101st Heavy Howitzer" size="I I" badge=hvy.art/>
+								<unit name="3/731 Heavy Howitzer" size=I badge=hvy.art note="150mm sFH"/>
+								<unit name="616th Flak" size="I I" badge=aa/>
+								<unit name="842nd Light Howitzer" size="I I" badge=art note="100 mm guns"/>
+								<unit name="I/1 Heavy Rocket" size="I I" badge=rocket/>
+								<unit name="I/108 Light Howitzer" size="I I" badge=art note="100 mm guns"/>
+								<unit name="III/109 Mortar" size="I I" badge=art note="100 mm guns"/>
+								<unit name="22nd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="609th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="639th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="640th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="641st Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="642nd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="643rd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="644th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="645th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="646th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="647th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="648th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="649th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="676th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="841st Medium Bridging Column" size="I I" badge=bridge/>
+								<unit name="1st Lehr Pioneer" size="I I" badge=mot.eng/>
+								<unit name="48th Pioneer" size="I I" badge=mot.eng/>
+								<unit name="10th Panzer" size=X badge=arm>
+									<unit name="51st Panzer" size="I I" badge=arm note=Panthers/>
+									<unit name="52nd Panzer" size="I I" badge=arm note=Panthers/>
+								</unit>
+								<unit name="911th Stug" size="I I" badge=ag/>
+							</unit>
+							<unit name="52nd Corps" size=XXX>
+								<unit name="255th Infantry" note=2IR/>
+								<unit name="332nd Infantry" note="only 3 art abt"/>
+								<unit name="57th Infantry"/>
+								<unit name="23rd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="80th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="74th Pioneer" size="I I" badge=eng/>
+							</unit>
+						</unit>
+						<unit name="6th Army" size=XXXX>
+							<unit name="16th PzGren" badge=mech/>
+							<unit name="243rd Stug" size="I I" badge=ag/>
+							<unit name="277th Stug" size="I I" badge=ag/>
+							<unit name="17th Corps" size=XXX badge=hq2>
+								<unit name="294th Infantry"/>
+								<unit name="302nd Infantry" note="only 3 art abt"/>
+								<unit name="306th Infantry"/>
+							</unit>
+							<unit name="29th Corps" size=XXX>
+								<unit name="111th Infantry"/>
+								<unit name="15th LW" note="2IR + 3 Art Abt"/>
+								<unit name="17th Infantry" note="only 3 art abt"/>
+								<unit name="336th Infantry"/>
+								<unit name="I/53 Light Howitzer" size="I I" badge=art/>
+							</unit>
+							<unit name="4th Corps" size=XXX>
+								<unit name="3rd Mountain" badge=mtn note="2IR + 2 Art Abt"/>
+								<unit name="304th Infantry"/>
+								<unit name="335th Infantry"/>
+							</unit>
+						</unit>
+						<unit name="Army Detachment Kempf" size=XXXX>
+							<unit name="603rd Bridging Column" size="I I" badge=bridge/>
+							<unit name="3rd Panzer Corps" size=XXX badge=arm>
+								<unit name="168th Infantry"/>
+								<unit name="19th Panzer" badge=arm/>
+								<unit name="6th Panzer" badge=arm note="+14 flammPz"/>
+								<unit name="7th Panzer" badge=arm/>
+								<unit name="153rd Flak" size="I I I" badge=aa/>
+								<unit name="54th Rocket" size="I I I" badge=rocket/>
+								<unit name="857th Heavy Art" size="I I" badge=hvy.mort note="21cm Mtr"/>
+								<unit name="99th Flak" size="I I I" badge=aa/>
+								<unit name="II/62 Light Howitzer" size="I I" badge=art/>
+								<unit name="II/71 Heavy Howitzer" size="I I" badge=hvy.art note="15cm How"/>
+								<unit name="1/505 Light Bridging Column" size=I badge=bridge/>
+								<unit name="110th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="2/411 Light Bridging Column" size=I badge=bridge/>
+								<unit name="2nd S Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="602nd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="842nd Bridging Column" size="I I" badge=bridge/>
+								<unit name="843rd Bridging Column" size="I I" badge=bridge/>
+								<unit name="9th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="127th Pioneer" size="I I" badge=eng note="1 co det."/>
+								<unit name="601st Pioneer" size="I I" badge=eng/>
+								<unit name="651st Pioneer" size="I I" badge=eng/>
+								<unit name="674th Pioneer" size="I I" badge=eng/>
+								<unit name="70th Pioneer" size="I I" badge=eng/>
+								<unit name="228th Stug" size=X badge=ag note=abt?/>
+								<unit name="503rd Heavy Panzer" size="I I" badge=hvy.arm note=Tigers/>
+							</unit>
+							<unit name="42nd Corps" size=XXX>
+								<unit name="161st Infantry"/>
+								<unit name="282nd Infantry"/>
+								<unit name="39th Infantry" note="only 3 art abt"/>
+								<unit name="2/800 Heavy Howitzer" size=I badge=hvy.art note="15cm How"/>
+								<unit name="77th Flak" size="I I I" badge=aa/>
+								<unit name="620th Mountain Pioneer" size="I I" badge=eng note="1 co det."/>
+								<unit name="560th Panzer Jaeger" size="I I" badge=hvy.arm.at note=Hornisse/>
+							</unit>
+							<unit name="Raus (XI) Corps" size=XXX>
+								<unit name="106th Infantry"/>
+								<unit name="320th Infantry" note="only 3 art abt"/>
+								<unit name="4th Flak" size="I I I" badge=aa/>
+								<unit name="48th Flak" size="I I I" badge=aa/>
+								<unit name="52nd Rocket" size="I I I" badge=rocket/>
+								<unit name="7th Flak" size="I I I" badge=aa/>
+								<unit name="I/213 Light Howitzer" size="I I" badge=art note="105mm how"/>
+								<unit name="I/77 Light Howitzer" size="I I" badge=art note="105mm How"/>
+								<unit name="II/1 Heavy Rocket" size="I I" badge=rocket/>
+								<unit name="II/54 Art" size="I I" badge=art note="105 mm How"/>
+								<unit name="102nd Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="151st Heavy Bridging Column" size="I I" badge=bridge/>
+								<unit name="2/407 Light Bridging Column" size=I badge=bridge/>
+								<unit name="2/410 Light Bridging Column" size=I badge=bridge/>
+								<unit name="2/60 Light Bridging Column" size=I badge=bridge/>
+								<unit name="20th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="297th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="610th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="666th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="7th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="8th Light Bridging Column" size="I I" badge=bridge/>
+								<unit name="52nd Pioneer" size="I I" badge=eng/>
+								<unit name="393rd Stug" size=X badge=ag note=abt?/>
+								<unit name="905th Stug" size=X badge=ag note=abt?/>
+							</unit>
+						</unit>
+					</unit>
+					<unit name="Army Group A">
+						<unit name="13th Panzer" badge=arm/>
+						<unit name="Kerch Corps" size=XXX badge=hq2>
+								<unit name="5th LW"/>
+						</unit>
+						<unit name="17th Army" size=XXXX>
+							<unit name="44th Corps" size=XXX badge=hq2>
+								<unit name="101st Jaeger"/>
+								<unit name="10th Infantry" nation=Romania colors=Romanian/>
+								<unit name="125th Infantry"/>
+								<unit name="79th Infantry"/>
+								<unit name="97th Jaeger"/>
+								<unit name="98th Infantry"/>
+							</unit>
+							<unit name="49th Mountain Corps" size=XXX>
+								<unit name="370th Infantry"/>
+								<unit name="3rd Mountain" nation=Romania colors=Romanian badge=mtn/>
+								<unit name="50th Infantry"/>
+							</unit>
+							<unit name="5th Corps" size=XXX>
+								<unit name="19th Infantry" nation=Romania colors=Romanian/>
+								<unit name="1st Mountain" nation=Romania colors=Romanian badge=mtn/>
+								<unit name="4th Mountain" badge=mtn/>
+								<unit name="6th Cavalry" nation=Romania colors=Romanian badge=cav/>
+								<unit name="73rd Infantry"/>
+								<unit name="9th Infantry"/>
+								<unit name="9th Cavalry" nation=Romania colors=Romanian badge=cav/>
+							</unit>
+						</unit>
+						<unit name="Crimea Army" size=XXXX>
+							<unit name="153rd Training" badge=stat/>
+							<unit name="1st Infantry" nation=Slovakia colors=Slovakian/>
+							<unit name="2nd Mountain" badge=mtn nation=Romania colors=Romanian/>
+							<unit name="381st Training" badge=stat/>
+							<unit name="4th Mountain" badge=mtn nation=Romania colors=Romanian/>
+						</unit>
+					</unit>
+				</unit>
+				<unit name="Army Group D">
+					<unit name="157th Infantry"/>
+					<unit name="264th Infantry"/>
+					<unit name="1st Army" size=XXXX>
+						<unit name="334th Infantry"/>
+						<unit name="80th Corps" size=XXX>
+							<unit name="708th Static" badge=stat/>
+						</unit>
+						<unit name="83rd Corps" size=XXX>
+							<unit name="326th Infantry"/>
+							<unit name="356th Infantry"/>
+							<unit name="715th Static" badge=stat/>
+						</unit>
+						<unit name="86th Corps" size=XXX>
+							<unit name="344th Infantry"/>
+						</unit>
+					</unit>
+					<unit name="15th Army" size=XXXX>
+						<unit name="305th Infantry"/>
+						<unit name="44th Infantry"/>
+						<unit name="65th Infantry"/>
+						<unit name="81st Corps" size=XXX>
+							<unit name="348th Static" badge=stat/>
+							<unit name="711th Static" badge=stat/>
+						</unit>
+						<unit name="82nd Corps" size=XXX>
+						</unit>
+						<unit name="89th Corps" size=XXX>
+							<unit name="712th Static" badge=stat/>
+						</unit>
+					</unit>
+					<unit name="7th Army" size=XXXX>
+						<unit name="113th Infantry"/>
+						<unit name="371st Infantry"/>
+						<unit name="389th Infantry"/>
+						<unit name="76th Infantry"/>
+						<unit name="94th Infantry"/>
+						<unit name="25th Corps" size=XXX>
+							<unit name="384th Infantry"/>
+						</unit>
+						<unit name="84th Corps" size=XXX>
+							<unit name="319th Infantry"/>
+							<unit name="709th Static" badge=stat/>
+							<unit name="716th Static" badge=stat/>
+						</unit>
+						<unit name="88th Corps" size=XXX>
+							<unit name="343rd Static" badge=stat/>
+							<unit name="346th Static" badge=stat/>
+							<unit name="347th Static" badge=stat/>
+							<unit name="376th Infantry"/>
+							<unit name="719th Static" badge=stat note="Overage troops"/>
+						</unit>
+					</unit>
+				</unit>
+			</unit>
+		</combatant>
+		<combatant name=Finland nation=Finland colors=Finnish>
+			<unit name="Finnish Forces" commander=Mannerheim>
+				<unit name="14th Infantry"/>
+				<unit name="Er.P 4 Infantry" size="I I" badge=inf/>
+				<unit name="Laa Infantry" size=X/>
+				<unit name="3rd Finnish" size=XXX badge=hq2>
+					<unit name="3rd Infantry"/>
+				</unit>
+				<unit name="Kannas Group" size=XXX>
+					<unit name="1st Frontier Infantry" size="I I"/>
+					<unit name="10th Infantry"/>
+					<unit name="15th Infantry"/>
+					<unit name="18th Infantry"/>
+					<unit name="2nd Coastal Art" size="I I I" badge=c.art/>
+					<unit name="2nd Infantry"/>
+					<unit name="3rd Tribal Infantry" size="I I"/>
+					<unit name="Rv Cavalry" size=X badge=cav/>
+				</unit>
+				<unit name="Masselka Group" size=XXX>
+					<unit name="14th Infantry"/>
+					<unit name="1st Infantry" note="Formed 24.5.43"/>
+					<unit name="3rd Infantry" size=X status=reserve/>
+					<unit name="4th Infantry"/>
+					<unit name="6th Infantry" note="Became 1f ID 20.6.43"/>
+				</unit>
+				<unit name="Aunus Group" size=XXXX>
+					<unit name="15th Infantry" size=X/>
+					<unit name="8th Infantry" note="Became armored division 12.6.43"/>
+					<unit name="5th Finnish" size=XXX>
+						<unit name="11th Infantry"/>
+						<unit name="7th Infantry"/>
+						<unit name="Aan Infantry" size=X/>
+						<unit name="Er.P 1 Infantry" size="I I" badge=inf/>
+						<unit name="Er.P 2 Infantry" size="I I" badge=inf/>
+					</unit>
+					<unit name="6th Finnish" size=XXX>
+						<unit name="17th 'Oak' Infantry"/>
+						<unit name="5th 'LynX' Infantry"/>
+						<unit name=Panssari size=XX badge=arm note"Formed= from= 8f= ID= 12.6.43"=/>
+					</unit>
+				</unit>
+			</unit>
+		</combatant>
+	</force>
+	<force name=Soviet colors=Allies>
+		<combatant name="Soviet Union" nation="Soviet Union" colors=Soviet>
+			<reinforcements>
+				<unit name="1st Rifle" note="active 1/44"/>
+				<unit name="150th Rifle" note=8.9.43/>
+				<unit name="227th Rifle" note=23.8.43/>
+				<unit name="297th Rifle" note=25.7.43/>
+				<unit name="300th Rifle" note=9.8.43/>
+				<unit name="304th Rifle" note=1.8.43/>
+				<unit name="316th Rifle" note=9.43/>
+				<unit name="319th Rifle" note=30.9.43/>
+				<unit name="9th Rifle" note=9.43/>
+				<unit name="30th Guards Tank" size=XXX badge=arm note=10.43/>
+				<unit name="6th Guards Tank" size=XXX badge=arm note=10.43/>
+				<unit name="12th Guards Tank" size=XXX badge=arm note=26.7.43?/>
+				<unit name="15th Guards Tank" size=XXX badge=arm note=26.7.43/>
+				<unit name="3rd Guards Mech" size=XXX badge=mech note=10.43/>
+				<unit name="2nd Guards Tank" size=XXX badge=arm note=11.43/>
+			</reinforcements>
+			<unit name=STAVKA commander=Stalin>
+				<unit name="Karelian Front">
+					<unit name="314th Rifle"/>
+					<unit name="327th Rifle" note="64GRD 19.1.43"/>
+					<unit name="73rd NKVD" size="I I I" badge=bdr/>
+					<unit name="82nd NKVD" size="I I I" badge=bdr/>
+					<unit name="14th Army" size=XXXX badge=hq2>
+						<unit name="10th Guards Rifle" colors=guards/>
+						<unit name="14th Rifle"/>
+						<unit name="31st Ski" size=X badge=ski/>
+						<unit name="72nd Naval Rifle" size=X badge=mar/>
+					</unit>
+					<unit name="19th Army" size=XXXX badge=hq2>
+						<unit name="101st NKVD" size="I I I" badge=bdr/>
+						<unit name="104th Rifle"/>
+						<unit name="122nd Rifle"/>
+						<unit name="377th Tank" size="I I" badge=arm/>
+						<unit name="429th Tank" size="I I" badge=arm/>
+						<unit name="67th Rifle"/>
+						<unit name="77th Naval Rifle" size=X badge=mar/>
+					</unit>
+					<unit name="23rd Army" size=XXXX badge=hq2>
+						<unit name="10th Rifle" note="Quiet secotr, under strength"/>
+						<unit name="142nd Rifle"/>
+					</unit>
+					<unit name="26th Army" size=XXXX badge=hq2>
+						<unit name="27th Rifle"/>
+						<unit name="374th Tank" size="I I" badge=arm/>
+						<unit name="375th Tank" size="I I" badge=arm/>
+						<unit name="45th Rifle"/>
+						<unit name="54th Rifle"/>
+						<unit name="72nd NKVD" size="I I I" badge=bdr/>
+						<unit name="80th Naval Rifle" size=X badge=mar/>
+						<unit name="85th Naval Rifle" size=X badge=mar/>
+						<unit name="205th Rifle"/>
+						<unit name="61st Naval Rifle" size=X badge=mar/>
+						<unit name="32nd Ski" size=X badge=ski/>
+					</unit>
+					<unit name="32nd Army" size=XXXX badge=hq2>
+						<unit name="289th Rifle"/>
+						<unit name="313th Rifle"/>
+						<unit name="367th Rifle"/>
+						<unit name="376th Tank" size="I I" badge=arm/>
+						<unit name="65th Naval Rifle" size=X badge=mar/>
+						<unit name="80th NKVD" size="I I I" badge=bdr/>
+						<unit name="33rd Ski" size=X badge=ski/>
+					</unit>
+					<unit name="7th Independent Army" size=XXXX badge=hq2>
+						<unit name="1st NKVD" size="I I I" badge=bdr/>
+						<unit name="114th Rifle"/>
+						<unit name="21st Rifle"/>
+						<unit name="272nd Rifle"/>
+						<unit name="363rd Tank" size="I I" badge=arm/>
+						<unit name="368th Rifle"/>
+						<unit name="431st Tank" size="I I" badge=arm/>
+						<unit name="69th Naval Rifle" size=X badge=mar/>
+						<unit name="70th Naval Rifle" size=X badge=mar/>
+						<unit name="3rd Naval Rifle" size=X badge=mar/>
+					</unit>
+				</unit>
+				<unit name="Leningrad Front">
+					<unit name="1st Guards Rocket Barrage" badge=rocket colors=guards note="2,5,6GMB; M-30 300mm, 4 rails per launcher"/>
+					<unit name="103rd NKVD" size="I I I" badge=bdr/>
+					<unit name="108th NKVD" size="I I I" badge=bdr/>
+					<unit name="168th Rifle" note="Oranienbaum pocket"/>
+					<unit name="18th Brkthru" badge=art note="38 HB,51 CB, 65 LAB, 15 MB, 120 SHHB"/>
+					<unit name="222nd Tank" size=X badge=arm/>
+					<unit name="260th Tank" size="I I I" badge=arm/>
+					<unit name="261st Tank" size="I I I" badge=arm/>
+					<unit name="287th Tank" size="I I" badge=arm note="Coastal ops group"/>
+					<unit name="46th Guards Tank" size="I I I" badge=arm colors=guards/>
+					<unit name="48th Rifle" note="Coastal ops,oranienbaum"/>
+					<unit name="98th Rifle" note="Coastal ops,oranienbaum"/>
+					<unit name="3rd Counterbattery" size=XXX badge=art>
+						<unit name="50th Rifle" size=X/>
+						<unit name="92nd Rifle"/>
+					</unit>
+					<unit name="2nd Shock Army" size=XXXX badge=hq2>
+						<unit name="11th Rifle"/>
+						<unit name="116th Tank" size="I I" badge=arm/>
+						<unit name="128th Rifle"/>
+						<unit name="201st Rifle"/>
+						<unit name="376th Rifle"/>
+						<unit name="48th Naval Rifle" size=X badge=mar/>
+						<unit name="55th Naval Rifle" size=X badge=mar/>
+						<unit name="71st Naval Rifle" size=X badge=mar/>
+						<unit name="86th Tank" size="I I" badge=arm/>
+						<unit name="90th Rifle"/>
+						<unit name="98th Tank" size="I I I" badge=arm/>
+						<unit name="45th Guards Rifle" colors=guards/>
+						<unit name="63rd Guards Rifle" colors=guards/>
+						<unit name="64th Guards Rifle" colors=guards/>
+					</unit>
+					<unit name="42nd Army" size=XXXX badge=hq2>
+						<unit name="1st Tank" size=X badge=arm/>
+						<unit name="109th Rifle"/>
+						<unit name="125th Rifle"/>
+						<unit name="1439th SU" size="I I I" badge=ag/>
+						<unit name="189th Rifle"/>
+						<unit name="49th Guards Tank" size="I I I" badge=arm colors=guards note=KVs/>
+						<unit name="56th Rifle"/>
+					</unit>
+					<unit name="55th Army" size=XXXX badge=hq2>
+						<unit name="13th Rifle"/>
+						<unit name="131st Rifle"/>
+						<unit name="152nd Tank" size=X badge=arm/>
+						<unit name="196th Rifle"/>
+						<unit name="224th Rifle"/>
+						<unit name=28th Art"= badge=art/>
+						<unit name="291st Rifle"/>
+						<unit name="43rd Rifle"/>
+						<unit name="72nd Rifle"/>
+						<unit name="85th Rifle"/>
+					</unit>
+					<unit name="67th Army" size=XXXX badge=hq2>
+						<unit name="120th Rifle"/>
+						<unit name="123rd Rifle"/>
+						<unit name="124th Rifle"/>
+						<unit name="16th Fort Area" size=X badge=stat/>
+						<unit name="220th Tank" size=X badge=arm/>
+						<unit name="30th Guards Tank" size=X badge=arm colors=guards note=T-34/76s/>
+						<unit name="268th Rifle"/>
+						<unit name="46th Rifle"/>
+						<unit name="86th Rifle"/>
+					</unit>
+				</unit>
+				<unit name="Volkhov Front">
+					<unit name=121st Super= Heavy= Howitzer"= size=X badge=hvy.art/>
+					<unit name="122nd Tank" size=X badge=arm/>
+					<unit name="1433rd SU" size="I I I" badge=ag/>
+					<unit name="1434th SU" size="I I I" badge=ag/>
+					<unit name="16th Tank" size=X badge=arm/>
+					<unit name=2nd Art"= badge=art/>
+					<unit name="30th Mortar" badge=art note="120mm MTR"/>
+					<unit name="33rd Guards Tank" size="I I I" badge=arm colors=guards note=KVs/>
+					<unit name="500th Tank" size="I I" badge=arm/>
+					<unit name="501st Tank" size="I I" badge=arm/>
+					<unit name="503rd Tank" size="I I" badge=arm/>
+					<unit name="507th Tank" size="I I" badge=arm/>
+					<unit name="7th Guards Tank" size=X badge=arm colors=guards/>
+					<unit name="4th Army" size=XXXX badge=hq2>
+						<unit name="288th Rifle"/>
+						<unit name="44th Rifle">
+							<unit name="53rd Rifle" size=X/>
+						</unit>
+					</unit>
+					<unit name="54th Army" size=XXXX badge=hq2>
+						<unit name="115th Rifle"/>
+						<unit name="124th Tank" size=X badge=arm/>
+						<unit name="177th Rifle"/>
+						<unit name="198th Rifle" note="Low strength; defending on Volkhov River"/>
+						<unit name="281st Rifle"/>
+						<unit name="285th Rifle"/>
+						<unit name="311th Rifle"/>
+						<unit name="80th Rifle">
+							<unit name="14th Rifle" size=X note"July= 3Bns,= sapper= co.,= recon= arty= btn= of= 45= += 76mm= cannon"=/>
+						</unit>
+					</unit>
+					<unit name="59th Army" size=XXXX badge=hq2>
+						<unit name="150th Fort Area" size=X badge=stat/>
+						<unit name="191st Rifle"/>
+						<unit name="2nd Rifle"/>
+						<unit name="225th Rifle"/>
+						<unit name="229th Rifle"/>
+						<unit name="239th Rifle"/>
+						<unit name="29th Tank" size=X badge=arm note="2 Bns only - LT only"/>
+						<unit name="310th Rifle"/>
+						<unit name="377th Rifle"/>
+						<unit name="378th Rifle"/>
+						<unit name="65th Rifle">
+							<unit name="24th Rifle" size=X/>
+						</unit>
+					</unit>
+					<unit name="8th Army" size=XXXX badge=hq2>
+						<unit name="1st Rifle" size=X/>
+						<unit name="107th Tank" size="I I" badge=arm/>
+						<unit name="165th Rifle"/>
+						<unit name="18th Rifle"/>
+						<unit name="185th Tank" size=X badge=arm/>
+						<unit name="25th Tank" size="I I I" badge=arm/>
+						<unit name="265th Rifle"/>
+						<unit name="286th Rifle"/>
+						<unit name="32nd Guards Tank" size="I I I" badge=arm colors=guards/>
+						<unit name="35th Guards Tank" size="I I I" badge=arm colors=guards note=KVs/>
+						<unit name="364th Rifle"/>
+						<unit name="372nd Rifle"/>
+						<unit name="374th Rifle"/>
+						<unit name="379th Rifle"/>
+						<unit name="382nd Rifle"/>
+						<unit name="50th Guards Tank" size="I I I" badge=arm colors=guards note=KVs/>
+						<unit name="502nd Tank" size="I I" badge=arm/>
+						<unit name="22nd Rifle" size=X/>
+						<unit name="58th Rifle" size=X/>
+					</unit>
+				</unit>
+				<unit name="Northwestern Front">
+					<unit name="1st Shock Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="22nd Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="34th Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Kalinin Front">
+					<unit name="39th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="3rd Shock Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="43rd Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="4th Shock Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="68th Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Western Front">
+					<unit name="10th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="10th Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="11th Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="31st Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="33rd Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="49th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="5th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="50th Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Bryansk Front">
+					<unit name="11th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="3rd Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="4th Tank Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="61st Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="63rd Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Central Front">
+					<unit name="13th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="2nd Tank Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="48th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="60th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="65th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="70th Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Voronezh Front">
+					<unit name="1st Tank Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="38th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="40th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="69th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="6th Guards Army" size=XXXX colors=guards badge=hq2>
+						<unit name="22nd Guards Rifle Corps" size=XXX>
+							<unit name="67th Guards Rifle"/>
+							<unit name="245th Tank" size="I I I" badge=arm colors=Soviet/>
+							<unit name="71st Guards Rifle"/>
+							<unit name="90th Guards Rifle"/>
+						</unit>
+						<unit name="23rd Guards Rifle Corps" size=XXX>
+							<unit name="51st Guards Rifle"/>
+							<unit name="52nd Guards Rifle"/>
+							<unit name="230th Tank" size="I I I" badge=arm colors=Soviet/>
+							<unit name="375th Rifle" colors=Soviet/>
+							<unit name="96th Tank" colors=Soviet size=X badge=arm/>
+						</unit>
+					</unit>
+					<unit name="7th Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Steppe Front">
+					<unit name="27th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="47th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="4th Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="53rd Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="5th Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="5th Guards Tank Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Southwest Front">
+					<unit name="12th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="1st Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="3rd Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="3rd Tank Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="46th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="57th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="6th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="8th Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Southern Front">
+					<unit name="28th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="2nd Guards Army" size=XXXX colors=guards badge=hq2>
+					</unit>
+					<unit name="44th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="51st Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="5th Shock Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="North Caucasus Front">
+					<unit name="18th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="56th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="58th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="9th Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Transcaucasus Front">
+					<unit name="45th Army" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="STAVKA Reserve">
+					<unit name="20th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="21st Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="37th Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="3rd Reserve Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="41st Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="52nd Army" size=XXXX badge=hq2>
+					</unit>
+					<unit name="Moscow Military District" size=XXXX badge=hq2>
+					</unit>
+				</unit>
+				<unit name="Volga Military District" note=Stalingrad>
+					<unit name="10th Tank" size=X badge=arm/>
+					<unit name="104th Tank" size="I I I" badge=arm/>
+					<unit name="126th Tank" size="I I" badge=arm/>
+					<unit name="14th Tank" size=X badge=arm/>
+					<unit name="15th Tank" size=X badge=arm/>
+					<unit name="2nd Tank" size=X badge=arm/>
+					<unit name="207th Tank" size=X badge=arm/>
+					<unit name="249th Tank" size="I I" badge=arm/>
+					<unit name="254th Tank" size=X badge=arm/>
+					<unit name="258th Tank" size="I I" badge=arm/>
+					<unit name="41st Guards Tank" size=X colors=guards badge=arm/>
+					<unit name="51st Tank" size="I I I" badge=arm/>
+					<unit name="563rd Tank" size="I I" badge=arm/>
+					<unit name="564th Tank" size="I I" badge=arm/>
+					<unit name="608th Tank" size="I I" badge=arm/>
+					<unit name="9th Mechanized" size=XXX badge=arm note=forming/>
+				</unit>
+			</unit>
+		</combatant>
+	</force>
+	<territory>zvba$vfv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aXaZb$a$aYawb
+zvbabvba$vfv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aVaZb$a$aZavb
+xvbabvfabvba$vdv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aTaZb$a$aZavb
+yvbabvbabvfa$vev$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aRa0b$a$aYavb
+Evda$vcv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aTa2b$a$aWavb
+Evea_v$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aVa4b$a$aVaub
+Gvda8v$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aXa3b$a$aVaub
+Hvca4veabv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aXa3b$a$aUaub
+Ivca2vdadv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aXa4b$a$aTaub
+Dvbabvbabvda1vcafv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aZa3b$a$aSaub
+CvbabvbabvgahvbabvbabvbaUv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aZa4b$a$aQavb
+IvgabvbabvjabvbaPv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a1ambcakbbaFb$a$aPavb
+KvbabvbabvbabvbabvbabvbabvbabvfaOv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a2abbbagbcabbdaibcaGb$a$aNawb
+0veaMvfafv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$aXabbbabbhabbbagbcaIb$a$aIazb
+1veaLvdaiv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a9adbeafbbaDb$a$aGaAb
+2vdaKvcabvbafv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a8abbbabbbadbeaebbaFb$a$aFaAb
+2veabvbabvcaEvbajv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a5ajbgabbcaHb$a$aAaDb
+1vkaOv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a5albbabbfaIb$a$axaFb
+ZvbabvlaMv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a7abbbabbbaibfaJb$a$avaGb
+YvoaMv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$acahbfabbbabbbabbbaEb$a$ataGb
+XvqaJv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$agafbmaFb$a$araGb
+RvbabvbabvsaJv$a$a$a$a$a$a$a$a$a$a$a$a$a$a$a$agafbkabbbaHb$a$aoaHb
+QvbabvbabvtaJv$a$a$a$a$a$a$a$a$a$aPadwbabwbabwbabw$a$a$a$a$avadbiabbbaLb$a$amabbcaEb
+UvtaIv$a$a$a$a$a$a$a$a$a$aMabwbabwbakw$a$a$a$a$awabbiaPb$a$amabbbaDb
+UvtaHv$a$a$a$a$a$a$a$a$a$afabwHapwbabw$a$a$a$a$aDaQb$a$akaFb
+WvraHv$a$a$a$a$a$a$a$a$a$adadwbacwfabwoabwbabwgatw$a$a$a$a$aDaRb$a$akaDb
+WvqaJv$a$a$a$a$a$a$a$a$a$adafwcabwcacwbabwbabwiaewiabwbapweabwbabw$a$a$a$a$avaUb$a$agaFb
+vvbaAvqaxvbaiv$a$a$a$a$a$a$a$a$a$ababwbabwcaiwbaiwgafwjabwbamwfahw$a$a$a$a$ataVbbabb$a$acahbbaxb
+uvbaAvravvcaivbabv$a$a$a$a$a$a$a$a$a$aaauwhagwiajwbabwbabwgajw$a$a$a$a$atabbbaWbbabb$a$aaabbbabbfavb
+Vvrauvdahv$a$a$a$a$a$a$a$a$a$aeabwbaqwhahwhajwbabwiakw$a$a$a$a$axabbbabbbabbbabbdaNb$a$aiaub
+Vvratvdakv$a$a$a$a$a$a$a$a$a$adabwcanwhahwhalwbabwcabwdalwbabwbadwdabwbabw$a$a$a$a$axahbdabbbajbdanb$a$ajatb
+Tvtatvdakv$a$a$a$a$a$a$a$a$a$abafwbakwiahwiamwbadwdarwcadw$a$a$a$a$azagbjafbdabbbafbbafb$a$ajatb
+Nvbabvbabvvasveajv$a$a$a$a$a$a$a$a$a$acaowkaiwhapwearwbahw$a$a$a$a$axabbbadblabbbabbhabbfabbbabb$a$ajatb
+FvbabvbabvbabvDapvealv$a$a$a$a$a$a$a$a$a$aaapwiakwgaowfazw$a$a$a$a$aCabb$a$aOasb
+vvbabvbabvbabvbabvNanveakv$a$a$a$a$a$a$a$a$a9abwbaowjalwgaowgaxwbabwbadw$a$a$a$a$a$a$a$abasb
+nvbadvbabvcabvbabvbabvSabvbabvbafvfabvbabvbabvbaev$a$a$a$a$a$a$a$a$a8atwhamweabwbapwbacwcaFw$a$a$a$a$a$a$a$aaarb
+mvbabvbadvbajvWabvnabv$a$a$a$a$a$a$a$a$a9awwfanwca5wbabw$a$a$a$a$a$ahadb$aYaqb
+Cvjabvbabvbabv$a$a$a$a$a$a$a$a$a$aTayweaowba9w$a$a$a$a$a$agafbbabb$aUaqb
+zvbabvgabvbahvbabvbadv$a$a$a$a$a$a$a$a$a$aoacwxaxwea$wow$a$a$a$a$a$afakb$aSaqb
+rvdabvbabviatv$a$a$a$a$a$a$a$a$a$ajabwcacwbabwdabwrawwga$wnw$a$a$a$a$a$afalb$aRaqb
+nvbabveabvbabvfabvbawv$a$a$a$a$a$a$a$a$a$agabwbalwbabwbabwbabwjaxwha$whw$a$a$a$a$a$akanb$aRapb
+mvbabvbabvbahvbaBvbabvbabv$a$a$a$a$a$a$a$a$a$aaaowbahwhaxwfa$whw$a$a$a$a$a$anaob$aPapb
+6vxabv$a$a$a$a$a$a$a$a$aLabwbavwgaxwfaUwbabwbavw$a$a$a$a$a$aoapb$aPabbbalb
+8vbabvbabvbabvlabvbaev$a$a$a$a$a$a$a$a$aNauwgaywdaWweabwbabwbabwbalw$a$a$a$a$a$aqarb$aPalb
+$vfvbabvbabvbabvbagv$a$a$a$a$a$a$a$a$aQabwbabwbaqweaAwbaGwbdbwbdbwbdbwbdmwbabwbabwgabwbabwbabwbabw$a$a$a$a$a$atavb$aLakb
+$vqv$a$a$a$a$a$a$a$a$aHabwbacweabwbabweabwbaqwbabwca3wjdswbabw$a$a$a$a$a$aEaub$aGabbeajb
+$vmvbabv$a$a$a$a$a$a$a$a$aJaewcafwhatwba2wjdww$a$a$a$a$a$aEaub$aEabbfaib
+$vevbabvbabvbabv$a$a$a$a$a$a$a$a$aFabwiacwdagwea$wbwbdbwbdbwbdbwbdbwbdbwndtwbabwGabbbabb$a$a$a$a$a7abbbabbbaqb$aCaob
+$vcvbabv$a$a$a$a$a$a$a$a$aLacweabwdabwdajwca_wAdswbabwdabwCaebbabb$a$a$a$a$a$aaaob$aBanb
+$vav$a$a$a$a$a$a$a$a$aPacweabwcacwbabwba$wjwDdtwbacwdacwuabbdagb$a$a$a$a$a$abanbgabbdabb$apanb
+_v$a$a$a$a$a$a$a$a$aIabwfaeweabwbadwba$wkwEdbwbdvwcadwbadwbabwbabdbabdjadbcagbbabbbabbbabb$a$a$a$a$a7ambdajb$aoamb
+7vbabv$a$a$a$a$a$a$a$a$aBabwbadwbaewcagwea$wpwJdbwbdlwcabwfadwbagwfdbabdfatb$a$a$a$a$a5albfaqb$agamb
+3vbabv$a$a$a$a$a$a$a$a$aDamwbahwda$wowPdbwbdowbadwbahwgddabdcaebbanb$a$a$a$a$a7abbbacbbaebfaEb4alb
+3v$a$a$a$a$a$a$a$a$aEamwcahwda$wnwTdowbdkwgdbaddfbcanb$a$a$a$a$a$aaabbcabbbabbbabbbabbbaLbWacbcabbbafb
+3v$a$a$a$a$a$a$a$a$aEamwbaiwda$wnwUdnwddiwkdgbeabbbabbbabbbadb$a$a$a$a$a$afahbbaObTabbgabbbabb
+2v$a$a$a$a$a$a$a$a$aCabwbawwcabwca$wlwUdnwfdgwkdkb$a$a$a$a$a$apa1bTabbda
+Vvbabvbabvbabv$a$a$a$a$a$a$a$a$aCazwba$wpwVdmwhdbwbdbwldmb$a$a$a$a$a$aoa4bOadbca
+Vv$a$a$a$a$a$a$a$a$aHazwca$wpwBdcasdkwbabdbaudlbcabbbabbbabbbabb$a$a$aIabbbabbbabbbabb$a$aDa5bMadbca
+Rvbabv$a$a$a$a$a$a$a$a$aFadwcagwbaqwca$wqwAdbaudiwbdbwbabdbaudkbbaibbabbcabbbabb$a$a$aAanb$a$aAa8bIabbbabbca
+Lvbabvbabvbabv$a$a$a$a$a$a$a$a$aHaewca$wNwOdbagdiwzdubcagbiabbbabb$a$a$amarb$a$aAa8bLa
+Lv$a$a$a$a$a$a$a$a$aMagwbakwba$wBwNdcagdewbdbwbdbwAdtbbahbhacbbaeb$a$a$ajaub$a$aza9bJa
+Fvbafv$a$a$a$a$a$a$a$a$aLaswbazwbdbwbdbwbdbwbd6wHdbabdbabdcabdbaedewbaFdtbbagbealb$a$a$ajayb$a$axa9bHa
+Dvfabv$a$a$a$a$a$a$a$a$aMatwbaywjd5wGdbabdeagdfwbaDdEbbaobbadbhabbbabb$a$a4aAb$a$axa$babDa
+Ev$a$a$a$a$a$a$a$a$aRaswbazwkd4wGdgabdbaddfwbabwbaCdDbbabbbawbbagbbabbbabb$a$aXaCb$a$awa$bcbBa
+Dv$a$a$a$a$a$a$a$a$aTaRwld3wDdbabdbabdbabdeaedhwBdGbcaJb$a$aWaBb$a$axabbba$bdbbabbva
+zvbabv$a$a$a$a$a$a$a$a$aRabwbaTwmdmwbaPwDdjafdhwBdEbcaNb$a$aUazb$a$aDa$bfbta
+vvbabvbabv$a$a$a$a$a$a$a$a$aRaMwbdbwbdbwbdbwbdbwbdbwod1wBdmafdfwAdFbbaRb$a$aSazb$a$aEa$bfbsa
+uv$a$a$a$a$a$a$a$a$aUaMwBd1wqdcagdjamdbwCd$bobbabb$a$aPayb$a$aFa$bjbbabbla
+uv$a$a$a$a$a$a$a$a$aUaNwidcard0woddafdlaOd$btbbabb$a$aLaxb$a$ababbbabbDa$bmbja
+rvbabv$a$a$a$a$a$a$a$a$aVaNwCdXwrdbaedeabdkaLd$byb$a$aJawb2abb$agabbbafbDa$bobha
+rv$a$a$a$a$a$a$a$a$aWabwcaMwCdSwbdbwxdbabdqaJd$bAb$a$aIaub1afbbabb$aaalbbabbya$btbda
+pvbabv$a$a$a$a$a$a$a$a$aZaMwDdQwEdhacdcabdbaId$bEb$a$aHasb0alb5abbbarbvadbbabbca$bqb
+nv$a$a$a$a$a$a$a$a$aZabwbaOwEduwbdbwbdrwGdbabdcabdcabdbaLd$bGb$a$aGanbbabb0amb6avbta$bxb
+hvbabvbabv$a$a$a$a$a$a$a$a$aZaSwbibdbiBduwfdpwEdbabddaPd$bKbbabb$a$aEahbbabb2aob2abbbabbbawbra$byb
+gv$a$a$a$a$a$a$a$a$a4acwbaOwgiAdbwbdnwbdbwjdbwbakwEdbaUd$bOb$a$aFabb5aqb1azbbabbra$byb
+bvbabvbabv$a$a$a$a$a$a$a$a$aZabwbabwbaSwjiCdbwbdbwbdfwrdbwbdgw$dnd$bRb$aqabbbabb$a$adasb1aybka$bIb
+$a$a$a$a$a$a$a$a$a0abwbaYwliGdbwxddw$dnd$bUb$aoafbbabb$a$aaarbFaebfabbnaxbka$bIb
+$a$a$a$a$a$a$a$a$aZaZwoi3dbw$dpd$bVb$aoaibbabbjabbbabbbabbbabbbabbbabb$aNasbDapbjaxbla$bHb
+$a$a$a$a$a$a$a$a$aZazwbibwbixwpi$d$dfd$bYb$apakbbabbbabbbapbbabb$aCacbfaubuaAbbaCbla$bGb
+$a$a$a$a$a$a$a$a$aZahwbadwbabwbajwgiewbibwbihwbabwbagwqibdbi$d$dbd$b0b$apaGb$auabbbabbbafbgasbta4bna$bEb
+$a$a$a$a$a$a$a$a$a1abwbabwbabwiaiwhibwbagibwbibwbabweagwti$d9d$b3b$apaGb$aralbgarbsa5bna$bEb
+$a$a$a$a$a$a$a$a$a0abwbabwhabwbakwiidaiibabieadwwi$d7d$b6bbabb$anabbbaDb$ahabbhambgaobbaebpa7bbabbbabbia$bEb
+$a$a$a$a$a$a$a$a$aWabwbahwbabwbaowjibabibalibabibayi$d6d$b7bdabb$apaCb$afacbbabbbabbbanbfaobbabbdadbna$bdbbabbbabbba$bFb
+$a$a$a$a$a$a$a$a$aWaowbalwpibacibabibaDi$d5d$b$bdbbabb$anaCb$acaxbbaobjabbeabbia$b$bNb
+$a$a$a$a$a$a$a$a$aXabwbaxwtibabicaAi$d4d$b$bib$anaCb$aaaObbabbbabbbabbgacbcacbfa$b$bMb
+$a$a$a$a$a$a$a$a$a0awwYi$d3d$b1bbasb$amaDbbabb7aXbbabbbajbea$b$bLb
+$a$a$a$a$a$a$a$a$a0awwZi$d0d$b3bcatbbabb$aiaHb3a5bbafbea$b$bLb
+$a$a$a$a$a$a$a$a$aYaywZi$dYdWbba$bkbbabbdasb$agaHb1a6bca$b$bUb
+$a$a$a$a$a$a$a$a$aXayw1i$dcdbardbaCdXbba$bibdabbbavbeacb_aHbZa$b$b$bSb
+$a$a$a$a$a$a$a$a$aXanwdihw3ibdbi$dAdbatdWbca$bOb_aIbXa8bba$b$bVb
+$a$a$a$a$a$a$a$a$aSabwbabwbamwhibwbicw8i$dTdWbba$bQb8aIbbabbTa$b$b$bVb
+$a$a$a$a$a$a$a$a$aMabwdahwbagwbibwmibw9i$dTdYbba$bPb6aKbPabbba$b$b$bXb
+$a$a$a$a$a$a$a$a$aGabwbabwbasw$ipi$dUdYbca$bPb5aKbMa$b$b$b1b
+$a$a$a$a$a$a$a$a$aEaxw$iri$dUd$b$bEb3aLbGabbbabbba$b$b$b3b
+$a$a$a$a$a$a$a$a$aAabwbagwbasw$isi$dUdVbbabbba$bRbbabbbabbYaDbbabbbabbbabbbabbFa$b$b$b8b
+$a$a$a$a$a$a$a$a$aBafwbabwcaqw$iui$dVdSbbacbba$bRbcadbXavbbabbbabbbabbPa$b$b$b8b
+$a$a$a$a$a$a$a$a$aDabwgaqwkiba$ilibdbi$dTdTbba$bXbbabbUatbXa$b$b$b8b
+$a$a$a$a$a$a$a$a$aGabwbarwlida$ini$dSdwbbadbbabbdacbbacbbafbda$b1bSatbSabbbabbba$b$b$b9b
+$a$a$a$a$a$a$a$a$aGatwmibabiba$imi$dSdybcabbbabbcagbbacbbadbba$b1bSatbOabbba$b$b$b$beb
+$a$a$a$a$a$a$a$a$aGaiwbajw$iCi$dSdObdabbda$bZbSarbbabbMa$b$b$b$bib
+$a$a$a$a$a$a$a$a$aGarw$iDi$dRdDbbabbbabbbabbbabbbabbcabbbabbda$b0bRasbOa$b$b$b$bib
+$a$a$a$a$a$a$a$a$aEabwbacwcakwbibwhiba$iwiQdba$dadEbeacbea$b7bRaqbRa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$aCahwbajw$iHi$dQdHbeacbca$b9bOarbSa9bba$b$b$bhb
+$a$a$a$a$a$a$a$a$awabwbabwbasw$iIi$dOdLbbadbba$b$babNarbSa$b$b$b$bgb
+$a$a$a$a$a$a$a$a$awaowbaiwNiba4i$dOdDbbalbba$b$babNasbQa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$avahwcagwbajwNiba3i$dMdIbbaibba$b$babNaubOa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$axadwearw$iFi$dLd$bibba$bLbNavbMa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$axacwhabwbaowPiba1ibddibdbibdbi$dBd$b$bWbLaxbbabbIa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$axaewbabwbaswPica_i$dyd$b$bYbLadbbawbFa$b$b$b$bib
+$a$a$a$a$a$a$a$a$auaCwRiba_i$dwdNbbabbdadbba$b$bebQavbFa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$asaEw$iSi$dudPbbadbgabbba$b$babRavbFa$b$b$b$bgb
+$a$a$a$a$a$a$a$a$aoabwbaFwFiba$ioi$dsdWbga$b$babSaubFa$b$b$b$bgb
+$a$a$a$a$a$a$a$a$anaIwEibabiba$ioi$drdYbea$b$babUaubDa$b$b$b$bgb
+$a$a$a$a$a$a$a$a$akabwbaIw$iXi$dpdZbgasbba$bQbVatbCa$b$b$b$bhb
+$a$a$a$a$a$a$a$a$agabwbaKw$i0i$dodAbbabbbabbbatbhaFbba$bDbWaubvabbbabbba$b$b$b$bib
+$a$a$a$a$a$a$a$a$ahaJwba$i2i$dndDbbabbbahbbabbbajbbabbgaFbba$bBbWawbhabbbabbfabbba$b$b$b$bob
+$a$a$a$a$a$a$a$a$ajabwbaEwciba$i2i$dndLbbabbdabbbabbbagbiaDbca$bzbXaybbabbbahbba$btbba$b$b9b
+$a$a$a$a$a$a$a$a$agadwbaEw$i5i$dqdJbiabbbajbgadbdawbba$bybXa$b$b$b$b2b
+$a$a$a$a$a$a$a$a$afabwcaFw$i5i1dbaAdzbbakbbabbbabbealbhacbea$bSbZa$b$b$b$b1b
+$a$a$a$a$a$a$a$a$agabwbafwdaww1iba$iei1ddaAdvbbarbfaibbabbbabbkabbbabbca$bMb1a$b$b$b$b0b
+$a$a$a$a$a$a$a$a$acabwbaHw$i7i1ddaAdObcabbbaobqabbba$bGb2a$b$b$b$b0b
+$a$a$a$a$a$a$a$a$abadwbaFwkibasica$iDi1dcaCdNbdakbbabbcadbpagbba$bAb2a$b$b$b$b0b
+$a$a$a$a$a$a$a$a$aaacwdaEwlibasibabiba$iCi0dcaEdvbbabbbaqbcalbdabbbacboadbfa$bwbbabb2a$b$b$b$b0b
+$a8abvbabvbaev$a$a$a$a$a$a4abwdaGw$i9i1dbaGdtbcapbbacbdajbbabbbacbBa$bubwabbbabbbabbCa$b$b$b$b1b
+$a7ajv$a$a$a$a$a$a4aJwoibaciba$iQi$dAdsbbarbdabbbarbbabbyabbba$bpbxahbza$b$b$b$b2b
+xabvbabvbadvbacv$aAajv$a$a$a$a$a$a4aJwsiba$iPi$dAdqbcawbcarbbabbAa$blbbabbxakbbabbbabbbabbbabbpa$b$b$b$b2b
+xalv$azakvnabvbabv$a$a$a$a$a$aMaKw$i9i$dzd8bCabbbabbba$bebAavbbabbla$b$b$b$b2b
+yabvdagv$azalvkaev$a$a$a$a$a$aNapwbauwCiba$iGi$dAdqbbanbbabbbacbbaubLabbbabbbabbba6bBazbia$b$b$b$b3b
+Eaev$azalvgabvbaev$a$a$a$a$a$aQanwbavwCiba$iGi$dndcabdbakdtbbajbgazbbacbLabbbabbbabbbabbbabbbaRbbabbBaCbga$b$b$b$b3b
+zabvbabvbabvbagv$avanveafv$a$a$a$a$a$aRaJwFica$iDi$dodcamdqbeajbbabbdaDbbabbUabbbaLbEaDbha$b$b7bba$b5b
+pabviaqv$agabvbabvharvbagv$a$a$a$a$a$aRaHwJiba$iDi$dCdnbdacbcambbaHbWaFbbabbFaDbcabbfa$b$b$b$b2b
+nafvgaqvxabvrafvhabvbabvbabvjafvfayv$a$a$a$a$a$aQabwbabwbaywbibwbibwbibw$i$ifi$dCdnbgaWbWaBbIaCbcafbda$b$b_bba$b2b
+maivgabvbalvwaevkabvbabvbaivfahvhaIv$a$a$a$a$a$aNabwbaBwTiba$iHi$dBdmbhaXbWabbbapbbabbbabbbabbJaMbca$b$b$b$b1b
+jabvcaiviaovsagvjanveaivgaKvbabvbabv$a$a$a$a$a$aGaEwSibabiba$iGi$dBdlbdabbeaibcaPbYabbbabbbabbbabbbabbbabbOabbbaObba$b$b$b$b1b
+jadvbaivcabveaqvqagvhabvbanveakvdaPv$a$a$a$a$a$aGabwbaCw$i$isi$dAdmbgaybbaCb$aGabbbaSbba$b$bbbba_bba$bZb
+jamvbadvdapvragvhapvea2v$a$a$a$a$a$aIaCw$i$isi$dAdnbbabbeaxbdaAb$aCabbba$b$b$b$b$bNb
+kaqvdapvqagvharvca2v$a$a$a$a$a$aIaDw$i$iri$dBdqbeawbeaybbabb$aza$b$b$b$b$bQb
+gacvdaGvqajvfarvca1v$a$a$a$a$a$aIaEw$i$isi$dAdsbbagbbabbbabbbabbbalbdaBb$axa$b$b$b$b$bRb
+gaLvpakvfasvbaZv$a$a$a$a$a$aKaEw$i2icaeibauigdba$dudwbkahbcabbdaBb$axa$b$b$bDbba$b$bnb
+babveaJvrakvfasvbaYvdabvbabv$a$a$a$a$a$aFaEw$i2ieabidafibabibabibabidabibabibabibabdbabdbabdba$dvdubkajbcabbbagbbabbbabbcabbbambbacb$ava$b$b$b$b$bSb
+bacvjazvbadvrakvbabvba$vivbafv$a$a$a$a$a$aEaEw$i3ikabibabiva$dvdwbkaibbagbbabbcabbbaqbcabb$aua$b$b$b$b$bTb
+bafvdabvbazvwa$vBv$a$a$a$a$a$aDaEw$i4iIa$dvdwbbabbcacbeabbbambbabbbaubdabb$ara$b$b$b$b$bVb
+bafvdaBvnabvbabvfa$vDv$a$a$a$a$a$aAaGw$i3iKacdba$dmdbbbdBbbabbiaKb$aqabbba$b$b$b$b$bXb
+svbatvjafvda$vGvbabvbabv$a$a$a$a$a$avaGw$i3iPabdbamdbaVdbakdHbgaLb$aoa$b$b$b$b$b0b
+lvbacvcabvdabvbasvhafvba$vOv$a$a$a$a$a$ataGw$i3iRabdba$dhdGbbabbdaibcaBb$aoa$b$b$b$b$b1b
+kvoabvbanvga$vXv$a$a$a$a$a$atabwbaCw$i0ibabibabiUa$dfdlbbazbcabbbabbbahbbabbbawb$aoa$b$b$b$b$b1b
+fvzajvgaevba$vSv$a$a$a$a$a$avaCw$i0iZa$dddbalbbadbbavbbabbbabbdahbbabbbavb$aoa$b$b$b$b$b1b
+Eakvfa$vWv$a$a$a$a$a$avaDw$iYibabiZa$dedSbbaBbbabb$apa$b$b$b$b$b1b
+Dakvdacvba$vVv$a$a$a$a$a$avaEw$iSibabi4a$dfdSbbadbbavb$ata$b$b$b$b$b1b
+zabvbamvda$vWv$a$a$a$a$a$awaFw$iSi6a$dedbaVbbayb$asa$b$b$b$b$b0b
+xaqvca$vYv$a$a$a$a$a$auaGwHiba$iki6a$ded$blb$asa$b$b$b$b$bZb
+va$v$viv$a$a$a$a$a$ataFwJiba$iki5a$ded$bnb$ara$b$b$b$b$bYb
+takvba$v9v$a$a$a$a$a$avacwbaAw$iVi5a$dedbbbdrbbadbba1bqabbdabbpabbbabbQa$b$b$b$b$bWb
+uagvea$vTvbapv$a$a$a$a$a$avabwbabwbazw$iWi4a$dhdhbbahbbabbgabbbaXboaebbacbnahbbabbNa$b$b$b$b$bVb
+wabvga$v$vav$a$a$a$a$a$auaCw$iXi5a6dbakdobbaebbabbbabbbabbcaWbmafbqalbMa$b$b$b$b$bUb
+Ba$v$vbv$a$a$a$a$a$arabwbaEw$iXi6a5dbaidobeabbbaibcaVboacbdabbnanbLa$b$b$b$b$bTb
+mabvcahvbabvbabvba$v7vbaev$a$a$a$a$a$aqaFw$iXi8a5dbahdqbcalbdaVbpabbbabbnaobMa$b$b$b$b$bSb
+hadvbadvba$v$vivdabv$a$a$a$a$a$araEw$iWi8abdca$dbdjbbabbbadbbabbbambcabbbaSbqabbpaqbMa$b$b$b$b$bQb
+babvba$v$vvv$a$a$a$a$a$apabwbabwbaEw$iWi8a$dgdpbbapbdaTbeabbuabbbabbbatbLa$b$b$b$b$bPb
+$v$vxv$a$a$a$a$a$apaJw$iVi6addca$dedwbba6byaybKa$b$b$b$b$bOb
+bvba$v$vtvbabv$a$a$a$a$a$aoaJw$iUibabi2ahdda$ded$brbzazbbabbbabbFa$b$b$b$b$bNb
+eabvbabvbabvbabvbabvbabvba$v$vdv$a$a$a$a$a$araJwdiba$iSi1a$dsdbbbdbbbd$blbzaAbbaebbabbBa$b$b$b$b$bNb
+qa$v$vcv$a$a$a$a$a$araAwdagwfiba$iSiZa$dyd$blbzaxbeahbbabbxa$b$b$b$b$bNb
+qa$v$vbv$a$a$a$a$a$aqacwbaywbabwbagwMiba$imiZa$dyd$bjbDawbbanbva$b$b$b$b$bNb
+pa$v$vav$a$a$a$a$a$araKwOiba$iliYa$dAd$bjbEaubbapbbabbjabbia$b$b$b$b$bMb
+pa$v8v$a$a$a$a$a$apabweaJw$i2ibabiUa$dAd$blbEaNbgafbfa$b$b$b$b$bMb
+pa$v5vbabv$a$a$a$a$a$aoafwdaIw$i5iTa$dzd$bkbHaObbabbbahbbabbbabbba$b$b$b$b$bLb
+qabvbacvba$vZv$a$a$a$a$a$apagwdaJwbibw$i2iSaOdbabdbabdbaSdbbcaxbcaUbbabbFa$b$b$b$b$b$bCb
+ta$v1v$a$a$a$a$a$amabwbagwdaOw$iKibaqiQaOdgaTdcasbbabbbabbbabbdaEbcaobGa$b$b$b$b$b$bBb
+sa$vYvbabv$a$a$a$a$a$amalwbaQw$iJicaqiOaPdgaQdbacdbbcaqbbabbbabbbabbeaEbcaobbabbGajbba$b$b$b$b$b$bpb
+sa$vXv$a$a$a$a$a$apa2wdiba$iFibapiOaRdgahdbabdbaJdbbbaxbbatbcaGbbabbbabbdabbyabbbabbbabbea$b$b$b$b$b$bob
+uacvba$vRv$a$a$a$a$a$aoa4w$iXiPaSdiaddgaJdbbbdRbcaPbGa$b$b$b$b$b$bnb
+ta$vLvbabvbabvbadv$a$a$a$a$a$apa5w$iXiPaUdgabdgabdbaNdPbbaRbHa$b$b$b$b$b$blb
+sa$vKvbabv$a$a$a$a$a$auabwba6w$iViQaVdjabdbaTd$bvbFa$b$b$b$b$b$bmb
+sa$vGvbabv$a$a$a$a$a$axabwbaBwbacwbaCw$iTiQaXdbabdfaOdbajd$bybBa$b$b$b$b$b$bmb
+rabvba$vDv$a$a$a$a$a$aBaCwbaGwziba$isiQa2dba0d$bzbBa$b$b$b$b$b$blb
+pa$vFv$a$a$a$a$a$aCa9w$iTiPa$dTd$bzbDa$b$b$b$b$b$bjb
+oa$vCvbabv$a$a$a$a$a$aCaUwbibwbibwbibwbibwbihwviba$ixiQa$dUd$bzbCa$b$b$b$b$b$bjb
+cacvfabvbabvba$vBv$a$a$a$a$a$aGaswbabwbaywmibwbidw$iTiMabdbabdba$dTd$bAbCa$b$b$b$b$b$bjb
+cacvda$vGv$a$a$a$a$a$aHarwdabwbauwbicw$i_iMa$dWd$bDbbabbbabbwa$b$b$b$b$b$bjb
+ca$vKv$a$a$a$a$a$aIabwbamwbabwcaxwdibabw$i8iNa$dVd$bKbbabbra$b$b$b$b$b$bkb
+bavvda$vlv$a$a$a$a$a$aIaowfaxwfiba$i7iMabdba$dUdhbba$bHbbabbhabbbabbba$b$b$b$b$b$bmb
+bacvbabvbabvbabvbabvbabvdabvbabvbabvfa$vavbabvbabvbabvbabv$a$a$a$a$a$aIapwbadwcabwbabwbarwhica$i5iLa$dXdibba$bLbfa$b$b$b$b$b$bqb
+Cadvba1vbabv$a$a$a$a$a$aQauwhaqw$i$ibibabiKa$dZdjbca$bLbbabbba$b$b$b$b$b$bqb
+EabvbaVvbabvbabv$a$a$a$a$a$aTafwbapweabwbaqw$ihiba3iNa$dYdfbbagbca$b$b$b$b$b$b$b3b
+GabvbaQv$a$a$a$a$a$aZacwbabwcaowcabwbabwbarw$i_ibabiNa$dXdobda$b$b$b$b$b$b$b1b
+JaPv$a$a$a$a$a$a3amweawwkiba$iWibabiMabdbabdba$dZdnbda$b$b$b$b$b$b$b1b
+KaMv$a$a$a$a$a$a1abwdakweaxwlida$iSibabiNa$d5debcaibba$b$b$b$b$b$b$b1b
+LaIvbabv$a$a$a$a$a$a0afwcafwbabwhavwnibapiba$iCiQa$d7dcbca$b$b$b$b$b$b$b_b
+Mabvbabvbabvbazv$a$a$a$a$a$a2ahwcadwmauwniba$iRiQa$d_dcbbaLbba$b$b$b$b$b$b$bxb
+Uavv$a$a$a$a$a$a3ajwpavw$i0icadiOa$dTdbaudkbbaBbca$b$b$b$b$b$b$bwb
+Wabvbanvbabvbabv$a$a$a$a$a$aYabwdalwdabwbabwbabwbabwbabwcavw$iXigaciMa$dUdeaudKbba$b$b$b$b$b3bba$bEb
+0abvbabvbadvbabv$a$a$a$a$a$a0agwbamwbaHw$iYiVaXdbaCdbaDdgaud$b$b$b$b$b$b$b6b
+$a$a$a$a$a$a$aXahwbamwcaFw$iZiWaXdbacdbaydcaCdbabdfavd$b$b$b$b$b$b$b4b
+$a$a$a$a$a$a$aWaxwbaDw$iYiWabdba1dcakdcabdbajdbaEdgabdbaddbaqd8bba$b$b$b$b$b$b4b
+$a$a$a$a$a$a$aVaJwbabwbaqw$iYiUabdba5dbaldcajdcaEdkatd$b$b$b$b$b$b$b0b
+$a$a$a$a$a$a$aVaKwbabwbapw$iTicabiOabdbabdbabdbabdba$djdbajdbaGdkaud$b$b$b$b$b$b$bYb
+$a$a$a$a$a$a$aQabwbabwba4w$iRiRa$dhdbaiddajdcaHdbabdhaudDbbanbba$b$b$b$b$b$b$bfb
+$a$a$a$a$a$a$aPa9w$iPiUa$dpdcaVdbacdeaudDbba$b$bobba$b$b$b$b$beb
+$a$a$a$a$a$a$aMabwca_w$iNiWa$dodcakdbahdbaGddavd$b$b$b$b$b$b$bWb
+$a$a$a$a$a$a$aLadwba_w$iMiWa$dpdcaldbagdcaHdcavdfbbagbbaNbba$b$b$b$b$b$b5b
+$a$a$a$a$a$a$ayabwbabwhabwcafwbabwba6wQiba5iVa$dsdcabdbaidcagdeaedbaAdcavdmbbaPbba$b$b$b$b$b$b2b
+$a$a$a$a$a$a$awagwcaiwbadwca6wLiba$ibiUa$dkdbahdeabdcahddaddgaEdbawd1bba$b$b$b$b$b$b2b
+$a$a$a$a$a$a$auaswca9wMibakiba1iUa$dtdgahddabdia2d$b$b$b$b$b$b$bSb
+$a$a$a$a$a$a$avabwba$wpwYibaWibabiUa1dbaFdeakdbabdja0dVbca$b$b$b$b$b$b7b
+$a$a$a$a$a$a$avacwbapwba9w$iHibabiWa$doddagddabdbaldiawdbapdbaodXbcabbbabbba$b$b$b$b$b$b1b
+$a$a$a$a$a$a$aua$wsw$iHiXa$dfdbafdbacdgaeddandia0dYbha$b$b$b$b$b$b0b
+$a$a$a$a$a$a$aqabwkakwba$waw$iGibabiVa$dfdcafdbacdoamdjaRdbahdZbhabbba$b$b$b$b$b$bXb
+$a$a$a$a$a$a$aoadwma$wjw$iGiXa$dedbahdbacdpakdlaYdPbbakbka$b$b$b$b$b$bVb
+$a$a$a$a$a$a$aoadwdabwbabwfa$wkw$iGiXa$dedbafdualdkaXdMbcadbcajbcabbbabbgabbba$b$b$b$b$b$bRb
+$a$a$a$a$a$a$akabwbanwdadwba$wgw$iGiYa$djdkabdhandmabdbandbaFdMbcadbcakbcacbia$b$b$b$b$b$bRb
+$a$a$a$a$a$a$ajaswca$wjw$iEi0a$dkdbabdhaddfajdbacdpamdcaEdNbcakbbalbcabbcabbba$b$b$b$b$b$bPb
+$a$a$a$a$a$a$alabwba$wAw$ivibafi2a$dmdgagddaidxabdbaMdNbcacbbaibcambga$b$b$b$b$b$bNb
+$a$a$a$a$a$a$aoacwca$wvw$ividabi4a$dndfagdbaddbafdbacdxaLdSbcaibcambga$b$b$b$b$b$bMb
+$a$a$a$a$a$a$aiabwda$wCw$iui8a$dodeaudwaJdSbbabbcajbcambfa$b$b$b$b$b$bMb
+$a$a$a$a$a$a$aiabwba$wEwbiba$isi9a$dmddacdbasdbagdpamdbaxdSbbaebbafbcabbcambea$b$b$b$b$b$bMb
+$a$a$a$a$a$a$aeabwbadwbaiwca$wvwba$isi$aaaUdbaAddacdbamdcaldqakdbabdbaudObbalbbagbealbea$b$b$b$b$b$bMb
+$a$a$a$a$a$a$adahwba$wEw$iui_a$dkdcaDdqaHdTbbahbcaebfaebbagbda$b$b$b$b$b$bMb
+$a$a$a$a$a$a$acaiwba$wxwbagw$ivi9a1dbarddaFdqaHdvbcaEbbafbeacbbaibda$b$b$b$b$b$bMb
+$a$a$a$a$a$aZabwfabwdabwbacwba$wFwbafw$iwi9a0dcaqdeatdbaedbacdbaedbabdoafdbaAdubdaEbbaebfadbcadbbabbea$b$b$b$b$b$bMb
+$a$a$a$a$a$aZadwcajwba$wLw$ivi_a0dcahdbafdbacdcabdbaCdbahdnaddbaBdubbabbbaFbcaebeaebcabbgaObba$b$b$b$b$b8b
+$a$a$a$a$a$a2acwcaiwbacwba$wHw$ivi9a1dbandbacddajdbardbamdladdbaAd3beacbgacbiaObba$b$b$b$b$b9b
+$a$a$a$a$a$a2a$wWw$iwi9aUdbaodbajdcakdbahdbabdcagdbandkacdbaAdIbbawbeabbfabbja$b$b$b$b$b$bNb
+$a$a$a$a$a$a1a$wXw$ivi_aTdbandbalddamdbafdbabdbapdbabdbaediagdcabdbaedbaodIbdaobbahbua$b$b$b$b$b$bLb
+$a$a$a$a$a$a0a$wYw$ivi_aSdbaqdbagdfaddbafdbaddbabdbacdeandbacdbagdcabdbabdbagdgaddbapdHbfabbbalbbahbva$b$b$b$b$b$bJb
+$a$a$a$a$a$a3abwdacwda$wLw$ivi$abaQdbawdbabddakdbafddaddcaodbajdbajdiasdIbfavbua$b$b$b$b$b$bJb
+$a$a$a$a$a$a1ahwbabwbakwba$wBw$ikibaki$aca$dadbabddabdbaidcacdhaedbaAdbagdhagdbandJbbabbbavbua$b$b$b$b$b$bJb
+$a$a$a$a$a$a1aswca$wCw$ikicaji$ada$dbddajdbabdbabdhaCdbabdbabddaedhaddbacdbaodFbbaxbbacbua$b$b$b$b$b$bJb
+$a$a$a$a$a$aZa$wYw$ivi$adazdbaJdbabddacdbaedbacdcacdbabdfakdbandbabdlabdgaxdEbeaubAa$b$b$b$b$b$bHb
+$a$a$a$a$a$aXa$w0w$ivi$adaedcaudbaJdeabdcaedbabddaddhamdcaidtaldbajdcabdbaGbbacbbaubza$b$b$b$b$b$bGb
+$a$a$a$a$a$aWa$w1w$iti$aha2dbahdeafddacdgabdeandcaidfabdjabdbaudbabdea5bya$b$b$b$b$b$bFb
+$a$a$a$a$a$aWa$w3w$iqi$aiaVdbaidbafdeaedeaedcacdcabdcafdbagdeajddaddbacdeawdbabdeacbba3bxa$b$b$b$b$b$bFb
+$a$a$a$a$a$a0a$w0w$ioi$ajandbaGdbapdeagdcaedbaddbabdcagdbacdbaddcabdbafdcabdeahdbahdbaodoawbbaEbya$b$b$b$b$b$bDb
+$a$a$a$a$a$a0a$w1wbibw$ili$aiabdbandbaBdcapdgahdbaldbahdbacdbabdcabdeaddcacdeamdbabdcaqdnaubbaHbbabbva$b$b$b$b$b$bCb
+$a$a$a$a$a$aYa$w6w$iki$ajaQdbamdbacdhaBdcabdcabdcaddbabddabddabdcaldcandbacdsa4bbabbracbba$b$b$b$b$b$bzb
+$a$a$a$a$a$aYa$w7w$iji$aiaRdbajdcacdbacdgabdbandbabdbajddacdbabdbacdiacdbabdbaldbandwa8bsa$b$b$b$b$b$bzb
+$a$a$a$a$a$aXa$w9w$iii$aiaFdbaDdbabdcaqdbabdbabdcaiddacdbaddfabdbabdcakdbaqdya7bra$b$b$b$b$b$bzb
+$a$a$a$a$a$aVaLwba$wAw$ihi$aiandbaLdcacddaddfandcacdcacdbagdeaddcabdbabdfandbaqdlacdjabdda6bbabbpa$b$b$b$b$b$byb
+$a$a$a$a$a$aWabwba$w9w$iii$ahaIdbahdbaidbajdbabdcaqdbaldbabdcacdoabddaydwabdea7bpa$b$b$b$b$b$byb
+$a$a$a$a$a$aVaKwba$wAw$iii$aiaJdbaBdbabdcaddbaedcapdbaddbaddbabdcabdjabdeardbacdEabbba5boa$b$b$b$b$b$byb
+$a$a$a$a$a$aWaxwbaiwba$wDw$iji$aha2dbaidbabdbabdcabddacdcagddaeddaeddabdbafdiabddardLa4bma$b$b$b$b$b$bzb
+$a$a$a$a$a$aZauwfa$wIw$iji$aha$dcdbafdbaddbahddandbagdjabdcasdbabdLaPbdabbbaibna$b$b$b$b$b$byb
+$a$a$a$a$a$aYaiwiaewdabwbabwcafwca$wyw$iki$aga$dcdbajdcaddcacdeaqdcabdcabdfabdbavdOaNbeakbla$b$b$b$b$b$bzb
+$a$a$a$a$a$a0agwbabwbabwbabwbabwfagwcafwba$wxw$ili$agaodbaXdbaldcagddabdbaqdcabdcabdcaBdOaLbfajbla$b$b$b$b$b$bzb
+$a$a$a$a$a$aVabwbabwbabwbapwba$wJwbibwbibw$ili$afamdbacdbaXdbabdcaqdbasdbaedbabdbaCdbacdOaKbdabbcabbcaebiabbba$b$b$b$b$b$bAb
+$a$a$a$a$a$aUa$wAwbaDw$iri$aeandda0dcaidbaddeamdbafdcaJdbaedMaKbbaebcaebbabbha$b$b$b$b$b$bDb
+$a$a$a$a$a$aUaGwba$www$iri$aeabdbandda8dbafdcaodbabdeaJddafdLaUbia$b$b$b$b$b$bEb
+$a$a$a$a$a$aUa$w4w$iqi$ahaodba$dbddaedbabdba5dMaUbdabbca$b$b$b$b$b$bFb
+$a$a$a$a$a$aUa$wDwbaAw$iri$agaodba$dkdba6dMaXbca$b$b$b$b$b$bFb
+$a$a$a$a$amabo$aHabwba$wBwbaAw$isi$ada$d$dsddaddMa$b$b$b$b$b$b$bsb
+$a$a$a$a$alaco$aKa$wBwbacwcaww$iri$aea$d$dtdbaddMa$b$b$b$b$b$b$bsb
+$a$a$a$a$aiabobado$aLa$wBweaww$iri$afa$d$dwdMa$bKbda$b$b$b$b$bQb
+$a$a$a$a$ahafo$aNa$wCwcaxw$iqi$afa$d2dcaDdOa$bIbdabbba$b$b$b$b$bOb
+$a$a$a$a$ahabo$aSa$wBwdaxw$ipi$aea$d0dfaEdNa$bJbfa$b$b$b$b$bNb
+$a$a$a$a$acabodacocado$aNa$wDwcaww$iribacieabi3abdcafdba$dSdeabdbaFdMa$bLbda$b$b$b$b$bNb
+$a$a$a$a$acacocado$aNacwba$wGwbavw$iuidadi5abdbacdca$dodbaBdeabddajdcawdKa$bMbca$b$b$b$b$bNb
+$a$a$a$a$aaaeocaco$aOa$wpwbaswcavw$ivibafi1abdbabdcabddabdba$dmdbahdbabdbabdbafdbabddabdmaIdEabbbabbba$bObba$b$b$b$b$bNb
+$a$a$a$a_aeobabo$aRa$wIwbaww$iqibaki$aca$dkdbaidhabdracdbaIdFa$bRbba$b$b$b$b$bNb
+$a$a$a$a$abacobabo$aRaxwca7wbaJw$iDi8acdcabdba$dedbaddbabdbabdFaJdcbEa$bQbba$b$b$b$b$bNb
+$a$a$a$a$acadobabobabo$aMa$wwwbaJw$iEiAacdFacdgabdbabdba3dbabddabdnabdzaJddbDa$b$b$b$b$b$b$btb
+$a$a$a$a$abafo$aPa$wHwbaxw$imibatibabixafdEabdgabddazdbabdbawdbaddcabdOacdcabdbaDdfbBa$b$b$b$b$b$b$bvb
+$a$a$a$a7adobabobaeo$aPa$wvwbalwbaxw$iJiyafdBabddaddcabdbaYdcabdbacdcabdPacdcazdbbbdhbCa$b$b$b$b$b$b$bub
+$a$a$a$a7aio$aSafwbafwbabwba$wQw$iiibaAisabdbacdcagdbabdFabddaddbardbacdbaudbabdbabd5avdmboabbbabbbabbia$b$b$b$b$b$b$bub
+$a$a$a$a8abobabocaco$aTacwdafwca$wRw$iKirabdbagdbacdwabdcabddabddacdeabdbacdbaLd$acahdbabdbafdrblaibha$b$b$b$b$b$b$bub
+$a$a$a$a_abocacobabo$aWaewdazwba$wrw$iqibatibabipaidbabdtabdcabddacdbacdgahdbaodbaqdcabd$ahabdbabdhabdvbiakbdabbba$b$b$b$b$b$b$bvb
+$a$a$a$a0abomabocabo$aWaewea$wPw$iPiqafdyacdoagdcaBd$azaubia$b$b$b$b$b$b$bKb
+$a$a$a$a$acabo$aZadwcabwba$wdwbaMw$iQiuabdcabdIabdbagdbabdbavdbaedNabdWaubha$b$b$b$b$b$b$bLb
+$a$a$a$a$acabo$aZabwbabwca$wewbabwbaKw$iRivabdeabdbabdDagdhabdbandbabddabdbabd2abdFabbeatbga$b$b$b$b$b$b$bLb
+$a$a$a$a$ababo$a3a$wiwcaHw$iUi$afabdcaedbafdbabd$acabduadbbabbbabbdabbiapbga$b$b$b$b$b$b$bLb
+$a$a$a$a$aaaco$a1a$wlwbaHw$iUi$adabdbabdbabdbabdcaedbabd$ayakbdabbgaobdabbda$b$b$b$b$b$b$bLb
+$a$a$a$a$a$a2a$wqwbabwbahwbanwbibwbibw$iXi$afabdbacd$aGaqbbabbba$b$b$b$b$b$b$b7b
+$a$a$a$a$a$a2a$wqwcabwbahwbakw$i3i$adaed$adabdvabbha$b$btbbawbba$b$b$b$b$bKb
+$a$a$a$a$a$a3abwbacwba$wkwbacwbahwbalw$i1ibabi$ababdbabdbabd$atabbeaebbabbba$b$bTbba$b$b$b$b$bJb
+$a$a$a$a$a$a4abwca$wlwbakwbalwuiba$iJi$a$awadbea$b$b$b$b$b$b$b$bzb
+$a$a$a$a$a$aXabwfa$wkwcadwbakwbalwHiba$isi$a$aAaebda$b$b$b$b$b$b$b$bzb
+$a$a$a$a$a$aVadwbabwba$wowbadwbajwbakw$iZi$a1abuMaebba$b$b$b$b$b$b$b$bAb
+$a$a$a$a$a$aUa$wnwcakwbasw$i1i$a1abufabuGa$b$b$b$b$b$b$b$bFb
+$a$a$a$a$a$aTa$wqwbaiwcasw$iribaIi$aIabuqacubaluCa$b$b$b$b$b$b$b$bFb
+$a$a$a$a$a$aTa$wuweabwcasw$ipibabicaEicabi$aNacubabubabubabudavuwacu$b$b$b$b$b$b$b$bDb
+$a$a$a$a$a$aSakwbaewca$wgwfasw$ioibabibabibaCi$aLabugaIuuacu$b$b$b$b$b$b$b$bDb
+$a$a$a$a$a$aSakwbacwca$wkwdaiwbajwbiba$iSi$aLaSubabubabubabubabubabubabufaeu$b$b$b$b$b$b$b$bCb
+$a$a$a$a$a$aTakwbabwba$wkweacwcaowbicaBibabiba$icibagibadibabibaci$aFa$ueu$b$b$b$b$b$b$b$bBb
+$a$a$a$a$a$aTacwbacwbacwbabwdabwbaYwbauweagwbalwbibayibacieabibabiba9ibagibaji$ayabucacuba$ububadu$b$b$b$b$b$b$b$bAb
+$a$a$a$a$a$aWabwlaYwbavwearwcavigabiia$iiicaei$aAa$udufabubbba$b$b$b$b$b$b$b$byb
+$a$a$a$a$a$a7a1wcapwbabwfarwbabibafibaniqa$iiieabi$avabuba$ugubabubabubabuba$b$b$b$b$b$b$b$bAb
+$a$a$a$a$a$a6a$wiwharwbacicabieanipa$iji$axa$upu$b$b$b$b$b$b$b$bCb
+$a$a$a$aBabo$a$aDa$wjwjabwbamwbibagibakibaeioa$iki$axa$unuba$b$b$b$b$b$b$b$bDb
+$a$a$a$aAaeo$a$azabwba$wiwpajwcibaeibaqina$ijibabi$axa$ulu$b$b$b$b$b$b$b$bGb
+$a$a$a$aAaeo$a$ayaMwbaxwcajwqadigwcibaeibajibaginaciba8ibagi$alabupa$uluMbba$b$b$b$b$b$b$b4b
+$a$a$a$aAado$a$auabwgaewcaVwbaiwcafwbabwpaeifwdibaeibajidaeipaVibanibaei$anaduhabubabuca$ukuObba$b$b$b$b$b$b4bba_b
+$a$a$a$aAaeo$a$asadweadwba6wdadwtaeifwdibanigadina9icaei$amagubabudacubabuba9ubabubabufabubarbba$b$b$b$b$b$b$b$brb
+$a$a$a$aCabo$a$auacwbadwba8wAafidwriiacina8ieadi$afabubabubabubajuja8ulaqbba$b$b$b$b$b$b$bobba$bdb
+$a$a$a$ayaco$a$axa$wcwDafibwpibacijabima9ieabibabi$agabubabubaluha8uma$b$b$b$b$b$b$b$bJb
+$a$a$a$ayado$a$aualwba0wbabwEavibaciwaRibaqi$ataiubabuia6uoa$b$b$b$b$b$b$b$bIb
+$a$a$a$a$a$aVa$wdwEaviuadica6i$awafubabukacubabuba1uoa$b$b$b$b$b$b$b$bIb
+$a$a$a$a$a$aUa$wcwGavixa6i$ayaeusa2una$b$b$b$b$b$b$bIbba_b
+$a$a$a$a$a$aUa$wawHawixa3i$aBadupa8ula$b$b$b$b$b$b$b$bIb
+$a$a$a$axabobabobabo$a$ata9wJavikacifabibabiba4i$aNabubabuea8ula$b$b$b$b$b$b$b$bIb
+$a$a$a$arabobabobabobafo$a$aua7wKaxiiabiea4ibabibabi$aFabujaduea9ula$b$b$b$b$b$b$b$bHb
+$a$a$a6adobabodabofabobabobabobano$a$aua5wMawihadida7i$aFafubadubaguda9ula$b$b$b$b$b$b$b$bHb
+$a$a$a5amobauo$a$axa1wOawigaeica9i$aAabubaoubabubabudabuba8uka$b$b$b$b$b$b$b$bHb
+$a$a$aKabouaHo$a$azaZwOauigabiba$idibabi$avadubarubabuha7uka$b$b$b$b$b$b$b$bHb
+$a$a$aIadotaJo$a$aAaVwbabwOasiga$ihi$axauubabuia7uja8bba$b$b$b$b$b$b$bKb
+$a$a$aGaeotaJo$a$aBaTwRatidabica$ihi$ayatukaMubawuga9bda$b$b$b$b$b$b$bIb
+$a$a$aEahosaIo$a$aEaQwVatiba$ihibabi$ayarunajudazudavufa7bia$b$b$b$b$b$b$bFb
+$a$a$aCaiotaHo$a$aHaNwWaeibabiba$iui$ayarurabubafueaxueavuea6bka$b$b$b$b$b$bWbbaTb
+$a$a$aAaiouaEobabo$a$aLabwbabwbaFw0abibabica$ivi$axapuvadugayudawuca5bma$b$b$b$b$b$bUbcaUb
+$a$a$awabodaioqabobaEo$a$aUaCw4adiba$iui$azahubabubabubabuDaAucaxuba6bjabbba$b$b$b$b$b$bUbbaVb
+$a$a$avalotaFo$a$aUaAw4aeica$iui$aBaduLaAubazubacbbabbba2bbabbbabbca$b$b$b$b$b$bXbbaVb
+$a$a$aualouaDo$a$aXabwbatwbabw4agiba$itibabi$aCacudabuyabuiaBubayuia$b$b$b$b$b$b$b$bDb
+$a$a$aualotaCo$a$aZabwdabwbalwbabw9abiea$ivi$aDacuLa0uja$b$b$b$b$b$b$b$bCb
+$a$a$avakosaBo$a$a5abwdabwbabwbabwbabw$adabibabiba$iui$aCaeuKa2ucabuga$b$b$b$b$b$b$b$bBb
+$a$a$auakotazo$a$a$a$ajadicaliba$iiibabiPabiUaduMakubtVufa$bzbba$b$b$b$b$b$bsbbaTb
+$a$a$awaeobabowawo$a$a$a$amacibalibaUibaBiNaciVacuMahuhtbubtbuftMuea$b$b$b$b$b$b$bSbcaSb
+$a$a$awacouabodabobawo$a$a$a$apalica$ifibadiKabibadiWabuNabubtduttbubtJuea$b$b$b$b$b$b$bSbbaSb
+$a$a$auaeosabobaAo$a$a$a$aqaliba$iiiJaii$aAaCtHuca$b$b$b$b$b$b$bUbbaSb
+$a$a$atadotacobaBobabo$a$a$a$ana$iwiFaji$aiabusaCtJu$b$b$b$b$b$b$b$bCb
+$a$a$atabovaGo$a$a$a$apa$iuiEaji$aCaptbamtJu$b$b$b$b$b$b$b$bCb
+$a$a$aPaFoiabobabo$a$a$aUabvta$iwiDaii8abtbabtEaptcaltIu$b$b$b$b$b$b$b$bDb
+$a$a$aEabojaCocabofabobahobabobabobabobabobabobabobabobabobabobabo$a$a$awacvwa$itiDaii7aftFaGtCu$bEbba$b$b$b$b$b$b_b
+$a$a$aDadoiayocaeoeaHo$a$a$atacvya$isiCaji5ahtFaHtBu$bEbba$b$b$b$b$b$b_b
+$a$a$aDaeoiaBocabobaJo$a$a$amabvbabvbabvbacvza$isiAaliZabtbabtbaltDaJtlubtlu$b$b$b$b$b$b$b$bGb
+$a$a$azabodaeogacobayocaNo$a$a$alajvAa$iriAaliXattBaLtfujtbubtdudt$b$b$b$bnbba$b$b$brbba_b
+$a$a$azahohazocaPo$a$a$akalvzahiba$ikiyaliYautAa9t$bxbca$b$bWbba$b$b$bsbca9b
+$a$a$azahoha$ogo$a$a$aiamvya$isizamiWawtAa8t$bybba$b$bNbbaibba$b$b$bsbca9b
+$a$a$aAagoha$oeo$a$a$ajanvyaciba$ipiAaniTaztya_t$b$b$b$bibba$b$b$b$bsb
+$a$a$amabooafohaboca$oao$a$a$ajaovyabica$ioiBakibabiTaCtwa_t$b$b$b$b$b$b$bubbabbbabbbadbca8b
+$a$a$alacooaiofa$obo$a$a$akaovCa$imiiacisakiUaCtxa_t$bubbabbca$b$b$b$b$b7bgabbda8b
+$a$a$akacopaiodaboba$oao$a$a$akapvhaevra$ilijabisakiVaCtxa_t$btbbabbda$b$b$b$b$b7bcabbbafbba8b
+$a$a$akacopa$omo$a$a$ajarvgadvta$iliiacitaiiVaEtva$tat$bwbda$b$b$b$b$b7bba$bfb
+$a$a$akacorabobaboba$ofo$a$a$aiasvEa$ikihaditagiXantbastsa$tctNbbaTbba$b$b$b$b$b8bba$bfb
+$a$a$akacoxaboca$oao$a$a$aaabvbabvbabvbatvFa$ikihacivadiZantbastra$tet$bnbbagbba$b$b$b$b$b9bba$bfb
+$a$a$akaboBa$oao$a$a5abvbabvbaqvbajvGaFibaQigacivadiZaGtpa$tgt$bwbba$b$b$b$b$b0bbabbbabbbacbba$bfb
+$a$a$aLa$oao$a$a4aqvbabvbabveaivHazibaeicaPigabixabi0aItbabtja$titKbbaPbbahbba$b$b$b$b$bXbcabbbabbba$bjb
+$a$a$aKaboca8o$a$a4ahvbabvbabvbabvbacvbabvdahvbacvbabvIawidaeibaPifacixaci0aMtfa$tkt$bpbba$b$b$b$b$b4bba$bpb
+$a$a$aKa_o$a$a4agviasvKawicaVifaciwaci0a$t2tGbbaTbbacbbadbba$b$b$b$b$b$b$bcb
+$a$a$aJa$oao$a$a3afveabvfasvLatibabicaVidaeiwabi0a$t2t$bybba$b$b$b$b$b$b$bbb
+$a$a$aJaboba9o$a$a2akvfatvNaticaUieadi$akabtba$t1tAbbaPbba$b$b$b$b$b$b$bwb
+$a$a$aKa8o$a$a4aevcaevgasvNatibaVidadi$ala$tLtbart$b$b$b$b$b$b$b$bCb
+$a$a$aCabobabobaboba8o$a$a5aevdaivbatvOa$idicaei$aka$tLtcart$b$b$b$b$b$b$b$bCb
+$a$a$aCaqobaWo$a$a7advbaevcaevcasvPa$ibidadi$ala$tktbaztcatt$b$b$b$b$b$b$b$bBb
+$a$a$aDabobamobaWo$a$a9abvdabvbabvcaevdapvbabvvabvta$ibicaei$ala$t5tzbba$b$b$bVbba$b$b$b$bqb
+$a$a$aCabocamobaWo$a$a$aaacvdagvdasvQabiba7idadi$ama$t5t$b$b$b$b$b$b$b$bBb
+$a$a$aAaeobajocaXo$a$a6acveabvdafvcauvTa6idaei$ama$t7t$b$b$b$b$b$b$b$bzb
+$a$a$aAafocafocabobaWo$a$a7aevbabveajvbapvcabvSa5ieaei$ala$t9t$b$b$b$b$b$b$b$byb
+$a$a$aBahobaboeaWo$a$a8ajvcazvbaevbabvbabvbabvKa5ieadi$ama$t_t$b$b$b$b$b$b$b$bxb
+$a$a$aBaiofaUo$a$a_ajvbaMvGabiba5ieaei$amabtba$t8t$b$b$b$b$b$b$b$bxb
+$a$a$aBaiofaTo$a$a$abaVvEa9ieadi$anabtbaqtdsbtbsbtbsbtbshtbsHtbs6t$b$b$b$b$b$b$b$bvb
+$a$a$aBabobafoeaVo$a$a$abaVvFa7ifadi$anabtbaotnsdtesetbsxtbsbtds6t$b$b$b$b$b$b$b$bvb
+$a$a$aKaZo$a$a9abvcaTvGa6ifadi$anaktbsbtysdtesbtbsbtbsbtcsotgsQtbaot$b$b$b$b$b$b$b$bvb
+$a$a$aKa0o$a$a8aUvEabiea4igaci$aoaitUsitis4tebbatbba$b$b$b$b$b$b$b8b
+$a$a$aKaZo$a$a9aMvcagvEadiba4ihabi$aqahtVsdtbsbtbsbtjs3tebbaUbda$b$b$b$b$b$b$bFb
+$a$a$aKaUobabobabo$a$a_aLvbaevbacvFaQibajibabibafi$azaet$sdsGtbattgbba$b$b$b$b$b$b$b$brb
+$a$a$aKaSo$a$a$afabvbaIveabvcabvHaLibabifabibabibabihabi$aBact$sgsWtmbba$b$b$b$b$b$b$b$bob
+$a$a$aGacocaqobazo$a$a$agaLvIabvbabveaLi$aVact$sisbtdsbtbsNtjbbaCbbasbca$b$b$b$b$b$b$bGb
+$a$a$aEacodarocawoiabobabo$a$a8abvbaJvGahvdaGibadi$aVa$srsMtebbaebba$b$b$b$b$b$b$b$bsb
+$a$a$aCaeodadocaDobaeoiaho$a$a9aIvEalvcaEieabi$aVansba$sesJtfbbabbba$b$b$b$b$b$b$b$bwb
+$a$a$aCacoeadocaIobabobabobabobalo$a$a8aHveabvrabvbabvdacvbabvbahvdaDi$a1a$susbtbsDtNbba$b$b$b$b$b$b$b3b
+$a$a$ayabobaeodaeocadobadobaUo$a$a6aHvwaevfaivfaAi$a3a$sysBt$b$b$b$b$bPbba$b$b1b
+$a$a$auabobadobaeodafobadofaWo$a$a1abvcaDvbacvgacvpadveabvbaivgazi$a3abc$sxsrtbqitzbba$b$b$b$b$brbca$b$bZb
+$a$a$atagobacofafodabofaXo$a$a2aCvkacvoafvdamvfayi$a4adc$sqsbagsoteqbtbqetfbbq$b$b$b$b$bNbba$b$bYb
+$a$a$atabobaeoiabocacojaYo$a$aYaHviacvnagvcanvhawi$a4aec$spsbagsntjqbtbqbbbqbbeq$b$b$b$b$bZbba$b$bLb
+$a$a$asacocaeoiaeoiaZo$a$aYaHvqabvbabvdaivbanvhawi$a4afcssba$sasbadsltcqbapq$b$b$b$b$bZbca$b$bKb
+$a$a$aracocafohadocaboha1o$a$aWaBvbabvbabvtanvbadvcaiviavi$a5aec$sysbqftbabteqbaqq$b$b$b$b$bZbbaUbba$b0b
+$a$a$avadoiadocaeoga1o$a$aVaBvyaBvbabvfavi$a5aec$sxsfqbazq$b$b$b$b$bYbbaUbba$b0b
+$a$a$auacojaeocaeoha1o$a$aTaDvhabvbabvnawvbabvbacvfayi$a5afc$svseqcagqcasq$b$b$b$b$bXbbaSbda$b0b
+$a$a$aFaeocaeoia1o$a$aSacvbazvgahvcacviauveabvgayi$a5afc$stsbaJq$b$b$b$b$b$bCbbabbba$b1b
+$a$a$aEaeodaeoia1o$a$aTacvbawvcadvbajvcacvhauvmayi$a6aec$susJq$b$b$b$b$b$bxbba$b8b
+$a$a$aEadoeaeoha2o$a$aXawvcalvcacvjasvnayi$a6afc$srsdqbaIq$b$b$b$b$b$bvbbafbba$b3b
+$a$a$aEadogaboha3o$a$aWabvearvdaqviasvnamibabibabibafi$a8afc$sqsNq$b$b$b$b$bWbba$b$bIb
+$a$a$aCafona4o$a$aXabvdarvdarvhauvmabibahijabi$a_abcbaec$spsNq$b$b$b$b$bWbba$b$bIb
+$a$a$aCaeona5o$a$aXabvdarveaqvhawvoabibabi$a$alahc$snsbqbaNq$b$b$b$b$b$b$b$btb
+$a$a$aBabobabopa5o$a$aYabvcarveaqviavv$a$aDahcbsbc$sisRq$b$b$b$b$b$b$b$btb
+$a$a$aqabobaboza6o$a$a1asveapvjapvbabvbabvPaci$aYalcbsbc9sbafsdqbaNq$b$b$b$b$b$b$b$btb
+$a$a$agabofabobahobabota9o$a$aXabvcapvbabvfabvbanvjabvdabvbaivUaei$aUabcbaqc5sdaesQq$b$b$b$b$b$b$b$bub
+$a$a$aeafobanota9o$a$aWacvcapvlalvrafvVahi$aRatcbsbc2sbaesSq$b$b$b$b$b$b$b$bub
+$a$a$acavosa_o$a$aWacvcaovlalvcabvoahvUahi$aSayc3sSq$b$b$b$b$b$b$b$bub
+$a$a$acavosa_o$a$aWabvcaqvcabvbabviabvbafvdabvpagvWafi$aSayc3sQq$b$b$b$b$b$b$b$bwb
+$a$a9abobayooaboba$oao$a$aUabveapvbabvcadvmabvdacvpagvcacvbabvSaci$aTaycVsbqbsbqbsbqbsSq$b$b$b$b$b$b$b$bwb
+$a$a8aBooaCobabobaJo$a$aSabvfatvcacvkacvbacvgabvmabvbabvcagv$a$akabcdabcmaAcPsYqbbdq$b$b$b$b$b$b$b$bwb
+$a$a8aComaCofaIo$a$aSabvfacvbcnvbacvbaeveabvhacveafvhadvdaevbabvbabv$a$agabcbahcbabcbabchaDcLsHqbasqdbbq$b$b$b$b$b$b$b$bwb
+$a$a7aDomanobanoeabobaIo$a$aUabvdafcbvbcbvbchvbacvcabvbabvfacvfabvfafvfabvbafvcabv$a$aka0cvsbansHqbatq$b$b$b$b$b$b$b$bAb
+$a$a7aFokafobabobafodahobabogaLo$a$aSabveakcevqacvcadvgagvbabvbajv$aOabcbabcbabqbabqBa0cwsbamsHqcaqq$b$b$b$b$b4bca$b$bHb
+$a$a6aGomacofafoeabobabojaMo$a$aXalcbvhcqabvgasv$aLabcbagcdqBaZcysbamsYq$b$b$b$b$b4bcabbba$b$bFb
+$a$a3abobaGonacogadoqaNo$a$aTabcdaxcmabvfabvbaqv$aIabcbahcbaccdqBaYcLsYq$b$b$b$b$b5bea$b$bFb
+$a$aZabobaIobabooabogabobabopaPo$a$aRadcdawcwakvbacv$aDadcbamcgqAagcbaRcLsYq$b$b$b$b$b5bda$b$bGb
+$a$aZaJobabobabobabolaboxaQo$a$aPabcjaucyadvbabvbabvcabvyacc$adascgqCabceaPcLsYqzbba$b$b$b$b$bBbbabbbabbea$b$bGb
+$a$a0aPoIaRobabo$a$aWavcGabvyabc$abawcfqDabcbaRcLsXq$b$b$b$b$b1bia$b$bHb
+$a$a0aPoIaVobabo$a$aTatc6abceabc1abcbabcbaxchqAabcbaTcLsWqCbba$b$b$b$b$bzbia$b$bHb
+$a$aXabobawobaqobacoHa0o$a$aLacccabccarcuabcKaccbabcbaecYaDchqyaXcKsWq$b$b$b$b$b3bja$b$bGb
+$a$aVaRobacoHa1o$a$aOaccbamcbafcbabcqaecJaecbabcZaDciqwa0cJsWq$b$b$b$b$b3bia$b$bHb
+$a$aTaTobacoIa1o$a$aGabciawccabcmaecvadcdabcgafcbaccXaBclqwa0cJsWq$b$b$b$b$b3bfabbba$b$bIb
+$a$aUarobabobaAoKa1o$a$aKaFcmabcxabccabcdadcdahcWaDckqua3ceqEsWq$b$b$b$b$b3bda$b$bMb
+$a$aVapofayosacora1o$a$aIaBcbahcfaecyabcbajcbagcbabccabcTaCckqua4cgqwsbafsXq$b$b$b$b$b4bba$b$bNb
+$a$aWaoogaworaeora2o$a$aHaccbabcbaBcbaecbagcyalccafcdabcSaDclqoabcda6clqfsbabsbapsWq$b$b$b$b$b5bca$b$bMb
+$a$aXanogarobabobabosaeora2o$a$aLaOcuancbadccaccRabcbabcbabcbaCckqqa8coqfsbaosYq$b$b$b$b$b5bca$b$bMb
+$a$aYalohaqovagota2o$a$aJazcbaocsavcNabcbabcbaJclqqa7cqqrsZq$b$b$b$b$b6bda$b$bLb
+$a$a0afobabolaoouafowaeobabobaUo$a$aIaNcqabcbabcbavchabcDaQcjqraRcbapcqqps0q$b$b$b$b$b8bea$b$bJb
+$a$a2abopaoouadoyacofaWo$a$aJazcbaicoaFcbabcbafcxabcbaTckqbabqbabqbabqbabqhaQcdaocqqps0q$b$b$b$b$b_bbabbcalbba$b$bvb
+$a$a$ahadobabobabobafovaboGaWo$a$aKaGcpaMcbaccsabcbaXcsqfaTcbarcpqksbqbs1q$b$b$b$b$b$bdbcaibea$b$bub
+$a$a$ahabojabo3aWo$a$aJabcbaFcpaNcbabcraUcdqbcbqbctqdaWcbaqcpqis4q$b$b$b$b$b$bfbcagbfa$b$bub
+$a$a$a$alaVo$a$aJaJcbabcbabcbabcfaPcnabcbabccaVczqbaYccapcpqhs5qebba$b$b$b$b$b$bcbcabbbabbea$b$bwb
+$a$a$a$ajaXo$a$aKaIcbahcbabcbaRcbabccaccdafcbaWczq$cgcpqbsbqds4qfbba$b$b$b$b$b$bebga$b$byb
+$a$a$a$aha0o$a$aEabceabcbabcbabcba$csccahcba3cyqucbaWc$qnq$b$b$b$b$b$blbfa$b$byb
+$a$a$a$aha0o$a$aCafcbabcbabcbabcbabcba$cqccabcbabcdadcbabcba0cyqqcba1c$qkq$b$b$b$b$b$bnbga$b$bxb
+$a$a$a$aga2o$a$aBaocba9cbascma2cwqncbaYcbaec$qlq$b$b$b$b$b$bnbeacbba$b$bwb
+$a$a$a$aga2o$a$ahabceabcna$cJcbabcbabcga2cwqmccaJceaocba$qkq$b$b$b$b$b$bpbea$b$bzb
+$a$a$a$aja1o$a$alabcbabcjarcca$cvcbabcda3cvqocbaKccapc$qkq$b$b$b$b$b$bqbea$b$bzb
+$a$a$a$ahaXocaeo$a$abafcbaiciascba$czcca2cvq2cbanc$qkq$b$b$b$b$b$bqbea$b$bzb
+$a$a$a$agaZodabo$a$aaarciascbaHcba$cTcCq_c$qkq$b$b$b$b$b$bqbea$b$bzb
+$a$a$a$afa1o$a$acatccadcca$c$ckcbaycDqjcfqTc$qmq$b$b$b$b$b$bsbca$b$bzb
+$a$a$a$afa3o$a$abascca$c$cbcbalcbazcEqjcfqTc$qmq$b$b$b$b$b$bubba$b$byb
+$a$a$a$afa5o$a8ascfa$cicbaeccaJcbaXcHqbclqRc$qpq$b$b$b$b$b$btbcabbbabbbabbba$b$brb
+$a$a$a$afa5o$a8aecbaocda$cocdaHcbaYcTqLcbqbc$qtq$b$b$b$b$b$bvbha$b$bqb
+$a$a$aQabobabova9o$a6a$cLccaocba$cfcWqzcbqbcdqdc$qxq$b$b$b$b$b$bxbbabbba$b$bsb
+$a$a$aOagoqabocaeoca4o$a7abcba$cJcbamcba$cgcYqucjqbc$qyq$b$b$b$b$b$b$b$bTb
+$a$a$aMabobahobabofabobabobabobaeocadoda3o$a_a$c$c0c1qhcbqbcbqfcbqbc$qKq$b$b$b$b$b$b$b$bTb
+$a$a$aPahocabobanoca9o$a8a$c$c1c2qgc$qUq$b$b$b$b$b$b$b$bTb
+$a$a$aPagoba$oro$a8a$c$cZc4qfc$qVq$b$b$b$b$b$b$b$bTb
+$a$a$aQa$oxo$a7a$c$cYc7qbcbqbc$qWq$b$b$b$b$b$b$b$bTb
+$a$a$aRa$owo$a7a$c$cpcbaGc$q$qWq$b$b$b$b$b$b$b$bUb
+$a$a$aSa$ouo$a8a$c$cVc$q$qXq$b$b$b$b$b$b$b$bUb
+$a$a$aQa$ovo$a9a$c$cScbqbc$q$qYq$b$b$b$b$b$b$b$bUb
+$a$a$aOa$ovoiabo$a2a$c$cQc$q$q4q$b$b$b$b$b$b$b$bSb
+$a$a$aMa$ovoiafobabobabobabobabo$aSa$c$cQc$q$q4q$b$b$b$b$b$b$b$bSb
+$a$a$aLafobaboba$onoiaqo$aPa$c7cbaDcbamcbqbcbqbc$q$q4q$b$b$b$b$b$b$b$bSb
+$a$a$aKaeoga$ooofato$aMa$c$cNc$q$q_q$b$b$b$b$b$b$b$bRb
+$a$a$aJabobaboia$oqobaxo$aJa$c$cNc$q$q$qcq$b$b$b$b$b$b$b$bPb
+$a$a$aUa$oPo$aIa$c$cMc$q$q$qeq$b$b$b$b$b$b$b$bOb
+$a$a$aUa$oQo$aHa$c$cMc$q$q$qfq$b$b$b$b$b$b$b$bNb
+$a$a$aUa$oQo$aGa$c$cMc$q$q$qgq$b$b$b$b$b$bhbba$b$bFb
+$a$a$aUa$oQo$aCabcbabcba$c$cLc$q$q$qiq$b$b$b$b$b$bebca$b$bGb
+$a$a$aTa$oRo$aAa$c$cRc$q$q$qjqbbbqbbbq$b$b$b$b$b$b$b$bHb
+$a$a$aUa$oQo$aAa$c$cRc$q$q$qpq$b$b$b$b$b$b$b$bFb
+$a$a$aUa$oQo$aAa$c$cRc$q$q$qpq$b$b$b$b$b7bba$b$bIb
+$a$a$aUa$oPo$aCabcbabcba$c$cMc$q$q$qpq$b$b$b$b$b7bba$b$bIb
+$a$a$aTa$oQo$aHa$c$cLc$q$q$qpq$b$b$b$b$b$b$b$bFb
+$a$a$aSa$oRo$aHa$cRcba4c$q$q$qoq$b$b$b$b$b$b$b$bGb
+$a$a$aSa$oQo$aIa$c$cLc$q$q$qoq$b$b$b$b$b$b$b$bGb
+$a$a$aQa$oRo$aIa$c$cNc$q$q$qmq$b$b$b$b$b$b$b$bHb
+$a$a$aOa$oSo$aJa$c$cNc$q$q$qnq$b$b$b$b$b$b$b$bGb
+$a$a$aMa$oUo$aIa$c$cOc$q$q$qoq$b$b$b$b$b$b$b$bFb
+$a$a$aIaboba$oWo$aEabcba$c$cQc$q$q$qoq$b$b$b$b$b$b$b$bFb
+$a$a$aGa$oZo$aEa$c$cSc$q$q$qrq$b$b$b$b$b$b$b$bDb
+$a$a$aEa$oZo$aGa$c$cTc$q$q$qqq$b$b$b$b$b$b$b$bDb
+$a$a$aAaboba$o0o$aIa$c$cTc$q$q$qpq$b$b$b$b$b$b$b$bDb
+$a$a$aya$o1obabo$aJa$c$cUc$q$q$qnq$b$b$b$b$b$b$b$bEb
+$a$a$awa$o2o$aIabcbabcba$c$cUc$q$q$qnq$b$b$b$b$b$b$b$bEb
+$a$a$avaboba$o1o$aAabcbabcda$c$c1c$q$q$qmq$b$b$b$b$b$b$b$bEb
+$a$a$aya$o0o$aya$c$c$cac$q$q$qkq$b$b$b$b$b$b$b$bEb
+$a$a$ayaWoba8ocabobabo$aya$c$c$cdc$q$q$qjq$b$b$b$b$bCbcaebbabbba$b$b3b
+$a$a$axajobabobaboba$oHo$aEa$c$c$cec$q$q$qgq$b$b$b$b$bBbca$b$b$bbb
+$a$a$ayahogaboba$oFo$aEa$c$c$cec$q$q$qgq$b$b$b$b$bBbba$b$b$bcb
+$a$a$azadobabokaCoca$oao$aFa$c$c$ceckqbc$q$q5q$b$b$b$b$bAbca$b$b$bcb
+$a$a$aNafobawoba$obo$aGa$c$c$cfchqfc$q$q6q$b$b$b$b$bxbca$b$b$bcb
+$a$a$aNabobabofapobabobaboca_obabo$aHa$c$c$crc$q$q6q$b$b$b$b$bwbba$b$b$bdb
+$a$a$aVabobaloga6o$apabrza$c$c$csc$q$q3q$b$b$b$b$bvbba$b$b$bgb
+$a$a$aYaioga7obaeo$afabreadrcabrva$c$c$csc$q$q3q$b$b$b$b$bvbba$b$b$bgb
+$a$a$aZabobabobaboga$obocadojabo3adrbadrbabrbacrua$c$c$ctc$q$qZq$b$b$b$b$bybba$b$b$bgb
+$a$a$a9a$ogobabocabobafoHabrbabrpabrbabrbamrua$c$c$cuc$q$qZq$b$b$b$b$bvbca$b$b$bhb
+$a$a$a9a$ohobaioGaerqarrta$c$c$cuc$q$qZq$b$b$b$b$bvbca$b$b$bhb
+$a$a$a9a$oqoEahrdabrbabrhavrbabrbabrla$c$c$cwc$q$qYq$b$b$b$b$bvbca$b$b$bib
+$a$a$aOabobabobabobabona$oroCajrbagreaCrka$c$c$cwc$q$qXq$b$b$b$b$bwbca$b$b$bib
+$a$a$aMalobabobabobabobaboba$otoAaZrbabrha$c$c$cyc$q$qVq$b$b$b$b$bxbca$b$b$bhb
+$a$a$aMa$oNowabrba5rfa$c$c$czceqbcbqdc$q$qKq$b$b$b$b$bzbba$b$b$bhb
+$a$a$aLa$oKobabowabp7rea$c$c$cMc$q$qHq$b$b$b$b$b$b$b$bIb
+$a$a$aKa$oJowabpbadp7rda$c$c$cNc$q$qHq$b$b$b$b$b$b$b$bIb
+$a$a$aGaboba$oJosabpbabpbahp6rca$c$c$cRc$q$qFq$b$b$b$b$b$b$b$bIb
+$a$a$aFa$oLopabpbaop5rea$c$c$cPc$q$qEq$b$b$b$b$b$b$b$bJb
+$a$a$aFa$oIobabooarp5rga$c$c$cPc$q$qDq$b$b$b$b$b$b$b$bJb
+$a$a$aFa$oGosarp4rha$c$c$cPc$q$qEq$b$b$b$b$b$b$b$bIb
+$a$a$aEa8obabobabobabobalobabobajobabouatpbrbp2rha$c$c$cPc$q$qEq$b$b$b$b$b$b$b$bIb
+$a$a$aDa7ojadobabobabobabohabobaeoxavpfrbpbrbpUrga$c$c$cQc$q$qEq$b$b$b$b$b$b$b$bIb
+$a$a$aCaGobatobabobabobabocadobaboeabotaboyaxpcrfpZr$c$c$cQc$q$qEq$b$b$b$b$b$b$b$bIb
+$a$a$aBaBobabobabofapoiahoXaxpbrgp1r$c$c$cNc$q$qGq$b$b$b$b$b$b$b$bHb
+$a$a$aAaAonamojagoXaGp1r$c$c$cMc$q$qFq$b$b$b$b$b$b$b$bIb
+$a$a$awabobaAobabopabobabobabobabobabolabobaboZaGp2r$c$c$cLc$q$qFq$b$b$b$b$b$b$bjbba$byb
+$a$a$avaCo$aDaGp1r$c$c$cOc$q$qDq$b$b$b$b$b$b$bibea$bwb
+$a$a$auaCo$aEaGpbrbpbrbpXr$c$c$cPc$q$qAqbbbq$b$b$b$b$b$b$bibea$bwb
+$a$a$auaBo$aFaMpYr$c$c$cNc$q$qvq$b$b$b$b$b$b$bqbba$bxb
+$a$a$asaDo$aFaMpYr$c$c$cNc$q$qvq$b$b$b$b$b$b$b$bOb
+$a$a$araEo$aFaNpXr$c$c$cPc$q$qsq$b$b$b$b$b$b$b$bPb
+$a$a$aqaiobabobabobabobabobabobalo$aFaPpbrbpbrbpbrbpQr$c$c$cMcbqbc$q$qsq$b$b$b$b$b$b$b$bQb
+$a$a$aoabobaionabobago$aGaWpNr$c$c$cNc$q$qtq$b$b$b$b$b$b$b$bSb
+$a$a$amakotado$aIaWpLr$c$c$cNc$q$qsq$b$b$b$b$b$b$b$bUb
+$a$a$aiabobaiobabo$a5abpbaUpLr$c$c$cKcbqbc$q$qsq$b$b$b$b$b$b$b$bWb
+$a$a$ahako$a6aYpmrbpurcabr$c$c$cJc$q$quq$b$b$b$b$b$b$b$bYb
+$a$a$agacodafo$a6aZpkrdptrea$c$c$cIc$q$qvq$b$b$b$b$b$b$b$bYb
+$a$a$anaeo$a4a0pjrdptrfa$c$c$cIc$q$quq$b$b$b$b$b$b$b$bZb
+$a$a$anado$a3a2pirepsrga$c$c$cJc$q$qtq$b$b$b$b$b$b$b$bZb
+$a$a$a$a$aga5pbrbpbrbpbrfpsria$c$c$cIc$q$qsq$b$b$b$b$b$b$b$b0b
+$a$a$a$a$acabpba$phprria$c$c$cJcbqbchqba$q$qhq$b$b$b$b$b$b$b$b0b
+$a$a$a$a9abpba$plprria$c$c$cNc$q$qnq$b$b$b$b$b$b$b$b0b
+$a$a$a$a5abpba$pppqrla$c$c$cLc$q$qoq$b$b$b$b$b$b$b$bZb
+$a$a$a$a3a$pupbrbporma$c$c$cJc$q$qpq$b$b$b$b$b$b$b$bYb
+$a$a$a$a1a$pzpnrna$c$c$cKc$q$qnq$b$b$b$b$b$b$b$bYb
+$a$a$a$alabpbabpfabpbabpDa$pCpbrbplrma$c$c$cMchqba$q$qdq$b$b$b$b$b$b$b$bYb
+$a$a$a$amaepbagpAa$pHpkrka$c$c$cOc$q$qmq$b$b$b$b$b$b$b$bXb
+$a$a$a$amalpAa$pIpjrka$c$c$cPc$q$qkq$b$b$b$b$b$b$bQbba$bhb
+$a$a$a$amakpza$pLperbpdrja$c$c$cMcbhbcchkqch$q9q$b$b$b$b$b$b$b$bYb
+$a$a$a$alalpza$pMpbrfpka$c$c$cKchhhqfh$q8q$b$b$b$b$b$b$bRbba$bgb
+$a$a$a8aconakpAabpbabpbabpba$pNpbabpbabpbabpca$c$c$cIckhfqhh$q6q$b$b$b$b$b$b$bSbda$beb
+$a$a$a7abobabonalpCabpba$pYp$c$c$cEcbhbclhbqbhbqjhbqbhrqbhhqbhbqbhbqbhbqbhbqbhbqbh$quq$b$b$b$b$b$b$bSbda$bdb
+$a$a$a$amampbabpbabpbabpra$p5p$c$c$cBcDhlqbhbqbhbqehfqohbqbh$qqq$b$b$b$b$b$b$bUbba$bdb
+$a$a$a$aoaspbabpbabpbabpha$p7p$c$c$czcGhiqlhbqbhbqsh$qqq$b$b$b$b$b$b$b$bXb
+$a$a$a$aoaApbabpba$p_p$c$c$cwcIhgqIh$qqq$b$b$b$b$b$b$b$bXb
+$a$a$a$afaboja$p$pCp$c$c$cvcIhcqbhcqKh$qoq$b$b$b$b$b$b$b$bYb
+$a$a$a$aeabobaboia$p$pDpdcbp$c$c$cpcIhbqdhbqNh$qmq$b$b$b$b$b$b$b$bYb
+$a$a$a$apa$p$pDpbcepgcbpbcbp$c$c$cfc$hrhbqbh$qiq$b$b$b$b$b$b$b$bYb
+$a$a$a$apa$p$pRp$c$c$cec$hwh$qgq$b$b$b$b$b$b$b$bYb
+$a$a$a$apa$p$pTp$c$c$ccc$hyhbqbfbqbf$qbq$b$b$b$b$b$b$b$bXb
+$a$a$a$apa$p$pVpbcbpbcbpbcbp$c$c3c$hAhff$qaq$b$b$b$b$b$b$b$bXb
+$a$a$a$apa$p$p3p$c$cZc$hBhgf_q$b$b$b$b$b$b$b$bYb
+$a$a$a$apa$p$p4p$c$cWc$hChgf$qbq$b$b$b$b$b$b$b$bXb
+$a$a$a$apa$p$p3p$c$cVcbhbc$hChgf$qbq$b$b$b$b$b$b$b$bXb
+$a$a$aSabpbabpbabpCa$p$p3p$c$cQcdhbc$hGhkf8q$b$b$b$b$b$b$b$bXb
+$a$a$aOakpCa$p$p1p$c$cQc$hKhmf7q$b$b$b$b$b$b$b$bXb
+$a$a$aOalpBa$p$p0p$cXcba3c$hLhpf4q$b$b$b$b$b$bebba$b$bSb
+$a$a$aEabpdabpbabpdampAa$p$pZp$cYcba2c$hLhuf0q$b$b$b$b$b$bebba$bObba$bdb
+$a$a$ayabpdafpbatpjabpgadpha$p$pXp$c0cba1c$hKhxfNqbemq$b$b$b$b$b$b$bTbca$bab
+$a$a$awaFphaepcabpcadpcabpbabpba$p$pWp$c$cSc$hKhBfJqgeiqtbbe$b$b$b$b$b$b$bBbba_b
+$a$a$asabpbaJpdakpba$p$p5p$c$cSc$hfhbfbhbfbhbfjhbfbhbfnhDfJqiebqbefqhbbedbbebbbebbfe$b$b$b$b$b$b$b$bzb
+$a$a$araMpba$p$p$pgp$c$cTc$hehifbhbfdhgfmhEfIqlebqbebqbebqbecbcebbbebble$b$b$b$b$b$b$b$bzb
+$a$a$akabpga$p$p$pTp$c$cSc$hehvflhFfbqdfDqsecbqe$b$b$b$b$b$b$bpbba$bib
+$a$a$aqa$p$p$pTp$c$cTc$hehwfkhJfCqMebbbebbbe$b$b$b$b$b$b$bjbca$bib
+$a$a$aqagpba$p$p$pMp$c$cTc$hehxffhbfbhbfbhJfxqdebqSe$b$b$b$b$b$b$b$bsb
+$a$a$arabpbabpcacpba$p$p$pKp$c$cTc$hdhAfbhTfsqYe$b$b$b$b$b$b$b$brb
+$a$a$auabpda$p$p$pKp$c$cVc_hbfbh$fmfpq1ebbbe$b$b$b$b$b$b$b$bnb
+$a$a$ata$p$p$pPp$c$cWc7h$fqfoq4e$b$b$b$b$bKbba$bWbba1b
+$a$a$axa$p$p$pKp$c$cXcXhbfbhbffh$ftfmq7ebbce$b$b$b$b$bFbda$bVbba0b
+$a$a$aya$p$p$pIp$c$cYcWhgfbh$fvfkq$ebe$b$b$b$b$bGbca$b$bLb
+$a$a$aya$p$p$pHp$c$c0cUh$fEfjq$ece$b$b$b$b$b$b$b$bhb
+$a$a$aqabpbabpba$p$p$pLp$c$c1cJhbfbhbfbhbfbhbfbh$fhfbebfbeyffq$eie$b$b$b$b$b$b$b$bdb
+$a$a$ara$p$p$pOp$cdcca$cWcHh$fqfeebfbevffq$eje$b$b$b$b$b$b$b$bdb
+$a$a$ata$p$p$pNp$ccccaccba$cUccfDh$fofbebfjebfbebfbebfbenfgq$eke$b$b$b$b$b$b$b$bbb
+$a$a$ava$p$p$pLp$cgcba$cTcdfDh$foftebfbebfbedfbebfbebfbegq$ele$b$b$b$b$b$b$b_b
+$a$a$awa$p$p$pJp$cgccauccatcbadcba3ccafcefCh$fmfJeeq$ene$b$b$b$b$b$b$b8b
+$a$a$awadpcabpca$p$p$pAp$cicbatcca$crccaecffCh$flfKebqbecq$epe$b$b$b$b$b$b$b6b
+$a$a$axabphabpba$p$p$pxp$cXcba8cbafchfzh$flfOebq$epe$b$b$b$b$b$b$b6b
+$a$a$aJabpba$p$p$ptptcbibcbi$c$cycbagcjffhbfbhbfbhbfbhbfbhbfbhbfbhbfbhbfbh$fjfbebf$e6e$b$b$b$b$b$b$b6b
+$a$a$aNabpba$p$p$ppprcfibcbidcbadcba$c$clcdfcabcbfbcbfbckfch$fxfbebf$e_e$b$b$b$b$b$b$b6b
+$a$a$aQabpba$p$p$pmpqcbibabibcficcdibcdabcba$c$cgc$fTf$e$ece$b$b$b$b$b$b$b6b
+$a$a$aRahpba$p$p$pfpucmigaHcba$cJc$fRf$e$ece$b$b$b$b$b$b$b6b
+$a$a$aTabpga$p$p$pepbcbidcbifcdidcriga$c$cgc$fOf$e$ede$b$b$b$b$b$b$b6b
+$a$a$aYaepba$p$p$papdibcfibcAiga$c$cfc$fMf$e$ege$b$b$b$b$b$b$b5b
+$a$a$aXabpbabpea$p$p2pbihpLibabiba$c$cgc$fMf$e$eie$b$b$b$b$b$b$b4b
+$a$a$a3a$p$p1pfibpbibpPi$c$chc$fMf$e$eie$b$b$b$b$b$b$bWbbahb
+$a$a$a4a$p$pZpZi$c$cec$fOf$e$eie$b$b$b$b$b$bJbbabbba$bkbbahb
+$a$a$aOadpma$p$p0pbibpXi$c$cdc$fOf$e$eke$b$b$b$b$b$bJbba$btb
+$a$a$aPacpnagpbabpba$p$pRpXi$c$cec$fNf$e$ele$b$b$b$b$b$b$b3b
+$a$a$a5adpcabpbabpca$p$pOpFibari$c$cfc$fMf$e$eme$b$b8bbabbbabbba$b$b$b$b1b
+$a$a$a9agpba$p$pMpHicabibamiba$c$cecOfba9f$e$eme$b$b7bgaqbba$b$b$b$bKb
+$a$a$a8a$p$pTpYica$c$cec$fMf$e$eme$b$b4bbabbhaAbba$b$b$b$bqbbajb
+$a$a$a8a$p$pSpzibafibatica$c$cec$fLf$e$enecbbe$b$bTbbabbbabbbabblaDbda$b$b$b$bvb
+$a$a$a9abpba$p$pNpiibaSicaVcbg$ctc$fKf$e$ete$b$bDbbadbbabbbabbbadbuaFbca$b$b$bcbbabbbabbba$bmb
+$a$a$a$aaa$p$pNphibayibayiPcbgbceg$cscDfba$fff$e$eue$b$bBbIaHbbacbba$b$b5bbabbjadbba$bgb
+$a$a$a$aaa$p$pLpgibazidaAiBcbgbcbgbcbgbcbgbcbgbchg$cqcbfbcEfda$fdf$e$eteWbba$bQbEabbbabbbaLbba$b2bca_bqapbba1b
+$a$a$a_a$p$pKphidaBibabibayiicdinctg$cocGfea$fef$e$euebbbeUbba$bNbEaUbba$b1bba8braobeabbbabbbabbbaTb
+$a$a$a9a$p$pKphicaFibazifcfimcug$cncFfcabfba$fff$e$exeVbba$bIbbabbbabbCaXbba$b$bWbvabbbakbmaRb
+$a$a$a8a$p$pLpfica9idcfibcbgbcbgicwg$cicbxbcbxbfbxBfca$fjf$e$exeEbcapbba$bGbCabbbabbba$b$b$bGbcabbDadbbabboaQb
+$a$a$a9a$p$pJpeica$iiiggfcyg$chcgxufbabfbabfca$fkf$e$ezeEbbaobba$bFbDa6bba$b$bObJabbqaQb
+$a$a$a_a$p$pIp$inijgbcBg$cgcgxsfga$flf$e$eDeJbbagbba$bzbbabbbacbDa7bba$b$bNb2aPb
+$a$a$a$aaa$p$pHpCicaUiLg$cacbxbcbxdchxqfbabfbabfba$fnf$e$eDeJbbagbba$bxbfabbFabbba4bca$b$bLb5aNb
+$a$a$a$aba$p$pCpCibaYiOg7chxbchx$fIf$e$eDeqbbacbbaobbahbca$bubIadbfa$b$bYbbaPb7aNb
+$a$a$a$aca$p$pBpbiba$ijibgeiQgbcbgbcbgNcbxbcbxbcbxbcbxbcbxbcbxbcsx$fFf$e$eHeobcacbbambbabbbabbbabbbabbda$babbajbbabbbabbbabbbabbEabbdahbbabbba$b$b$bCb5abbcaNb
+$a$a$a$aca$p$pzp$inidgdiVgbcbgbcbgHcEx$fDf$e$eJeqbbabbbaebbabbfabbpabbba5bbaibMa$bobba$b$bBb8aOb
+$a$a$a$aca$p$pzp$imiggbi1gbcbgbcbgbcbgbcbgxcFx$fCf$e$eLeobcadboabbbabbkabbca2bbahbNa$bpbeafbba$bQbbaDbbabbbabbbabb9aPb
+$a$a$a$ada$p$pypgibabibabibaXibgbibgli$ghgbxbcbxbcbxpcJx$fAf$e$eNepbqacbbacbbabbbabbbabbea3bcaebQa$bybca$bPbbaybfabb$acaPb
+$a$a$a$aea$p$pwpfijaDibgriegki$gfgbxbghxbcbxbcbxbcbxfcMx$fzf$e$ePenbvabbbagbba5bbacbTa$bxbda$bObbayb$ajaOb
+$a$a$a$agabpba$p$pspdigabpbabpbabpbaBidgqiegli$gcgtxbcPx$fyf$e$eTejbya8bcabbWa$bybdabbba$bLbbawbbabb$akaNb
+$a$a$a$aja$p$pspcicabpbagpCiegqieggibgbibgdi$gag$xbx$fuf$e$eSecabejbuabbbabbba8bcacbXabbba$btbbacbfa$b7b$alaNb
+$a$a$a$akabpbabpba$p$pnpbibalpAifgqifgbibgbifgdi_g$xdx$fsf$e$eTedaibva$bab6a$brbcaebbabbca$b6b$aiacbbaMb
+$a$a$a$apa$p$plpbicalpziggpipgci_g$xex$fmfbebfbebf$e$eVeeafbza7b$aaa$bobbaibba$b1bdabb$aiacbbaMb
+$a$a$a$aoa$p$plpeikpAihgnirgbi$gagbxbg$xdx$fif$e$e3edaebBabbbaFbbabbbaebbaob$aeabbba$bqbbacbcabbba$bZb$alabbcaMb
+$a$a$a$ana$p$plpeilpAihgmi$gzg$xbxVfbxffbxof$e$e6ebadbFaDbfadbcabbbajbgabb9abbbabbba$bobbaebda$bYb$apaMb
+$a$a$a$aoa$p$pkpbibpbinpzijgji$gCg$xaxSffxbffxbfbxdfbebfdebf$e$e7ecabbHajbbadbbabbbabbbabbbafbbacbbabbhacbfabbcacbfabb6abbeaebba$bsbbabbcabbba$bQbbabb$araMb
+$a$a$a$aoa$p$pBpwimgbagiegba$gyg$xbxRfpx$e$e$eeebabbJabbbabbbabboadbcaebdabbdabbfacbcacb$abadbea$bzbda$bNbbabb$ataMb
+$a$a$a$apa$p$pApviqgdiegca$gzg$xaxPfsx$e$e$edeUabbbabbiabbdafbcacbhadbcacb$abafbca$b$b$bfb$auaMb
+$a$a$a$apa$p$pBptiogbabgeiegba$gBg$xaxIfbxbfbxbfvx$e$e$ece9aebbabbcacbbabbbabbcadbdacb_a$b$b1bbawbdabb$aqaMb
+$a$a$a$aoa$p$pDpkibgbibgdiogcacgei$gHg$xaxbfbxDfBx$e$e$eae$acafbcabbbaebiabb6abbdabbba$b$bZbbatbbacb$auaMb
+$a$a$a$aoa$p$pDpbgfibgbihgbimgcaggdi$gHg$xdxvfbxbfbxbfFx$e$e9e$acafbbaibbacb$aaadbbabbda$b$bTbbabbbabbcaqbeacb$ataMb
+$a$a$a$ana$p$pCpfgbizgbaggdiHgba_g$xfxtfLx$e$e3ebabe$ababbbasbfabb6abbcabbbabbca$b$bTbbacbcapbgabb$asaNb
+$a$a$a$ama$p$pBpHgbahgbiIgba$gag$xexbfbxpfOx$e$e0ebabebabe_avbbabb_acbeabbba$b$b$bcbeabbcabb$araOb
+$a$a$a$ala$p$pCpHgbaPgba0gbalg$xixbfbxbfbxbfbxbfbxbfbxbfRx$e$eTebaee$acazbbabb7afbda$b$bXbcaobgacb$asaOb
+$a$a$a$ala$p$pCp9gbamgcaSgdabgbadgdajg$x$xbx$e$eQecade_aFbbabb5afbbabbba$b$bXbcabbbajbbabbdabb$awaPb
+$a$a$a$ama$p$pCp7gcalgbaTgnaig$x$xbx$e$eQecace9aKb2a$b$b7bcacbcadb$aGaPb
+$a$a$a$aoa$p$pBp$ghgcaQgbabgoaig$x$xbx$e$eIebahecade6aNb1a$b$b_b$aLaQb
+$a$a$a$apa$p$pBp$gfgdaOgrakg$x$xax$e$exebakebahe_aPbYabbba$b$b$bbbeabbbabb$aCaQb
+$a$a$a$aqa$p$pAp$gfgdaIgbabgbabgsalg$x$xax$e$eQe9aRbXabbba$b$b$bbbeabbbabb$aCaQb
+$a$a$a$amacpea$p$pyp$gegeaGgwang$x$xax$e$exebajebaje4abbbaUbWabbca$b$b_bhabb$aDaPb
+$a$a$a$alafpda$p$pzp$gdgdaEgxapg$x_x$e$exebaue3aWboabbfabbbabbBa$b$b_b$aOaNb
+$a$a$a$alafpda$p$pzprgba$gsgxaqg$x$xax$e$evecafebaoe1aXbtagbbabbbabbfabbqa$b$b7bbabb$asabbkabbbabbbabbeacbcabbbaJb
+$a$a$a$alahpba$p$pzp$gIgAaqg$x$xax$e$epecadecaue1aXbpacbbambdaeboa$b$b8b$asadbbabbbabbbabbbajbeabbfaHb
+$a$a$a$alahpba$p$pyp$gIgBaogbabgba$x$xax$e$emebabebaeecaue3abbbabbbabbbabbbaObbabbhabbbaqbbabbeafbdabbbabbbabbbabbca$b$b8b$anacbbaxbbabbhaGb
+$a$a$a$alahpba$p$pyp$gIgCangfa$x$xax$e4ebayecate$aaaSbdatbkacbcafbba$b$b$bab$aoa$beb
+$a$a$a$ala$p$pGp$gIgCangga$x$xbxbebx$e$eJe$aca$babiabbbadbbabbbadbda$b$b_b$ana$bfb
+$a$a$a$ala$p$pEp$gMgAamgia$x$xex$e$eGe$afadbbabbba3bea$b$b$brb$ana$bfb
+$a$a$a$ala$p$pypbgbpbgbp$gPgzalgcabxdadxca$x$xdx$e$eFe$ala3bfafbbabbbabbba$b$b$bfb$aoa$bfb
+$a$a$a$ajakpba$p$pop$gUgzalgcabxcaexea$x$xbx$e$eFe$alaNbbabbbaobgabbbabbfaTbba$b$bwb$aoa$bfb
+$a$a$a$aja$p$pzp$gVgyalgdabxbafxda$x$xax$e$eCebade$amaKbhafbbadbbabbpaSbba$b$bxb$amabbba$bfb
+$a$a$a$aja$p$pBp$gVgyajgiadxca$x_x$e$eHe$amaJbiabbCa$b$b$bbb2abbeabbpa$bib
+$a$a$a$aiacpba$p$pzp$gVgyahgfacxeacxca$x$xax$e$etecale$anaHbLaEbba$b$bIb2abbeabbna$bkb
+$a$a$a$aia$p$pCp$gWgyafgfadxia$x$xcx$e$epeeake$aoaFbOa$b$b$bab$ala$bkb
+$a$a$a$aia$p$pEp$gTgAadggadxia$x_xbebx$e$erecadebahe$aoaDbQa$b$b8bbacb4abbdabbna$bkb
+$a$a$a$aia$p$pGp$gQgBadggadxia$x_x$e$eteeaje$anaAbbadbRa$b$b9b6abbqabbba$bib
+$a$a$a$aia$p$pHp$gMgOacxfabxca$x$xaxbebx$e$eqeeabebabebabebabebabe$anawbbabbfabbRa$b$b7b$agabbla$bgb
+$a$a$a$aiabpba$p$pFp$gLgPacxgabxba$x$xdx$e$eoe$aBaub2a$b$b6b$ata$bfb
+$a$a$a$ala$p$pEp$gLgPacxia$x$xexpebx$e7e$aCasb5ahbba$b$bVb$awa$beb
+$a$a$a$ajabpba$p$pCp$gLgbabgQabxja$x$xdxbebxbebxjefx$e5e$aCarb8abbbabbbabbca$b$bSb$aya$beb
+$a$a$a$aia$p$pFp$gLg3a$x$xixhehx$e3e$aAabbbaqb$aga$b$bRb$agacbbabbbabbbabbbabbbabbiabbba$bab
+$a$a$a$aha$p$pFp$gNgQabxjabxba$x$xkxeekx$e0e$aAatb$aha$b$bQb$agaobka9b
+$a$a$a$aha$p$pEp$gPgRabxla$x$xixbebxbeixbebx$e1ebabe$aAapb$aka$b$bPb$agapbeadbbabbba8b
+$a$a$a$aha$p$pFp$gOgZacxda$x$xqx$e7e$aCanb$ama$b$bNb$agaqbba$bfb
+$a$a$a$aga$p$pGpJgbabgba$gdg4a$x$xox$e6e$aGajb$apa$b$bNb$afa$bwb
+$a$a$a$aga$p$pGpHghabgba_gVabxeabxbabxca$x$xox$e5e$aIabbbabbbabb$asabbba$b$bMbbabb$aba$bwb
+$a$a$a$afa$p$pHpFgmacgba6g2abxda$x$xnx$e3e$a$a$acabbba$b$bKb$aba$bub
+$a$a$a$afa$p$pIpDgra5g0abxha$x$xmxbebx$e0e$a$a$aga$b$bJb$acabbbabbba$bob
+$a$a$a$afa$p$pJpBgta5g2afxba$x$xnx$e0e$a$a$aia$b$bIb$aha$bmb
+$a$a$a$aea$p$pMpxgbabgva4gUacxfagxba$x$xmxbebk$eZe$a$a$aha$b$bKb$aha$bkb
+$a$a$a$aea$p$pOpbgbpbgbpbgbpbgbpmgAa3gWabxda$x$xsxfk$esebkEe$a$a$aja$b$bKb$afa$bkb
+$a$a$a$aea$p$pWpmgCa2gUaexca$x$xrxhk$emebkbefkbebkAe$a$a$ala$b$bIb$aga$bjb
+$a$a$a$aea$p$pWplgFabgbaZgVabxbabxca$x$xqxik$efebkbebkbemkbaye$a$a$ama$b$bIb$afa$bjb
+$a$a$a$ada$p$pWplgKaYg0a$x$xnxikbebk_ebkbebkbevkbebkue$a$a$ana$b$bIb$afa$bib
+$a$a$a$ada$p$pWpkgNaYgTabxdabxca$x$xjxkk_eFkbebkbebkoe$a$a$apa$b$bGbfadb9a$bhb
+$a$a$a$aca$p$pVpkgPaRgcahgRabxeabxba$x$xjxjk_eLkme$a$a$asa$b$bFb$aga$bgb
+$a$a$a$aca$p$pVpigTaQgbajgQabxia$x$xgxjk9eMkme$a$a$ata$b$bFbdabb$aba$bgb
+$a$a$a$aca$p$pUphgVa2gRabxga$x$xfxjkbebkfebkbebkbebkWeOkbebkje$a$a$aua$b$bEbcacb$aca$bfb
+$a$a$a$aba$p$pWpbadgXa3gYafxba$x9xnkbejkbebkReTkhe$a$a$ava$b$bEbbabb$aea$beb
+$a$ababmdabmbabmbabm$a2a$p$pSp5a4gYa$x$xdxDkbebkjebkbebkxeXkbebkbebkbe$a$a$awa$b$bDbbabb$aea$beb
+$a_amm$a1a$p$pQp7a6gZa$x$xaxHkbebkbebkbehkbebkbebkbebkbebkbebkje4k$a$a$aya$b$bAbcabb$afa$bdb
+$a8apmDabm$ava$p$pQp8a8gSabxfa$x$xax4kbebkbebkbe6k$a$a$aya$b$bAbcabb$aga$bcb
+$a6atmzadmbabm$ata$p$pPp9a_gVa$x$xcx$k3k$a$a$aAa$b$bybcabb$aia$bab
+$a4axmbabmbabmbabmbabmbabmbabmbabmbabmbabmbabmbajmbabmbabm$ama$pRpbabpba5p$aaa$gbgUa$x$xbx$k3k$a$a$aBa$b$bxbcabb$aja_b
+$a4a7mFabmbabmNa$pPpgaepbacpcaTp$aca$gbgUahxba$x5x$k2k$a$a$aCa$b$bwbbacb$aka9b
+$a3a$mbmbabmbabmrabmbabmbafmMa$pPpiabpbabpeaipbaJpbabp$ada$gbgVabxbabxdabxda$x1x$k2k$a$a$aEa$b$bxb$aka9b
+$a5a$mfmbabmbabmbabmfabmbalmbabmbabmhabmbabmbabmbabmta$pNpbabpqagpbabpbaHp$aia$gagWabxka$x1x$kZk$a$a$aGa$b$bwb$ala8b
+$a0abmbabmca$mnmbavmbabmbalmnabmba$pOpuabpbabpeaIp$aia$gbgXabxfabxbabxcabxba$xZx$kQkbabkbabkbabk$a$a$aIa$b$bvb$ala8b
+$aSabmfa$m6mbabmfabmbadmbpbm$pMpDabpbabpbabpbaAp$aka$gagYabxcahxda$xZx$kOk$a$a$aTa$b$brb$ala8b
+$aQafmba$m$mbmbalmbpbm$pGpLaAp$aka$gag2ahxda$xZx$kMk$a$a$aWa$b$bqb$aka8b
+$aQa$m$mwm$pDpNaAp$ala$gag3abxbabxbabxea$xZx$kLk$a$a$aWa$b$bqb$aka8b
+$aOa$m$mym$pBpPabpbaxp$ama$gag0abxdabxia$xZx$kIk$a$a$aZa$b$bob$ala8b
+$aMa$m$mzm$pBpUabpbappbabp$aoaDgbabgbaGg0agxbabxbabxea$xYx$kGk$a$a$a1abbba$b$blb$amabbbabbbabbba1b
+$aLa$m$mzm$pBpZadpbafpbabp$asaEgcaGg2adxbabxbabxha$xVx$kIk$a$a$a4a$b$bjb$ata0b
+$aKa$m$mBmbpbmba$pwp0abpfabp$awaEgbaHgTabxxa$xUx$kIk$a$a$a6abbbabbba$b$beb$ataZb
+$aJa$m$mGmbpbm$ptp$a$asa$gcgRabxbabxqabxbabxeabxba$xQx$kIk$a$a$a$aba$b$bdb$auaYb
+$aJa$m$mKmbpbmbpbm$pmp$a7abpva$gdg4abxgabxbacxda$xPx$kKk$a$a$a$aca$b$bcb$avaXb
+$aIa$m$mQm$plp$a6adptadgbabgba9gPabxmajxeacxca$xOx$kKk$a$a$a$aea$b$bcb$auaWb
+$aLa$m$mOm$pkp$a6adptabgga8g5abxfabxfacxca$xIxbkbx$kMk$a$a$a$afa$b$bcb$auaVb
+$aLa$m$mPmepbmbpbmtpbmSp$a7adpsabgga_g$ahacxca$xEx$kQk$a$a$a$aga$b$bcb$avabbbabbbabbbabbbabbbaJb
+$aLa$m$mQmbphmqpembpbmOp$a7adpmabgbabgbadgga_g$ajabxda$xCx$kQk$a$a$a$aia$b$bbb$aGaHb
+$aLabmca$m$mVmfpbmkpimMp$a7adpmaggja8g5abxkacxha$xBx$kQk$a$a$a$akabbba$b9b$aHaFb
+$aNa$m$mYmbpfmbpbmbpbmbpbmbplmbpbmIp$a4abpcadpnabgdabgla7g3abxnabxbabxfa$xAx$kPk$a$a$a$aoa$b8b$aIaEb
+$aMaAmba$m$m0mdpbaCp$a2aipEa7g$apa$xxx$kOk$a$a$a$ara$b7b$aJaDb
+$aMaemba$m$m$mmmfaAp$aYabpbakpFargbaOg$araFxbg0x$kNk$a$a$a$asa$b9b$aHaDb
+$aLadmca$m$m$mnmfaAp$aWaopGapgcaPg$asaBxdgfxbgUx$kMk$a$a$a$aua$b9b$aFaEb
+$aQa$m$m$mmmgaAp$aVappHaogbaRg$asaAxdgdxegVx$kIk$a$a$a$awa$b_b$aEaEb
+$aQa$m$m$mombabmbabmbpbmvpbmbpbmbp$aTarpHa6g$asayxegbxhgUx$kFkcabk$a$a$a$awa$b$bab$aDaEb
+$aOa$m$m$mymfpbmlpgm$aSaspHa7g$atavxogTx$kGkcabk$a$a$a$awa$b_b$aDaEb
+$aPabmba$m$m$mwmcpfmhpim$aRatpIabgba6g$atacxbaoxqgTx$kFkbafk$a$a$a$aua$b$bab$aCaEb
+$aQa$m$m$mGmbpbmbplm$aQatpMa5g$avaoxrgRx$kOk$a$a$a$ata$b$bbb$aAaEb
+$aPa$m$m$mWm$aQaspOa4g$auaoxrgbxbgNx$kRk$a$a$a$asa$b$bcb$azaEb
+$aPa$m$m$mWm$aQaspPa4g$auajxbabxwgNx$kQk$a$a$a$ata$b$bcb$axaFb
+$aQa$m$m$mTm$aRatpQa4g$awafxeawgNx$kPk$a$a$a$ata$b$bdb$avaGb
+$aOa$m$m$mVm$aRatpQa6g$avafxeawgNx$kPk$a$a$a$asa$b$beb$auaGb
+$aOakmbabmba$m$m$mIm$aSarpSa6g$avafxdaxgMx$kQk$a$a$a$asa$b$bdb$ataxbbabbbabbbafb
+$aNahmbabmfa$m$m$mIm$aTappTa7g$avagxbaxgOx$kykbjbkbjbkbjmk$a$a$a$asa$b$beb$arapbbabbbabbbabbiaeb
+$aNafmka$m$m$mHm$aTappUabgba6g$auafxygQxbkbx$ktkhjmk$a$akadj$a$aea$b$beb$aranbqaeb
+$aNaemja$m$m$mKm$aRappZa6g$asafxzgSx$kpkbjbkjjjkbjbkbj$aOabjbabjbabjbabjbabjvagj$a$aea$b$beb$arakbsaeb
+$aMaemkaumdabmbabmdabmba$m$m$mfm$aQaqp0a7grabgbabg7afxzgSx$klkbjbkpjdkhj$aKabjbanjbadjbabjbabjbabjbabjbabjbabjbaij$a$aea$b$bfb$arajbtadb
+$aNabmlafmdabmbabmbahmoa$m$m$mdm$aSabpbanp1a$gageabgbabgdagg8adxygTx$kjkDj$aIaQj$a$afa$b$beb$arajbtadb
+$a1abmjabmbadmqa$m$m$mbmbabm$aUamp3a$gggbaig$aaabgbavgVx$kikCj$aDabjbaVj$a$aea$b$bhb$aoaibwabb
+$a$ava$m$m$mam$aXamp3a$gpg$aeatgVx$kgkbjbkCj$aBa0j$a$ada$b$bib$anaibwabb
+$a$ava$m$m_m$aXanp3a$gpg$aeatgWx$kdkHj$aya3j$a$aca$b$bkb$alahbya
+$a$ava$m$m8m$a0amp4a$gog$aeatgXx9kbabkbabkIj$ava6jmabj$aZa$b$bmb$ajabbbafbya
+$a$awabmba$m$m2m$a5akp6a$gkg$agatgXx8kgaHj$ata9jbabjfabjbafj$aWa$b$bnb$amafbxa
+$a$aAa$m$mZm$a5alp8a$ggg$aiatgWx9kiaGj$aqa$jejbakj$aTa$b$bqb$alahbva
+$a$aBa$m$mUm$a8alp_a$geg$agabgcatgWxEkbaFkjaFj$anabjba$jqj$aSaubbjbbbj$b5b$akahbva
+$a$aBa$m$mTm$a_ajp$aba$gdg$ahaugXxwkbabkbadkbabkcaEkjaGj$aka$juj$aSaubej$b5b$ajahbva
+$a$aAa$m$mSm$a$acahp$aca$gdg$ahaugXxwkkaFkjaGj$aha$jwj$aRabbbjbbbjfbbjbbbjjbfj$b5b$ajafbwa
+$a$aza$m$mQm$a$ahabpbadp$aca$gfg$afaugXxskbabkbabkkaFkjaHjbabj$aca$jzj$aPahjbbhjbbbjbbbjbbjj$b4b$akadbwa
+$a$aya$m$mRm$a$akacp$agabgba$gbg$acawgWxikbabkbabkbabkbabkrabkbaCkjaLj9a$jBj$aPaEj$b4b$ajadbwa
+$a$axa$m$mEmbplm$a$a$axa$gcg$aaawgWxekJabkbatkbabkkaMj6a$jEjjabjbabj$aAaHj$b5b$ajabbwa
+$a$ava$m$mRm$a$a$aza$gdg9avgTxbabxbabxbabkPajkbabkbabkbabkmabjbaNjbabj2a$jHjfahj$awaLj$b3b$aGa
+$a$ata$m$mSm$a$a$aBacgbabgbabgba8g9augSxXabkbabkbabksaVjbabjYa$jJjbalj$asaPj$b2b$aFa
+$a$ara$m$mOmbabm$a$asacgcabg$arabgda4g6avgSx$aha1jbabjbabjbabjbabjOa$jWj$apaRj$b2b$aFa
+$a$apa$m$mMmbabm$a$awadgbabg$axa4gbabg2awgPx$aja$jajbabjbabjlabjbabjta$jXj$alabjbaVjbbbj$bZb$aEa
+$a$aoa$m$mJm$a$aAahgbabg$awa7g0awgbxdazxbabxdabxbabxbabx$ala$jgjbabjbabjbabjbahjbabjna$j0jbabjbabj$aea3j$bXb$aEa
+$a$aoa$m$mFm$a$aoabgnamg$awa8gbabgWawgbxdaxx$axa$jyjbabjbabjbabjbabjba$j8jfabjbabjFabjza3j$bXb$aEa
+$a$ana$m$mCm$a$aFamg$axa$gbgUaxgdawx$azaHjbabjbabjbabjba$j$j2jbafjxabjbadjbafjva5j9bbaZb$aDa
+$a$ala$m$mDm$a$aFang$aya$gcgRaygdadxbarx$aAazjbabjbaejkabjba$j$j6jrabjbapjbabjna$jaj6bdaZb$akabbra
+$a$ama$m$mAm$a$atabglaqg$aya$gbgSaxgdadxdaox$aBaxjhabjnabjbabjbabjfa$j$jYjbabjbabjbabjfabjbaxjbabjbabjfa$jdj5beaZb$ajacbqa
+$a$ama$m$mzm$a$auabgjabgbapg$aza$gdgOazgcabgbxbgbxdahxbadxbabx$aBaxjIa$j$j4jbaHjba$jgj1bbabbjaWb$aiacbqa
+$a$ama$m$mym$a$avabghavg$aya$gegMaFgdabxbabxbabx$aHazjKa$j$j$j$jHj1bbafbbabbeaVb$ahadbpa
+$a$ama$m$mym$a$avadgbabgbayg$ayadgba$gbgKaFg$aPayjLa$j$j$j$jHj$babeaUbbabb$aeadbkabbea
+$a$ama$m$mzm$a$ataEg$aEa$gcgIaGg$aNaxjPabjbabjbabjba$j$j$j$jAj$bbbbabbbaWb$adafbbabbbabbeacbda
+$a$ama$m$mAm$a$asaFg$atabgka$gdgGaGg$aMayjXabjba$j$j$j$jwj$b0b$acambbadbda
+$a$ama$m$mzm$a$ataGg$atabgka$gegDaHg$aLayjPabjbadjbabjba$j$j$j$jzj$b0b$acarbca
+$a$ama$m$mxm$a$awaFg$aCaegbabgda_gBaIg$aLakjbabjbajjiabjBabjbabjba$j$j$j$jJj$b1b$acarbba
+$a$ala$m$mwmbabm$a$awaFg$aLaHgbaDgAaIg$aMabjbabjbabjbabjgaejbabjjadjya$j$j$j$jPjzbbabbba$bBbfabb4atb
+$a$ama$m$mtm$a$aCaDg$aMa$gagAabgbaFg$aZacjMa$j$j$j$jQjBbea$bBbbafb2atb
+$a$ala$m$mum$a$aCaDg$aNaPgbaugAabgbaEg$aWabjbacjoabjdabjbabjbabjsaljba$j$j$j$jDjBbfa$bIb0atb
+$a$ala$m$mtm$a$aEaCg$aNaNgfabgbasgzaCgbabg$aVafjhabjbabjkafjtabjbafjha$j$j$j$jyjEbeabbba$bHbYatb
+$a$ala$msmba_m$a$aFaCg$aOaMggavguacgcaAg$aWagjiafjjacjyafjga$j$j$j$jzjEbga$bHbXatb
+$a$ala$msmba_m$a$aFaBg$aPaLgiavguacgbaAg$aUaijbaejbahjkacjbabjbabjbabjbabjbabjbabjbabjbabjbabjbabjbaljba$j$j$j$jAjFbga$bHbWatb
+$a$ala$msmba8m$a$aHaAg$aPaLglabgbasguaCg$aTahjcapjdabjbabjba$j$j$j$j_jGbha$bvbeabbbabbbadbeabbQatb
+$a$aja$m$mrm$a$aKaxg$aQaLgpabgbabgbabgbalgtaBg$aUafjca$j$j$j$j$jyjFbia$btblabbVatb
+$a$aha$m$msm$a$aKayg$aQaKgxalgtazg$aWadjca$j$j$j$j$jAjEbia$brb9atb
+$a$aga$m$msm$a$aLayg$aSaHgzakgvaxg$aWacjca$j$j$j$j$jBjEbia$bpb$aaatb
+$a$aga$m$mrm$a$aMayg$aUaFgzalgvawg$aVadjba$j$j$j$j$jCjFbbabbbabbbabbba$bob$acasb
+$a$agabmba$m$mpm$a$aMazg$aVaBgCakgxaug$aUacjca$j$j$j$j$jDj$b0b$acasb
+$a$aia$m$mnm$anabmbabmbabm$awazg$aVafgbabgbatgCakgzangbabgbabg$aZa$j$j$j$j$jEjbbbj$bWb$adasb
+$a$aia$m$mmm$amajm$ataAg$aXabgfatgCajgCakg$a3a$j$j$j$j$jJjbbbjbbbjbbbjbbbj$bNb$adarb
+$a$aia$m$mlm_abmoaim$ataAg$a5argCaigEaig$a1abjba$j$j$j$j$jUj$bLb$ahabbbabbbabbbabbdadb
+$a$aia$m$mlm6abmbacmpabmbabmbafm$asabgbayg$a5argDahgDakg$a0a$j$j$j$j$jYj$bJb$afabbmacb
+$a$aha$m$mlm5afmbabmtaem$auaxg$a6aqgFaggFaig$a0a$j$j$j$j$jZj$bIb$asacb
+$a$ahaDmba$mQm5aimvadm$avawg$a7aogHabgbadgGahg$a0a$j$j$j$j$j0j$bHb$aradb
+$a$afa$m$mlm3akmeabm$aOawg$a7aog$ahagg$a1a$j$j$j$j$j2j$bFb$aradb
+$a$afa$m$mkm3ammbaem$aMaxg$a7aog$ahafg$a2a$j$j$j$j$jZjblbjblbj$bEb$aradb
+$a$afa$m5mbapm2asm$aKayg$a8aog$ahafg$a2a$j$j$j$j$jYjgl$babblCb$aradb
+$a6abmbabmbabmbabmba$m$mkm2aum$aKayg$a8apg$ahadg$a3a$j$j$j$j$jYjgl9bflzb$auabb
+$a6a$m$msm0avm$aLayg$a9aogbabgbabg$a$a9a$j$j$j$j$jXjjl5bilyb$ava
+$a7a$m$mqm1aum$aMayg$a9aug$a$a6aljbabjbabjba$j$j$j$j$jIjkl2bllxb$atabbba
+$a8a$m$mpm2admdamm$aNayg$a_avg$a$a4ahjka$j$j$j$j$jHjkl0bplvb$aoacbbabbda
+$a9a$m$mnm_akm$aNazg$a$aaawg$a$a2abjbabjbabjkabjba$j$j$j$j$jHjllXbslub$anahbba
+$a8a$m$mom9alm$aNazg$a$aaawg$a$a$aga$j$j$j$j$jDjblbjbldjnlUbtlvb$amaib
+$a8a$m$mom_ajm$aOayg$a$acaxg$a$a$ada$j$j$j$j$jDjulTbulwb$alacbbafb
+$a9a$m$mnm$acafm$aPayg$a$adavg$a$a$ada$j$j$j$j$jEjvlQbulbbblubbabb$aqabbbabb
+$a9a$m$mom$adabm$aRayg$a$adavg$a$a$aca$j$j$j$j$jGjulObvlwb$apabbga
+$a9a$m$mom$a$aVamgbakg$a$aeavg$a$a$aca$j$j$j$j$jGjvlMbwlwb$awa
+$a_a$m$mnm$a$aUapgbabgbagg$a$aeavg$a$a$ada$j$jjjca$j$j$jvjwlbbblIbwlwb$awa
+$a$aaa$m$mmm$a$aRacgcamghaeg$a$aeavg$a$a$aea$j$jijbabjca$j$j$jvjwlFbblbbzlpbbaeb$awa
+$a$aaabmba$m$mkmJabm$a$aiabgdalg$a$apavg$a$a$aga$j$jcjca$j$jOjbaXjylCbElnbdacb$awa
+$a$ada$m$mkmEabmbaem$a$ajacgbakg$a$apavg$a$a$aga$j$jcjda$j$j$jAjylBbFlnbeabb$awa
+$a$ada$m$mkmEagm$a$ajacgcajg$a$apawg$a$a$aea$j$jejcaVjba$j$jPjzlzbGlnbeabb$awa
+$a$aca$m$mmmBagm$a$alabgdaig$a$aravg$a$a$aea$j$jejcaVjba$j$jyjbabjbabjbamjAlbbblvbElbbblmbbabbdabb$apabbha
+$a$abaGmbabmba$mPmBaem$a$asacgbadg$a$atangbabgbabgbabg$a$a$agabjba$j_jbabjca$j$j$jfjbabjialjElbbblrbDlpb$avabbha
+$a$abaHmba$mSmAadm$a$a$a$aSakg$a$a$asa$j8jea$j$j$jejjaojHlbbblbbblfbblbbblbbFlqb$aCa
+$a$aba$m$mrm$a$a$a$a$aiaig$a$a$ata$j8jga$j$jYjbapjfabjbarjMlbbLlqb$aCa
+$a_a$m$mvm$a$a$a$a$agahg$a$a$asa$j_jgacjba$j$j4jbabjbabjbabjbabjeauj$lmlqb$aCa
+$a8a$m$mxm$a$a$a$a$afahg$a$a$arabjba$j_jka$j$jZjbabjnavj$lolpb$aBa
+$a7a$m$mxmzacm$a$a$a$aLabgbabgbaig$a$a$apa$j$jdjka$j$jYjpahjbaoj$lqlnb$aBa
+$a6a$m$mwmDabm$a$a$a$aIaog$a$a$ajabjgaGjba2jcaPjja$j$jXjpahjbaoj$lrlmb$aBa
+$a6a$m$mum$a$a$a$a$adapg$a$a$ahaejeazjba8jbabjbagjbaKjha$j$jSjbaejoaijbapj$lrlbbbljb$aBa
+$a6a$m$mum$a$a$a$a$aeaog$a$a$ahaejga$jAjbabjdaEjbafjbabjda$j$jYjrawj$luljb$aAa
+$a5a$m$mrmbabm$a$a$a$a$ahang$a$a$aiaejfa$jAjeaCjbaljca$j$jXjtavj$lvlib$aAa
+$a5a$m$mpm$a$a$a$a1abgtaog$a$a$aiaejga$jAjda$j$jGjca5jbadjbabjnavj$lwlhb$aAa
+$a5a$m$mom$a$a$a$a$alaog$a$a$ajadjhabjba$jmjbamjba$j$jFjba$jejbadjhavj$lxldbblbbbl$aAa
+$a6a$mymbaumbaDm$a$a$a$a4abgraog$a$a$akadjbacjdabjbabjba$jkjba$j$j$j2jfabjbavj$lDl$aAa
+$a7a$m$mjm$a$a$a$a$anamg$a$a$ama$j$j$j$j$jqjeaBj$lzl$aAa
+$a7a$m$mjm$a$a$a$a$amalg$a$a$alabjba$j$j$j$j$jsjbaCj$lAl$aAa
+$a8a$m$mhm$a$a$a$a$agadgbabgbalg$a$a$ama$jijbasjba$j$j$j$jujplbablbablba$lil$aza
+$a9a$m$mfm$a$a$a$aAabgNabgbaegcamg$a$a$aoabjbafjba$jsjca$j$j$j$jtjnlja$lgl$aza
+$a$aaa$m$mbm$a$a$a$ayabgbaegCabgbabgbabgdaigcalg$a$a$asadjda$jrjba$j$j$j$jujnlja$lhl$aya
+$a$aaaOmbaRmbaQm$a$a$a$aqadgfahgbabgxargdakg$a$a$auabjfa$jsjba$j$j1jba$jBjolbablga$lhl$aya
+$a_a$m$mcm$a$a$a$aoafgfakgwargcalg$a$a$aAabjba$jpjca$j$j1jda$jyjslga$lgl$aya
+$a8abmba$m$mcm$a$a$a$anaigbanghabgbabgbabgdabgbaugeakg$a$a$aEa$jnjca$j$j2jca$jyjslga$lgl$aya
+$a6a$m$mgm$a$a$a$anaygdaFgfakg$a$a$aGa$jljda$j$j$j$jpjrlia$lhl$axa
+$a5a$mqmba0m$a$a$a$ana6ghahg$a$a$aKa$jijdajjba$j$j$j$jgjrlia$lhl$axa
+$a4a$m$mgm$a$a$a$aoa6g$a$a$aYa$jjjcaijea$j$j$j$jejrlha$lil$axa
+$a4a$m$mgm$a$a$a$aoa5g$a$a$aZaZjbabjcaCjea$j$j$j$jhjolga$ljl$awa
+$a3a$m$mgm$a$a$a$apa4g$a$a$a0aYjdagjbabjbawjea$j$j$j$jgjqlea$ljl$awa
+$a2a$m$mgm$a$a$a$apa4g$a$a$a1a6jdaxjea$j$j$j$jijblbjnlfablbablba$ldl$awa
+$a1a$m$mgm$a$a$a$ara3g$a$a$a0a6jdazjfa$j$j$j$jijnlka$ldl$ava
+$a0a$m$mim$a$a$a$ara2g$a$a$aYa9jbaAjea$j$j$j$jjjnlla$ldl$aua
+$a0a$m$mjm$a$a$a$ara0g$a$a$aYabjba$jyjca$j$j$j$jljolja$lgl$asa
+$aZa$m_mbadmbabmbabmbabm$a$a$a$atabgbabgbabgbaTg$a$a$a2aXjba$j$j$j$jXjnlja$lil$aqa
+$aZa$m8m$a$a$a$aMaSg$a$a$a1aYjba$j$j$j$jXjnlka$lil$apa
+$aZa$m6m$a$a$a$aPabgbaNg$a$a$a4a$j$j$j$j$jKjnlgaclca$lklcablbabl$aia
+$aZa$m4m$a$a$a$aVaLg$a$a$a4a$j$j$j$j$jKjolla$lrlbadl$aaa
+$aZa$m3m$a$a$a$aXaKg$a$a$a4adjba9jba$j$j$j$jIjnlma$lwlbabl7a
+$aZa$m2m$a$a$aPabp$ajaJg$a$a$a4abjda$j$j$j$j6jcadjbabjbaGjllma$lzl6a
+$aZa$m1m$a$a$aMabpbafp$ajaIg$a$a$a7a$j$j$j$j5jlabjbanjbabjbanjllhablba$lBl6a
+$aZa_mcaZm$a$a$aLaipeabp$aiaHg$a$a$a7abjba$j$j$j$jPjdpijqabjbaijgaljllga$lFl5a
+$aZadmbabmbabmba4mbaXm$a$a$aIabpbakpbagp$ahaGg$a$a$a9a$j$j$j$jOjgpfjzabjiakjllga$lFl5a
+$aZabmja$mPm$a$a$aGakpbacpdaepbabp$aiaEg$a$a$a8a$j$j$j$jOjhpfjIagjbabjbabjnlea$lGl4a
+$a$aaa$mMm$a$a$aFalpbabpbajp$alaCg$a$a$a4abjda$j$j$j$jojbpbjbpbjbpnjbpbjbpbjmpbabjJagjgamlbablba$lIl3a
+$a$aca$mKm$a$aOabpbabppabpbabpFazp$atawg$a$a$a0a$j$jKjba$jSjjpbjbpbjbpbjbpbjbpbjspLafjha$lZl1a
+$a$aea$mHm$a$aNafpoaepbabpCaAppacp$adavg$a$a$a0amjbabjbabjbabjbabjba$j$j$j6jMpLadjla$lYl0a
+$a$aga$mFm$a$aMaipmaipbabpxaBpoadp$aeatg$a$a$a1acjbabjbabjbabjbabjka$j$j$j5jMpNacjma$lZlZa
+$a$aha$mDm$a$aNakpbabpialpiabpjabpbaFplafp$aeaqg$a$a$a$alajjba$j$j$jUjOp1a$l1lXa
+$a$aia$mBm$a2abpbabpbabpbabpbabpbabpbabpbabpbabpbabpDaopcabpbabpbamphaepbabpbabpbaJpjahp$aeapg$a$a$a$ajamjba$j$jxjbaPjbpbjbpbjbpLjOp3a$l3lVa
+$a$aia$mAm$a1axpbabpxaJpbabpbabpbagpbaMphajp$afaog$a$a$a$ajaijbacjbaQjbabjbabjbabjba$jKjeaMjjpHjPp4a$l5lTa
+$a$aianmba$mambabmbabmbafm$aNabpfabphaDpnabpbabpbabpba$pwphakpsabpYang$a$a$a$agabjbabjbaejdabjbabjbaPjlabjbabjba$jejbabjbavjhaljbpxjnpDjQp5a$l7lRa
+$a$aiaZmbalmbabmbabmbajmhadm$aMaepcaepbabpbaFpla$pGpfajpuabpZabgbajg$a$a$a$afabjbabjbabjcadjhaOjra$jajhapjbabjkaijfpbjbprjrpzjSp7a$l7lNablba
+$a$ahaQmbabmbabmbabmbabmfabmbabmbadmjabmbadm$aXaTpka$pJpbakp$aoabgbabgbaeg$a$a$a$alacjjafjbaHjta8jiabjbanjmaijipmjxpfjbpjjbpbjbpbjbpbjSp_a$l8lbablDablbablbael
+$a$aiaNm$a$auaXpha$pVp$auacg$a$a$a$akacjmacjeaFjva5jnaljmaijjpdjbpfjHpbjbpbj2p$aaa$l$lalbablbabltablbakl
+$a$aiaLm$a$amabpha1pbabpba$pWp$avabg$a$a$a$alabjuaEjxa1jrabjbahjmaijjpbj$pHp$aca$l$lglbablbabljablbaol
+$a$akaJm$a$akafpbabpba$p$pQp$a$a$a$a$a2aFjzaYjvacjbabjbabjlajj$pNpbabp$aea$l$lmlbablbablbasl
+$a$alaGm$a7abpbabpbabpbabpbabpbabpbabpba$p$p0p$a$a$a$a$a2aFjBabjbaTjMakj$pJpbabp$aia$l$lJl
+$a$alaymbabmbabmbabm$a3abpbabpba$p$p$pdpbabp$a$a$a$a$a3aEjEaSjKamj$pIp$ala$l$lJl
+$a$alawm$a9a$p$p$php$a$a$a$a$a7aDjGaPjKabjbamj$pIp$ama$l$lIl
+$a$alaum$a9a$p$p$php$a$a$a$a$a_aBjIaOjKaoj$pHp$aoablba$l$lFl
+$a$alatm$a8a$p$p$pip$a$a$a$a$a$aaaCjIaNjJaijcagj$pGp$asa$l$lDl
+$a$alasm$a5abpba$p$p$pkp$a$a$a$a$a$acatjbagjJaIjbabjbabjIajjbabjbagj$pFp$asa$l$lDl
+$a$amarm$a3a$p$p$pnp$a$a$a$a$a$aeaqjfabjbabjLaFjOasj$pFp$asa$l$lDl
+$a$anapm$a3a$p$p$pop$a$a$a$a$a$afabjbaljVaEjQanjbpbjbpbj$pFp$ata$l$lCl
+$a$aoabmbalm$a1abpba$p$p$ppp$a$a$a$a$a$ajabjbafjZazjbabjSalj$pKp$ata$l$lCl
+$a$araimbo$a1a$p$p$psp$a$a$a$a$a$anabj2aqjbabjbabjbabjXakj$pKp$ata$l$lCl
+$a$asahm$a1a$p$p$ptp$a$a$a$a$a$a$agabjbahjbabjbabj6ajj$pKp$aua$l$lBl
+$a$auadm$a1a$p$p$pvp$amaco$a$a$a$a$a7abjbabj$abajjwpba$pnp$aua$l$lBl
+$a$a$a$ama$p$p$pwp$a$a$a$a$a$a$a$aoaij$pLp$auablbablba$l$lxl
+$a$a$a$ala$p$p$pyp$aoabobabo$a$a$a$a$a$a7agj$pOp$aza$l$lvl
+$a$azabp$aWa$p$p$pyp$aoaeo$a$a$a$a$a$a5abjbpej$pPp$aAa$l$lul
+$a$axadpbm$aLacpha$p$p$pAp$aoaeo$a$a$a$a$a$a3afpcj$pQp$aAaflbablba$l$lll
+$a$atabpbagp$aJafpfa$p$p$pCp$anado$a$a$a$a$a$a4a$pXp$aCablhablba$l$lhl
+$a$apabpbakp$aDabpfa$p$p$pOp$a$a$a$a$a$a$a$aha$pXp$aMa$l$lhl
+$a$aoanp$aCaepba$p$p$pSp$a$a$a$a$a$a$a$afa$pXp$aLa$l$lil
+$a$aoanp$aza$p$p$p2p$a$a$a$a$a$a$a$aca$pYp$aHablba$l$lkl
+$a$anaop$axa$p$p$p5p$a$a$a$a$a$a$a$aba$pYp$aHa$l$lml
+$a$anapp$aua$p$p$p7p$a$a$a$a$a$a$a$aba$pYp$aHa$l$lml
+$a$amarp$asa$p$p$p8p$a$a$a$a$a$a$a$aba$pYp$aGa$l$lnl
+$a$amasp$ara$p$p$p8p$a$a$a$a$a$a$a$aba$pYp$aHa$l$lml
+$a$alatp$aqa$p$p$p9p$a$a$a$a$a$a$a$ada$pVp$aIa$l$lml
+$a$alavp$aoa$p$p$p9p$a$a$a$a$a$a$a$aea$pUp$aIa$l$lml
+$a$akaxpOabpIa$p$p$p_p$a$a$a$a$a$a$a$afa$pTp$aJa$l$lll
+$a$ajazpMabpbmHa$p$p$p$pbp$a$a$a$a$a$a$a$aea$pTp$aLa$l$ljl
+$a$ajaBpxabplacpbmDabpba$p$p$p$pdp$a$a$a$a$a$a$a$aea$pTp$aLa$l$ljl
+$a$ajaDpnabpbabpdafpbabpfagpAa$p$p$p$pip$a$a$a$a$a$a$a$ada$pTp$aLa$l$ljl
+$a$aiaGpbabpfabpbahpbajpbaipya$p$p$p$pkp$a$a$a$a$a$a$a$ada$pTp$aMa$l$lil
+$a$ahaLpbaEpcabphabpma$p$p$p$pjp$a$a$a$a$a$a$a$aea$pUp$aMa$l$lil
+$a$aha$pgpbadpbabpbafpbabpfabpba$p$p$p$pkp$a$a$a$a$a$a$a$aea$pUp$aMa$l$lil
+$a$aga$pxpba$p$p$p$pop$a$a$a$a$a$a$a$aea$pUp$aHaclba$l$lkl
+$a$aga$p$p$p$p$pLp$a$a$a$a$a$a$a$afa$pUp$aGa$l$lol
+$a$aga$p$p$p$p$pLp$a$a$a$a$a$a$a$afa$pUp$aHa$l$lnl
+$a$afa$p$p$p$p$pLp$a$a$a$a$a$a$a$aga$pUp$aGa$l$lol
+$a$aea$p$p$p$p$pMp$a$a$a$a$a$a$a$aha$pTp$aEa$l$lql
+$a$aea$p$p$p$p$pKp$a$a$a$a$a$a$a$aja$pUp$aDa$l$lql
+$a$ada$p$p$p$p$pKpjabp$a$a$a$a$a$a$a$aaa$pUp$aCa$l$lrl
+$a$ada$p$p$p$p$pKpiabp$a$a$a$a$a$a$a$aca$pTp$aCa$l$lrl
+$a$aca$p$p$p$p$pKp$a$a$a$a$a$a$a$ama$pSp$aDa$l$lrl
+$a$aba$p$p$p$p$pJpiabp$a$a$a$a$a$a$a$agabpbabpbabpbabpbadpba$pEp$aFa$l$lql
+$a$aba$p$p$p$p$pJphabp$a$a$a$a$a$a$a$aqa$pHp$aFa$l$lql
+$a$aaa$p$p$p$p$pIp$a$a$a$a$a$a$a$aza$pHp$aCablbablba$l$lql
+$a_a$p$p$p$p$pHp$a$a$a$a$a$a$a$aBa$pHp$aCa$l$lul
+$a_a$p$p$p$p$pGp$a$a$a$a$a$a$a$aEa$pFp$aCa$l$lul
+$a9a$p$p$p$p$pEpbabp$a$a$a$a$a$a$a$aGa$pDp$aCa$l$lvl
+$a8a$p$p$p$p$pDp$a$a$a$a$a$a$a$aLa$pAp$aFa$l$lul
+$a8a$p$p$p$p$pCp$a$a$a$a$a$a$a$aMa$pyp$aIa$l$ltl
+$a7a$p$p$p$p$pCp$a$a$a$a$a$a$a$aOa$pvp$aLa$l$lsl
+$a6a$p$p$p$p$pDp$a$a$a$a$a$a$a$aOa$ptp$aNa$l$lsl
+$a5a$p$p$p$p$pDp$a$a$a$a$a$a$a$aPa$prp$aPa$l$lsl
+$a5a$p$p$p$p$pDp$a$a$a$a$a$a$a$aPa$pppbabp$aPa$l$lsl
+$a4a$p$p$p$p$pEp$a$a$a$a$a$a$a$aOa$pop$aSa$l$ltl
+$a3a$p$p$p$p$pFp$a$a$a$a$a$a$a$aNa$pnp$aTa$l$lul
+$a2a$p$p$p$p$pGp$a$a$a$a$a$a$a$aLa$pnpbabp$aTa$l$lul
+$a1a$p$p$p$p$pHp$a$a$a$a$a$a$a$aKa$pmp$aXa$l$lul
+$a0a$p$p$p$p$pIp$a$a$a$a$a$a$a$aKa$pkp$a0a$l$ltl
+$aYa$p$p$p$p$pLpoabpbabp$a$a$a$a$a$a$a$asa$pjp$a2a$l$lsl
+$aWa$p$p$p$p$pOpmagp$a$a$a$a$a$a$a$anabpbabpba$php$a4a$l$lrl
+$aUa$p$p$p$p$pRplagp$a$a$a$a$a$a$a$ala$plp$a7a$l$lql
+$aSa$p$p$p$p$pUpkafp$a$a$a$a$a$a$a$ala$pkp$a_a$l$lpl
+$aQa$p$p$p$p$pYpiabpbabp$a$a$a$a$a$a$a$ama$pjp$a$aca$l$lol
+$aOa$p$p$p$p$p2pbabpbacpdabp$a$a$a$a$a$a$a$ama$php$a$afa$l$lnl
+$aKabpba$p$p$p$p$p9peabpbabp$a$a$a$a$a$a$a$aka$pep$a$ajablba$l$ljl
+$aIa$p$p$p$p$p$pcpeaep$a$a$a$a$a$a$a$aka$pbp$a$ana$l$ljl
+$aGa$p$p$p$p$p$pepeaep$a$a$a$a$a$a$a$aia$pbp$a$apa$l$ljl
+$aCabpba$p$p$p$p$p$phpbagp$a$a$a$a$a$a$a$aiaopbaVp$a$arablba$l$lhl
+$aAa$p$p$p$p$p$psp$a$a$a$a$a$a$a$ahaopbaUp$a$awa$l$lgl
+$aya$p$p$p$p$p$pvp$a$a$a$a$a$a$a$afa8pco$a$axa$l$lfl
+$awa$p$p$p$p$p$pxp$a$a$a$a$a$a$a$ada8peo$a$axa$l$lfl
+$aua$p$p$p$p$p$pzp$a$a$a$a$a$a$a$aba9pfo$a$aya$l$lel
+$asabpba$p$p$p$p$p$pzp$a$a$a$a$a$a$a_aboba8pgo$a$aza$l$ldl
+$aqa$p$p$p$p$p$pFpdabp$a$a$a$a$a$a$a4aco6pio$a$aza$l$ldl
+$aqa$p$p$p$p$p$pLp$a$a$a$a$a$a$a2aco4plo$a$aya$l$ldl
+$apa$p$p$p$p$p$pLpdgbabg$a$a$a$a$a$a$aSabodabobaco2pno$a$axa$l$lel
+$aoa$p$p$p$p$p$pMphg$a$a$a$a$a$a$aOako0pqo$a$avablba$l$ldl
+$ana$p$p$p$p$p$pNpjg$a$a$a$a$a$a$aLaloZpro$a$axa$l$ldl
+$ama$p$p$p$p$p$pOplg$a$a$a$a$a$a$aJaloYpto$a$ava$l$lel
+$aka$p$p$p$p$p$pQpng$a$a$aiabghabg$a$a$a$aqaloWpvo$a$awablbablbablba$l8l
+$aja$p$p$p$p$p$pQpqgrabgbabgbabgbabg$a$aRafgbabgbafgbabg$a$a$a$amaloUpyo$a$aDa$l6l
+$aia$p$p$p$p$p$pRpsgnalg$a$aNatg$a$a$a$ajakocaSpAo$a$aFa$l4l
+$aha$p$p$p$p$p$pSpugbabgbabgbabgbabgbapgbabgbabg$a$aFaxgbabg$a$a$a$adabobakocaboPpDo$a$aGa$l2l
+$aga$p$p$p$p$p$pTpYgbabg$a$ataJg$a$a$a$abanobaOpFo$a$aHa$lrlbaJl
+$afa$p$p$p$p$p$pUp2gbabg$a$anaNg$a$a$a_anobacpdobpboHpGo$a$aHaLlbaNleaIl
+$aea$p$p$p$p$p$pVp6g$a$ajaRgbabg$a$a$a6awoEpIo$a$aJaGlbablbaNlbaMl
+$aca$p$p$p$p$p$pXp7g$a$agaXg$a$a$a3ayoBpLo$a$aJaFlba$lrl
+$aba$p$p$p$p$p$pZp7g$a$ada0g$a$a$a2ayozpNo$a$aKa$lWl
+$aaa$p$p$p$p$p$p1p8g$a_a2g$a$a$a2aAobpbotpQo$a$aLa$lUl
+$aaa$p$p$p$p$p$p1p_gbabg$a5a3g$a$a$a2aDorpSo$a$aLaelba$lOl
+$aaa$p$p$p$p$p$p1p$gdgbabgbabg$aYa4g$a$a$a2aEoppTo$a$aMablea$lNl
+_a$p$p$p$p$p$p1p$gkgbabg$aSa6g$a$a$a2aGolpVo$a$aSa$lMl
+_a$p$p$p$p$p$pZp$gpg$aRa6g$a$a$a2aIobpbobpbobpbobpYo$a$aRa$lMl
+_a$p$p$p$p$p$pXp$gsg$aOa9g$a$a$a0a$oEo$a$aRa$lLl
+_a$p$p$p$p$p$pVp$gvg$aNa_g$a$a$aZa$oEo$a$aSa$lKl
+_a$p$p$p$p$p$pRpbgbp$gyg$aKa$gcgbabg$a$a$aWa$oEo$a$aTa$lJl
+_a$p$p$p$p$p$pPp$gCg$aKa$gggbabgbabgbabg$a$a$aOa$oDo$a$aUa$lJl
+9a$p$p$p$p$p$pOp$gEg$aJa$gpgbabg$a$a$aJa$oCo$a$aXa$lIl
+8a$p$p$p$p$p$pPp$gEg$aIa$gtg$a$a$aIa$oBo$a$aZa$lHl
+8a$p$p$p$p$p$pOp$gFg$aHa$gvgnabg$a$a$ata$oAo$a$a1a$lGl
+7a$p$p$p$p$p$pOp$gGg$aHa$gxgbabgbabgbabgbabgbafg$a$a$ara$oyo$a$a4a$lFl
+6a$p$p$p$p$p$pNp$gIg$aGa$gOgbabg$a$a$ama$ovobabo$a$a7a$lEl
+5a$p$p$p$p$p$pNp$gKg$aFa$gRg$a$a$ala$orobabo$a$a$aba$lDl
+4a$p$p$p$p$p$pOp$gKg$aFa$gRg$a$a$aka$ooobabo$a$a$afa$lDl
+3a$p$p$p$p$p$pOp$gMg$aEa$gRg$a$a$aka$okobabo$a$a$aka$lCl
+1a$p$p$p$p$p$pPp$gNg$aEa$gSg$a$a$ajatobaZo$a$a$aoa$lCl
+0a$p$p$p$p$p$pNpbgbp$gOg$aEa$gTg$a$a$ahatocaVobabo$a$a$aqa$lCl
+0a$p$p$p$p$p$pLp$gSg$aEa$gUg$a$a$afatodaRobabo$a$a$aua$lCl
+0a$p$p$p$p$p$pKp$gUg$aEa$gSg$a$a$agatodaNobabo$a$a$aya$lCl
+Za$p$p$p$p$p$pKp$gWg$aDa$gRg$a$a$agauodaJobabo$a$a$aBa$lDl
+Ya$p$p$p$p$p$pLp$gXg$aCa$gQg$a$a$ahauodaHo$a$a$aFa$lDl
+Xa$p$p$p$p$p$pLp$gZg$aBa$gQg$a$a$agauoeaFo$a$a$aHa$lDl
+Xa$p$p$p$p$p$pLp$g0g$aAa$gPg$a$a$agavoeaFo$a$a$aHa$lDl
+Wa$p$p$p$p$p$pMp$g1g$aAa$gNg$a$a$agawoeaGo$a$a$aGa$lDl
+Wa$p$p$p$p$p$pMp$g3g$aza$gLg$a$a$agaxodaIo$a$a$aFa$lDl
+Wa$p$p$p$p$p$pMp$g5g$axa$gLg$a$a$afazocaJo$a$a$aEa$lDl
+Wa$p$p$p$p$p$pNp$g6g$awa$gKg$a$a$agaxobaMo$a$a$aDa$lDl
+Wa$p$p$p$p$p$pNp$g8gbabgbabgbabgbabgbabgbabg$aia$gKg$a$a$ahawocaMo$a$a$aCa$lDl
+Wa$p$p$p$p$p$pNp$g$glgbabg$aea$gKg$a$a$ahawodaMo$a$a$aBa$lDl
+Wa$p$p$p$p$p$pNp$g$gpgbabg$aaa$gKg$a$a$ahaxocaNo$a$a$aAa$lDl
+Wa$p$p$p$p$p$pOp$g$gsgbabgbabg5a$gKg$a$a$aiaxobaOo$a$a$aza$lDl
+Va$p$p$p$p$p$pPp$g$gxg4a$gLg$a$a$aha$oco$a$a$aza$lCl
+Va$p$p$p$p$p$pPp$g$gygbabg1a$gLg$a$a$aha$odo$a$a$ayablbablbablba$lwl
+Va$p$p$p$p$p$pPp$g$gCgZa$gMg$a$a$aha$odo$a$a$aEa$lvl
+Va$p$p$p$p$p$pPp$g$gEgbabgUa$gNg$a$a$aha$oeo$a$a$aDa$lvl
+Va$p$p$p$p$p$pPp$g$gHgTa$gOg$a$a$aha$oeo$a$a$aCa$lvl
+Ua$p$p$p$p$p$pPp$g$gJgbabgPa$gPg$a$a$aha$ofo$a$a$aBa$lvl
+Ua$p$p$p$p$p$pPp$g$gNgNa$gPg$a$a$aia$ofo$a$a$aAa$lvl
+Ua$p$p$p$p$p$pOp$g$gQgKa$gPg$a$a$aja$ogo$a$a$aza$lvl
+Ta$p$p$p$p$p$pOp$g$gSgIa$gQg$a$a$aka$ogo$a$a$aza$lul
+Ua$p$p$p$p$p$pMp$g$gUgGa$gRg$a$a$aka$oho$a$a$aya$lul
+Va$p$p$p$p$p$pKp$g$gWgEa$gSg$a$a$ala$oho$a$a$axa$lul
+Wa$p$p$p$p$p$pJp$g$gXgBa$gTg$a$a$ama$oio$a$a$awa$lul
+Xa$p$p$p$p$p$pHp$g$g0gza$gTg$a$a$ama$ojo$a$a$avatlbablbablba7l
+Xa$p$p$p$p$p$pGp$g$g3gva$gVg$a$a$ana$oho$a$a$awaulbablca7l
+Ya$p$p$p$p$p$pFp$g$g4gsa$gWg$a$a$aoa$ofo$a$a$aAarlbablea6l
+Ya$p$p$p$p$p$pEp$g$g6gpabgba$gVg$a$a$apa$odo$a$a$aCaqlbadlbablba6l
+Ya$p$p$p$p$p$pBpbgbp$g$g9gla$gYg$a$a$ara$oao$a$a$aGablbamlca$lal
+Xa$p$p$p$p$p$pypbgbp$g$g$gegbabgbabgbabgba$g0g$a$a$asa_o$a$a$aIamlea9l
+Xa$p$p$p$p$p$pxp$g$g$g$g$gcg$a$a$ata9o$a$a$aLallfa7l
+Xa$p$p$p$p$p$pwp$g$g$g$g$gdg$a$a$aua8o$a$a$aLallhablbablbajlbablbaPl
+Xa$p$p$p$p$p$pup$g$g$g$g$gfg$a$a$aua8o$a$a$aMaklmahlgaNl
+Wa$p$p$p$p$p$ptp$g$g$g$g$gig$a$a$aua6o$a$a$aNaklmaglhaNl
+Wa$p$p$p$p$p$pup$g$g$g$g$ghg$a$a$aua6o$a$a$aOajlnadljaNl
+Va$p$p$p$p$p$pwp$g$g$g$g$ghg$a$a$ata4obabo$a$a$aOaflbablCaMl
+Ua$p$p$p$p$p$pyp$g$g$g$g$ggg$a$a$auaZobabo$a$a$aSadlGaMl
+Ua$p$p$p$p$p$pyp$g$g$g$g$ggg$a$a$auaVobabo$a$a$a$auaMl
+</territory>
+<forts/>
+</Scenario>

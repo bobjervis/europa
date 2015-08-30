@@ -1,0 +1,260 @@
+<TOEs combatant=Slovakia>
+
+	These TOEs are trying to reflect the full range of manpower assigned to field forces.
+	Thus these TOEs generally include all support elements.  The reason is that the game
+	model is designed to give each of these elements some role to play in the game.  In
+	general, support functions are carried out automatically, so the player need not be
+	concerned with managing those units unless they really feel the urge.
+
+	I have tried to put significant efforts into producing good TOE's.  As I have uncovered
+	ever more detailed TOE data on the respective combatants, I have realized that TOEs
+	are a subject far more extensive than I want to address in its entirety (if that would 
+	even be possible).  For example, the Germans alone issued thousands of different TOEs
+	throughout the war.
+
+	Even if someone were to uncover all of those TOEs and then code them, they would still
+	be faced with the challenge of discovering whether and when any given field unit conformed 
+	to that TOE or a different one.  Field units often did not change their composition
+	for a long period of time when a new TOE was issued.  In other cases, old units retained
+	their old structure alongside newer units raised under a different TOE.
+
+	Knowing the designation (infantry, panzer, etc.) of a unit usually isn't enough to know
+	the exact TOE of the unit.
+
+	Plus, most units had variations of one sort or another that departed completely from any
+	given TOE.  Independent units were routinely attached to larger formations for specific
+	missions, but then stayed with their new organizations for long periods of time.  Units
+	also periodically renumbered subunits so that temporary attachments dissolved into 
+	permanent new organizations.
+
+	Finally, forces deployed in quiet sectors, particularly German occupation troops, tended
+	to acquire lots of ad hoc organization by scavenging captured equipment (since these units 
+	rarely had priority for top of the line weapons).  But using captured equipment was not
+	limited to esoteric outposts.  During the very battle of Kursk itself, a unit no less than 
+	the SS Das Reich Division used Russian T-34 tanks because their Panthers were still back at
+	the factory in Germany.
+
+	The pratical reality is that the TOEs for this game have to be a simplified form of the
+	actual force levels.  
+
+		-- Slovak TOEs --
+
+	<toe name=div.hq badge=hq size=XX hq carriers=2wd>
+		<equip 
+			sroff=6
+			jroff=12
+			svc=110
+			truck=9
+		 />
+		<section badge=map>
+			<equip
+				svc=8
+				truck=1
+			 />
+		</>
+		<section badge=mp size=p>
+			<equip
+				lmg=2
+				smg=5
+				rifle=24
+				truck=3
+			 />
+		</>
+		<section badge=sup size=I>
+			<equip
+				truck=150
+			 />
+		</>
+		<section badge=med size=I carriers=2wd>
+			<equip
+				doctor=3
+				medic=108
+				truck=8
+			 />
+		</>
+		<section badge=rep size=p carriers=2wd>
+			<equip
+				svc=40
+				truck=3
+			 />
+		</>
+		<section badge=admin size=I carriers=2wd>
+			<equip
+				svc=300
+				truck=20
+			 />
+		</>
+		<section badge=post carriers=2wd>
+			<equip
+				svc=24
+				truck=2
+			 />
+		</>
+	</>
+	<toe name=mot.reg.hq badge=hq size="I I I" hq carriers=2wd>
+		<equip
+			sroff=1
+			jroff=8
+			svc=78
+			rifle=12
+			radio=10
+			telephone=30
+			truck=11
+		 />
+		<section toe=sig.pltn/>
+	</>
+	<toe name=mot.bn.hq badge=hq size="I I" hq carriers=2wd>
+		<equip
+			jroff=3
+			svc=46
+			truck=4
+		 />
+	</>
+	<toe name=fast.div des="# Slovak" badge=mot.inf size=XX carriers=2wd>
+		<section toe=div.hq/>
+		<section badge=mot.inf size="I I I" quant=2>
+			<section toe=mot.reg.hq/>
+			<section badge=mot.inf size="I I" quant=2>
+				<section toe=mot.bn.hq/>
+				<section badge=mot.inf size=I quant=3 carriers=2wd>
+					<equip
+						lmg=12
+						rifle=96
+						truck=9
+					 />
+				</>
+				<section badge=mot.hvy size=I carriers=2wd>
+					<equip
+						hmg=6
+						37at=2
+						81mtr=4
+						rifle=40
+						truck=7
+					 />
+				</>
+			</>
+			<section badge=mtn.art size=I carriers=2wd>
+				<equip
+					75ig=6
+					truck=10
+					svc=20
+					rifle=30
+				 />
+			</>
+		</>
+		<section badge=inf.rec size="I I">
+			<section toe=mot.bn.hq>
+				<section toe=sig.pltn/>
+			</>
+			<section badge=bike size=I carriers=bicycle>
+				<equip
+					lmg=4
+					smg=15
+					rifle=100
+				 />
+			</>
+			<section badge=mot.hvy size=I>
+				<equip
+					lmg=2
+					37at=4
+					rifle=40
+					eng=40
+					truck=10
+				 />
+			</>
+			<section badge=inf.art size=I>
+				<equip
+					lmg=2
+					75ig=4
+					truck=20
+					rifle=30
+					svc=20
+				 />
+			</>
+		</>
+		<section badge=arm size="I I">
+			<section toe=mot.bn.hq/>
+			<section badge=arm size=I quant=2>
+				<equip
+					pz3n=15
+				 />
+			</>
+			<section badge=mot.at size=I carriers=2wd>
+				<equip
+					37at=6
+					rifle=80
+				 />
+			</>
+		</>
+		<section badge=mot.art size="I I I">
+			<section toe=mot.reg.hq>
+				<section toe=sig.pltn/>
+			</>
+			<section badge=art size="I I" quant=2>
+				<section toe=mot.bn.hq>
+					<section toe=sig.pltn/>
+				</>
+				<section badge=mot.art size=I quant=3 carriers=2wd>
+					<equip
+						75ig=4
+						lmg=2
+						truck=30
+						rifle=25
+						svc=14
+					 />
+				</>
+			</>
+		</>
+		<section badge=aa size=I quant=2 carriers=2wd>
+			<equip
+				37at=12
+				rifle=50
+			 />
+		</>
+		<section badge=eng size="I I" carriers=2wd>
+			<section toe=mot.bn.hq/>
+			<section badge=eng size=I quant=2>
+				<equip
+					eng=100
+					flame=4
+					truck=12
+				 />
+			</>
+			<section badge=bridge size=I>
+				<equip
+					bridge=2
+					svc=20
+				 />
+			</>
+			<section badge=eng size=I>
+				<equip
+					eng=100
+					truck=12
+				 />
+			</>
+		</>
+		<section badge=signal size="I I">
+			<section toe=mot.bn.hq/>
+			<section badge=signal size=I carriers=2wd>
+				<equip
+					radio=90
+					svc=40
+				 />
+			</>
+			<section badge=signal size=I carriers=2wd>
+				<equip
+					telephone=90
+					svc=40
+				 />
+			</>
+		</>
+	</>
+	<toe name=sig.pltn badge=signal size=p carriers=2wd>
+		<equip
+			radio=20
+			telephone=20
+			truck=4
+		 />
+	</>
+
+</TOEs>

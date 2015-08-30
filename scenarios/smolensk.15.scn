@@ -1,0 +1,547 @@
+<Scenario map=russia15.Xmp start=7/8/1941 end=7/25/1941 strengthScale=3500 name="s41.7.2: Smolensk" x=80 y=112 width=52 height=30>
+
+		- Initial Alliances -
+
+	<force railcap=1000 colors=Axis name=Axis>
+		<join combatant=Germany/>
+		<join combatant=Italy/>
+		<join combatant=Finland/>
+		<join combatant=Bulgaria/>
+		<join combatant=Slovakia/>
+		<join combatant=Hungary/>
+		<join combatant=Romania/>
+		<join combatant=Croatia/>
+		<victory value=340 level=Major />
+		<victory value=300 level=Minor />
+	</force>
+
+	<force railcap=1000 colors=Allies name=Allies>
+		<join combatant="Soviet Union" />
+		<victory value=365 level=Major />
+		<victory value=325 level=Minor />
+	</force>
+
+	<objective place=Smolensk value=50/>
+	<objective place=Gomel' value=20/>
+	<objective place=Bryansk value=20/>
+	<objective place=Rzhev value=20/>
+	<objective place=Vitebsk value=10/>
+	<objective place=Mogilev value=10/>
+	<objective place=Roslavl' value=5/>
+	<objective place=Vyaz'ma value=10/>
+	<objective place="Velikiye Luki" value=5/>
+	<objective place=Dukhovshchina value=10/>
+	<objective place=Orsha value=10/>
+	<objective place=Yel'nya value=10/>
+	<objective place=Demidov value=10/>
+	<objective place=Yartsevo value=10/>
+	<objective place=Krichev value=10/>
+
+	<objective place=Vilnius value=10/>
+	<objective place=Minsk value=20/>
+	<objective place=Bobruysk value=10/>
+	<objective place=Daugavpils value=5/>
+
+	<description>
+		This scenario starts July 8th, 1941.
+		<p>
+			It covers the battle of Smolensk during Barbarossa.
+		</p>
+	</description>
+	<force name=Axis colors=Axis>
+		<combatant name=Germany nation=Germany colors=Wehrmacht skill=.1 fills=2>
+			<unit name=OKW commander=Hitler>
+				<unit name=OKH>
+					<unit name="XLII Corps" size=XXX badge=inf>
+						<unit des=42 toe=ger.corps.hq z=87 y=9 mode=command x=7/>
+						<unit des=96 toe=ger.inf.div.39 x=4 y=11 mode=attack/>
+						<unit des=106 toe=ger.inf.div.39 z=87 y=8 mode=attack x=7/>
+					</unit>
+					<unit des=197 toe=ger.inf.div.39 y=22 mode=attack x=4/>
+					<unit des=15 toe=ger.wave1.inf.div note="only 3 art abt" y=23 mode=attack x=2/>
+					<unit des=260 toe=ger.wave4.inf.div x=0 y=20 mode=attack/>
+					<unit des=112 toe=ger.inf.div.39 y=23 mode=attack x=0/>
+					<unit name="Army Group North">
+						<unit name="16th Army">
+							<unit des=16 toe=ger.army.hq visibility=6 y=12 mode=command x=1/>
+							<unit name="L Corps" badge=inf size=XXX>
+								<unit des=50 toe=ger.corps.hq x=10 y=6 mode=command/>
+								<unit des=251 toe=ger.wave4.inf.div y=5 mode=attack x=10/>
+								<unit des=253 toe=ger.wave4.inf.div y=5 mode=attack x=11/>
+							</unit>
+							<unit name="XXVIII Corps" badge=inf size=XXX>
+								<unit des=28 toe=ger.corps.hq y=1 mode=command x=10/>
+								<unit des=290 toe=ger.inf.div.39 x=10 y=0 mode=attack/>
+								<unit des=30 toe=ger.wave1.inf.div note="Only 3 art abt" x=13 y=0 mode=attack/>
+								<unit des=122 toe=ger.inf.div.39 y=2 mode=attack x=12/>
+								<unit des=123 toe=ger.inf.div.39 y=2 mode=attack x=12/>
+							</unit>
+							<unit name="II Corps" badge=inf size=XXX>
+								<unit des=2 toe=ger.corps.hq y=2 mode=command x=11/>
+								<unit des=1 toe=ger.hvy.art.bn y=3 mode=attack x=12/>
+								<unit des=121 toe=ger.inf.div.39 y=3 mode=attack x=12/>
+								<unit des=12 toe=ger.wave1.inf.div note="only 3 art abt" y=3 mode=attack x=12/>
+								<unit des=32 toe=ger.wave1.inf.div note="only 3 art abt" y=3 mode=defend x=13/>
+							</unit>
+						</unit>
+					</unit>
+					<unit name="Army Group Center" commander="von Kluge">
+						<unit name="XLIII Corps" badge=inf size=XXX>
+							<unit des=43 toe=ger.corps.hq y=24 mode=command x=5/>
+							<unit des=134 toe=ger.inf.div.39 y=25 mode=attack x=6/>
+							<unit des=131 toe=ger.inf.div.39 y=24 mode=attack x=6/>
+						</unit>
+						<unit name="2nd Army">
+							<unit des=2 toe=ger.army.hq visibility=6 z=80 y=24 mode=command x=0/>
+							<unit name="XII Corps" badge=inf size=XXX>
+								<unit des=12 toe=ger.corps.hq z=89 y=21 mode=command x=9/>
+								<unit des=31 toe=ger.wave1.inf.div note="only 3 art abt" z=91 y=22 mode=attack x=11/>
+								<unit des=34 toe=ger.wave1.inf.div note="only 3 art abt" z=91 y=21 mode=attack x=11/>
+							</unit>
+							<unit name="IX Corps" size=XXX badge=inf>
+								<unit des=9 toe=ger.corps.hq z=90 y=20 mode=command x=10/>
+								<unit des=1 toe=ger.hvy.art.bn z=90 y=20 mode=attack x=10/>
+								<unit des=263 toe=ger.wave4.inf.div note=2IR z=91 y=20 mode=attack x=11/>
+								<unit des=137 toe=ger.inf.div.39 note=2IR z=90 y=19 mode=attack x=10/>
+								<unit des=292 toe=ger.inf.div.39 z=91 y=19 mode=attack x=11/>
+							</unit>
+							<unit name="VII Corps" badge=inf size=XXX>
+								<unit des=7 toe=ger.corps.hq z=87 y=20 mode=command x=7/>
+								<unit des=258 toe=ger.wave4.inf.div z=86 y=21 mode=attack x=6/>
+								<unit des=268 toe=ger.wave4.inf.div note=2IR z=88 y=19 mode=attack x=8/>
+								<unit des=23 toe=ger.wave1.inf.div note="only 3 art abt" z=89 y=20 mode=attack x=9/>
+								<unit des=7 toe=ger.wave1.inf.div note="only 3 art abt" z=89 y=19 mode=attack x=9/>
+							</unit>
+							<unit name="XIII Corps" badge=inf size=XXX>
+								<unit des=13 toe=ger.corps.hq z=88 y=23 mode=command x=8/>
+								<unit des=17 toe=ger.wave1.inf.div note="only 3 art abt" z=89 y=22 mode=attack x=9/>
+								<unit des=78 toe=ger.inf.div.39 z=87 y=22 mode=attack x=7/>
+							</unit>
+							<unit name="LIII Corps" badge=inf size=XXX>
+								<unit des=53 toe=ger.corps.hq x=10 y=25 mode=command/>
+								<unit des=167 toe=ger.inf.div.39 y=23 mode=attack x=7/>
+								<unit des=52 toe=ger.wave2.inf.div x=10 y=24 mode=attack/>
+								<unit des=255 toe=ger.wave4.inf.div note=2IR y=24 mode=attack x=11/>
+								<unit des=267 toe=ger.wave4.inf.div note=2IR y=25 mode=attack x=8/>
+							</unit>
+						</unit>
+						<unit name="3rd Panzer Group">
+							<unit des=3 abbreviation=3Pz toe=ger.pz.gp.hq mode=command visibility=6 z=99 y=10 x=19/>
+							<unit name="XXXIX Panzer Corps" size=XXX badge=arm>
+								<unit des="XXXIX Panzer" abbreviation=39p toe=ger.corps.hq z=102 y=10 mode=command x=22/>
+								<unit des=1 toe=ger.hvy.art.bn z=103 y=9 mode=attack x=23/>
+								<unit des=20 toe=ger.mot.div z=103 y=9 mode=attack x=23/>
+								<unit des=7 toe=ger.pz.div.41 z=104 y=10 mode=defend x=24/>
+								<unit des=20 toe=ger.pz.div.41 z=102 y=8 mode=attack x=22/>
+								<unit des="Lehr 900th" toe=ger.mot.bg z=92 y=18 mode=attack x=12/>
+								<unit des=18 toe=ger.mot.div z=98 y=7 mode=attack x=18/>
+								<unit des=12 toe=ger.pz.div.41 z=100 y=12 mode=attack x=20/>
+							</unit>
+							<unit name="XXIII Corps" badge=inf size=XXX>
+								<unit des=23 toe=ger.corps.hq y=9 mode=command x=11/>
+								<unit des=206 toe=ger.wave3.inf.div note=2IR y=10 mode=attack x=12/>
+								<unit des=86 toe=ger.wave2.inf.div x=10 y=9 mode=attack/>
+								<unit des=110 toe=ger.inf.div.39 y=9 mode=attack x=8/>
+							</unit>
+							<unit name="LVII Panzer Corps" size=XXX badge=arm>
+								<unit des="LVII Panzer" toe=ger.corps.hq z=96 y=8 mode=command x=16/>
+								<unit des=14 toe=ger.mot.div z=92 y=18 mode=attack x=12/>
+								<unit des=19 toe=ger.pz.div.41 z=97 y=5 mode=attack x=17/>
+							</unit>
+						</unit>
+						<unit name="9th Army">
+							<unit des=9 toe=ger.army.hq visibility=6 z=85 y=16 mode=command x=5/>
+							<unit name="V Corps" size=XXX badge=inf>
+								<unit des=5 toe=ger.corps.hq z=90 y=15 mode=command x=10/>
+								<unit des=5 toe=ger.wave1.inf.div note="only 3 art abt" z=90 y=14 mode=attack x=10/>
+								<unit des=35 toe=ger.wave1.inf.div note="only 3 art abt" z=91 y=14 mode=attack x=11/>
+							</unit>
+							<unit name="VI Corps" badge=inf size=XXX>
+								<unit des=6 toe=ger.corps.hq z=91 y=11 mode=command x=11/>
+								<unit des=26 toe=ger.wave1.inf.div note="only 3 art abt" z=90 y=10 mode=attack x=10/>
+								<unit des=6 toe=ger.wave1.inf.div note="only 3 art abt" z=91 y=12 mode=attack x=11/>
+							</unit>
+							<unit name="VIII Corps" badge=inf size=XXX>
+								<unit des=8 toe=ger.corps.hq x=8 y=16 mode=command/>
+								<unit des=1 toe=ger.hvy.art.bn z=90 y=16 mode=attack x=10/>
+								<unit des=161 toe=ger.inf.div.39 z=90 y=17 mode=attack x=10/>
+								<unit des=28 toe=ger.inf.div.39 z=87 y=16 mode=attack x=7/>
+								<unit des=8 toe=ger.inf.div.39 z=89 y=17 mode=attack x=9/>
+							</unit>
+							<unit name="XX Corps" size=XXX badge=inf>
+								<unit des=20 toe=ger.corps.hq z=87 y=12 mode=command x=7/>
+								<unit des=1 toe=ger.hvy.art.bn z=86 y=12 mode=attack x=6/>
+								<unit des=256 toe=ger.wave4.inf.div note=2IR z=87 y=11 mode=attack x=7/>
+								<unit des=129 toe=ger.inf.div.39 y=13 mode=attack x=8/>
+							</unit>
+						</unit>
+						<unit name="2nd Panzer Group">
+							<unit des=2 abbreviation=2Pz toe=ger.pz.gp.hq visibility=6 z=97 y=19 mode=command x=17/>
+							<unit name="XLVI Panzer Corps" size=XXX badge=arm>
+								<unit des="XLVI Panzer" toe=ger.corps.hq z=102 y=19 mode=command x=22/>
+								<unit des=Grossdeutschland abbreviation=GD toe=ger.gd.mot.reg note="163 tanks, 35 AG at start, 4 art abt" mode=attack z=99 y=19 x=19/>
+								<unit des=10 toe=ger.pz.div.41 z=104 y=18 mode=attack x=24/>
+								<unit des="SS Reich" abbreviation=R toe=ger.mot.div colors=SS note="5 art abt" z=100 y=19 mode=attack x=20/>
+							</unit>
+							<unit name="XLVII Panzer Corps" size=XXX badge=arm>
+								<unit des="XLVII Panzer" toe=ger.corps.hq z=101 y=15 mode=command x=21/>
+								<unit des=1 toe=ger.hvy.art.bn z=99 y=15 mode=attack x=19/>
+								<unit des=29 toe=ger.mot.div z=98 y=16 mode=attack x=18/>
+								<unit des=17 toe=ger.pz.div.41 z=104 y=11 mode=attack x=24/>
+								<unit des=18 toe=ger.pz.div.41 z=104 y=14 mode=attack x=24/>
+							</unit>
+							<unit name="XXIV Panzer Corps" size=XXX badge=arm>
+								<unit des="XXIV Panzer" toe=ger.corps.hq z=104 y=25 mode=command x=24/>
+								<unit des=10 toe=ger.mot.div z=106 y=25 mode=attack x=26/>
+								<unit des=3 toe=ger.pz.div.41 note="Half strength at start" z=107 y=23 mode=attack x=27/>
+								<unit des=4 toe=ger.pz.div.41 z=107 y=20 mode=attack x=27/>
+								<unit des=1 toe=ger.cav.div z=101 y=23 mode=attack x=21/>
+							</unit>
+						</unit>
+					</unit>
+				</unit>
+			</unit>
+		</combatant>
+	</force>
+	<force name=Allies colors=Allies>
+		<combatant name="Soviet Union" nation="Soviet Union" colors=Soviet skill=.65 fills=1>
+			<unit name=STAVKA commander=Stalin>
+				<unit name="Northwestern Front">
+					<unit name="27th Army">
+						<unit des=27 toe=sov.army.hq y=0 mode=command x=19/>
+						<unit des=126 toe=sov.rifle.div x=20 y=1 mode=rest/>
+						<unit name="24th Rifle Corps" size=XXX badge=inf>
+							<unit des="24th Rifle" toe=sov.corps.hq mode=command y=1 x=16/>
+							<unit des=181 toe=sov.rifle.div mode=defend x=14 y=1/>
+						</unit>
+						<unit name="21st Mechanized Corps" size=XXX badge=mech>
+							<unit des="21st Mechanized" toe=sov.corps.hq x=16 y=2 mode=command/>
+							<unit des=46 toe=sov.tank.div x=14 y=3 mode=defend/>
+						</unit>
+					</unit>
+				</unit>
+				<unit name="Western Front">
+					<unit des=Western toe=sov.front.hq z=121 y=17 mode=command visibility=6 x=41/>
+					<unit name="4th Army">
+						<unit des=4 toe=sov.army.hq y=25 mode=command x=39/>
+						<unit name="28th Rifle Corps" size=XXX badge=inf>
+							<unit des="28th Rifle" toe=sov.corps.hq y=23 mode=command x=18/>
+							<unit des=6 toe=sov.rifle.div x=17 y=22 mode=defend/>
+							<unit des=42 toe=sov.rifle.div x=16 y=24 mode=defend/>
+							<unit des=55 toe=sov.rifle.div y=23 mode=defend x=24/>
+							<unit des=143 toe=sov.rifle.div y=23 mode=defend x=14/>
+						</unit>
+						<unit name="47th Rifle Corps" size=XXX badge=inf>
+							<unit des="47th Rifle" toe=sov.corps.hq y=21 mode=command x=15/>
+							<unit des=121 toe=sov.rifle.div y=20 mode=defend x=13/>
+							<unit des=155 toe=sov.rifle.div x=13 y=23 mode=defend/>
+						</unit>
+						<unit des="455th Corps" toe=sov.art.reg x=16 y=23 mode=defend/>
+						<unit des="462nd Corps" toe=sov.art.reg x=15 y=21 mode=rest/>
+					</unit>
+					<unit name="13th Army">
+						<unit des=13 toe=sov.army.hq z=111 y=18 mode=command x=31/>
+						<unit name="45th Rifle Corps" size=XXX badge=inf>
+							<unit des="45th Rifle" toe=sov.corps.hq x=30 y=21 mode=command/>
+							<unit des=148 toe=sov.rifle.div x=31 y=21 mode=rest/>
+							<unit des=187 toe=sov.rifle.div x=28 y=21 mode=defend/>
+						</unit>
+						<unit name="20th Rifle Corps" size=XXX badge=inf>
+							<unit des="20th Rifle" toe=sov.corps.hq x=31 y=13 mode=command/>
+							<unit des=132 toe=sov.rifle.div x=36 y=21 mode=move/>
+							<unit des=137 toe=sov.rifle.div x=28 y=14 mode=defend/>
+							<unit des=160 toe=sov.rifle.div x=32 y=14 mode=rest/>
+						</unit>
+						<unit name="61st Rifle Corps" size=XXX badge=inf>
+							<unit des="61st Rifle" toe=sov.corps.hq x=29 y=16 mode=command/>
+							<unit des=53 toe=sov.rifle.div x=28 y=16 mode=defend/>
+							<unit des=110 toe=sov.rifle.div x=28 y=17 mode=defend/>
+							<unit des=172 toe=sov.rifle.div x=27 y=18 mode=defend/>
+						</unit>
+						<unit name="4th Airborne Corps" size=XXX badge=para.inf>
+							<unit des="4th Airborne" toe=sov.corps.hq x=22 y=21 mode=command/>
+							<unit des=7 toe=sov.air.bg.41 x=21 y=20 mode=defend/>
+							<unit des=8 toe=sov.air.bg.41 x=21 y=21 mode=defend/>
+						</unit>
+						<unit des=24 toe=sov.rifle.div x=31 y=19 mode=rest/>
+					</unit>
+					<unit name="19th Army">
+						<unit des=19 toe=sov.army.hq x=34 y=8 mode=command/>
+						<unit name="25th Rifle Corps" size=XXX badge=inf>
+							<unit des="25th Rifle" toe=sov.corps.hq x=29 y=7 mode=command/>
+							<unit des=127 toe=sov.rifle.div x=30 y=8 mode=move note="in rail mode"/>
+							<unit des=134 toe=sov.rifle.div x=30 y=9 mode=move/>
+							<unit des=162 toe=sov.rifle.div x=29 y=8 mode=move note="in rail mode"/>
+						</unit>
+						<unit name="34th Rifle Corps" size=XXX badge=inf>
+							<unit des="34th Rifle" toe=sov.corps.hq x=32 y=9 mode=command/>
+							<unit des=38 toe=sov.rifle.div x=31 y=9 mode=move/>
+							<unit des=129 toe=sov.rifle.div x=32 y=10 mode=move/>
+							<unit des=158 toe=sov.rifle.div x=33 y=10 mode=move/>
+						</unit>
+						<unit des="442nd Corps" toe=sov.art.reg x=31 y=7 mode=move/>
+						<unit des=360 toe=sov.how.reg x=33 y=8 mode=move/>
+						<unit des=399 toe=sov.how.reg x=30 y=10 mode=move/>
+						<unit name="23rd Mechanized Corps" size=XXX badge=mech>
+							<unit des="23rd Mechanized" toe=sov.corps.hq x=37 y=10 mode=command/>
+							<unit des=48 toe=sov.tank.div x=38 y=10 mode=rest/>
+							<unit des=220 toe=sov.mech.div x=37 y=9 mode=rest/>
+							<unit des=27 toe=sov.mcycle.reg x=36 y=11 mode=rest/>
+						</unit>
+						<unit des=111 toe=sov.eng.bn x=34 y=7 mode=rest/>
+						<unit des=238 toe=sov.sap.bn x=36 y=8 mode=rest/>
+						<unit des=321 toe=sov.sap.bn x=29 y=9 mode=rest/>
+					</unit>
+					<unit name="20th Army">
+						<unit des=20 toe=sov.army.hq x=31 y=10 mode=command/>
+						<unit name="69th Rifle Corps" size=XXX badge=inf>
+							<unit des="69th Rifle" toe=sov.corps.hq x=27 y=8 mode=command/>
+							<unit des=153 toe=sov.rifle.div x=26 y=9 mode=defend/>
+							<unit des=229 toe=sov.rifle.div x=26 y=10 mode=defend/>
+							<unit des=233 toe=sov.rifle.div x=26 y=11 mode=defend/>
+						</unit>
+						<unit name="2nd Rifle Corps" size=XXX badge=inf>
+							<unit des="2nd Rifle" toe=sov.corps.hq z=103 y=17 mode=command x=24/>
+							<unit des=100 toe=sov.rifle.div z=101 y=17 mode=defend x=21/>
+							<unit des=161 toe=sov.rifle.div z=98 y=14 mode=defend x=18/>
+						</unit>
+						<unit des=18 toe=sov.rifle.div x=28 y=15 mode=defend/>
+						<unit des=73 toe=sov.rifle.div x=26 y=14 mode=defend/>
+						<unit des=144 toe=sov.rifle.div x=31 y=12 mode=rest/>
+						<unit des="49th Corps" toe=sov.art.reg x=31 y=11 mode=rest/>
+						<unit des="151st Corps" toe=sov.art.reg x=25 y=16 mode=rest/>
+						<unit des="467th Corps" toe=sov.art.reg x=27 y=8 mode=rest/>
+						<unit des="587th Corps" toe=sov.art.reg x=28 y=9 mode=rest/>
+						<unit des="592nd Gun" toe=sov.art.reg x=31 y=11 mode=rest/>
+						<unit des="7th Mixed" toe=sov.art.reg x=28 y=12 mode=rest/>
+						<unit des=122 toe=sov.sap.bn x=27 y=8 mode=rest/>
+						<unit des=226 toe=sov.sap.bn x=31 y=10 mode=rest/>
+						<unit name="5th Mechanized Corps" size=XXX badge=mech>
+							<unit des="5th Mechanized" toe=sov.corps.hq x=27 y=12 mode=command/>
+							<unit des=13 toe=sov.tank.div x=25 y=12 mode=move/>
+							<unit des=17 toe=sov.tank.div x=25 y=11 mode=move/>
+							<unit des=109 toe=sov.mech.div x=26 y=13 mode=defend/>
+						</unit>
+						<unit des=1 toe=sov.mot.rifle.div x=26 y=14 mode=defend/>
+					</unit>
+					<unit name="21st Army">
+						<unit des=21 toe=sov.army.hq x=34 y=24 mode=command/>
+						<unit name="63rd Rifle Corps" size=XXX badge=inf>
+							<unit des="63rd Rifle" toe=sov.corps.hq x=28 y=25 mode=command/>
+							<unit des=61 toe=sov.rifle.div x=27 y=24 mode=defend/>
+							<unit des=167 toe=sov.rifle.div x=27 y=25 mode=defend/>
+							<unit des=154 toe=sov.rifle.div x=27 y=26 mode=defend/>
+						</unit>
+						<unit name="66th Rifle Corps" size=XXX badge=inf>
+							<unit des="66th Rifle" toe=sov.corps.hq x=27 y=28 mode=command/>
+							<unit des=232 toe=sov.rifle.div x=25 y=28 mode=defend/>
+						</unit>
+						<unit name="67th Rifle Corps" size=XXX badge=inf>
+							<unit des="67th Rifle" toe=sov.corps.hq x=29 y=24 mode=command/>
+							<unit des=102 toe=sov.rifle.div x=28 y=24 mode=defend/>
+							<unit des=117 toe=sov.rifle.div x=27 y=25 mode=defend note="in rail mode"/>
+							<unit des=151 toe=sov.rifle.div x=34 y=29 mode=rest/>
+						</unit>
+						<unit des="191st Corps" toe=sov.art.reg x=28 y=26 mode=rest/>
+						<unit des="546th Corps" toe=sov.art.reg x=29 y=23 mode=rest/>
+						<unit des=318 toe=sov.shh.reg x=29 y=25 mode=rest/>
+						<unit name="Group Gorodnikov">
+							<unit des=32 toe=sov.cav.div x=28 y=28 mode=rest/>
+							<unit des=43 toe=sov.cav.div x=30 y=28 mode=rest/>
+							<unit des=47 toe=sov.cav.div x=29 y=28 mode=rest/>
+						</unit>
+						<unit name="25th Mechanized Corps" size=XXX badge=mech>
+							<unit des="25th Mechanized" toe=sov.corps.hq x=34 y=27 mode=command/>
+							<unit des=50 toe=sov.tank.div x=35 y=27 mode=rest/>
+							<unit des=55 toe=sov.tank.div x=33 y=27 mode=rest/>
+							<unit des=219 toe=sov.mech.div x=34 y=28 mode=rest/>
+							<unit des=12 toe=sov.mcycle.reg x=36 y=29 mode=rest/>
+						</unit>
+						<unit des=1 toe=sov.eng.bn x=29 y=25 mode=rest/>
+						<unit des=23 toe=sov.eng.bn x=30 y=27 mode=rest/>
+					</unit>
+					<unit name="22nd Army">
+						<unit des=22 toe=sov.army.hq x=19 y=1 mode=command/>
+						<unit name="51st Rifle Corps" size=XXX badge=inf>
+							<unit des="51st Rifle" toe=sov.corps.hq x=17 y=2 mode=command/>
+							<unit des=98 toe=sov.rifle.div x=18 y=5 mode=defend/>
+							<unit des=112 toe=sov.rifle.div x=16 y=4 mode=defend note="in rail mode"/>
+							<unit des=170 toe=sov.rifle.div x=14 y=4 mode=defend/>
+						</unit>
+						<unit name="62nd Rifle Corps" size=XXX badge=inf>
+							<unit des="62nd Rifle" toe=sov.corps.hq x=21 y=6 mode=command/>
+							<unit des=174 toe=sov.rifle.div x=19 y=6 mode=defend/>
+							<unit des=179 toe=sov.rifle.div mode=rest y=2 x=19/>
+							<unit des=186 toe=sov.rifle.div x=23 y=7 mode=defend/>
+						</unit>
+						<unit des=50 toe=sov.rifle.div x=32 y=6 mode=rest/>
+						<unit des=214 toe=sov.rifle.div x=26 y=6 mode=rest/>
+						<unit des="56th Corps" toe=sov.art.reg x=24 y=7 mode=rest/>
+						<unit des=390 toe=sov.how.reg x=19 y=4 mode=rest/>
+						<unit des=22 toe=sov.eng.bn x=20 y=6 mode=rest/>
+						<unit des=115 toe=sov.mot.eng.bn x=19 y=1 mode=rest/>
+					</unit>
+					<unit name="44th Rifle Corps" size=XXX badge=inf>
+						<unit des="44th Rifle" toe=sov.corps.hq x=21 y=13 mode=command/>
+						<unit des=17 toe=sov.rifle.div x=20 y=14 mode=defend/>
+						<unit des=64 toe=sov.rifle.div x=22 y=14 mode=defend/>
+						<unit des=108 toe=sov.rifle.div x=19 y=13 mode=defend/>
+					</unit>
+					<unit des=49 toe=sov.rifle.div x=19 y=13 mode=defend/>
+					<unit des="29th Corps" toe=sov.art.reg x=23 y=7 mode=defend/>
+					<unit des="336th Corps" toe=sov.art.reg x=28 y=14 mode=defend/>
+					<unit des="444th Corps" toe=sov.art.reg x=38 y=11 mode=rest/>
+					<unit des="471st Corps" toe=sov.art.reg x=35 y=8 mode=rest/>
+					<unit des="545th Corps" toe=sov.art.reg x=26 y=11 mode=defend/>
+					<unit des="596th Corps" toe=sov.art.reg x=27 y=8 mode=defend/>
+					<unit des="645th Corps" toe=sov.art.reg x=39 y=18 mode=rest/>
+					<unit des="293rd Gun" toe=sov.art.reg x=33 y=13 mode=rest/>
+					<unit des="311th Gun" toe=sov.art.reg x=27 y=24 mode=defend/>
+					<unit des=5 toe=sov.shh.reg x=28 y=24 mode=defend/>
+					<unit des=120 toe=sov.shh.reg x=28 y=17 mode=defend/>
+					<unit des=403 toe=sov.shh.reg x=35 y=19 mode=rest/>
+					<unit des=375 toe=sov.how.reg x=29 y=21 mode=rest/>
+					<unit des=537 toe=sov.how.reg x=29 y=15 mode=rest/>
+					<unit name="7th Mechanized Corps" size=XXX badge=mech>
+						<unit des="7th Mechanized" toe=sov.corps.hq x=27 y=9 mode=command/>
+						<unit des=14 toe=sov.tank.div x=25 y=9 mode=move/>
+						<unit des=18 toe=sov.tank.div x=25 y=9 mode=move/>
+					</unit>
+
+					<unit name="21st Rifle Corps" size=XXX badge=inf>
+						<unit des="21st Rifle" toe=sov.corps.hq x=18 y=9 mode=command/>
+						<unit des=37 toe=sov.rifle.div x=17 y=9 mode=defend/>
+					</unit>
+					<unit name="20th Mechanized Corps" size=XXX badge=mech>
+						<unit des="20th Mechanized" toe=sov.corps.hq x=26 y=19 mode=command/>
+						<unit des=26 toe=sov.tank.div x=25 y=19 mode=defend/>
+						<unit des=38 toe=sov.tank.div x=24 y=20 mode=defend/>
+						<unit des=210 toe=sov.mech.div x=25 y=19 mode=defend/>
+					</unit>
+				</unit>
+				<unit name="STAVKA Reserve">
+					<unit name="16th Army">
+						<unit des=16 toe=sov.army.hq x=37 y=11 mode=command/>
+						<unit name="32nd Rifle Corps" size=XXX badge=inf>
+							<unit des="32nd Rifle" toe=sov.corps.hq x=37 y=11 mode=command/>
+							<unit des=46 toe=sov.rifle.div x=37 y=11 mode=rest/>
+							<unit des=152 toe=sov.rifle.div x=37 y=12 mode=rest/>
+						</unit>
+						<unit des=57 toe=sov.tank.div x=39 y=12 mode=rest/>
+					</unit>
+					<unit name="24th Army">
+						<unit des=24 toe=sov.army.hq x=49 y=8 mode=command/>
+						<unit name="52nd Rifle Corps" size=XXX badge=inf>
+							<unit des="52nd Rifle" toe=sov.corps.hq x=48 y=8 mode=command/>
+							<unit des=91 toe=sov.rifle.div x=48 y=7 mode=rest/>
+							<unit des=133 toe=sov.rifle.div x=48 y=9 mode=rest/>
+							<unit des=166 toe=sov.rifle.div x=47 y=7 mode=rest/>
+						</unit>
+						<unit name="53rd Rifle Corps" size=XXX badge=inf>
+							<unit des="53rd Rifle" toe=sov.corps.hq x=49 y=7 mode=command/>
+							<unit des=19 toe=sov.rifle.div x=49 y=9 mode=rest/>
+							<unit des=107 toe=sov.rifle.div x=50 y=7 mode=rest/>
+							<unit des=178 toe=sov.rifle.div x=50 y=8 mode=rest/>
+							<unit des=248 toe=sov.rifle.div x=50 y=8 mode=rest/>
+						</unit>
+						<unit name="26th Mechanized Corps" size=XXX badge=mech>
+							<unit des="26th Mechanized" toe=sov.corps.hq x=51 y=9 mode=command/>
+							<unit des=52 toe=sov.tank.div x=51 y=9 mode=rest/>
+							<unit des=56 toe=sov.tank.div x=51 y=9 mode=rest/>
+							<unit des=103 toe=sov.mech.div x=51 y=9 mode=rest/>
+							<unit des=28 toe=sov.mcycle.reg x=51 y=9 mode=rest/>
+						</unit>
+					</unit>
+					<unit name="28th Army">
+						<unit des=28 toe=sov.army.hq x=47 y=14 mode=command/>
+						<unit name="30th Rifle Corps" size=XXX badge=inf>
+							<unit des="30th Rifle" toe=sov.corps.hq x=46 y=14 mode=command/>
+							<unit des=89 toe=sov.rifle.div x=47 y=13 mode=rest/>
+							<unit des=120 toe=sov.rifle.div x=45 y=14 mode=rest/>
+							<unit des=149 toe=sov.rifle.div x=46 y=14 mode=rest/>
+						</unit>
+						<unit name="33rd Rifle Corps" size=XXX badge=inf>
+							<unit des="33rd Rifle" toe=sov.corps.hq x=48 y=15 mode=command/>
+							<unit des=145 toe=sov.rifle.div x=48 y=15 mode=rest/>
+							<unit des=217 toe=sov.rifle.div x=48 y=15 mode=rest/>
+							<unit des=222 toe=sov.rifle.div x=47 y=15 mode=rest/>
+						</unit>
+						<unit name="27th Mechanized Corps" size=XXX badge=mech>
+							<unit des=27 toe=sov.corps.hq x=51 y=15 mode=command/>
+							<unit des=9 toe=sov.tank.div x=51 y=15 mode=rest/>
+							<unit des=53 toe=sov.tank.div x=51 y=15 mode=rest/>
+							<unit des=221 toe=sov.mech.div x=51 y=15 mode=rest/>
+							<unit des=31 toe=sov.mcycle.reg x=51 y=15 mode=rest/>
+						</unit>
+						<unit des=538 toe=sov.mot.eng.bn x=49 y=14 mode=rest/>
+					</unit>
+					<unit des=119 toe=sov.rifle.div x=51 y=16 mode=rest/>
+					<unit des=272 toe=sov.rifle.div x=51 y=16 mode=rest/>
+					<unit des=194 toe=sov.mtn.div x=51 y=16 mode=rest/>
+				</unit>
+			</unit>
+		</combatant>
+	</force>
+	<territory>ocMb
+ncNb
+ncNb
+ocMb
+ncNb
+mcfbbcIb
+mcebccIb
+mcdbecHb
+dcbaiccbdcebccDb
+pcebfcCb
+qcbbicBb
+zcBb
+vcFb
+pcLb
+nckbccBb
+ncgbecDb
+tcHb
+pcLb
+ocjbccBb
+ncebgcDb
+mcdbccfbccbbbcbbbcyb
+mcbbccjbbcbbbczb
+ncNb
+mcjbbcbbbcbbbcbbbcyb
+mcbbbcbbbcbbkczb
+rchbbcbbbczb
+qcKb
+pcLb
+pcLb
+pcbaKb
+</territory>
+<forts>0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+0a
+</forts>
+</Scenario>

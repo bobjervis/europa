@@ -1,0 +1,850 @@
+August:
+	KarF:
+			to:
+				armd.trn=47
+				cannon.reg=1293
+		19A:
+			from:
+				at.reg=438
+		26A:
+			from:
+				at.reg=444
+		7AA:
+			from:
+				ftr.air.reg=152
+				ftr.air.reg=195
+	7A:
+	LenF:
+			to:
+				rifle.div=43 (from 67A)
+				gds.bridge.bn=1
+				bridge.bn=21
+				bridge.bn=42
+			from:
+				aa.reg=785 (to COG)
+				aa.reg=803 (to 67A)
+				tank.bg=222
+				gds.hvy.tank.reg=46 (to 67A)
+				rocket.bg=5 (to 67A)
+				rocket.bg=6 (to 67A)
+				rocket.reg=38 (to 67A)
+				rocket.reg=318 (to 67A)
+		2SA:
+			to:
+				rifle.div=120 (from 67A)
+				rifle.div=124 (from 67A)
+				rifle.div=201 (from 23A)
+			from:
+				corps.hq=43 (to 67A)
+				rifle.div=11 (to 67A)
+				rifle.div=128 (to 67A)
+				rifle.div=314 (to 67A)
+				fort.area=16 (to 67A)
+				at.reg=884 (to 67A)
+				at.reg=882 (to 67A)
+				rocket.reg=20 (to 67A)
+				rocket.reg=30 (to 67A)
+				cannon.reg=21 (to 67A)
+				cannon.reg=311
+				cannon.reg=561 (to 67A)
+				cannon.reg=1106 (to 67A)
+				how.reg=754 (to 67A)
+				gds.mort.reg=230 (to 67A)
+				mort.reg=104 (to 67A)
+				mort.reg=122 (to 67A)
+				mort.reg=144 (to 67A)
+				mort.reg=193 (to 67A)
+				mort.reg=281 (to 67A)
+				mort.reg=504 (to 67A)
+				gds.shh.bg=21
+				shg.bn=400 (to 67A)
+				tank.reg=98 (to 67A)
+				tank.bn=86
+				tank.bn=116
+		23A:
+			to:
+				art.reg=8
+				art.reg=154
+				tank.reg=222
+			from:
+				rifle.div=201 (to 2SA)
+				cannon.reg=260
+				mort.reg=174 (to 67A)
+		42A:
+			to:
+				shg.bn=409 (from 67A)
+			from:
+				shh.reg=324
+				18 Art XX:
+				mort.bg=15
+		55A:
+			to:
+				rifle.div=291
+			from:
+				at.bn=301 (to 67A)
+				aa.bn=758 (to 67A)
+		67A:
+			to:
+				corps.hq=43 (from 2SA)
+				rifle.div=11 (from 2SA)
+				rifle.div=128 (from 2SA)
+				rifle.div=314 (from 2SA)
+				fort.area=16 (from 2SA)
+				23 Brk Art Div
+					how.bg=38
+					hh.bg=96
+					gds.how.bg BM=21
+					mort.bg=28
+				how.bg.BM=120 (18 BAD)
+				art.reg=116
+				art.reg=1157
+				cannon.reg=21 (from 2SA)
+				cannon.reg=28
+				cannon.reg=260
+				cannon.reg=561 (from 2SA)
+				cannon.reg=1106 (from 2SA)
+				how.reg=599
+				how.reg=754 (from 2SA)
+				at.reg=882 (from 2SA)
+				at.reg=884 (from 2SA)
+				at.bn=301 (from 55A)
+				shg.bn=400 (from 2SA)
+				gds.mort.reg=230 (from 2SA)
+				mort.reg=104 (from 2SA)
+				mort.reg=122 (from 2SA)
+				mort.reg=144 (from 2SA)
+				mort.reg=174 (from 23A)
+				mort.reg=193 (from 2SA)
+				mort.reg=281 (from 2SA)
+				mort.reg=504 (from 2SA)
+				1 Gds Rocket Div
+					rocket.bg=2
+					rocket.bg=5 (from LenF)
+					rocket.bg=6 (from LenF)
+				rocket.reg=20 (from 2SA)
+				rocket.reg=30 (from 2SA)
+				rocket.reg=38 (from LenF)
+				rocket.reg=318 (from LenF)
+				rocket.reg=321
+				32 AA Div
+					aa.reg=1377
+					aa.reg=1387
+					aa.reg=1393
+				43 AA Div
+					aa.reg=464
+					aa.reg=1463
+					aa.reg=1464
+				aa.reg=803 (form LenF)
+				aa.bn=108
+				aa.bn=758 (from 55A)
+				ghs.hvy.tank.reg=46 (from LenF)
+				tank.reg=98 (from 2SA)
+				tank.reg=205
+				eng.bn=734
+				eng.bn=770
+				aslt.eng.bg=13
+			from:
+				rifle.div=43 (to LenF)
+				rifle.div=120 (to 2SA)
+				rifle.div=124 (to 2SA)
+				shg.bn=409 (to 42A)
+		COG:
+			to:
+				art.reg=129
+				aa.reg=635 (43 AAD)
+				aa.reg=785 (from LenF)
+				tank.reg=204
+				corr.air.sqd=52
+			from:
+				tank.bn=287
+		13AA:
+			from:
+				ftr.air.div=240
+	VolF:
+			to:
+				corps.hq=6 (from 8A)
+			from:
+				aero.bn=53
+				aa.bn=168 (to 59A)
+				rifle.div=165 (to 8A)
+				rifle.div=239 (to 8A)
+				rifle.div=256 (to 8A)
+				rifle.div=378 (to 8A)
+		4A:
+			to:
+				eng.bn=365
+			from:
+				cannon.reg=1097 (to 8A)
+		8A:
+				mort.bg=5 (2 AD -> army)
+			to:
+				rifle.div=165 (form VolF)
+				rifle.div=239 (from VolF)
+				rifle.div=256 (from VolF)
+				rifle.div=378 (from VolF)
+				gds.how.br=10 (2 AD)
+				rocket.reg=18
+				rocket.bg=7
+				rocket.bg=10
+				rocket.bg=12
+				how.bg.BM=121
+				cannon.reg=1097
+				gds.cannon.reg=8 (from 4A)
+				gds.cannon.reg=13 (from 54A)
+				tank.bg=16
+				tank.bg=122
+				gds.hvy.tank.reg=33
+				tank.reg=185
+				su.reg=1433
+				tank.bn=500
+				tank.bn=501
+				tank.bn=503
+			from:
+				corps.hq=6 (to VolF)
+				shh.reg=430
+				tank.bg=185
+		54A:
+			to:
+				tank.reg=124
+			from:
+				gds.cannon.reg=13 (to 8A)
+				tank.bg=124
+		59A:
+			to:
+				aa.reg=1470
+				corps.hq=14
+				aa.bn=168 (from VolF)
+				corr.air.sqd=59
+				trans.air.reg=742
+			from:
+				aa.reg=1469
+		14AA:
+			to:				
+				ftr.air.div=269
+			from:
+				ftr.air.reg=845
+	NWF:
+			to:
+				tank.reg=226
+			from:
+				gds.rifle.div=43
+				rifle.div=26
+				14GRC
+				gds.rifle.div=7
+				gds.rifle.div=53
+				gds.art.reg=37
+				mort.reg=283
+				aa.reg=620
+				aa.reg=714
+				AA Div=47
+				aa.reg=1585
+				aa.reg=1586
+				aa.reg=1591
+				aa.reg=1592
+				aero.bn=18
+				aero.bn=19
+				aero.bn=57
+		1SA:
+			to:
+				rifle.div=200
+			from:
+				rifle.div=188 (to 34A)
+				mort.reg=274
+				mort.reg=490
+				aa.bn=29
+				eng.bn=134
+				bridge.bn=92
+		22A:
+			to:
+				eng.bn=134
+			from:
+				gds.cannon.reg=166 (to 34A)
+				cannon.reg=440 (to 34A)
+				how.reg=385 (to 34A)
+				shh.reg=1198
+				at.reg=1040
+				mort.reg=268
+				mort.reg=562
+				mort.reg=563
+				rocket.reg=24
+				aa.reg=582
+				tank.bn=170
+		34A:
+			to:
+				gds.rifle.div=43
+				rifle.div=26
+				rifle.div=188 (from 1SA)
+				gds.cannon.bg=19
+				shh.bg=122
+				gds.art.reg=37
+				gds.cannon.reg=166 (from 22A)
+				cannon.reg=440 (from 22A)
+				how.reg=385 (from 22A)
+				at.reg=1040
+				mort.reg=268
+				mort.reg=274
+				mort.reg=490
+				mort.reg=563
+				mort.reg=563
+				rocket.bg=21
+				rocket.reg=24
+				rocket.reg=42
+				AA Div=42
+				aa.reg=620
+				aa.reg=714
+				AA Div=47
+				aa.reg=1585
+				aa.reg=1586
+				aa.reg=1591
+				aa.reg=1592
+				aa.bn=29
+				tank.reg=27
+				bridge.bn=56
+			from:
+				cannon.bg=72
+				cannon.reg=151
+				mort.bg=24
+				tank.bn=150
+				bridge.bn=50
+	KF:
+			to:
+				5GRC
+				gds.rifle.div=19
+				gds.art.reg=41
+				mech.bg=46
+				tank.bg=143
+				aslt.eng.bg=4
+				aslt.eng.bg=5
+			from:
+				2GRC
+				gds.rifle.div=9
+				gds.rifle.div=17
+				gds.rifle.div=91
+				fort.area=155
+				mort.bg=31
+				gds.art.reg=38
+				at.bg=17
+				at.reg=587
+				mort.reg=551
+				mort.reg=552
+				mort.reg=557
+				mort.reg=559
+				eng.bg=16
+				eng.bg=56
+				eng.bn=293
+				bridge.bn=63
+		3SA:
+			to:
+				rifle.div=32
+				fort.area=118
+			from:
+				rocket.bn=240
+				mech.bg=46
+				5GRC
+				gds.rifle.div=19
+				gds.rifle.div=32
+		4SA:
+			to:
+				rocket.bn=47
+			from:
+				tank.reg=143
+		39A:
+			to:
+				2GRC
+				gds.rifle.div=9
+				gds.rifle.div=17
+				gds.rifle.div=91
+				83RC
+				84RC
+				fort.area=155
+				21AD
+				la.bg=66
+				cannon.bg=64
+				how.bg=55
+				hh.bg=94
+				shh.bg=103
+				mort.bg=25
+				gds.art.reg=38
+				at.bg=17
+				at.reg=587
+				mort.bg=31
+				mort.reg=552
+				rocket.bg=20
+				rocket.reg=326
+				gds.tank.reg=11
+				tank.reg=203
+			from:
+		43A:
+			to:
+				fort.area=5
+				rocket.reg=39
+			from:
+				rocket.bn=47
+		3AA:	
+			to:
+				ftr.air.reg=761
+				corr.air.sqd=13
+			from:
+	WF:
+			to:
+				70RC
+				fort.area=152
+				fort.area=154
+				5BAC
+				Rocket Div=7
+				rocket.bg=4
+				rocket.bg=9
+				rocket.bg=11
+				aa.bn=64
+				5MC
+				mech.bg=2
+				mech.bg=9
+				mech.bg=45
+				tank.bg=233
+				su.reg=1827
+				mcycle.bn=64
+				at.reg=1228
+				mort.reg=458
+				at.reg=745
+				aa.reg=1700
+				gds.tank.bg=43
+				tank.bg=213
+				gds.tank.reg=63
+				eng.bn=132
+				eng.bn=233
+				eng.bn=301
+				bridge.bn=50
+				bridge.bn=63
+				bridge.bn=92
+				bridge.bn=137
+			from:
+				at.reg=758
+				at.bn=731
+				rocket.reg=307
+				aa.reg=1272
+				aa.reg=1708
+				rocket.bn=10
+				tank.bg=94
+				tank.bg=120
+				tank.bg=187
+				gds.tank.bg=2
+				gds.tank.reg=56
+				tank.reg=161
+				tank.reg=233
+				tank.reg=248
+				aero.bn=7
+				aero.bn=37
+				aero.bn=38
+				aero.bn=40
+				1TC
+				tank.bg=89
+				tank.bg=117
+				tank.bg=159
+				motor.bg=44
+				su.reg=1437
+				mort.reg=108
+				lt.at.reg=1514
+				mcycle.bn=86
+				5TC
+				tank.bg=24
+				tank.bg=41
+				tank.bg=70
+				motor.bg=5
+				su.reg=1435
+				aa.reg=1708
+				mort.reg=277
+				lt.at.reg=1515
+				at.bn=731
+				mot.sap.bn=188
+		10GA:
+			to:
+				cannon.reg=166
+				cannon.reg=557
+				cannon.reg=570
+				gds.how.reg=15
+				gds.how.reg=16
+				at.bg=3
+				at.reg=758
+				mort.reg=536
+				rocket.bg=25
+				rocket.reg=317
+				aa.reg=240
+				gds.tank.bg=29
+				tank.reg=248
+				aslt.eng.bg=1
+			from:
+				gds.art.reg=83
+		11GA->
+		5A:
+			to:
+				rifle.div=173
+				3GAD
+				gds.la.bg=7
+				gds.cannon.bg=22
+				gds.how.bg=8
+				hh.bg=99
+				shh.bg=107
+				mort.bg=43
+				gds.cannon.bg=15
+				mort.reg=535
+				rocket.bg=307
+				AA Div=49
+				aa.reg=245
+				aa.reg=1265
+				aa.reg=1271
+				aa.reg=1272
+				aa.reg=1270
+				tank.reg=161
+			from:
+		10A:
+			to:
+				dest.bg=9
+				tank.bg=94
+			from:
+				cannon.reg=188
+		20A->
+			from:
+				fort.area=152
+				fort.area=154
+				gds.at.bg=1
+				mort.reg=535
+				aa.reg=1265
+				aa.reg=1270
+				aa.bn=64
+				eng.bn=291
+				eng.bn=301
+				eng.bn=302
+		21A<-
+			to:
+				61RC
+				rifle.div=51
+				rifle.div=62
+				rifle.div=119
+				rifle.div=63
+				rifle.div=70
+				rifle.div=76
+				rifle.div=95
+				rifle.div=174
+				at.reg=649
+				at.reg=1072
+				mort.reg=456
+				rocket.bn=2
+				aa.reg=1268
+				eng.bn=260
+		31A:
+			to:
+				71RC
+				eng.bn=291
+			from:
+				mort.reg=536
+				AA Div=49
+				aa.reg=240
+				aa.reg=245
+				aa.reg=1271
+				aero.bn=6
+				aero.bn=20
+		33A:
+			to:
+				rifle.div=277
+				4GAD:
+				gds.cannon.bg=11
+				gds.cannon.bg=12
+				gds.cannon.bg=13
+				gds.cannon.bg=14
+				cannon.reg=761
+				cannon.reg=1099
+				rocket.bg=24
+				gds.art.reg=56
+				gds.art.reg=83
+				art.reg=49
+				AA Div=48
+				gds.aa.reg=231
+				aa.reg=50
+				aa.reg=1277
+				aa.reg=1278
+				aa.reg=716
+				gds.tank.bg=2
+			from:
+				cannon.reg=557
+				gds.at.reg=2
+		49A:
+			to:
+				cannon.reg=995
+			from:
+				rifle.div=277
+				cannon.reg=570
+				cannon.reg=1099
+				how.reg=49
+				at.bg=3
+				rocket.reg=317
+				gds.tank.bg=23
+				tank.bn=138
+		50A:
+			to:
+				shh.bg=117
+				cannon.reg=39
+				cannon.reg=188
+				gds.tank.reg=56
+				tank.reg=233
+			from:
+				cannon.reg=523
+				mort.reg=541
+				hvs.su.reg=1536
+		68A<-
+			to:
+				62RC
+				72RC
+				81RC
+				5GAD
+				la.bg=71
+				gds.cannon.bg=17
+				how.bg=67
+				hh.bg=95
+				gds.shh.bg=18
+				mort.bg=27
+				gds.at.bg=1
+				mort.reg=283
+				tank.bg=120
+				tank.reg=187
+				aslt.eng.bg=3
+			from:
+		1AA:
+			to:
+				aa.reg=1604
+				2BAC
+				bmb.air.div=223
+				bmb.air.div=285
+				ftr.air.div=322
+				11MAC
+				ftr.air.reg=4
+				ftr.air.reg=148
+				ftr.air.reg=293
+				att.air.reg=724
+				SAIA.reg=1
+				corr.air.sqd=32
+				corr.air.sqd=62
+			from:
+				aa.reg=1554
+	BF:
+			to:
+				5TC
+				tank.bg=24
+				tank.bg=41
+				tank.bg=70
+				motor.bg=5
+				su.reg=1435
+				lt.at.reg=1515
+				at.bn=731
+				mort.reg=277
+				aa.reg=1708
+				20TC
+				gds.tank.bg=8
+				tank.bg=80
+				tank.bg=155
+				gds.motor.bg=7
+				mcycle.bn=96
+				su.reg=1419
+				lt.at.reg=1505
+				2GCC
+				gds.cav.div=3
+				gds.cav.div=4
+				cav.div=20
+				su.reg=1812
+				gds.at.reg=149
+				gds.at.bn=2
+				rocket.reg=10
+				rocket.bn=60
+				aa.reg=1730
+				8BAC
+				6BAD
+				la.bg=21
+				cannon.bg=10
+				how.bg=18
+				hh.bg=118
+				shh.bg=119
+				pen.mort.bg=2
+			from:
+				rifle.div=186
+				rifle.div=362
+				cannon.bg=44
+				at.bg=12
+				mort.bg=13
+				rocket.bg=8
+				rocket.reg=85
+				rocket.reg=93
+				rocket.reg=310
+				rocket.reg=311
+				rocket.reg=312
+				rocket.reg=313
+				rocket.bn=10
+				aa.reg=1477
+				aa.bn=386
+				gds.tank.reg=11
+				gds.tank.reg=12
+				gds.tank.reg=13
+				gds.tank.reg=26
+				tank.reg=253
+				su.reg=1444
+				su.reg=1445
+				su.reg=1535
+				mcycle.bn=55
+				armd.trn=54
+				3GMD
+				gds.rocket.bg=15
+				gds.rocket.bg=18
+				gds.rocket.bg=19
+				obs.bn=3
+				7BAC
+				16BAD
+				la.bg=49
+				how.bg=52
+				cannon.bg=61
+				hh.bg=90
+				shh.bg=109
+				pen.mort.bg=14
+				17BAD
+				la.bg=37
+				how.bg=50
+				cannon.bg=39
+				hh.bg=92
+				shh.bg=108
+				pen.mort.bg=22
+				13BAD
+				la.bg=42
+				how.bg=47
+				cannon.bg=33
+				hh.bg=88
+				hh.bg=91
+				shh.bg=101
+				pen.mort.bg=17
+				gds.hvy.tank.reg=34
+		11GA<-
+			to:
+				hh.bg=116
+				cannon.reg=523
+				rocket.reg=40
+				rocket.reg=59
+				rocket.reg=74
+				rocket.reg=325
+				aa.reg=1269
+				aa.reg=1483
+				1TC
+				tank.bg=89
+				tank.bg=117
+				tank.bg=159
+				motor.bg=44
+				su.reg=1437
+				mort.reg=108
+				lt.at.reg=1514
+				mcycle.bn=86
+				25TC
+				tank.bg=111
+				tank.bg=162
+				tank.bg=175
+				motor.bg=20
+				mcycle.bn=53
+				lt.at.reg=1497
+				mort.reg=459
+				at.bn=746
+				aa.reg=1702
+				su.reg=1536
+				aslt.eng.bg=10
+			from:
+				rifle.div=217
+				gds.art.reg=56
+				gds.cannon.reg=1
+				gds.cannon.reg=2
+				gds.cannon.reg=17
+				gds.cannon.reg=74
+				gds.cannon.reg=75
+				cannon.reg=39
+				cannon.reg=761
+				cannon.reg=995
+				gds.how.reg=15
+				gds.how.reg=16
+				how.reg=128
+				how.reg=360
+				how.reg=364
+				gds.at.reg=5
+				at.reg=551
+				mort.reg=546
+				rocket.bg=24
+				rocket.bg=25
+				aa.reg=525
+				aa.reg=500
+				aa.reg=716
+				aa.bn=4
+				gds.tank.bg=43
+				tank.bg=213
+				AA Div=48
+				aa.reg=50
+				aa.reg=231
+				aa.reg=1277
+				aa.reg=1278
+				8BAC
+				shh.bg=117
+				6BAD
+				la.bg=21
+				how.bg=18
+				cannon.bg=10
+				shh.bg=119
+				pen.mort.bg=2
+				obs.bn=6
+				14AD
+				la.bg=54
+				how.bg=60
+				cannon.bg=53
+				mort.bg=9
+				obs.bn=14
+		3A:
+			to:
+				rifle.div=186
+				rifle.div=362
+				gds.tank.reg=13
+				tank.reg=253
+				su.reg=1444
+				su.reg=1452
+				armd.trn=10
+				armd.trn=55
+				41RC
+			from:
+				rifle.div=235
+				AA Div=24
+				aa.reg=1045
+				aa.reg=1337
+				aa.reg=1343
+				aa.reg=1349
+				tank.reg=114
+		11A<-
+			to:
+				gds.tank.reg=8
+				tank.reg=42
+				bridge.bn=85
+			from:
+		61A:
+			to:
+				46RC
+				gds.art.reg=60
+			from:
+				rifle.div=97
+				gds.cannon.reg=60
+				gds.hvy.tank.reg=26
+		63A:
+			to:
+				su.reg=1901
+				35RC
+				40RC
+			from:
+				tank.bg=231
+				su.reg=1452
+		4TA<-
+			to:
+			from:
+		15AA:
+			to:
+				ngt.air.div=313
+				trans.air.reg=13
+			from:
+	CF:
+			to:
+			from:

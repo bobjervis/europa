@@ -1,0 +1,295 @@
+<doctrines>
+	mode=		The deployment mode the unit will adopt.  Note that
+				this influences the presence of ZOC, rate of march,
+				etc.
+	role=		The combat role that a unit must have in order to 
+				adopt this doctrine.  If not defined, any eligible 
+				unit type can use the doctrine.
+	adfRate=	Attacking Direct Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in direct combat.
+	aifRate=	Attacking Indirect Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in artillery fire.
+	ddfRate=	Defending Direct Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in direct combat.
+	difRate=	Defending Indirect Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in artillery fire.
+	aRate=		Advance Rate.  This multiple is applied to the retreat
+				interval of the defenders.  A more aggressive doctrine will
+				capture a hex sooner than a less aggressive or effective
+				doctrine would.
+	aacRate=	When Attacking, Attacker Casualty Rate.  This multiple is applied to the 
+				attacker's casualties incurred during a combat.  Note that
+				this rate applies for both attacking and defending doctrines.
+				Thus an aggressive attack doctrine against an effective 
+				defensive doctrine will yield combined increases in casualties.
+	adcRate=	When Attacking, Defender Casualty Rate.  This multiple is applied to the
+				defender's casualties incurred during a combat.  Like the acRate,
+				the dcRate is defined for both offensive and defensive doctrines
+				and will yield combined results.
+	dacRate=	When Defending, Attacker Casualty Rate.  This multiple is applied to the 
+				attacker's casualties incurred during a combat.  Note that
+				this rate applies for both attacking and defending doctrines.
+				Thus an aggressive attack doctrine against an effective 
+				defensive doctrine will yield combined increases in casualties.
+	ddcRate=	When Defeinding, Defender Casualty Rate.  This multiple is applied to the
+				defender's casualties incurred during a combat.  Like the acRate,
+				the dcRate is defined for both offensive and defensive doctrines
+				and will yield combined results.
+
+	<doctrine doc=attack name="Attack" code=A
+		mode=attack
+		role=attdef
+		adfRate=.9
+		aifRate=1
+		aRate=1
+		aacRate=1.5
+		adcRate=1.1
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+        requiresUse
+	 />
+		- A popular old-school attack style favored by WW I and less sophisticated WW II nations
+		- Note that this is taken as the 'standard' offensive doctrine rates, against which
+			
+	<doctrine doc=wave name="Human wave attack" code=wA
+		mode=attack
+		role=attdef
+		adfRate=.9
+		aifRate=1
+		aRate=1
+		aacRate=1.5
+		adcRate=1.1
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+	 />
+
+		- Essentially invented by the Germans in 1916, this is the most sophisticated
+			assault technique available, but it is costly
+
+	<doctrine doc=infil name="Infiltration Attack" code=iA
+		mode=attack
+		role=attdef
+		adfRate=1
+		aifRate=1
+		aRate=1
+		aacRate=1
+		adcRate=1
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+        requiresUse
+	 />
+
+		- This is the German Blitzkrieg assault appropriate for German combined arms attacks
+
+	<doctrine doc=keil name="Keil und Kessel Attack" code=kA
+		mode=attack
+		role=tac
+		adfRate=1
+		aifRate=1
+		aRate=1.5
+		aacRate=1.1
+		adcRate=1.1
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+        requiresUse
+	 />
+
+		- This type of assault is typical of American WW II units relying on heavy arty and
+			air support and conserving losses.
+
+	<doctrine doc=cautious name="Cautious attack" code=cA
+		mode=attack
+		adfRate=.8
+		aifRate=1
+		aRate=.5
+		aacRate=.9
+		adcRate=.9
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+	 />
+
+		- Another cautious form of combat, this will yield an advance only if the defenses 
+			are extremely weak.
+
+	<doctrine doc=probe name="Probing attack" code=pA
+		mode=attack
+		adfRate=.7
+		aifRate=.8
+		aRate=.3
+		aacRate=.7
+		adcRate=.7
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+	 />
+
+		- A typical order for quiet sectors.  This form of combat does not try to advance,
+			but merely terrorizes and bleeds the opposition: appropriate for artillery units
+
+	<doctrine doc=harass name="Harassment fire" code=hA
+		mode=attack
+		role=art
+		adfRate=0
+		aifRate=.1
+		aRate=0
+		aacRate=0
+		adcRate=.5
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+	 />
+
+    - A typical order for artilery units supporting an assault
+
+    <doctrine doc=barrage name="Barrage" code=bA
+		mode=attack
+		role=art
+		adfRate=0
+		aifRate=1
+		aRate=0
+		aacRate=0
+		adcRate=.8
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1.5
+	 />
+
+	<doctrine doc=defend name="Defense" code=D
+		mode=defend
+		aRate=1
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1
+        requiresUse
+	 />
+
+		- A defensive order used with less sophisticated troops.
+
+	<doctrine doc=fixed name="Fixed defense" code=fD
+		mode=defend
+		aRate=1
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1
+	 />
+
+    - The standard defensive doctrine used whenever the strength of the defenders is
+    enough.  A defense in depth will generally be able to hold a position as long as
+    available reserves hold out.
+
+    <doctrine doc="depth" name="Defense in depth" code="dD"
+		mode="defend"
+		aRate="1"
+		ddfRate=1
+		difRate=1
+		dacRate=1
+		ddcRate=1
+	 />
+
+    - This defense is adopted when numbers are not sufficient to hold the position with
+    a proper defense in depth.
+
+    <doctrine doc="around" name="All-around defense" code="aD"
+		mode="defend"
+		aRate="1"
+		ddfRate=1
+		difRate=1
+		dacRate=.8
+		ddcRate=1
+	 />
+
+    - This defense is adopted when the defenders want to yield ground when attacked,
+    conserving strength and minimizing losses, but giving ground
+
+    <doctrine doc=screen name="Screen" code=sD
+		mode=defend
+		aRate=2
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1
+	 />
+
+		- This mode expends fuel and ammo in field exercises, and produces some wear and tear,
+			but improves the experience of the unit's staff
+
+	<doctrine doc=training name="Training" code=T
+		mode=training
+		aRate=.9
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1
+	 />
+
+    - This mode minimizes resource consumption and wear and tear.  It also revives fatigue.
+
+    <doctrine doc="rest" name="Rest" code="R"
+		mode="rest"
+		aRate=".7"
+		ddfRate=".5"
+		difRate=".5"
+		dacRate=".8"
+		ddcRate="1"
+	 />
+
+    - This mode disperses the unit into adjacent hexes to protect facilities and combat
+    partisans.
+
+    <doctrine doc=security name="Security" code=S
+		mode=security
+		aRate=.9
+		ddfRate=.5
+		difRate=.5
+		dacRate=.8
+		ddcRate=1
+	 />
+
+    <doctrine doc="command" name="Command" code="C"
+		mode="command"
+		role="hq"
+		aRate="1"
+		ddfRate=".5"
+		difRate=".5"
+		dacRate=".8"
+		ddcRate="1"
+	 />
+
+    <doctrine doc="entrain" name="Entrained" code="E"
+		mode="entrained"
+		aRate="1"
+		ddfRate=".25"
+		difRate=".1"
+		dacRate=".8"
+		ddcRate="3"
+	 />
+
+	<doctrine doc=move name="March" code=M
+		mode=move
+		aRate=1
+		ddfRate=.25
+		difRate=.25
+		dacRate=1
+		ddcRate=2
+	 />
+
+</>

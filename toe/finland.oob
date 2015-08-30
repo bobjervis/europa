@@ -1,0 +1,49 @@
+<OOB combatant=Finland >
+	<unit name="Higher Commands" colors=Finnish >
+		<unit uid=ghq ghq=GHQ name="Paamaja (Supreme Command)" abbreviation=GHQ >
+			<unit sig.bn=1 />
+			<unit sig.bn=2 />
+			<unit sig.bn=Radio />
+		</>
+		<unit uid=kan badge=army size=XXXX name="Karelian Isthmus Group" >
+			<unit army.hq=Kan uid=kan.hq />
+		</>
+		<unit uid=olonets badge=army size=XXXX name="Olonets Group" >
+			<unit army.hq=Olo uid=olonets.hq />
+		</>
+		<unit uid=maas badge=inf size=XXX name="Maaselka Group" >
+			<unit corps.hq=Maas uid=maas.hq />
+		</>
+		<unit ak=3 />
+		<unit ak=5 />
+		<unit ak=6 />
+	</unit>
+	<unit name="Infantry" >
+		<unit inf.div=1 />
+		<unit inf.div=2 />
+		<unit inf.div=3 />
+		<unit inf.div=4 />
+		<unit inf.div=5 />
+		<unit inf.div=6 />
+		<unit inf.div=7 />
+		<unit inf.div=8 />
+		<unit inf.div=10 />
+		<unit inf.div=11 />
+		<unit inf.div=14 />
+		<unit inf.div=15 />
+		<unit inf.div=17 />
+		<unit inf.div=18 />
+		<unit inf.bg=3 />
+		<unit inf.bg=12 />
+		<unit inf.bg=15 />
+		<unit inf.bg=19 />
+		<unit uid=laat inf.bg=Laatokan abbreviation=L />
+		<unit uid=aan coast.bg=Aanisen abbreviation=A />
+	</unit>
+	<unit name="Artillery" >
+	</unit>
+	<unit name="Other" >
+		<unit uid=p pz.div=Panssari abbreviation=P />
+		<unit uid=cx cav.bg=Cav name=Cavalry abbreviation=C />
+	</unit>
+</OOB>

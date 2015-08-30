@@ -1,0 +1,560 @@
+<weapons>
+	notes:	
+		aa=		anti-aircraft strength (in effect, the firing accuracy.  This sort of data is scarce and heavily estimated.)
+		alt=	anti-aircraft altitude: L or H
+		xrate=	kg/min nominal maximum firing rate
+		ap=		anti-personnel strength (in effect, the efficiency of maximum fire rate)
+				Because anti-personnel weapons either use bullets or explosive charges, there
+				is less clear-cut a relation between rate of fire and anti=personnel efficiency.
+				Mortars are assumed to be relatively inaccurate (as are rockets).
+				There is some question about the efficiency of riflemen versus machine guns.  The
+				tables below assume that the rifleman is taken as the value 1 and all other
+				values derive from this factor.  
+		armor=	armor rating (compares with atpen) - same scale as atpen
+		at=		anti-tank strength (in effect, the firing accuracy combined with the number of shots
+				available per minute.  The issue of rate of fire takes into account the fact
+				that heavier weapons reloaded more slowly, where the chance of a hit is really
+				a function of the number o fshots on target.  The atpen factor will tend to
+				cancel out the rate when using small caliber weapons against heavily armored
+				targets.
+				(Accuracy data is scarce and heavily estimated.)
+				Remember that this factor is multiplied by the rate to produce a total number of hit points.  
+				Thus, a small caliber gun may have a high at factor, a low rate and a low atpen
+				so that it would compare favorably with a heavy gun when shooting at lightly 
+				armored targets like APC's, but would be reduced to insignificance against a
+				heavily armored target such as a IS II or a Panther.
+		atpen=	anti-tank penetration (at 500 meters, against homogeneous armor) one of:
+					1			>=10mm @ 30 front hull armor
+					2			>=20mm @ 30 front hull armor
+					3			>=30mm @ 30 front hull armor
+					4			>=40mm @ 30 front hull armor
+					5			>=50mm @ 30 front hull armor
+					6			>=60mm @ 30 front hull armor
+					7			>=70mm @ 30 front hull armor
+					8			>=80mm @ 30 front hull armor
+					9			>=100mm @ 30 front hull armor
+					10			>=120mm @ 30 front hull armor
+					11			>=140mm @ 30 front hull armor
+					12			>=170mm @ 30 front hull armor
+					13			>=200mm @ 30 front hull armor
+					14			>=250mm @ 30 front hull armor
+		ceil=	Aircraft ceiling in meters altitude
+		class=	Weapon class, one of:
+					aa			Anti-aircraft weapon (towed or sp)
+					afv			Armored fighting vehicle
+					arecce		Reconnaissance aircraft
+					art			Artillery piece (towed or sp)
+					at			Anti-tank gun
+					bomb		Bomber aircraft
+					ftr			Fighter aircraft
+					hvy			Heavy weapon
+					inf			Infantry weapon
+					mort		Mortar
+					ship		Surface boat / ship
+					spec		Specialist
+					sub			Submarine
+					veh			Vehicle (non-armored)
+		country=Country of manufacture / design
+		crew=	number of men included manning weapon
+		desc=	Description, model of weapon
+		fuel=	kilometers of road travel / ton of fuel consumed - offroad fuel consumption typically 50% greater
+		fuelCap=liters of fuel held
+		ammoCap=tons of ammunition held
+		load=	Bomb load capacity of bomber aircraft / hauling capacity of 
+				vehicle, train or aircraft
+		name=	Name used in referring to weapon (must be unique)
+		carr=	Carrier (foot, horse, bicycle, motorcycle, 2wd, 4wd, etc.) - 
+				default is foot
+		range=	Range in kilometers of indirect fire artillery or aircraft
+		xrate=	Consumption of ammunition in nominal kg/day - note that actual rate of fire 
+				depends on doctrine, available supply, intensity of combat, etc.
+		speed=	Air speed of aircraft
+		tow=	Can tow light (lt) or heavy (hvy) towed equipment
+		towed=	Can be towed and is light (lt) or heavy (hvy)
+		wt=		system weight, including full crew in metric tons
+
+	special attributes:
+
+		commissar	Political / propaganda officer
+		doctor		Medical doctor
+		eng			Combat engineer
+		general		General
+		jroff		Junior officer (Captain)
+		medic		Medical aide / nurse
+		mine		Mining ability
+		railrepair	Rail repair crew
+		radio		Radio
+		sroff		Senior officer (Major - Colonel)
+		svc			Service / support personnel
+		tankrepair	Tank repair crew
+		telephone	Telephone
+
+	Rate, ap, aa, and at ratings.  The weapon fire rate times the strength rating gives the net 
+	nominal firepower of the weapon.  However, weapons can consume ammunition far faster than
+	factories can produce it and trains can deliver it to the weapon.  Also, tactical doctrine
+	will dramatically influence the rate of fire (by reducing it from the nominal rate).  
+
+	The following weapons list includes most models that saw service for the combatants.  In a few cases, similar
+	models have been combined, however, sources refer to numerous models which were created in limited numbers and
+	which have not been included here so far for lack of reliable information about the model.  I've found that no
+	one source can be considered definitive.
+
+			Infantry weapons
+
+	<weapon name=rifle		class=inf desc="Rifle"										ammoCap=.001 rate=.1	ap=1															crew=1							wt=.1 />
+	<weapon name=eng		class=inf desc="Engineer" mine eng							ammoCap=.002 rate=.12	ap=1	at=3								atpen=3				crew=1							wt=.12 />
+	<weapon name=smg		class=inf desc="Submachinegun"								ammoCap=.008 rate=1.6	ap=.6															crew=1							wt=.1 />
+	<weapon name=semi		class=inf desc="Semi-automatic Rifle"						ammoCap=.002 rate=.3 	ap=.7															crew=1							wt=.1 />
+	<weapon name=lmg		class=inf desc="Light Machine Gun"							ammoCap=.040 rate=3 	ap=.5			aa=3									alt=L	crew=2							wt=.22 />
+	<weapon name=lmg-dp		class=inf desc="Light Machine Gun DP"						ammoCap=.040 rate=2.4	ap=.48			aa=3									alt=L	crew=2							wt=.22 country=USSR/>
+	<weapon name=lmg-42		class=inf desc="Light Machine Gun MG42"						ammoCap=.050 rate=4.8	ap=.52			aa=3									alt=L	crew=2							wt=.22 country=Germany/>
+	<weapon name=mg-34		class=inf desc="Medium Machine Gun MG34"					ammoCap=.060 rate=2.2	ap=.51			aa=2									alt=L	crew=2							wt=.22 country=Germany/>
+
+			Functional specialists
+
+	<weapon name=general	class=spec desc="General" general							ammoCap=.001 rate=.04	ap=.8															crew=1							wt=.1 />
+	<weapon name=sroff		class=spec desc="Senior Officer" sroff						ammoCap=.001 rate=.04	ap=.9															crew=1							wt=.1 />
+	<weapon name=jroff		class=spec desc="Junior Officer" jroff						ammoCap=.001 rate=.04	ap=1															crew=1							wt=.1 />
+	<weapon name=commissar	class=spec desc="Commissar"	commissar						ammoCap=.001 rate=.04	ap=.8															crew=1							wt=.1 />
+	<weapon name=miner		class=spec desc="Mine Layer" mine							ammoCap=.001 rate=.08	ap=.8															crew=1							wt=.1 />
+	<weapon name=doctor		class=spec desc="Doctor" doctor											 																			crew=1							wt=.1 />
+	<weapon name=medic		class=spec desc="Medic"	medic											 																			crew=1							wt=.1 />
+
+		- Note: service personnel include post office, kitchen, army bands, clerks, vets, etc.
+
+	<weapon name=svc		class=spec desc="Support Service" svc						ammoCap=.001 rate=.06	ap=.8															crew=1							wt=.1 />
+	<weapon name=tankrepair class=spec desc="Tank Repair Crew" tankrepair				ammoCap=.001 rate=.06	ap=.8															crew=1							wt=.15 />
+	<weapon name=railrepair class=spec desc="Rail Repair Engineer" railrepair			ammoCap=.001 rate=.06	ap=.8															crew=1							wt=.15 />
+
+			Special Equipment
+
+	<weapon name=bridge		class=spec desc="Bridge" bridge								ammoCap=.010 rate=.6	ap=.8															crew=10							wt=10				breakdown=0.01 carrier=2wd fuel=266 fuelCap=480 note="assumes four trucks integral to weapon"/>
+	<weapon name=boat		class=spec desc="Motor Boat" boat							ammoCap=.001 rate=.06	ap=.8															crew=1							wt=2				breakdown=0.01 carrier=2wd fuel=1063 fuelCap=120/>
+	<weapon name=radio		class=spec desc="Radio"	radio								ammoCap=.001 rate=.06	ap=.8															crew=1							wt=.15/>
+	<weapon name=telephone	class=spec desc="Telephone"	telephone						ammoCap=.001 rate=.06	ap=.8															crew=1							wt=.15/>
+
+			Heavy weapons
+
+	<weapon name=mmg		class=inf desc="Medium Machine Gun"							ammoCap=.100 rate=3.6	ap=.51			aa=2									alt=L	crew=4							wt=.45 />
+	<weapon name=mmg-maxim	class=inf desc="Maxim 1910"									ammoCap=.100 rate=3.2	ap=.49			aa=2									alt=L	crew=4							wt=.55				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=hmg		class=inf desc="Heavy Machine Gun"							ammoCap=.100 rate=4.8	ap=.52			aa=3									alt=L	crew=5							wt=.6				breakdown=0.01 carrier=fixed/>
+	<weapon name=hmg-dshk	class=inf desc="Heavy Machine Gun DShK"						ammoCap=.100 rate=4.2	ap=.5			aa=3									alt=L	crew=5							wt=.65				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=atr-ptrd	class=inf desc="PTRD 41 Antitank Rifle"						ammoCap=.070 rate=.6	ap=.2	at=1			apWt=2				atpen=4				crew=2							wt=.22 />
+	<weapon name=atr-ptrs	class=inf desc="PTRS 41 Antitank Rifle"						ammoCap=.070 rate=1.4	ap=.2	at=.9			apWt=2				atpen=4				crew=2							wt=.22 />
+	<weapon name=atr-38		class=inf desc="7.92mm Panzerbuchse AT Rifle"				ammoCap=.070 rate=.4	ap=.2	at=1			apWt=2				atpen=3				crew=2							wt=.22 country=Germany/>
+	<weapon name=atr-39		class=inf desc="7.92mm Panzerbuchse AT Rifle"				ammoCap=.070 rate=1 	ap=.2	at=.9			apWt=2				atpen=3				crew=2							wt=.22 country=Germany/>
+	<weapon name=atr-20		class=inf desc="20mm Solothurn Antitank Rifle"				ammoCap=.090 rate=.6	ap=.2	at=1.3			apWt=2				atpen=5				crew=2							wt=.24 country=Germany/>
+	<weapon name=flame		class=inf desc="Flamethrower"								ammoCap=.001 rate=.2	ap=1.5	at=5			apWt=2				atpen=13			crew=1							wt=.13 />
+	<weapon name=atmort		class=inf desc="Antitank Mortar"							ammoCap=.020 rate=2.2	ap=.4	at=.5			apWt=2				atpen=2				crew=2							wt=.25 />
+
+			Transport vehicles
+
+	<weapon name=ski		class=veh desc="Ski"																																crew=0				load=.11	wt=.005				breakdown=0.01 carrier=ski/>
+	<weapon name=bike		class=veh desc="Bicycle"																															crew=0				load=.11	wt=.025				breakdown=0.01 carrier=bicycle/>
+	<weapon name=mcycle		class=veh desc="Motorcycle"																															crew=0				load=.11	wt=.25				breakdown=0.01 carrier=motorcycle fuel=5000 fuelCap=7/>
+	<weapon name=mcycle-sc	class=veh desc="Motorcycle with Sidecar"																											crew=0				load=.23	wt=.3				breakdown=0.01 carrier=motorcycle fuel=4700 fuelCap=7/>
+	<weapon name=mount		class=veh desc="Horse Mount"																														crew=0				load=.11	wt=.5				breakdown=0.01 carrier=horse/>
+	<weapon name=pack		class=veh desc="Pack Animal"								ammoCap=.001 rate=.06	ap=.9															crew=1				load=.2		wt=.5				breakdown=0.01 carrier=horse/>
+	<weapon name=horses		class=veh desc="Horse Team"									ammoCap=.001 rate=.06	ap=.9															crew=1	tow=lt					wt=2				breakdown=0.01 carrier=horse/>
+	<weapon name=cart		class=veh desc="Panje Cart"									ammoCap=.001 rate=.06	ap=.9															crew=1				load=.3		wt=2				breakdown=0.01 carrier=horse />
+	<weapon name=kubel		class=veh desc="Type 82 Kubelwagon"							ammoCap=.001 rate=.06	ap=.9															crew=1	tow=lt		load=.3		wt=1.275			breakdown=0.01 carrier=2wd fuel=3406 fuelCap=40 country=Germany />
+	<weapon name=lcar		class=veh desc="Light staff car"							ammoCap=.001 rate=.06	ap=.9															crew=1	tow=lt		load=.3		wt=1.275			breakdown=0.01 carrier=2wd fuel=3400 fuelCap=40 country=Germany />
+	<weapon name=mcar		class=veh desc="Medium staff car"							ammoCap=.001 rate=.06	ap=.9															crew=1	tow=lt		load=.4		wt=1.500			breakdown=0.01 carrier=2wd fuel=3200 fuelCap=50 country=Germany />
+	<weapon name=hcar		class=veh desc="Heavy staff car"							ammoCap=.001 rate=.06	ap=.9															crew=1	tow=lt		load=.5		wt=1.700			breakdown=0.01 carrier=2wd fuel=3000 fuelCap=60 country=Germany />
+	<weapon name=omnibus	class=veh desc="Omnibus"									ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=1.5	wt=2.000			breakdown=0.01 carrier=2wd fuel=2000 fuelCap=80 country=Germany />
+	<weapon name=scout		class=veh desc="Scout Car"									ammoCap=.002 rate=.12	ap=.9															crew=2				load=.2		wt=1.2				breakdown=0.01 carrier=2wd fuel=1000 fuelCap=80/>
+	<weapon name=jeep		class=veh desc="Willys Jeep"								ammoCap=.001 rate=.06	ap=.9															crew=1				load=.25 	wt=1.347			breakdown=0.01 carrier=4wd fuel=1200 fuelCap=82 country=USA/>
+	<weapon name=truck		class=veh desc="Truck"										ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=1.5 	wt=2.5				breakdown=0.01 carrier=2wd fuel=1063 fuelCap=120/>
+	<weapon name=truck4		class=veh desc="4WD Truck"									ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=1.5	wt=2.7				breakdown=0.01 carrier=4wd fuel=1000 fuelCap=120/>
+	<weapon name=sd305		class=veh desc="SdKfz 305 Opel 3.6-36 Truck"				ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=1.6	wt=2.6				breakdown=0.01 carrier=2wd fuel=1063 fuelCap=82/>
+	<weapon name=sd305s		class=veh desc="SdKfz 305 Opel 3.6-36s Truck"				ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=1.6	wt=2.6				breakdown=0.01 carrier=4wd fuel=1000 fuelCap=82 note="estimated fuel efficiency"/>
+	<weapon name=wagon		class=veh desc="Horse-drawn Wagon"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=.5		wt=2				breakdown=0.01 carrier=horse/>
+	<weapon name=tractor	class=veh desc="Tractor"									ammoCap=.001 rate=.06	ap=.9															crew=1  tow=hvy		load=4		wt=5.9				breakdown=0.01 carrier=ftrack fuel=300 fuelCap=400 note="Estimated fuel "/>
+	<weapon name=sleigh		class=veh desc="NKL-16 Aerosleigh"							ammoCap=.050 rate=3 	ap=1.1															crew=3				load=.5		wt=3				breakdown=0.01 carrier=sleigh fuel=500 fuelCap=100 country=USSR note="All characteristics estimated"/>
+	<weapon name=sws		class=veh desc="schw. Wehrmachtsschl. Halftrack"			ammoCap=.001 rate=.06	ap=.9															crew=1  tow=med		load=3		wt=7.6		armor=1	breakdown=0.01 carrier=htrack fuel=340.6 fuelCap=240 country=Germany />
+	<weapon name=med-htrack	class=veh desc="Medium Halftrack"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=med		load=1.5	wt=10				breakdown=0.01 carrier=htrack fuel=350 fuelCap=200/>
+	<weapon name=maultier	class=veh desc="SdKfz 4 Halftrack 'Maultier'"				ammoCap=.001 rate=.06	ap=.9															crew=1  tow=med		load=4.5	wt=7.1				breakdown=0.01 carrier=htrack fuel=400.0 fuelCap=190 country=Germany note="estimated fuel"/>
+	<weapon name=sdkfz6		class=veh desc="SdKfz 6 Halftrack"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=lt		load=1.6	wt=9.1				breakdown=0.01 carrier=htrack fuel=430.2 fuelCap=190 country=Germany/>
+	<weapon name=sdkfz7		class=veh desc="SdKfz 7 Halftrack"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=med		load=1.3	wt=9.8				breakdown=0.01 carrier=htrack fuel=350 fuelCap=215 country=Germany note="Fuel efficiency estimated"/>
+	<weapon name=sdkfz8		class=veh desc="SdKfz 8 Halftrack"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=hvy		load=1.6	wt=13.1				breakdown=0.01 carrier=htrack fuel=272.5 fuelCap=250 country=Germany /> 
+	<weapon name=sdkfz9		class=veh desc="SdKfz 9 Halftrack"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=hvy		load=2.7	wt=12.23			breakdown=0.01 carrier=htrack fuel=234.9 fuelCap=290 country=Germany />
+	<weapon name=sdkfz11	class=veh desc="SdKfz 11 Halftrack"							ammoCap=.001 rate=.06	ap=.9															crew=1  tow=med		load=2.7	wt=7.1  			breakdown=0.01 carrier=htrack fuel=234.9 fuelCap=290 country=Germany />
+
+			Trains
+
+	<weapon name=train		class=veh desc="Train"																																crew=4				load=450	wt=.001		armor=2 breakdown=0.01 carrier=rail />
+
+
+			APCs
+
+	<weapon name=m3a1		class=veh desc="M3A1 Scout Car"								ammoCap=.050 rate=3	    ap=.5															crew=2	tow=lt		load=1.5	wt=9				breakdown=0.01 carrier=htrack fuel=500 fuelCap=200 country=USA/>
+	<weapon name=sd250		class=veh desc="SdKfz 250/1 APC"							ammoCap=.050 rate=2.2	ap=.51															crew=2  tow=lt		load=1.5	wt=5.9		armor=1 breakdown=0.01 carrier=htrack fuel=622.8 fuelCap=120 country=Germany/>
+	<weapon name=sd251		class=veh desc="SdKfz 251/1 APC"							ammoCap=.050 rate=4.4	ap=.51															crew=2  tow=lt		load=1.5	wt=8.1		armor=1 breakdown=0.01 carrier=htrack fuel=510.9 fuelCap=120 country=Germany/>
+	
+			Artillery: Mortars
+
+	<weapon name=50mtr		class=mort desc="50mm Mortar 1940"							ammoCap=.200 rate=5.7	ap=.4					apWt=3  range=1							crew=3 							wt=.395				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=50mtr-36	class=mort desc="50mm Light Mortar 36"						ammoCap=.200 rate=5.4	ap=.4					apWt=3  range=1							crew=3 							wt=.315				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=60mtr		class=mort desc="60mm Mortar"								ammoCap=.240 rate=10	ap=.4					apWt=4  range=1 						crew=4							wt=.5				breakdown=0.01 carrier=fixed country=Hungary/>
+	<weapon name=81mtr		class=mort desc="81mm Mortar"								ammoCap=.300 rate=21.5	ap=.4					apWt=5	range=3							crew=5							wt=.6				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=82mtr		class=mort desc="82mm Mortar BM-82 1937"					ammoCap=.300 rate=22.6	ap=.3					apWt=5  range=3 						crew=5							wt=.556				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=107mtr		class=mort desc="107mm Mortar 1938"							ammoCap=.350 rate=36.8	ap=.32					apWt=6  range=6 						crew=6							wt=.770				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=120mtr		class=mort desc="120mm PM-120 Mortar 1938"					ammoCap=.800 rate=90.5	ap=.4					apWt=6  range=6 						crew=6	towed=lt				wt=.875				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=120mtr-42	class=mort desc="120mm Mortar 42"							ammoCap=.800 rate=90.5	ap=.4					apWt=6  range=6 						crew=6	towed=lt				wt=.875				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=160mtr		class=mort desc="160mm Mortar MT-13 1943"					ammoCap=.700 rate=69.8	ap=.4					apWt=7  range=5  						crew=7	towed=lt				wt=1.83				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=280mtr		class=mort desc="280mm Mortar BR-5 1939"					ammoCap=1.00 rate=46.4	ap=.4					apWt=10 range=10 						crew=8	towed=hvy				wt=19.2				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=355mtr		class=mort desc="355mm Mortar M1"							ammoCap=1.00 rate=53.2	ap=.5					apWt=11 range=21 						crew=24	towed=hvy				wt=82.65			breakdown=0.01 carrier=fixed country=Germany/>
+
+			Artillery: Guns
+
+	<weapon name=45m42		class=art desc="45mm Infantry Gun M-42 1942"				ammoCap=.400 rate=15	ap=.5	at=.7			apWt=3  range=6		atpen=4				crew=4	towed=lt				wt=.97				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=47ig		class=art desc="47mm Infantry Gun"							ammoCap=.400 rate=12	ap=.5	at=.6			apWt=3  range=5		atpen=4				crew=5	towed=lt				wt=1				breakdown=0.01 carrier=fixed country=Italy/>
+	<weapon name=57z2		class=art desc="57mm Infantry Gun ZIS-2 1943"				ammoCap=.450 rate=30	ap=.55	at=1.5			apWt=4  range=6		atpen=6				crew=5	towed=lt				wt=1.65				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=75ig		class=art desc="75mm leIG 18 Infantry Gun"					ammoCap=.625 rate=41.2	ap=.55	at=.7			apWt=5  range=4		atpen=6				crew=5	towed=lt				wt=1				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=75Gebg		class=art desc="75mm GebG 36 Mountain Gun"					ammoCap=.625 rate=38	ap=.54	at=.7			apWt=5  range=10	atpen=6				crew=5	towed=lt				wt=.8				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=75lg		class=art desc="75mm LG 40 Airborne Gun"					ammoCap=.625 rate=37	ap=.55	at=.7			apWt=5  range=8		atpen=6				crew=5	towed=lt				wt=.2				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=75fk		class=art desc="75mm FK 38 Field Cannon"					ammoCap=.625 rate=40	ap=.55	at=.7			apWt=5  range=12	atpen=6				crew=5	towed=lt				wt=1.6				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=76ig		class=art desc="76mm Infantry Gun USV 1939"					ammoCap=.650 rate=40	ap=.5	at=.8			apWt=5  range=13	atpen=5				crew=5	towed=lt				wt=1.98				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=76z3		class=art desc="76mm Infantry Gun ZIS-3 1942"				ammoCap=.650 rate=45	ap=.5	at=1			apWt=5  range=13	atpen=6				crew=5	towed=lt				wt=1.616			breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=100gun		class=art desc="100mm Gun BS-3 1944"						ammoCap=1.50 rate=190	ap=.55					apWt=5	range=20						crew=5	towed=med				wt=4.15				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=100sk		class=art desc="100mm Skoda v16 Howitzer"					ammoCap=1.50 rate=165	ap=.55					apWt=5  range=12						crew=8	towed=med				wt=4				breakdown=0.01 carrier=fixed country=Czech/>
+	<weapon name=105fh		class=art desc="105mm 1eFH 18"								ammoCap=1.50 rate=157.9	ap=.6	at=.8			apWt=6	range=13	atpen=8				crew=6	towed=med				wt=5				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=105Gebh	class=art desc="105mm GebH H40"								ammoCap=1.50 rate=157.9	ap=.6					apWt=6  range=8							crew=6	towed=med				wt=5				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=105lg		class=art desc="105mm LG40"									ammoCap=1.50 rate=157.9 ap=.6					apWt=6  range=8							crew=6	towed=lt				wt=.4				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=105lg42	class=art desc="105mm LG42"									ammoCap=1.50 rate=157.9	ap=.6					apWt=6  range=8							crew=6	towed=lt				wt=.6				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=105kan		class=art desc="105mm K18 Cannon"							ammoCap=1.50 rate=149	ap=.6	at=.8			apWt=6	range=19	atpen=11			crew=6	towed=lt				wt=5.5				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=107gun		class=art desc="107mm Gun M-60 1940"						ammoCap=1.50 rate=150	ap=.6					apWt=6  range=12						crew=6	towed=med				wt=4.6				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=122how		class=art desc="122mm Howitzer M-30 1938"					ammoCap=.700 rate=220	ap=.65	at=.7			apWt=6	range=12	atpen=6				crew=7	towed=med				wt=3.2				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=122gun		class=art desc="122mm Gun A-19 1931/1937"					ammoCap=.700 rate=185	ap=.7					apWt=6  range=19						crew=7	towed=hvy				wt=7.82				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=149how		class=art desc="149mm Howitzer 14.M"						ammoCap=.800 rate=260	ap=.7					apWt=7  range=10						crew=9	towed=hvy				wt=6				breakdown=0.01 carrier=fixed country=Hungary/>
+	<weapon name=150ig		class=art desc="150mm sIG 33 Infantry Gun"					ammoCap=.720 rate=142.8	ap=.75	at=.8			apWt=7	range=5		atpen=11			crew=8	towed=med				wt=1.6				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=150fh13	class=art desc="150mm sFH 13 Field Howitzer"				ammoCap=.720 rate=282	ap=.6	at=.8			apWt=7	range=8		atpen=11			crew=8	towed=med				wt=3				breakdown=0.01 carrier=fixed country=Germany />
+                                                                                                    (150fh was 114.3)
+	<weapon name=150fh		class=art desc="150mm sFH 18 Field Howitzer"				ammoCap=.720 rate=257.1	ap=.75	at=.8			apWt=7	range=14	atpen=11			crew=8	towed=med				wt=6				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=150k18		class=art desc="150mm K 18 Cannon"							ammoCap=.720 rate=285	ap=.75	at=.8			apWt=7	range=26	atpen=11			crew=8	towed=med				wt=14				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=150k39		class=art desc="150mm K 39 Cannon"							ammoCap=.720 rate=285	ap=.75					apWt=7  range=26						crew=8	towed=med				wt=13				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=152how-m10	class=art desc="152mm Howitzer M-10 1938"					ammoCap=.700 rate=270	ap=.7					apWt=7 	range=12						crew=11	towed=hvy				wt=5.25				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=152how		class=art desc="152mm Howitzer ML-20 1937"					ammoCap=.700 rate=325   ap=.7					apWt=7	range=17						crew=11	towed=hvy				wt=5.25				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=152gun		class=art desc="152mm Gun BR-2 1935"						ammoCap=.500 rate=150	ap=.8					apWt=7	range=27						crew=12	towed=hvy				wt=19.4				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=152how-d1	class=art desc="152mm Howitzer D-1 1943"					ammoCap=.700 rate=330	ap=.75					apWt=7	range=12						crew=11	towed=med				wt=4.75				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=152how-45c	class=art desc="152mm Howitzer .45 cal Canet"				ammoCap=.700 rate=600	ap=.75					apWt=7	range=20						crew=35							wt=21.2				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=170kan		class=art desc="170mm Cannon"								ammoCap=.800 rate=290	ap=.75					apWt=7  range=31						crew=8	towed=hvy				wt=19				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=180tm		class=art desc="180mm Tm-1-180 Railway Gun"					ammoCap=.400 rate=100	ap=.75					apWt=8	range=37						crew=35							wt=40.8				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=203how		class=art desc="203mm Howitzer B-4"							ammoCap=.500 rate=330	ap=.8					apWt=9	range=18						crew=10	towed=hvy				wt=18.7				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=210gun		class=art desc="210mm Gun BR-17"							ammoCap=.500 rate=350	ap=.9					apWt=9	range=28						crew=12	towed=hvy				wt=45.2				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=210kan		class=art desc="210mm Heavy Howitzer"						ammoCap=.500 rate=410.7	ap=.9					apWt=9  range=17						crew=10	towed=hvy				wt=18				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=240kan		class=art desc="240mm Heavy Howitzer K3"					ammoCap=.500 rate=500	ap=.92					apWt=9  range=40						crew=12	towed=hvy				wt=58				breakdonw=0.01 carrier=fixed country=Germany />
+	<weapon name=305how		class=art desc="305mm Howitzer BR-18 1939"					ammoCap=.500 rate=900   ap=.8					apWt=11 range=16						crew=15	towed=hvy				wt=47.2				breakdown=0.01 carrier=fixed country=USSR />
+
+			Artillery: Rail guns
+
+	<weapon name=150ke		class=art desc="150mm K(E) Railway Cannon"					ammoCap=.700 rate=257.1	ap=.75					apWt=7	range=22						crew=8							wt=14				breakdown=0.01 carrier=rail country=Germany />
+	<weapon name=170ke		class=art desc="170mm K(E) Railway Cannon"					ammoCap=.700 rate=290	ap=.75					apWt=7  range=27						crew=8							wt=19				breakdown=0.01 carrier=rail country=Germany />
+	<weapon name=540mtr		class=mort desc="540mm Mortar 'Thor'"						ammoCap=1.00 rate=500	ap=.5					apWt=11 range=13						crew=50							wt=132				breakdown=0.01 carrier=rail country=Germany/>
+	<weapon name=615mtr		class=mort desc="615mm Mortar 'Karl'"						ammoCap=1.00 rate=400	ap=.5					apWt=11 range=6  						crew=60							wt=132				breakdown=0.01 carrier=rail country=Germany/>
+
+			Artillery: Anti-tank
+
+	<weapon name=37at		class=at desc="37mm PaK36 Anti-tank Gun"					ammoCap=.350 rate=15	ap=.15	at=.9			apWt=3				atpen=3				crew=4	towed=lt				wt=1.3				breakdown=0.01 country=Germany/>
+	<weapon name=37atAP40	class=at desc="37mm PaK36 w/AP40 Anti-tank Gun"				ammoCap=.350 rate=7.5	ap=.15	at=.9			apWt=3				atpen=4				crew=4	towed=lt				wt=1.3				breakdown=0.01 country=Germany/>
+	<weapon name=40at		class=at desc="40mm Anti-tank Gun 40M"						ammoCap=.400 rate=14.9	ap=.15	at=.9			apWt=3				atpen=4				crew=4	towed=lt				wt=.8				breakdown=0.01 country=Switzerland/>
+	<weapon name=45at		class=at desc="45mm Anti-tank Gun 1937"						ammoCap=.400 rate=30.7	ap=.18	at=.8			apWt=3				atpen=4				crew=4	towed=lt				wt=.97				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=45at42		class=at desc="45mm Anti-tank Gun 1942"						ammoCap=.400 rate=30.7	ap=.18	at=1.1			apWt=3				atpen=7				crew=4	towed=lt				wt=.97				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=47at		class=at desc="47mm Anti-tank Gun"							ammocap=.450 rate=31.8	ap=.17	at=.8			apWt=3				atpen=4				crew=5	towed=lt				wt=1				breakdown=0.01 carrier=fixed country=Italy/>
+	<weapon name=47atsal	class=at desc="47mm Anti-tank Gun SA-L 1937 L/53"			ammoCap=.450 rate=31.8	ap=.17	at=.8			apWt=3				atpen=4				crew=5	towed=lt				wt=1				breakdown=0.01 carrier=fixed country=French/>
+	<weapon name=50at		class=at desc="50mm Pak38 Anti-tank Gun"					ammoCap=.450 rate=43	ap=.2	at=1			apWt=3				atpen=6				crew=5	towed=lt				wt=1.6				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=50atAP40	class=at desc="50mm Pak38 w/AP40 Anti-tank Gun"				ammoCap=.450 rate=22	ap=.2	at=1			apWt=3				atpen=7				crew=5	towed=lt				wt=1.6				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=57atz2		class=at desc="57mm ZIS-2 Anti-tank Gun 1943"				ammoCap=.450 rate=68.8	ap=.3	at=1.1			apWt=4				atpen=8				crew=5	towed=lt				wt=1.65				breakdown=0.01 carrier=fixed country=USSR />
+	<weapon name=75at		class=at desc="75mm PaK40 Anti-tank Gun"					ammoCap=.600 rate=97.5	ap=.25	at=1.2			apWt=5				atpen=9				crew=6	towed=lt				wt=2				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=75at97		class=at desc="75mm Anti-tank Gun 1897"						ammoCap=.600 rate=64.5	ap=.25	at=.8			apWt=5				atpen=6				crew=6	towed=lt				wt=2				breakdown=0.01 carrier=fixed country=France/>
+	<weapon name=76at		class=at desc="76mm ZIS-1 Anti-tank Gun 1942"				ammoCap=.600 rate=91.7	ap=.25	at=1.2			apWt=5				atpen=8				crew=6	towed=lt				wt=2.1				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=88at		class=at desc="88mm PaK43 Anti-tank Gun"					ammoCap=.500 rate=100.3	ap=.3	at=1.4			apWt=5				atpen=12			crew=8	towed=med				wt=3.8				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=100at		class=at desc="100mm BS-3 Anti-tank Gun 1944"				ammoCap=.500 rate=113.2	ap=.4	at=1.14			apWt=5				atpen=11			crew=6	towed=med				wt=4.25				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=128at		class=at desc="128mm PaK44 Anti-tank Gun"					ammoCap=.750 rate=202.8	ap=.3	at=1.4			apWt=6				atpen=13			crew=11	towed=med				wt=5				breakdown=0.01 carrier=fixed country=Germany/>
+
+			Artillery: Anti-Aircraft (note: observed ground-to-air firing rates are substantially higher than ground-to-ground rates ~5-10x)
+
+	<weapon name=20aa30		class=aa desc="20mm Flak 30 Anti-Air Gun"					ammoCap=.250 rate=15	ap=.1	at=.5	aa=5	apWt=2				atpen=2		alt=L	crew=4	towed=lt				wt=1.2				breakdown=0.01 country=Germany/>
+	<weapon name=20aa38		class=aa desc="20mm Flak 38 Anti-Air Gun"					ammoCap=.250 rate=23	ap=.1	at=.5	aa=5	apWt=2				atpen=2		alt=L	crew=4	towed=lt				wt=1.2				breakdown=0.01 country=Germany/>
+	<weapon name=q20aa		class=aa desc="20mm Quad 38 Anti-Air Gun"					ammoCap=.800 rate=92	ap=.1	at=.4	aa=5	apWt=2				atpen=2		alt=L	crew=5	towed=lt				wt=2.5				breakdown=0.01 carrier=fixed country=Germany/>
+	<weapon name=25aa		class=aa desc="25mm 72-K 1940 Anti-Air Gun"					ammoCap=.240 rate=27	ap=.12	at=.4	aa=5	apWt=2				atpen=3		alt=L	crew=4	towed=lt				wt=1.46				breakdown=0.01 country=USSR/>
+	<weapon name=37aa		class=aa desc="37mm Flak 36 Anti-Air Gun"					ammoCap=.350 rate=15	ap=.15	at=.6	aa=7	apWt=3				atpen=4		alt=L	crew=5	towed=lt				wt=2.5				breakdown=0.01 country=Germany/>
+	<weapon name=37aa43		class=aa desc="37mm Flak 43 Anti-Air Gun"					ammoCap=.350 rate=35	ap=.15	at=.6	aa=7	apWt=3				atpen=4		alt=L	crew=5	towed=lt				wt=2.5				breakdown=0.01 country=Germany/>
+	<weapon name=d37aa43	class=aa desc="37mm Dual 43 Anti-Air Gun"					ammoCap=.350 rate=70	ap=.15	at=.6	aa=7	apWt=3				atpen=4		alt=L	crew=5	towed=lt				wt=2.5				breakdown=0.01 country=Germany/>
+	<weapon name=37aa72		class=aa desc="37mm 61-K 1939 Anti-Air Gun"					ammoCap=.350 rate=28	ap=.11	at=.4	aa=6	apWt=3				atpen=4		alt=L	crew=5	towed=lt				wt=2.6				breakdown=0.01 country=USSR/>
+	<weapon name=40aa		class=aa desc="40mm Anti-Air Gun"							ammoCap=.375 rate=21	ap=.14	at=.5	aa=7	apWt=3				atpen=4		alt=L	crew=5	towed=lt				wt=3				breakdown=0.01 country=Hungary/>
+	<weapon name=75aa-bof	class=aa desc="75mm Bofors M/30 Anti-air Gun"				ammoCap=.450 rate=95	ap=.1	at=.8	aa=8	apWt=5				atpen=7				crew=6							wt=2.375			breakdown=0.01 carrier=fixed country=Sweden/>
+	<weapon name=75aa-sk	class=aa desc="75mm Skoda M/37 Anti-air Gun"				ammoCap=.450 rate=95	ap=.1	at=.7	aa=6	apWt=5				atpen=6				crew=6	towed=med				wt=4.75				breakdown=0.01 carrier=fixed country=Czech/>
+	<weapon name=76aa61		class=aa desc="76mm 1931 Anti-Air Gun"						ammoCap=.450 rate=91.7	ap=.1	at=.8	aa=8	apWt=5				atpen=8		alt=H	crew=6	towed=med				wt=4.9				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=76aa38		class=aa desc="76mm 1938 Anti-Air Gun"						ammoCap=.450 rate=91.7	ap=.11	at=.8	aa=10	apWt=5				atpen=8		alt=H	crew=6	towed=med				wt=4.9				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=85aa12		class=aa desc="85mm KS-12 1939 Anti-Air Gun"				ammoCap=.500 rate=120	ap=.12	at=1.1	aa=14	apWt=5				atpen=9		alt=H	crew=6	towed=med				wt=4.9				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=85aa12a	class=aa desc="85mm KS-12a 1944 Anti-Air Gun"				ammoCap=.500 rate=120	ap=.12	at=1.1	aa=15	apWt=5				atpen=9		alt=H	crew=6	towed=med				wt=4.9				breakdown=0.01 carrier=fixed country=USSR/>
+	<weapon name=88aa		class=aa desc="88mm Flak 36 Anti-Air Gun"					ammoCap=.500 rate=100.3	ap=.2	at=1.4	aa=10	apWt=5				atpen=12	alt=H	crew=11 towed=med				wt=3.8				breakdown=0.01 carrier=fixed country=Germany/>
+
+			Artillery: Rocket Launchers
+
+	<weapon name=m8r		class=rkt desc="82mm M-8 'Katyusha' Rocket Launcher"		ammoCap=.300 rate=129.6	ap=.08							range=5 						crew=5							wt=4				breakdown=0.01 carrier=2wd fuel=600 fuelCap=100 country=USSR/>
+	<weapon name=m13r		class=rkt desc="132mm M-13 'Katyusha' Rocket Launcher"		ammoCap=.400 rate=307	ap=.32							range=8 						crew=3							wt=5				breakdown=0.01 carrier=2wd fuel=600 fuelCap=100 country=USSR/> - augmented to account for faster loading times, greater mobility
+	<weapon name=150nbw		class=rkt desc="150mm NebelWerfer 41 Rocket Launcher"		ammoCap=.300 rate=121.5	ap=.17							range=6 						crew=6	towed=lt				wt=2				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=150nbw-mot	class=rkt desc="150mm PanzerWerfer 42 Rocket Launcher"		ammoCap=.350 rate=129.5	ap=.17							range=6 						crew=6							wt=7.6		armor=1 breakdown=0.01 carrier=htrack fuel=500 fuelCap=200 country=Germany />
+	<weapon name=210nbw		class=rkt desc="210mm NebelWerfer 42 Rocket Launcher"		ammoCap=.500 rate=333.5	ap=.20					apWt=2	range=6 						crew=6	towed=lt				wt=2.5				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=280nbw		class=rkt desc="280mm NebelWerfer Rocket Launcher"			ammoCap=.400 rate=199.1	ap=.25					apWt=2	range=6 						crew=6	towed=med				wt=3.5				breakdown=0.01 carrier=fixed country=Germany />
+	<weapon name=280nbw-mot	class=rkt desc="280mm Schw. Wurfrahmen 40 Rocket Launcher"	ammoCap=.400 rate=216.6	ap=.25					apWt=2	range=6 						crew=6							wt=9.4		armor=1 breakdown=0.01 carrier=htrack fuel=500 fuelCap=200 country=Germany />
+	<weapon name=m30r		class=rkt desc="300mm M-30 'Katyusha' Rocket Launcher"		ammoCap=.500 rate=379.8	ap=.22					apWt=2	range=3 						crew=5							wt=6				breakdown=0.01 carrier=2wd fuel=600 fuelCap=100 country=USSR/>
+	<weapon name=m31r		class=rkt desc="300mm M-31 'Katyusha' Rocket Launcher"		ammoCap=.600 rate=482.2	ap=.22					apWt=2	range=3 						crew=5							wt=6				breakdown=0.01 carrier=2wd fuel=600 fuelCap=100 country=USSR/>
+
+
+			Artillery: Self-Propelled Anti-Aircraft
+
+	<weapon name=zsu37		class=aa desc="ZSU-37-1 SP 61-K 1939 Anti-Air Gun"			ammoCap=.400 rate=28	ap=.11	at=.12	aa=6	apWt=3				atpen=4		alt=L	crew=5							wt=5		armor=3 breakdown=0.01 carrier=ftrack fuel=300 fuelCap=200 country=USSR note="weight and fuel characteristics estimated"/>
+	<weapon name=sdkfz6aa	class=aa desc="SdKfz-6/2 Anti-Air Gun"						ammoCap=.400 rate=22	ap=.15	at=.6	aa=7	apWt=3				atpen=4		alt=L	crew=7							wt=11.1		armor=1 breakdown=0.01 carrier=ftrack fuel=430 fuelCap=190 country=Germany />
+	<weapon name=sdkfz10	class=aa desc="SdKfz-10/4 Anti-Air Gun"						ammoCap=.350 rate=23	ap=.1	at=.5	aa=5	apWt=2				atpen=2		alt=L	crew=7							wt=6.2		armor=1 breakdown=0.01 carrier=ftrack fuel=616 fuelCap=115 country=Germany />
+	<weapon name=sdkz251-17 class=aa desc="SdKfz-251/17 Anti-Air Gun"					ammoCap=.400 rate=8	    ap=.15			aa=5	apWt=2							alt=L	crew=4 							wt=9.2		armor=2 breakdown=0.01 carrier=htrack fuel=545 fuelCap=120 country=Germany note="Fuel efficiency estimated"/>
+	<weapon name=sdkz251-21 class=aa desc="SdKfz-251/21 Anti-Air Gun"					ammoCap=.300 rate=7	    ap=.15			aa=3	apWt=3							alt=L	crew=4							wt=9		armor=2 breakdown=0.01 carrier=htrack fuel=511 fuelCap=120 country=Germany note="Fuel efficiency estimated"/>
+	<weapon name=flakpz		class=aa desc="SdKfz 140 Flakpanzer 38(t) Anti-Air Gun"		ammoCap=.400 rate=23	ap=.1	at=.5	aa=5	apWt=2				atpen=2		alt=L	crew=4							wt=9.9		armor=1 breakdown=0.01 carrier=ftrack fuel=262.5 fuelCap=218 country=Germany />
+	<weapon name=mblwgn		class=aa desc="SdKfz 161/3 Moebelwagon Anti-Air Gun"		ammocap=.300 rate=23	ap=.15	at=.6	aa=7	apWt=3				atpen=4		alt=L	crew=5							wt=24.5		armor=7 breakdown=0.01 carrier=htrack fuel=116 fuelCap=470 country=Germany />
+	<weapon name=wirbelwind class=aa desc="SdKfz 161/4 Wirbelwind Anti-Air Gun"			ammoCap=.300 rate=96	ap=.1	at=.4	aa=5	apWt=2				atpen=2		alt=L	crew=4							wt=22		armor=7 breakdown=0.01 carrier=ftrack fuel=116 fuelCap=470 country=Germany />
+	<weapon name=ostwind	class=aa desc="Ostwind Anti-Air Gun"						ammoCap=.500 rate=44	ap=.15	at=.6	aa=7	apWt=3				atpen=4		alt=L	crew=4							wt=25		armor=7 breakdown=0.01 carrier=ftrack fuel=116 fuelCap=470 country=Germany />
+
+			Artillery: Self-Propelled Guns
+
+	<weapon name=sp150		class=art desc="sIG33 I Bison SP Gun"						ammoCap=.550 rate=237.1	ap=.75	at=.8			apWt=7  range=5		atpen=11			crew=10							wt=6.1		armor=1 breakdown=0.01 carrier=ftrack fuel=200 fuelCap=200 country=Germany />
+	<weapon name=sp150-2	class=art desc="sIG-II Bison SP Gun"						ammoCap=.550 rate=237.1	ap=.75	at=.8			apWt=7  range=5		atpen=11			crew=10							wt=11.6		armor=2 breakdown=0.01 carrier=ftrack fuel=100 fuelCap=200 country=Germany />
+	<weapon name=sp150-3	class=art desc="StuIG 33B SP Gun"							ammoCap=.500 rate=237.1	ap=.75	at=.8			apWt=7  range=5		atpen=11			crew=11							wt=21.5		armor=7 breakdown=0.01 carrier=ftrack fuel=93.7 fuelCap=320 country=Germany />
+	<weapon name=sd135		class=art desc="SdKfz 135/1 sFH13 auf GWLrS(f) SP Gun"		ammoCap=.400 rate=282	ap=.6	at=.8			apWt=7  range=8		atpen=11			crew=10							wt=8.9		armor=1 breakdown=0.01 carrier=ftrack fuel=331.4 fuelCap=200 country=Germany />
+	<weapon name=sp150-4	class=art desc="SdKfz 138/1 Gw-38(t) SP Gun"				ammoCap=.500 rate=237.1	ap=.75	at=.8			apWt=7	range=5		atpen=11			crew=4							wt=9.8		armor=2 breakdown=0.01 carrier=ftrack fuel=150 fuelCap=200 country=Germany />
+	<weapon name=sp150-5	class=art desc="SdKfz 138/1 Grille-38(t)M SP Gun"			ammoCap=.500 rate=237.1	ap=.75	at=.8			apWt=7  range=5		atpen=11			crew=4							wt=10.25	armor=4 breakdown=0.01 carrier=ftrack fuel=231.22 fuelCap=218 country=Germany />
+	<weapon name=sthau42	class=art desc="SdKfz 142/2 Sturmhaubitze 42"				ammoCap=.550 rate=157.9	ap=.6	at=.8			apWt=6	range=6		atpen=8				crew=4							wt=21.1		armor=6 breakdown=0.01 carrier=ftrack fuel=150 fuelCap=470 country=Germany/>
+	<weapon name=brummbar	class=art desc="SdKfz 166 150mm Brummbar SP Gun"			ammoCap=.450 rate=237.1	ap=.75	at=.8			apWt=7	range=5		atpen=11			crew=5							wt=28.7		armor=7 breakdown=0.01 carrier=ftrack fuel=121 fuelCap=470 country=Germany />
+	<weapon name=stiger		class=art desc="Sturmtiger SP Gun"							ammoCap=.350 rate=300	ap=.8					apWt=11 range=2							crew=5							wt=68		armor=9 breakdown=0.01 carrier=ftrack fuel=55.5 fuelCap=540 country=Germany />
+	<weapon name=wespe		class=art desc="SdKfz 124 PzA II Wespe SP Gun"				ammoCap=.650 rate=157.9	ap=.6	at=.8			apWt=6	range=8		atpen=8				crew=5							wt=11.5		armor=2 breakdown=0.01 carrier=ftrack fuel=320.55 fuelCap=170 country=Germany />
+	<weapon name=hummel		class=art desc="SdKfz 165 Hummel SP Gun"					ammoCap=.550 rate=257.1	ap=.75	at=.8			apWt=7	range=24	atpen=11			crew=6							wt=24.98	armor=2 breakdown=0.01 carrier=ftrack fuel=124.6 fuelCap=470 country=Germany />
+<!--
+	<weapon name=archer		class=art desc="Archer SP Gun"								ammoCap=? rate=?		ap=?	at=?			apWt=?	range=?		atpen=?				crew=4							wt=17.4		armor=6 breakdown=0.01 carrier=ftrack fuel=? fuelCap=? country=Britain />
+ -->
+  
+			Assault Guns / Self-Propelled Artillery
+
+	<weapon name=57ag		class=afv desc="57mm ZIS-30 1938 Assault Gun"				ammoCap=.300 rate=68.8	ap=.3	at=1.5			apWt=4				atpen=6				crew=4		 					wt=4.9		armor=4 breakdown=0.01 carrier=ftrack fuel=200 fuelCap=400 country=USSR/>
+	<weapon name=stug3b		class=afv desc="SturmGeschutz IIIb Assault Gun"				ammoCap=.250 rate=91.9	ap=.55	at=.9			apWt=5				atpen=4				crew=5							wt=20.7		armor=6	breakdown=0.01 carrier=ftrack fuel=136.2 fuelCap=310 country=Germany/>
+	<weapon name=stug3e		class=afv desc="SturmGeschutz IIIe Assault Gun"				ammoCap=.250 rate=93.3	ap=.6	at=.9			apWt=5				atpen=4				crew=5							wt=21.3		armor=6 breakdown=0.01 carrier=ftrack fuel=149.9 fuelCap=300 country=Germany/>
+	<weapon name=stug3f		class=afv desc="SturmGeschutz IIIf Assault Gun"				ammoCap=.250 rate=93.1	ap=.6	at=1.1			apWt=5				atpen=8				crew=5							wt=22.1		armor=6 breakdown=0.01 carrier=ftrack fuel=145 fuelCap=310 country=Germany/>
+	<weapon name=stug3f8	class=afv desc="SturmGeschutz IIIf/8 Assault Gun"			ammoCap=.250 rate=93.1	ap=.6	at=1.2			apWt=5				atpen=9				crew=5							wt=23.7		armor=7 breakdown=0.01 carrier=ftrack fuel=145 fuelCap=310 country=Germany/>
+	<weapon name=stug3g		class=afv desc="SturmGeschutz IIIg Assault Gun"				ammoCap=.250 rate=93.1	ap=.6	at=1.2			apWt=5				atpen=9				crew=5							wt=24.4		armor=7 breakdown=0.01 carrier=ftrack fuel=136.2 fuelCap=310 country=Germany/>
+	<weapon name=stug4		class=afv desc="SturmGeschutz IV Assault Gun"				ammoCap=.250 rate=93.1	ap=.6	at=1.2			apWt=5				atpen=9				crew=4							wt=28.6		armor=8 breakdown=0.01 carrier=ftrack fuel=133.1 fuelCap=430 country=Germany/>
+	<weapon name=su76		class=afv desc="SU-76M 1943 Assault Gun"					ammoCap=.250 rate=111.8	ap=.4	at=1			apWt=5				atpen=6				crew=4 							wt=10.9		armor=3 breakdown=0.01 carrier=ftrack fuel=207.6 fuelCap=420 country=USSR/>
+	<weapon name=su85		class=afv desc="SU-85 1943 Assault Gun"						ammoCap=.250 rate=115.4	ap=.4	at=1			apWt=5				atpen=7				crew=4 							wt=30		armor=5 breakdown=0.01 carrier=ftrack fuel=181.6 fuelCap=690 country=USSR/>
+	<weapon name=su100		class=afv desc="SU-100 1944 Assault Gun"					ammoCap=.300 rate=113.2	ap=.4	at=1.14			apWt=5				atpen=8				crew=4							wt=32		armor=7 breakdown=0.01 carrier=ftrack fuel=181.6 fuelCap=770 country=USSR/>
+	<weapon name=su122		class=afv desc="SU-122 1938 Assault Gun"					ammoCap=.300 rate=155.5	ap=.65	at=.7			apWt=6				atpen=6				crew=5							wt=31.4		armor=5 breakdown=0.01 carrier=ftrack fuel=171.2 fuelCap=690 country=USSR/>
+	<weapon name=isu122		class=afv desc="ISU-122S Assault Gun"						ammoCap=.300 rate=155.5	ap=.65	at=.8			apWt=6				atpen=6				crew=5							wt=46		armor=6 breakdown=0.01 carrier=ftrack fuel=78.6 fuelCap=790 country=USSR/>
+	<weapon name=su152		class=afv desc="SU-152 1937 Assault Gun"					ammoCap=.350 rate=218.2 ap=.7	at=.5			apWt=7				atpen=6				crew=5							wt=46		armor=6 breakdown=0.01 carrier=ftrack fuel=149.9 fuelCap=975 country=USSR/>
+	<weapon name=isu152		class=afv desc="ISU-152 Assault Gun"						ammoCap=.360 rate=21.9	ap=.7	at=.5			apWt=7				atpen=6				crew=5							wt=46.5		armor=6 breakdown=0.01 carrier=ftrack fuel=78.6 fuelCap=790 country=USSR/>
+
+			Armored Cars
+
+	<weapon name=ba6		class=afv desc="BA-6 Armored Car"							ammoCap=.100 rate=30.7	ap=.25	at=1.3			apWt=3				atpen=3				crew=4	tow=lt					wt=5.1		armor=1 breakdown=0.01 carrier=2wd fuel=680 fuelCap=120 country=USSR/>
+	<weapon name=ba10		class=afv desc="BA-10 Armored Car"							ammoCap=.100 rate=30.7	ap=.23	at=1.3			apWt=3				atpen=3				crew=4	tow=lt					wt=5.7		armor=2 breakdown=0.01 carrier=2wd fuel=410 fuelCap=200 country=USSR/>
+	<weapon name=ba20		class=afv desc="BA-20 Armored Car"							ammoCap=.100 rate=2.4	ap=.25					apWt=4									crew=3	tow=lt					wt=2.7		armor=1 breakdown=0.01 carrier=2wd fuel=610 fuelCap=200 country=USSR/>
+	<weapon name=ba64		class=afv desc="BA-64 Armored Car"							ammoCap=.100 rate=2.4	ap=.25					apWt=4									crew=2	tow=lt					wt=2.6		armor=1 breakdown=0.01 carrier=2wd fuel=570 fuelCap=240 country=USSR/>
+
+	<weapon name=sdkfz221	class=afv desc="SdKfz 221 Armored Car"						ammoCap=.100 rate=2.2	ap=.51															crew=3 	tow=lt					wt=4.2		armor=1 breakdown=0.01 carrier=2wd fuel=817.4 fuelCap=200 country=Germany/>
+	<weapon name=sdkfz222	class=afv desc="SdKfz 222 Armored Car"						ammocap=.105 rate=5.9	ap=.35	at=.5			apWt=2				atpen=2				crew=3	tow=lt					wt=5.1		armor=1 breakdown=0.01 carrier=2wd fuel=817.4 fuelCap=200 country=Germany/>
+	<weapon name=sdkfz223	class=afv desc="Sdkfz 223 Armored Car"						ammoCap=.100 rate=4.4	ap=.51															crew=3	tow=lt					wt=4.5		armor=1 breakdown=0.01 carrier=2wd fuel=817.4 fuelCap=200 country=Germany/>
+	<weapon name=sdkfz231-6 class=afv desc="SdKfz 231 6-Rad Armored Car"				ammoCap=.150 rate=5.9	ap=.35	at=.5			apWt=2				atpen=2				crew=4	tow=lt					wt=5.75		armor=1 breakdown=0.01 carrier=2wd fuel=600 fuelCap=200 country=Germany/>
+	<weapon name=sdkfz231-8 class=afv desc="SdKfz 231 8-Rad Armored Car"				ammoCap=.150 rate=5.9	ap=.35	at=.5			apWt=2				atpen=2				crew=4	tow=lt					wt=8.7		armor=2 breakdown=0.01 carrier=2wd fuel=544.9 fuelCap=200 country=Germany/>
+	<weapon name=sdkfz233	class=afv desc="SdKfz 233 Armored Car"						ammoCap=.190 rate=91.9	ap=.55	at=.9			apWt=4				atpen=4				crew=4	tow=lt					wt=9		armor=1 breakdown=0.01 carrier=2wd fuel=500 fuelCap=490 country=Germany/>
+	<weapon name=sdkfz234-1 class=afv desc="SdKfz 234/1 Armored Car"					ammoCap=.150 rate=5.9	ap=.35	at=.5			apWt=2				atpen=2				crew=4	tow=lt					wt=11.9		armor=3 breakdown=0.01 carrier=2wd fuel=500 fuelCap=490 country=Germany/>
+	<weapon name=sdkfz234-2 class=afv desc="SdKfz 234/2 Armored Car"					ammoCap=.240 rate=66.8	ap=.25	at=2			apWt=3				atpen=6				crew=4	tow=lt					wt=12.14	armor=3 breakdown=0.01 carrier=2wd fuel=500 fuelCap=490 country=Germany/>
+	<weapon name=sdkfz234-3 class=afv desc="SdKfz 234/3 Armored Car"					ammoCap=.190 rate=93.3	ap=.6	at=.9			apWt=5				atpen=4				crew=4	tow=lt					wt=11.9		armor=3 breakdown=0.01 carrier=2wd fuel=500 fuelCap=490 country=Germany/>
+	<weapon name=sdkfz234-4 class=afv desc="SdKfz 234/4 Armored Car"					ammoCap=.260 rate=97.5	ap=.25	at=1.2			apWt=5				atpen=9				crew=4	tow=lt					wt=11.9		armor=3 breakdown=0.01 carrier=2wd fuel=500 fuelCap=490 country=Germany/>
+
+	<weapon name=csaba		class=afv desc="39M Csaba Armored Car"						ammoCap=.150 rate=5.7	ap=.25	at=.5			apWt=2				atpen=2				crew=4	tow=lt					wt=6.3		armor=1 breakdown=0.01 carrier=2wd fuel=505 fuelCap=135 country=Hungary />
+
+			Tanks
+
+	<weapon name=bt			class=afv desc="BT Light Tank 1931"							ammoCap=.250 rate=32.4	ap=.5	at=.8			apWt=3				atpen=4				crew=3							wt=10.8		armor=1 breakdown=0.01 carrier=ftrack fuel=102.2 fuelCap=400 country=USSR/>
+	<weapon name=bt2m30		class=afv desc="BT-2 M30 Cruiser Tank 1930"					ammoCap=.100 rate=2.4	ap=.48															crew=3 							wt=10.8		armor=1 breakdown=0.01 carrier=ftrack fuel=102.2 fuelCap=400 country=USSR/>
+	<weapon name=bt2m33		class=afv desc="BT-2 M33 Cruiser Tank 1933"					ammoCap=.250 rate=16.3	ap=.5	at=.8			apWt=3				atpen=4				crew=3 							wt=10.8		armor=1 breakdown=0.01 carrier=ftrack fuel=102.2 fuelCap=400 country=USSR/>
+	<weapon name=bt5		class=afv desc="BT-5 Cruiser Tank 1933"						ammoCap=.250 rate=32.4	ap=.5	at=.8			apWt=3				atpen=4				crew=3 							wt=14.1		armor=1 breakdown=0.01 carrier=ftrack fuel=102.2 fuelCap=400 country=USSR/>
+	<weapon name=bt5a		class=afv desc="BT-5a Cruiser Tank 1939"					ammoCap=.500 rate=32.4	ap=.5	at=.9			apWt=4				atpen=5				crew=3 							wt=14.1		armor=1 breakdown=0.01 carrier=ftrack fuel=102.2 fuelCap=400 country=USSR/>
+	<weapon name=bt7		class=afv desc="BT-7 Cruiser Tank 1937"						ammoCap=.720 rate=32.4	ap=.5	at=.8			apWt=3				atpen=4				crew=3 							wt=14.1		armor=2 breakdown=0.01 carrier=ftrack fuel=120.7 fuelCap=790 country=USSR/>
+	<weapon name=bt7m		class=afv desc="BT-7M Cruiser Tank 1939"					ammoCap=.720 rate=32.4	ap=.5	at=.8			apWt=3				atpen=4				crew=3 							wt=15		armor=2 breakdown=0.01 carrier=ftrack fuel=120.7 fuelCap=790 country=USSR/>
+	<weapon name=t26		class=afv desc="T-26 Light Tank 1931"						ammoCap=.400 rate=34.1	ap=.5	at=.8			apWt=3				atpen=4				crew=3 							wt=20		armor=1 breakdown=0.01 carrier=ftrack fuel=172.1 fuelCap=285 country=USSR/>
+	<weapon name=t28		class=afv desc="T-28 Medium Tank 1931"						ammoCap=.400 rate=93.2	ap=.5	at=.6			apWt=4				atpen=5				crew=6 							wt=28.6		armor=8 breakdown=0.01 carrier=ftrack fuel=92.2 fuelCap=650 country=USSR/>
+	<weapon name=t34		class=afv desc="T-34 Medium Tank 1939"						ammoCap=.450 rate=93.2	ap=.5	at=.9			apWt=5				atpen=6				crew=4 							wt=29		armor=6 breakdown=0.01 carrier=ftrack fuel=194.6 fuelCap=560 country=USSR/>
+	<weapon name=t34a		class=afv desc="T-34 Medium Tank 1943"						ammoCap=.450 rate=93.2	ap=.5	at=1.1			apWt=5				atpen=8				crew=4 							wt=31.3		armor=6 breakdown=0.01 carrier=ftrack fuel=199.7 fuelCap=720 country=USSR/>
+	<weapon name=t34-85		class=afv desc="T-34/85 Medium Tank 1943"					ammoCap=.450 rate=117.5	ap=.5	at=1.2			apWt=5				atpen=9				crew=5 							wt=32.5		armor=6 breakdown=0.01 carrier=ftrack fuel=171.6 fuelCap=720 country=USSR/>
+	<weapon name=t37		class=afv desc="T-37a Amphibious Tank 1934"					ammoCap=.100 rate=2.4	ap=.48															crew=2 							wt=3.45		armor=1 breakdown=0.01 carrier=ftrack fuel=544.9 fuelCap=100 country=USSR/>
+	<weapon name=t38		class=afv desc="T-38a Amphibious Tank 1936"					ammoCap=.100 rate=2.4	ap=.48															crew=2 							wt=3.98		armor=1 breakdown=0.01 carrier=ftrack fuel=544.9 fuelCap=100 country=USSR/>
+	<weapon name=t38b		class=afv desc="T-38b Amphibious Tank 1936"					ammoCap=.250 rate=12.9	ap=.5	at=.5			apWt=2				atpen=2				crew=2 							wt=4.05		armor=1 breakdown=0.01 carrier=ftrack fuel=544.9 fuelCap=100 country=USSR/> - weight estimated
+	<weapon name=t40a		class=afv desc="T-40a Amphibious Tank 1941"					ammoCap=.100 rate=2.4	ap=.48															crew=2 							wt=28		armor=1	breakdown=0.01 carrier=ftrack fuel=473.9 fuelCap=207 country=USSR/>
+	<weapon name=t40b		class=afv desc="T-40b Amphibious Tank 1941"					ammoCap=.250 rate=12.9	ap=.5	at=.5			apWt=2				atpen=2				crew=2 							wt=28		armor=1 breakdown=0.01 carrier=ftrack fuel=473.9 fuelCap=207 country=USSR/>
+	<weapon name=t44		class=afv desc="T-44 Medium Tank 1943"						ammoCap=.450 rate=117.5	ap=.5	at=1.2			apWt=5				atpen=9				crew=4 							wt=31.9		armor=8 breakdown=0.01 carrier=ftrack fuel=109 fuelCap=650 country=USSR/>
+	<weapon name=t50		class=afv desc="T-50 Light Tank 1942"						ammoCap=.600 rate=32.4	ap=.5	at=.8			apWt=3				atpen=4				crew=4 							wt=14.4		armor=4 breakdown=0.01 carrier=ftrack fuel=272.47 fuelCap=350 country=USSR/>
+	<weapon name=t60		class=afv desc="T-60 Light Tank 1941"						ammoCap=.500 rate=12.9	ap=.5	at=.5			apWt=2				atpen=2				crew=2 							wt=6.6		armor=3 breakdown=0.01 carrier=ftrack fuel=510.9 fuelCap=320 country=USSR/>
+	<weapon name=t62		class=afv desc="T-62 Light Tank 1942"						ammoCap=.500 rate=32.4	ap=.5	at=.8			apWt=3				atpen=4				crew=2 							wt=7.0		armor=2 breakdown=0.01 carrier=ftrack fuel=510.9 fuelCap=320 country=USSR/>
+	<weapon name=t70		class=afv desc="T-70 Light Tank 1942"						ammoCap=.400 rate=32.4	ap=.5	at=.8			apWt=3				atpen=7				crew=2 							wt=10		armor=4 breakdown=0.01 carrier=ftrack fuel=222.9 fuelCap=440 country=USSR/>
+	<weapon name=kv1		class=afv desc="KV-I Heavy Tank 1939"						ammoCap=.650 rate=93.2	ap=.5	at=.8			apWt=6				atpen=8				crew=5 							wt=48		armor=7 breakdown=0.01 carrier=ftrack fuel=113.5 fuelCap=600 country=USSR/>
+	<weapon name=kv1a		class=afv desc="KV-I Heavy Tank 1941"						ammoCap=.650 rate=93.2	ap=.5	at=1.1			apWt=6				atpen=9				crew=5 							wt=48		armor=7 breakdown=0.01 carrier=ftrack fuel=113.5 fuelCap=600 country=USSR/>
+	<weapon name=kv2		class=afv desc="KV-IIa heavy Tank 1940"						ammoCap=.900 rate=172	ap=.7					apWt=7									crew=6 							wt=48		armor=7 breakdown=0.01 carrier=ftrack fuel=113.5 fuelCap=600 country=USSR/>
+	<weapon name=kv85		class=afv desc="KV-1/85 Heavy Tank 1939"					ammocap=.700 rate=117.5	ap=.5	at=1.2			apWt=6				atpen=9				crew=4 							wt=46.4		armor=7 breakdown=0.01 carrier=ftrack fuel=124.3 fuelCap=550 country=USSR/>
+	<weapon name=is1		class=afv desc="IS-1 Heavy Tank 1943"						ammoCap=.420 rate=117.5	ap=.5	at=1.2			apWt=6				atpen=9				crew=4 							wt=44.4		armor=9 breakdown=0.01 carrier=ftrack fuel=78.6 fuelCap=880 country=USSR/>
+	<weapon name=is2		class=afv desc="IS-2 Heavy Tank 1943"						ammoCap=.600 rate=183.5	ap=.5	at=1.3			apWt=6				atpen=11			crew=4 							wt=46.4		armor=10 breakdown=0.01 carrier=ftrack fuel=78.6 fuelCap=790 country=USSR/>
+	<weapon name=is3		class=afv desc="IS-3 Heavy Tank 1945"						ammoCap=.600 rate=183.5	ap=.5	at=1.3			apWt=6				atpen=11			crew=4 							wt=47.4		armor=10 breakdown=0.01 carrier=ftrack fuel=78.6 fuelCap=790 country=USSR/>
+
+	<weapon name=m3l		class=afv desc="M3L Stuart Cruiser Tank"					ammoCap=.300 rate=14.3	ap=.5	at=.8			apWt=3				atpen=4				crew=4 							wt=13.1		armor=3 breakdown=0.01 carrier=ftrack fuel=125.7 fuelCap=245 country=USA/>
+	<weapon name=m3s		class=afv desc="M3s Lee Cruiser Tank"						ammoCap=.300 rate=64.5	ap=.5	at=.7			apWt=5				atpen=6				crew=7 							wt=29.2		armor=5 breakdown=0.01 carrier=ftrack fuel=66 fuelCap=796 country=USA/>
+	<weapon name=m4			class=afv desc="M4/75 Medium Tank"							ammoCap=.600 rate=73.1	ap=.5	at=.8			apWt=5				atpen=7				crew=5 							wt=30.8		armor=7 breakdown=0.01 carrier=ftrack fuel=66 fuelCap=796 country=USA/>
+	<weapon name=m4a		class=afv desc="M4/75 Medium Tank 1944"						ammoCap=.600 rate=73.1	ap=.5	at=.8			apWt=5				atpen=7				crew=5 							wt=32.3		armor=7 breakdown=0.01 carrier=ftrack fuel=66 fuelCap=796 country=USA/>
+	<weapon name=m4-76		class=afv desc="M4/76 Medium Tank 1944"						ammoCap=.600 rate=54.5	ap=.5	at=.8			apWt=5				atpen=8				crew=5 							wt=31.2		armor=7 breakdown=0.01 carrier=ftrack fuel=55.1 fuelCap=673 country=USA/>
+
+	<weapon name=h39		class=afv desc="Hotchkiss H-39 Light Tank"					ammoCap=.300 rate=11.5	ap=.5	at=.8			apWt=4				atpen=4				crew=3 							wt=12.3		armor=3 breakdown=0.01 carrier=ftrack fuel=194.6 fuelCap=210 country="Great Britain"/>
+	<weapon name=mk2		class=afv desc="Matilda II Medium Tank"						ammoCap=.400 rate=11.5	ap=.5	at=.8			apWt=4				atpen=4				crew=4 							wt=26.9		armor=7 breakdown=0.01 carrier=ftrack fuel=331.9 fuelCap=211 country="Great Britain"/>
+	<weapon name=mk3		class=afv desc="Mark III Valentine Medium Tank"				ammoCap=.300 rate=11.5	ap=.5	at=.8			apWt=4				atpen=4				crew=3 							wt=16.3		armor=4 breakdown=0.01 carrier=ftrack fuel=294 fuelCap=300 country="Great Britain"/>
+	<weapon name=mk4		class=afv desc="Churchill IV Heavy Tank"					ammoCap=.580 rate=34.4	ap=.5	at=.8			apWt=5				atpen=8				crew=5 							wt=16.3		armor=7 breakdown=0.01 carrier=ftrack fuel=85 fuelCap=830 country="Great Britain"/>
+	<weapon name=mk8		class=afv desc="Mark VIII Valentine Medium Tank"			ammoCap=.400 rate=35.8	ap=.5	at=.9			apWt=5				atpen=8				crew=3 							wt=16.3		armor=4 breakdown=0.01 carrier=ftrack fuel=294 fuelCap=300 country="Great Britain"/>
+
+	<weapon name=pz1b		class=afv desc="PzKpfw-Ib Light Tank"						ammoCap=.100 rate=2.2	ap=.52															crew=2  						wt=16.3		armor=1	breakdown=0.01 carrier=ftrack fuel=317.3 fuelCap=145 country=Germany/>
+	<weapon name=pz2c		class=afv desc="SdKfz 121 PzKpfw-IIc Light Tank"			ammoCap=.100 rate=2.6	ap=.52															crew=3							wt=8.2		armor=1 breakdown=0.01 carrier=ftrack fuel=320.5 fuelCap=170 country=Germany/>
+	<weapon name=pz2f		class=afv desc="SdKfz 121 PzKpfw-IIf Light Tank"			ammoCap=.480 rate=10.6	ap=.4	at=1.0			apWt=2				atpen=2				crew=3 							wt=9.8		armor=2 breakdown=0.01 carrier=ftrack fuel=320.5 fuelCap=170 country=Germany/>
+	<weapon name=pz2l		class=afv desc="SdKfz 123 PzKpfw-IIl Luchs Light Tank"		ammoCap=.480 rate=10.6	ap=.4	at=1.1			apWt=2				atpen=2				crew=4							wt=12.2		armor=2 breakdown=0.01 carrier=ftrack fuel=336.2 fuelCap=290 country=Germany/>
+	<weapon name=pz35		class=afv desc="PzKpfw-35(t) Medium Tank"					ammoCap=.360 rate=16.3	ap=.4	at=.95			apWt=3				atpen=3				crew=4 							wt=10.9		armor=2 breakdown=0.01 carrier=ftrack fuel=338.4 fuelCap=153 country=Germany/>
+	<weapon name=pz38		class=afv desc="PzKpfw-38(t) Medium Tank"					ammoCap=.400 rate=16.3	ap=.4	at=.95			apWt=3				atpen=4				crew=4 							wt=9.8		armor=2 breakdown=0.01 carrier=ftrack fuel=287.5 fuelCap=218 country=Germany/>
+	<weapon name=pz38e		class=afv desc="PzKpfw-38(t)e Medium Tank"					ammoCap=.200 rate=16.3	ap=.4	at=.95			apWt=3				atpen=4				crew=4 							wt=9.8		armor=4 breakdown=0.01 carrier=ftrack fuel=287.5 fuelCap=218 country=Germany/>
+	<weapon name=pz3e		class=afv desc="SdKfz 141 PzKpfw-IIIe Medium Tank"			ammoCap=.625 rate=16.3	ap=.4	at=.9			apWt=3				atpen=3				crew=5 							wt=18.5		armor=3 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz3g		class=afv desc="SdKfz 141 PzKpfw-IIIg Medium Tank"			ammoCap=.500 rate=43	ap=.4	at=.8			apWt=4				atpen=5				crew=5 							wt=18.5		armor=3 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz3h		class=afv desc="SdKfz 141 PzKpfw-IIIh Medium Tank"			ammoCap=.600 rate=43	ap=.4	at=.8			apWt=4				atpen=5				crew=5 							wt=22.1		armor=6 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz3j		class=afv desc="SdKfz 141/1 PzKpfw-IIIj Medium Tank"		ammoCap=.600 rate=43	ap=.4	at=.8			apWt=4				atpen=5				crew=5							wt=22.1		armor=5 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz3js		class=afv desc="SdKfz 141/1 PzKpfw-IIIj(s) Medium Tank"		ammoCap=.600 rate=43	ap=.4	at=1			apWt=4				atpen=6				crew=5							wt=22.1		armor=5 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz3m		class=afv desc="SdKfz 141/1 PzKpfw-IIIm Medium Tank"		ammoCap=.550 rate=43	ap=.4	at=1			apWt=4				atpen=6				crew=5							wt=22.1		armor=5 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz3n		class=afv desc="SdKfz 141/2 PzKpfw-IIIn Medium Tank"		ammoCap=.550 rate=78.8	ap=.6	at=.7			apWt=5				atpen=4				crew=5							wt=22.1		armor=5 breakdown=0.01 carrier=ftrack fuel=140.5 fuelCap=320 country=Germany/>
+	<weapon name=pz4c		class=afv desc="SdKfz 161 PzKpfw-IVc Medium Tank"			ammoCap=.480 rate=78.8	ap=.6	at=.7			apWt=5				atpen=4				crew=5 							wt=19.5		armor=2 breakdown=0.01 carrier=ftrack fuel=115.9 fuelCap=470 country=Germany/>
+	<weapon name=pz4d		class=afv desc="SdKfz 161 PzKpfw-IVd Medium Tank"			ammoCap=.480 rate=78.8	ap=.6	at=.7			apWt=5				atpen=4				crew=5 							wt=19.5		armor=2 breakdown=0.01 carrier=ftrack fuel=115.9 fuelCap=470 country=Germany/>
+	<weapon name=pz4e		class=afv desc="SdKfz 161 PzKpfw-IVe Medium Tank"			ammoCap=.480 rate=78.8	ap=.6	at=.7			apWt=5				atpen=4				crew=5 							wt=21.5		armor=4 breakdown=0.01 carrier=ftrack fuel=115.9 fuelCap=470 country=Germany/>
+	<weapon name=pz4f		class=afv desc="SdKfz 161 PzKpfw-IVf Medium Tank"			ammoCap=.640 rate=97.5	ap=.6	at=1.15			apWt=5				atpen=4				crew=5 							wt=22.8		armor=4 breakdown=0.01 carrier=ftrack fuel=115.9 fuelCap=470 country=Germany/>
+	<weapon name=pz4f2s		class=afv desc="SdKfz 161/1 PzKpfw-IVf2(s) Medium Tank"		ammoCap=.640 rate=97.5	ap=.6	at=1.15			apWt=5				atpen=8				crew=5							wt=23.7		armor=4 breakdown=0.01 carrier=ftrack fuel=115.9 fuelCap=470 country=Germany/>
+	<weapon name=pz4g		class=afv desc="SdKfz 161/1 PzKpfw-IVg Medium Tank"			ammoCap=.640 rate=97.5	ap=.6	at=1.15			apWt=5				atpen=8				crew=5 							wt=24		armor=6 breakdown=0.01 carrier=ftrack fuel=121.7 fuelCap=470 country=Germany/>
+	<weapon name=pz4h		class=afv desc="SdKfz 161/2 PzKpfw-IVh Medium Tank"			ammoCap=.640 rate=97.5	ap=.6	at=1.15			apWt=5				atpen=8				crew=5 							wt=25.5		armor=7 breakdown=0.01 carrier=ftrack fuel=121.7 fuelCap=470 country=Germany/>
+	<weapon name=pz4j		class=afv desc="SdKfz 161/2 PzKpfw-IVj Medium Tank"			ammoCap=.640 rate=97.5	ap=.6	at=1.15			apWt=5				atpen=8				crew=5 							wt=25.5		armor=7 breakdown=0.01 carrier=ftrack fuel=128.2 fuelCap=680 country=Germany/>
+	<weapon name=pz5		class=afv desc="SdKfz 171 PzKpfw-V 'Panther' Heavy Tank"	ammoCap=.640 rate=97.5	ap=.6	at=1.2			apWt=5				atpen=9				crew=5							wt=44.5		armor=8 breakdown=0.01 carrier=ftrack fuel=74.6 fuelCap=720 country=Germany/>
+	<weapon name=pz6b		class=afv desc="SdKfz 182 PzKpfw-VIb 'Tiger II' Heavy Tank" ammoCap=.720 rate=100.3	ap=.6	at=1.45			apWt=5				atpen=12			crew=5 							wt=68.5		armor=10 breakdown=0.01 carrier=ftrack fuel=36.4 fuelCap=1036 country=Germany/>
+	<weapon name=pz6e		class=afv desc="SdKfz 181 PzKpfw-VIe 'Tiger I' Heavy Tank"	ammoCap=.900 rate=100.3	ap=.7	at=1.4			apWt=5				atpen=9				crew=5 							wt=56.5		armor=8 breakdown=0.01 carrier=ftrack fuel=71.4 fuelCap=682 country=Germany/>
+	<weapon name=maus		class=afv desc="Porsche 205 Maus Heavy Tank"				ammoCap=.480 rate=202.8	ap=.7	at=1.4			apWt=6				atpen=12			crew=6 							wt=188.6	armor=13 breakdown=0.01 carrier=ftrack fuel=11.7 fuelCap=4200 country=Germany/>
+
+	<weapon name=r1			class=afv desc="R-1 Tankette"								ammoCap=.100 rate=2		ap=.6															crew=2 							wt=12		armor=1 breakdown=0.01 carrier=ftrack fuel=400 fuelCap=150 country=Rumania/>
+
+	<weapon name=char35		class=afv desc="Somua Char S-35 Medium Tank"				ammoCap=.600 rate=31.8	ap=.17	at=.8			apWt=3				atpen=4				crew=3							wt=20		armor=3	breakdown=0.01 carrier=ftrack fuel=166.1 fuelCap=410 country=French/>
+
+	<weapon name=bt42		class=afv desc="BT-42 Tank"									ammoCap=.100 rate=129	ap=.32					apWt=5									crew=3 							wt=14.2		armor=2 breakdown=0.01 carrier=ftrack fuel=102.2 fuelCap=790 country=Finland/>
+
+
+			Tank Destroyers
+
+	<weapon name=m10		class=afv desc="M-10 Tank Destroyer"						ammoCap=.430 rate=54.5	ap=.4	at=.8			apWt=5				atpen=7				crew=5 							wt=30.5		armor=8 breakdown=0.01 carrier=ftrack fuel=117 fuelCap=750 country=USA/>
+
+	<weapon name=pzjg1		class=afv desc="PzJg-1b Tank Destroyer"						ammoCap=.430 rate=31.8	ap=.17	at=.8			apWt=3				atpen=4				crew=3 							wt=6.3		armor=3 breakdown=0.01 carrier=ftrack fuel=257.7 fuelCap=148 country=Germany/>
+	<weapon name=las762		class=afv desc="SdKfz 132 LaS 762 Tank Destroyer"			ammoCap=.400 rate=60.2	ap=.28	at=.8			apWt=5				atpen=6				crew=4 							wt=11.9		armor=4 breakdown=0.01 carrier=ftrack fuel=200 fuelCap=150 country=Germany />
+	<weapon name=pzjg38		class=afv desc="SdKfz 139 PzJg-38 Tank Destroyer"			ammoCap=.240 rate=93.2	ap=.3	at=.9			apWt=5				atpen=6				crew=4 							wt=11.08	armor=5 breakdown=0.01 carrier=ftrack fuel=231.2 fuelCap=218 country=Germany/>
+	<weapon name=marder2	class=afv desc="SdKfz 131 Marder II Tank Destroyer"			ammoCap=.300 rate=97.5	ap=.25	at=1.2			apWt=5				atpen=6				crew=4 							wt=12.4		armor=4 breakdown=0.01 carrier=ftrack fuel=258.8 fuelCap=205 country=Germany/>
+	<weapon name=marder3h	class=afv desc="SdKfz 138 Marder III(h) Tank Destroyer"		ammoCap=.240 rate=97.5	ap=.25	at=1.2			apWt=5				atpen=6				crew=4 							wt=11.4		armor=4 breakdown=0.01 carrier=ftrack fuel=237.5 fuelCap=218 country=Germany/>
+	<weapon name=marder3m	class=afv desc="SdKfz 138 Marder III(M) Tank Destroyer"		ammoCap=.240 rate=97.5	ap=.4	at=1.2			apWt=5				atpen=6				crew=4 							wt=11.4		armor=3 breakdown=0.01 carrier=ftrack fuel=237.5 fuelCap=218 country=Germany/>
+	<weapon name=hetzer		class=afv desc="SdKfz 138/2 Hetzer Tank Destroyer"			ammoCap=.330 rate=97.5	ap=.4	at=1.15			apWt=5				atpen=7				crew=4 							wt=16.15	armor=6 breakdown=0.01 carrier=ftrack fuel=150.7 fuelCap=386 country=Germany/>
+	<weapon name=jpz4		class=afv desc="SdKfz 162 JgdPz IV/48 Tank Destroyer"		ammoCap=.640 rate=97.5	ap=.4	at=1.15			apWt=5				atpen=7				crew=4 							wt=25.4		armor=6 breakdown=0.01 carrier=ftrack fuel=121.7 fuelCap=470 country=Germany/>
+	<weapon name=jpz4-70a	class=afv desc="SdKfz 162 JgdPz IV/70(A) Tank Destroyer"	ammoCap=.480 rate=97.5	ap=.4	at=1.2			apWt=5				atpen=8				crew=4 							wt=25.4		armor=7 breakdown=0.01 carrier=ftrack fuel=121.7 fuelCap=680 country=Germany/>
+	<weapon name=jpz4-70v	class=afv desc="SdKfz 162 JgdPz IV/70(V) Tank Destroyer"	ammoCap=.440 rate=97.5	ap=.4	at=1.2			apWt=5				atpen=8				crew=4 							wt=25.4		armor=6 breakdown=0.01 carrier=ftrack fuel=121.7 fuelCap=470 country=Germany/>
+	<weapon name=nashorn	class=afv desc="SdKfz 164 Nashorn Tank Destroyer"			ammoCap=.480 rate=100.3	ap=.3	at=1.35			apWt=5				atpen=8				crew=5 							wt=24.6		armor=4 breakdown=0.01 carrier=ftrack fuel=150.7 fuelCap=470 country=Germany/>
+	<weapon name=jpanther	class=afv desc="SdKfz 173 Jagdpanther Tank Destroyer"		ammoCap=.680 rate=100.3	ap=.4	at=1.35			apWt=5				atpen=8				crew=5 							wt=46		armor=7 breakdown=0.01 carrier=ftrack fuel=81.7 fuelCap=720 country=Germany/>
+	<weapon name=elefant1	class=afv desc="SdKfz 184 Elefant Tank Destroyer"			ammoCap=.600 rate=100.3	ap=.14	at=1.4			apWt=6				atpen=9				crew=5 							wt=68.5		armor=10 breakdown=0.01 carrier=ftrack fuel=43 fuelCap=950 country=Germany/>
+	<weapon name=elefant2	class=afv desc="SdKfz 184 Elefant Tank Destroyer"			ammoCap=.600 rate=100.3	ap=.4	at=1.4			apWt=6				atpen=9				crew=5 							wt=68.5		armor=10 breakdown=0.01 carrier=ftrack fuel=43 fuelCap=950 country=Germany/>
+	<weapon name=jtiger		class=afv desc="SdKfz 186 Jagdtiger Tank Destroyer"			ammoCap=.640 rate=100.3	ap=.4	at=1.4			apWt=5				atpen=8				crew=6 							wt=70.6		armor=8 breakdown=0.01 carrier=ftrack fuel=47.2 fuelCap=865 country=Germany/>
+
+	<weapon name=sdkfz301	class=afv desc="SdKfz 301 Sprengstofftrager RC Bomb"		ammoCap=.200 rate=.86	ap=.2	at=.3			apWt=2				atpen=3				crew=1							wt=.43		armor=3 breakdown=0.01 carrier=ftrack fuel=1000 fuelCap=30 country=Germany/>
+
+			- Aircraft -
+
+			Bombers
+
+	<weapon name=tb3		class=bomb desc="TB-3 Long Range Bomber" range=4000 ceil=8400 load=0.5 aa=7 speed=288  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=db3f		class=bomb desc="DB-3F Long Range Bomber" range=2700 ceil=10000 load=2 aa=16 speed=425  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=pe2		class=bomb desc="Pe-2 Short Range Bomber" range=1100 ceil=8800 load=0.8 aa=8 speed=540  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=pe8		class=bomb desc="Pe-8 Long Range Bomber" range=4700 ceil=9300 load=3 aa=20 speed=440  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=sb2		class=bomb desc="SB-2 Short Range Bomber" range=980 ceil=8560 load=1 aa=8 speed=445  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=sb2b		class=bomb desc="SB-2bis Short Range Bomber" range=1200 ceil=10000 load=0.6 aa=8 speed=450  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=su2		class=bomb desc="Su-2 Short Range Bomber" range=1100 ceil=8400 load=0.4 aa=2 speed=450  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=tb3a		class=bomb desc="TB-3 (early) Long Range Bomber" range=2470 ceil=7740 load=2 aa=16 speed=288  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=tu2		class=bomb desc="Tu-2 Long Range Bomber" range=2100 ceil=9500 load=1.5 aa=19 speed=547  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+
+	<weapon name=b25		class=bomb desc="B-25 Bomber" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=b24		class=bomb desc="B-24A Bomber" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+
+			Assault Bombers
+
+	<weapon name=il2		class=bomb desc="Il-2 Sturmovik Assault Bomber" range=510 ceil=5000 load=0.5 aa=18 speed=412  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=il2m3		class=bomb desc="Il-2 M3 Assault Bomber" range=765 ceil=3500 load=0.5 aa=17 speed=420  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=il10		class=bomb desc="Il-10 Assault Bomber" range=1000 ceil=7500 load=0.4 aa=17 speed=507  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+
+	<weapon name=ju87d		class=bomb desc="Ju87D Stuka Bomber" range=0 ceil=0 load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+
+	<weapon name=a20		class=bomb desc="A-20 Bomber" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+
+			Night Bombers
+
+	<weapon name=po2		class=ftr desc="Po-2 Night Bomber" range=450 ceil=1500 night load=0.25 speed=131  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+
+			Fighters
+
+	<weapon name=i15		class=ftr desc="I-15 Fighter" range=725 ceil=9800 load=0.1 aa=8 speed=363  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=i15b		class=ftr desc="I-15bis Fighter" range=770 ceil=9800 load=0.15 aa=8 speed=367  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=i16		class=ftr desc="I-16 Fighter" range=625 ceil=9200 load=0.1 aa=8 speed=462  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=i16a		class=ftr desc="I-16 (24) Fighter" range=600 ceil=9470 aa=14 speed=489  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=i153		class=ftr desc="I-153 Fighter" range=690 ceil=10700 load=0.2 aa=8 speed=427  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=mig3		class=ftr desc="MiG-3 Fighter" range=1000 ceil=10000 load=0.2 aa=7 speed=620  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=iak1		class=ftr desc="Iak-1 Fighter" range=700 ceil=9500 load=0.2 aa=9 speed=520  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=lagg3		class=ftr desc="LaGG-3 Fighter" range=556 ceil=9300 aa=12 speed=549  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=iak7		class=ftr desc="Iak-7b Fighter" range=820 ceil=10000 aa=11 speed=593  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=iak9		class=ftr desc="Iak-9 Fighter" range=900 ceil=10000 aa=10 speed=597  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=iak9d		class=ftr desc="Iak-9D Fighter" range=1410 ceil=10600 aa=13 speed=602  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=iak3		class=ftr desc="Iak-3 Fighter" range=900 ceil=11800 aa=10 speed=650  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=la5		class=ftr desc="La-5FN Fighter" range=765 ceil=9500 aa=10 speed=648  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=la7		class=ftr desc="La-7 Fighter" range=635 ceil=9900 load=0.1 aa=10 speed=665  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+
+	<weapon name=bf109g		class=ftr desc="Bf109G Fighter" range=0 ceil=0 load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+	<weapon name=bf110		class=ftr desc="Bf110 Fighter" range=0 ceil=0 load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+	<weapon name=bf110n		class=ftr desc="Bf110 Night Fighter" range=0 ceil=0 night load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+	<weapon name=do217		class=ftr desc="Do217 Night Fighter" range=0 ceil=0 night load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+	<weapon name=fw190a		class=ftr desc="FW190A Fighter" range=0 ceil=0 load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+	<weapon name=ju88c		class=ftr desc="Ju88C Night Fighter" range=0 ceil=0 night load=0 aa=0 speed=0 crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=Germany/>
+
+	<weapon name=p39		class=ftr desc="P-39 Fighter" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+	<weapon name=p40		class=ftr desc="P-40 Fighter" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+	<weapon name=p47		class=ftr desc="P-47 Fighter" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+	<weapon name=p63		class=ftr desc="P-63 Fighter" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+
+			Reconnaissance
+
+	<weapon name=mbr2		class=arecce desc="MBR-2 Fighter" range=1500 ceil=5000 load=0.3 aa=6 speed=195  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+	<weapon name=mbr2b		class=arecce desc="MBR-2bis Fighter" range=1500 ceil=5000  aa=4 speed=243  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USSR/>
+
+			Transport
+
+	<weapon name=c46		class=bomb desc="C-46 Transport" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+	<weapon name=c47		class=bomb desc="C-47 Transport" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+	<weapon name=o52		class=bomb desc="O-52 Transport" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+	<weapon name=at6		class=bomb desc="AT-6 Transport" range=0 ceil=0 load=0 aa=0 speed=0  crew=1 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=air country=USA/>
+
+			Ships
+
+	<weapon name=cargo500	class=ship desc="Freighter" range=5000 load=500 aa=10 speed=0 crew=100 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=water/>
+	<weapon name=cargo1000	class=ship desc="Freighter" range=5000 load=1000 aa=10 speed=0 crew=100 wt=1 fuel=100 fuelCap=100 breakdown=0.01 carrier=water/>
+
+	<weapon name=.lt.veh	class=meta desc="Light motor vehicle"/>
+	<weapon name=.med.veh	class=meta desc="Medium motor vehicle"/>
+	<weapon name=.hvy.veh	class=meta desc="Heavy motor vehicle"/>
+	<weapon name=.lt.tr		class=meta desc="1.5t Truck"/>
+	<weapon name=.med.tr	class=meta desc="3t Truck"/>
+
+water 8.33 lbs / gallon
+gasoline 5.8 - 6.5 lbs / gallon using 6.3 as the nominal 'average' weight. (3.78541 liters / gallon) (2.20462 kilograms / pound) hence (3.66911 ~= 3.67 kilos / liter)
+ or 272.47 liters / ton (metric) - 
+Tiger fuel usage listed as 5 liters / km or .2 km/l or 54 km/t of fuel
+</weapons>

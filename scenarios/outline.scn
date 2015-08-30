@@ -1,0 +1,34 @@
+<Scenario map= start= end= name=SAMPLE >
+
+		- Initial Alliances -
+
+	<force colors=Axis name=Axis>
+		<join combatant=Germany/>
+		<join combatant=Italy/>
+		<join combatant=Finland/>
+		<join combatant=Bulgaria/>
+		<join combatant=Slovakia/>
+		<join combatant=Hungary/>
+		<join combatant=Romania/>
+		<join combatant=Croatia/>
+		<victory value= level=Major />
+		<victory value= level=Minor />
+	</force>
+
+	<force colors=Allies name=Allies>
+		<join combatant="Soviet Union" />
+		<victory value= level=Major />
+		<victory value= level=Minor />
+	</force>
+
+		- Allied historical end -
+
+	<objective place= value=/>
+
+		- Axis historical end -
+
+	<objective place= value=/>
+
+	<description>
+	</description>
+</Scenario>

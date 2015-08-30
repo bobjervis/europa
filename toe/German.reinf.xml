@@ -1,0 +1,2134 @@
+<unit name=1st badge=army size=XXXX when=8/26/1939>
+	<unit des=1 toe=ger.army.hq/>
+</>
+<unit name="1st Panzer" badge=arm size=XXXX when=11/16/1940 note="Originally designated Panzergruppe 1">
+	<unit des="1st Panzer" toe=ger.army.hq/>
+</>
+<unit name="1st Fallschirm" badge=para size=XXXX when=3/1/1944>
+	<unit des="1st Fallschirm" toe=ger.army.hq/>
+</>
+<unit name=I badge=inf size=XXX when=10/1/1934>
+	<unit des=1 toe=ger.corps.hq/>
+</>
+<unit name="I Fallschirm" colors=LW badge=para size=XXX when=1/1/1944>
+	<unit des="I Fallschirm" toe=ger.corps.hq/>
+</>
+<unit name="I SS Panzer" colors=SS badge=arm size=XXX when=7/27/1943>
+	<unit des="I SS Panzer" toe=ger.corps.hq/>
+</>
+<unit des=1 toe=ger.wave1.inf.div when=10/1/1934 />
+<unit des=1 toe=ger.mtn.div when=4/9/1938 />
+<unit des=1 toe=ger.ski.bg when=9/1/1943 disband=6/2/1944 />
+<unit des=1 toe=ger.ski.div when=6/2/1944 note="Upgrades 1st Skijager Brig"/>
+<unit name="1st Res. Jager" badge=inf size="I I I" when=9/6/1943 note=Croatia />
+<unit des=1 toe=ger.jgr.bn when=1/15/1942/>
+<unit des=1 toe=ger.mgun.bn when=10/15/1935 disband=8/2/1940 note="Merged into 16th Pz Div"/>
+<unit des=1 toe=ger.mort.bn when=3/1/1943 note="only 2nd and 3rd Cp"/>
+<unit des=1 toe=ger.pz.div when=10/15/1935 />
+<unit des=1 toe=ger.lt.div when=11/10/1938 disband=10/18/1939 note="Upgrades to 6th Pz"/>
+<unit des=1 toe=ger.cav.bg when=10/1/1934 disband=10/25/1939 note="Upgrades to 1st Cav"/>
+<unit des=1 toe=ger.cav.div when=10/25/1939 disband=11/28/1941 note="Upgrades to 24th Pz"/>
+<unit des=1 toe=ger.cossack.div when=8/4/1943 disband=12/1/1944 note="Upgrades to XV SS Kos.Kav.Korps"/>
+<unit des=1 toe=ger.cossack.reg when=2/15/1943 disband=6/1/1943 note="Renames to Kos.Rgt.Sswodno"/>
+<unit des="1st Afrika" toe=ger.mot.art.reg when=10/5/1942 note="Lost in Tunisia '43"/>
+<unit name="1st Werfer" badge=rocket size=X when=3/1/1944 >
+	<unit des="1st Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=1 toe=ger.rocket.reg when=1/28/1942 note="Joins 1st Werfer Bg 3/1/44"/>
+<unit des="1st Lehr" toe=ger.rocket.reg when=1/31/1942 note="Joins 8th Werfer Bg"/>
+<unit des=1 toe=ger.rocket.bn when=10/1/1939 disband=3/27/1941 note="Joins werfer rgt 54"/>
+<unit des=1 toe=ger.sturm.eng.reg when=10/1/1944 />
+<unit des="1st Lehr" toe=ger.eng.bn when=11/2/1939 note="w/17th AOK & 2 AOK"/>
+<unit des=1 toe=ger.rail.eng.reg when=4/1/1940 note="w/AGC"/>
+<unit des=1 toe=ger.mar.div when=2/1/1945 />
+<unit des=1 toe=ger.lw.div when=7/1/1942 />
+<unit des=1 toe=ger.fall.div when=6/1/1943 note="Upgraded from 7th Flieger"/>
+<unit des=1 toe=ger.lw.jgr.bg when=8/1/1942 note="Lost in Tunisia '43" />
+<unit des="1st Fallschirm-Panzer" toe=ger.pz.reg when=1/1/1944 disband=6/1/1944 note="Renames to 21st Fallschirm-Pz Reg"/>
+<unit des=1 toe=ger.flak.div when=7/1/1938 />
+<unit des=1 toe=ger.early.flak.bg when=6/1/1940 />
+<unit des=1 toe=ger.flak.bg when=2/1/1944 />
+<unit des=1 toe=ger.ss.pz.div when=10/22/1943 note="Upgraded from SS PzGr LAH Div"/>
+<unit des="1st Reichsfuhrer SS" toe=ger.ss.mot.inf.bg when=8/1/1941 disband=1/1/1944 note="Merges into 18th SS 'Horst Wessel'"/>
+<unit des="Charlemagne SS (franz. Nr. 1)" toe=ger.ss.mot.inf.bg when=8/28/1944 disband=2.1.1945 note="Upgraded to 33rd SS Div"/>
+<unit des="Tatar. Nr. 1 SS" toe=ger.mtn.bg colors=SS when=7/8/1944 />
+<unit des="Ital. Nr. 1 SS" toe=ger.inf.bg colors=SS when=9/7/1944 disband=2/1/1945 note="Upgraded to 29th SS Div"/>
+<unit des=1 toe=ger.ss.cossack.div when=12/1/1944 note="Upgraded from 1 Kos.Kav.Bg"/>
+<unit des=1 toe=ger.it.inf.div when=8/1/1944 note="Italians"/>
+
+<unit name=2nd badge=army size=XXXX when=8/26/1939>
+	<unit des=2 toe=ger.army.hq/>
+</>
+<unit name="2nd Panzer" badge=arm size=XXXX when=11/16/1940 note="Originally designated Panzergruppe 2">
+	<unit des="2nd Panzer" toe=ger.army.hq/>
+</>
+<unit name=II badge=inf size=XXX when=10/1/1934>
+	<unit des=2 toe=ger.corps.hq/>
+</>
+<unit name="II Fallschirm" colors=LW badge=para size=XXX when=1/1/1944>
+	<unit des="2nd Fallschirm" toe=ger.corps.hq/>
+</>
+<unit name="II Luftwaffe" badge=inf size=XXX colors=LW when=11/1/1942 disband=1/1/1944 note="Changes to I Fallschirm">
+	<unit des="II LW" abbreviation=2lw toe=corps.hq />
+</>
+<unit name="II SS Panzer" colors=SS badge=arm size=XXX when=8/1//1942>
+	<unit des="II SS Panzer" toe=ger.corps.hq/>
+</>
+<unit des=2 toe=ger.wave1.inf.div when=10/1/1934 disband=10/12/1937 note="Upgrades to 2nd Mot."/>
+<unit des=2 toe=ger.mot.inf.div when=10/12/1937 disband=1/10/1941 note="Upgrades to 12th Pz"/>
+<unit des=2 toe=ger.mtn.div when=4/1/1938 />
+<unit des=2 toe=ger.jgr.bn when=1/2/1942/>
+<unit des=2 toe=ger.mgun.bn when=10/15/1935 disband=1/23/1941 note="Merged into 5th Lt Div"/>
+<unit des=2 toe=ger.mort.bn when=3/1/1943 note="only 2nd and 3rd Cp"/>
+<unit des=2 toe=ger.pz.div when=10/15/1935 />
+<unit des=2 toe=ger.lt.div when=11/10/1938 disband=10/18/1939 note="Upgrades to 7th Pz"/>
+<unit name="2nd Werfer" badge=rocket size=X when=3/1/1944 >
+	<unit des="2nd Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=2 toe=ger.rocket.reg when=4/1/1942 />
+<unit des=2 toe=ger.rocket.bn when=10/10/1939 disband=12/1/1942 note="Joins werfer rgt 3"/>
+<unit des="2nd Lehr" toe=ger.eng.bn when=10/12/1939 note="w/AGC"/>
+<unit des=2 toe=ger.rail.eng.bn when=1/1/1942 />
+<unit des=2 toe=ger.rail.eng.reg when=4/1/1940 note="w/AGS"/>
+<unit des=2 toe=ger.mar.div when=3/1/1945 />
+<unit des=2 toe=ger.lw.div colors=LW when=9/1/1942 />
+<unit des=2 toe=ger.fall.div when=2/1/1943 />
+<unit des=2 toe=ger.flak.div when=7/1/1938 />
+<unit des=2 toe=ger.early.flak.bg when=6/1/1940 />
+<unit des=2 toe=ger.flak.bg when=2/1/1944 />
+<unit des=I/2 toe=ger.flak.bn when=11/1/1943 />
+<unit des=2 toe=ger.ss.pz.div when=10/22/1943 note="Upgraded from SS PzGr DR Div"/>
+<unit des="2nd Reichsfuhrer SS" toe=ger.ss.mot.inf.bg when=11/1/1941 disband=5/18/1943 note="Converted to Latvian Volunteer Brigade"/>
+<unit des=2 toe=ger.ss.cossack.div when=12/1/1944 note="Upgraded from 2 Kos.Kav.Bg"/>
+<unit des="2nd 'Littorio'" toe=ger.it.inf.div when=8/1/1944 note="Italians"/>
+
+<unit name=3rd badge=army size=XXXX when=8/22/1939>
+	<unit des=3 toe=ger.army.hq/>
+</>
+<unit name="3rd Panzer" badge=arm size=XXXX when=11/16/1940 note="Originally designated Panzergruppe 3">
+	<unit des="3rd Panzer" toe=ger.army.hq/>
+</>
+<unit name="III Panzer" badge=arm size=XXX when=10/1/1934>
+	<unit des="III Panzer" toe=ger.corps.hq/>
+</>
+<unit name="III Luftwaffe" badge=inf size=XXX colors=LW when=2/1/1943 disband=11/1/1943 note="Changes to II Flakkorps">
+	<unit des="III LW" abbreviation=3lw toe=corps.hq />
+</>
+<unit name="III SS Panzer" colors=SS badge=arm size=XXX when=4/15/1943>
+	<unit des="III SS Panzer" toe=ger.corps.hq/>
+</>
+<unit des=3 toe=ger.wave1.inf.div when=10/1/1934 disband=10/27/1940 note="Upgrades to 3rd Mot."/>
+<unit des=3 toe=ger.mot.inf.div when=10/27/1940 disband=6/23/1943 note="Upgrades to 3rd PzGr."/>
+<unit des=3 toe=ger.pg.div when=6/23/1943 />
+<unit des=3 toe=ger.mtn.div when=4/1/1938 />
+<unit des=3 toe=ger.jgr.bn when=12/28/1941/>
+<unit des=3 toe=ger.mgun.bn when=10/15/1935 disband=8/6/1940 note="Merged into 16th Mot Div"/>
+<unit des=3 toe=ger.pz.div when=10/15/1935 />
+<unit des=3 toe=ger.lt.div when=11/10/1938 disband=10/16/1939 note="Upgrades to 8th Pz"/>
+<unit des=3 toe=ger.cav.bg when=4/1/1944 disband=3/1/1945 note="Upgrades to 3rd Cav"/>
+<unit des=3 toe=ger.cav.div when=3/1/1945 />
+<unit name="3rd Werfer" badge=rocket size=X when=3/1/1944 >
+	<unit des="3rd Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=3 toe=ger.rocket.reg when=5/14/1942 note="Joins 2nd Werfer Bg 3/1/1944"/>
+<unit des=3 toe=ger.rocket.bn when=9/22/1939 disband=10/11/1942 note="Joins werfer rgt 55"/>
+<unit des=3 toe=ger.rail.eng.reg when=4/1/1940 note="w/AGS"/>
+<unit des=3 toe=ger.mar.div when=4/1/1945 />
+<unit des=3 toe=ger.lw.div colors=LW when=10/1/1942 />
+<unit des=3 toe=ger.fall.div when=10/1/1943 />
+<unit des=3 toe=ger.flak.div when=7/1/1938 />
+<unit des=3 toe=ger.early.flak.bg when=6/1/1940 />
+<unit des=3 toe=ger.flak.bg when=11/1/1943 />
+<unit des=3 toe=ger.flak.reg when=11/11/1935 />
+<unit des=I/3 toe=ger.flak.bn when=11/11/1935 />
+<unit des=3 toe=ger.ss.pz.div when=10/22/1943 note="Upgraded from SS PzGr Totenkopf Div"/>
+<unit des="3rd Estonian Volunteer" toe=ger.inf.bg colors=SS when=10/22/1943 disband=3/1/1944 note="Joins 20 Estn. SS Div"/>
+<unit des="3rd 'San Marco'" toe=ger.it.inf.div when=8/1/1944 note="Italians"/>
+
+<unit name=4th badge=army size=XXXX when=8/1/1939>
+	<unit des=4 toe=ger.army.hq/>
+</>
+<unit name="4th Panzer" badge=arm size=XXXX when=2/17/1941 note="Originally designated Panzergruppe 4">
+	<unit des="4th Panzer" toe=ger.army.hq/>
+</>
+<unit name=IV badge=inf size=XXX when=10/1/1934>
+	<unit des=4 toe=ger.corps.hq/>
+</>
+<unit name="IV Panzer" badge=inf size=XXX when=10/10/1944>
+-	<unit des="IV Panzer" toe=ger.corps.hq/>
+</>
+<unit name="IV Luftwaffe" badge=inf size=XXX colors=LW when=7/1/1943 disband=11/19/1944 note="Changes to LXXXX AK">
+	<unit des="IV LW" abbreviation=3lw toe=corps.hq />
+</>
+<unit name="IV SS Panzer" colors=SS badge=arm size=XXX when=8/5/1943 disband=12/1/1943 note="Personnel transferred to VI SS Corps">
+	<unit des="IV SS Panzer" toe=ger.corps.hq/>
+</>
+<unit des=4 toe=ger.wave1.inf.div when=10/1/1934 disband=8/15/1940 note="Upgrades to 14th Pz."/>
+<unit des=4 toe=ger.mtn.div when=10/23/1940 />
+<unit des=4 toe=ger.jgr.bn when=1/5/1942/>
+<unit des=4 toe=ger.mgun.bn when=10/15/1935 />
+<unit des=4 toe=ger.pz.div when=11/10/1938 />
+<unit des=4 toe=ger.pz.bg when=11/10/1938 disband=10/15/1939 note="Joins 10th Pz"/>
+<unit des=4 toe=ger.cav.bg when=5/29/1944 disband=3/1/1945 note="Upgrades to 4th Cav"/>
+<unit des=4 toe=ger.cav.div when=3/1/1945 />
+<unit name="4th Werfer" badge=rocket size=X when=3/1/1944 >
+	<unit des="4th Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=4 toe=ger.rocket.bn when=1/2/1940 disband=6/19/1942 note="Joins werfer rgt 70"/>
+<unit des=4 toe=ger.bridge.bn when=1/1/1941 note="actual date unknown"/>
+<unit des=4 toe=ger.rail.eng.reg when=4/1/1940 note="w/AGN"/>
+<unit des=4 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=4 toe=ger.lw.div colors=LW when=11/1/1942 disband=11/1/1943 note="Converted to Whermacht" />
+<unit des=4 toe=ger.fall.div when=12/1/1943 />
+<unit des=4 toe=ger.flak.div when=7/1/1938 />
+<unit des=4 toe=ger.early.flak.bg when=6/1/1940 disband=10/1/1943 note="Seems to convert to late flak bg"/>
+<unit des=4 toe=ger.flak.bg when=10/1/1943 />
+<unit des=4 toe=ger.flak.reg when=11/11/1935 />
+<unit des=I/4 toe=ger.flak.bn when=11/11/1935 />
+<unit des=II/4 toe=ger.flak.bn when=11/11/1935 />
+<unit des=4 toe=ger.ss.pg.div when=10/22/1943 note="Upgraded from SS PzGr Polizei Div"/>
+<unit des="4th SS Volunteer Panzergrenadier 'Nederland'" toe=ger.ss.pg.bg when=10/23/1943 disband=2/10/1945 note="Upgraded to 23 SS PG Div"/>
+<unit des="4th 'Monte Rosa'" toe=ger.it.mtn.div when=8/1/1944 note="Italians"/>
+
+<unit name=5th badge=army size=XXXX when=8/25/1939 disband=11/4/1939 note="Renamed 18th Army">
+	<unit des=5 toe=ger.army.hq/>
+</>
+<unit name="5th Panzer" badge=arm size=XXXX when=12/8/1942 note="in Africa, then France">
+	<unit des="5th Panzer" toe=ger.army.hq/>
+</>
+<unit name=V badge=inf size=XXX when=10/1/1934>
+	<unit des=5 toe=ger.corps.hq/>
+</>
+<unit name="V SS Mountain" colors=SS badge=mtn size=XXX when=7/1/1943>
+	<unit des="V SS Mountain" toe=ger.corps.hq >
+		<unit des=105 colors=SS toe=ger.flak.bn />
+	</>
+	<unit des=105 colors=SS toe=ger.med.pz.bn />
+	<unit des=105 colors=SS toe=ger.rocket.bn />
+	<unit des=105 colors=SS toe=ger.mcycle.bn />
+	<unit des=105 colors=SS toe=ger.stug.bn />
+	<unit des=105 colors=SS toe=ger.hvy.art1.bn />
+</unit>
+<unit des=5 toe=ger.wave1.inf.div when=10/1/1934 disband=12/1/1941 note="Converted to 5 lt.Inf"/>
+<unit des=5 toe=ger.lt.inf.div when=12/1/1941 disband=7/6/1942 note="Converted to 5 Jgr"/>
+<unit des=5 toe=ger.jgr.div when=7/6/1942 />
+<unit des=5 toe=ger.mtn.div when=10/25/1940 />
+<unit des=5 toe=ger.jgr.bn when=1/1/1942/>
+<unit des=5 toe=ger.mgun.bn when=10/15/1935 />
+<unit des=5 toe=ger.mort.bn when=10/15/1935 disband=1/1/1943 note="Attached to 78th Sturm Div"/>
+<unit des=5 toe=ger.pz.div when=11/24/1938 />
+<unit des=5 toe=ger.lt.div when=2/18/1941 disband=8/1/1941 note="Upgraded to 21 Pz" />
+<unit name="5th Werfer" badge=rocket size=X when= 1/7/1944 >
+	<unit des="5th Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=5 toe=ger.rocket.bn when=12/15/1939 disband=10/9/1942 note="Joins werfer rgt 55"/>
+<unit des=5 toe=ger.bridge.bn when=1/1/1941 note="actual date unknown"/>
+<unit des=5 toe=ger.rail.eng.reg when=9/15/1940 note="w/AGC"/>
+<unit des=5 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=5 toe=ger.lw.div colors=LW when=11/1/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=5 toe=ger.fall.div when=3/2/1944 />
+<unit des=5 toe=ger.flak.div when=10/1/1939 />
+<unit des=5 toe=ger.early.flak.bg when=8/1/1940 disband=10/1/1943 note="Seems to convert to late flak bg"/>
+<unit des=5 toe=ger.flak.bg when=10/1/1943 />
+<unit des=5 toe=ger.flak.reg when=10/1/1935 />
+<unit des=I/5 toe=ger.flak.bn when=10/1/1935 />
+<unit des=II/5 toe=ger.flak.bn when=10/1/1935 />
+<unit des=5 toe=ger.ss.pz.div when=10/22/1943 note="Upgraded from SS PzGr Wiking Div"/>
+<unit des="5th SS Volunteer Sturm 'Wallonien'" toe=ger.ss.pg.bg when=10/22/1943 disband=10/18/1944 note="Upgraded to 28 SS Gr Div"/>
+
+<unit name=6th badge=army size=XXXX when=10/10/1939>
+	<unit des=6 toe=ger.army.hq/>
+</>
+<unit name="6th SS Panzer" badge=arm size=XXXX colors=SS when=9/24/1944>
+	<unit des="6th SS Panzer" toe=ger.army.hq/>
+</>
+<unit name=VI badge=inf size=XXX when=10/1/1934>
+	<unit des=6 toe=ger.corps.hq/>
+</>
+<unit name="VI SS Latvian" colors=SS badge=inf size=XXX when=1/11/1944 >
+	<unit des="VI SS Latvian" toe=ger.corps.hq/>
+</>
+<unit des=6 toe=ger.wave1.inf.div when=10/1/1934 disband=7/25/1944 note="Converted to 6th VG"/>
+<unit des=6 toe=ger.vg.div when=7/25/1944 />
+<unit des=6 toe=ger.mtn.div when=6/1/1940 />
+<unit des=6 toe=ger.jgr.bn when=1/5/1942 />
+<unit des=6 toe=ger.mgun.bn when=10/15/1935 disband=11/15/1940 note="Merged into 10th Mot Div"/>
+<unit des=6 toe=ger.pz.div when=10/18/1939 />
+<unit name="6th Werfer" badge=rocket size=X when=1/31/1944 >
+	<unit des="6th Werfer" toe=ger.mot.bg.hq />
+	<unit des=81 toe=ger.rocket.reg />
+	<unit des=82 toe=ger.rocket.reg />
+</>
+<unit des=6 toe=ger.rocket.bn when=3/18/1940 disband=5/10/1942 note="Joins schw. werfer rgt 3"/>
+<unit des=6 toe=ger.rail.eng.reg when=10/1/1940 note="w/AGS to Stalingrad"/>
+<unit des=6 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=6 toe=ger.lw.div colors=LW when=1/1/1943 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=6 toe=ger.fall.div when=6/1/1944 />
+<unit des=6 toe=ger.flak.div when=8/1/1939 />
+<unit des=6 toe=ger.early.flak.bg when=12/1/1939 disband=3/1/1943 note="Seems to convert to 21 flak div"/>
+<unit des=6 toe=ger.flak.bg when=8/25/1944 />
+<unit des=6 toe=ger.flak.reg when=11/11/1935 />
+<unit des=I/6 toe=ger.flak.bn when=11/11/1935 />
+<unit des=II/6 toe=ger.flak.bn when=11/1/1943 disband=6/1/1944 note="converts to I/30"/>
+<unit des=6 toe=ger.mtn.div colors=SS when=10/22/1943 note="Upgraded from SS Geb Nord Div"/>
+<unit des="6th SS Volunteer Sturm 'Langemarck'" toe=ger.ss.pg.bg when=10/22/1943 disband=10/18/1944 note="Upgraded to 27 SS Gr Div"/>
+
+<unit name=7th badge=army size=XXXX when=8/25/1939>
+	<unit des=7 toe=ger.army.hq/>
+</>
+<unit name=VII badge=inf size=XXX when=10/1/1934>
+	<unit des=7 toe=ger.corps.hq/>
+</>
+<unit name="VII Panzer" badge=inf size=XXX when=12/18/1944>
+	<unit des="VII Panzer" toe=ger.corps.hq/>
+</>
+<unit des=7 toe=ger.wave1.inf.div when=10/1/1934 />
+<unit des=7 toe=ger.mtn.div when=11/15/1941 />
+<unit des=7 toe=ger.jgr.bn when=1/7/1942/>
+<unit des=7 toe=ger.mgun.bn when=10/15/1935 disband=8/16/1940 note="Merged into 14th Pz Div"/>
+<unit des=7 toe=ger.cossack.reg when=10/1/1942 />
+<unit des=7 toe=ger.pz.div when=10/18/1939 />
+<unit name="7th Werfer" badge=rocket size=X when=3/7/1944 >
+	<unit des="7th Werfer" toe=ger.mot.bg.hq />
+	<unit des=83 toe=ger.rocket.reg />
+	<unit des=84 toe=ger.rocket.reg />
+</>
+<unit des=7 toe=ger.rocket.bn when=3/20/1940 disband=3/27/1941 note="Joins schw. werfer rgt 54"/>
+<unit des=7 toe=ger.bridge.bn when=1/1/1941 note="actual date unknown"/>
+<unit des=7 toe=ger.rail.eng.reg when=1/15/1941/>
+<unit des=7 toe=ger.lw.div colors=LW when=1/1/1943 />
+<unit des=7 toe=ger.fall.div when=10/9/1944 />
+<unit des=7 toe=ger.flak.div when=3/1/1940 />
+<unit des=7 toe=ger.early.flak.bg when=2/1/1940 disband=8/1/1942 note="Seems to convert to 19 flak div"/>
+<unit des=7 toe=ger.flak.bg when=4/1/1944 />
+<unit des=7 toe=ger.flak.reg when=11/15/1938 />
+<unit des=I/7 toe=ger.flak.bn when=8/26/1939 />
+<unit des=7 toe=ger.mtn.div colors=SS when=10/22/1943 note="Upgraded from SS Geb Prinz Eugen Div"/>
+
+<unit name=8th badge=army size=XXXX when=8/1/1939>
+	<unit des=8 toe=ger.army.hq/>
+</>
+<unit name=VIII badge=inf size=XXX when=10/1/1934>
+	<unit des=8 toe=ger.corps.hq/>
+</>
+<unit des=8 toe=ger.wave1.inf.div when=12/1/1934 disband=12/1/1941 note="Converted to 8th Lt Inf"/>
+<unit des=8 toe=ger.lt.inf.div when=12/1/1941 disband=6/30/1942 note="Converted to 8th Jgr"/>
+<unit des=8 toe=ger.jgr.div when=6/30/1942/>
+<unit des=8 toe=ger.mtn.div when=3/1/1945 />
+<unit des=8 toe=ger.jgr.bn when=12/22/1941 />
+<unit des=8 toe=ger.mgun.bn when=10/15/1935 disband=9/14/1941 note="Merged into 21st Pz Div"/>
+<unit des=8 toe=ger.pz.div when=10/16/1939 />
+<unit name="8th Werfer" badge=rocket size=X when=3/1/1944 >
+	<unit des="8th Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=8 toe=ger.rocket.bn when=3/15/1940 disband=4/1/1942 note="Joins schw. werfer rgt 2"/>
+<unit des=8 toe=ger.rail.eng.reg when=4/15/1941/>
+<unit des=8 toe=ger.lw.div colors=LW when=10/29/1942 />
+<unit des=8 toe=ger.fall.div when=10/25/1944 />
+<unit des=8 toe=ger.flak.div when=5/1/1940 />
+<unit des=8 toe=ger.early.flak.bg when=2/7/1941 />
+<unit des=8 toe=ger.flak.reg when=11/15/1938 />
+<unit des=I/8 toe=ger.flak.bn when=11/15/1938 />
+<unit des=II/8 toe=ger.flak.bn when=11/1/1942 />
+<unit des=8 toe=ger.cav.div colors=SS when=9/1/1942 note="Florian Geyer"/>
+
+<unit name=9th badge=army size=XXXX when=5/15/1940>
+	<unit des=9 toe=ger.army.hq/>
+</>
+<unit name=IX badge=inf size=XXX when=10/1/1934>
+	<unit des=9 toe=ger.corps.hq/>
+</>
+<unit name="IX SS Mountain" badge=mtn size=XXX colors=SS when=7/1/1944>
+	<unit des="IX SS Mountain" toe=ger.corps.hq/>
+</>
+<unit des=9 toe=ger.wave1.inf.div when=10/1/1934 disband=10/13/1944 note="Converted to 9th VG"/>
+<unit des=9 toe=ger.vg.div when=10/13/1944 />
+<unit des=9 toe=ger.jgr.bn when=12/23/1941 />
+<unit des=9 toe=ger.mgun.bn when=10/15/1935 />
+<unit des=9 toe=ger.mort.bn when=6/2/1943 />
+<unit des=9 toe=ger.pz.div when=1/3/1940 />
+<unit name="9th Werfer" badge=rocket size=X when=3/16/1944 >
+	<unit des="9th Werfer" toe=ger.mot.bg.hq />
+</>
+<unit des=9 toe=ger.rocket.bn when=3/15/1940 disband=1/31/1941 note="Joins schw. werfer rgt 52"/>
+<unit des=9 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=9 toe=ger.lw.div colors=LW when=10/1/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=9 toe=ger.fall.div when=12/1/1944 />
+<unit des=9 toe=ger.flak.div when=7/1/1940 />
+<unit des=9 toe=ger.early.flak.bg when=4/1/1941 disband=2/1/1942 note="Seems to convert to 12 flak div"/>
+<unit des=9 toe=ger.flak.bg when=8/1/1944 />
+<unit des=9 toe=ger.flak.reg when=11/30/1939 />
+<unit des=I/9 toe=ger.flak.bn when=11/30/1939 />
+<unit des=9 toe=ger.ss.pz.div when=10/22/1943 note="Renamed from SS Hohenstaufen PG Div"/>
+
+<unit name=10th badge=army size=XXXX when=8/26/1939>
+	<unit des=10 toe=ger.army.hq/>
+</>
+<unit name=X badge=inf size=XXX when=10/15/1935>
+	<unit des=10 toe=ger.corps.hq/>
+</>
+<unit name="X SS" badge=inf size=XXX colors=SS when=1/1/1945>
+	<unit des="X SS" toe=ger.corps.hq/>
+</>
+<unit des=10 toe=ger.wave1.inf.div when=10/1/1934 disband=11/15/1940 note="Converted to 10th Mot"/>
+<unit des=10 toe=ger.mot.inf.div when=11/15/1940 disband=6/13/1943 note="Converted to 10th PG"/>
+<unit des=10 toe=ger.pg.div when=6/13/1943 />
+<unit des=10 toe=ger.rad.bg when=1/1/1945 />
+<unit des=10 toe=ger.jgr.bn when=7/20/1942 />
+<unit des=10 toe=ger.mgun.bn when=10/12/1937 disband=6/5/1943 note="Converted to 10th Mortar Bn"/>
+<unit des=10 toe=ger.mort.bn when=6/5/1943 />
+<unit des=10 toe=ger.pz.div when=4/1/1939 />
+<unit des="10th Mountain" toe=ger.rocket.bn when=1/30/1942 />
+<unit des=10 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=10 toe=ger.lw.div colors=LW when=10/1/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=10 toe=ger.fall.div when=3/1/1945 />
+<unit des=10 toe=ger.flak.div when=4/1/1941 />
+<unit des=10 toe=ger.early.flak.bg when=4/1/1941 disband=7/1/1943 note="Seems to convert to 10 flak bg"/>
+<unit des=10 toe=ger.flak.bg when=7/1/1943 />
+<unit des=10 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/10 toe=ger.flak.bn when=1/1/1941 />
+<unit des=10 toe=ger.ss.pz.div when=10/22/1943 note="Renamed from SS Frundsberg PG Div"/>
+
+<unit name=11th badge=army size=XXXX when=10/5/1940 disbaned=11/21/1942 note="Upgraded to Army Group Don">
+	<unit des=11 toe=ger.army.hq/>
+</>
+<unit name=XI badge=inf size=XXX when=10/1/1936>
+	<unit des=11 toe=ger.corps.hq/>
+</>
+<unit name="XI SS" badge=inf size=XXX colors=SS when=7/24/1944>
+	<unit des="XI SS" toe=ger.corps.hq/>
+</>
+<unit des=11 toe=ger.wave1.inf.div when=10/1/1934 />
+<unit des=11 toe=ger.jgr.bn when=1/15/1942 />
+<unit des=11 toe=ger.mgun.bn when=10/12/1937 disband=11/1/1940 note="Merged to 36thMot Div"/>
+<unit des=11 toe=ger.pz.div when=8/1/1940 />
+<unit des=11 toe=ger.pz.bg when=12/1/1939 disband=8/1/1940 note="Upgraded to 11 Pz Div" />
+<unit des=11 toe=ger.rocket.bn when=10/7/1943/>
+<unit des=11 toe=ger.hvy.rocket.bn when=1/1/1945/>
+<unit des=11 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=11 toe=ger.lw.div colors=LW when=10/1/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=11 toe=ger.flak.div when=2/1/1941 />
+<unit des=11 toe=ger.early.flak.bg when=11/29/1941 disband=11/1/1943 note="Seems to convert to CHannel Isles Kmd"/>
+<unit des=11 toe=ger.flak.bg when=6/1/1944 />
+<unit des=11 toe=ger.flak.reg when=11/11/1936 />
+<unit des=I/11 toe=ger.flak.bn when=11/11/1936 />
+<unit des=II/11 toe=ger.flak.bn when=11/11/1936 />
+<unit des=11 toe=ger.ss.pg.div when=10/22/1943 note="Upgraded from SS Volunteer PG Div 'Nordland'"/>
+
+<unit name=12th badge=army size=XXXX when=10/13/1939 disband=1/23/1943 note="Upgraded to Army Group E">
+	<unit des=12 toe=ger.army.hq/>
+</>
+<unit name=XII badge=inf size=XXX when=10/1/1936>
+	<unit des=12 toe=ger.corps.hq/>
+</>
+<unit name="XII SS" badge=inf size=XXX colors=SS when=8/1/1944>
+	<unit des="XII SS" toe=ger.corps.hq/>
+</>
+<unit des=12 toe=ger.wave1.inf.div when=10/1/1934 disband=10/9/1944 note="Converted to 12th VG"/>
+<unit des=12 toe=ger.vg.div when=10/9/1944 />
+<unit des=12 toe=ger.jgr.bn when=1/6/1942 />
+<unit des=12 toe=ger.pz.div when=10/5/1940 />
+<unit des=12 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=12 toe=ger.lw.div colors=LW when=12/31/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=12 toe=ger.flak.div when=2/1/1942 />
+<unit des=12 toe=ger.early.flak.bg when=12/1/1941 />
+<unit des=12 toe=ger.flak.reg when=11/11/1935 />
+<unit des=I/12 toe=ger.flak.bn when=11/11/1935 />
+<unit des=II/12 toe=ger.flak.bn when=11/11/1935 />
+<unit des=12 toe=ger.ss.pz.div when=10/22/1943 note="Renamed from SS Hitlerjugend PG Div"/>
+
+<unit name=XIII badge=inf size=XXX when=10/1/1937>
+	<unit des=13 toe=ger.corps.hq/>
+</>
+<unit name="XIII SS" badge=inf size=XXX colors=SS when=8/1/1944>
+	<unit des="XIII SS" toe=ger.corps.hq/>
+</>
+<unit des=13 toe=ger.wave1.inf.div when=10/1/1934 disband=10/12/1937 note="Upgrades to 13th Mot."/>
+<unit des=13 toe=ger.mot.inf.div when=10/12/1937 disband=10/11/1940 note="Upgrades to 13th Pz"/>
+<unit des=13 toe=ger.jgr.bn when=8/26/1942 />
+<unit des=13 toe=ger.pz.div when=10/11/1940 />
+<unit des=13 toe=ger.rail.eng.bn when=4/13/1943 />
+<unit des=13 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=13 toe=ger.lw.div colors=LW when=11/15/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=13 toe=ger.flak.div when=2/1/1942 />
+<unit des=13 toe=ger.early.flak.bg when=6/1/1942 />
+<unit des=13 toe=ger.flak.reg when=11/1/1935 />
+<unit des=I/13 toe=ger.flak.bn when=11/1/1935 />
+<unit des=II/13 toe=ger.flak.bn when=11/1/1935 disband=1/1/1939 note="Renames to II/33"/>
+<unit des=13 toe=ger.mtn.div colors=SS when=10/22/1943 note="Upgraded from SS Kroat Volunteer Geb Div"/>
+
+<unit name=14th badge=army size=XXXX when=8/1/1939 >
+	<unit des=14 toe=ger.army.hq/>
+</>
+<unit name="XIV Panzer" badge=arm size=XXX when=4/1/1938>
+	<unit des="XIV Panzer" toe=ger.corps.hq/>
+</>
+<unit name="XIV SS" badge=inf size=XXX colors=SS when=11/1/1944>
+	<unit des="XIV SS" toe=ger.corps.hq/>
+</>
+<unit des=14 toe=ger.wave1.inf.div when=10/1/1934 disband=10/15/1940 note="Upgrades to 14th Mot."/>
+<unit des=14 toe=ger.mot.inf.div when=10/15/1940 disband=6/30/1943 note="Downgraded to 14th Inf"/>
+<unit des=14 toe=ger.wave4.inf.div when=6/30/1943 note="Actually uses '44 inf div toe"/>
+<unit des=14 toe=ger.landw.div when=8/26/1939 disband=1/1/1940 note="Upgraded to 205th Inf"/>
+<unit des=14 toe=ger.mgun.bn when=8/25/1939/>
+<unit des=14 toe=ger.pz.div when=8/15/1940 />
+<unit des=14 toe=ger.rocket.reg when=3/20/1944/>
+<unit des=14 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=14 toe=ger.lw.div colors=LW when=12/31/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=14 toe=ger.flak.div when=1/1/1942 />
+<unit des=14 toe=ger.early.flak.bg when=6/1/1942 />
+<unit des=14 toe=ger.flak.reg when=10/1/1936 />
+<unit des=I/14 toe=ger.flak.bn when=10/1/1936 />
+<unit des=II/14 toe=ger.flak.bn when=10/1/1936/>
+<unit des=14 toe=ger.ss.inf.div when=10/22/1943 note="14. Galician Volunteer Inf Div"/>
+
+<unit name=15th badge=army size=XXXX when=1/15/1940 >
+	<unit des=15 toe=ger.army.hq/>
+</>
+<unit name="XV Motorized" badge=mot.inf size=XXX when=10/10/1938 disband=11/16/1940 note="Upgraded to Panzergruppe 3">
+	<unit des="XV Motorized" toe=ger.corps.hq/>
+</>
+<unit name="XV Mountain" badge=mtn size=XXX when=8/12/1943>
+	<unit des="XV Mountain" toe=ger.corps.hq/>
+</>
+<unit name="XV SS Cossack Cavalry" badge=cav size=XXX colors=SS when=2/1/1945>
+	<unit des="XV SS Cossack Cavalry" toe=ger.corps.hq/>
+</>
+<unit des=15 toe=ger.wave1.inf.div when=10/2/1934/>
+<unit des=15 toe=ger.mgun.bn when=11/10/1938 disband=10/1/1940 note="Merged into 60th Mot. Div"/>
+<unit des=15 toe=ger.pz.div when=11/1/1940 />
+<unit des=15 toe=ger.pg.div when=7/1/1943 />
+<unit name="15th Volks-Werfer" badge=rocket size=X when=9/25/1944 >
+	<unit des="15th Volks-Werfer" toe=ger.mot.bg.hq />
+	<unit des=85 toe=ger.rocket.reg />
+</>
+<unit des=15 toe=ger.rocket.reg when=5/13/1944/>
+<unit des=15 toe=ger.rail.eng.bn when=1/1/1941 />
+<unit des=15 toe=ger.lw.div colors=LW when=12/31/1942 />
+<unit des=15 toe=ger.flak.div when=3/1/1942 />
+<unit des=15 toe=ger.early.flak.bg when=6/1/1942 disband=9/1/1944 note="Converts to 11 Flak div"/>
+<unit des=15 toe=ger.flak.bg when=10/1/1944 />
+<unit des=15 toe=ger.flak.reg when=6/1/1940 />
+<unit des=I/15 toe=ger.flak.bn when=11/1/1943 note="Out of conversion of III/LW Art Rg 14" />
+<unit des=15 toe=ger.ss.inf.div when=10/22/1943 note="15. Latvian Volunteer Inf Div"/>
+
+<unit name=16th badge=army size=XXXX when=10/22/1938 >
+	<unit des=16 toe=ger.army.hq/>
+</>
+<unit name="XVI Motorized" badge=mot.inf size=XXX when=8/19/1939 disband=2/17/1941 note="Upgraded to Panzergruppe 4">
+	<unit des="XVI Motorized" toe=ger.corps.hq/>
+</>
+<unit name=XVI badge=inf size=XXX when=7/1/1944>
+	<unit des=16 toe=ger.corps.hq/>
+</>
+<unit des=16 toe=ger.wave1.inf.div when=10/1/1934 disband=8/6/1940 note="Upgraded to 16th Mot Div"/>
+<unit des=16 toe=ger.mot.inf.div when=8/6/1940 disband=6/23/1943 note="Converted to 16th PG"/>
+<unit des=16 toe=ger.pg.div when=6/23/1943 />
+<unit des=16 toe=ger.vg.div when=8/4/1944 />
+<unit des=16 toe=ger.mgun.bn when=3/10/1940 />
+<unit des=16 toe=ger.pz.div when=11/1/1940 />
+<unit name="16th Volks-Werfer" badge=rocket size=X when=10/6/1944 >
+	<unit des="16th Volks-Werfer" toe=ger.mot.bg.hq />
+	<unit des=86 toe=ger.rocket.reg />
+	<unit des=87 toe=ger.rocket.reg />
+</>
+<unit des=16 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=16 toe=ger.lw.div colors=LW when=12/1/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=16 toe=ger.flak.div when=3/1/1942 />
+<unit des=16 toe=ger.early.flak.bg when=9/1/1942 disband=12/1/1943 note="Converts to 24 Flak div"/>
+<unit des=16 toe=ger.flak.bg when=10/24/1944 />
+<unit des=16 toe=ger.flak.reg when=6/1/1940 />
+<unit des=I/16 toe=ger.flak.bn when=12/1/1944 />
+<unit des=16 toe=ger.ss.pg.div when=10/22/1943 note="Upgraded from PG Div 'Reichsfuhrer SS'"/>
+
+<unit name=17th badge=army size=XXXX when=12/20/1940 >
+	<unit des=17 toe=ger.army.hq/>
+</>
+<unit name=XVII badge=inf size=XXX when=4/1/1938>
+	<unit des=17 toe=ger.corps.hq/>
+</>
+<unit des=17 toe=ger.wave1.inf.div when=10/1/1934 />
+<unit des=17 toe=ger.mgun.bn when=7/14/1940 />
+<unit des=17 toe=ger.pz.div when=11/1/1940 />
+<unit name="17th Volks-Werfer" badge=rocket size=X when=10/11/1944 >
+	<unit des="17th Volks-Werfer" toe=ger.mot.bg.hq />
+	<unit des=88 toe=ger.rocket.reg />
+	<unit des=89 toe=ger.rocket.reg />
+</>
+<unit des=17 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=17 toe=ger.lw.div colors=LW when=12/31/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=17 toe=ger.flak.div when=5/1/1942 />
+<unit des=17 toe=ger.early.flak.bg when=12/1/1942 disband=12/1/1943 note="Converts to Gnl Flakart. Sud"/>
+<unit des=17 toe=ger.flak.bg when=4/1/1944 />
+<unit des=17 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/17 toe=ger.flak.bn when=11/1/1943 note="from III/LW Art reg 5" />
+<unit des=17 toe=ger.ss.pg.div when=11/15/1943 note="Gotz von Berlichingen"/>
+
+<unit name=18th badge=army size=XXXX when=11/4/1939 >
+	<unit des=18 toe=ger.army.hq/>
+</>
+<unit name="XVIII Mountain" badge=mtn size=XXX when=4/1/1938>
+	<unit des="XVIII Mountain" toe=ger.corps.hq/>
+</>
+<unit name="XVIII SS" badge=inf size=XXX colors=SS when=12/1/1944>
+	<unit des="XVIII SS" toe=ger.corps.hq/>
+</>
+<unit des=18 toe=ger.wave1.inf.div when=10/1/1934 disband=11/1/1940 note="Upgraded to 18th Mot Div"/>
+<unit des=18 toe=ger.mot.inf.div when=11/1/1940 disband=6/23/1943 note="Converted to 18th PG"/>
+<unit des=18 toe=ger.pg.div when=6/23/1943 />
+<unit des=18 toe=ger.vg.div when=9/2/1944 />
+<unit des=18 toe=ger.mort.bn when=5/10/1943 />
+<unit des=18 toe=ger.pz.div when=10/26/1940 />
+<unit name="18th Artillery" badge=art size=XX>
+	<unit name="18th Artillery HQ" toe=ger.mot.div.hq />
+	<unit des=88 toe=ger.mot.art.reg />
+	<unit name="288th Artillery" badge=hvy.art size="I I I">
+		<unit name="288th Artillery HQ" toe=ger.art.reg.hq/>
+		<unit des=I/288 toe=ger.mot.art.bn/>
+		<unit des=II/288 toe=ger.hvy.art1.bn/>
+		<unit des=III/288 toe=ger.hvy.kan170.bn/>
+	</>
+	<unit name="388th Artillery" badge=hvy.art size="I I I">
+		<unit name="388th Artillery HQ" toe=ger.art.reg.hq/>
+		<unit des=I/388 toe=ger.mot.art.bn/>
+		<unit des=II/388 toe=ger.hvy.art1.bn/>
+		<unit des=III/388 toe=ger.hvy.kan210.bn/>
+	</>
+	<unit des=741 toe=ger.stug.co />
+	<unit des=280 toe=ger.flak.bn/>
+	<unit des=88 toe=ger.mot.inf.bn />
+</>
+<unit name="18th Volks-Werfer" badge=rocket size=X when=11/30/1944 >
+	<unit des="18th Volks-Werfer" toe=ger.mot.bg.hq />
+	<unit des=21 toe=ger.rocket.reg/>
+	<unit des=22 toe=ger.rocket.reg/>
+</>
+<unit des=18 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=18 toe=ger.lw.div colors=LW when=12/31/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=18 toe=ger.flak.div when=4/10/1942 />
+<unit des=18 toe=ger.early.flak.bg when=1/27/1943/>
+<unit des=18 toe=ger.flak.reg when=11/30/1938 />
+<unit des=I/18 toe=ger.flak.bn when=11/30/1938 />
+<unit des=18 toe=ger.ss.pg.div when=1/25/1944 note="SS Volunteer PzGr Div 'Horst Wessel'"/>
+
+<unit name=19th badge=army size=XXXX when=8/26/1943 >
+	<unit des=19 toe=ger.army.hq/>
+</>
+<unit name=XIX badge=inf size=XXX when=7/1/1939 disband=11/16/1940 note="Upgraded to 2nd Pz Army">
+	<unit des=19 toe=ger.corps.hq/>
+</>
+<unit name="XIX Mountain" badge=mtn size=XXX when=7/1/1940>
+	<unit des="XIX Mountain" toe=ger.corps.hq/>
+</>
+<unit des=19 toe=ger.wave1.inf.div when=10/2/1934 disband=11/1/1940 note="Upgraded to 19th Pz Div"/>
+<unit des=19 toe=ger.vg.div when=8/8/1944 />
+<unit des=19 toe=ger.pz.div when=11/1/1940 />
+<unit name="19th Volks-Werfer" badge=rocket size=X when=12/10/1944 >
+	<unit des="19th Volks-Werfer" toe=ger.mot.bg.hq />
+	<unit des=23 toe=ger.rocket.reg/>
+	<unit des=24 toe=ger.rocket.reg/>
+</>
+<unit des=19 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=19 toe=ger.lw.div colors=LW when=3/1/1943 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=19 toe=ger.flak.div when=8/1/1942 />
+<unit des=19 toe=ger.early.flak.bg when=3/1/1943/>
+<unit des=19 toe=ger.flak.reg when=11/30/1939 />
+<unit des=I/19 toe=ger.flak.bn when=11/30/1939 />
+<unit des=19 toe=ger.ss.inf.div when=7/1/1944 note="19. Latvian Volunteer Inf Div"/>
+
+<unit name="20th Mountain" badge=mtn size=XXXX when=1/14/1942 >
+	<unit des="20th Mountain" toe=ger.army.hq/>
+</>
+<unit name=XX badge=inf size=XXX when=10/17/1940 disband=11/16/1940 note="Upgraded to 2nd Pz Army">
+	<unit des=20 toe=ger.corps.hq/>
+</>
+<unit des=20 toe=ger.wave1.inf.div when=10/1/1934 disband=10/1/1940 note="Upgrades to 20th Mot."/>
+<unit des=20 toe=ger.mot.inf.div when=10/1/1940 disband=6/23/1943 note="Upgrades to 20th PzGr."/>
+<unit des=20 toe=ger.pg.div when=6/23/1943 />
+<unit des=20 toe=ger.mort.bn when=12/10/1944 />
+<unit des=20 toe=ger.pz.div when=10/15/1940 />
+<unit name="20th Volks-Werfer" badge=rocket size=X when=12/10/1944 >
+	<unit des="20th Volks-Werfer" toe=ger.mot.bg.hq />
+	<unit des=25 toe=ger.rocket.reg/>
+	<unit des=26 toe=ger.rocket.reg/>
+</>
+<unit des=20 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=20 toe=ger.lw.div colors=LW when=3/8/1943 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=20 toe=ger.fall.div when=3/20/1945 />
+<unit des=20 toe=ger.flak.div when=11/13/1942 />
+<unit des=20 toe=ger.early.flak.bg when=6/1/1943/>
+<unit des=20 toe=ger.flak.reg when=8/26/1939 />
+<unit des=I/20 toe=ger.flak.bn when=11/1/1943 note="from III/LW Art Reg 17" />
+<unit des=20 toe=ger.ss.inf.div when=1/24/1944 note="20. Estonian Volunteer Inf Div"/>
+
+<unit name=21st badge=army size=XXXX when=4/27/1945 >
+	<unit des=21 toe=ger.army.hq/>
+</>
+<unit name=XXI badge=inf size=XXX when=8/10/1939 disband=1/1/1941 note="Upgraded to AOK Norway">
+	<unit des=21 toe=ger.corps.hq/>
+</>
+<unit name="XXI Mountain" badge=mtn size=XXX when=8/12/1943>
+	<unit des="XXI Mountain" toe=ger.corps.hq/>
+</>
+<unit des=21 toe=ger.wave1.inf.div when=10/1/1934 />
+<unit des=21 toe=ger.mort.bn when=12/10/1944 />
+<unit des=21 toe=ger.pz.div when=8/1/1941 />
+<unit des=21 toe=ger.w.lw.div when=11/1/1943 />
+<unit des=21 toe=ger.lw.div colors=LW when=12/12/1942 disband=11/1/1943 note="Converted to Wehrmacht" />
+<unit des=21 toe=ger.fall.div when=4/5/1945 />
+<unit des=21 toe=ger.flak.div when=6/1/1943 />
+<unit des=21 toe=ger.early.flak.bg when=4/19/1943/>
+<unit des=21 toe=ger.flak.reg when=8/26/1939 />
+<unit des=I/21 toe=ger.flak.bn when=1/1/1939 />
+<unit des=II/21 toe=ger.flak.bn when=1/1/1939 />
+<unit des=21 toe=ger.mtn.div colors=SS when=5/1/1944 note="21st Mountain SS 'Skanderbeg'- Albanian"/>
+
+<unit name="XXII Motorized" badge=mot.inf size=XXX when=8/26/1939 disband=11/16/1940 note="Upgraded to Panzergruppe 1">
+	<unit des="XXII Motorized" toe=ger.corps.hq/>
+</>
+<unit name="XXII Mountain" badge=mtn size=XXX when=8/20/1943>
+	<unit des="XXII Mountain" toe=ger.corps.hq/>
+</>
+<unit des=22 toe=ger.wave1.inf.div when=10/1/1934 disband=4/1/1945 note="Converted to 22nd VG"/>
+<unit des=22 toe=ger.vg.div when=4/1/1945 />
+<unit des=22 toe=ger.pz.div when=9/25/1941 />
+<unit des=22 toe=ger.flak.div when=4/1/1943 />
+<unit des=22 toe=ger.flak.bg when=1/1/1943/>
+<unit des=22 toe=ger.flak.reg when=11/11/1935 />
+<unit des=I/22 toe=ger.flak.bn when=11/11/1935 />
+<unit des=II/22 toe=ger.flak.bn when=11/11/1935 />
+<unit des=22 toe=ger.cav.div colors=SS when=4/29/1944 note="Maria Theresia"/>
+
+<unit name=XXIII badge=inf size=XXX when=8/26/1939>
+	<unit des=23 toe=ger.corps.hq/>
+</>
+<unit des=23 toe=ger.wave1.inf.div when=10/15/1935 disband=9/10/1942 note="Converted to 26th Pz"/>
+<unit des=23 toe=ger.inf.div.39 when=10/23/1942 />
+<unit des=23 toe=ger.pz.div when=9/21/1941 />
+<unit des=23 toe=ger.flak.div when=10/10/1943 />
+<unit des=23 toe=ger.flak.reg when=11/15/1938 />
+<unit des=I/23 toe=ger.flak.bn when=11/15/1938 />
+<unit des=II/23 toe=ger.flak.bn when=11/15/1938 />
+<unit des=23 toe=ger.mtn.div colors=SS when=6/10/1944 note="23rd Mountain SS 'Kama'- Croat"/>
+<unit des=23 toe=ger.ss.pg.div when=2/10/1945 note="23rd Volunteer PG Div 'Nederland'"/>
+
+<unit name="XXIV Panzer" badge=arm size=XXX when=8/26/1939>
+	<unit des="XXIV Panzer" toe=ger.corps.hq/>
+</>
+<unit des=24 toe=ger.wave1.inf.div when=10/15/1935 />
+<unit des=24 toe=ger.pz.div when=11/28/1941 />
+<unit des=24 toe=ger.flak.div when=12/1/1943 />
+<unit des=24 toe=ger.flak.reg when=10/1/1936 />
+<unit des=I/24 toe=ger.flak.bn when=10/1/1936 />
+<unit des=II/24 toe=ger.flak.bn when=10/1/1936 />
+<unit des=24 toe=ger.mtn.div colors=SS when=8/1/1944 />
+
+<unit name=25th badge=army size=XXXX when=11/10/1944 >
+	<unit des=25 toe=ger.army.hq/>
+</>
+<unit name=XXV badge=inf size=XXX when=8/26/1939>
+	<unit des=25 toe=ger.corps.hq/>
+</>
+<unit des=25 toe=ger.wave1.inf.div when=4/1/1936 disband=11/15/1940 note="Upgrades to 25th Mot."/>
+<unit des=25 toe=ger.mot.inf.div when=11/15/1940 disband=6/23/1943 note="Upgrades to 25th PzGr."/>
+<unit des=25 toe=ger.pg.div when=6/23/1943 />
+<unit des=25 toe=ger.pz.div when=2/25/1942 />
+<unit des=25 toe=ger.flak.div when=4/1/1944 />
+<unit des=25 toe=ger.flak.reg when=11/11/1935 />
+<unit des=I/25 toe=ger.flak.bn when=11/11/1935 />
+<unit des=II/25 toe=ger.flak.bn when=11/11/1935 />
+<unit des=25 toe=ger.ss.inf.div when=11/2/1944 note="25th SS 'Hunyadi' - Hungarian"/>
+
+<unit name=XXVI badge=inf size=XXX when=8/22/1939>
+	<unit des=26 toe=ger.corps.hq/>
+</>
+<unit des=26 toe=ger.wave1.inf.div when=4/1/1936 disband=9/17/1944 note="Converts to 26th VG"/>
+<unit des=26 toe=ger.vg.div when=9/17/1944 />
+<unit des=26 toe=ger.pz.div when=9/14/1942 />
+<unit des=26 toe=ger.flak.div when=5/1/1944 />
+<unit des=26 toe=ger.flak.reg when=11/15/1938 />
+<unit des=I/26 toe=ger.flak.bn when=11/15/1938 />
+<unit des=II/26 toe=ger.flak.bn when=11/15/1938 />
+<unit des=26 toe=ger.ss.inf.div when=1/29/1945 note="Hungarian"/>
+
+<unit name=XXVII badge=inf size=XXX when=8/26/1939>
+	<unit des=27 toe=ger.corps.hq/>
+</>
+<unit des=27 toe=ger.wave1.inf.div when=10/1/1936 disband=11/1/1940 note="Converts to 17th Pz"/>
+<unit des=27 toe=ger.pz.div when=10/1/1942 />
+<unit des=27 toe=ger.flak.div when=9/1/1944 />
+<unit des=27 toe=ger.flak.reg when=1/1/1941 />
+<unit des=27 toe=ger.ss.inf.div when=1/29/1945 note="27th 'Langemarck'"/>
+
+<unit name=XXVIII badge=inf size=XXX when=5/20/1940>
+	<unit des=28 toe=ger.corps.hq/>
+</>
+<unit des=28 toe=ger.wave1.inf.div when=10/1/1936 disband=12/1/1941 note="Converted to 28 lt.Inf"/>
+<unit des=28 toe=ger.lt.inf.div when=12/1/1941 disband=7/1/1942 note="Converted to 28 Jgr"/>
+<unit des=28 toe=ger.jgr.div when=7/1/1942 />
+<unit des=28 toe=ger.flak.div when=10/1/1944 />
+<unit des=28 toe=ger.flak.reg when=6/1/1940 />
+<unit des=I/28 toe=ger.flak.bn when=11/1/1943 />
+<unit des=28 toe=ger.ss.inf.div when=10/19/1944 note="28th 'Wallonien'"/>
+
+<unit name=XXIX badge=inf size=XXX when=5/20/1940>
+	<unit des=29 toe=ger.corps.hq/>
+</>
+<unit des=29 toe=ger.wave1.inf.div when=10/1/1936 disband=10/1/1937 note="Upgrades to 29th Mot."/>
+<unit des=29 toe=ger.mot.inf.div when=10/1/1937 disband=6/23/1943 note="Upgrades to 29th PzGr."/>
+<unit des=29 toe=ger.pg.div when=6/23/1943 />
+<unit des=29 toe=ger.flak.div when=2/27/1945 />
+<unit des=29 toe=ger.flak.reg when=10/1/1937 />
+<unit des=I/29 toe=ger.flak.bn when=10/1/1937 />
+
+<unit name=XXX badge=inf size=XXX when=8/26/1939>
+	<unit des=30 toe=ger.corps.hq/>
+</>
+<unit des=30 toe=ger.wave1.inf.div when=10/1/1936 />
+<unit name="30th Schnelle" badge=bike size=X when=3/16/1943 >
+	<unit des=30 toe=ger.bg.hq />
+	<unit des=505 toe=ger.bike.bn />
+	<unit des=507 toe=ger.bike.bn />
+	<unit des=513 toe=ger.bike.bn />
+	<unit des=517 toe=ger.bike.bn />
+	<unit des=518 toe=ger.bike.bn />
+</>
+<unit des=30 toe=ger.flak.div when=3/1/1945 />
+<unit des=30 toe=ger.flak.reg when=1/1/1939 />
+<unit des=I/30 toe=ger.flak.bn when=6/1/1944 note="from II/6" />
+
+<unit name="XXXI z.b.V." badge=inf size=XXX when=11/7/1939 disband=5/27/1942 note="Converts to LXXX Corps">
+	<unit des=31 toe=ger.corps.hq/>
+</>
+<unit des=31 toe=ger.wave1.inf.div when=10/1/1936 disband=7/21/1944 note="Converts to 31st VG"/>
+<unit des=31 toe=ger.vg.div when=7/21/1944 />
+<unit des=31 toe=ger.flak.reg when=6/1/1941 />
+<unit des=I/31 toe=ger.flak.bn when=12/1/1944 />
+<unit des=II/31 toe=ger.flak.bn when=12/1/1944 />
+<unit des=31 toe=ger.ss.inf.div when=10/1/1944 />
+
+<unit name="XXXII z.b.V." badge=inf size=XXX when=10/15/1939 disband=5/27/1942 note="Converts to LXXXI Corps">
+	<unit des=32 toe=ger.corps.hq/>
+</>
+<unit des=32 toe=ger.wave1.inf.div when=10/1/1936/>
+<unit des=32 toe=ger.flak.reg when=10/1/1937 />
+<unit des=I/32 toe=ger.flak.bn when=10/1/1937 />
+<unit des=II/32 toe=ger.flak.bn when=11/1/1943 />
+<unit des=32 toe=ger.ss.inf.div when=1/30/1945 note="32 SS '30 Januar'" />
+
+<unit name=XXXIII badge=inf size=XXX when=10/18/1939>
+	<unit des=33 toe=ger.corps.hq/>
+</>
+<unit des=33 toe=ger.wave1.inf.div when=4/1/1936 disband=11/11/1940 note="Converts to 15th Pz Div"/>
+<unit des=33 toe=ger.flak.reg when=10/1/1937 />
+<unit des=I/33 toe=ger.flak.bn when=10/1/1937 />
+<unit des=II/33 toe=ger.flak.bn when=11/1/1939 disband=1/1/1943 note="Changes to 526 Flak Bn" />
+<unit des=33 toe=ger.ss.inf.div when=2/10/1945 note="33 SS 'Charlemagne'" />
+
+<unit name="XXXIV z.b.V." badge=inf size=XXX when=10/23/1939 disband=1/31/1942 note="Merged into XXXV Corps">
+	<unit des=34 toe=ger.corps.hq/>
+</>
+<unit name="XXXIV z.b.V." badge=inf size=XXX when=11/13/1944 note="From Kmdo Kreta">
+	<unit des=34 toe=ger.corps.hq/>
+</>
+<unit des=34 toe=ger.wave1.inf.div when=4/1/1936/>
+<unit des=34 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/34 toe=ger.flak.bn when=11/1/1943 note="From IV/Lw Art Reg 6" />
+<unit des=34 toe=ger.ss.inf.div when=2/1/1945 note="34 SS 'Landstorm Nederland'" />
+
+<unit name="XXXV z.b.V." badge=inf size=XXX when=10/15/1939 disband=1/20/1942 note="Becomes XXXV AK">
+	<unit des=35 toe=ger.corps.hq/>
+</>
+<unit name=XXXV badge=inf size=XXX when=1/20/1942>
+	<unit des=35 toe=ger.corps.hq/>
+</>
+<unit des=35 toe=ger.wave1.inf.div when=10/1/1936/>
+<unit des=35 toe=ger.flak.reg when=12/1/1941 />
+<unit des=I/35 toe=ger.flak.bn when=11/1/1943 note="From IV/Lw Art Reg 19" />
+<unit des=35 toe=ger.ss.inf.div when=2/1/1945 note="35 SS und Polizei Gren Div" />
+
+<unit name="XXXVI Mountain" badge=mtn size=XXX when=10/19/1939>
+	<unit des="XXXVI Mountain" toe=ger.corps.hq/>
+</>
+<unit des=36 toe=ger.wave1.inf.div when=10/1/1936 disband=11/1/1940 note="Upgrades to 36th Mot."/>
+<unit des=36 toe=ger.mot.inf.div when=11/1/1940 disband=5/1/1943 note="Downgrades to 36th Inf."/>
+<unit des=36 toe=ger.inf.div.39 when=5/1/1943 disband=8/3/1944 note="Changes to 36th VG."/>
+<unit des=36 toe=ger.vg.div when=8/3/1944 />
+<unit des=36 toe=ger.flak.reg when=11/15/1938 />
+<unit des=I/36 toe=ger.flak.bn when=11/15/1938 />
+<unit des=II/36 toe=ger.flak.bn when=11/15/1938  />
+<unit des=36 toe=ger.ss.inf.div when=2/20/1945 note="36 SS Waffen Gren Div" />
+
+<unit name="XXXVII z.b.V." badge=inf size=XXX when=10/23/1939 disband=5/27/1942 note="Becomes LXXXII AK">
+	<unit des=37 toe=ger.corps.hq/>
+</>
+<unit des=II/37 toe=ger.hvy.art1.bn when=10/15/1935 />
+<unit des=37 toe=ger.bridge.bn when=8/26/1939 />
+<unit des=37 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/37 toe=ger.flak.bn when=1/1/1940 />
+<unit des=II/37 toe=ger.flak.bn when=1/1/1943  />
+<unit des=37 toe=ger.cav.div colors=SS when=2/20/1945 note="37th Volunteer SS 'Lutzow'"/>
+
+<unit name=XXXVIII badge=inf size=XXX when=1/27/1940 disband=1/1/1945 note="Converts to XXXVIII Pz Kps">
+	<unit des=38 toe=ger.corps.hq/>
+</>
+<unit name="XXXVIII Panzer" badge=arm size=XXX when=1/1/1945>
+	<unit des="XXXVIII Panzer" toe=ger.corps.hq/>
+</>
+<unit des=38 toe=ger.sm.inf.div when=7/8/1942 />
+<unit des=II/38 toe=ger.hvy.art.bn when=10/15/1935 note="lost in 1942"/>
+<unit des=38 toe=ger.flak.reg when=8/1/1938 />
+<unit des=I/38 toe=ger.flak.bn when=8/1/1938 />
+<unit des=II/38 toe=ger.flak.bn when=8/1/1938  />
+<unit des=38 toe=ger.ss.inf.div when=4/1/1945 note="36 SS Gren Div 'Nibelungen'" />
+
+<unit name="XXXIX Panzer" badge=arm size=XXX when=1/27/1940>
+	<unit des="XXXIX Panzer" toe=ger.corps.hq/>
+</>
+<unit des=39 toe=ger.sm.inf.div when=7/10/1942 />
+<unit des=II/39 toe=ger.hvy.art.bn when=10/15/1935 />
+<unit des=39 toe=ger.flak.reg when=1/1/1940 />
+<unit des=I/39 toe=ger.flak.bn when=3/1/1944 />
+<unit des=II/39 toe=ger.flak.bn when=3/1/1944  />
+
+<unit name="XXXX Panzer" badge=arm size=XXX when=1/26/1940>
+	<unit des="XXXX Panzer" toe=ger.corps.hq/>
+</>
+<unit des=II/40 toe=ger.hvy.art.bn when=10/6/1936 />
+<unit des=40 toe=ger.flak.reg when=8/26/1939 />
+<unit des=I/40 toe=ger.flak.bn when=11/1/1943 note="From IV/Lw Art Reg 1" />
+
+<unit name="XXXXI Panzer" badge=arm size=XXX when=2/24/1940>
+	<unit des="XXXXI Panzer" toe=ger.corps.hq/>
+</>
+<unit des=41 toe=ger.sm.inf.div when=11/12/1943 />
+<unit des=II/41 toe=ger.kan105.bn when=10/15/1935 />
+<unit des=41 toe=ger.eng.bn when=10/15/1935 />
+<unit des=41 toe=ger.bridge.bn when=12/27/1940/>
+<unit des=41 toe=ger.flak.reg when=8/28/1939 />
+
+<unit name=XXXXII badge=inf size=XXX when=1/29/1940>
+	<unit des=42 toe=ger.corps.hq/>
+</>
+<unit des=42 toe=ger.jgr.div when=12/22/1943 />
+<unit des=II/42 toe=ger.hvy.art.bn when=10/15/1935 />
+<unit des=42 toe=ger.eng.bn when=10/15/1935 />
+<unit des=42 toe=ger.bridge.bn when=1/14/1941/>
+<unit des=42 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/42 toe=ger.flak.bn when=1/1/1941 />
+
+<unit name=XXXXIII badge=inf size=XXX when=4/15/1940>
+	<unit des=43 toe=ger.corps.hq/>
+</>
+<unit des=II/43 toe=ger.hvy.art.bn when=10/1/1936 />
+<unit des=43 toe=ger.eng.bn when=10/15/1935 disband=5/15/1942 note="becomes Grossdeutschland Pio. Bn"/>
+<unit des=43 toe=ger.flak.reg when=10/1/1937 />
+<unit des=I/43 toe=ger.flak.bn when=10/1/1937 />
+<unit des=II/43 toe=ger.flak.bn when=10/1/1937  />
+
+<unit name=XXXXIV badge=inf size=XXX when=4/15/1940>
+	<unit des=44 toe=ger.corps.hq/>
+</>
+<unit des=44 toe=ger.wave1.inf.div when=4/1/1938/>
+<unit des=II/44 toe=ger.hvy.art.bn when=10/6/1936 disbanded=10/27/1941 note="Assigned to 22nd Pz Div as II/140"/>
+<unit des=44 toe=ger.eng.bn when=10/15/1935 />
+<unit des=44 toe=ger.flak.reg when=10/1/1937 />
+<unit des=I/44 toe=ger.flak.bn when=10/1/1937 disband=1/1/1942 note="Renamed to 471st Flak Bn"/>
+<unit des=II/44 toe=ger.flak.bn when=10/1/1937 disband=1/1/1942 note="Renamed to 472nd Flak Bn"/>
+
+<unit name="XXXXV z.b.V." badge=inf size=XXX when=3/8/1940 disband=5/27/1942 note="Becomes LXXXIII AK">
+	<unit des=45 toe=ger.corps.hq/>
+</>
+<unit des=45 toe=ger.wave1.inf.div when=4/1/1938 disband=7/18/1944 note="Destroyed and recreated as a gren div"/>
+<unit des=45 toe=ger.vg.div when=7/18/1944 />
+<unit des=II/45 toe=ger.hvy.art.bn when=11/10/1939 disband=7/4/1940 note="Assigned to 7 Pz Div as III/78"/>
+<unit des=45 toe=ger.eng.bn when=10/15/1935 />
+<unit des=45 toe=ger.flak.reg when=1/1/1940 />
+
+<unit name="XXXXVI Panzer" badge=inf size=XXX when=10/25/1940>
+	<unit des="XXXXVI Panzer" toe=ger.corps.hq/>
+</>
+<unit des=46 toe=ger.wave1.inf.div when=4/1/1938/>
+<unit des=46 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=II/46 toe=ger.hvy.art.bn when=10/15/1935 />
+<unit des=II/46 toe=ger.mot.art.bn when=6/10/1943 />
+<unit des=46 toe=ger.eng.bn when=10/15/1935 />
+<unit des=46 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/46 toe=ger.flak.bn when=1/1/1942/>
+<unit des=II/46 toe=ger.flak.bn when=1/1/1942/>
+
+<unit name="XXXXVII Panzer" badge=inf size=XXX when=11/25/1940>
+	<unit des="XXXXVII Panzer" toe=ger.corps.hq/>
+</>
+<unit des=47 toe=ger.vg.div when=2/1/1944 />
+<unit des=47 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=II/47 toe=ger.kan105.bn when=10/15/1935 disband=2/28/1940 />
+<unit des=II/47 toe=ger.hvy.art.bn when=2/28/1940 />
+<unit des=47 toe=ger.eng.bn when=10/15/1935 />
+<unit des=47 toe=ger.flak.reg when=7/1/1941 />
+<unit des=I/47 toe=ger.flak.bn when=1/1/1942/>
+
+<unit name="XXXXVIII Panzer" badge=inf size=XXX when=12/14/1940>
+	<unit des="XXXXVIII Panzer" toe=ger.corps.hq/>
+</>
+<unit des=48 toe=ger.vg.div when=2/1/1944 />
+<unit des=48 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=II/48 toe=ger.hvy.art.bn when=10/15/1935 disband=8/19/1940 note="Becomes III/116/5th Pz Div"/>
+<unit des=48 toe=ger.eng.bn when=10/15/1935 />
+<unit des=48 toe=ger.flak.reg when=1/1/1942 />
+<unit des=I/48 toe=ger.flak.bn when=11/1/1943 note="from III/LW Art Reg 20" />
+
+<unit name="XXXXIX Mountain" badge=mtn size=XXX when=10/25/1940>
+	<unit des="XXXXIX Mountain" toe=ger.corps.hq/>
+</>
+<unit des=49 toe=ger.vg.div when=2/1/1944 />
+<unit des=II/49 toe=ger.hvy.art.bn when=10/11/1938 disband=8/1/1940 note="Becomes III/75/3rd Pz Div"/>
+<unit des=49 toe=ger.flak.reg when=8/26/1939 />
+<unit des=I/49 toe=ger.flak.bn when=8/26/1939/>
+<unit des=II/49 toe=ger.flak.bn when=1/1/1942/>
+
+<unit name=L badge=inf size=XXX when=10/8/1940>
+	<unit des=50 toe=ger.corps.hq/>
+</>
+<unit des=50 toe=ger.wave1.inf.div when=8/26/1939/>
+<unit des=II/50 toe=ger.hvy.art.bn when=10/15/1935 disband=8/1/1940 note="Becomes III/102/9th Pz Div"/>
+<unit des=50 toe=ger.eng.bn when=10/6/1936 />
+<unit des=50 toe=ger.flak.reg when=2/15/1940 />
+<unit des=I/50 toe=ger.flak.bn when=11/1/1943 note="from III/LW Art Reg 2" />
+
+<unit name=LI badge=inf size=XXX when=11/25/1940>
+	<unit des=51 toe=ger.corps.hq/>
+</>
+<unit name="LI Mountain" badge=mtn size=XXX when=9/12/1943>
+	<unit des="LI Mountain" toe=ger.corps.hq/>
+</>
+<unit des=51 toe=ger.panther.bn when=1/13/1943 disband=1/1/1944 note="Returned to II/33 Pz Reg/9th Pz Div"/>
+<unit des=II/51 toe=ger.hvy.art1.bn when=10/12/1937 disband=9/25/1942 note="Becomes II/127/27th Pz" />
+<unit des=II/51 toe=ger.mot.art.bn when=6/1/1943 />
+<unit des=51 toe=ger.rocket.reg when=7/10/1940/>
+<unit des=51 toe=ger.flak.reg when=8/26/1939 />
+<unit des=I/51 toe=ger.flak.bn when=8/26/1939 />
+
+<unit name=LII badge=inf size=XXX when=10/25/1940>
+	<unit des=52 toe=ger.corps.hq/>
+</>
+<unit des=52 toe=ger.wave2.inf.div when=8/26/1939/>
+<unit des=52 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=52 toe=ger.panther.bn when=1/13/1943 disband=1/1/1944 note="Returned to I/15 Pz Reg/11th Pz Div"/>
+<unit des=II/52 toe=ger.hvy.art1.bn when=10/15/1935 />
+<unit des=52 toe=ger.eng.bn when=10/6/1936 />
+<unit des=52 toe=ger.rocket.reg when=1/20/1941/>
+<unit des=52 toe=ger.flak.reg when=11/15/1938 />
+<unit des=I/52 toe=ger.flak.bn when=11/15/1938/>
+<unit des=II/52 toe=ger.flak.bn when=1/1/1943/>
+
+<unit name=LIII badge=inf size=XXX when=2/15/1941>
+	<unit des=53 toe=ger.corps.hq/>
+</>
+<unit des=II/53 toe=ger.kan105.bn when=10/15/1935 />
+<unit des=53 toe=ger.rocket.reg when=2/10/1941/>
+<unit des=53 toe=ger.flak.reg when=1/1/1941 />
+<unit des=I/53 toe=ger.flak.bn when=1/1/1942/>
+
+<unit name=LIV badge=inf size=XXX when=6/1/1941 disband=3/1/1944 note="Becomes Army Det. Narwa">
+	<unit des=54 toe=ger.corps.hq/>
+</>
+<unit des=II/54 toe=ger.hvy.art1.bn when=10/15/1935 />
+<unit des=II/54 toe=ger.mot.art.bn when=4/15/1943 />
+<unit des=54 toe=ger.rocket.reg when=3/27/1941/>
+<unit des=54 toe=ger.bridge.bn when=1/1/1941/>
+<unit des=54 toe=ger.flak.reg when=1/1/1942 />
+<unit des=I/54 toe=ger.flak.bn when=1/1/1943/>
+
+<unit name=LV badge=inf size=XXX when=6/1/1941>
+	<unit des=55 toe=ger.corps.hq/>
+</>
+<unit des=55 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=II/55 toe=ger.hvy.art.bn when=11/10/1938 />
+<unit des=55 toe=ger.rocket.reg when=9/16/1942 />
+<unit des=55 toe=ger.flak.reg when=6/1/1943 />
+<unit des=I/55 toe=ger.flak.bn when=12/1/1944/>
+<unit des=II/55 toe=ger.flak.bn when=12/1/1944/>
+
+<unit name="LVI Panzer" badge=inf size=XXX when=2/15/1941>
+	<unit des="LVI Panzer" toe=ger.corps.hq/>
+</>
+<unit des=56 toe=ger.wave2.inf.div when=8/26/1939/>
+<unit des=II/56 toe=ger.hvy.art.bn when=10/12/1937 disband=10/22/1940 note="Becomes III/73/1st Pz" />
+<unit des=56 toe=ger.rocket.reg when=6/9/1943 />
+<unit des=56 toe=ger.flak.reg when=1/1/1942 />
+<unit des=I/56 toe=ger.flak.bn when=12/1/1944/>
+
+<unit name="LVII Panzer" badge=inf size=XXX when=2/15/1941>
+	<unit des="LVII Panzer" toe=ger.corps.hq/>
+</>
+<unit des=57 toe=ger.wave2.inf.div when=8/26/1939/>
+<unit des=II/57 toe=ger.kan105.bn when=10/15/1935 />
+<unit des=57 toe=ger.flak.reg when=1/1/1942 />
+
+<unit name="LVIII Panzer" badge=inf size=XXX when=7/28/1943>
+	<unit des="LVIII Panzer" toe=ger.corps.hq/>
+</>
+<unit des=58 toe=ger.wave2.inf.div when=8/26/1939/>
+<unit des=II/58 toe=ger.hvy.art.bn when=10/6/1936 />
+<unit des=58 toe=ger.flak.reg when=1/1/1942 />
+
+<unit name=LIX badge=inf size=XXX when=10/10/1940>
+	<unit des=59 toe=ger.corps.hq/>
+</>
+<unit des=59 toe=ger.vg.div when=6/26/1944 />
+<unit des=59 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=II/59 toe=ger.hvy.art.bn when=10/6/1936 disband=12/23/1943 note="Merges into 1 Skijager Bg"/>
+<unit des=59 toe=ger.flak.reg when=7/15/1941 />
+
+<unit name="LX z.b.V." badge=inf size=XXX when=10/15/1940 disband=5/27/1942 note="Becomes LXXXIV AK">
+	<unit des=60 toe=ger.corps.hq/>
+</>
+<unit des=60 toe=ger.inf.div.39 when=10/15/1939 disband=11/1/1940 note="UPgraded to 60th Mot."/>
+<unit des=60 toe=ger.mot.inf.div when=11/1/1940 disband=5/27/1943 note="Upgraded to 60th PG" />
+<unit des=60 toe=ger.pg.div when=5/27/1943 disband=6/14/1944 note="Becomes Feldherrnhalle"/>
+<unit des=II/60 toe=ger.kan105.bn when=10/15/1935 />
+<unit des=60 toe=ger.eng.bn when=11/10/1938 />
+<unit des=60 toe=ger.flak.reg when=1/1/1940 />
+
+<unit des=61 toe=ger.wave2.inf.div when=8/8/1939 disband=11/1/1944 note="Converts to 61 VG Div"/>
+<unit des=61 toe=ger.vg.div when=11/1/1944 />
+<unit des=II/61 toe=ger.hvy.art1.bn when=11/10/1938 />
+<unit des=61 toe=ger.flak.reg when=10/1/1937 />
+<unit des=I/61 toe=ger.flak.bn when=10/1/1937 />
+
+<unit name=LXII badge=inf size=XXX when=8/5/1944>
+	<unit des=62 toe=ger.corps.hq/>
+</>
+<unit des=62 toe=ger.wave2.inf.div when=8/26/1939 disband=9/22/1944 note="Converts to 62 VG Div"/>
+<unit des=62 toe=ger.vg.div when=9/22/1944 />
+<unit des=II/62 toe=ger.kan105.bn when=11/10/1938 />
+<unit des=62 toe=ger.eng.bn when=11/10/1938 />
+<unit des=62 toe=ger.flak.reg when=6/1/1941 />
+
+<unit name=LXIII badge=inf size=XXX when=11/14/1944>
+	<unit des=63 toe=ger.corps.hq/>
+</>
+<unit des=II/63 toe=ger.hvy.art.bn when=11/10/1938 />
+<unit des=63 toe=ger.flak.reg when=6/1/1941 />
+
+<unit name=LXIV badge=inf size=XXX when=8/5/1944>
+	<unit des=64 toe=ger.corps.hq/>
+</>
+<unit des=64 toe=ger.vg.div when=6/26/1944 />
+<unit des=II/64 toe=ger.kan105.bn when=10/15/1935 />
+<unit des=II/64 toe=ger.mot.art.bn when=4/15/1943 />
+<unit des=64 toe=ger.flak.reg when=8/26/1939 />
+<unit des=I/64 toe=ger.flak.bn when=8/26/1939/>
+<unit des=II/64 toe=ger.flak.bn when=6/1/1941/>
+
+<unit name="LXV z.b.V." badge=inf size=XXX when=5/21/1941 disband=3/1/1942 note="Becomes Mil.Befh.Serbien">
+	<unit des=65 toe=ger.corps.hq/>
+</>
+<unit des=65 toe=ger.inf.div.39 when=7/7/1942 />
+<unit des=II/65 toe=ger.hvy.art1.bn when=11/10/1938 />
+<unit des=II/65 toe=ger.mot.art.bn when=4/15/1943 disband=8/1/1944 note="Merges into 1 Skijager Div"/>
+<unit des=65 toe=ger.flak.reg when=1/1/1942 />
+
+<unit name=LXVI badge=inf size=XXX when=8/5/1944>
+	<unit des=66 toe=ger.corps.hq/>
+</>
+<unit des=66 toe=ger.mgun.bn when=11/10/1938 disband=6/1/1942 note="Dispsersed into various divs"/>
+<unit des=II/66 toe=ger.hvy.art.bn when=11/10/1938 />
+<unit des=66 toe=ger.flak.reg when=1/1/1942 />
+
+<unit name=LXVII badge=inf size=XXX when=1/20/1944>
+	<unit des=67 toe=ger.corps.hq/>
+</>
+<unit des=II/67 toe=ger.hvy.art.bn when=10/6/1936 />
+<unit des=67 toe=ger.flak.reg when=1/1/1942 />
+
+<unit name=LXVIII badge=inf size=XXX when=9/30/1943>
+	<unit des=68 toe=ger.corps.hq/>
+</>
+<unit des=68 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=II/68 toe=ger.kan105.bn when=10/6/1936 />
+<unit des=68 toe=ger.rail.eng.reg when=11/10/1938 disband=4/1/1940 note="Becomes Rail Reg 3"/>
+<unit des=68 toe=ger.flak.reg when=1/1/1942 />
+
+<unit name=LXIX badge=inf size=XXX when=1/20/1944>
+	<unit des=69 toe=ger.corps.hq/>
+</>
+<unit des=69 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=69 toe=ger.pz.reg when=2/1/1944 />
+<unit des=II/69 toe=ger.kan105.bn when=11/10/1938 />
+<unit des=69 toe=ger.flak.reg when=7/15/1941 />
+
+<unit name=LXX badge=inf size=XXX when=1/25/1943>
+	<unit des=70 toe=ger.corps.hq/>
+</>
+<unit des=70 toe=ger.vg.div when=7/17/1944 />
+<unit des=II/70 toe=ger.hvy.art1.bn when=11/10/1938 />
+
+<unit name=LXXI badge=inf size=XXX when=3/1/1942>
+	<unit des=71 toe=ger.corps.hq/>
+</>
+<unit des=71 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=71 toe=ger.mgun.bn when=11/1/1944 note="Bicycle Machinegun Btl."/>
+<unit des=II/71 toe=ger.hvy.art1.bn when=10/12/1937 />
+<unit des=71 toe=ger.rocket.bn when=4/1/1942 disband=11/1/1942 note="Upgrades werfer rgt 3"/>
+<unit des=71 toe=ger.rocket.reg when=11/1/1942 />
+<unit des=71 toe=ger.flak.reg when=1/1/1941 />
+<unit des=71 toe=ger.flak.bn when=11/15/1938 />
+
+<unit name="LXXII z.b.V."  badge=inf size=XXX when=2/13/1944 note="dropped the zbV in Oct44">
+	<unit des=72 toe=ger.corps.hq/>
+</>
+<unit des=72 toe=ger.inf.div.39 when=9/19/1939 />
+<unit des=II/72 toe=ger.150k18.bn when=11/10/1938 />
+<unit des=II/72 toe=ger.mot.art.bn when=6/1/1943 />
+<unit des=72 toe=ger.flak.bn when=10/1/1942 />
+
+<unit name="LXXIII z.b.V."  badge=inf size=XXX when=11/25/1944 >
+	<unit des=73 toe=ger.corps.hq/>
+</>
+<unit des=73 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=73 toe=ger.eng.bn when=1/10/1941 />
+<unit des=73 toe=ger.flak.bn when=11/15/1938 />
+
+<unit name=LXXIV  badge=inf size=XXX when=7/26/1943 >
+	<unit des=74 toe=ger.corps.hq/>
+</>
+<unit des=74 toe=ger.eng.bn when=8/26/1939 />
+<unit des=74 toe=ger.flak.bn when=11/15/1938 />
+
+<unit name=LXXV  badge=inf size=XXX when=12/15/1943 >
+	<unit des=75 toe=ger.corps.hq/>
+</>
+<unit des=75 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=75 toe=ger.flak.reg when=12/1/1941 />
+<unit des=75 toe=ger.flak.bn when=11/15/1938 />
+
+<unit name="LXXVI Panzer"  badge=inf size=XXX when=6/29/1943 >
+	<unit des="LXXVI Panzer" toe=ger.corps.hq/>
+</>
+<unit des=76 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=76 toe=ger.flak.reg when=11/12/1943 />
+<unit des=76 toe=ger.flak.bn when=11/15/1938 />
+
+<unit des=77 toe=ger.sm.inf.div when=1/15/1944 />
+<unit des=I/77 toe=ger.hvy.art.bn when=10/12/1937 disband=4/1/1943 note="Converted to light art."/>
+<unit des=I/77 toe=ger.mot.art.bn when=4/1/1943 />
+<unit des=II/77 toe=ger.mot.art.bn when=10/12/1937 />
+<unit des=77 toe=ger.flak.reg when=6/1/1942 />
+<unit des=77 toe=ger.flak.bn when=3/1/1938 />
+
+<unit name=LXXVIII  badge=inf size=XXX when=3/6/1944 >
+	<unit des=78 toe=ger.corps.hq/>
+</>
+<unit des=78 toe=ger.wave2.inf.div when=8/26/1939 disband=1/1/43 note="Upgraded to Sturm division"/>
+<unit des=78 toe=ger.sturm.div when=1/1/43 note="Lost in Bagration"/>
+<unit des=78 toe=ger.vg.div when=7/10/1944 />
+<unit des=78 toe=ger.flak.reg when=6/1/1942 />
+<unit des=78 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=79 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=79 toe=ger.vg.div when=10/27/1944 />
+<unit des=79 toe=ger.flak.reg when=7/15/1941 />
+
+<unit name=LXXX  badge=inf size=XXX when=5/27/1942 >
+	<unit des=80 toe=ger.corps.hq/>
+</>
+<unit des=80 toe=ger.mgun.bn when=1/1/1945 note="Bicycle Machinegun Btl."/>
+<unit des=80 toe=ger.flak.reg when=1/1/1944 />
+<unit des=80 toe=ger.flak.bn when=1/1/1944 />
+
+<unit name=LXXXI  badge=inf size=XXX when=5/28/1942 >
+	<unit des=81 toe=ger.corps.hq/>
+</>
+<unit des=81 toe=ger.inf.div.39 when=12/1/1939 />
+<unit des=81 toe=ger.mgun.bn when=1/1/1945 note="Bicycle Machinegun Btl."/>
+<unit des=81 toe=ger.flak.reg when=6/18/1943 />
+<unit des=81 toe=ger.flak.bn when=12/1/1940 />
+
+<unit name=LXXXII  badge=inf size=XXX when=5/25/1942 >
+	<unit des=82 toe=ger.corps.hq/>
+</>
+<unit des=82 toe=ger.inf.div.39 when=12/1/1939 />
+<unit des=82 toe=ger.flak.bn when=12/1/1943 />
+
+<unit name=LXXXIII  badge=inf size=XXX when=5/25/1942 >
+	<unit des=83 toe=ger.corps.hq/>
+</>
+<unit des=83 toe=ger.inf.div.39 when=12/1/1939 />
+<unit des=83 toe=ger.flak.reg when=12/1/1941 />
+<unit des=83 toe=ger.flak.bn when=12/1/1940 />
+
+<unit name=LXXXIV  badge=inf size=XXX when=5/15/1942 >
+	<unit des=84 toe=ger.corps.hq/>
+</>
+<unit des=84 toe=ger.sm.inf.div when=2/2/1944 />
+<unit des=I/84 toe=ger.kan240.bn when=10/12/1937 />
+<unit des=II/84 toe=ger.kan240.bn when=4/10/1940 />
+<unit des=84 toe=ger.bridge.bn when=12/27/1940 />
+<unit des=84 toe=ger.flak.bn when=11/15/1938 />
+
+<unit name=LXXXV  badge=inf size=XXX when=10/1/1943 >
+	<unit des=85 toe=ger.corps.hq/>
+</>
+<unit des=85 toe=ger.sm.inf.div when=2/2/1944 />
+<unit des=85 toe=ger.eng.bn when=8/1/1938 note="Attached to 1 skijager bg" />
+<unit des=85 toe=ger.flak.reg when=6/1/1942 />
+<unit des=85 toe=ger.flak.bn when=1/1/1944 />
+
+<unit name=LXXXVI  badge=inf size=XXX when=11/19/1942 >
+	<unit des=86 toe=ger.corps.hq/>
+</>
+<unit des=86 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=86 toe=ger.landing.bn when=6/1/1943 />
+<unit des=86 toe=ger.flak.reg when=12/1/1942 />
+<unit des=86 toe=ger.flak.bn when=1/1/1944 />
+
+<unit name=LXXXVII  badge=inf size=XXX when=11/5/1942 >
+	<unit des=87 toe=ger.corps.hq/>
+</>
+<unit des=87 toe=ger.wave2.inf.div when=8/26/1939 />
+<unit des=87 toe=ger.flak.reg when=9/1/1943 />
+
+<unit name=LXXXVIII  badge=inf size=XXX when=6/8/1942 >
+	<unit des=88 toe=ger.corps.hq/>
+</>
+<unit des=88 toe=ger.inf.div.39 when=12/1/1939 />
+<unit des=88 toe=ger.flak.reg when=1/1/1943 />
+<unit des=88 toe=ger.flak.bn when=12/1/1943 />
+
+<unit name=LXXXIX  badge=inf size=XXX when=8/2/1942 >
+	<unit des=89 toe=ger.corps.hq/>
+</>
+<unit des=89 toe=ger.sm.inf.div when=1/15/1944 />
+<unit des=89 toe=ger.flak.reg when=7/15/1941 />
+<unit des=89 toe=ger.flak.bn when=12/1/1943 />
+
+<unit name=LXXXX  badge=inf size=XXX when=11/17/1942 >
+	<unit des=90 toe=ger.corps.hq/>
+</>
+<unit des=90 toe=ger.mot.div when=11/26/1941 />
+<unit des=90 toe=ger.pg.div when=7/6/1943 />
+<unit des=90 toe=ger.rocket.reg when=11/1/1944 disband=2/1/1945 note="Converted to 21st Schw. Werfer" />
+<unit des=90 toe=ger.flak.reg when=1/1/1944 />
+<unit des=90 toe=ger.flak.bn when=12/1/1943 />
+
+<unit name="LXXXXI z.b.V."  badge=inf size=XXX when=8/7/1944 >
+	<unit des=91 toe=ger.corps.hq/>
+</>
+<unit des=91 toe=ger.sm.inf.div when=1/15/1944 />
+<unit des=91 toe=ger.rocket.reg when=11/1/1944 disband=2/1/1945 note="Converted to 22nd Schw. Werfer" />
+<unit des=91 toe=ger.flak.reg when=6/1/1941 />
+<unit des=91 toe=ger.flak.bn when=11/15/1938 />
+
+<unit des=92 toe=ger.sm.inf.div when=1/15/1944 />
+<unit des=92 toe=ger.flak.reg when=12/1/1941 />
+<unit des=92 toe=ger.flak.bn when=11/15/1938 />
+
+<unit des=93 toe=ger.inf.div.39 when=9/17/1939 />
+<unit des=93 toe=ger.flak.reg when=12/1/1941 disband=4/19/1943 note="Converts to Flak bg 21 HQ"/>
+<unit des=93 toe=ger.flak.bn when=11/15/1938 />
+
+<unit des=94 toe=ger.inf.div.39 when=9/18/1939 />
+<unit des=94 toe=ger.flak.reg when=6/1/1944 />
+<unit des=94 toe=ger.flak.bn when=11/15/1938 />
+
+<unit des=95 toe=ger.inf.div.39 when=9/19/1939 />
+<unit des=95 toe=ger.flak.reg when=6/1/1942/>
+<unit des=95 toe=ger.flak.bn when=1/1/1944 />
+
+<unit des=96 toe=ger.inf.div.39 when=9/21/1939 />
+<unit des=96 toe=ger.flak.reg when=6/1/1943/>
+<unit des=96 toe=ger.flak.bn when=6/1/1942 />
+
+<unit name="LXXXXVII z.b.V."  badge=inf size=XXX when=9/28/1944 >
+	<unit des=97 toe=ger.corps.hq/>
+</>
+<unit des=97 toe=ger.lt.inf.div when=12/10/1940 disband=7/6/1942 note="Converts to 97th jgr"/>
+<unit des=97 toe=ger.jgr.div when=6/7/1942 />
+<unit des=97 toe=ger.flak.reg when=6/20/1944/>
+
+<unit des=98 toe=ger.inf.div.39 when=9/18/1939 />
+<unit des=98 toe=ger.flak.reg when=9/1/1942/>
+<unit des=98 toe=ger.flak.bn when=6/1/1941 />
+
+<unit des=99 toe=ger.lt.inf.div when=11/16/1940 disband=11/15/1941 note="Converts to 7th mtn"/>
+<unit des=99 toe=ger.flak.reg when=7/16/1941/>
+<unit des=99 toe=ger.flak.bn when=6/1/1941 />
+
+<unit des=100 toe=ger.lt.inf.div when=12/10/1940 disband=7/6/1942 note="Converts to 100th jgr"/>
+<unit des=100 toe=ger.jgr.div when=6/7/1942 />
+<unit des=100 toe=ger.pz.bg when=3/1/1941 />
+<unit des=100 toe=ger.flamm.pz.bn when=3/5/1940 disband=12/22/1941 note="Redesignated and eventually to Grossdeutschland"/>
+<unit des=100 toe=ger.flak.reg when=3/15/1940/>
+
+<unit name=CI  badge=inf size=XXX when=2/1/1945 >
+	<unit des=101 toe=ger.corps.hq/>
+</>
+<unit des=101 toe=ger.lt.inf.div when=12/10/1940 disband=7/6/1942 note="Converts to 100th jgr"/>
+<unit des=101 toe=ger.jgr.div when=6/7/1942 />
+<unit des=101 toe=ger.pz.bg when=7/5/1941 disband=9/21/1941 note="merged into 23 pz div"/>
+<unit des=101 toe=ger.pz.bg when=7/21/1944 disband=10/1/1944 note="reconstituted into 20 pz div"/>
+<unit des=101 toe=ger.flamm.pz.bn when=5/4/1940 disband=12/8/1941 />
+<unit des=101 toe=ger.hvy.art1.bn when=8/26/1939 disband=4/1/1943 note="Converted to light art."/>
+<unit des=101 toe=ger.hummel.bn when=4/1/1943 />
+<unit des=101 toe=ger.flak.reg when=1/1/1939/>
+<unit des=101 colors=SS toe=ger.hvy.pz.bn when=10/22/1943 disband=9/1/1944 note="Renamed to 501"/>
+<unit des=101 colors=SS toe=ger.rocket.bn when=10/22/1943 disband=2/1/1944 />
+<unit des=101 colors=SS toe=ger.hvy.art2.bn when=2/1/1944 disband=9/1/1944 note="Renamed to 501"/>
+
+<unit des=102 toe=ger.inf.div.39 when=12/15/1940 />
+<unit des=102 toe=ger.pz.bg when=7/20/1944 disband=11/27/1944 note="reconstituted into 7 pz div"/>
+<unit des=102 toe=ger.flamm.pz.bn when=5/31/1941 disband=7/1/1941 />
+<unit des=102 toe=ger.kan105.bn when=8/26/1939 disband=10/10/1940 note="Renamed to 151"/>
+<unit des=102 toe=ger.flak.reg when=1/1/1939/>
+<unit des=102 colors=SS toe=ger.hvy.pz.bn when=10/22/1943 disband=9/1/1944 note="Renamed to 502"/>
+<unit des=102 colors=SS toe=ger.rocket.bn when=10/22/1943 disband=9/1/1944 note="Renamed to 502"/>
+
+<unit des=I/103 toe=ger.flak.bn when=10/1/1944 disband=12/1/1944 note="Renamed to fla-MG Bn 958"/>
+<unit des=II/103 toe=ger.flak.bn when=10/1/1944 disband=12/1/1944 note="Renamed to fla-MG Bn 959"/>
+<unit des=103 toe=ger.pz.bg when=7/26/1944 disband=3/8/1945 note="HQ reconstituted into Muncheburg pz div"/>
+<unit des=103 toe=ger.kan105.bn when=8/26/1939 disband=10/10/1940 note="Renamed to 153"/>
+<unit des=103 toe=ger.flak.reg when=1/1/1939/>
+<unit des=103 toe=ger.flak.bn when=1/1/1944 />
+<unit des=103 colors=SS toe=ger.hvy.pz.bn when=10/22/1943 disband=9/1/1944 note="Renamed to 503"/>
+<unit des=103 colors=SS toe=ger.rocket.bn when=10/22/1943 disband=9/1/1944 note="Renamed to 503"/>
+
+<unit des=104 toe=ger.jgr.div when=4/1/1943 />
+<unit des=104 toe=ger.pz.bg when=7/18/1944 disband=11/6/1944 note="reconstituted into 25th pz div"/>
+<unit des=104 toe=ger.pz.jgd.bg when=1/26/45 />
+<unit des=104 toe=ger.flak.reg when=1/1/1939/>
+<unit des=104 colors=SS toe=ger.rocket.bn when=7/1/1944 disband=9/1/1944 note="Renamed to 504"/>
+
+<unit des=105 toe=ger.pz.bg when=7/28/1944 disband=9/23/1944 note="reconstituted into 9th pz div"/>
+<unit des=105 toe=ger.flak.reg when=7/13/1943/>
+
+<unit des=106 toe=ger.inf.div.39 when=11/22/1940 />
+<unit des=106 toe=ger.pz.bg when=7/28/1944 note="Feldherrnhalle"/>
+<unit des=I/106 toe=ger.hvy.art1.bn when=8/26/1939 />
+<unit des=106 toe=ger.flak.reg when=12/1/1943/>
+
+<unit des=107 toe=ger.pz.bg when=7/28/1944 disband=11/7/1944 note="reconstituted into 25th pg div"/>
+<unit des=107 toe=ger.flak.reg when=1/1/1943/>
+
+<unit des=108 toe=ger.pz.bg when=7/28/1944 />
+<unit des=I/108 toe=ger.hvy.art1.bn when=8/26/1939 />
+<unit des=I/108 toe=ger.mot.art.bn when=4/15/1943 />
+
+<unit des=109 toe=ger.pz.bg when=7/19/1944 disband=10/1/1944 note="Merged into Feldherrnhalle division"/>
+<unit des=I/109 toe=ger.hvy.art.bn when=2/2/1941 disband=5/2/1942 note="Merged into Grossdeutchland" />
+<unit des=II/109 toe=ger.hvy.art1.bn when=9/7/1940 />
+<unit des=II/109 toe=ger.mot.art.bn when=9/7/1940 />
+<unit des=III/109 toe=ger.kan210.bn when=8/24/1939 />
+<unit des=IV/109 toe=ger.hvy.art.bn when=8/26/1939 />
+<unit des=109 toe=ger.flak.bn when=12/4/1944 />
+
+<unit des=110 toe=ger.inf.div.39 when=12/10/1940 />
+<unit des=110 toe=ger.pz.bg when=7/19/1944 disband=9/1/1944 note="Feldherrnhalle; merged into 13 pz div"/>
+<unit des=110 toe=ger.flak.reg when=7/18/1943 disband=10/6/1944 note="Converted to Flak bg 16"/>
+
+<unit des=111 toe=ger.inf.div.39 when=11/6/1940 />
+<unit des=111 toe=ger.pz.bg when=9/4/1944 disband=9/25/1944 note="merged into 15 pg div"/>
+<unit des="Lehr 111" toe=ger.sp.art.bg when=2/1/1945 />
+<unit des=111 toe=ger.rail.eng.bn when=12/6/1940 note="w/AGS"/>
+<unit des=111 toe=ger.flak.reg when=1/1/1939/>
+<unit des=I/111 toe=ger.flak.bn when=8/26/1939 />
+<unit des=111 toe=ger.flak.bn when=1/1/1942 />
+
+<unit des=112 toe=ger.inf.div.39 when=12/10/1940 />
+<unit des=112 toe=ger.pz.bg when=9/4/1944 disband=9/23/1944 note="merged into 21 pz div"/>
+<unit des=112 toe=ger.flak.reg when=12/1/1941/>
+<unit des=112 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=113 toe=ger.inf.div.39 when=12/10/1940 />
+<unit des=113 toe=ger.pz.bg when=9/4/1944 disband=9/23/1944 note="merged into 11 pz div"/>
+<unit des=113 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=114 toe=ger.jgr.div when=4/1/1943 />
+<unit des=114 toe=ger.flak.reg when=1/1/1940/>
+<unit des=114 toe=ger.flak.bn when=1/1/1942 />
+
+<unit des=II/115 toe=ger.hvy.art1.bn when=11/10/1938 disband=2/1/1941 />
+<unit des=II/115 toe=ger.kan210.bn when=2/1/1941 />
+<unit des=115 toe=ger.flak.reg when=5/12/1944/>
+<unit des=115 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=116 toe=ger.pz.div when=3/28/1944 />
+<unit des=116 toe=ger.flak.reg when=5/12/1944/>
+<unit des=116 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=117 toe=ger.jgr.div when=4/1/1943 />
+<unit des=117 toe=ger.flak.reg when=4/1/1944/>
+<unit des=117 toe=ger.flak.bn when=1/1/1942 />
+
+<unit des=118 toe=ger.jgr.div when=4/1/1943 />
+<unit des=118 toe=ger.flak.reg when=1/1/1939/>
+<unit des=118 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=120 toe=ger.flak.reg when=8/20/1943/>
+
+<unit des=121 toe=ger.inf.div.39 when=10/5/1940 />
+<unit des=121 toe=ger.flak.reg when=12/1/1944/>
+<unit des=121 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=122 toe=ger.inf.div.39 when=10/7/1940 />
+<unit des=122 toe=ger.flak.reg when=12/1/1941/>
+<unit des=122 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=123 toe=ger.inf.div.39 when=10/5/1940 />
+<unit des=123 toe=ger.flak.reg when=1/1/1939/>
+<unit des=123 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=124 toe=ger.mtn.art.bn when=10/2/1942 />
+<unit des=124 toe=ger.flak.reg when=6/1/1940/>
+<unit des=124 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=125 toe=ger.inf.div.39 when=10/16/1940 />
+<unit des=125 toe=ger.flak.reg when=6/1/1941/>
+<unit des=125 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=126 toe=ger.inf.div.39 when=10/18/1940 />
+<unit des=126 toe=ger.flak.reg when=6/1/1941 />
+<unit des=126 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=I/127 toe=ger.mot.art.bn when=3/1/1943 />
+<unit des=127 toe=ger.eng.bg when=11/1/1944 />
+<unit des=127 toe=ger.flak.bn when=6/1/1943 />
+
+<unit des=128 toe=ger.flak.reg when=6/1/1944 />
+
+<unit des=129 toe=ger.inf.div.39 when=10/20/1940 />
+<unit des=129 toe=ger.flak.reg when=6/1/1940 />
+
+<unit des=130 toe=ger.flak.reg when=12/1/1943 />
+
+<unit des=131 toe=ger.inf.div.39 when=10/5/1940 />
+<unit des=131 toe=ger.flak.reg when=8/26/1939 />
+<unit des=131 toe=ger.flak.bn when=6/1/1943 />
+
+<unit des=132 toe=ger.inf.div.39 when=10/5/1940 />
+<unit des=132 toe=ger.flak.reg when=8/26/1939 />
+<unit des=132 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=133 toe=ger.stat.div when=1/21/1944 />
+<unit des=133 toe=ger.flak.reg when=6/1/1941 />
+<unit des=133 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=134 toe=ger.inf.div.39 when=10/15/1940 />
+<unit des=134 toe=ger.flak.reg when=6/1/1943 />
+<unit des=134 toe=ger.flak.bn when=1/1/1942 />
+
+<unit des=135 toe=ger.flak.reg when=12/1/1941 />
+<unit des=135 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=136 toe=ger.flak.reg when=1/1/1939 />
+<unit des=136 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=137 toe=ger.inf.div.39 when=10/10/1940 />
+<unit des=137 toe=ger.flak.reg when=6/1/1943 />
+<unit des=137 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=138 toe=ger.flak.reg when=1/1/1939 />
+
+<unit des=139 toe=ger.mtn.reg when=1/14/1942 />
+<unit des=139 toe=ger.rail.eng.bn when=1/1/1941 />
+<unit des=139 toe=ger.flak.reg when=1/1/1944 />
+
+<unit name="140th z.b.V. Division" badge=army size=XX when=9/7/1944>
+	<unit toe=ger.div.hq />
+	<unit des=140/140 toe=ger.eng.co />
+</unit>
+<unit des=II/140 toe=ger.mot.art.bn when=2/28/1943 />
+<unit des=III/140 toe=ger.hvy.art1.bn when=2/28/1943 />
+<unit des=140 toe=ger.flak.reg when=6/1/1943 />
+
+<unit des=141 toe=ger.res.div when=8/12/1939 disband=9/24/1942 note="Converted to 401st Ersatz div"/>
+<unit des=141 toe=ger.res.div when=10/1/1942 />
+<unit des=I/141 toe=ger.flak.bn when=8/26/1939 />
+
+<unit des=142 toe=ger.flak.reg when=12/1/1941 />
+<unit des=142 toe=ger.flak.bn when=8/26/1939 />
+
+<unit des=143 toe=ger.res.div when=11/28/1939 disband=2/18/1944 note="dispersed to combat orgs" />
+<unit des=143 toe=ger.cst.art.bn when=7/2/1941 />
+<unit des=143 toe=ger.flak.reg when=3/9/1944 />
+<unit des=143 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=144 toe=ger.cst.art.bn when=6/30/1941 />
+<unit des=144 toe=ger.flak.reg when=6/1/1940 />
+<unit des=144 toe=ger.flak.bn when=1/1/1941 />
+
+<unit des=145 toe=ger.cst.art.bn when=6/26/1941 />
+<unit des=145 toe=ger.flak.reg when=1/1/1945 />
+
+<unit des=146 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=147 toe=ger.res.div when=4/1/1940 />
+<unit des=147 toe=ger.cst.art.bn when=5/29/1941 />
+<unit des=147 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=148 toe=ger.res.div when=12/1/1939 disband=10/5/1944 note="Upgraded to infantry div" />
+<unit des=148 toe=ger.inf.div.44 when=10/5/1944 />
+<unit des=148 toe=ger.cst.art.bn when=6/3/1941 />
+<unit des=148 toe=ger.flak.reg when=1/1/1944 />
+
+<unit des=149 toe=ger.trn.div when=3/12/1945 />
+<unit des=149 toe=ger.cst.art.bn when=6/3/1941 />
+<unit des=149 toe=ger.flak.reg when=6/1/1941 />
+
+<unit des=150 toe=ger.trn.div when=3/12/1945 />
+<unit des=150 toe=ger.flak.reg when=3/14/1944 />
+
+<unit des=151 toe=ger.res.div when=12/6/1939 />
+<unit des=151 toe=ger.trn.div when=3/12/1945 />
+<unit des=151 toe=ger.kan105.bn when=10/10/1940 />
+<unit des=151 toe=ger.flak.reg when=6/1/1941 />
+<unit des=151 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=152 toe=ger.res.div when=8/26/1939 />
+<unit des=152 toe=ger.flak.reg when=6/1/1941 />
+<unit des=152 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=153 toe=ger.res.div when=8/26/1939 disband=12/10/1942 note="Converted to Training Division"/>
+<unit des=153 toe=ger.trn.div when=12/10/1942 />
+<unit des=153 toe=ger.kan105.bn when=10/10/1940 />
+<unit des=153 toe=ger.flak.reg when=6/1/1941 />
+<unit des=153 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=154 toe=ger.res.div when=11/10/1939 disband=10/1/1944 note="Converted to Training Division"/>
+<unit des=154 toe=ger.trn.div when=10/1/1944 />
+<unit des=154 toe=ger.kan105.bn when=10/10/1940 />
+<unit des=154 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=155 toe=ger.res.div when=11/9/1939 disband=5/10/1942 note="Converted to Res (mot) Division"/>
+<unit des=155 toe=ger.mot.res.div when=5/10/1942 disband=4/5/1943 note="Converted to res pz div"/>
+<unit des=155 toe=ger.pz.res.div when=4/5/1943 disband=3/19/1944 note="Merged into 9 pz div"/>
+<unit des=155 toe=ger.trn.div when=11/2/1944 disband=2/11/1945 note="convertd to inf div"/>
+<unit des=155 toe=ger.inf.div.44 when=2/11/1945 />
+<unit des=155 toe=ger.flak.reg when=9/1/1943 />
+<unit des=155 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=156 toe=ger.res.div when=11/15/1939 disband=2/1/1944 note="Converted to Res (mot) Division"/>
+<unit des=156 toe=ger.trn.div when=3/12/1945 />
+<unit des=156 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=157 toe=ger.res.div when=11/9/1939 disband=10/1/1944 note="Converted to Geb. div"/>
+<unit des=157 toe=ger.mtn.div when=10/1/1944 />
+<unit des=157 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=158 toe=ger.res.div when=11/10/1939 />
+<unit des=158 toe=ger.trn.div when=3/1/1945 />
+
+<unit des=159 toe=ger.res.div when=11/9/1939 disband=10/9/1944 note="Converted to infantry div"/>
+<unit des=159 toe=ger.inf.div.44 when=10/9/1944 />
+<unit des=159 toe=ger.bridge.bn when=12/27/1940 />
+<unit des=159 toe=ger.flak.reg when=1/1/1943 />
+
+<unit des=160 toe=ger.res.div when=11/8/1939 disband=3/9/1945 note="Converted to infantry div"/>
+<unit des=160 toe=ger.inf.div.44 when=3/9/1945 />
+
+<unit des=161 toe=ger.inf.div.39 when=12/1/1939 />
+<unit des=161 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=162 toe=ger.inf.div.39 when=12/1/1939 />
+<unit des="162nd (Turk)" toe=ger.inf.div.44 when=5/21/1943 />
+<unit des=162 toe=ger.bridge.bn />
+<unit des=162 toe=ger.flak.reg when=6/1/1942 />
+<unit des=162 toe=ger.flak.bn when=6/1/1943 />
+
+<unit des=163 toe=ger.inf.div.39 when=11/18/1939/>
+<unit des=163 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=164 toe=ger.inf.div.39 when=11/27/1939 disband=1/10/1942 note="Converted to Fest. Div Kreta"/>
+<unit des=164 toe=ger.lt.inf.div when=8/15/1942 />
+<unit des=164 toe=ger.flak.reg when=6/1/1941 />
+<unit des=164 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=165 toe=ger.res.div when=11/10/1939 disband=8/1/1944 note="Merge dinto 70th inf div"/>
+<unit des=165 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=166 toe=ger.res.div when=11/15/1939 disband=3/9/1945 note=?Converted to 166 inf div"/>
+<unit des=166 toe=ger.inf.div.44 when=3/9/1945 />
+<unit des=166 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=167 toe=ger.inf.div.39 when=11/26/1939 />
+<unit des=167 toe=ger.vg.div when=10/31/1944 />
+<unit des=167 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=168 toe=ger.inf.div.39 when=12/1/1939/>
+<unit des=168 toe=ger.bridge.bn />
+
+<unit des=169 toe=ger.inf.div.39 when=11/28/1939/>
+<unit des=169 toe=ger.flak.reg when=6/1/1943 />
+
+<unit des=170 toe=ger.inf.div.39 when=12/1/1939/>
+
+<unit des=171 toe=ger.res.div when=11/9/1939 disband=2/1/1944 note="Merged into 48 inf div"/>
+<unit des=171 toe=ger.flak.bn when=6/1/1943 />
+
+<unit des=172 toe=ger.res.div when=11/7/1939 disband=11/23/1944 note="Merged into 347 inf div"/>
+<unit des=172 toe=ger.flak.reg when=6/1/1943 />
+<unit des=172 toe=ger.flak.bn when=6/1/1944 />
+
+<unit des=173 toe=ger.res.div when=11/9/1939 disband=1/12/1944 note="Dissolved into 24th wave shadow divisions"/>
+<unit des=173 toe=ger.flak.bn when=1/21/1944 />
+
+<unit des=174 toe=ger.res.div when=6/10/1940 disband=7/27/1944 note="Dissolved into 26th inf div"/>
+<unit des=174 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=175 toe=ger.bridge.bn />
+<unit des=175 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=176 toe=ger.res.div when=1/26/1943 disband=10/31/1944 note="Converted into 176th inf div"/>
+<unit des=176 toe=ger.inf.div.44 when=10/31/1944 />
+<unit des=176 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=177 toe=ger.res.div when=11/4/1939/>
+<unit des=177 toe=ger.stug.bn when=8/11/1941/>
+<unit des=177 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=178 toe=ger.res.div when=12/15/1940 disband=4/20/1942/>
+<unit des=178 toe=ger.mot.res.div when=4/20/1942 disband=4/5/1943 note="Converted to res pz div"/>
+<unit des=178 toe=ger.pz.res.div when=4/5/1943 disband=12/1/1944 note="Merged into Tatra pz div"/>
+
+<unit des=179 toe=ger.res.div when=1/5/1940 disband=4/27/1942/>
+<unit des=179 toe=ger.mot.res.div when=4/27/1942 disband=4/5/1943 note="Converted to res pz div"/>
+<unit des=179 toe=ger.pz.res.div when=4/5/1943 disband=5/1/1944 note="Merged into 116 pz div"/>
+<unit des=179 toe=ger.flak.reg when=3/1/1943 />
+
+<unit des=180 toe=ger.res.div when=11/25/1939 disband=10/31/1944 note="Converted into 180th inf div"/>
+<unit des=180 toe=ger.inf.div.44 when=10/31/1944 />
+<unit name="180th Coastal Artillery" badge=c.art size="I I I" when=1/18/1943>
+	<unit des=I/180 toe=ger.cst.art.bn />
+	<unit des=II/180 toe=ger.cst.art.bn/>
+	<unit des=III/180 toe=ger.cst.art.bn/>
+</unit>
+<unit des=180 toe=ger.flak.reg when=12/1/1940/>
+
+<unit des=181 toe=ger.inf.div.39 when=12/1/1939/>
+<unit des=181 toe=ger.flak.reg when=8/26/1939/>
+<unit des=181 toe=ger.flak.bn when=1/1/1943/>
+
+<unit des=182 toe=ger.res.div when=11/7/1939 disband=4/1/1945 note="Converted into 182nd inf div"/>
+<unit des=182 toe=ger.inf.div.44 when=4/1/1945 />
+<unit des=182 toe=ger.flak.reg when=12/1/1940/>
+<unit des=182 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=183 toe=ger.inf.div.39 when=11/28/1939/>
+<unit des=183 toe=ger.vg.div when=9/15/1944 />
+<unit des=183 toe=ger.flak.reg when=12/1/1942/>
+<unit des=183 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=184 toe=ger.stug.bn when=8/10/1940/>
+<unit des=184 toe=ger.flak.reg when=10/1/1943/>
+<unit des=184 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=185 toe=ger.stug.bn when=10/8/1940/>
+<unit des=185 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=186 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=187 toe=ger.res.div when=11/9/1939 disband=12/4/1943 note="Converted to 42nd jgr div"/>
+<unit des=187 toe=ger.flak.bn when=12/1/1943 />
+
+<unit des=188 toe=ger.res.div when=11/5/1939 disband=3/1/1944 note="Converted into 188th mtn div"/>
+<unit des=188 toe=ger.mtn.div when=3/1/1944 />
+<unit des=188 toe=ger.flak.bn when=9/1/1944 />
+
+<unit des=189 toe=ger.res.div when=9/26/1942 disband=10/8/1944 note="Converted into 189th inf div"/>
+<unit des=189 toe=ger.inf.div.44 when=10/8/1944 />
+<unit des=189 toe=ger.stug.bn when=7/10/1941/>
+<unit des=189 toe=ger.flak.reg when=6/1/1943/>
+
+<unit des=190 toe=ger.res.div when=6/10/1940 disband=11/4/1944 note="Converted into 190th inf div"/>
+<unit des=190 toe=ger.inf.div.44 when=11/4/1944 />
+<unit des=190 toe=ger.stug.bn when=10/1/1940/>
+<unit des=190 toe=ger.flak.bn when=12/1/1944 />
+
+<unit des=191 toe=ger.res.div when=12/1/1939/>
+<unit des=191 toe=ger.stug.bn when=10/1/1940/>
+<unit des=191 toe=ger.flak.bn when=1/1/1943 />
+
+<unit des=192 toe=ger.res.div when=6/6/1940/>
+<unit des=192 toe=ger.stug.bn when=11/25/1940 disband=4/9/1942 note="Attached to GD div"/>
+<unit des=192 toe=ger.flak.bn when=6/1/1943 />
+
+<unit des=193 toe=ger.res.div when=11/29/1939 />
+<unit des=193 toe=ger.flak.bn when=1/1/1943/>
+
+<unit des=194 toe=ger.flak.bn when=1/1/1943 disband=1/1/1944 note="Attached to HG pz div"/>
+
+<unit des=195 toe=ger.flak.bn when=1/1/1943/>
+
+<unit des=196 toe=ger.inf.div.39 when=11/27/1939/>
+<unit des=196 toe=ger.flak.bn when=1/1/1943/>
+
+<unit des=197 toe=ger.inf.div.39 when=12/1/1939/>
+<unit des=197 toe=ger.stug.bn when=11/25/1940 disband=4/1/1943 note="Converted to pzjg abt 653"/>
+<unit des=197 toe=ger.flak.bn when=1/1/1943/>
+
+<unit des=198 toe=ger.inf.div.39 when=12/1/1939/>
+<unit des=198 toe=ger.bridge.bn />
+
+<unit des=199 toe=ger.inf.div.39 when=11/1/1940/>
+
+<unit des=200 toe=ger.stug.bn when=6/1/1943 disband=2/1/1945 note="Converted to PzJg Abt 673"/>
+
+<unit des=201 toe=ger.res.bg when=6/15/1941 disband=6/1/1942 note="Converted to 201st security div"/>
+<unit des=201 toe=ger.mtn.bn when=10/9/1944 disband=2/1/1945 note="Merged in 2nd Mtn div"/>
+<unit des=201 toe=ger.sec.div when=6/1/1942/>
+<unit des=201 toe=ger.stug.bn when=3/19/1941/>
+<unit des=201 toe=ger.flak.reg when=6/1/1939/>
+
+<unit des=202 toe=ger.res.bg when=6/15/1941 disband=4/27/1942 note="Dispersed"/>
+<unit des=202 toe=ger.mtn.bn when=10/9/1944 disband=1/1/1945 note="Merged in 338th inf div"/>
+<unit des=I/202 toe=ger.pz.bn when=1/2/1943 />
+<unit des=202 toe=ger.at.bn />
+<unit des=202 toe=ger.stug.bn when=9/10/1941/>
+<unit des=202 toe=ger.flak.reg when=6/1/1939/>
+
+<unit des=203 toe=ger.sec.div />
+<unit des=203 toe=ger.stug.bn />
+<unit des=205 toe=ger.inf.div.39 />
+<unit des=206 toe=ger.wave3.inf.div />
+<unit des=207 toe=ger.sec.div />
+<unit des=208 toe=ger.wave3.inf.div />
+<unit des=209 toe=ger.stug.bn />
+<unit des=210 toe=ger.wave3.inf.div />
+<unit des=210 toe=ger.stug.bn />
+<unit des=211 toe=ger.wave3.inf.div />
+<unit des=211 toe=ger.fin.pz.bn />
+<unit des=212 toe=ger.wave3.inf.div />
+<unit des=213 toe=ger.sec.div />
+<unit des=I/213 toe=ger.art.bn />
+<unit des=II/213 toe=ger.art.bn />
+<unit des=III/213 toe=ger.art.bn />
+<unit des=214 toe=ger.wave3.inf.div />
+<unit des=215 toe=ger.wave3.inf.div />
+<unit des=215 toe=ger.eng.bn />
+<unit des=216 toe=ger.wave3.inf.div />
+<unit des=216 toe=ger.brummbar.bn />
+<unit des=IV/216 toe=ger.art.bn />
+<unit des=217 toe=ger.wave3.inf.div />
+<unit des=218 toe=ger.wave3.inf.div />
+<unit des=221 toe=ger.sec.div />
+<unit des=221 toe=ger.eng.bn />
+<unit des=II/221 toe=ger.art.bn />
+<unit des=223 toe=ger.wave3.inf.div />
+<unit des=225 toe=ger.wave3.inf.div />
+<unit des=226 toe=ger.stug.bn />
+<unit des=227 toe=ger.wave3.inf.div />
+<unit des=228 toe=ger.stug.bn />
+<unit des=230 toe=ger.stat.div />
+<unit des=232 toe=ger.stug.bn />
+<unit des=236 toe=ger.stug.bn />
+<unit des=237 toe=ger.stug.bn when=10/1/1943 />
+<unit des=239 toe=ger.stug.bn when=8/22/1943 />
+<unit des=I/241 toe=ger.flak.bn />
+<unit des=II/241 toe=ger.flak.bn />
+<unit des=243 toe=ger.stug.bn />
+<unit des=244 toe=ger.stug.bn />
+<unit des=245 toe=ger.stug.bn />
+<unit des=246 toe=ger.wave3.inf.div />
+<unit des=249 toe=ger.stug.bn />
+<unit des="250th Spanish Blue" colors=Spanish toe=ger.inf.div.39 />
+<unit des=251 toe=ger.wave4.inf.div />
+<unit des=251 toe=ger.flak.bn />
+<unit des=252 toe=ger.wave4.inf.div />
+<unit des=252 toe=ger.flak.bn />
+<unit des=I/252 toe=ger.art.bn />
+<unit des=253 toe=ger.wave4.inf.div />
+<unit des=253 toe=ger.flak.bn />
+<unit des=254 toe=ger.wave4.inf.div />
+<unit des=255 toe=ger.wave4.inf.div />
+<unit des=256 toe=ger.wave4.inf.div />
+<unit des=257 toe=ger.wave4.inf.div />
+<unit des=257 toe=ger.flak.bn />
+<unit des=258 toe=ger.wave4.inf.div />
+<unit des=259 toe=ger.stug.bn when=7/15/1943 />
+<unit des=260 toe=ger.wave4.inf.div />
+<unit des=261 toe=ger.flak.bn />
+<unit des=261 toe=ger.stug.bn when=10/1/1943 />
+<unit des=262 toe=ger.wave4.inf.div />
+<unit des=263 toe=ger.wave4.inf.div />
+<unit des=264 toe=ger.stat.div />
+<unit des=266 toe=ger.flak.bn />
+<unit des=267 toe=ger.wave4.inf.div />
+<unit des=268 toe=ger.wave4.inf.div />
+<unit des=269 toe=ger.wave4.inf.div />
+<unit des=270 toe=ger.stat.div />
+<unit des=270 toe=ger.stug.bn />
+<unit des=274 toe=ger.stat.div />
+<unit des=276 toe=ger.stug.bn when=10/1/1943 />
+<unit des=277 toe=ger.stug.bn when=9/1/1943 />
+<unit des=278 toe=ger.stug.bn when=10/22/1943 />
+<unit des=279 toe=ger.stug.bn when=9/1/1943 />
+<unit des=280 toe=ger.stat.div />
+<unit des=280 toe=ger.stug.bn when=11/8/1943 />
+<unit des=281 toe=ger.sec.div />
+<unit des=282 toe=ger.inf.div.39 />
+<unit des=284 toe=ger.flak.bn />
+<unit des=285 toe=ger.sec.div />
+<unit des=286 toe=ger.sec.div />
+<unit des=286 toe=ger.stug.bn when=12/8/1943 />
+<unit des=290 toe=ger.inf.div.39 />
+<unit des=291 toe=ger.inf.div.39 />
+<unit des=291 toe=ger.flak.bn />
+<unit des=292 toe=ger.inf.div.39 />
+<unit des=293 toe=ger.inf.div.39 />
+<unit des=293 toe=ger.flak.bn />
+<unit des=294 toe=ger.inf.div.39 />
+<unit des=295 toe=ger.flak.bn />
+<unit des=296 toe=ger.inf.div.39 />
+<unit des=297 toe=ger.inf.div.39 />
+<unit des=297 toe=ger.bridge.bn />
+<unit des=297 toe=ger.flak.bn />
+<unit des=298 toe=ger.flak.bn />
+<unit des=299 toe=ger.inf.div.39 />
+<unit des=300 toe=ger.stug.bn when=12/28/1943 />
+<unit des=302 toe=ger.inf.div.39 />
+<unit des=304 toe=ger.inf.div.39 />
+<unit des=305 toe=ger.inf.div.39 />
+<unit des=306 toe=ger.inf.div.39 />
+<unit des=308 toe=ger.flak.bn />
+<unit des=319 toe=ger.inf.div.39 />
+<unit des=320 toe=ger.inf.div.39 />
+<unit des=321 toe=ger.inf.div.39 />
+<unit des=321 toe=ger.flak.bn />
+<unit des=326 toe=ger.inf.div.39 />
+<unit des=327 toe=ger.inf.div.39 />
+<unit des=328 toe=ger.inf.div.39 />
+<unit des=329 toe=ger.inf.div.39 />
+<unit des=330 toe=ger.inf.div.39 />
+<unit des=331 toe=ger.inf.div.39 />
+<unit des=332 toe=ger.inf.div.39 />
+<unit des=333 toe=ger.inf.div.39 />
+<unit des=334 toe=ger.inf.div.39 />
+<unit des=335 toe=ger.inf.div.39 />
+<unit des=336 toe=ger.inf.div.39 />
+<unit des=337 toe=ger.inf.div.39 />
+<unit des=339 toe=ger.inf.div.39 />
+<unit des=339 toe=ger.flak.bn />
+<unit des=340 toe=ger.inf.div.39 />
+<unit des=342 toe=ger.inf.div.39 />
+<unit des=343 toe=ger.stat.div />
+<unit des=343 toe=ger.flak.bn />
+<unit des=344 toe=ger.stat.div />
+<unit des=344 toe=ger.flak.bn />
+<unit des=345 toe=ger.flak.bn />
+<unit des=346 toe=ger.stat.div />
+<unit des=346 toe=ger.flak.bn />
+<unit des=347 toe=ger.stat.div />
+<unit des=347 toe=ger.flak.bn />
+<unit des=348 toe=ger.stat.div />
+<unit des=353 toe=ger.flak.bn />
+<unit des=356 toe=ger.inf.div.39 />
+<unit des=356 toe=ger.flak.bn />
+<unit des=365 toe=ger.flak.bn />
+<unit des="369th (Croat)" toe=ger.sm.inf.div />
+<unit des=370 toe=ger.inf.div.39 />
+<unit des=371 toe=ger.inf.div.39 />
+<unit des="373rd (Croat)" toe=ger.sm.inf.div />
+<unit des=375 toe=ger.flak.bn />
+<unit des=376 toe=ger.inf.div.39 />
+<unit des=383 toe=ger.inf.div.39 />
+<unit des=384 toe=ger.inf.div.39 />
+<unit des=387 toe=ger.inf.div.39 />
+<unit des=389 toe=ger.inf.div.39 />
+<unit des=391 toe=ger.flak.bn />
+<unit des=393 toe=ger.stug.co />
+<unit des=401 toe=ger.res.div />
+<unit des=402 toe=ger.flak.bn />
+<unit des=2/407 toe=ger.bridge.co />
+<unit des=2/409 toe=ger.bridge.co />
+<unit des=2/410 toe=ger.bridge.co />
+<unit des=2/411 toe=ger.bridge.co />
+<unit des=2/413 toe=ger.bridge.co />
+<unit des=415 toe=ger.flak.bn />
+<unit des=417 toe=ger.flak.bn />
+<unit des=2/420 toe=ger.bridge.co />
+<unit des=422 toe=ger.mot.art.bn />
+<unit des=425 toe=ger.art.bn />
+<unit des=426 toe=ger.art.bn />
+<unit des=427 toe=ger.art.bn />
+<unit des=428 toe=ger.flak.bn />
+<unit des=430 toe=ger.mot.art.bn />
+<unit des=1/430 toe=ger.bridge.co />
+<unit des=431 toe=ger.flak.reg />
+<unit des=433 toe=ger.art.bn />
+<unit des=441 toe=ger.flak.bn />
+<unit des=II/441 toe=ger.flak.bn />
+<unit des=442 toe=ger.bridge.bn />
+<unit des=443 toe=ger.eng.bn />
+<unit des=444 toe=ger.sec.div />
+<unit des=454 toe=ger.sec.div />
+<unit des=468 toe=ger.flak.bn />
+<unit des=496 toe=ger.flak.bn />
+<unit des=497 toe=ger.flak.bn />
+<unit des=503 toe=ger.hvy.pz.bn />
+<unit des=505 toe=ger.bike.bn />
+<unit des=505 toe=ger.flak.bn />
+<unit des=505 toe=ger.hvy.pz.bn />
+<unit des=1/505 toe=ger.bridge.co />
+<unit des=507 toe=ger.bike.bn />
+<unit des=512 toe=ger.eng.bn />
+<unit des=513 toe=ger.bike.bn />
+<unit des=517 toe=ger.bike.bn />
+<unit des=517 toe=ger.flak.bn />
+<unit des=518 toe=ger.bike.bn />
+<unit des=534 toe=ger.bridge.bn />
+<unit des=535 toe=ger.bridge.bn />
+<unit des=535 toe=ger.flak.bn />
+<unit des=538 toe=ger.flak.bn />
+<unit des=541 toe=ger.flak.bn />
+<unit des=559 toe=ger.at.bn />
+<unit des=559 toe=ger.flak.bn />
+<unit des=560 toe=ger.nas.bn />
+<unit des=573 toe=ger.bridge.bn colors=Wehrmacht />
+<unit des=591 toe=ger.flak.bn />
+<unit des=592 toe=ger.flak.bn />
+<unit des=593 toe=ger.flak.bn />
+<unit des=594 toe=ger.flak.bn />
+<unit des=595 toe=ger.flak.bn />
+<unit des=596 toe=ger.flak.bn />
+<unit des=597 toe=ger.flak.bn />
+<unit des=600 toe=ger.stug.bn when=10/1/1943 />
+<unit des=601 toe=ger.eng.bn />
+<unit des=602 toe=ger.bridge.bn />
+<unit des=603 toe=ger.bridge.bn />
+<unit des=604 toe=ger.hvy.art.bn />
+<unit des=606 toe=ger.bridge.bn />
+<unit des=609 toe=ger.bridge.bn />
+<unit des=610 toe=ger.bridge.bn />
+<unit des=611 toe=ger.hvy.art.bn />
+<unit des=614 toe=ger.flak.bn />
+<unit des=616 toe=ger.art.bn />
+<unit des=616 toe=ger.at.bn />
+<unit des=616 toe=ger.flak.bn />
+<unit des="620th Mountain" toe=ger.eng.bn />
+<unit des=1/620 toe=ger.150k18.co />
+<unit des=2/620 toe=ger.150k18.co />
+<unit des=3/620 toe=ger.150k18.co />
+<unit des=625 toe=ger.fh150.co />
+<unit des=626 toe=ger.bridge.bn />
+<unit des=627 toe=ger.mot.eng.bn colors=Wehrmacht />
+<unit des=1/637 toe=ger.kan210.co />
+<unit des=2/637 toe=ger.kan210.co />
+<unit des=3/637 toe=ger.kan210.co />
+<unit des=639 toe=ger.bridge.bn />
+<unit des=640 toe=ger.bridge.bn />
+<unit des=641 toe=ger.bridge.bn />
+<unit des=642 toe=ger.bridge.bn />
+<unit des=643 toe=ger.bridge.bn />
+<unit des=644 toe=ger.bridge.bn />
+<unit des=645 toe=ger.bridge.bn />
+<unit des=645 toe=ger.flak.bn />
+<unit des=646 toe=ger.bridge.bn />
+<unit des=647 toe=ger.bridge.bn />
+<unit des=648 toe=ger.bridge.bn />
+<unit des=649 toe=ger.bridge.bn />
+<unit des=649 toe=ger.flak.bn />
+<unit des=651 toe=ger.eng.bn />
+<unit des=653 toe=ger.flak.reg />
+<unit des=653 toe=ger.ele.bn />
+<unit des=653 toe=ger.flak.bn />
+<unit des=1/653 toe=ger.fh150.co />
+<unit des=2/653 toe=ger.fh150.co />
+<unit des=654 toe=ger.ele.bn />
+<unit des=654 toe=ger.eng.bn />
+<unit des=656 toe=ger.flak.reg />
+<unit name="656th Schwere Panzer Jaeger" size="I I I" badge=hvy.arm.at />
+<unit des=660 toe=ger.bridge.bn />
+<unit des=664 toe=ger.bridge.bn />
+<unit des=666 toe=ger.bridge.bn />
+<unit des=666 toe=ger.mot.eng.bn colors=Wehrmacht />
+<unit des=667 toe=ger.flak.bn />
+<unit des=667 toe=ger.stug.bn />
+<unit des=668 toe=ger.flak.bn />
+<unit des=671 toe=ger.bridge.bn />
+<unit des=671 toe=ger.flak.bn />
+<unit des=672 toe=ger.bridge.bn />
+<unit des=674 toe=ger.eng.bn />
+<unit des=676 toe=ger.bridge.bn />
+<unit des=677 toe=ger.flak.bn />
+<unit des=680 toe=ger.flak.bn />
+<unit des=691 toe=ger.flak.bn />
+<unit des=694 toe=ger.flak.bn />
+<unit des=702 toe=ger.stat.div />
+<unit des=702 toe=ger.flak.bn />
+<unit des=707 toe=ger.stat.div />
+<unit des=708 toe=ger.stat.div />
+<unit des=709 toe=ger.stat.div />
+<unit des=709 toe=ger.art.bn />
+<unit des=710 toe=ger.stat.div />
+<unit des=711 toe=ger.stat.div />
+<unit des=712 toe=ger.stat.div />
+<unit des=715 toe=ger.stat.div />
+<unit des=716 toe=ger.stat.div />
+<unit des=716 toe=ger.flak.bn />
+<unit des=719 toe=ger.stat.div />
+<unit des=719 toe=ger.flak.bn />
+<unit des=730 toe=ger.flak.bn />
+<unit des=731 toe=ger.flak.bn />
+<unit des=3/731 toe=ger.fh150.co />
+<unit des=732 toe=ger.flak.bn />
+<unit des=739 toe=ger.flak.bn />
+<unit des=741 toe=ger.flak.bn />
+<unit des=741 toe=ger.stug.co />
+<unit des=742 toe=ger.eng.bn />
+<unit des=742 toe=ger.stug.co />
+<unit des=744 toe=ger.flak.bn />
+<unit des=746 toe=ger.eng.bn />
+<unit des=750 toe=ger.eng.bn />
+<unit des=751 toe=ger.eng.bn />
+<unit des=752 toe=ger.bridge.bn />
+<unit des=752 toe=ger.flak.bn />
+<unit des=757 toe=ger.flak.bn />
+<unit des=764 toe=ger.flak.bn />
+<unit des=765 toe=ger.flak.bn />
+<unit des=773 toe=ger.flak.bn />
+<unit des=II/800 toe=ger.hvy.art.bn />
+<unit des=805 toe=ger.flak.bn />
+<unit des=1/817 toe=ger.kan170.co />
+<unit des=III/818 toe=ger.art.bn colors=Wehrmacht />
+<unit des=831 toe=ger.flak.bn />
+<unit des=833 toe=ger.flak.bn />
+<unit des=835 toe=ger.flak.bn />
+<unit des=840 toe=ger.bridge.bn colors=Wehrmacht />
+<unit des=841 toe=ger.bridge.bn />
+<unit des=841 toe=ger.flak.bn />
+<unit des=842 toe=ger.bridge.bn />
+<unit des=842 toe=ger.hvy.art.bn />
+<unit des=843 toe=ger.bridge.bn />
+<unit des=845 toe=ger.bridge.bn />
+<unit des=845 toe=ger.flak.bn />
+<unit des=847 toe=ger.flak.bn />
+<unit des=848 toe=ger.hvy.art.bn />
+<unit des=851 toe=ger.art.bn />
+<unit des=855 toe=ger.art.bn />
+<unit des=857 toe=ger.hvy.art.bn />
+<unit des=859 toe=ger.flak.bn />
+<unit des=859 toe=ger.hvy.art.bn />
+<unit des=860 toe=ger.mot.art.bn />
+<unit des=861 toe=ger.art.bn colors=Wehrmacht />
+<unit des=873 toe=ger.flak.bn />
+<unit des=875 toe=ger.flak.bn />
+<unit des=880 toe=ger.flak.bn />
+<unit des=904 toe=ger.stug.bn />
+<unit des=905 toe=ger.stug.bn />
+<unit des=909 toe=ger.stug.bn />
+<unit des=911 toe=ger.stug.bn />
+<unit des=912 toe=ger.stug.bn />
+<unit des=923 toe=ger.flak.bn />
+<unit des=931 toe=ger.flak.bn />
+<unit des=956 toe=ger.flak.bn />
+<unit des=957 toe=ger.flak.bn />
+<unit des=958 toe=ger.flak.bn />
+<unit des=959 toe=ger.flak.bn />
+<unit des=978 toe=ger.flak.bn />
+<unit des=981 toe=ger.flak.bn />
+<unit des=983 toe=ger.flak.bn />
+<unit des=993 toe=ger.flak.bn />
+<unit des=996 toe=ger.flak.bn />
+<unit des=997 toe=ger.flak.bn />
+<unit des=999 toe=ger.flak.bn />

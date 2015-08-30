@@ -1,0 +1,257 @@
+<theater badges=units.xml weapons=weapons.xml colors=colors.xml
+    basicATHitProbability=0.1
+	offensiveAPHitProbability=0.1
+	defensiveAPHitProbability=0.1
+	ammunitionUnitsPerDay=10
+	lineAccuracy=0.7
+	rearAccuracy=0.5
+	apScale=160
+	atScale=60
+	riverCasualtyMultiplier=1.1
+	coastCasualtyMultiplier=1.3
+	riverEdgeAdjust=0.5
+	coastEdgeAdjust=0.15
+	directFireSetupDays=1.0
+	indirectFireSetupDays=2.0
+	tipOffensiveDirectFireModifier=2
+	tipOffensiveIndirectFireModifier=0.4
+	unitDensity=5 >
+	
+	smallArmsRateMultiplier=	Multiply small arms ammunition consumption.
+	
+	atRateMultiplier=			Multiply at ammunition consumption.
+	
+	artilleryRateMultiplier=	Multiply artillery ammunition consumption.
+	
+	aacMultiplier=				Multiply attacker casualties when attacking.
+	
+	adcMultiplier=				Multiply defender casualties when attacking.
+	
+	dacMultiplier=				Multiply attacker casualties when defending.
+	
+	ddcMultiplier=				Multiply defender casualties when defending.
+	
+	aEnduranceMultiplier=		Multiply attacker endurance factor.
+	
+	dEnduranceMultiplier=		Multiply defender endurance factor.
+	
+	aRatioMultiplier=			Multiply attacker's strength when computing 'ratio'.
+	
+	dSensitivityMultiplier=		Multiply defender's sensitivity to attack.
+	
+	<intensity level=1 
+		smallArmsRateMultiplier=0.5
+		atRateMultiplier=0.5
+		artilleryRateMultiplier=0.5
+		aRatioMultiplier=0.5
+		dSensitivityMultiplier=0.5
+	 />
+	<intensity level=2
+		smallArmsRateMultiplier=1
+		atRateMultiplier=1
+		artilleryRateMultiplier=1
+		aRatioMultiplier=1
+		dSensitivityMultiplier=1
+	 />
+	<intensity level=3
+		smallArmsRateMultiplier=2
+		atRateMultiplier=2
+		artilleryRateMultiplier=2
+		aRatioMultiplier=2
+		dSensitivityMultiplier=2
+	 />
+	
+	
+	adfRate=	Attacking Direct Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in direct combat.
+	aifRate=	Attacking Indirect Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in artillery fire.
+	ddfRate=	Defending Direct Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in direct combat.
+	difRate=	Defending Indirect Fire Rate.  This is the multiple applied to
+				the weapons rate multiple when the weapon participates
+				in artillery fire.
+	aRate=		Advance Rate.  This multiple is applied to the retreat
+				interval of the defenders.  A more aggressive doctrine will
+				capture a hex sooner than a less aggressive or effective
+				doctrine would.
+	aacRate=	When Attacking, Attacker Casualty Rate.  This multiple is applied to the 
+				attacker's casualties incurred during a combat.  Note that
+				this rate applies for both attacking and defending doctrines.
+				Thus an aggressive attack doctrine against an effective 
+				defensive doctrine will yield combined increases in casualties.
+	adcRate=	When Attacking, Defender Casualty Rate.  This multiple is applied to the
+				defender's casualties incurred during a combat.  Like the acRate,
+				the dcRate is defined for both offensive and defensive doctrines
+				and will yield combined results.
+	dacRate=	When Defending, Attacker Casualty Rate.  This multiple is applied to the 
+				attacker's casualties incurred during a combat.  Note that
+				this rate applies for both attacking and defending doctrines.
+				Thus an aggressive attack doctrine against an effective 
+				defensive doctrine will yield combined increases in casualties.
+	ddcRate=	When Defeinding, Defender Casualty Rate.  This multiple is applied to the
+				defender's casualties incurred during a combat.  Like the acRate,
+				the dcRate is defined for both offensive and defensive doctrines
+				and will yield combined results.
+
+	<combatant index=0 name=Unowned color=ffffff />
+	<combatant index=1 name="Soviet Union" color=b0a000 colors=Soviet doctrine=Soviet toe=../toe/soviet.toe oob=../toe/soviet.oob />
+	<combatant index=2 name=Germany color=a0a0a0 colors=Wehrmacht doctrine=German toe=../toe/germany.toe oob=../toe/germany.oob />
+	<combatant index=3 name=Finland color=b0d0ff colors=Finnish doctrine=Finnish toe=../toe/finland.toe oob=../toe/finland.oob />
+	<combatant index=4 name=Romania color=4090f0 colors=Romanian doctrine=Axis toe=../toe/romania.toe oob=../toe/romania.oob />
+	<combatant index=5 name=Hungary color=40c040 colors=Hungarian doctrine=Axis toe=../toe/hungary.toe oob=../toe/hungary.oob />
+	<combatant index=6 name=Italy color=a0c000 colors=Italian doctrine=Axis toe=../toe/italy.toe  />
+	<combatant index=7 name=Slovakia color=80f080 colors=Slovakian doctrine=Axis toe=../toe/slovakia.toe  />
+	<combatant index=8 name=Sweden color=f0f0f0 />
+	<combatant index=9 name=Turkey color=e0e0e0 />
+	<combatant index=10 name=Bulgaria color=00ffff colors=Bulgarian doctrine=Axis toe=../toe/bulgaria.toe />
+	<combatant index=11 name=Iran color=ffff00 />
+	<combatant index=12 name=Spain color=3090e0 colors=Spanish />
+	<combatant index=13 name=Croatia color=60e040 colors=Croatian />
+	<combatant index=14 name="Great Britain" color=ffd0d0 doctrine=British />
+	<combatant index=15 name=France color=60a0f0 doctrine=French />
+	<combatant index=16 name=Poland color=808000 colors=Polish doctrine=Allied toe=../toe/poland.toe />
+	<combatant index=17 name=Belgium color=70c0ff doctrine=Allied />
+	<combatant index=18 name=Lithuania color=c0c080 />
+	<combatant index=19 name=Latvia color=c050c0 />
+	<combatant index=20 name=Estonia color=d08090 />
+	<combatant index=21 name=Denmark color=00e000 />
+	<combatant index=22 name=Norway color=e0c0ff doctrine=Allied />
+	<combatant index=23 name=Yugoslavia color=f08060 doctrine=Allied  />
+	<combatant index=24 name=Switzerland color=e00000 />
+	<combatant index=25 name=Netherlands color=fff0f0 doctrine=Allied />
+	<combatant index=26 name=Portugal color=408040 />
+	<combatant index=27 name="United States" color=90e080 doctrine=American />
+	<combatant index=28 name=Luxembourg color=900040 />
+	<doctrine name=Soviet
+		aRate=1
+
+		adfRate=3.30
+		aatRate=13.50
+		aifRate=5
+		ddfRate=2.00
+		datRate=13.00
+		difRate=5
+
+		aacRate=1.5
+		adcRate=0.72
+		dacRate=0.52
+		ddcRate=1.0
+		
+		staticAmmo=1
+		defAmmo=2
+		offAmmo=4
+	 />
+	<doctrine name=German
+		aRate=1
+
+		adfRate=3.00
+		aatRate=5.60
+		aifRate=8.1
+		ddfRate=3.00
+		datRate=5.10
+		difRate=7.6
+
+		aacRate=1
+		adcRate=2.7
+		dacRate=2.7
+		ddcRate=1
+		
+		staticAmmo=2
+		defAmmo=5
+		offAmmo=9
+	 />
+	<doctrine name=American
+		aRate=0.75
+		
+		adfRate=0.90
+		aatRate=0.90
+		aifRate=1.10
+		ddfRate=1.00
+		datRate=1.00
+		difRate=1.10
+
+		aacRate=0.8
+		adcRate=0.8
+		dacRate=1.0
+		ddcRate=1.0
+	 />
+	<doctrine name=British
+		aRate=.7
+
+		adfRate=0.90
+		aatRate=0.90
+		aifRate=1.10
+		ddfRate=1.00
+		datRate=1.00
+		difRate=1.10
+		
+		aacRate=0.75
+		adcRate=0.75
+		dacRate=0.90
+		ddcRate=0.90
+	 />
+	<doctrine name=French
+		aRate=.7
+		
+		adfRate=0.90
+		aatRate=0.90
+		aifRate=1.10
+		ddfRate=1.00
+		datRate=1.00
+		difRate=1.10
+
+		aacRate=0.75
+		adcRate=0.75
+		dacRate=0.90
+		ddcRate=0.90
+	 />
+	<doctrine name=Allied
+		aRate=.7
+		
+		adfRate=0.90
+		aatRate=0.90
+		aifRate=1.10
+		ddfRate=1.00
+		datRate=1.00
+		difRate=1.10
+
+		aacRate=0.75
+		adcRate=0.75
+		dacRate=0.90
+		ddcRate=0.90
+	 />
+	<doctrine name=Finnish
+		aRate=1
+
+		adfRate=0.90
+		aatRate=0.90
+		aifRate=1.10
+		ddfRate=1.00
+		datRate=1.00
+		difRate=1.10
+		
+		aacRate=1
+		adcRate=1
+		dacRate=1
+		ddcRate=1
+	 />
+	<doctrine name=Axis
+		aRate=0.5
+
+		adfRate=0.90
+		aatRate=0.90
+		aifRate=1.10
+		ddfRate=1.00
+		datRate=1.00
+		difRate=1.10
+
+		aacRate=1.5
+		adcRate=0.8
+		dacRate=0.9
+		ddcRate=1.1
+	 />
+</theater>

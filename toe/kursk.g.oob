@@ -1,0 +1,1160 @@
+<root><unit name=OKW commander=Hitler size=GHQ line=126>
+    <unit name="OKW HQ" toe=okw line=127/>
+</unit>
+<unit name=OKH size=XXXXXX line=128/>
+<unit name="Army Group A" badge=army size=XXXXX line=926>
+    <unit des="AG A" toe=ger.ag.hq line=927/>
+</unit>
+<unit name="Army Group C" size=XXXXX badge=army when=11/26/1943 line=1070>
+    <unit des="AG C" toe=ger.ag.hq when=11/26/1943 line=1071/>
+</unit>
+<unit name="Army Group Center" commander="von Kluge" badge=army size=XXXXX line=273>
+    <unit des="AG Center" toe=ger.ag.hq line=274/>
+</unit>
+<unit name="Army Group D" size=XXXXX badge=army line=1073>
+    <unit des="AG D" toe=ger.ag.hq line=1074/>
+</unit>
+<unit name="Army Group E" badge=army size=XXXXX line=1312>
+    <unit des="AG E" toe=ger.ag.hq line=1313/>
+</unit>
+<unit name="Army Group North" badge=army size=XXXXX line=129>
+    <unit des="AG North" toe=ger.ag.hq line=130/>
+</unit>
+<unit name="Army Group South" badge=army size=XXXXX line=653>
+    <unit des="AG South" toe=ger.ag.hq line=654/>
+</unit>
+<unit name=Heimat size=XXXXX line=1459/>
+<unit name=Crimea badge=army size=XXXX line=969>
+    <unit des=Crimea toe=ger.army.hq line=970/>
+</unit>
+<unit name="Det. Felber" badge=army size=XXXX line=1249>
+    <unit des=Felber toe=ger.army.hq line=1250/>
+</unit>
+<unit name="Detachment Kempf" badge=army size=XXXX line=810>
+    <unit des="Det. Kempf" toe=ger.army.hq line=811/>
+</unit>
+<unit name=Norway badge=army size=XXXX line=1396>
+    <unit des=Norway toe=ger.army.hq line=1397/>
+</unit>
+<unit name="Oberbefehlshaber Sud" badge=army size=XXXX line=1376/>
+<unit name="Wehrmachtbefehlshaber Danemark" size=XXXX line=1393/>
+<unit name="Wehrmachtbefehlshaber Niederlande" size=XXXX line=1258/>
+<unit name="Wehrmachtbefehlshaber Ostland" size=XXXX line=1026/>
+<unit name="Wehrmachtbefehlshaber Ukraine" size=XXXX line=1012/>
+<unit name="Hoehne (VIII)" badge=inf size=XXX line=184>
+    <unit des=Hoehne toe=ger.corps.hq line=185/>
+</unit>
+<unit name="I Corps" size=XXX badge=inf line=201>
+    <unit des=1 toe=ger.corps.hq line=202/>
+</unit>
+<unit name=II badge=inf size=XXX line=175>
+    <unit des=2 toe=ger.corps.hq line=176/>
+</unit>
+<unit name="II Luftwaffe" badge=inf size=XXX colors=LW line=406>
+    <unit des=2 toe=ger.lw.corps.hq line=407/>
+</unit>
+<unit name="II SS Panzer" size=XXX badge=arm colors=SS line=699>
+    <unit des="II SS" toe=ger.pz.corps.hq line=700/>
+</unit>
+<unit name="III Luftwaffe" badge=inf size=XXX colors=LW line=238>
+    <unit des=3 toe=ger.lw.corps.hq line=239/>
+</unit>
+<unit name="III Panzer" size=XXX badge=arm line=814>
+    <unit des=3 toe=ger.pz.corps.hq line=815/>
+</unit>
+<unit name="III SS Panzer" when=9/1/1943 colors=SS badge=arm size=XXX line=1039>
+    <unit des="III SS" toe=ger.pz.corps.hq when=9/1/1943 line=1040/>
+</unit>
+<unit name=IV size=XXX badge=inf line=797>
+    <unit des=4 toe=ger.corps.hq line=798/>
+</unit>
+<unit name=IX size=XXX badge=inf line=476>
+    <unit des=9 toe=ger.corps.hq line=477/>
+</unit>
+<unit name=Kerch size=XXX badge=inf line=1006>
+    <unit des=Kerch toe=ger.corps.hq line=1007/>
+</unit>
+<unit name=Kreta size=XXX line=1318/>
+<unit name=Kroatia size=XXX line=1354/>
+<unit name=L badge=inf size=XXX line=243>
+    <unit des=50 toe=ger.corps.hq line=244/>
+</unit>
+<unit name=LII size=XXX badge=inf line=762>
+    <unit des=52 toe=ger.corps.hq line=763/>
+</unit>
+<unit name=LIII badge=inf size=XXX line=380>
+    <unit des=53 toe=ger.corps.hq line=381/>
+</unit>
+<unit name=LIV badge=inf size=XXX line=251>
+    <unit des=54 toe=ger.corps.hq line=252/>
+</unit>
+<unit name=LIX badge=inf size=XXX line=418>
+    <unit des=59 toe=ger.corps.hq line=419/>
+</unit>
+<unit name=LV badge=inf size=XXX line=387>
+    <unit des=55 toe=ger.corps.hq line=388/>
+</unit>
+<unit name="LVI Panzer" size=XXX badge=arm line=467>
+    <unit des=56 toe=ger.pz.corps.hq line=468/>
+</unit>
+<unit name="LVII Panzer" size=XXX badge=arm line=679>
+    <unit des=57 toe=ger.pz.corps.hq line=680/>
+</unit>
+<unit name="LVIII Panzer" badge=arm size=XXX when=7/28/1943 line=1266>
+    <unit des=58 toe=ger.pz.corps.hq when=7/28/1943 line=1267/>
+</unit>
+<unit name="LXI Reserve" badge=reserve size=XXX line=1027>
+    <unit des=61 toe=ger.res.corps.hq line=1028/>
+</unit>
+<unit name="LXII Reserve" badge=reserve size=XXX line=1013>
+    <unit des=62 toe=ger.res.corps.hq line=1014/>
+</unit>
+<unit name="LXIV Reserve" badge=reserve size=XXX line=1269>
+    <unit des=64 toe=ger.res.corps.hq line=1270/>
+</unit>
+<unit name=LXVIII size=XXX badge=inf line=1327>
+    <unit des=68 toe=ger.corps.hq line=1328/>
+</unit>
+<unit name=LXX size=XXX badge=inf line=1407>
+    <unit des=70 toe=ger.corps.hq line=1408/>
+</unit>
+<unit name=LXXI size=XXX badge=inf line=1414>
+    <unit des=71 toe=ger.corps.hq line=1415/>
+</unit>
+<unit name="LXXX Corps" size=XXX badge=inf line=1079>
+    <unit des=80 toe=ger.corps.hq line=1080/>
+</unit>
+<unit name="LXXXI Corps" size=XXX badge=inf line=1225>
+    <unit des=81 toe=ger.corps.hq line=1226/>
+</unit>
+<unit name="LXXXII Corps" size=XXX badge=inf line=1231>
+    <unit des=82 toe=ger.corps.hq line=1232/>
+</unit>
+<unit name="LXXXIII Corps" size=XXX badge=inf line=1251>
+    <unit des=83 toe=ger.corps.hq line=1252/>
+</unit>
+<unit name="LXXXIV Corps" size=XXX badge=inf line=1136>
+    <unit des=84 toe=ger.corps.hq line=1137/>
+</unit>
+<unit name="LXXXIX Corps" size=XXX badge=inf line=1237>
+    <unit des=89 toe=ger.corps.hq line=1238/>
+</unit>
+<unit name="LXXXVI Corps" size=XXX badge=inf line=1084>
+    <unit des=86 toe=ger.corps.hq line=1085/>
+</unit>
+<unit name="LXXXVII Corps" size=XXX badge=inf line=1142>
+    <unit des=87 toe=ger.corps.hq line=1143/>
+</unit>
+<unit name="LXXXVIII Corps" size=XXX badge=inf line=1259>
+    <unit des=88 toe=ger.corps.hq line=1260/>
+</unit>
+<unit name="Raus (XI)" size=XXX badge=inf line=867>
+    <unit des=Raus toe=ger.corps.hq line=868/>
+</unit>
+<unit name=Serbia size=XXX line=1345>
+    <unit des=Serbia toe=ger.corps.hq line=1346/>
+</unit>
+<unit name="South Greece" size=XXX line=1332/>
+<unit name=Thessalonika size=XXX line=1337/>
+<unit name=V size=XXX badge=inf line=956>
+    <unit des=5 toe=ger.corps.hq line=957/>
+</unit>
+<unit name="V SS Mountain" when=11/1/1943 colors=SS badge=mtn size=XXX line=1050>
+    <unit des="V SS" toe=ger.mtn.corps.hq when=11/1/1943 line=1051/>
+</unit>
+<unit name=VI badge=inf size=XXX line=423>
+    <unit des=6 toe=ger.corps.hq line=424/>
+</unit>
+<unit name=VII badge=inf size=XXX line=348>
+    <unit des=7 toe=ger.corps.hq line=349/>
+</unit>
+<unit name="X Corps" badge=inf size=XXX line=166>
+    <unit des=10 toe=ger.corps.hq line=167/>
+</unit>
+<unit name=XII badge=inf size=XXX line=448>
+    <unit des=12 toe=ger.corps.hq line=449/>
+</unit>
+<unit name=XIII badge=inf size=XXX line=332>
+    <unit des=13 toe=ger.corps.hq line=333/>
+</unit>
+<unit name=XIV size=XXX badge=inf line=1377>
+    <unit des=14 toe=ger.corps.hq line=1378/>
+</unit>
+<unit name="XIX Mountain" size=XXX badge=mtn line=1438>
+    <unit des=19 toe=ger.mtn.corps.hq line=1439/>
+</unit>
+<unit name="XL Panzer" size=XXX badge=arm line=673>
+    <unit des=40 toe=ger.pz.corps.hq line=674/>
+</unit>
+<unit name="XLI Panzer" size=XXX badge=arm line=541>
+    <unit des=41 toe=ger.pz.corps.hq line=542/>
+</unit>
+<unit name=XLII size=XXX badge=inf line=854>
+    <unit des=42 toe=ger.corps.hq line=855/>
+</unit>
+<unit name=XLIII badge=inf size=XXX line=413>
+    <unit des=43 toe=ger.corps.hq line=414/>
+</unit>
+<unit name=XLIV size=XXX badge=inf line=940>
+    <unit des=44 toe=ger.corps.hq line=941/>
+</unit>
+<unit name="XLIX Mountain" size=XXX badge=mtn line=950>
+    <unit des=49 toe=ger.mtn.corps.hq line=951/>
+</unit>
+<unit name="XLVI Panzer" size=XXX badge=arm line=572>
+    <unit des=46 toe=ger.pz.corps.hq line=573/>
+</unit>
+<unit name="XLVII Panzer" size=XXX badge=arm line=598>
+    <unit des=47 toe=ger.pz.corps.hq line=599/>
+</unit>
+<unit name="XLVIII Panzer" size=XXX badge=arm line=723>
+    <unit des=48 toe=ger.pz.corps.hq line=724/>
+</unit>
+<unit name=XVII size=XXX badge=inf line=784>
+    <unit des=17 toe=ger.corps.hq line=785/>
+</unit>
+<unit name="XVIII Mountain" size=XXX badge=mtn line=1432>
+    <unit des=18 toe=ger.mtn.corps.hq line=1433/>
+</unit>
+<unit name=XX size=XXX badge=inf line=501>
+    <unit des=20 toe=ger.corps.hq line=502/>
+</unit>
+<unit name="XXI Mountain" badge=mtn size=XXX when=8/12/1943 line=1364>
+    <unit des=21 toe=ger.mtn.corps.hq when=8/12/1943 line=1365/>
+</unit>
+<unit name="XXII Mountain" badge=mtn size=XXX when=8/20/1943 line=1367>
+    <unit des=22 toe=ger.mtn.corps.hq when=8/20/1943 line=1368/>
+</unit>
+<unit name=XXIII badge=inf size=XXX line=516>
+    <unit des=23 toe=ger.corps.hq line=517/>
+</unit>
+<unit name="XXIV Panzer" size=XXX badge=arm line=659>
+    <unit des=24 toe=ger.pz.corps.hq line=660/>
+</unit>
+<unit name=XXIX size=XXX badge=inf line=790>
+    <unit des=29 toe=ger.corps.hq line=791/>
+</unit>
+<unit name="XXV Corps" size=XXX badge=inf line=1132>
+    <unit des=25 toe=ger.corps.hq line=1133/>
+</unit>
+<unit name=XXVI badge=inf size=XXX line=206>
+    <unit des=26 toe=ger.corps.hq line=207/>
+</unit>
+<unit name=XXVII badge=inf size=XXX line=454>
+    <unit des=27 toe=ger.corps.hq line=455/>
+</unit>
+<unit name=XXVIII badge=inf size=XXX line=222>
+    <unit des=28 toe=ger.corps.hq line=223/>
+</unit>
+<unit name=XXX size=XXX badge=inf line=665>
+    <unit des=30 toe=ger.corps.hq line=666/>
+</unit>
+<unit name=XXXIII size=XXX badge=inf line=1401>
+    <unit des=33 toe=ger.corps.hq line=1402/>
+</unit>
+<unit name="XXXIX Panzer" size=XXX badge=arm line=461>
+    <unit des=39 toe=ger.pz.corps.hq line=462/>
+</unit>
+<unit name=XXXV badge=inf size=XXX line=373>
+    <unit des=35 toe=ger.corps.hq line=374/>
+</unit>
+<unit name=XXXVIII badge=inf size=XXX line=231>
+    <unit des=38 toe=ger.corps.hq line=232/>
+</unit>
+<unit des=Grossdeutschland toe=ger.gd.pg.div line=753/>
+<unit des="Hermann Goering" toe=ger.pz.div colors=LW line=1383/>
+<unit des=Rhodes toe=ger.sturm.div line=1362/>
+<unit des="SS Das Reich" toe=ger.ss.pg.div line=716/>
+<unit des="SS LAH" toe=ger.ss.pg.div line=712/>
+<unit des="SS Nord" toe=ger.ss.mtn.div line=1434/>
+<unit des="SS Polizei" toe=ger.ss.pg.div line=256/>
+<unit des="SS Prinz Eugen" toe=ger.ss.mtn.div line=1355/>
+<unit des="SS Totenkopf" toe=ger.ss.pg.div line=719/>
+<unit des="SS Wiking" toe=ger.ss.pg.div line=663/>
+<unit name="Gruppe von Manteuffel" size=X badge=inf line=592/>
+<unit des=Kreta toe=ger.stat.bg line=1319/>
+<unit des="SS Latvian" toe=ger.ss.inf.bg withdraw=11/1/1943 line=235/>
+<unit name="SS Reichsfuhrer" size=X badge=mech colors=SS line=1385>
+    <unit name="SS Reichsfuhrer HQ" toe=ger.mot.bg.hq line=1386/>
+</unit>
+<unit des=Auffr. toe=ger.bridge.bn line=329/>
+<unit des=II/Lehr toe=ger.flak.bn line=880/>
+<unit des=RF toe=ger.flak.bn line=1390/>
+<unit name=RF toe=ger.mot.at.bn line=1388/>
+<unit name=RF toe=ger.mot.inf.bn line=1387/>
+<unit des=RF toe=ger.stug.bn line=1389/>
+<unit des="SS Corps" toe=ger.rocket.bn line=720/>
+<unit name=1st size=XXXX badge=army line=1075>
+    <unit des=1st toe=ger.army.hq line=1076/>
+</unit>
+<unit name="1st Panzer" badge=arm size=XXXX line=657>
+    <unit des="1st Panzer" toe=ger.army.hq line=658/>
+</unit>
+<unit des=1 toe=ger.fall.div line=1274/>
+<unit des=1 toe=ger.lw.div line=233/>
+<unit des=1 toe=ger.mtn.div line=1338/>
+<unit des=1 toe=ger.pz.div line=1329/>
+<unit des=1 toe=ger.wave1.inf.div line=208/>
+<unit des=1 toe=ger.ski.bg when=12/1/1943 line=651/>
+<unit des=1 toe=ger.rail.eng.reg line=648/>
+<unit des=1 toe=ger.jgr.bn line=429/>
+<unit des=I/1 toe=ger.rocket.bn line=770/>
+<unit des=II/1 toe=ger.rocket.bn line=899/>
+<unit des=III/1 toe=ger.rocket.bn line=771/>
+<unit des="1st Lehr" toe=ger.mot.eng.bn line=729/>
+<unit des="I/1st Lehr" toe=ger.rocket.bn line=749/>
+<unit des="II/1st Lehr" toe=ger.rocket.bn colors=Wehrmacht line=701/>
+<unit des="III/1st Lehr" toe=ger.rocket.bn line=717/>
+<unit name=2nd badge=army size=XXXX line=308>
+    <unit des=2 toe=ger.army.hq line=309/>
+</unit>
+<unit name="2nd Panzer" badge=arm size=XXXX line=368>
+    <unit des="2nd Panzer" toe=ger.army.hq line=369/>
+</unit>
+<unit des=2 toe=ger.fall.div when=11/22/1943 line=1063/>
+<unit des=2 toe=ger.fall.div line=1275/>+++dup+++
+<unit des=2 toe=ger.flak.div line=131/>
+<unit des=2 toe=ger.lw.div line=408/>
+<unit des=2 toe=ger.mtn.div line=1440/>
+<unit des=2 toe=ger.pz.div line=606/>
+<unit des=2 toe=ger.rail.eng.reg line=915/>
+<unit des=2 toe=ger.rocket.reg line=611/>
+<unit des=2 toe=ger.jgr.bn line=486/>
+<unit des="2nd Lehr" toe=ger.eng.bn line=600/>
+<unit des="2nd S" toe=ger.bridge.bn line=836/>
+<unit name="3rd Panzer" badge=arm size=XXXX line=399>
+    <unit des="3rd Panzer" toe=ger.army.hq line=400/>
+</unit>
+<unit des=3 toe=ger.lw.div line=409/>
+<unit des=3 toe=ger.mtn.div line=799/>
+<unit des=3 toe=ger.pg.div line=1382/>
+<unit des=3 toe=ger.pz.div line=751/>
+<unit des=3 toe=ger.rail.eng.reg line=916/>
+<unit des=3 toe=ger.rocket.reg line=173/>
+<unit des=3 toe=ger.jgr.bn line=430/>
+<unit des=I/3 toe=ger.flak.bn line=198/>
+<unit name=4th badge=army size=XXXX line=437>
+    <unit des=4 toe=ger.army.hq line=438/>
+</unit>
+<unit name="4th Panzer" badge=arm size=XXXX line=694>
+    <unit des="4th Panzer" toe=ger.army.hq line=695/>
+</unit>
+<unit des=4 toe=ger.lw.div line=410/>
+<unit des=4 toe=ger.mtn.div line=960/>
+<unit des=4 toe=ger.pz.div line=614/>
+<unit des=4 toe=ger.flak.reg line=870/>
+<unit des=4 toe=ger.rail.eng.reg line=265/>
+<unit des=4 toe=ger.jgr.bn line=487/>
+<unit des=4 toe=ger.mgun.bn line=1452/>
+<unit des=I/4 toe=ger.flak.bn line=981/>
+<unit des=II/4 toe=ger.flak.bn line=402/>
+<unit des=5 toe=ger.jgr.div line=171/>
+<unit des=5 toe=ger.lw.div line=1008/>
+<unit des=5 toe=ger.mtn.div withdraw=12/1/1943 line=218/>
+<unit des=5 toe=ger.pz.div line=639/>
+<unit des=5 toe=ger.rail.eng.reg line=917/>
+<unit des=5 toe=ger.jgr.bn line=172/>
+<unit des=I/5 toe=ger.flak.bn line=905/>
+<unit name=6th badge=army size=XXXX line=779>
+    <unit des=6 toe=ger.army.hq line=780/>
+</unit>
+<unit des=6 toe=ger.flak.div line=146/>
+<unit des=6 toe=ger.lw.div line=411/>
+<unit des=6 toe=ger.mtn.div line=1442/>
+<unit des=6 toe=ger.pz.div line=847/>
+<unit des=6 toe=ger.wave1.inf.div line=616/>
+<unit des=6 toe=ger.flak.reg line=276/>
+<unit des=6 toe=ger.jgr.bn line=189/>
+<unit name=7th size=XXXX badge=army line=1093>
+    <unit des=7th toe=ger.army.hq line=1094/>
+</unit>
+<unit des=7 toe=ger.mtn.div line=1435/>
+<unit des=7 toe=ger.pz.div line=851/>
+<unit des=7 toe=ger.wave1.inf.div line=585/>
+<unit des=7 toe=ger.cossack.reg line=647/>
+<unit des=7 toe=ger.flak.reg line=875/>
+<unit des=7 toe=ger.bridge.bn line=893/>
+<unit des=7 toe=ger.jgr.bn line=431/>
+<unit des=I/7 toe=ger.flak.bn line=871/>
+<unit des=8 toe=ger.jgr.div line=192/>
+<unit des=8 toe=ger.pz.div line=640/>
+<unit des=8 toe=ger.flak.reg line=1164/>
+<unit des=8 toe=ger.rail.eng.reg line=1363/>
+<unit des=8 toe=ger.bridge.bn line=894/>
+<unit des=8 toe=ger.jgr.bn line=396/>
+<unit des=I/8 toe=ger.flak.bn line=1340/>
+<unit name=9th badge=army size=XXXX line=494>
+    <unit des=9 toe=ger.army.hq line=495/>
+</unit>
+<unit des=9 toe=ger.flak.div line=971/>
+<unit des=9 toe=ger.lw.div line=241/>
+<unit des=9 toe=ger.pz.div line=622/>
+<unit des=9 toe=ger.wave1.inf.div line=963/>
+<unit des="9th SS" toe=ger.pg.div colors=SS line=1247/>
+<unit des=9 toe=ger.bridge.bn line=840/>
+<unit des=9 toe=ger.jgr.bn line=593/>
+<unit des=9 toe=ger.mort.bn line=919/>
+<unit des=I/9 toe=ger.flak.bn line=1341/>
+<unit des=10 toe=ger.flak.div line=310/>
+<unit des=10 toe=ger.lw.div line=240/>
+<unit des=10 toe=ger.pg.div line=625/>
+<unit des="10th SS" toe=ger.pg.div colors=SS line=1091/>
+<unit des=10 toe=ger.flak.bg line=300/>
+<unit name="10th Panzer" size=X badge=arm line=755>
+    <unit name="39th Panzer" toe=ger.mot.reg.hq line=756/>
+</unit>
+<unit des=10 toe=ger.flak.reg line=439/>
+<unit des=10 toe=ger.jgr.bn line=594/>
+<unit des=10 toe=ger.mort.bn line=193/>
+<unit des="10th Mountain" toe=ger.rocket.bn line=1454/>
+<unit des=11 toe=ger.flak.div line=1277/>
+<unit des=11 toe=ger.lw.div line=1334/>
+<unit des=11 toe=ger.pg.div colors=SS when=9/1/1943 line=1370/>
+<unit des=11 toe=ger.pz.div line=747/>
+<unit des=11 toe=ger.wave1.inf.div line=209/>
+<unit des=11 toe=ger.bridge.bn colors=Wehrmacht line=705/>
+<unit des=11 toe=ger.flak.bn when=9/1/1943 line=1371/>
+<unit des=11 toe=ger.jgr.bn line=595/>
+<unit des=11 toe=ger.rocket.bn when=10/7/1943 line=1455/>
+<unit des=I/11 toe=ger.flak.bn line=370/>
+<unit des=II/11 toe=ger.flak.bn line=161/>
+<unit des=12 toe=ger.flak.div line=285/>
+<unit des=12 toe=ger.lw.div line=224/>
+<unit des=12 toe=ger.pz.div line=626/>
+<unit des=12 toe=ger.wave1.inf.div line=177/>
+<unit des=12 toe=ger.early.flak.bg line=1303/>
+<unit des=12 toe=ger.flak.reg line=932/>
+<unit des=II/12 toe=ger.flak.bn line=1314/>
+<unit des=13 toe=ger.flak.div line=1095/>
+<unit des=13 toe=ger.lw.div line=203/>
+<unit des=13 toe=ger.pz.div line=1005/>
+<unit des=13 toe=ger.early.flak.bg line=1426/>
+<unit des=13 toe=ger.jgr.bn line=627/>
+<unit des=13 toe=ger.rail.eng.bn line=1456/>
+<unit des=I/13 toe=ger.flak.bn line=156/>
+<unit des=14 toe=ger.inf.div.39 line=473/>
+<unit des=14 toe=ger.lw.div line=1403/>
+<unit des=14 toe=ger.pz.div line=1090/>
+<unit des=14 toe=ger.early.flak.bg line=1398/>
+<unit des=14 toe=ger.mgun.bn line=1453/>
+<unit des=I/14 toe=ger.flak.bn line=148/>
+<unit des=II/14 toe=ger.flak.bn line=440/>
+<unit name=15th size=XXXX badge=army line=1161>
+    <unit des=15th toe=ger.army.hq line=1162/>
+</unit>
+<unit des=15 toe=ger.flak.div line=869/>
+<unit des=15 toe=ger.lw.div line=793/>
+<unit des=15 toe=ger.pg.div line=1380/>
+<unit des=15 toe=ger.ss.inf.div when=11/1/1943 line=236/>
+<unit des=15 toe=ger.wave1.inf.div line=681/>
+<unit des=15 toe=ger.flak.reg line=1096/>
+<unit des=15 toe=ger.rail.eng.bn line=266/>
+<unit name=16th badge=army size=XXXX line=164>
+    <unit des=16 toe=ger.army.hq line=165/>
+</unit>
+<unit des=16 toe=ger.flak.div line=1163/>
+<unit des=16 toe=ger.pg.div line=803/>
+<unit des=16 toe=ger.pz.div when=12/1/1943 line=1065/>
+<unit des=16 toe=ger.pz.div line=1379/>+++dup+++
+<unit des=16 toe=ger.at.bn line=358/>
+<unit name=17th badge=army size=XXXX line=929>
+    <unit des=17 toe=ger.army.hq line=930/>
+</unit>
+<unit des=17 toe=ger.flak.div line=931/>
+<unit des=17 toe=ger.lw.div line=1229/>
+<unit des=17 toe=ger.pz.div line=661/>
+<unit des=17 toe=ger.wave1.inf.div line=794/>
+<unit name=18th badge=army size=XXXX line=196>
+    <unit des=18 toe=ger.army.hq line=197/>
+</unit>
+<unit des=18 toe=ger.flak.div line=275/>
+<unit des=18 toe=ger.lw.div line=1235/>
+<unit des=18 toe=ger.nas.pz.div line=547/>
+<unit des=18 toe=ger.pg.div line=267/>
+<unit des=18 toe=ger.flak.reg line=147/>
+<unit des=18 toe=ger.rocket.reg line=586/>
+<unit des=18 toe=ger.mort.bn line=628/>
+<unit des=19 toe=ger.lw.div line=1241/>
+<unit des=19 toe=ger.pz.div line=843/>
+<unit des=19 toe=ger.early.flak.bg line=1215/>
+<unit des=I/19 toe=ger.flak.bn line=898/>
+<unit name="20th Mountain" badge=mtn size=XXXX line=1424>
+    <unit des="20th Mountain" toe=ger.army.hq line=1425/>
+
+    <unit name="XXXVI Mountain" size=XXX badge=mtn hq=hq2 line=1444>
+    <unit des=36 toe=ger.mtn.corps.hq line=1445/>
+</unit>
+</unit>
+<unit des=20 toe=ger.flak.div when=10/1/1943 line=1373/>
+<unit des=20 toe=ger.pg.div line=415/>
+<unit des=20 toe=ger.pz.div line=608/>
+<unit des=20 toe=ger.bridge.bn line=889/>
+<unit des=21 toe=ger.lw.div line=187/>
+<unit des=21 toe=ger.wave1.inf.div line=253/>
+<unit name="21st Panzer" size=X badge=arm line=563/>
+<unit des=21 toe=ger.flak.reg line=286/>
+<unit des=21 toe=ger.bridge.bn colors=Wehrmacht line=707/>
+<unit des=22 toe=ger.inf.div.39 line=1320/>
+<unit des=22 toe=ger.bridge.bn line=731/>
+<unit des=I/22 toe=ger.flak.bn line=302/>
+<unit des=II/22 toe=ger.flak.bn line=1172/>
+<unit des=23 toe=ger.flak.div when=10/10/1943 line=650/>
+<unit des=23 toe=ger.pz.div line=662/>
+<unit des=23 toe=ger.wave1.inf.div line=259/>
+<unit des=23 toe=ger.bridge.bn line=765/>
+<unit des=I/23 toe=ger.flak.bn line=1323/>
+<unit des=II/23 toe=ger.flak.bn line=295/>
+<unit des=24 toe=ger.pz.div when=11/1/1943 line=1060/>
+<unit des=24 toe=ger.pz.div line=1246/>+++dup+++
+<unit des=24 toe=ger.wave1.inf.div line=254/>
+<unit des=I/24 toe=ger.flak.bn line=444/>
+<unit des=II/24 toe=ger.flak.bn line=872/>
+<unit des=25 toe=ger.pg.div line=384/>
+<unit des=25 toe=ger.pz.div line=1420/>
+<unit des=25 toe=ger.pz.div when=11/25/1943 line=1064/>+++dup+++
+<unit des=I/25 toe=ger.flak.bn line=876/>
+<unit des=II/25 toe=ger.flak.bn line=1315/>
+<unit des=26 toe=ger.pz.div line=1273/>
+<unit des=26 toe=ger.wave1.inf.div line=353/>
+<unit des=I/26 toe=ger.flak.bn line=445/>
+<unit des=II/26 toe=ger.flak.bn line=297/>
+<unit des=27 toe=ger.flak.reg line=972/>
+<unit des=28 toe=ger.jgr.div line=226/>
+<unit des=29 toe=ger.pg.div line=1381/>
+<unit des=29 toe=ger.bridge.bn line=575/>
+<unit des=I/29 toe=ger.flak.bn line=303/>
+<unit des=30 toe=ger.wave1.inf.div line=169/>
+<unit des=30 toe=ger.schnelle.bg line=1152/>
+<unit des=30 toe=ger.flak.reg line=1104/>
+<unit des=31 toe=ger.wave1.inf.div line=580/>
+<unit des=31 toe=ger.bridge.bn colors=Wehrmacht line=708/>
+<unit des=32 toe=ger.wave1.inf.div line=188/>
+<unit des=I/32 toe=ger.flak.bn line=781/>
+<unit des=33 toe=ger.bridge.bn line=321/>
+<unit des=I/33 toe=ger.flak.bn when=9/1/1943 line=1038/>
+<unit des=I/33rd toe=ger.flak.bn line=904/>
+<unit des=34 toe=ger.wave1.inf.div line=377/>
+<unit des=34 toe=ger.flak.reg line=288/>
+<unit des=34 toe=ger.bridge.bn line=322/>
+<unit des=35 toe=ger.wave1.inf.div line=482/>
+<unit des=35 toe=ger.flak.reg line=290/>
+<unit des=36 toe=ger.wave1.inf.div line=638/>
+<unit des=I/36 toe=ger.flak.bn line=304/>
+<unit des=II/36 toe=ger.flak.bn line=149/>
+<unit des=37 toe=ger.flak.reg line=1171/>
+<unit des=II/37 toe=ger.hvy.art1.bn line=211/>
+<unit des=38 toe=ger.sm.inf.div line=667/>
+<unit des=I/38 toe=ger.flak.bn line=824/>
+<unit des=II/38 toe=ger.flak.bn line=825/>
+<unit des=39 toe=ger.sm.inf.div line=863/>
+<unit des=39 toe=ger.bridge.bn line=334/>
+<unit des=II/39 toe=ger.hvy.art.bn line=434/>
+<unit des=40 toe=ger.flak.reg line=1339/>
+<unit des=II/40 toe=ger.hvy.art.bn line=807/>
+<unit des=41 toe=ger.flak.reg line=132/>
+<unit des=41 toe=ger.eng.bn line=1316/>
+<unit des=II/41 toe=ger.kan105.bn line=490/>
+<unit des=2/41 toe=ger.bridge.co colors=Wehrmacht line=706/>
+<unit des=42 toe=ger.flak.reg line=980/>
+<unit des=42 toe=ger.eng.bn line=543/>
+<unit des=I/42 toe=ger.art.bn line=620/>
+<unit des=II/42 toe=ger.hvy.art.bn line=966/>
+<unit des=43 toe=ger.flak.reg line=137/>
+<unit des=II/43 toe=ger.flak.bn line=821/>
+<unit des=II/43 toe=ger.hvy.art.bn line=354/>
+<unit des=44 toe=ger.inf.div.39 line=1243/>
+<unit des=44 toe=ger.eng.bn line=199/>
+<unit des=45 toe=ger.wave1.inf.div line=511/>
+<unit des=45 toe=ger.flak.reg line=1278/>
+<unit des=45 toe=ger.eng.bn when=8/15/1943 line=1374/>
+<unit des=46 toe=ger.wave1.inf.div line=677/>
+<unit des=46 toe=ger.eng.bn line=937/>
+<unit des=II/46 toe=ger.flak.bn line=1427/>
+<unit des=II/46 toe=ger.mot.art.bn line=808/>
+<unit des=47 toe=ger.bridge.bn line=603/>
+<unit des=47 toe=ger.eng.bn line=601/>
+<unit des=I/47 toe=ger.flak.bn line=1428/>
+<unit des=II/47 toe=ger.hvy.art.bn line=590/>
+<unit des=48 toe=ger.flak.reg line=879/>
+<unit des=48 toe=ger.mot.eng.bn line=730/>
+<unit des=I/49 toe=ger.flak.bn line=933/>
+<unit des=II/49 toe=ger.flak.bn line=305/>
+<unit des=50 toe=ger.inf.div.39 line=954/>
+<unit des=50 toe=ger.eng.bn line=655/>
+<unit des=51 toe=ger.rocket.reg line=1159/>
+<unit des=51 toe=ger.panther.bn line=757/>
+<unit des=I/51 toe=ger.flak.bn line=153/>
+<unit des=52 toe=ger.wave2.inf.div line=459/>
+<unit des=52 toe=ger.eng.bn line=883/>
+<unit des=52 toe=ger.panther.bn line=758/>
+<unit des=I/52 toe=ger.flak.bn line=298/>
+<unit des=I/52 toe=ger.rocket.bn line=909/>
+<unit des=II/52 toe=ger.hvy.art1.bn line=683/>
+<unit des=II/52 toe=ger.rocket.bn line=900/>
+<unit des=III/52 toe=ger.rocket.bn line=910/>
+<unit des=I/54 toe=ger.rocket.bn line=844/>
+<unit des=II/54 toe=ger.mot.art.bn line=897/>
+<unit des=II/54 toe=ger.rocket.bn line=845/>
+<unit des=III/54 toe=ger.rocket.bn line=848/>
+<unit des=55 toe=ger.rocket.reg colors=Wehrmacht line=714/>
+<unit des=56 toe=ger.wave2.inf.div line=378/>
+<unit des=56 toe=ger.rocket.reg line=1087/>
+<unit des=57 toe=ger.wave2.inf.div line=775/>
+<unit des=II/57 toe=ger.kan105.bn line=397/>
+<unit des=58 toe=ger.wave2.inf.div line=257/>
+<unit des=58 toe=ger.flak.reg line=1322/>
+<unit des=II/58 toe=ger.hvy.art.bn line=261/>
+<unit des=59 toe=ger.flak.reg line=1122/>
+<unit des=II/59 toe=ger.mot.art.bn line=537/>
+<unit des=II/60 toe=ger.kan105.bn line=948/>
+<unit des=2/60 toe=ger.bridge.co line=888/>
+<unit des=61 toe=ger.wave2.inf.div line=227/>
+<unit des=I/61 toe=ger.flak.bn line=820/>
+<unit des=II/61 toe=ger.hvy.art1.bn line=560/>
+<unit des=62 toe=ger.wave2.inf.div line=671/>
+<unit des=62 toe=ger.eng.bn line=446/>
+<unit des=II/62 toe=ger.kan105.bn line=817/>
+<unit des=3/62 toe=ger.bridge.co line=325/>
+<unit des=II/63 toe=ger.hvy.art.bn line=619/>
+<unit des=I/64 toe=ger.flak.bn line=150/>
+<unit des=II/64 toe=ger.flak.bn line=1077/>
+<unit des=II/64 toe=ger.mot.art.bn line=561/>
+<unit des=65 toe=ger.inf.div.39 line=1244/>
+<unit des=II/66 toe=ger.hvy.art.bn line=538/>
+<unit des=I/67 toe=ger.art.bn line=589/>
+<unit des=II/67 toe=ger.hvy.art.bn line=491/>
+<unit des=68 toe=ger.wave2.inf.div line=356/>
+<unit des=II/68 toe=ger.kan105.bn line=435/>
+<unit des=69 toe=ger.wave2.inf.div line=219/>
+<unit des=69 toe=ger.flak.reg line=1285/>
+<unit des=II/69 toe=ger.kan105.bn line=194/>
+<unit des=4/69 toe=ger.art.co line=530/>
+<unit des=70 toe=ger.eng.bn line=832/>
+<unit des=II/70 toe=ger.hvy.art1.bn line=690/>
+<unit des=71 toe=ger.flak.bn line=306/>
+<unit des=I/71 toe=ger.art.bn line=480/>
+<unit des=II/71 toe=ger.hvy.art1.bn line=818/>
+<unit des=72 toe=ger.inf.div.39 line=514/>
+<unit des=72 toe=ger.flak.bn line=1429/>
+<unit des=73 toe=ger.wave2.inf.div line=962/>
+<unit des=73 toe=ger.eng.bn line=994/>
+<unit des=73 toe=ger.flak.bn line=1324/>
+<unit des=74 toe=ger.eng.bn line=764/>
+<unit des=74 toe=ger.flak.bn line=282/>
+<unit des=75 toe=ger.wave2.inf.div line=357/>
+<unit des=75 toe=ger.flak.bn line=162/>
+<unit des=76 toe=ger.wave2.inf.div when=11/20/1943 line=1062/>
+<unit des=76 toe=ger.wave2.inf.div line=1147/>+++dup+++
+<unit des=76 toe=ger.flak.bn line=441/>
+<unit des=77 toe=ger.flak.reg line=986/>
+<unit des=77 toe=ger.flak.bn line=873/>
+<unit des=I/77 toe=ger.mot.art.bn line=908/>
+<unit des=78 toe=ger.sturm.div line=524/>
+<unit des=79 toe=ger.wave2.inf.div line=945/>
+<unit des=80 toe=ger.bridge.bn line=766/>
+<unit des=81 toe=ger.inf.div.39 line=228/>
+<unit des=82 toe=ger.inf.div.39 line=344/>
+<unit des=83 toe=ger.inf.div.39 line=641/>
+<unit des=83 toe=ger.flak.reg line=1399/>
+<unit des=83 toe=ger.flak.bn line=404/>
+<unit des=84 toe=ger.flak.bn line=313/>
+<unit des=I/84 toe=ger.kan240.bn line=691/>
+<unit des=II/84 toe=ger.kan240.bn line=247/>
+<unit des=85 toe=ger.flak.reg line=1291/>
+<unit des="85th Mountain" toe=ger.eng.bn line=519/>
+<unit des=86 toe=ger.wave2.inf.div line=555/>
+<unit des=86 toe=ger.flak.reg line=1304/>
+<unit des=86 toe=ger.flak.bn line=983/>
+<unit des=86 toe=ger.landing.bn line=938/>
+<unit des=87 toe=ger.wave2.inf.div line=427/>
+<unit des=88 toe=ger.inf.div.39 line=360/>
+<unit des=88 toe=ger.bridge.bn line=520/>
+<unit des=89 toe=ger.flak.bn line=984/>
+<unit des=91 toe=ger.flak.bn line=827/>
+<unit des=92 toe=ger.flak.bn line=157/>
+<unit des=93 toe=ger.inf.div.39 line=181/>
+<unit des=93 toe=ger.flak.bn line=283/>
+<unit des=94 toe=ger.inf.div.39 line=1148/>
+<unit des=94 toe=ger.flak.bn line=371/>
+<unit des=95 toe=ger.inf.div.39 line=465/>
+<unit des=95 toe=ger.flak.reg line=1176/>
+<unit des=96 toe=ger.inf.div.39 line=229/>
+<unit des=97 toe=ger.jgr.div line=946/>
+<unit des=98 toe=ger.inf.div.39 line=947/>
+<unit des=98 toe=ger.bridge.bn line=350/>
+<unit des=99 toe=ger.flak.reg line=823/>
+<unit des=99 toe=ger.flak.bn line=992/>
+<unit des=I/99 toe=ger.art.bn line=509/>
+<unit des=100 toe=ger.lt.inf.div line=1356/>
+<unit des=100 toe=ger.flak.reg line=1112/>
+<unit des=101 toe=ger.jgr.div line=942/>
+<unit des=101 toe=ger.flak.reg line=292/>
+<unit des=101 toe=ger.hummel.bn line=725/>
+<unit des=102 toe=ger.inf.div.39 line=578/>
+<unit des=102 toe=ger.bridge.bn line=884/>
+<unit des=103 toe=ger.hvy.pz.bn when=10/22/1943 colors=SS line=1047/>
+<unit des=103 toe=ger.rocket.bn when=10/22/1943 colors=SS line=1048/>
+<unit des=104 toe=ger.jgr.div line=1333/>
+<unit des=104 toe=ger.flak.reg when=9/25/1943 line=1042/>
+<unit des=105 toe=ger.flak.bn when=11/1/1943 colors=SS line=1052/>
+<unit des=105 colors=SS toe=ger.hvy.art1.bn when=11/1/1943 line=1058/>
+<unit des=105 colors=SS toe=ger.mcycle.bn when=11/1/1943 line=1056/>
+<unit des=105 colors=SS toe=ger.med.pz.bn when=11/1/1943 line=1054/>
+<unit des=105 colors=SS toe=ger.rocket.bn when=11/1/1943 line=1055/>
+<unit des=105 colors=SS toe=ger.stug.bn when=11/1/1943 line=1057/>
+<unit des=106 toe=ger.inf.div.39 line=896/>
+<unit des=I/106 toe=ger.hvy.art1.bn line=262/>
+<unit des=I/108 toe=ger.mot.art.bn line=727/>
+<unit des=II/109 toe=ger.mot.art.bn line=1348/>
+<unit des=III/109 toe=ger.kan210.bn line=772/>
+<unit des=IV/109 toe=ger.hvy.art.bn line=492/>
+<unit des=110 toe=ger.inf.div.39 line=389/>
+<unit des=110 toe=ger.bridge.bn line=834/>
+<unit des=111 toe=ger.inf.div.39 line=792/>
+<unit des=111 toe=ger.flak.reg line=1216/>
+<unit des=111 toe=ger.rail.eng.bn line=918/>
+<unit des=I/111 toe=ger.flak.bn line=158/>
+<unit des=112 toe=ger.inf.div.39 line=394/>
+<unit des=113 toe=ger.inf.div.39 when=7/20/1943 line=1034/>
+<unit des=113 toe=ger.inf.div.39 line=1149/>+++dup+++
+<unit des=114 toe=ger.jgr.div line=1357/>
+<unit des=117 toe=ger.jgr.div line=1330/>
+<unit des=117 toe=ger.flak.reg line=1119/>
+<unit des=118 toe=ger.jgr.div line=1358/>
+<unit des=121 toe=ger.inf.div.39 line=210/>
+<unit des=122 toe=ger.inf.div.39 line=186/>
+<unit des=123 toe=ger.inf.div.39 line=178/>
+<unit des=124 toe=ger.flak.reg line=311/>
+<unit des=124 toe=ger.mtn.art.bn line=1457/>
+<unit des=125 toe=ger.inf.div.39 line=944/>
+<unit des=125 toe=ger.flak.reg line=401/>
+<unit des=125 toe=ger.flak.bn line=856/>
+<unit des=126 toe=ger.inf.div.39 line=168/>
+<unit des=127 toe=ger.eng.bn line=828/>
+<unit des=127 toe=ger.flak.bn line=138/>
+<unit des=I/127 toe=ger.mot.art.bn line=692/>
+<unit des=129 toe=ger.inf.div.39 line=463/>
+<unit des=129 toe=ger.flak.reg line=1183/>
+<unit des=131 toe=ger.inf.div.39 line=472/>
+<unit des=131 toe=ger.flak.bn line=1335/>
+<unit des=132 toe=ger.inf.div.39 line=213/>
+<unit des=132 toe=ger.flak.reg line=1188/>
+<unit des=133 toe=ger.flak.reg line=294/>
+<unit des=134 toe=ger.inf.div.39 line=390/>
+<unit des=134 toe=ger.flak.reg line=469/>
+<unit des=136 toe=ger.flak.reg line=142/>
+<unit des=137 toe=ger.inf.div.39 line=507/>
+<unit des=137 toe=ger.flak.bn line=973/>
+<unit des=139 toe=ger.mtn.reg line=1436/>
+<unit des=139 toe=ger.rail.eng.bn line=649/>
+<unit des=II/140 toe=ger.mot.art.bn line=668/>
+<unit des=III/140 toe=ger.hvy.art1.bn line=865/>
+<unit des=141 toe=ger.res.div line=1029/>
+<unit des=I/141 toe=ger.flak.bn line=277/>
+<unit des=142 toe=ger.flak.bn line=312/>
+<unit des=143 toe=ger.res.div line=1015/>
+<unit des=143 toe=ger.cst.art.bn line=263/>
+<unit des=143 toe=ger.flak.bn line=1342/>
+<unit des=144 toe=ger.cst.art.bn line=967/>
+<unit des=145 toe=ger.cst.art.bn line=1000/>
+<unit des=147 toe=ger.res.div line=1016/>
+<unit des=147 toe=ger.cst.art.bn line=1001/>
+<unit des=147 toe=ger.flak.bn line=782/>
+<unit des=148 toe=ger.cst.art.bn line=1002/>
+<unit des=149 toe=ger.cst.art.bn line=1003/>
+<unit des=151 toe=ger.res.div line=1030/>
+<unit des=151 toe=ger.flak.reg line=155/>
+<unit des=151 toe=ger.bridge.bn line=885/>
+<unit des=152 toe=ger.res.div line=1461/>
+<unit des=152 toe=ger.flak.bn line=1113/>
+<unit des=153 toe=ger.trn.div line=999/>
+<unit des=153 toe=ger.flak.reg line=819/>
+<unit des=153 toe=ger.flak.bn line=1105/>
+<unit des=153 toe=ger.kan105.bn line=268/>
+<unit des=154 toe=ger.res.div line=1462/>
+<unit des=156 toe=ger.res.div line=1233/>
+<unit des=156 toe=ger.bridge.bn line=316/>
+<unit des=156 toe=ger.flak.bn when=12/1/1943 line=1066/>
+<unit des=157 toe=ger.res.div line=1271/>
+<unit des=158 toe=ger.res.div line=1081/>
+<unit des=160 toe=ger.res.div line=1394/>
+<unit des=161 toe=ger.inf.div.39 line=859/>
+<unit des=162 toe=ger.bridge.bn line=317/>
+<unit des=163 toe=ger.inf.div.39 line=1446/>
+<unit des=164 toe=ger.flak.reg line=152/>
+<unit des=164 toe=ger.flak.bn line=982/>
+<unit des=167 toe=ger.inf.div.39 line=748/>
+<unit des=168 toe=ger.inf.div.39 line=842/>
+<unit des=168 toe=ger.bridge.bn line=318/>
+<unit des=169 toe=ger.inf.div.39 line=1447/>
+<unit des=170 toe=ger.inf.div.39 line=245/>
+<unit des=171 toe=ger.res.div line=1239/>
+<unit des=175 toe=ger.bridge.bn line=319/>
+<unit des=177 toe=ger.stug.bn line=557/>
+<unit des=181 toe=ger.inf.div.39 line=1404/>
+<unit des=181 toe=ger.flak.bn line=974/>
+<unit des=182 toe=ger.flak.reg line=140/>
+<unit des=183 toe=ger.inf.div.39 line=484/>
+<unit des=184 toe=ger.stug.bn line=182/>
+<unit des=185 toe=ger.stug.bn line=525/>
+<unit des=189 toe=ger.stug.bn line=526/>
+<unit des=190 toe=ger.stug.bn line=488/>
+<unit des=191 toe=ger.res.div line=1234/>
+<unit des=191 toe=ger.stug.bn line=1009/>
+<unit des=193 toe=ger.flak.bn line=1114/>
+<unit des=196 toe=ger.inf.div.39 line=1421/>
+<unit des=196 toe=ger.flak.bn line=1097/>
+<unit des=197 toe=ger.inf.div.39 line=456/>
+<unit des=198 toe=ger.inf.div.39 line=682/>
+<unit des=198 toe=ger.bridge.bn line=320/>
+<unit des=199 toe=ger.inf.div.39 line=1416/>
+<unit des=201 toe=ger.sec.div line=432/>
+<unit des=201 toe=ger.stug.bn line=366/>
+<unit des=202 toe=ger.at.bn line=363/>
+<unit des=202 toe=ger.stug.bn line=361/>
+<unit des=203 toe=ger.sec.div line=642/>
+<unit des=203 toe=ger.stug.bn line=688/>
+<unit des=205 toe=ger.inf.div.39 line=416/>
+<unit des=206 toe=ger.wave3.inf.div line=425/>
+<unit des=207 toe=ger.sec.div line=269/>
+<unit des=208 toe=ger.wave3.inf.div line=382/>
+<unit des=209 toe=ger.stug.bn line=687/>
+<unit des=210 toe=ger.wave3.inf.div line=1441/>
+<unit des=210 toe=ger.stug.bn line=806/>
+<unit des=211 toe=ger.wave3.inf.div line=383/>
+<unit des=211 toe=ger.fin.pz.bn line=1448/>
+<unit des=212 toe=ger.wave3.inf.div line=214/>
+<unit des=213 toe=ger.sec.div line=922/>
+<unit des=I/213 toe=ger.art.bn line=907/>
+<unit des=II/213 toe=ger.art.bn line=646/>
+<unit des=III/213 toe=ger.art.bn line=433/>
+<unit des=214 toe=ger.wave3.inf.div line=1409/>
+<unit des=215 toe=ger.wave3.inf.div line=246/>
+<unit des=215 toe=ger.eng.bn line=351/>
+<unit des=216 toe=ger.wave3.inf.div line=522/>
+<unit des=216 toe=ger.brummbar.bn line=556/>
+<unit des=IV/216 toe=ger.art.bn line=216/>
+<unit des=217 toe=ger.wave3.inf.div line=234/>
+<unit des=218 toe=ger.wave3.inf.div line=179/>
+<unit des=221 toe=ger.sec.div line=643/>
+<unit des=221 toe=ger.eng.bn line=330/>
+<unit des=II/221 toe=ger.art.bn line=921/>
+<unit des=223 toe=ger.wave3.inf.div line=191/>
+<unit des=225 toe=ger.wave3.inf.div line=225/>
+<unit des=226 toe=ger.stug.bn line=220/>
+<unit des=227 toe=ger.wave3.inf.div line=204/>
+<unit des=228 toe=ger.stug.bn line=849/>
+<unit des=230 toe=ger.stat.div line=1417/>
+<unit des=232 toe=ger.stug.bn line=689/>
+<unit des=236 toe=ger.stug.bn line=805/>
+<unit des=237 toe=ger.stug.bn when=10/1/1943 line=1043/>
+<unit des=239 toe=ger.stug.bn when=8/22/1943 line=1035/>
+<unit des=I/241 toe=ger.flak.bn line=906/>
+<unit des=II/241 toe=ger.flak.bn line=877/>
+<unit des=243 toe=ger.stug.bn line=804/>
+<unit des=244 toe=ger.stug.bn line=550/>
+<unit des=245 toe=ger.stug.bn line=609/>
+<unit des=246 toe=ger.wave3.inf.div line=457/>
+<unit des=249 toe=ger.stug.bn line=777/>
+<unit des="250th Spanish Blue" colors=Spanish toe=ger.inf.div.39 line=249/>
+<unit des=251 toe=ger.wave4.inf.div line=508/>
+<unit des=251 toe=ger.flak.bn line=987/>
+<unit des=252 toe=ger.wave4.inf.div line=478/>
+<unit des=252 toe=ger.flak.bn line=1184/>
+<unit des=I/252 toe=ger.art.bn line=345/>
+<unit des=253 toe=ger.wave4.inf.div line=485/>
+<unit des=253 toe=ger.flak.bn line=1185/>
+<unit des=254 toe=ger.wave4.inf.div line=255/>
+<unit des=255 toe=ger.wave4.inf.div line=768/>
+<unit des=256 toe=ger.wave4.inf.div line=458/>
+<unit des=257 toe=ger.wave4.inf.div line=675/>
+<unit des=257 toe=ger.flak.bn line=975/>
+<unit des=258 toe=ger.wave4.inf.div line=579/>
+<unit des=259 toe=ger.stug.bn when=7/15/1943 line=1033/>
+<unit des=260 toe=ger.wave4.inf.div line=450/>
+<unit des=261 toe=ger.flak.bn line=1279/>
+<unit des=261 toe=ger.stug.bn when=10/1/1943 line=1044/>
+<unit des=262 toe=ger.wave4.inf.div line=375/>
+<unit des=263 toe=ger.wave4.inf.div line=420/>
+<unit des=264 toe=ger.stat.div line=1276/>
+<unit des=266 toe=ger.flak.bn line=1173/>
+<unit des=267 toe=ger.wave4.inf.div line=451/>
+<unit des=268 toe=ger.wave4.inf.div line=452/>
+<unit des=269 toe=ger.wave4.inf.div line=1410/>
+<unit des=270 toe=ger.stat.div line=1418/>
+<unit des=270 toe=ger.stug.bn line=645/>
+<unit des=274 toe=ger.stat.div line=1422/>
+<unit des=276 toe=ger.stug.bn when=10/1/1943 line=1045/>
+<unit des=277 toe=ger.stug.bn when=9/1/1943 line=1036/>
+<unit des=278 toe=ger.stug.bn when=10/22/1943 line=1049/>
+<unit des=279 toe=ger.stug.bn when=9/1/1943 line=1037/>
+<unit des=280 toe=ger.stat.div line=1411/>
+<unit des=280 toe=ger.stug.bn when=11/8/1943 line=1061/>
+<unit des=281 toe=ger.sec.div line=270/>
+<unit des=282 toe=ger.inf.div.39 line=862/>
+<unit des=284 toe=ger.flak.bn line=1198/>
+<unit des=285 toe=ger.sec.div line=271/>
+<unit des=286 toe=ger.sec.div line=644/>
+<unit des=286 toe=ger.stug.bn when=12/8/1943 line=1067/>
+<unit des=290 toe=ger.inf.div.39 line=215/>
+<unit des=291 toe=ger.inf.div.39 line=421/>
+<unit des=291 toe=ger.flak.bn line=1189/>
+<unit des=292 toe=ger.inf.div.39 line=549/>
+<unit des=293 toe=ger.inf.div.39 line=385/>
+<unit des=293 toe=ger.flak.bn line=976/>
+<unit des=294 toe=ger.inf.div.39 line=786/>
+<unit des=295 toe=ger.flak.bn line=1177/>
+<unit des=296 toe=ger.inf.div.39 line=391/>
+<unit des=297 toe=ger.inf.div.39 line=1347/>
+<unit des=297 toe=ger.bridge.bn line=890/>
+<unit des=297 toe=ger.flak.bn line=977/>
+<unit des=298 toe=ger.flak.bn line=1106/>
+<unit des=299 toe=ger.inf.div.39 line=376/>
+<unit des=300 toe=ger.stug.bn when=12/28/1943 line=1068/>
+<unit des=302 toe=ger.inf.div.39 line=787/>
+<unit des=304 toe=ger.inf.div.39 line=800/>
+<unit des=305 toe=ger.inf.div.39 line=1245/>
+<unit des=306 toe=ger.inf.div.39 line=788/>
+<unit des=308 toe=ger.flak.bn line=1283/>
+<unit des=319 toe=ger.inf.div.39 line=1138/>
+<unit des=320 toe=ger.inf.div.39 line=903/>
+<unit des=321 toe=ger.inf.div.39 line=474/>
+<unit des=321 toe=ger.flak.bn line=1115/>
+<unit des=326 toe=ger.inf.div.39 line=1253/>
+<unit des=327 toe=ger.inf.div.39 line=337/>
+<unit des=328 toe=ger.inf.div.39 line=685/>
+<unit des=329 toe=ger.inf.div.39 line=170/>
+<unit des=330 toe=ger.inf.div.39 line=426/>
+<unit des=331 toe=ger.inf.div.39 line=180/>
+<unit des=332 toe=ger.inf.div.39 line=769/>
+<unit des=333 toe=ger.inf.div.39 line=676/>
+<unit des=334 toe=ger.inf.div.39 line=1089/>
+<unit des=335 toe=ger.inf.div.39 line=801/>
+<unit des=336 toe=ger.inf.div.39 line=795/>
+<unit des=337 toe=ger.inf.div.39 line=464/>
+<unit des=339 toe=ger.inf.div.39 line=392/>
+<unit des=339 toe=ger.flak.bn line=1116/>
+<unit des=340 toe=ger.inf.div.39 line=340/>
+<unit des=342 toe=ger.inf.div.39 line=479/>
+<unit des=343 toe=ger.stat.div line=1144/>
+<unit des=343 toe=ger.flak.bn line=1305/>
+<unit des=344 toe=ger.stat.div line=1086/>
+<unit des=344 toe=ger.flak.bn line=1123/>
+<unit des=345 toe=ger.flak.bn line=1199/>
+<unit des=346 toe=ger.stat.div line=1145/>
+<unit des=346 toe=ger.flak.bn line=1292/>
+<unit des=347 toe=ger.stat.div line=1261/>
+<unit des=347 toe=ger.flak.bn line=1280/>
+<unit des=348 toe=ger.stat.div line=1227/>
+<unit des=353 toe=ger.flak.bn line=1281/>
+<unit des=356 toe=ger.inf.div.39 line=1254/>
+<unit des=356 toe=ger.flak.bn line=1299/>
+<unit des=365 toe=ger.flak.bn line=1286/>
+<unit des="369th (Croat)" toe=ger.sm.inf.div line=1359/>
+<unit des=370 toe=ger.inf.div.39 line=952/>
+<unit des=371 toe=ger.inf.div.39 line=1150/>
+<unit des="373rd (Croat)" toe=ger.sm.inf.div line=1360/>
+<unit des=375 toe=ger.flak.bn line=934/>
+<unit des=376 toe=ger.inf.div.39 line=1264/>
+<unit des=383 toe=ger.inf.div.39 line=523/>
+<unit des=384 toe=ger.inf.div.39 line=1134/>
+<unit des=387 toe=ger.inf.div.39 line=670/>
+<unit des=389 toe=ger.inf.div.39 line=1151/>
+<unit des=391 toe=ger.flak.bn line=1300/>
+<unit des=393 toe=ger.stug.co line=911/>
+<unit des=401 toe=ger.res.div line=1460/>
+<unit des=402 toe=ger.flak.bn line=1174/>
+<unit des=2/407 toe=ger.bridge.co line=886/>
+<unit des=2/409 toe=ger.bridge.co line=544/>
+<unit des=2/410 toe=ger.bridge.co line=887/>
+<unit des=2/411 toe=ger.bridge.co line=835/>
+<unit des=2/413 toe=ger.bridge.co line=696/>
+<unit des=415 toe=ger.flak.bn line=1186/>
+<unit des=417 toe=ger.flak.bn line=1205/>
+<unit des=2/420 toe=ger.bridge.co line=602/>
+<unit des=422 toe=ger.mot.art.bn line=531/>
+<unit des=425 toe=ger.art.bn line=552/>
+<unit des=426 toe=ger.art.bn line=532/>
+<unit des=427 toe=ger.art.bn line=558/>
+<unit des=428 toe=ger.flak.bn line=1217/>
+<unit des=430 toe=ger.mot.art.bn line=582/>
+<unit des=1/430 toe=ger.bridge.co line=496/>
+<unit des=431 toe=ger.flak.reg line=1197/>
+<unit des=433 toe=ger.art.bn line=588/>
+<unit des=441 toe=ger.flak.bn line=1098/>
+<unit des=II/441 toe=ger.flak.bn line=278/>
+<unit des=442 toe=ger.bridge.bn line=323/>
+<unit des=443 toe=ger.eng.bn line=574/>
+<unit des=444 toe=ger.sec.div line=923/>
+<unit des=454 toe=ger.sec.div line=924/>
+<unit des=468 toe=ger.flak.bn line=1287/>
+<unit des=496 toe=ger.flak.bn line=1124/>
+<unit des=497 toe=ger.flak.bn line=1293/>
+<unit des=503 toe=ger.hvy.pz.bn line=852/>
+<unit des=505 toe=ger.bike.bn line=1153/>
+<unit des=505 toe=ger.flak.bn line=978/>
+<unit des=505 toe=ger.hvy.pz.bn line=565/>
+<unit des=1/505 toe=ger.bridge.co line=833/>
+<unit des=507 toe=ger.bike.bn line=1154/>
+<unit des=512 toe=ger.eng.bn line=503/>
+<unit des=513 toe=ger.bike.bn line=1155/>
+<unit des=517 toe=ger.bike.bn line=1156/>
+<unit des=517 toe=ger.flak.bn line=144/>
+<unit des=518 toe=ger.bike.bn line=1157/>
+<unit des=534 toe=ger.bridge.bn line=324/>
+<unit des=535 toe=ger.bridge.bn line=497/>
+<unit des=535 toe=ger.flak.bn line=1117/>
+<unit des=538 toe=ger.flak.bn line=1125/>
+<unit des=541 toe=ger.flak.bn line=988/>
+<unit des=559 toe=ger.at.bn line=364/>
+<unit des=559 toe=ger.flak.bn line=1178/>
+<unit des=560 toe=ger.nas.bn line=864/>
+<unit des=573 toe=ger.bridge.bn colors=Wehrmacht line=709/>
+<unit des=591 toe=ger.flak.bn line=1165/>
+<unit des=592 toe=ger.flak.bn line=1294/>
+<unit des=593 toe=ger.flak.bn line=1126/>
+<unit des=594 toe=ger.flak.bn line=1179/>
+<unit des=595 toe=ger.flak.bn line=1306/>
+<unit des=596 toe=ger.flak.bn line=1099/>
+<unit des=597 toe=ger.flak.bn line=1288/>
+<unit des=600 toe=ger.stug.bn when=10/1/1943 line=1046/>
+<unit des=601 toe=ger.eng.bn line=829/>
+<unit des=602 toe=ger.bridge.bn line=837/>
+<unit des=603 toe=ger.bridge.bn line=812/>
+<unit des=604 toe=ger.hvy.art.bn line=559/>
+<unit des=606 toe=ger.bridge.bn line=545/>
+<unit des=609 toe=ger.bridge.bn line=732/>
+<unit des=610 toe=ger.bridge.bn line=891/>
+<unit des=611 toe=ger.hvy.art.bn line=583/>
+<unit des=614 toe=ger.flak.bn line=1180/>
+<unit des=616 toe=ger.art.bn line=553/>
+<unit des=616 toe=ger.at.bn line=365/>
+<unit des=616 toe=ger.flak.bn line=728/>
+<unit des="620th Mountain" toe=ger.eng.bn line=857/>
+<unit des=1/620 toe=ger.150k18.co line=618/>
+<unit des=2/620 toe=ger.150k18.co line=551/>
+<unit des=3/620 toe=ger.150k18.co line=587/>
+<unit des=625 toe=ger.fh150.co line=341/>
+<unit des=626 toe=ger.bridge.bn line=505/>
+<unit des=627 toe=ger.mot.eng.bn colors=Wehrmacht line=703/>
+<unit des=1/637 toe=ger.kan210.co line=612/>
+<unit des=2/637 toe=ger.kan210.co line=610/>
+<unit des=3/637 toe=ger.kan210.co line=581/>
+<unit des=639 toe=ger.bridge.bn line=733/>
+<unit des=640 toe=ger.bridge.bn line=734/>
+<unit des=641 toe=ger.bridge.bn line=735/>
+<unit des=642 toe=ger.bridge.bn line=736/>
+<unit des=643 toe=ger.bridge.bn line=737/>
+<unit des=644 toe=ger.bridge.bn line=738/>
+<unit des=645 toe=ger.bridge.bn line=739/>
+<unit des=645 toe=ger.flak.bn line=133/>
+<unit des=646 toe=ger.bridge.bn line=740/>
+<unit des=647 toe=ger.bridge.bn line=741/>
+<unit des=648 toe=ger.bridge.bn line=742/>
+<unit des=649 toe=ger.bridge.bn line=743/>
+<unit des=649 toe=ger.flak.bn line=1166/>
+<unit des=651 toe=ger.eng.bn line=830/>
+<unit des=653 toe=ger.flak.reg line=1298/>
+<unit des=653 toe=ger.ele.bn line=568/>
+<unit des=653 toe=ger.flak.bn line=1107/>
+<unit des=1/653 toe=ger.fh150.co line=527/>
+<unit des=2/653 toe=ger.fh150.co line=528/>
+<unit des=654 toe=ger.ele.bn line=569/>
+<unit des=654 toe=ger.eng.bn line=498/>
+<unit des=656 toe=ger.flak.reg line=1204/>
+<unit name="656th Schwere Panzer Jaeger" size="I I I" badge=hvy.arm.at line=567/>
+<unit des=660 toe=ger.bridge.bn line=326/>
+<unit des=664 toe=ger.bridge.bn line=327/>
+<unit des=666 toe=ger.bridge.bn line=892/>
+<unit des=666 toe=ger.mot.eng.bn colors=Wehrmacht line=704/>
+<unit des=667 toe=ger.flak.bn line=1218/>
+<unit des=667 toe=ger.stug.bn line=489/>
+<unit des=668 toe=ger.flak.bn line=1167/>
+<unit des=671 toe=ger.bridge.bn line=697/>
+<unit des=671 toe=ger.flak.bn line=1190/>
+<unit des=672 toe=ger.bridge.bn line=328/>
+<unit des=674 toe=ger.eng.bn line=831/>
+<unit des=676 toe=ger.bridge.bn line=744/>
+<unit des=677 toe=ger.flak.bn line=1191/>
+<unit des=680 toe=ger.flak.bn line=1200/>
+<unit des=691 toe=ger.flak.bn line=1181/>
+<unit des=694 toe=ger.flak.bn line=1206/>
+<unit des=702 toe=ger.stat.div line=1405/>
+<unit des=702 toe=ger.flak.bn line=989/>
+<unit des=707 toe=ger.stat.div line=395/>
+<unit des=708 toe=ger.stat.div line=1082/>
+<unit des=709 toe=ger.stat.div line=1139/>
+<unit des=709 toe=ger.art.bn line=533/>
+<unit des=710 toe=ger.stat.div line=1412/>
+<unit des=711 toe=ger.stat.div line=1228/>
+<unit des=712 toe=ger.stat.div line=1240/>
+<unit des=715 toe=ger.stat.div line=1255/>
+<unit des=716 toe=ger.stat.div line=1140/>
+<unit des=716 toe=ger.flak.bn line=1207/>
+<unit des=719 toe=ger.stat.div line=1262/>
+<unit des=719 toe=ger.flak.bn line=134/>
+<unit des=730 toe=ger.flak.bn line=1192/>
+<unit des=731 toe=ger.flak.bn line=1295/>
+<unit des=3/731 toe=ger.fh150.co line=773/>
+<unit des=732 toe=ger.flak.bn line=1208/>
+<unit des=739 toe=ger.flak.bn line=990/>
+<unit des=741 toe=ger.flak.bn line=279/>
+<unit des=741 toe=ger.stug.co line=1450/>
+<unit des=742 toe=ger.eng.bn line=335/>
+<unit des=742 toe=ger.stug.co line=1451/>
+<unit des=744 toe=ger.flak.bn line=1127/>
+<unit des=746 toe=ger.eng.bn line=518/>
+<unit des=750 toe=ger.eng.bn line=504/>
+<unit des=751 toe=ger.eng.bn line=499/>
+<unit des=752 toe=ger.bridge.bn line=576/>
+<unit des=752 toe=ger.flak.bn line=1100/>
+<unit des=757 toe=ger.flak.bn line=1201/>
+<unit des=764 toe=ger.flak.bn line=1219/>
+<unit des=765 toe=ger.flak.bn line=1193/>
+<unit des=773 toe=ger.flak.bn line=1209/>
+<unit des=II/800 toe=ger.hvy.art.bn line=860/>
+<unit des=805 toe=ger.flak.bn line=1101/>
+<unit des=1/817 toe=ger.kan170.co line=529/>
+<unit des=III/818 toe=ger.art.bn colors=Wehrmacht line=702/>
+<unit des=831 toe=ger.flak.bn line=1168/>
+<unit des=833 toe=ger.flak.bn line=135/>
+<unit des=835 toe=ger.flak.bn line=1108/>
+<unit des=840 toe=ger.bridge.bn colors=Wehrmacht line=710/>
+<unit des=841 toe=ger.bridge.bn line=745/>
+<unit des=841 toe=ger.flak.bn line=280/>
+<unit des=842 toe=ger.bridge.bn line=838/>
+<unit des=842 toe=ger.hvy.art.bn line=726/>
+<unit des=843 toe=ger.bridge.bn line=839/>
+<unit des=845 toe=ger.bridge.bn line=604/>
+<unit des=845 toe=ger.flak.bn line=1220/>
+<unit des=847 toe=ger.flak.bn line=1169/>
+<unit des=848 toe=ger.hvy.art.bn line=534/>
+<unit des=851 toe=ger.art.bn line=535/>
+<unit des=855 toe=ger.art.bn line=338/>
+<unit des=857 toe=ger.hvy.art.bn line=816/>
+<unit des=859 toe=ger.flak.bn line=1128/>
+<unit des=859 toe=ger.hvy.art.bn line=536/>
+<unit des=860 toe=ger.mot.art.bn line=512/>
+<unit des=861 toe=ger.art.bn colors=Wehrmacht line=713/>
+<unit des=873 toe=ger.flak.bn line=1102/>
+<unit des=875 toe=ger.flak.bn line=1296/>
+<unit des=880 toe=ger.flak.bn line=1210/>
+<unit des=904 toe=ger.stug.bn line=617/>
+<unit des=905 toe=ger.stug.bn line=901/>
+<unit des=909 toe=ger.stug.bn line=564/>
+<unit des=911 toe=ger.stug.bn line=760/>
+<unit des=912 toe=ger.stug.bn line=260/>
+<unit des=923 toe=ger.flak.bn line=1282/>
+<unit des=931 toe=ger.flak.bn line=1109/>
+<unit des=956 toe=ger.flak.bn line=1202/>
+<unit des=957 toe=ger.flak.bn line=1211/>
+<unit des=958 toe=ger.flak.bn line=1212/>
+<unit des=959 toe=ger.flak.bn line=1221/>
+<unit des=978 toe=ger.flak.bn line=1194/>
+<unit des=981 toe=ger.flak.bn line=1289/>
+<unit des=983 toe=ger.flak.bn line=1301/>
+<unit des=993 toe=ger.flak.bn line=1195/>
+<unit des=996 toe=ger.flak.bn line=1110/>
+<unit des=997 toe=ger.flak.bn line=1129/>
+<unit des=999 toe=ger.flak.bn line=1307/>
+</root>

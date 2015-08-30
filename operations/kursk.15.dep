@@ -1,0 +1,2249 @@
+<deployment map='../maps/russia15.xmp' situation='kursk.sit'>
+    <combatant name='Soviet Union' >
+        <at ref=72nx x=117 y=13 mode=defend />
+        <at ref=10gr x=117 y=16 mode=defend />
+        <at ref=14r x=118 y=16 mode=defend />
+        <at ref=41rkr x=119 y=16 mode=rest />
+        <at ref=31sx x=115 y=17 mode=defend />
+        <at ref=14army.hq x=121 y=18 mode=command />
+        <at ref=104r x=111 y=32 mode=defend />
+        <at ref=429tb x=113 y=32 mode=rest />
+        <at ref=53rkr x=113 y=32 mode=rest />
+        <at ref=19army.hq x=118 y=32 mode=command />
+        <at ref=122r x=111 y=33 mode=defend />
+        <at ref=377tb x=112 y=33 mode=rest />
+        <at ref=77nx x=111 y=34 mode=defend />
+        <at ref=32sx x=116 y=40 mode=defend />
+        <at ref=374tb x=119 y=40 mode=rest />
+        <at ref=27r x=117 y=41 mode=defend />
+        <at ref=85nx x=115 y=44 mode=defend />
+        <at ref=45r x=113 y=45 mode=defend />
+        <at ref=61nx x=114 y=45 mode=defend />
+        <at ref=205r x=113 y=46 mode=defend />
+        <at ref=375tb x=114 y=46 mode=rest />
+        <at ref=31rk.hq x=115 y=46 mode=command />
+        <at ref=52rkr x=117 y=46 mode=rest />
+        <at ref=565mar x=116 y=47 mode=rest />
+        <at ref=26army.hq x=129 y=48 mode=command />
+        <at ref=Karelian.front.hq x=129 y=51 mode=command />
+        <at ref=25r x=155 y=51 mode=defend />
+        <at ref=Archangelsk.dis.hq x=156 y=51 mode=command />
+        <at ref=261mair x=125 y=52 mode=defend />
+        <at ref=7air.army.hq x=128 y=53 mode=command />
+        <at ref=54r x=121 y=54 mode=defend />
+        <at ref=258mair x=126 y=54 mode=defend />
+        <at ref=260mair x=127 y=54 mode=defend />
+        <at ref=152fairr x=124 y=55 mode=defend />
+        <at ref=195fairr x=127 y=56 mode=defend />
+        <at ref=32army.hq x=128 y=58 mode=command />
+        <at ref=33sx x=126 y=59 mode=defend />
+        <at ref=80nx x=127 y=60 mode=defend />
+        <at ref=63rkr x=128 y=60 mode=rest />
+        <at ref=289r x=128 y=61 mode=defend />
+        <at ref=65nx x=130 y=62 mode=defend />
+        <at ref=367r x=131 y=63 mode=defend />
+        <at ref=376tb x=132 y=64 mode=rest />
+        <at ref=313r x=134 y=65 mode=defend />
+        <at ref=368r x=131 y=77 mode=defend />
+        <at ref=272r x=133 y=77 mode=defend />
+        <at ref=162fa x=127 y=78 mode=defend />
+        <at ref=114r x=129 y=78 mode=defend />
+        <at ref=4rk.hq x=133 y=78 mode=command />
+        <at ref=69nx x=134 y=78 mode=defend />
+        <at ref=21r x=126 y=79 mode=defend />
+        <at ref=46rkr x=129 y=79 mode=rest />
+        <at ref=431tb x=129 y=79 mode=rest />
+        <at ref=70nx x=125 y=80 mode=defend />
+        <at ref=7army.hq x=127 y=80 mode=command />
+        <at ref=64rkr x=128 y=80 mode=rest />
+        <at ref=67r x=123 y=81 mode=defend />
+        <at ref=363tb x=125 y=81 mode=rest />
+        <at ref=3nx x=122 y=82 mode=defend />
+        <at ref=10r x=109 y=83 mode=defend />
+        <at ref=142r x=110 y=83 mode=defend />
+        <at ref=17fa x=111 y=83 mode=defend />
+        <at ref=92r x=107 y=84 mode=defend />
+        <at ref=22fa x=107 y=84 mode=defend />
+        <at ref=201r x=108 y=84 mode=defend />
+        <at ref=23army.hq x=109 y=84 mode=command />
+        <at ref=276bair x=109 y=84 mode=rest />
+        <at ref=240fair x=109 y=84 mode=rest />
+        <at ref=376r x=110 y=84 mode=rest />
+        <at ref=2shock.hq x=111 y=84 mode=command />
+        <at ref=86r x=111 y=84 mode=rest />
+        <at ref=73nx x=111 y=84 mode=rest />
+        <at ref=16fa x=111 y=84 mode=rest />
+        <at ref=30grk x=111 y=84 mode=rest />
+        <at ref=124r x=112 y=84 mode=rest />
+        <at ref=268r x=112 y=84 mode=rest />
+        <at ref=48r x=103 y=85 mode=defend />
+        <at ref=71nx x=103 y=85 mode=defend />
+        <at ref=168r x=105 y=85 mode=defend />
+        <at ref=48nx x=105 y=85 mode=defend />
+        <at ref=Leningrad.front.hq x=108 y=85 mode=command />
+        <at ref=42army.hq x=108 y=85 mode=command />
+        <at ref=6nr x=108 y=85 mode=defend />
+        <at ref=130mgb x=108 y=85 mode=rest />
+        <at ref=131mgb x=108 y=85 mode=rest />
+        <at ref=1rrx x=108 y=85 mode=rest />
+        <at ref=13air.army.hq x=108 y=85 mode=command />
+        <at ref=55army.hq x=109 y=85 mode=command />
+        <at ref=46r x=109 y=85 mode=rest />
+        <at ref=28a x=109 y=85 mode=rest />
+        <at ref=124mgb x=109 y=85 mode=rest />
+        <at ref=129mgb x=109 y=85 mode=rest />
+        <at ref=222tx x=109 y=85 mode=rest />
+        <at ref=46gtr x=109 y=85 mode=rest />
+        <at ref=260tr x=109 y=85 mode=rest />
+        <at ref=261tr x=109 y=85 mode=rest />
+        <at ref=5rkx x=109 y=85 mode=rest />
+        <at ref=38rkr x=109 y=85 mode=rest />
+        <at ref=318rkr x=109 y=85 mode=rest />
+        <at ref=123rx x=110 y=85 mode=rest />
+        <at ref=67army.hq x=110 y=85 mode=command />
+        <at ref=132mgb x=110 y=85 mode=rest />
+        <at ref=136mgb x=110 y=85 mode=rest />
+        <at ref=3acb x=110 y=85 mode=rest />
+        <at ref=6rkx x=110 y=85 mode=rest />
+        <at ref=277aair x=110 y=85 mode=rest />
+        <at ref=275fair x=110 y=85 mode=rest />
+        <at ref=55rx x=111 y=85 mode=defend />
+        <at ref=90r x=111 y=85 mode=defend />
+        <at ref=58rx x=119 y=85 mode=rest />
+        <at ref=98r x=104 y=86 mode=defend />
+        <at ref=50rx x=104 y=86 mode=defend />
+        <at ref=cog.hq x=104 y=86 mode=command />
+        <at ref=56r x=108 y=86 mode=defend />
+        <at ref=85r x=108 y=86 mode=defend />
+        <at ref=109r x=108 y=86 mode=defend />
+        <at ref=125r x=108 y=86 mode=defend />
+        <at ref=189r x=108 y=86 mode=defend />
+        <at ref=18a x=108 y=86 mode=defend />
+        <at ref=79fa x=108 y=86 mode=defend />
+        <at ref=196r x=109 y=86 mode=defend />
+        <at ref=14fa x=109 y=86 mode=defend />
+        <at ref=13r x=110 y=86 mode=defend />
+        <at ref=123mgb x=110 y=86 mode=defend />
+        <at ref=43r x=112 y=86 mode=defend />
+        <at ref=123r x=112 y=86 mode=defend />
+        <at ref=43rk x=113 y=86 mode=defend />
+        <at ref=120r x=113 y=86 mode=defend />
+        <at ref=8army.hq x=114 y=86 mode=command />
+        <at ref=382r x=114 y=86 mode=rest />
+        <at ref=364r x=115 y=86 mode=rest />
+        <at ref=2a x=115 y=86 mode=rest />
+        <at ref=1rx x=115 y=86 mode=rest />
+        <at ref=286r x=117 y=86 mode=rest />
+        <at ref=22rx x=117 y=86 mode=rest />
+        <at ref=6rk.hq x=119 y=86 mode=command />
+        <at ref=72r x=110 y=87 mode=defend />
+        <at ref=131r x=110 y=87 mode=defend />
+        <at ref=224r x=110 y=87 mode=defend />
+        <at ref=18r x=114 y=87 mode=defend />
+        <at ref=265r x=114 y=87 mode=defend />
+        <at ref=372r x=114 y=87 mode=defend />
+        <at ref=379r x=114 y=87 mode=defend />
+        <at ref=54army.hq x=115 y=87 mode=command />
+        <at ref=374r x=116 y=87 mode=rest />
+        <at ref=165r x=118 y=87 mode=rest />
+        <at ref=501tb x=122 y=87 mode=rest />
+        <at ref=177r x=114 y=88 mode=defend />
+        <at ref=80r x=115 y=88 mode=defend />
+        <at ref=285r x=115 y=88 mode=defend />
+        <at ref=115r x=116 y=88 mode=defend />
+        <at ref=14rx x=116 y=88 mode=defend />
+        <at ref=53rx x=117 y=88 mode=defend />
+        <at ref=5mk x=125 y=88 mode=rest />
+        <at ref=198r x=114 y=89 mode=defend />
+        <at ref=281r x=114 y=89 mode=defend />
+        <at ref=311r x=114 y=89 mode=defend />
+        <at ref=44r x=117 y=89 mode=defend />
+        <at ref=24rx x=118 y=89 mode=rest />
+        <at ref=4army.hq x=119 y=89 mode=command />
+        <at ref=288r x=116 y=90 mode=defend />
+        <at ref=30max x=120 y=90 mode=rest />
+        <at ref=507tb x=123 y=91 mode=rest />
+        <at ref=191r x=116 y=92 mode=defend />
+        <at ref=33gtr x=124 y=92 mode=rest />
+        <at ref=65r x=115 y=93 mode=defend />
+        <at ref=377r x=116 y=93 mode=defend />
+        <at ref=29tx x=117 y=93 mode=rest />
+        <at ref=256r x=118 y=93 mode=rest />
+        <at ref=122tx x=119 y=93 mode=rest />
+        <at ref=317hb x=119 y=93 mode=rest />
+        <at ref=7rkx x=119 y=93 mode=rest />
+        <at ref=7rk x=115 y=94 mode=defend />
+        <at ref=59army.hq x=116 y=94 mode=command />
+        <at ref=239r x=118 y=94 mode=rest />
+        <at ref=378r x=119 y=94 mode=rest />
+        <at ref=845fairr x=120 y=94 mode=rest />
+        <at ref=280bair x=124 y=94 mode=rest />
+        <at ref=2r x=114 y=95 mode=defend />
+        <at ref=2rrx x=120 y=95 mode=rest />
+        <at ref=Volkhov.front.hq x=121 y=95 mode=command />
+        <at ref=2fa x=114 y=96 mode=defend />
+        <at ref=310r x=115 y=96 mode=defend />
+        <at ref=150fa x=115 y=96 mode=defend />
+        <at ref=7gtx x=116 y=96 mode=rest />
+        <at ref=10rkx x=116 y=96 mode=rest />
+        <at ref=16tx x=117 y=97 mode=rest />
+        <at ref=12rkx x=118 y=97 mode=rest />
+        <at ref=1433sur x=122 y=97 mode=rest />
+        <at ref=14air.army.hq x=123 y=97 mode=command />
+        <at ref=281aair x=125 y=97 mode=rest />
+        <at ref=151rx x=114 y=99 mode=defend />
+        <at ref=3gaair x=121 y=99 mode=rest />
+        <at ref=182r x=114 y=100 mode=defend />
+        <at ref=370r x=114 y=100 mode=defend />
+        <at ref=127rx x=114 y=100 mode=defend />
+        <at ref=171r x=116 y=100 mode=rest />
+        <at ref=26a x=116 y=100 mode=rest />
+        <at ref=34army.hq x=119 y=100 mode=command />
+        <at ref=6air.army.hq x=120 y=100 mode=command />
+        <at ref=3rrx x=123 y=100 mode=rest />
+        <at ref=37r x=114 y=101 mode=defend />
+        <at ref=144rx x=115 y=101 mode=rest />
+        <at ref=5gfair x=116 y=101 mode=rest />
+        <at ref=12grk x=120 y=101 mode=rest />
+        <at ref=242nair x=126 y=101 mode=rest />
+        <at ref=245r x=114 y=102 mode=defend />
+        <at ref=27a x=117 y=102 mode=rest />
+        <at ref=Northwestern.front.hq x=119 y=102 mode=command />
+        <at ref=43gr x=122 y=102 mode=rest />
+        <at ref=484atr x=157 y=102 mode=rest />
+        <at ref=327rkr x=157 y=102 mode=rest />
+        <at ref=23gr x=113 y=103 mode=defend />
+        <at ref=282r x=114 y=103 mode=defend />
+        <at ref=391r x=114 y=103 mode=defend />
+        <at ref=26r x=120 y=103 mode=rest />
+        <at ref=33rx x=113 y=104 mode=defend />
+        <at ref=188r x=114 y=104 mode=rest />
+        <at ref=1shock.hq x=117 y=104 mode=command />
+        <at ref=14grk x=118 y=104 mode=rest />
+        <at ref=58bairr x=122 y=104 mode=rest />
+        <at ref=294r x=131 y=105 mode=rest />
+        <at ref=138r x=133 y=105 mode=rest />
+        <at ref=136r x=134 y=105 mode=rest />
+        <at ref=54rx x=113 y=106 mode=defend />
+        <at ref=8gr x=114 y=106 mode=rest />
+        <at ref=93r x=131 y=106 mode=rest />
+        <at ref=254r x=133 y=106 mode=rest />
+        <at ref=373r x=134 y=106 mode=rest />
+        <at ref=44rk x=112 y=107 mode=defend />
+        <at ref=52army.hq x=132 y=107 mode=command />
+        <at ref=253r x=134 y=107 mode=rest />
+        <at ref=33r x=111 y=108 mode=defend />
+        <at ref=22army.hq x=113 y=108 mode=command />
+        <at ref=23rx x=109 y=109 mode=defend />
+        <at ref=117r x=110 y=109 mode=defend />
+        <at ref=5grk x=113 y=109 mode=rest />
+        <at ref=28r x=109 y=110 mode=defend />
+        <at ref=100rx x=109 y=110 mode=defend />
+        <at ref=46mechx x=114 y=110 mode=rest />
+        <at ref=31rx x=109 y=111 mode=defend />
+        <at ref=227aair x=143 y=111 mode=rest />
+        <at ref=999sur x=145 y=111 mode=rest />
+        <at ref=92mcb x=151 y=111 mode=rest />
+        <at ref=1511atr x=151 y=111 mode=rest />
+        <at ref=357r x=109 y=112 mode=defend />
+        <at ref=381r x=110 y=112 mode=defend />
+        <at ref=3shock.hq x=112 y=112 mode=command />
+        <at ref=47mechx x=113 y=112 mode=rest />
+        <at ref=8mk x=141 y=112 mode=rest />
+        <at ref=53tr x=144 y=112 mode=rest />
+        <at ref=516tb x=146 y=112 mode=rest />
+        <at ref=517tb x=147 y=112 mode=rest />
+        <at ref=90mcb x=148 y=112 mode=rest />
+        <at ref=19atx x=148 y=112 mode=rest />
+        <at ref=41gtx x=179 y=112 mode=rest />
+        <at ref=52smgb x=179 y=112 mode=rest />
+        <at ref=51smgb x=179 y=112 mode=rest />
+        <at ref=50smgb x=179 y=112 mode=rest />
+        <at ref=334r x=109 y=113 mode=defend />
+        <at ref=21gr x=110 y=113 mode=rest />
+        <at ref=211aair x=121 y=113 mode=rest />
+        <at ref=4rrx x=124 y=113 mode=rest />
+        <at ref=9gpx x=142 y=113 mode=rest />
+        <at ref=13gpx x=142 y=113 mode=rest />
+        <at ref=14gpx x=142 y=113 mode=rest />
+        <at ref=756atb x=143 y=113 mode=rest />
+        <at ref=565tb x=144 y=113 mode=rest />
+        <at ref=20atx x=144 y=113 mode=rest />
+        <at ref=198tr x=145 y=113 mode=rest />
+        <at ref=91mcb x=145 y=113 mode=rest />
+        <at ref=116ar x=145 y=113 mode=rest />
+        <at ref=62tb x=146 y=113 mode=rest />
+        <at ref=1gtr x=147 y=113 mode=rest />
+        <at ref=511tb x=148 y=113 mode=rest />
+        <at ref=512tb x=148 y=113 mode=rest />
+        <at ref=519tb x=148 y=113 mode=rest />
+        <at ref=510tb x=152 y=113 mode=rest />
+        <at ref=513tb x=152 y=113 mode=rest />
+        <at ref=1508atr x=152 y=113 mode=rest />
+        <at ref=358r x=109 y=114 mode=defend />
+        <at ref=8rk x=116 y=114 mode=rest />
+        <at ref=279bairr x=120 y=114 mode=rest />
+        <at ref=6gaairr x=123 y=114 mode=rest />
+        <at ref=154r x=128 y=114 mode=rest />
+        <at ref=8gpx x=139 y=114 mode=rest />
+        <at ref=15gpx x=139 y=114 mode=rest />
+        <at ref=322fair x=142 y=114 mode=rest />
+        <at ref=34gtx x=144 y=114 mode=rest />
+        <at ref=42tr x=144 y=114 mode=rest />
+        <at ref=1506atr x=144 y=114 mode=rest />
+        <at ref=1509atr x=144 y=114 mode=rest />
+        <at ref=91fa x=145 y=114 mode=defend />
+        <at ref=113sax x=145 y=114 mode=defend />
+        <at ref=160fa x=146 y=114 mode=defend />
+        <at ref=153fa x=147 y=114 mode=defend />
+        <at ref=81mcb x=147 y=114 mode=rest />
+        <at ref=51tb x=152 y=114 mode=rest />
+        <at ref=1520ar x=152 y=114 mode=rest />
+        <at ref=40hb x=152 y=114 mode=rest />
+        <at ref=331hb x=152 y=114 mode=rest />
+        <at ref=95mcb x=155 y=114 mode=rest />
+        <at ref=332r x=109 y=115 mode=defend />
+        <at ref=4shock.hq x=111 y=115 mode=command />
+        <at ref=2grk x=120 y=115 mode=rest />
+        <at ref=Kalinin.front.hq x=121 y=115 mode=command />
+        <at ref=373bairr x=122 y=115 mode=rest />
+        <at ref=192r x=131 y=115 mode=rest />
+        <at ref=184tr x=140 y=115 mode=rest />
+        <at ref=41tr x=141 y=115 mode=rest />
+        <at ref=57tr x=141 y=115 mode=rest />
+        <at ref=1514atr x=141 y=115 mode=rest />
+        <at ref=83tx x=142 y=115 mode=rest />
+        <at ref=118tx x=142 y=115 mode=rest />
+        <at ref=1512atr x=142 y=115 mode=rest />
+        <at ref=139tr x=143 y=115 mode=rest />
+        <at ref=160tr x=143 y=115 mode=rest />
+        <at ref=1515atr x=143 y=115 mode=rest />
+        <at ref=1542sur x=143 y=115 mode=rest />
+        <at ref=129ar x=143 y=115 mode=rest />
+        <at ref=1522ar x=143 y=115 mode=rest />
+        <at ref=329hb x=143 y=115 mode=rest />
+        <at ref=54fa x=144 y=115 mode=defend />
+        <at ref=1219sur x=145 y=115 mode=rest />
+        <at ref=128tr x=147 y=115 mode=rest />
+        <at ref=750atb x=147 y=115 mode=rest />
+        <at ref=751atb x=147 y=115 mode=rest />
+        <at ref=52mcr x=148 y=115 mode=rest />
+        <at ref=1519ar x=148 y=115 mode=rest />
+        <at ref=1517ar x=148 y=115 mode=rest />
+        <at ref=32hb x=148 y=115 mode=rest />
+        <at ref=97mcb x=152 y=115 mode=rest />
+        <at ref=98mcb x=153 y=115 mode=rest />
+        <at ref=4gma x=153 y=115 mode=rest />
+        <at ref=1544sur x=154 y=115 mode=rest />
+        <at ref=1456sur x=155 y=115 mode=rest />
+        <at ref=1457sur x=155 y=115 mode=rest />
+        <at ref=134tr x=156 y=115 mode=rest />
+        <at ref=49smgb x=203 y=115 mode=rest />
+        <at ref=47r x=109 y=116 mode=defend />
+        <at ref=101rx x=110 y=116 mode=rest />
+        <at ref=4atx x=112 y=116 mode=rest />
+        <at ref=43army.hq x=113 y=116 mode=command />
+        <at ref=155fa x=116 y=116 mode=defend />
+        <at ref=17atx x=118 y=116 mode=rest />
+        <at ref=3air.army.hq x=120 y=116 mode=command />
+        <at ref=21fairr x=121 y=116 mode=rest />
+        <at ref=153r x=127 y=116 mode=rest />
+        <at ref=68army.hq x=128 y=116 mode=command />
+        <at ref=156r x=129 y=116 mode=rest />
+        <at ref=9rkr x=139 y=116 mode=rest />
+        <at ref=10rkr x=139 y=116 mode=rest />
+        <at ref=39rkr x=139 y=116 mode=rest />
+        <at ref=56rkr x=141 y=116 mode=rest />
+        <at ref=88rkr x=141 y=116 mode=rest />
+        <at ref=91rkr x=141 y=116 mode=rest />
+        <at ref=326rkr x=141 y=116 mode=rest />
+        <at ref=328rkr x=141 y=116 mode=rest />
+        <at ref=1723atr x=141 y=116 mode=rest />
+        <at ref=1724atr x=141 y=116 mode=rest />
+        <at ref=1gpx x=142 y=116 mode=rest />
+        <at ref=2gpx x=142 y=116 mode=rest />
+        <at ref=11tk x=143 y=116 mode=rest />
+        <at ref=156fa x=144 y=116 mode=defend />
+        <at ref=105sax x=144 y=116 mode=defend />
+        <at ref=7mk x=145 y=116 mode=rest />
+        <at ref=stavka.hq x=146 y=116 mode=command />
+        <at ref=stavka.res.hq x=146 y=116 mode=command />
+        <at ref=mdf.hq x=146 y=116 mode=command />
+        <at ref=Moscow.dis.hq x=146 y=116 mode=command />
+        <at ref=1wx x=147 y=116 mode=rest />
+        <at ref=93mcb x=148 y=116 mode=rest />
+        <at ref=1546sur x=149 y=116 mode=rest />
+        <at ref=136tr x=150 y=116 mode=rest />
+        <at ref=96mcb x=150 y=116 mode=rest />
+        <at ref=154ar x=150 y=116 mode=rest />
+        <at ref=223tr x=151 y=116 mode=rest />
+        <at ref=31gtx x=152 y=116 mode=rest />
+        <at ref=207tx x=207 y=116 mode=rest />
+        <at ref=61tr x=207 y=116 mode=rest />
+        <at ref=48smgb x=207 y=116 mode=rest />
+        <at ref=360r x=110 y=117 mode=defend />
+        <at ref=145r x=111 y=117 mode=defend />
+        <at ref=179r x=111 y=117 mode=defend />
+        <at ref=306r x=112 y=117 mode=defend />
+        <at ref=114rx x=113 y=117 mode=defend />
+        <at ref=262r x=114 y=117 mode=rest />
+        <at ref=31max x=118 y=117 mode=rest />
+        <at ref=39army.hq x=119 y=117 mode=command />
+        <at ref=224aair x=127 y=117 mode=rest />
+        <at ref=157r x=129 y=117 mode=rest />
+        <at ref=233aair x=130 y=117 mode=rest />
+        <at ref=213nair x=133 y=117 mode=rest />
+        <at ref=51mcr x=141 y=117 mode=rest />
+        <at ref=4tank.army.hq x=142 y=117 mode=command />
+        <at ref=6gmk x=143 y=117 mode=rest />
+        <at ref=118fa x=144 y=117 mode=defend />
+        <at ref=30tk x=144 y=117 mode=rest />
+        <at ref=77fa x=145 y=117 mode=defend />
+        <at ref=112sax x=145 y=117 mode=defend />
+        <at ref=232tx x=146 y=117 mode=rest />
+        <at ref=159fa x=147 y=117 mode=defend />
+        <at ref=127tr x=148 y=117 mode=rest />
+        <at ref=144tx x=149 y=117 mode=rest />
+        <at ref=14gtr x=149 y=117 mode=rest />
+        <at ref=1416sur x=149 y=117 mode=rest />
+        <at ref=149tx x=152 y=117 mode=rest />
+        <at ref=1460sur x=153 y=117 mode=rest />
+        <at ref=94mcb x=153 y=117 mode=rest />
+        <at ref=1157ar x=153 y=117 mode=rest />
+        <at ref=177tx x=155 y=117 mode=rest />
+        <at ref=184tx x=155 y=117 mode=rest />
+        <at ref=166tr x=157 y=117 mode=rest />
+        <at ref=134r x=114 y=118 mode=defend />
+        <at ref=158r x=115 y=118 mode=defend />
+        <at ref=178r x=116 y=118 mode=defend />
+        <at ref=185r x=117 y=118 mode=defend />
+        <at ref=234r x=119 y=118 mode=defend />
+        <at ref=2gmcr x=121 y=118 mode=rest />
+        <at ref=137sar x=124 y=118 mode=rest />
+        <at ref=159r x=126 y=118 mode=rest />
+        <at ref=22a x=127 y=118 mode=rest />
+        <at ref=199r x=130 y=118 mode=rest />
+        <at ref=232aair x=132 y=118 mode=rest />
+        <at ref=19grk x=133 y=118 mode=rest />
+        <at ref=10garmy.hq x=134 y=118 mode=command />
+        <at ref=6gck x=137 y=118 mode=rest />
+        <at ref=3rkr x=139 y=118 mode=rest />
+        <at ref=7rkr x=139 y=118 mode=rest />
+        <at ref=11rkr x=139 y=118 mode=rest />
+        <at ref=57rkr x=139 y=118 mode=rest />
+        <at ref=7gck x=141 y=118 mode=rest />
+        <at ref=95r x=143 y=118 mode=rest />
+        <at ref=1547sur x=144 y=118 mode=rest />
+        <at ref=25tk x=145 y=118 mode=rest />
+        <at ref=157fa x=146 y=118 mode=defend />
+        <at ref=3gpx x=148 y=118 mode=rest />
+        <at ref=4gpx x=148 y=118 mode=rest />
+        <at ref=5gpx x=148 y=118 mode=rest />
+        <at ref=108mar x=148 y=118 mode=rest />
+        <at ref=27rkx x=149 y=118 mode=rest />
+        <at ref=12rkr x=149 y=118 mode=rest />
+        <at ref=18rkr x=149 y=118 mode=rest />
+        <at ref=72rkr x=149 y=118 mode=rest />
+        <at ref=741atb x=149 y=118 mode=rest />
+        <at ref=33max x=149 y=118 mode=rest />
+        <at ref=8ar x=149 y=118 mode=rest />
+        <at ref=1458sur x=151 y=118 mode=rest />
+        <at ref=1462sur x=152 y=118 mode=rest />
+        <at ref=124rx x=118 y=119 mode=defend />
+        <at ref=28gtx x=118 y=119 mode=defend />
+        <at ref=251r x=120 y=119 mode=defend />
+        <at ref=36rk x=121 y=119 mode=defend />
+        <at ref=31army.hq x=123 y=119 mode=command />
+        <at ref=309fair x=126 y=119 mode=rest />
+        <at ref=1air.army.hq x=129 y=119 mode=command />
+        <at ref=7grk x=131 y=119 mode=rest />
+        <at ref=15grk x=132 y=119 mode=rest />
+        <at ref=5bak x=134 y=119 mode=rest />
+        <at ref=62r x=139 y=119 mode=rest />
+        <at ref=3res.army.hq x=141 y=119 mode=command />
+        <at ref=70r x=141 y=119 mode=rest />
+        <at ref=76r x=142 y=119 mode=rest />
+        <at ref=174r x=142 y=119 mode=rest />
+        <at ref=54tr x=145 y=119 mode=rest />
+        <at ref=189tr x=145 y=119 mode=rest />
+        <at ref=1725atr x=145 y=119 mode=rest />
+        <at ref=1726atr x=145 y=119 mode=rest />
+        <at ref=1727atr x=145 y=119 mode=rest />
+        <at ref=1728atr x=145 y=119 mode=rest />
+        <at ref=92tx x=146 y=119 mode=rest />
+        <at ref=7gtr x=146 y=119 mode=rest />
+        <at ref=8gtr x=146 y=119 mode=rest />
+        <at ref=739atb x=146 y=119 mode=rest />
+        <at ref=16gpx x=150 y=119 mode=rest />
+        <at ref=17gpx x=150 y=119 mode=rest />
+        <at ref=28gtr x=151 y=119 mode=rest />
+        <at ref=133r x=122 y=120 mode=defend />
+        <at ref=45rk x=123 y=120 mode=defend />
+        <at ref=7gfair x=127 y=120 mode=rest />
+        <at ref=Western.front.hq x=129 y=120 mode=command />
+        <at ref=119r x=141 y=120 mode=rest />
+        <at ref=51r x=142 y=120 mode=rest />
+        <at ref=63r x=142 y=120 mode=rest />
+        <at ref=126tr x=143 y=120 mode=rest />
+        <at ref=6gpx x=144 y=120 mode=rest />
+        <at ref=7gpx x=144 y=120 mode=rest />
+        <at ref=11gpx x=144 y=120 mode=rest />
+        <at ref=12gpx x=144 y=120 mode=rest />
+        <at ref=10gpx x=145 y=120 mode=rest />
+        <at ref=991sur x=146 y=120 mode=rest />
+        <at ref=1729atr x=146 y=120 mode=rest />
+        <at ref=269fair x=147 y=120 mode=rest />
+        <at ref=18gpx x=150 y=120 mode=rest />
+        <at ref=19gpx x=150 y=120 mode=rest />
+        <at ref=20gpx x=150 y=120 mode=rest />
+        <at ref=744atb x=150 y=120 mode=rest />
+        <at ref=748atb x=150 y=120 mode=rest />
+        <at ref=238tx x=152 y=120 mode=rest />
+        <at ref=1459sur x=153 y=120 mode=rest />
+        <at ref=1543sur x=153 y=120 mode=rest />
+        <at ref=82r x=124 y=121 mode=defend />
+        <at ref=312r x=125 y=121 mode=defend />
+        <at ref=352r x=126 y=121 mode=rest />
+        <at ref=120tx x=130 y=121 mode=rest />
+        <at ref=204bair x=132 y=121 mode=rest />
+        <at ref=231aair x=134 y=121 mode=rest />
+        <at ref=311aair x=136 y=121 mode=rest />
+        <at ref=23a x=145 y=121 mode=rest />
+        <at ref=1gma x=145 y=121 mode=rest />
+        <at ref=1521ar x=148 y=121 mode=rest />
+        <at ref=245hb x=148 y=121 mode=rest />
+        <at ref=226hb x=152 y=121 mode=rest />
+        <at ref=208r x=125 y=122 mode=defend />
+        <at ref=5army.hq x=126 y=122 mode=command />
+        <at ref=215fair x=128 y=122 mode=rest />
+        <at ref=303fair x=130 y=122 mode=rest />
+        <at ref=5rrx x=134 y=122 mode=rest />
+        <at ref=6gma x=140 y=122 mode=rest />
+        <at ref=20army.hq x=145 y=122 mode=command />
+        <at ref=152fa x=145 y=122 mode=defend />
+        <at ref=154tx x=153 y=122 mode=rest />
+        <at ref=1494sur x=153 y=122 mode=rest />
+        <at ref=1518ar x=155 y=122 mode=rest />
+        <at ref=207r x=126 y=123 mode=defend />
+        <at ref=2gtx x=128 y=123 mode=rest />
+        <at ref=187tx x=130 y=123 mode=rest />
+        <at ref=323fair x=132 y=123 mode=rest />
+        <at ref=86mcb x=135 y=123 mode=rest />
+        <at ref=21ba x=136 y=123 mode=rest />
+        <at ref=1548sur x=149 y=123 mode=rest />
+        <at ref=151tx x=154 y=123 mode=rest />
+        <at ref=1495sur x=155 y=123 mode=rest />
+        <at ref=144r x=126 y=124 mode=defend />
+        <at ref=160r x=126 y=124 mode=defend />
+        <at ref=164r x=127 y=124 mode=defend />
+        <at ref=33army.hq x=129 y=124 mode=command />
+        <at ref=56gtr x=131 y=124 mode=rest />
+        <at ref=222r x=128 y=125 mode=defend />
+        <at ref=42r x=129 y=125 mode=defend />
+        <at ref=23gtx x=131 y=125 mode=rest />
+        <at ref=89mcb x=140 y=125 mode=rest />
+        <at ref=154fa x=143 y=125 mode=defend />
+        <at ref=1gatx x=143 y=125 mode=rest />
+        <at ref=344r x=130 y=126 mode=defend />
+        <at ref=49army.hq x=131 y=126 mode=command />
+        <at ref=58r x=131 y=126 mode=rest />
+        <at ref=94tx x=133 y=126 mode=rest />
+        <at ref=146r x=130 y=127 mode=defend />
+        <at ref=1tk x=133 y=127 mode=rest />
+        <at ref=371r x=134 y=127 mode=rest />
+        <at ref=8bak x=138 y=127 mode=rest />
+        <at ref=36grk x=139 y=127 mode=rest />
+        <at ref=53rk x=142 y=127 mode=rest />
+        <at ref=96r x=143 y=127 mode=rest />
+        <at ref=21grk x=145 y=127 mode=rest />
+        <at ref=20grk x=146 y=127 mode=rest />
+        <at ref=3gtk x=147 y=127 mode=rest />
+        <at ref=104tr x=204 y=127 mode=rest />
+        <at ref=45smgb x=204 y=127 mode=rest />
+        <at ref=44smgb x=204 y=127 mode=rest />
+        <at ref=43smgb x=204 y=127 mode=rest />
+        <at ref=139r x=129 y=128 mode=defend />
+        <at ref=385r x=129 y=128 mode=defend />
+        <at ref=277r x=130 y=128 mode=defend />
+        <at ref=338r x=130 y=128 mode=defend />
+        <at ref=10army.hq x=131 y=128 mode=command />
+        <at ref=8grk x=136 y=128 mode=rest />
+        <at ref=5tk x=137 y=128 mode=rest />
+        <at ref=36rx x=140 y=128 mode=rest />
+        <at ref=260r x=142 y=128 mode=rest />
+        <at ref=11army.hq x=143 y=128 mode=command />
+        <at ref=4r x=143 y=128 mode=rest />
+        <at ref=4garmy.hq x=146 y=128 mode=command />
+        <at ref=15tk x=147 y=128 mode=rest />
+        <at ref=14tx x=187 y=128 mode=rest />
+        <at ref=247r x=130 y=129 mode=defend />
+        <at ref=290r x=131 y=129 mode=defend />
+        <at ref=330r x=131 y=129 mode=defend />
+        <at ref=50army.hq x=133 y=129 mode=command />
+        <at ref=1mk x=136 y=129 mode=rest />
+        <at ref=16grk x=137 y=129 mode=rest />
+        <at ref=14a x=138 y=129 mode=rest />
+        <at ref=323r x=142 y=129 mode=rest />
+        <at ref=12tk x=145 y=129 mode=rest />
+        <at ref=3gtank.army.hq x=146 y=129 mode=command />
+        <at ref=64r x=132 y=130 mode=defend />
+        <at ref=324r x=132 y=130 mode=defend />
+        <at ref=38rk x=133 y=130 mode=defend />
+        <at ref=49r x=134 y=130 mode=defend />
+        <at ref=212r x=134 y=130 mode=defend />
+        <at ref=217r x=135 y=130 mode=defend />
+        <at ref=11garmy.hq x=136 y=130 mode=command />
+        <at ref=273r x=143 y=130 mode=rest />
+        <at ref=2gck x=145 y=130 mode=rest />
+        <at ref=91tx x=146 y=130 mode=rest />
+        <at ref=2mk x=147 y=130 mode=rest />
+        <at ref=108r x=136 y=131 mode=defend />
+        <at ref=97r x=137 y=131 mode=defend />
+        <at ref=356r x=139 y=131 mode=rest />
+        <at ref=20tk x=140 y=131 mode=rest />
+        <at ref=9grk x=141 y=131 mode=rest />
+        <at ref=3gck x=151 y=131 mode=rest />
+        <at ref=110r x=138 y=132 mode=defend />
+        <at ref=336r x=139 y=132 mode=defend />
+        <at ref=61army.hq x=140 y=132 mode=command />
+        <at ref=315fair x=145 y=132 mode=rest />
+        <at ref=6rrx x=149 y=132 mode=rest />
+        <at ref=284nair x=151 y=132 mode=rest />
+        <at ref=307aair x=154 y=132 mode=rest />
+        <at ref=415r x=140 y=133 mode=defend />
+        <at ref=269r x=141 y=133 mode=defend />
+        <at ref=308r x=141 y=133 mode=defend />
+        <at ref=235r x=142 y=133 mode=rest />
+        <at ref=3army.hq x=143 y=133 mode=command />
+        <at ref=20ba x=144 y=133 mode=rest />
+        <at ref=25rk x=149 y=133 mode=rest />
+        <at ref=113bair x=153 y=133 mode=rest />
+        <at ref=283r x=142 y=134 mode=defend />
+        <at ref=55mcb x=146 y=134 mode=rest />
+        <at ref=10rkb x=146 y=134 mode=rest />
+        <at ref=8rkx x=147 y=134 mode=rest />
+        <at ref=2bak x=148 y=134 mode=rest />
+        <at ref=253tr x=151 y=134 mode=rest />
+        <at ref=342r x=142 y=135 mode=defend />
+        <at ref=380r x=142 y=135 mode=defend />
+        <at ref=41r x=143 y=135 mode=defend />
+        <at ref=348r x=143 y=135 mode=defend />
+        <at ref=5r x=145 y=135 mode=rest />
+        <at ref=3gfair x=147 y=135 mode=rest />
+        <at ref=15air.army.hq x=148 y=135 mode=command />
+        <at ref=Bryansk.front.hq x=149 y=135 mode=command />
+        <at ref=12atx x=149 y=135 mode=rest />
+        <at ref=308aair x=156 y=135 mode=rest />
+        <at ref=2tx x=187 y=135 mode=rest />
+        <at ref=10tx x=187 y=135 mode=rest />
+        <at ref=15tx x=187 y=135 mode=rest />
+        <at ref=51tr x=187 y=135 mode=rest />
+        <at ref=250tr x=205 y=135 mode=rest />
+        <at ref=249tb x=205 y=135 mode=rest />
+        <at ref=608tb x=205 y=135 mode=rest />
+        <at ref=154tr x=214 y=135 mode=rest />
+        <at ref=126tb x=214 y=135 mode=rest />
+        <at ref=258tb x=214 y=135 mode=rest />
+        <at ref=250r x=144 y=136 mode=defend />
+        <at ref=397r x=144 y=136 mode=defend />
+        <at ref=63army.hq x=145 y=136 mode=command />
+        <at ref=234fair x=147 y=136 mode=rest />
+        <at ref=11gtr x=148 y=136 mode=rest />
+        <at ref=12gtr x=148 y=136 mode=rest />
+        <at ref=1535sur x=150 y=136 mode=rest />
+        <at ref=225aair x=154 y=136 mode=rest />
+        <at ref=129r x=144 y=137 mode=defend />
+        <at ref=287r x=144 y=137 mode=defend />
+        <at ref=26gtr x=147 y=137 mode=rest />
+        <at ref=13gtr x=149 y=137 mode=rest />
+        <at ref=7bak x=150 y=137 mode=rest />
+        <at ref=1gtk x=154 y=137 mode=rest />
+        <at ref=143r x=143 y=138 mode=defend />
+        <at ref=137r x=144 y=138 mode=defend />
+        <at ref=310rkr x=148 y=138 mode=rest />
+        <at ref=311rkr x=148 y=138 mode=rest />
+        <at ref=4gfair x=150 y=138 mode=rest />
+        <at ref=73r x=142 y=139 mode=defend />
+        <at ref=170r x=142 y=140 mode=defend />
+        <at ref=71r x=147 y=140 mode=defend />
+        <at ref=241r x=148 y=140 mode=rest />
+        <at ref=18rk x=133 y=141 mode=defend />
+        <at ref=181r x=134 y=141 mode=defend />
+        <at ref=102r x=135 y=141 mode=defend />
+        <at ref=162r x=135 y=141 mode=defend />
+        <at ref=106r x=136 y=141 mode=defend />
+        <at ref=211r x=137 y=141 mode=defend />
+        <at ref=280r x=137 y=141 mode=defend />
+        <at ref=15rk x=141 y=141 mode=defend />
+        <at ref=5gma x=141 y=141 mode=defend />
+        <at ref=58tr x=141 y=141 mode=defend />
+        <at ref=42rk x=142 y=141 mode=defend />
+        <at ref=119fa x=143 y=141 mode=defend />
+        <at ref=48army.hq x=144 y=141 mode=command />
+        <at ref=27army.hq x=147 y=141 mode=command />
+        <at ref=155r x=148 y=141 mode=rest />
+        <at ref=93tx x=148 y=141 mode=rest />
+        <at ref=166r x=149 y=141 mode=rest />
+        <at ref=37gr x=131 y=142 mode=defend />
+        <at ref=194r x=132 y=142 mode=defend />
+        <at ref=140r x=136 y=142 mode=defend />
+        <at ref=3dx x=136 y=142 mode=defend />
+        <at ref=175r x=137 y=142 mode=defend />
+        <at ref=28rk.hq x=137 y=142 mode=command />
+        <at ref=130atr x=137 y=142 mode=defend />
+        <at ref=132r x=138 y=142 mode=defend />
+        <at ref=15r x=139 y=142 mode=defend />
+        <at ref=5ba x=139 y=142 mode=defend />
+        <at ref=81r x=140 y=142 mode=defend />
+        <at ref=307r x=140 y=142 mode=defend />
+        <at ref=12ba x=140 y=142 mode=defend />
+        <at ref=13army.hq x=141 y=142 mode=command />
+        <at ref=1442sur x=141 y=142 mode=rest />
+        <at ref=2d x=141 y=142 mode=defend />
+        <at ref=476mar x=141 y=142 mode=rest />
+        <at ref=161fa x=142 y=142 mode=defend />
+        <at ref=147r x=146 y=142 mode=defend />
+        <at ref=163r x=148 y=142 mode=rest />
+        <at ref=27rk x=131 y=143 mode=defend />
+        <at ref=65army.hq x=133 y=143 mode=command />
+        <at ref=70army.hq x=136 y=143 mode=command />
+        <at ref=1ga x=136 y=143 mode=rest />
+        <at ref=19tk x=137 y=143 mode=rest />
+        <at ref=563atr x=138 y=143 mode=defend />
+        <at ref=17grk x=139 y=143 mode=defend />
+        <at ref=115fa x=139 y=143 mode=defend />
+        <at ref=477mar x=139 y=143 mode=rest />
+        <at ref=27gtr x=140 y=143 mode=rest />
+        <at ref=30gtr x=140 y=143 mode=rest />
+        <at ref=29rk.hq x=140 y=143 mode=command />
+        <at ref=14dx x=140 y=143 mode=defend />
+        <at ref=129tx x=141 y=143 mode=rest />
+        <at ref=6rkr x=141 y=143 mode=rest />
+        <at ref=37rkr x=141 y=143 mode=rest />
+        <at ref=1atx x=141 y=143 mode=rest />
+        <at ref=18grk x=142 y=143 mode=rest />
+        <at ref=279fair x=143 y=143 mode=rest />
+        <at ref=283fair x=144 y=143 mode=rest />
+        <at ref=4gtk x=155 y=143 mode=rest />
+        <at ref=354r x=131 y=144 mode=defend />
+        <at ref=13atx x=136 y=144 mode=rest />
+        <at ref=286fair x=137 y=144 mode=rest />
+        <at ref=16tk x=138 y=144 mode=rest />
+        <at ref=87mcb x=139 y=144 mode=rest />
+        <at ref=2tank.army.hq x=140 y=144 mode=command />
+        <at ref=11gtx x=140 y=144 mode=rest />
+        <at ref=3tk x=141 y=144 mode=rest />
+        <at ref=2gaair x=146 y=144 mode=rest />
+        <at ref=271nair x=147 y=144 mode=rest />
+        <at ref=299aair x=148 y=144 mode=rest />
+        <at ref=214r x=149 y=144 mode=rest />
+        <at ref=265fair x=153 y=144 mode=rest />
+        <at ref=202bair x=159 y=144 mode=rest />
+        <at ref=30rk x=131 y=145 mode=defend />
+        <at ref=273fair x=136 y=145 mode=rest />
+        <at ref=1541sur x=138 y=145 mode=rest />
+        <at ref=68cax x=138 y=145 mode=rest />
+        <at ref=282fair x=140 y=145 mode=rest />
+        <at ref=1gfair x=142 y=145 mode=rest />
+        <at ref=233r x=148 y=145 mode=rest />
+        <at ref=252r x=151 y=145 mode=rest />
+        <at ref=293bair x=153 y=145 mode=rest />
+        <at ref=3gmk x=158 y=145 mode=rest />
+        <at ref=754atb x=159 y=145 mode=rest />
+        <at ref=248rx x=131 y=146 mode=defend />
+        <at ref=60army.hq x=133 y=146 mode=command />
+        <at ref=150tx x=133 y=146 mode=rest />
+        <at ref=21max x=138 y=146 mode=rest />
+        <at ref=84rkr x=138 y=146 mode=rest />
+        <at ref=92rkr x=138 y=146 mode=rest />
+        <at ref=323rkr x=138 y=146 mode=rest />
+        <at ref=Central.front.hq x=139 y=146 mode=command />
+        <at ref=16air.army.hq x=140 y=146 mode=command />
+        <at ref=301bair x=144 y=146 mode=rest />
+        <at ref=241bair x=146 y=146 mode=rest />
+        <at ref=116r x=148 y=146 mode=rest />
+        <at ref=84r x=149 y=146 mode=rest />
+        <at ref=278fair x=154 y=146 mode=rest />
+        <at ref=5air.army.hq x=155 y=146 mode=command />
+        <at ref=511rairr x=156 y=146 mode=rest />
+        <at ref=5gck x=157 y=146 mode=rest />
+        <at ref=24rk x=132 y=147 mode=defend />
+        <at ref=7rrx x=136 y=147 mode=rest />
+        <at ref=9tk x=139 y=147 mode=rest />
+        <at ref=221bair x=142 y=147 mode=rest />
+        <at ref=294fair x=145 y=147 mode=rest />
+        <at ref=454bairr x=146 y=147 mode=rest />
+        <at ref=28gr x=148 y=147 mode=rest />
+        <at ref=53army.hq x=149 y=147 mode=command />
+        <at ref=208nair x=150 y=147 mode=rest />
+        <at ref=1gbair x=151 y=147 mode=rest />
+        <at ref=304fair x=152 y=147 mode=rest />
+        <at ref=69gfairr x=153 y=147 mode=rest />
+        <at ref=287fair x=155 y=147 mode=rest />
+        <at ref=Steppe.front.hq x=156 y=147 mode=command />
+        <at ref=4gaair x=160 y=147 mode=rest />
+        <at ref=Volga.dis.hq x=193 y=147 mode=command />
+        <at ref=42smgb x=193 y=147 mode=rest />
+        <at ref=41smgb x=193 y=147 mode=rest />
+        <at ref=55r x=132 y=148 mode=defend />
+        <at ref=1148sar x=139 y=148 mode=rest />
+        <at ref=8rrx x=142 y=148 mode=rest />
+        <at ref=36rkr x=143 y=148 mode=rest />
+        <at ref=299r x=148 y=148 mode=rest />
+        <at ref=266aair x=151 y=148 mode=rest />
+        <at ref=259fair x=152 y=148 mode=rest />
+        <at ref=35rk x=156 y=148 mode=rest />
+        <at ref=340r x=132 y=149 mode=defend />
+        <at ref=167r x=133 y=149 mode=defend />
+        <at ref=50rk.hq x=134 y=149 mode=command />
+        <at ref=1tank.army.hq x=139 y=149 mode=command />
+        <at ref=I/203tb x=139 y=149 mode=rest />
+        <at ref=1528har x=139 y=149 mode=rest />
+        <at ref=146mar x=142 y=149 mode=rest />
+        <at ref=302fair x=143 y=149 mode=rest />
+        <at ref=1661atr x=144 y=149 mode=rest />
+        <at ref=203fair x=145 y=149 mode=rest />
+        <at ref=Voronezh.front.hq x=146 y=149 mode=command />
+        <at ref=2air.army.hq x=147 y=149 mode=command />
+        <at ref=5garmy.hq x=149 y=149 mode=command />
+        <at ref=10tk x=149 y=149 mode=rest />
+        <at ref=291aair x=152 y=149 mode=rest />
+        <at ref=256fair x=155 y=149 mode=rest />
+        <at ref=264aair x=158 y=149 mode=rest />
+        <at ref=232r x=133 y=150 mode=defend />
+        <at ref=38army.hq x=134 y=150 mode=command />
+        <at ref=1689atr x=135 y=150 mode=rest />
+        <at ref=29hax x=137 y=150 mode=rest />
+        <at ref=494mar x=137 y=150 mode=rest />
+        <at ref=31tk x=138 y=150 mode=rest />
+        <at ref=6tk x=140 y=150 mode=rest />
+        <at ref=6garmy.hq x=141 y=150 mode=command />
+        <at ref=12max x=142 y=150 mode=rest />
+        <at ref=5gtk x=142 y=150 mode=rest />
+        <at ref=309rkr x=143 y=150 mode=rest />
+        <at ref=4gatr x=144 y=150 mode=rest />
+        <at ref=869atr x=145 y=150 mode=rest />
+        <at ref=1664atr x=146 y=150 mode=rest />
+        <at ref=1663atr x=146 y=150 mode=rest />
+        <at ref=33grk x=149 y=150 mode=rest />
+        <at ref=32grk x=150 y=150 mode=rest />
+        <at ref=308rkr x=151 y=150 mode=rest />
+        <at ref=204r x=133 y=151 mode=defend />
+        <at ref=47rk.hq x=135 y=151 mode=command />
+        <at ref=59tr x=135 y=151 mode=rest />
+        <at ref=12atr x=135 y=151 mode=rest />
+        <at ref=9mmar x=135 y=151 mode=rest />
+        <at ref=51rk.hq x=135 y=151 mode=command />
+        <at ref=40army.hq x=136 y=151 mode=command />
+        <at ref=493mar x=136 y=151 mode=rest />
+        <at ref=10mmar x=136 y=151 mode=rest />
+        <at ref=52rk.hq x=137 y=151 mode=command />
+        <at ref=60tr x=137 y=151 mode=rest />
+        <at ref=76gcar x=137 y=151 mode=rest />
+        <at ref=79rkr x=138 y=151 mode=rest />
+        <at ref=22grk.hq x=139 y=151 mode=command />
+        <at ref=28atx x=140 y=151 mode=defend />
+        <at ref=14atx x=140 y=151 mode=defend />
+        <at ref=33cax x=140 y=151 mode=rest />
+        <at ref=5rkr x=141 y=151 mode=rest />
+        <at ref=628car x=141 y=151 mode=rest />
+        <at ref=183r x=142 y=151 mode=defend />
+        <at ref=48rk.hq x=143 y=151 mode=command />
+        <at ref=107r x=143 y=151 mode=defend />
+        <at ref=305r x=143 y=151 mode=defend />
+        <at ref=49rk x=144 y=151 mode=rest />
+        <at ref=35grk x=145 y=151 mode=rest />
+        <at ref=8gfair x=146 y=151 mode=rest />
+        <at ref=385bairr x=150 y=151 mode=rest />
+        <at ref=292aair x=152 y=151 mode=rest />
+        <at ref=240r x=134 y=152 mode=defend />
+        <at ref=180r x=135 y=152 mode=defend />
+        <at ref=36cax x=136 y=152 mode=rest />
+        <at ref=32atx x=136 y=152 mode=rest />
+        <at ref=1461sur x=136 y=152 mode=rest />
+        <at ref=161r x=136 y=152 mode=rest />
+        <at ref=309r x=137 y=152 mode=defend />
+        <at ref=192tx x=137 y=152 mode=rest />
+        <at ref=86tx x=137 y=152 mode=rest />
+        <at ref=184r x=138 y=152 mode=defend />
+        <at ref=496atr x=139 y=152 mode=defend />
+        <at ref=90gr x=140 y=152 mode=defend />
+        <at ref=3mk x=140 y=152 mode=rest />
+        <at ref=52gr x=141 y=152 mode=defend />
+        <at ref=23grk.hq x=142 y=152 mode=command />
+        <at ref=263mar x=142 y=152 mode=rest />
+        <at ref=51gr x=142 y=152 mode=defend />
+        <at ref=2gtk x=142 y=152 mode=rest />
+        <at ref=89gr x=143 y=152 mode=defend />
+        <at ref=69army.hq x=145 y=152 mode=command />
+        <at ref=205fair x=147 y=152 mode=rest />
+        <at ref=1549sur x=154 y=152 mode=rest />
+        <at ref=5gtank.army.hq x=155 y=152 mode=command />
+        <at ref=76rkr x=156 y=152 mode=rest />
+        <at ref=29tk x=157 y=152 mode=rest />
+        <at ref=237r x=136 y=153 mode=defend />
+        <at ref=206r x=136 y=153 mode=defend />
+        <at ref=219r x=137 y=153 mode=defend />
+        <at ref=100r x=138 y=153 mode=defend />
+        <at ref=71gr x=139 y=153 mode=defend />
+        <at ref=67gr x=140 y=153 mode=defend />
+        <at ref=375r x=142 y=153 mode=defend />
+        <at ref=81gr x=143 y=153 mode=defend />
+        <at ref=31atx x=144 y=153 mode=defend />
+        <at ref=97rkr x=144 y=153 mode=rest />
+        <at ref=315rkr x=144 y=153 mode=rest />
+        <at ref=167tr x=144 y=153 mode=rest />
+        <at ref=114gatr x=144 y=153 mode=rest />
+        <at ref=1670atr x=145 y=153 mode=rest />
+        <at ref=161gcar x=145 y=153 mode=rest />
+        <at ref=469mar x=146 y=153 mode=rest />
+        <at ref=80rkr x=146 y=153 mode=rest />
+        <at ref=522sar x=147 y=153 mode=rest />
+        <at ref=5gmk x=155 y=153 mode=rest />
+        <at ref=trufanov x=156 y=153 mode=rest />
+        <at ref=78gr x=143 y=154 mode=defend />
+        <at ref=25grk.hq x=144 y=154 mode=command />
+        <at ref=73gr x=144 y=154 mode=defend />
+        <at ref=30atx x=144 y=154 mode=defend />
+        <at ref=1438sur x=144 y=154 mode=rest />
+        <at ref=7garmy.hq x=145 y=154 mode=command />
+        <at ref=23rk x=153 y=154 mode=rest />
+        <at ref=18tk x=156 y=154 mode=rest />
+        <at ref=244bair x=159 y=154 mode=rest />
+        <at ref=72gr x=143 y=155 mode=defend />
+        <at ref=24grk.hq x=144 y=155 mode=command />
+        <at ref=213r x=144 y=155 mode=defend />
+        <at ref=27gtx x=144 y=155 mode=rest />
+        <at ref=115gatr x=144 y=155 mode=rest />
+        <at ref=15gr x=145 y=155 mode=rest />
+        <at ref=1529sur x=145 y=155 mode=rest />
+        <at ref=109gcar x=145 y=155 mode=rest />
+        <at ref=265gcar x=146 y=155 mode=rest />
+        <at ref=47army.hq x=153 y=155 mode=command />
+        <at ref=21rk x=154 y=155 mode=rest />
+        <at ref=306aair x=156 y=155 mode=rest />
+        <at ref=262nair x=159 y=155 mode=rest />
+        <at ref=36gr x=144 y=156 mode=defend />
+        <at ref=17air.army.hq x=150 y=156 mode=command />
+        <at ref=9gtx x=151 y=156 mode=rest />
+        <at ref=5gaair x=153 y=156 mode=rest />
+        <at ref=290aair x=155 y=156 mode=rest />
+        <at ref=305aair x=157 y=156 mode=rest />
+        <at ref=24r x=144 y=157 mode=defend />
+        <at ref=3gmcr x=147 y=157 mode=rest />
+        <at ref=11lax x=147 y=157 mode=rest />
+        <at ref=288fair x=148 y=157 mode=rest />
+        <at ref=207fair x=149 y=157 mode=rest />
+        <at ref=Southwest.front.hq x=150 y=157 mode=command />
+        <at ref=52r x=144 y=158 mode=defend />
+        <at ref=57army.hq x=146 y=158 mode=command />
+        <at ref=10atx x=150 y=158 mode=rest />
+        <at ref=2tk x=152 y=158 mode=rest />
+        <at ref=113r x=144 y=159 mode=defend />
+        <at ref=27grk x=146 y=159 mode=rest />
+        <at ref=9rrx x=150 y=159 mode=rest />
+        <at ref=104rx x=151 y=159 mode=rest />
+        <at ref=303r x=143 y=160 mode=defend />
+        <at ref=19r x=144 y=160 mode=defend />
+        <at ref=11atx x=146 y=160 mode=rest />
+        <at ref=28grk x=147 y=160 mode=rest />
+        <at ref=29grk x=148 y=160 mode=rest />
+        <at ref=295fair x=153 y=160 mode=rest />
+        <at ref=34rk x=143 y=161 mode=defend />
+        <at ref=11a x=145 y=161 mode=rest />
+        <at ref=1gck x=147 y=161 mode=rest />
+        <at ref=8garmy.hq x=148 y=161 mode=command />
+        <at ref=23tk x=151 y=161 mode=rest />
+        <at ref=203r x=152 y=161 mode=rest />
+        <at ref=26grk x=142 y=162 mode=defend />
+        <at ref=25gr x=143 y=162 mode=defend />
+        <at ref=6army.hq x=144 y=162 mode=command />
+        <at ref=115tx x=144 y=162 mode=rest />
+        <at ref=350r x=154 y=162 mode=rest />
+        <at ref=9mk x=183 y=162 mode=rest />
+        <at ref=254tx x=183 y=162 mode=rest />
+        <at ref=4grk x=145 y=163 mode=defend />
+        <at ref=301rkr x=147 y=163 mode=rest />
+        <at ref=9a x=148 y=163 mode=rest />
+        <at ref=1gmk x=149 y=163 mode=rest />
+        <at ref=9atx x=150 y=163 mode=rest />
+        <at ref=12army.hq x=151 y=163 mode=command />
+        <at ref=172r x=151 y=163 mode=rest />
+        <at ref=333r x=153 y=163 mode=rest />
+        <at ref=564tb x=183 y=163 mode=rest />
+        <at ref=38gr x=145 y=164 mode=defend />
+        <at ref=1garmy.hq x=148 y=164 mode=command />
+        <at ref=7a x=149 y=164 mode=rest />
+        <at ref=54mcb x=150 y=164 mode=rest />
+        <at ref=3garmy.hq x=151 y=164 mode=command />
+        <at ref=244r x=152 y=164 mode=rest />
+        <at ref=46army.hq x=155 y=164 mode=command />
+        <at ref=236r x=156 y=164 mode=rest />
+        <at ref=563tb x=184 y=164 mode=rest />
+        <at ref=6grk x=146 y=165 mode=defend />
+        <at ref=44gr x=147 y=165 mode=defend />
+        <at ref=60gr x=147 y=165 mode=defend />
+        <at ref=30cax x=150 y=165 mode=rest />
+        <at ref=58rkr x=150 y=165 mode=rest />
+        <at ref=5gmotx x=151 y=165 mode=rest />
+        <at ref=179atr x=152 y=165 mode=rest />
+        <at ref=11tx x=153 y=165 mode=rest />
+        <at ref=31r x=155 y=165 mode=rest />
+        <at ref=223r x=155 y=165 mode=rest />
+        <at ref=409r x=157 y=165 mode=rest />
+        <at ref=116tx x=184 y=165 mode=rest />
+        <at ref=33rk x=148 y=166 mode=defend />
+        <at ref=152har x=150 y=166 mode=rest />
+        <at ref=32rk x=151 y=166 mode=defend />
+        <at ref=394r x=157 y=166 mode=rest />
+        <at ref=34grk x=150 y=167 mode=defend />
+        <at ref=78r x=154 y=167 mode=defend />
+        <at ref=353r x=156 y=167 mode=rest />
+        <at ref=5atx x=187 y=167 mode=rest />
+        <at ref=47smgb x=187 y=167 mode=rest />
+        <at ref=46smgb x=187 y=167 mode=rest />
+        <at ref=Stalingrad.dis.hq x=187 y=167 mode=command />
+        <at ref=289aair x=165 y=168 mode=rest />
+        <at ref=3grk x=156 y=169 mode=defend />
+        <at ref=51army.hq x=158 y=169 mode=command />
+        <at ref=346r x=156 y=170 mode=defend />
+        <at ref=6gtx x=157 y=170 mode=rest />
+        <at ref=1150sar x=163 y=170 mode=rest />
+        <at ref=54rk x=156 y=171 mode=defend />
+        <at ref=31grk x=157 y=171 mode=rest />
+        <at ref=2ga x=158 y=171 mode=rest />
+        <at ref=10rrx x=159 y=171 mode=rest />
+        <at ref=270bair x=168 y=171 mode=rest />
+        <at ref=126r x=156 y=172 mode=defend />
+        <at ref=96gr x=157 y=172 mode=rest />
+        <at ref=15atx x=160 y=172 mode=rest />
+        <at ref=Southern.front.hq x=163 y=172 mode=command />
+        <at ref=8air.army.hq x=164 y=172 mode=command />
+        <at ref=2gnair x=166 y=172 mode=rest />
+        <at ref=221r x=156 y=173 mode=defend />
+        <at ref=315r x=156 y=173 mode=defend />
+        <at ref=5shock.hq x=157 y=173 mode=command />
+        <at ref=8atx x=158 y=173 mode=rest />
+        <at ref=5gacb x=162 y=173 mode=rest />
+        <at ref=127r x=156 y=174 mode=defend />
+        <at ref=6gfair x=160 y=174 mode=rest />
+        <at ref=2rkr x=162 y=174 mode=rest />
+        <at ref=4rkr x=162 y=174 mode=rest />
+        <at ref=51rkr x=162 y=174 mode=rest />
+        <at ref=1grk x=165 y=174 mode=rest />
+        <at ref=406bairr x=166 y=174 mode=rest />
+        <at ref=1gaair x=167 y=174 mode=rest />
+        <at ref=2gmk x=168 y=174 mode=rest />
+        <at ref=55rk x=156 y=175 mode=defend />
+        <at ref=28army.hq x=157 y=175 mode=command />
+        <at ref=2garmy.hq x=165 y=175 mode=command />
+        <at ref=37rk x=156 y=176 mode=defend />
+        <at ref=21rkr x=162 y=176 mode=rest />
+        <at ref=23rkr x=162 y=176 mode=rest />
+        <at ref=48rkr x=162 y=176 mode=rest />
+        <at ref=13grk x=165 y=176 mode=rest />
+        <at ref=4gmk x=168 y=176 mode=rest />
+        <at ref=151r x=156 y=177 mode=defend />
+        <at ref=320r x=156 y=177 mode=defend />
+        <at ref=347r x=157 y=177 mode=defend />
+        <at ref=33gtx x=158 y=177 mode=rest />
+        <at ref=416r x=157 y=178 mode=defend />
+        <at ref=44army.hq x=159 y=178 mode=command />
+        <at ref=753atb x=162 y=178 mode=rest />
+        <at ref=1gfa x=160 y=179 mode=defend />
+        <at ref=78fa x=160 y=179 mode=defend />
+        <at ref=116fa x=160 y=179 mode=defend />
+        <at ref=295r x=153 y=183 mode=defend />
+        <at ref=77r x=155 y=183 mode=defend />
+        <at ref=58army.hq x=154 y=185 mode=command />
+        <at ref=4gck x=159 y=185 mode=rest />
+        <at ref=89r x=157 y=186 mode=defend />
+        <at ref=414r x=153 y=188 mode=defend />
+        <at ref=85tr x=157 y=189 mode=rest />
+        <at ref=276r x=152 y=191 mode=defend />
+        <at ref=214aair x=160 y=191 mode=rest />
+        <at ref=219bair x=162 y=191 mode=rest />
+        <at ref=9army.hq x=152 y=192 mode=command />
+        <at ref=16rk x=154 y=192 mode=rest />
+        <at ref=201fair x=155 y=192 mode=rest />
+        <at ref=132nair x=159 y=192 mode=rest />
+        <at ref=13gaairr x=161 y=192 mode=rest />
+        <at ref=223bair x=164 y=192 mode=rest />
+        <at ref=11rk x=150 y=193 mode=defend />
+        <at ref=351r x=150 y=193 mode=defend />
+        <at ref=9rk x=151 y=193 mode=defend />
+        <at ref=9gfair x=153 y=193 mode=rest />
+        <at ref=269fairr x=155 y=193 mode=rest />
+        <at ref=366rairr x=157 y=193 mode=rest />
+        <at ref=230aair x=161 y=193 mode=rest />
+        <at ref=11grk x=151 y=194 mode=defend />
+        <at ref=389r x=151 y=194 mode=defend />
+        <at ref=37army.hq x=152 y=194 mode=command />
+        <at ref=1449sur x=154 y=194 mode=rest />
+        <at ref=6atx x=155 y=194 mode=rest />
+        <at ref=11rrx x=157 y=194 mode=rest />
+        <at ref=22rk x=158 y=194 mode=rest />
+        <at ref=395r x=151 y=195 mode=defend />
+        <at ref=417r x=151 y=195 mode=defend />
+        <at ref=20g x=151 y=195 mode=defend />
+        <at ref=62cax x=152 y=195 mode=rest />
+        <at ref=136sar x=152 y=195 mode=rest />
+        <at ref=29max x=152 y=195 mode=rest />
+        <at ref=236fair x=153 y=195 mode=rest />
+        <at ref=229fair x=154 y=195 mode=rest />
+        <at ref=7gaairr x=156 y=195 mode=rest />
+        <at ref=nc.front.hq x=157 y=195 mode=command />
+        <at ref=63tx x=158 y=195 mode=rest />
+        <at ref=7atx x=158 y=195 mode=rest />
+        <at ref=765aairr x=161 y=195 mode=rest />
+        <at ref=285bair x=162 y=195 mode=rest />
+        <at ref=10rk x=151 y=196 mode=defend />
+        <at ref=4grx x=151 y=196 mode=defend />
+        <at ref=10grk x=152 y=196 mode=rest />
+        <at ref=60nx x=152 y=196 mode=rest />
+        <at ref=3gk x=152 y=196 mode=rest />
+        <at ref=56army.hq x=153 y=196 mode=command />
+        <at ref=16atx x=156 y=196 mode=rest />
+        <at ref=4air.army.hq x=158 y=196 mode=command />
+        <at ref=218nair x=159 y=196 mode=rest />
+        <at ref=206aair x=164 y=196 mode=rest />
+        <at ref=20rk x=151 y=197 mode=defend />
+        <at ref=176r x=151 y=197 mode=defend />
+        <at ref=235fair x=154 y=197 mode=rest />
+        <at ref=318r x=151 y=198 mode=defend />
+        <at ref=81nx x=151 y=198 mode=defend />
+        <at ref=18army.hq x=153 y=198 mode=command />
+        <at ref=350sar x=152 y=199 mode=rest />
+        <at ref=5gtx x=153 y=199 mode=rest />
+        <at ref=107rx x=154 y=200 mode=defend />
+        <at ref=230tx x=169 y=210 mode=rest />
+        <at ref=44max x=175 y=218 mode=rest />
+        <at ref=13rk.hq x=176 y=218 mode=command />
+        <at ref=12rk.hq x=184 y=219 mode=command />
+        <at ref=151fa x=173 y=220 mode=defend />
+        <at ref=133rx x=174 y=220 mode=rest />
+        <at ref=94rx x=175 y=220 mode=defend />
+        <at ref=406r x=181 y=220 mode=defend />
+        <at ref=Transcaucasus.front.hq x=192 y=220 mode=command />
+        <at ref=51fa x=174 y=221 mode=defend />
+        <at ref=402r x=178 y=221 mode=defend />
+        <at ref=526sar x=192 y=221 mode=rest />
+        <at ref=392r x=183 y=222 mode=defend />
+        <at ref=271tr x=192 y=222 mode=rest />
+        <at ref=69fa x=185 y=224 mode=defend />
+        <at ref=45army.hq x=187 y=226 mode=command />
+        <at ref=261r x=187 y=226 mode=defend />
+        <at ref=226tx x=188 y=226 mode=rest />
+        <at ref=55fa x=187 y=227 mode=defend />
+        <at ref=349r x=186 y=230 mode=defend />
+        <at ref=227tx x=187 y=230 mode=rest />
+        <at ref=90rx x=195 y=243 mode=rest />
+    </combatant>
+    <combatant name='Germany' >
+        <at ref=230i x=79 y=11 mode=defend />
+        <at ref=270i x=61 y=13 mode=defend />
+        <at ref=Kirkenes.sup x=108 y=13 mode=rest />
+        <at ref=19gk.hq x=113 y=14 mode=command />
+        <at ref=2g x=116 y=14 mode=defend />
+        <at ref=6g x=117 y=15 mode=defend />
+        <at ref=4mgb x=113 y=16 mode=defend />
+        <at ref=210i x=116 y=16 mode=defend />
+        <at ref=71ak.hq x=53 y=22 mode=command />
+        <at ref=199i x=53 y=22 mode=defend />
+        <at ref=211pb x=109 y=33 mode=rest />
+        <at ref=10grktb x=109 y=33 mode=rest />
+        <at ref=169i x=110 y=33 mode=defend />
+        <at ref=36gk.hq x=104 y=34 mode=command />
+        <at ref=163i x=110 y=35 mode=defend />
+        <at ref=13rb x=89 y=36 mode=rest />
+        <at ref=124gab x=90 y=36 mode=rest />
+        <at ref=20army.hq x=88 y=37 mode=command />
+        <at ref=14mgb x=114 y=40 mode=defend />
+        <at ref=18ssgr x=115 y=41 mode=defend />
+        <at ref=nord x=116 y=41 mode=defend />
+        <at ref=18gk.hq x=113 y=42 mode=command />
+        <at ref=139gr x=114 y=43 mode=defend />
+        <at ref=7g x=113 y=44 mode=defend />
+        <at ref=702i x=12 y=59 mode=defend />
+        <at ref=14lw x=11 y=60 mode=rest />
+        <at ref=33ak.hq x=14 y=60 mode=command />
+        <at ref=Trondheim.sup x=14 y=60 mode=rest />
+        <at ref=181i x=15 y=60 mode=rest />
+        <at ref=196i x=13 y=62 mode=rest />
+        <at ref=25p x=9 y=86 mode=rest />
+        <at ref=norway.hq x=10 y=86 mode=command />
+        <at ref=70ak.hq x=10 y=86 mode=command />
+        <at ref=269i x=12 y=86 mode=rest />
+        <at ref=10lw x=103 y=86 mode=defend />
+        <at ref=9lw x=105 y=86 mode=defend />
+        <at ref=215i x=107 y=86 mode=defend />
+        <at ref=11i x=111 y=86 mode=defend />
+        <at ref=21i x=111 y=86 mode=defend />
+        <at ref=Oslo.port x=10 y=87 mode=rest />
+        <at ref=3lwk.hq x=105 y=87 mode=command />
+        <at ref=50ak.hq x=107 y=87 mode=command />
+        <at ref=170i x=108 y=87 mode=defend />
+        <at ref=250i x=108 y=87 mode=defend />
+        <at ref=254i x=109 y=87 mode=defend />
+        <at ref=58i x=109 y=87 mode=defend />
+        <at ref=pol x=111 y=87 mode=defend />
+        <at ref=1i x=112 y=87 mode=defend />
+        <at ref=290i x=112 y=87 mode=defend />
+        <at ref=5g x=113 y=87 mode=defend />
+        <at ref=69i x=113 y=87 mode=defend />
+        <at ref=710i x=10 y=88 mode=defend />
+        <at ref=214i x=12 y=88 mode=rest />
+        <at ref=24i x=110 y=88 mode=defend />
+        <at ref=54ak.hq x=111 y=88 mode=command />
+        <at ref=26ak.hq x=112 y=88 mode=command />
+        <at ref=226stb x=112 y=88 mode=rest />
+        <at ref=132i x=113 y=88 mode=defend />
+        <at ref=212i x=113 y=88 mode=defend />
+        <at ref=Tallinn.port x=80 y=89 mode=rest />
+        <at ref=143cab x=97 y=89 mode=security />
+        <at ref=207i x=102 y=89 mode=security />
+        <at ref=23i x=106 y=89 mode=rest />
+        <at ref=II/58ab x=107 y=89 mode=rest />
+        <at ref=28i x=110 y=89 mode=rest />
+        <at ref=225i x=113 y=89 mode=defend />
+        <at ref=12lw x=115 y=89 mode=defend />
+        <at ref=61i x=116 y=89 mode=defend />
+        <at ref=81i x=116 y=89 mode=defend />
+        <at ref=912stb x=108 y=90 mode=rest />
+        <at ref=121i x=112 y=90 mode=rest />
+        <at ref=96i x=115 y=90 mode=defend />
+        <at ref=28ak.hq x=114 y=91 mode=command />
+        <at ref=227i x=115 y=91 mode=defend />
+        <at ref=1ak.hq x=114 y=92 mode=command />
+        <at ref=13lw x=115 y=92 mode=defend />
+        <at ref=I/106ab x=112 y=93 mode=rest />
+        <at ref=18army.hq x=105 y=94 mode=command />
+        <at ref=217i x=113 y=94 mode=defend />
+        <at ref=latss x=114 y=94 mode=defend />
+        <at ref=153ab x=105 y=95 mode=rest />
+        <at ref=285i x=103 y=96 mode=security />
+        <at ref=38ak.hq x=112 y=96 mode=command />
+        <at ref=1lw x=113 y=96 mode=defend />
+        <at ref=18pg x=104 y=98 mode=rest />
+        <at ref=10mb x=109 y=98 mode=rest />
+        <at ref=16army.hq x=110 y=98 mode=command />
+        <at ref=3rkr x=111 y=98 mode=rest />
+        <at ref=10ak.hq x=112 y=99 mode=command />
+        <at ref=126i x=113 y=99 mode=defend />
+        <at ref=329i x=113 y=99 mode=defend />
+        <at ref=4rr x=99 y=100 mode=rest />
+        <at ref=8i x=110 y=100 mode=rest />
+        <at ref=5jb x=112 y=100 mode=rest />
+        <at ref=30i x=113 y=100 mode=defend />
+        <at ref=ag.north.hq x=98 y=101 mode=command />
+        <at ref=5i x=113 y=101 mode=defend />
+        <at ref=III/180cab x=6 y=102 mode=security />
+        <at ref=15rb x=98 y=102 mode=rest />
+        <at ref=6jb x=111 y=102 mode=rest />
+        <at ref=hoehne.hq x=112 y=102 mode=command />
+        <at ref=122i x=113 y=102 mode=defend />
+        <at ref=32i x=113 y=102 mode=defend />
+        <at ref=II/180cab x=2 y=104 mode=security />
+        <at ref=21lw x=112 y=104 mode=defend />
+        <at ref=I/180cab x=1 y=105 mode=security />
+        <at ref=281i x=98 y=105 mode=security />
+        <at ref=218i x=112 y=106 mode=defend />
+        <at ref=Riga.port x=75 y=107 mode=rest />
+        <at ref=II/69ab x=105 y=107 mode=rest />
+        <at ref=93i x=111 y=107 mode=defend />
+        <at ref=223i x=106 y=108 mode=rest />
+        <at ref=2ak.hq x=107 y=108 mode=command />
+        <at ref=184stb x=107 y=108 mode=rest />
+        <at ref=12i x=109 y=108 mode=defend />
+        <at ref=166i x=2 y=109 mode=training />
+        <at ref=123i x=108 y=110 mode=defend />
+        <at ref=331i x=108 y=111 mode=defend />
+        <at ref=43ak.hq x=107 y=112 mode=command />
+        <at ref=205i x=108 y=112 mode=defend />
+        <at ref=1jb x=98 y=113 mode=security />
+        <at ref=20m x=108 y=113 mode=defend />
+        <at ref=59ak.hq x=105 y=114 mode=command />
+        <at ref=291i x=108 y=114 mode=defend />
+        <at ref=201i x=99 y=115 mode=security />
+        <at ref=7jb x=105 y=115 mode=security />
+        <at ref=263i x=108 y=115 mode=defend />
+        <at ref=II/68ab x=101 y=116 mode=rest />
+        <at ref=6lw x=108 y=116 mode=defend />
+        <at ref=160i x=14 y=117 mode=training />
+        <at ref=2lwk.hq x=107 y=117 mode=command />
+        <at ref=3lw x=108 y=117 mode=defend />
+        <at ref=2lw x=109 y=117 mode=defend />
+        <at ref=3pz.army.hq x=99 y=118 mode=command />
+        <at ref=4lw x=110 y=118 mode=defend />
+        <at ref=87i x=112 y=118 mode=defend />
+        <at ref=330i x=113 y=118 mode=defend />
+        <at ref=III/213ab x=100 y=119 mode=rest />
+        <at ref=3jb x=101 y=119 mode=security />
+        <at ref=II/39ab x=103 y=119 mode=rest />
+        <at ref=6ak.hq x=113 y=119 mode=command />
+        <at ref=206i x=115 y=119 mode=defend />
+        <at ref=256i x=117 y=119 mode=defend />
+        <at ref=52i x=119 y=119 mode=defend />
+        <at ref=203i x=107 y=120 mode=security />
+        <at ref=27ak.hq x=117 y=120 mode=command />
+        <at ref=197i x=118 y=120 mode=defend />
+        <at ref=246i x=119 y=120 mode=defend />
+        <at ref=95i x=121 y=120 mode=defend />
+        <at ref=83i x=107 y=121 mode=rest />
+        <at ref=129i x=121 y=121 mode=rest />
+        <at ref=337i x=123 y=121 mode=defend />
+        <at ref=II/213ab x=111 y=122 mode=rest />
+        <at ref=IV/109ab x=119 y=122 mode=rest />
+        <at ref=221i x=120 y=122 mode=security />
+        <at ref=39pk.hq x=122 y=122 mode=command />
+        <at ref=35i x=124 y=122 mode=defend />
+        <at ref=1rr x=116 y=123 mode=rest />
+        <at ref=ag.center.hq x=117 y=123 mode=command />
+        <at ref=9ak.hq x=123 y=123 mode=command />
+        <at ref=252i x=125 y=123 mode=defend />
+        <at ref=1wk x=55 y=124 mode=command />
+        <at ref=Konigsberg.sup x=55 y=124 mode=rest />
+        <at ref=401i x=55 y=124 mode=training />
+        <at ref=Konigsberg.port x=55 y=124 mode=rest />
+        <at ref=61rk.hq x=81 y=124 mode=command />
+        <at ref=139rb x=117 y=124 mode=rest />
+        <at ref=36i x=123 y=124 mode=rest />
+        <at ref=342i x=124 y=124 mode=rest />
+        <at ref=268i x=125 y=124 mode=defend />
+        <at ref=Insterburg.sup x=62 y=125 mode=rest />
+        <at ref=151i x=80 y=125 mode=training />
+        <at ref=183i x=119 y=125 mode=rest />
+        <at ref=4jb x=122 y=125 mode=security />
+        <at ref=667stb x=123 y=125 mode=rest />
+        <at ref=12ak.hq x=125 y=125 mode=command />
+        <at ref=260i x=127 y=125 mode=defend />
+        <at ref=20wk x=45 y=126 mode=command />
+        <at ref=Danzig.sup x=45 y=126 mode=rest />
+        <at ref=Danzig.port x=45 y=126 mode=rest />
+        <at ref=2jb x=118 y=126 mode=security />
+        <at ref=4army.hq x=119 y=126 mode=command />
+        <at ref=II/41ab x=120 y=126 mode=rest />
+        <at ref=II/67ab x=125 y=126 mode=rest />
+        <at ref=267i x=128 y=126 mode=defend />
+        <at ref=14i x=129 y=126 mode=defend />
+        <at ref=Kiel.port x=0 y=127 mode=rest />
+        <at ref=56pk.hq x=127 y=127 mode=command />
+        <at ref=131i x=129 y=127 mode=defend />
+        <at ref=253i x=120 y=128 mode=rest />
+        <at ref=321i x=128 y=128 mode=defend />
+        <at ref=okw.hq x=60 y=129 mode=command />
+        <at ref=Lotzen.sup x=62 y=129 mode=rest />
+        <at ref=286i x=121 y=129 mode=security />
+        <at ref=339i x=129 y=129 mode=defend />
+        <at ref=190i x=2 y=130 mode=training />
+        <at ref=5p x=121 y=130 mode=rest />
+        <at ref=110i x=131 y=130 mode=defend />
+        <at ref=Gustrow.sup x=10 y=131 mode=rest />
+        <at ref=296i x=132 y=131 mode=defend />
+        <at ref=134i x=133 y=131 mode=defend />
+        <at ref=293i x=134 y=131 mode=defend />
+        <at ref=55ak.hq x=132 y=132 mode=command />
+        <at ref=53ak.hq x=135 y=132 mode=command />
+        <at ref=211i x=136 y=132 mode=defend />
+        <at ref=2wk x=23 y=133 mode=command />
+        <at ref=Stettin.sup x=23 y=133 mode=rest />
+        <at ref=Stettin.port x=23 y=133 mode=rest />
+        <at ref=Graudenz.sup x=45 y=133 mode=rest />
+        <at ref=141i x=88 y=133 mode=training />
+        <at ref=707i x=127 y=133 mode=security />
+        <at ref=25pg x=136 y=133 mode=rest />
+        <at ref=208i x=138 y=133 mode=defend />
+        <at ref=152i x=43 y=134 mode=training />
+        <at ref=8p x=126 y=134 mode=rest />
+        <at ref=II/57ab x=129 y=134 mode=rest />
+        <at ref=8jb x=130 y=134 mode=security />
+        <at ref=34i x=140 y=134 mode=defend />
+        <at ref=299i x=141 y=134 mode=defend />
+        <at ref=2pz.army.hq x=129 y=135 mode=command />
+        <at ref=112i x=136 y=136 mode=rest />
+        <at ref=35ak.hq x=140 y=136 mode=command />
+        <at ref=262i x=143 y=136 mode=defend />
+        <at ref=270stb x=136 y=137 mode=rest />
+        <at ref=13jb x=137 y=137 mode=security />
+        <at ref=9army.hq x=138 y=137 mode=command />
+        <at ref=23ak.hq x=141 y=137 mode=command />
+        <at ref=56i x=143 y=137 mode=defend />
+        <at ref=383i x=141 y=138 mode=defend />
+        <at ref=46pk.hq x=137 y=139 mode=command />
+        <at ref=18mb x=138 y=139 mode=rest />
+        <at ref=Spandau.sup x=14 y=140 mode=rest />
+        <at ref=192i x=38 y=140 mode=training />
+        <at ref=190stb x=111 y=140 mode=rest />
+        <at ref=20ak.hq x=131 y=140 mode=command />
+        <at ref=251i x=133 y=140 mode=defend />
+        <at ref=102i x=135 y=140 mode=defend />
+        <at ref=258i x=137 y=140 mode=defend />
+        <at ref=manteuffel x=137 y=140 mode=defend />
+        <at ref=47pk.hq x=139 y=140 mode=command />
+        <at ref=10pg x=139 y=140 mode=rest />
+        <at ref=12p x=139 y=140 mode=rest />
+        <at ref=41pk.hq x=140 y=140 mode=command />
+        <at ref=21px x=140 y=140 mode=rest />
+        <at ref=216i x=141 y=140 mode=defend />
+        <at ref=3wk x=10 y=141 mode=command />
+        <at ref=Potsdam.sup x=13 y=141 mode=rest />
+        <at ref=Berlin.sup x=14 y=141 mode=rest />
+        <at ref=21wk x=34 y=141 mode=command />
+        <at ref=Posen.sup x=34 y=141 mode=rest />
+        <at ref=45i x=131 y=141 mode=defend />
+        <at ref=137i x=132 y=141 mode=defend />
+        <at ref=31i x=138 y=141 mode=attack />
+        <at ref=7i x=138 y=141 mode=attack />
+        <at ref=2p x=139 y=141 mode=attack />
+        <at ref=20p x=139 y=141 mode=attack />
+        <at ref=4p x=139 y=141 mode=attack />
+        <at ref=6i x=139 y=141 mode=attack />
+        <at ref=9p x=139 y=141 mode=attack />
+        <at ref=78i x=140 y=141 mode=attack />
+        <at ref=18p x=140 y=141 mode=attack />
+        <at ref=292i x=140 y=141 mode=attack />
+        <at ref=86i x=140 y=141 mode=attack />
+        <at ref=656atr x=140 y=141 mode=attack />
+        <at ref=Magdeburg.sup x=5 y=142 mode=rest />
+        <at ref=az x=47 y=142 mode=security />
+        <at ref=1cos x=52 y=142 mode=rest />
+        <at ref=nc x=64 y=143 mode=security />
+        <at ref=72i x=130 y=143 mode=defend />
+        <at ref=am x=56 y=145 mode=security />
+        <at ref=t x=65 y=145 mode=security />
+        <at ref=616atb x=126 y=145 mode=rest />
+        <at ref=82i x=130 y=145 mode=defend />
+        <at ref=201stb x=124 y=146 mode=rest />
+        <at ref=13ak.hq x=129 y=146 mode=command />
+        <at ref=340i x=130 y=146 mode=defend />
+        <at ref=Torgau.sup x=12 y=147 mode=rest />
+        <at ref=202atb x=128 y=147 mode=rest />
+        <at ref=327i x=131 y=147 mode=defend />
+        <at ref=Halle.sup x=6 y=148 mode=rest />
+        <at ref=Kotzenau.sup x=28 y=148 mode=rest />
+        <at ref=g x=49 y=148 mode=security />
+        <at ref=Leipzig.sup x=8 y=149 mode=rest />
+        <at ref=2army.hq x=123 y=149 mode=command />
+        <at ref=Naumburg.sup x=5 y=150 mode=rest />
+        <at ref=Liegnitz.sup x=29 y=150 mode=rest />
+        <at ref=178i x=29 y=150 mode=training />
+        <at ref=174i x=64 y=150 mode=training />
+        <at ref=559atb x=129 y=150 mode=rest />
+        <at ref=26i x=130 y=150 mode=rest />
+        <at ref=68i x=132 y=150 mode=defend />
+        <at ref=Erfurt.sup x=1 y=151 mode=rest />
+        <at ref=4wk x=16 y=151 mode=command />
+        <at ref=Dresden.sup x=16 y=151 mode=rest />
+        <at ref=8wk x=34 y=151 mode=command />
+        <at ref=Breslau.sup x=34 y=151 mode=rest />
+        <at ref=Chemnitz.sup x=11 y=152 mode=rest />
+        <at ref=7ak.hq x=130 y=152 mode=command />
+        <at ref=202stb x=131 y=152 mode=rest />
+        <at ref=75i x=132 y=152 mode=defend />
+        <at ref=Brieg.sup x=36 y=153 mode=rest />
+        <at ref=vt x=54 y=153 mode=security />
+        <at ref=143i x=79 y=153 mode=training />
+        <at ref=88i x=134 y=153 mode=defend />
+        <at ref=lah x=141 y=153 mode=attack />
+        <at ref=dr x=141 y=153 mode=attack />
+        <at ref=tot x=141 y=153 mode=attack />
+        <at ref=Oppeln.sup x=38 y=154 mode=rest />
+        <at ref=57i x=136 y=154 mode=defend />
+        <at ref=255i x=138 y=154 mode=defend />
+        <at ref=3p x=139 y=154 mode=attack />
+        <at ref=332i x=139 y=154 mode=attack />
+        <at ref=167i x=140 y=154 mode=attack />
+        <at ref=gd x=140 y=154 mode=attack />
+        <at ref=11p x=140 y=154 mode=attack />
+        <at ref=2sspk.hq x=141 y=154 mode=command />
+        <at ref=168i x=142 y=154 mode=attack />
+        <at ref=6p x=142 y=154 mode=attack />
+        <at ref=52ak.hq x=137 y=155 mode=command />
+        <at ref=911stb x=138 y=155 mode=rest />
+        <at ref=10px x=138 y=155 mode=rest />
+        <at ref=48pk.hq x=139 y=155 mode=command />
+        <at ref=503pb x=141 y=155 mode=rest />
+        <at ref=3pk.hq x=141 y=155 mode=command />
+        <at ref=19p x=142 y=155 mode=attack />
+        <at ref=7p x=142 y=155 mode=attack />
+        <at ref=62rk.hq x=82 y=156 mode=command />
+        <at ref=4pz.army.hq x=138 y=156 mode=command />
+        <at ref=106i x=142 y=156 mode=attack />
+        <at ref=320i x=143 y=156 mode=attack />
+        <at ref=173i x=0 y=157 mode=training />
+        <at ref=147i x=98 y=157 mode=training />
+        <at ref=raus.hq x=142 y=157 mode=command />
+        <at ref=282i x=143 y=157 mode=defend />
+        <at ref=BMwk x=19 y=158 mode=command />
+        <at ref=193i x=19 y=158 mode=training />
+        <at ref=lang x=49 y=158 mode=security />
+        <at ref=154i x=62 y=158 mode=training />
+        <at ref=454i x=139 y=158 mode=security />
+        <at ref=560atb x=141 y=158 mode=rest />
+        <at ref=kempf.hq x=140 y=159 mode=command />
+        <at ref=42ak.hq x=141 y=159 mode=command />
+        <at ref=161i x=143 y=159 mode=defend />
+        <at ref=III/140ab x=140 y=160 mode=rest />
+        <at ref=39i x=142 y=161 mode=defend />
+        <at ref=177i x=34 y=162 mode=training />
+        <at ref=Amberg.sup x=4 y=163 mode=rest />
+        <at ref=203stb x=140 y=163 mode=rest />
+        <at ref=198i x=141 y=163 mode=rest />
+        <at ref=328i x=142 y=163 mode=defend />
+        <at ref=444i x=136 y=164 mode=security />
+        <at ref=57pk.hq x=142 y=164 mode=command />
+        <at ref=15i x=144 y=164 mode=defend />
+        <at ref=wik x=142 y=165 mode=rest />
+        <at ref=257i x=145 y=165 mode=defend />
+        <at ref=I/127ab x=142 y=166 mode=rest />
+        <at ref=46i x=146 y=166 mode=defend />
+        <at ref=24pk.hq x=141 y=167 mode=command />
+        <at ref=17p x=144 y=167 mode=rest />
+        <at ref=40pk.hq x=146 y=167 mode=command />
+        <at ref=333i x=148 y=167 mode=defend />
+        <at ref=38i x=152 y=167 mode=defend />
+        <at ref=62i x=153 y=167 mode=defend />
+        <at ref=Ingolstadt.sup x=0 y=168 mode=rest />
+        <at ref=II/70ab x=141 y=168 mode=rest />
+        <at ref=232stb x=147 y=168 mode=rest />
+        <at ref=387i x=150 y=168 mode=defend />
+        <at ref=30ak.hq x=151 y=168 mode=command />
+        <at ref=335i x=155 y=168 mode=defend />
+        <at ref=23p x=150 y=169 mode=rest />
+        <at ref=I/84ab x=151 y=169 mode=rest />
+        <at ref=236stb x=152 y=169 mode=rest />
+        <at ref=4ak.hq x=153 y=169 mode=command />
+        <at ref=3g x=155 y=169 mode=defend />
+        <at ref=kccr x=132 y=170 mode=security />
+        <at ref=1pz.army.hq x=138 y=170 mode=command />
+        <at ref=209stb x=148 y=170 mode=rest />
+        <at ref=304i x=155 y=170 mode=defend />
+        <at ref=Linz.sup x=16 y=171 mode=rest />
+        <at ref=II/221ab x=146 y=171 mode=rest />
+        <at ref=213i x=151 y=171 mode=security />
+        <at ref=302i x=155 y=171 mode=defend />
+        <at ref=7wk x=1 y=172 mode=command />
+        <at ref=Munchen.sup x=1 y=172 mode=rest />
+        <at ref=Wels.sup x=15 y=172 mode=rest />
+        <at ref=17wk x=28 y=172 mode=command />
+        <at ref=Wien.sup x=28 y=172 mode=rest />
+        <at ref=sccr x=132 y=172 mode=security />
+        <at ref=9mb x=137 y=172 mode=rest />
+        <at ref=210stb x=151 y=172 mode=rest />
+        <at ref=17ak.hq x=153 y=172 mode=command />
+        <at ref=6army.hq x=149 y=173 mode=command />
+        <at ref=II/40ab x=150 y=173 mode=rest />
+        <at ref=306i x=155 y=173 mode=defend />
+        <at ref=2rr x=133 y=174 mode=rest />
+        <at ref=3rr x=135 y=174 mode=rest />
+        <at ref=dccr x=138 y=174 mode=security />
+        <at ref=II/46ab x=151 y=174 mode=rest />
+        <at ref=294i x=155 y=174 mode=defend />
+        <at ref=Freilassing.sup x=8 y=175 mode=rest />
+        <at ref=18wk x=9 y=175 mode=command />
+        <at ref=111rb x=132 y=175 mode=rest />
+        <at ref=ag.south.hq x=134 y=175 mode=command />
+        <at ref=5rr x=135 y=175 mode=rest />
+        <at ref=16pg x=151 y=175 mode=rest />
+        <at ref=243stb x=153 y=175 mode=rest />
+        <at ref=336i x=155 y=175 mode=defend />
+        <at ref=29ak.hq x=153 y=177 mode=command />
+        <at ref=17i x=155 y=177 mode=defend />
+        <at ref=15lw x=156 y=178 mode=defend />
+        <at ref=Hall.sup x=0 y=179 mode=rest />
+        <at ref=188i x=0 y=179 mode=training />
+        <at ref=111i x=156 y=179 mode=defend />
+        <at ref=Graz.sup x=22 y=181 mode=rest />
+        <at ref=I/202pb x=20 y=187 mode=rest />
+        <at ref=118i x=32 y=189 mode=security />
+        <at ref=100i x=24 y=190 mode=security />
+        <at ref=187i x=25 y=190 mode=training />
+        <at ref=13p x=131 y=191 mode=rest />
+        <at ref=bergman x=126 y=192 mode=security />
+        <at ref=114i x=39 y=193 mode=security />
+        <at ref=5lw x=141 y=193 mode=security />
+        <at ref=kerch.hq x=142 y=193 mode=command />
+        <at ref=101i x=147 y=193 mode=rest />
+        <at ref=II/42ab x=147 y=193 mode=rest />
+        <at ref=50i x=149 y=193 mode=defend />
+        <at ref=191stb x=140 y=194 mode=rest />
+        <at ref=147cab x=141 y=194 mode=security />
+        <at ref=17army.hq x=143 y=194 mode=command />
+        <at ref=144cab x=143 y=194 mode=security />
+        <at ref=49gk.hq x=149 y=194 mode=command />
+        <at ref=370i x=150 y=194 mode=defend />
+        <at ref=eugen x=25 y=195 mode=security />
+        <at ref=153i x=127 y=195 mode=training />
+        <at ref=pccr x=148 y=195 mode=security />
+        <at ref=44ak.hq x=149 y=195 mode=command />
+        <at ref=125i x=149 y=195 mode=rest />
+        <at ref=II/60ab x=149 y=195 mode=rest />
+        <at ref=249stb x=149 y=195 mode=rest />
+        <at ref=79i x=150 y=195 mode=defend />
+        <at ref=98i x=150 y=195 mode=defend />
+        <at ref=180fr x=82 y=196 mode=security />
+        <at ref=202fr x=82 y=196 mode=security />
+        <at ref=ag.a.hq x=128 y=196 mode=command />
+        <at ref=149cab x=136 y=196 mode=security />
+        <at ref=97i x=150 y=196 mode=defend />
+        <at ref=ag.e.hq x=49 y=197 mode=command />
+        <at ref=serbia x=49 y=197 mode=command />
+        <at ref=5ak.hq x=149 y=197 mode=command />
+        <at ref=73i x=150 y=197 mode=defend />
+        <at ref=9i x=150 y=197 mode=defend />
+        <at ref=373i x=30 y=198 mode=security />
+        <at ref=8rr x=50 y=198 mode=rest />
+        <at ref=crimea.hq x=125 y=198 mode=command />
+        <at ref=145cab x=125 y=198 mode=security />
+        <at ref=4g x=150 y=198 mode=defend />
+        <at ref=5f.hq x=81 y=199 mode=command />
+        <at ref=148cab x=130 y=199 mode=security />
+        <at ref=190fr x=68 y=201 mode=security />
+        <at ref=297i x=52 y=203 mode=security />
+        <at ref=369i x=37 y=204 mode=security />
+        <at ref=40fr x=61 y=227 mode=security />
+        <at ref=1g x=62 y=228 mode=security />
+    </combatant>
+    <combatant name='Finland' >
+        <at ref=7bb x=111 y=44 mode=defend />
+        <at ref=3ak.hq x=111 y=45 mode=command />
+        <at ref=3i x=112 y=46 mode=defend />
+        <at ref=8bb x=111 y=47 mode=defend />
+        <at ref=14i x=120 y=55 mode=defend />
+        <at ref=Olonetseb x=121 y=56 mode=defend />
+        <at ref=6bb x=122 y=58 mode=defend />
+        <at ref=5bb x=123 y=60 mode=defend />
+        <at ref=5air x=108 y=61 mode=rest />
+        <at ref=4i x=127 y=61 mode=defend />
+        <at ref=23eb x=126 y=62 mode=rest />
+        <at ref=12ix x=128 y=62 mode=defend />
+        <at ref=6i x=129 y=62 mode=defend />
+        <at ref=3ix x=126 y=63 mode=rest />
+        <at ref=maas.hq x=128 y=64 mode=command />
+        <at ref=1i x=130 y=64 mode=defend />
+        <at ref=101ir x=128 y=65 mode=security />
+        <at ref=4eb x=108 y=67 mode=rest />
+        <at ref=ghq x=93 y=72 mode=command />
+        <at ref=2ac x=113 y=72 mode=defend />
+        <at ref=olonets.hq x=122 y=72 mode=command />
+        <at ref=1air x=126 y=72 mode=rest />
+        <at ref=aan x=129 y=72 mode=security />
+        <at ref=laat x=110 y=73 mode=security />
+        <at ref=5ak.hq x=131 y=75 mode=command />
+        <at ref=7i x=133 y=76 mode=defend />
+        <at ref=2bb x=107 y=77 mode=security />
+        <at ref=2air x=120 y=77 mode=rest />
+        <at ref=p x=121 y=77 mode=rest />
+        <at ref=11i x=130 y=77 mode=defend />
+        <at ref=3bb x=124 y=78 mode=rest />
+        <at ref=15ix x=126 y=78 mode=defend />
+        <at ref=17i x=128 y=78 mode=defend />
+        <at ref=3air x=106 y=79 mode=rest />
+        <at ref=1bb x=108 y=79 mode=security />
+        <at ref=6ak.hq x=123 y=79 mode=command />
+        <at ref=kan.hq x=100 y=80 mode=command />
+        <at ref=2sr x=101 y=80 mode=defend />
+        <at ref=5i x=124 y=80 mode=defend />
+        <at ref=1ac x=100 y=81 mode=defend />
+        <at ref=4air x=102 y=81 mode=rest />
+        <at ref=?ab x=107 y=81 mode=rest />
+        <at ref=cx x=108 y=81 mode=defend />
+        <at ref=3tb x=110 y=81 mode=defend />
+        <at ref=8i x=122 y=81 mode=defend />
+        <at ref=turku x=68 y=82 mode=defend />
+        <at ref=10i x=109 y=82 mode=defend />
+        <at ref=19ix x=110 y=82 mode=defend />
+        <at ref=15i x=111 y=82 mode=defend />
+        <at ref=2i x=107 y=83 mode=defend />
+        <at ref=18i x=106 y=84 mode=defend />
+    </combatant>
+    <combatant name='Romania' >
+        <at ref=24i x=148 y=180 mode=security />
+        <at ref=6c x=149 y=194 mode=rest />
+        <at ref=10i x=150 y=194 mode=defend />
+        <at ref=2m x=136 y=196 mode=security />
+        <at ref=9c x=148 y=196 mode=rest />
+        <at ref=19i x=149 y=196 mode=rest />
+        <at ref=4m x=127 y=197 mode=rest />
+        <at ref=3m x=148 y=197 mode=defend />
+        <at ref=1m x=150 y=198 mode=defend />
+        <at ref=ghq x=82 y=200 mode=command />
+    </combatant>
+    <combatant name='Hungary' >
+        <at ref=201i x=106 y=136 mode=security />
+        <at ref=23i x=111 y=140 mode=security />
+        <at ref=8i x=120 y=140 mode=security />
+        <at ref=VIIIac x=112 y=146 mode=security />
+        <at ref=1i x=124 y=147 mode=security />
+        <at ref=8ac.hq x=112 y=148 mode=command />
+        <at ref=25i x=99 y=149 mode=security />
+        <at ref=18i x=100 y=150 mode=security />
+        <at ref=5i x=116 y=151 mode=security />
+        <at ref=VIIac x=97 y=152 mode=security />
+        <at ref=7ac.hq x=98 y=152 mode=command />
+        <at ref=2army.hq x=108 y=156 mode=command />
+        <at ref=21i x=89 y=157 mode=security />
+        <at ref=24i x=88 y=163 mode=security />
+        <at ref=honved x=43 y=177 mode=command />
+    </combatant>
+    <combatant name='Italy' >
+        <at ref=alpi x=16 y=188 mode=security />
+        <at ref=macerata x=17 y=192 mode=security />
+        <at ref=veneto x=15 y=193 mode=security />
+        <at ref=re x=28 y=196 mode=security />
+        <at ref=isonzo x=23 y=197 mode=security />
+        <at ref=lombardia x=20 y=199 mode=security />
+        <at ref=ferrara x=39 y=199 mode=security />
+        <at ref=messina x=33 y=201 mode=security />
+        <at ref=zara x=19 y=202 mode=security />
+        <at ref=emelia x=22 y=205 mode=security />
+        <at ref=eugenio x=28 y=208 mode=security />
+        <at ref=bergamo x=29 y=211 mode=security />
+        <at ref=perugia x=39 y=212 mode=security />
+        <at ref=taurinense x=39 y=214 mode=security />
+        <at ref=arezzo x=41 y=214 mode=security />
+        <at ref=marche x=42 y=223 mode=security />
+        <at ref=parma x=45 y=224 mode=security />
+        <at ref=firenze x=49 y=228 mode=security />
+        <at ref=puglie x=42 y=229 mode=security />
+        <at ref=pinerolo x=59 y=235 mode=security />
+        <at ref=acqui x=44 y=236 mode=security />
+        <at ref=venezia x=55 y=236 mode=security />
+        <at ref=forli x=52 y=243 mode=security />
+        <at ref=cuneo x=81 y=243 mode=security />
+    </combatant>
+    <combatant name='Slovakia' >
+        <at ref=fast x=129 y=192 mode=rest />
+    </combatant>
+    <combatant name='Bulgaria' >
+        <at ref=4bx x=89 y=202 mode=security />
+        <at ref=5i x=81 y=204 mode=rest />
+        <at ref=4atr x=73 y=206 mode=rest />
+        <at ref=12i x=91 y=206 mode=rest />
+        <at ref=4army.hq x=73 y=207 mode=command />
+        <at ref=4i x=87 y=208 mode=rest />
+        <at ref=3ar x=90 y=208 mode=rest />
+        <at ref=6i x=67 y=209 mode=rest />
+        <at ref=4ar x=70 y=209 mode=rest />
+        <at ref=3army.hq x=92 y=209 mode=command />
+        <at ref=3atr x=89 y=210 mode=rest />
+        <at ref=tx x=66 y=211 mode=rest />
+        <at ref=1ar x=64 y=212 mode=rest />
+        <at ref=ghq x=65 y=212 mode=command />
+        <at ref=1atr x=66 y=212 mode=rest />
+        <at ref=1bx x=63 y=213 mode=security />
+        <at ref=1army.hq x=64 y=213 mode=command />
+        <at ref=1i x=66 y=213 mode=rest />
+        <at ref=2c x=70 y=213 mode=rest />
+        <at ref=3i x=83 y=213 mode=rest />
+        <at ref=8i x=79 y=214 mode=rest />
+        <at ref=21i x=56 y=215 mode=security />
+        <at ref=11i x=64 y=216 mode=rest />
+        <at ref=2army.hq x=73 y=216 mode=command />
+        <at ref=3bx x=89 y=216 mode=security />
+        <at ref=2i x=72 y=217 mode=rest />
+        <at ref=2ar x=75 y=217 mode=rest />
+        <at ref=7i x=54 y=218 mode=security />
+        <at ref=14i x=64 y=218 mode=rest />
+        <at ref=2atr x=78 y=218 mode=rest />
+        <at ref=5army.hq x=66 y=219 mode=command />
+        <at ref=17i x=71 y=219 mode=rest />
+        <at ref=15i x=67 y=220 mode=rest />
+        <at ref=10i x=77 y=220 mode=rest />
+        <at ref=9i x=57 y=221 mode=security />
+        <at ref=2bx x=74 y=221 mode=security />
+        <at ref=16i x=77 y=224 mode=security />
+    </combatant>
+    <territory>$a$a$ajabbdambva
+$a$a$amabbcalbua
+$a$a$alabbbacbcakbta
+$aCabchabcbabc$aLacbdalbra
+$avabchabccabccaec$aPaobpa
+$asabcfafccaccdaccbabcbacc$aMapbna
+$aqabcdabccafccacccafcbafcbabc$aJabbbabbbadbbabbbabbbadbma
+$apabcbaccbahcbabcbaccbafccahcbabc$a8a
+$arajccavc$a2abbfa
+$akadccabcbabcbahcbaxc$a0aebda
+$aaabcbacccabceagcbahcbaqcbaec$a3agbba
+_aeceabcfaecbaqcbdbcbdecbabc$a9afb
+_adccabccaeccarcjdgc$a9adb
+9adcbabcbabcbaycldicbabdcabddbbabb$aXabb
+5abcbahcbabcbapcbahcndecbdbcgdbccabb$aZa
+3abcbabcbajcbawcidbafddchdecbbbabbbabb$acabbbabbRa
+3adcbamcbdtckdbaddccidccgbcabbbabb7ahbPa
+2abcbapcddrcidbabdcabdbcidccibbaebbabbbabbbabb1aibOa
+VaccfancbibcbibcedqcidcaddbchdkbbanbZaibOa
+TadchamcdigdncbdbcgdfajdBbYagbpabbvabbbabbba
+RaicdancfiedfcbdfcldbakdFbWadbbabboafbragb
+QabcbaicbancgigdbcfdbcydHbzabbLadbbadbjabbbabbdaib
+SafcbabcbafcbibcbigciiHdLbyacbbabbbabbbabbbabbzabbdafbhahbbaib
+PabcbaccbabccabcbabcbaecfibcbibclibdbiCdObyaibxaebcaebgasb
+LafchaicfibaqiAdRbxajbsambbabbbabbbabbbasb
+KabcbabcgabcbakciibaoizdTbbabbtakbqaMb
+HabciabccagcbibcbiccjibaoiAdzbbavbsakboaOb
+PaicFiBdpbbaFbraibbabbkabbbaQb
+PaicFiCdobbafbbaBbpafbnabbbaSb
+QafcGiDdlbbacbbafbbaCbnafbmaWb
+NahcbibalibauiBdbcYbmafbnaVb
+MabcbagcIiAdecWbmagblaWb
+NabcbabcbaecHizdgcibbaNblabbbagbjaWb
+LakcpibariydhcjbbadbbaIbnagbjaWb
+KajcKixdhcjbcajbbaBboahbfabbbaWb
+JajcLiydgcfbdadbcabbbaGbpa_b
+HakcMiqdbaidfcbbbafbbafbeaDbqa_b
+HakcKiBdfchbbafbiaybhabbja_b
+GakcLiudbaddbaddecgbbaibiabbbabbbarbgafbbabbbabbca$bab
+DabcdaicNitdbahdecdacbbajboabbbalbiajbca$bab
+DaicRipdbafdcafddcdaccmbqabbbabbbabbkaEbbaTb
+CahcbabcSiBdeccadcebbaibBa$bpb
+CafccaccKibabibabibabibabibaxdbacdhcdanbza$bqb
+CaicLilaxdicbbdafbbafbza$brb
+CaicLinawddcbdccebcakbxa$btb
+CaicHibabipaBdhbbaibya$btb
+CajciibaxiraBdqbza$bsb
+zabcbabcbahckibawioabdcaAdeaobeabbfacbma$bsb
+xabcbakcGipabdcatdbagdbacdqbjafbma$bqb
+uabcbakcbabcHiqaFdrbhaibka$bqb
+wakcbaIipaIdpbjagbbabbbabbfa$brb
+vamcJinaJdpbjambbabbba$brb
+tapcIinaldcandbakdnblabbba$bCb
+rarcHimandfaidbamdebbalbbabbia$bCb
+patcfibaAilaAdbaqdsbha$bBb
+pamcbibcbibcbibcGimaSdrbha$bBb
+nafcbahcMilaVdbbbaqbbabbda$bBb
+lagccabcbaecpibawikaNdbakdbaebca$bQb
+habceadccahccibaIilaOdbakdgbca$bPb
+faicdaicJimardbaodbaudfbda$bOb
+cabcbaicbakcIioaqdbaddbamdcasdcagbba$bNb
+daucjibawikabdbabdbawdbagdbafddarddabd$bSb
+babcbaucEibabimajdbajdcacdcacdbacdbaidbaxdqbba$bzb
+xcEinawdbagdbacdbaldbahdbamd$bPb
+wcDioaxdcabdcaedbafdbabdbaxdbabdba$bOb
+wcDinavdbabdbaedbagdbabdbaCdea$bMb
+wcBipapdbajdcafdbagdbabdbavdbaedbabdba$bLb
+wczirazdbahdbafdeawdbaedbagbba$bEb
+wcyitaxdbakdbabdbabddaydbaddbagbba$bEb
+ucbaAisamdbaddbaodbabdfabdbabdbaldbakddabdca$bLb
+ucbazisaDdbagdcaddbabdbaodbahdcabdda$bKb
+ucwibaditamdcagdcaedbamdcabdbaedbajdbahdga$bKb
+ucAiuasdbaedcabdbahddabdbazdha$bJb
+ucziualdbacdbaedbaddbabdbabdbabdbacdbabdcabdbaidbabdbaqdia$bIb
+wcwivandbaedcajdcacdbabdbaidgardga$bIb
+ycuiwamdbacdbacdbajdbabdeajdhasdfalbba$bvb
+xcvivaodbaldbafdeahdkardealbba$bvb
+vcxivaRdmalddbbdea$bHb
+uclibabibakiuaAdbafdbandkahdbbbdhbba$bJb
+ucmibalivaTdlaed$bVb
+mccagcyibabitaIdbakdmaddzbca$bub
+vcpibajibabisaBdbabdbabddamdjabbbdCbba$bub
+vcBibabihabdkavdbabdjamdiaFbba$bub
+ucEigaddjabdbandbabdbabdpahddbfabbcaxbda$bAb
+ucEibabieacdlamdbabdvabdbabdgbcaDbda$bzb
+tcHigabdbabdjabdbafdAabbbabbcaebda$b5b
+rcJitacdAabcbadcbbdcdbbc$b8b
+jcbagcJiUabcbalcbbdc$b6b
+jcbafcJiJabcbabcbabcharc$b6b
+jcbafczibabieadibabiCancbabcbabcbarcbbcc$b3b
+jcbafccibafibabibajibabibagibafiBaNc$b4b
+jcbafchieaiibabibamiAaPc$b4b
+fcbabceabidchieabibatiyabcbaucbawc$b4b
+dcjahihatixaeccascdafcbaoc$b5b
+dcjahifafibaniAaccearcdaucGbba$byb
+bclahicabibagibaliCabcbabcbabcbascdascIbca$bwb
+maficajidajiBagccascdascFbha$bub
+mapicaliAafcfakcbahcbascdaEbfa$bvb
+mapibamiAadckahcbahccaqcdaIbca$bvb
+maoibamiCabckarccarc$b6b
+maoibamikabibabioabclascbarc$b6b
+nazilaciAaLc$b6b
+facchayijadiracciaLc$b6b
+dadciayiiaeipafchaKc$b7b
+cafchayiiaeinahchaKc$b7b
+bafccabcfaxijadinajcgaKcibba$bYb
+fcjaxijacioakcfaKc$b7b
+fckawijabipamcbaLc$b8b
+ecmavibabiwaYc$b9b
+ecmauibacivaEcbascHbba$bDb
+fcnaiibaiicabivaYc$b$bab
+gcbabcjasibabiwaYc$b$bab
+iciasicabiwaHcbaqc$b$bab
+eccabcjanibadiAaYc$b$bab
+dckadckiHaYc$b$bab
+dcgabcbaecbaiiJaYc$b$bab
+cchabcbaecbahiKaYc$b$bab
+bcfajccahiKaYc$b_b
+badcdagcdaiiKa2c$b6b
+fccahccadibabibabiLa6cbbbc$b0b
+fccagcmabiHaycbaMc$bYb
+cadcfaccnaciGa$ccc$bWb
+dabcfaecnabiAabcbabcbabcba$cdc$bVb
+bccabcbahcDabcbabcja$ckc$bUb
+gadcbabcgabctabcbagcja$cjc$bUb
+fabceabcgadcpalcha$cmc$bSb
+cceabcgabcbafcnancfa$cqc$bQb
+fcgaicma$cKc$bQb
+fceajcbabchaIcba$cec$bRb
+ecdapcba$cSc$bQb
+vcba$cVc$bOb
+wcbaMcba$clc$bKb
+$c$cmc$bIb
+ncba$c$cac$bGb
+$c$cqc$bEb
+$c$cqc$bEb
+$c$csc$bCb
+$c$csc$bCb
+$c$crc$bDb
+$c$cqc$bEb
+$c$cqc$bEb
+$cGcbaLcfbdc$bFb
+$c$cfc$bPb
+$c$cfc$bPb
+$c$cfc$bPb
+$c$cfc$bPb
+$c$cfc$bPb
+$c$cgc$bOb
+$c$cgc$bOb
+$c$cgc$bOb
+$c$chc$bNb
+$c$chc$bNb
+$c$cic$bMb
+$c$ckcfbbc$bEb
+$c$crc$bDb
+$c$crc$bDb
+$c$csc$bCb
+$c$csc$bCb
+$c$csc$bCb
+$c$csc$bCb
+$c$crc$bDb
+Vcbh$cGc$bDb
+RcbhdcbhNcbefcbebcbeUc$bEb
+PcdhbcehccbhbcbhbcfhBcdebcheUc$bCb
+OckhbckhAcleVc$bBb
+NczhbcbfvckeXc1bbaJb
+NcyhdfvcleYc8bbaAb
+LcAhfftcneYcbbdc$bsb
+IcChifrcpe2c$bqb
+Hcuhbfbhbfbhbfdhkfrcoe2c$bqb
+Gcuhifbhlflcve0c$bkbbafb
+GcthxfhcyeZc$bqb
+GcphCfgcyeZc$bqb
+GclhbfbhbfbhDfdcFeUc$bqb
+GccfjhHfdcHeSc$bqb
+DcbfbabcefbhbfbhbfbhbfbhHfbcJeSc$bqb
+CccfbaUfJeSc$bqb
+EcWfIeSc$bqb
+DcXfKeRc$bpb
+CcZfLePcba$bob
+dcbgyc0fKeHcbabcbabcbabcda$bgbbahb
+egxckfbavfbebfbebfbesfIeGcja$bfbfafb
+egwcjfcawfgerfJeCcka$bfbjabbca
+ggwcgfbaxfhesfHezcbabcbabcia$bfboa
+kgbcbgqcDfjesfBebabefavcla$bebbabbqa
+ngocdnBfneofAegaccbascnaBbbaMbta
+oglcfnAfqebfdejfwebabegauctaybbaKbua
+ogjcjnnfdnbfbnbfBehfyejadcbabcbaecdaccvaAbbaIbua
+ogjcknkfhnEeffwetaccdabcvabbba6bwa
+ogjclnffbnbflnCedfyeuafctabbba1bbaebya
+oghcpnbfbnbfnnZebabesakcsa4bbabbbabbya
+hgeaeggcGnYebabeqancqa5bCa
+eghafgcnbcbnbcHnYeqapceabcbabcdabcea4bDa
+cgiaggMnQebaheqabcbaocdaecbaecbabc3byabbbabbbabbba
+cgiaegbabgOnWeuascbabcbagc2byagb
+eggaegbabgbaNnWewalcbadcdabcbafc2byagb
+eghacgdabgCnbcknRebaeewalckaec1bxaib
+dglabgcaAndcdnccenSedabexahcbabcnadc0bzahb
+oabgdaznpcdebcLeAagctabcZbxabbdagb
+cgqaznqcbedcKeBafcvaYbwaebbagb
+dgqaxnucLeDabczaXbvalb
+dgqaznscKe6aYbsabbbajb
+egpaznscckxebkbebkbebkge7aXbvaib
+egqaxnbcbnqcdktebkbehkge8aXbvahb
+ggpawnscdkbebkpenkde$aaaWbuahb
+igoavnscjkbebkbebkbebkfepkbe$acaUbvagb
+jgoaqnbcbnbcbnscKk$acaUbwafb
+kgoabnbannxcJk$aeaSbxaeb
+kgqaonxcFk$ajaQbxaeb
+kguaknycDk$akaQbyadb
+kgtabncahnycEk$anaNbzacb
+lgqadginxcGk$aoaNbzabb
+lgvagnxcGk$aqaLbAa
+mgwaenxcEk$ataLbza
+mgyacnfcfgncEk$ataMbya
+ngzafcfgncFk$ataMbxa
+ogyabcbabcbahglcGk$ataNbwa
+qgyacchgnczkbjgk$araObva
+sgdabgbabgqacchgocwkbjbkdjbkbjbkbjDabjbabjbabjbabjbabjbabjbabjNaNbva
+ygsahgocvkkjBabjbanjNaPbta
+xguaggocvkkjzatjbabjbabjFaSbsa
+baugvahgocwkjjxazjFabjbbbjdbcjLbra
+caugbabgsaggpcwkljtaBjFafjbbdjKbra
+dacgbaugqahgqcuknjqaEjbabjzamjJbra
+iaugoahgbaoctkvjbabjbabjbabjdaJjdabjjabjhaqjIbqa
+javgmahgbabcbaocjkbahkijbabjbabjba4jfabjbafjdatjIbpa
+javgmajgbaqcdkhabkbadkhjka2jbaFjsbbaqboa
+maugjakgrcbkdackhaijma$jxjJbna
+lacgbaughakgrceabkjabjbabjbadjka$jzjibbaAbbabbla
+pamgbaggiajgkcbagckabkgacjeacjfa$jzjkbcaCbja
+palgcaigfajglcdadcbaccnadjbadjbafjba$jAjkbcaBbbabbia
+oalghaeggahgmcfacccabcjabjbacjba$jNjlbbaybma
+qajgiadgiadgoceabccabcna$jRjbbbjGbna
+taggiacgjadgocfabciaccfa$jVjEbna
+tafgkabgiabgbacgpcoabcfa$jVjEbna
+tafgbabgqacgbabgqcva$jUjDboa
+uaggsabgbarctabjbabjba$jRjDboa
+uaigqabgbasctabcda$jPjFbna
+vahgsaqctadcca$jPjDbbabboa
+vahguabcbamceabcpadcba$jPjCbcabboa
+vaggwabcbaoctabcca$jJjbaejDbqa
+vaegyamcdaccgabcoa$jHjeaejCbqa
+tabgbadgxaccbanccadcbabcra$jFjeagjCbqa
+tafgAapcbaeclabccabcba$jFjfagjCbqa
+tafgBaicbakclabccabcbabjba$jDjbabjdagjCbqa
+</territory>
+    <forts>$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$atadg$aya
+$a$asabg$aBa
+$a$asabg$aBa
+$a$asacgbabg$aya
+$a$auabg$aza
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$aracgbd$aAa
+$a$aqabgcebdiabc$ara
+$a$aqabgbfcabdhabc$ara
+$a$ahakgcacdbcgabc$ara
+$a$afacgcabfbaegbdbabdbabdcabcfacc$aqa
+$a$afabgbacfbabfdabdbabdbabdbabdbabcgabc$aqa
+$a$afabgbabffacdfabdbabchabc$apa
+$a$afabgbabfeabdgacdcchabc$apa
+$a$afabgcadfbabccebddabdbabciabc$apa
+$a$agabgbabfbabfbebccdbacdbabdbcjabc$apa
+$a$agabgeabebabcdabdbabdbcjabc$apa
+$a$agacgbacfdacccabdbabdjacc$aoa
+$a$ahacgbfbaffcccacdjabc$aoa
+$a$ahabgbabgbfeabgcabcdacdhabcbabc$ama
+$a$aiakgccdabccdgabcbabc$ala
+$a$akakgccbdbccacdgabc$ala
+$a$amadgbacgbabgccbdbckacc$aka
+$a$aqacgbabgcfbabclabc$aka
+$a$aqadgbabf$aza
+$a$asabg$aBa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+$a$a$aUa
+</forts>
+</deployment>

@@ -1,0 +1,2935 @@
+<TOEs combatant=Germany>
+
+	These TOEs are trying to reflect the full range of manpower assigned to field forces.
+	Thus these TOEs generally include all support elements.  The reason is that the game
+	model is designed to give each of these elements some role to play in the game.  In
+	general, support functions are carried out automatically, so the player need not be
+	concerned with managing those units unless they really feel the urge.
+
+	I have tried to put significant efforts into producing good TOE's.  As I have uncovered
+	ever more detailed TOE data on the respective combatants, I have realized that TOEs
+	are a subject far more extensive than I want to address in its entirety (if that would 
+	even be possible).  For example, the Germans alone issued thousands of different TOEs
+	throughout the war.
+
+	Even if someone were to uncover all of those TOEs and then code them, they would still
+	be faced with the challenge of discovering whether and when any given field unit conformed 
+	to that TOE or a different one.  Field units often did not change their composition
+	for a long period of time when a new TOE was issued.  In other cases, old units retained
+	their old structure alongside newer units raised under a different TOE.
+
+	Knowing the designation (infantry, panzer, etc.) of a unit usually isn't enough to know
+	the exact TOE of the unit.
+
+	Plus, most units had variations of one sort or another that departed completely from any
+	given TOE.  Independent units were routinely attached to larger formations for specific
+	missions, but then stayed with their new organizations for long periods of time.  Units
+	also periodically renumbered subunits so that temporary attachments dissolved into 
+	permanent new organizations.
+
+	Finally, forces deployed in quiet sectors, particularly German occupation troops, tended
+	to acquire lots of ad hoc organization by scavenging captured equipment (since these units 
+	rarely had priority for top of the line weapons).  But using captured equipment was not
+	limited to esoteric outposts.  During the very battle of Kursk itself, a unit no less than 
+	the SS Das Reich Division used Russian T-34 tanks because their Panthers were still back at
+	the factory in Germany.
+
+	The practical reality is that the TOEs for this game have to be a simplified form of the
+	actual force levels.  
+
+
+	UID Patterns to construct the uid from a toe, the following patterns are used:
+
+	The uid is constructed by taking the 'des' attribute string for the unit concatenated with the 
+	UIDPat string from the toe.
+
+	The uidpat strings are designed to be very compact yet somewhat mnemonic.  The first portion 
+	of the uidpat string identifies the unit 'series'.  All military organizations made every effort
+	to ensure units had unique identification, usually some form of number together with a unit type
+	classification.  However, several different unit types were often grouped so that they did not 
+	duplicate a number.  For example, German infantry, mountain and jaeger regiments did not duplicate 
+	numbers.  There were always exceptions.  Several Soviet militia divisions recruited in different
+	locales were nevertheless assigned identical unit numbers.  In the German army, the 8th motorized
+	infantry regiment and the 8th rifle regiment both eventually were converted to panzer grenadier
+	regiments, forcing the 8th rifle regiment to be renumbered.  The Germans numbered the rifle regiments
+	(that were organic to the early panzer divisions) in their own sequence, so they overlapped with
+	the low numbered infantry regiments.  Later nomenclature and tactical evolution converged on the
+	single regimental form and for a while, apparently, both regiments existed with the same name 
+	and number before the old 8th rifle got renumbered.
+
+	The whole point of the exercise is to identify units accurately and compactly.  Also, a certain
+	degree of error checking is built in to using 'series' ids.  The parser for all this information
+	cross-checks that no two units with the same UID are defined.  This can be used to avoid mistakes
+	that might otherwise be overlooked has the uid's used the exact toe name string.
+
+	So the German uidpat type strings are:
+
+		Artillery			a
+		Cavalry				c
+		Engineer			e
+		Gebirgs (Mountain)	g
+		Infantry			i
+		Panzer				p
+		Rifle				s
+		Rocket				r
+		Flak				f
+
+	The unit size (all nations) strings are:
+
+		division			(none)
+		army				a
+		battalion			b
+		company				c
+		corps				k
+		regiment			r
+		brigade				x
+
+
+		-- German TOEs --
+
+			-- HQ Units --
+
+	<toe name=okw size=GHQ badge=okw hq >
+		<equip general=10
+				sroff=40
+				jroff=200
+				svc=400
+				rifle=100
+				sd305=50
+				kubel=8
+				mcycle=20
+				mcycle-sc=10
+		 />
+	</>
+	<toe name=ag.hq des="Army Group # HQ" size=XXXXX badge=hq3 hq >
+		<equip 
+			general=1
+			sroff=15
+			jroff=25
+			svc=180
+			kubel=16
+			sd305=20
+		 />
+	</>
+	<toe name=wehrbf size=XXXX badge=hq2 hq carriers=2wd>
+		<equip
+			general=1
+			sroff=6
+			jroff=48
+			svc=49
+			rifle=125
+			.lt.veh=11
+			.med.veh=9
+			.hvy.veh=2
+			.lt.tr=3
+			.med.tr=3
+			omnibus=1
+			mcycle=10
+			bike=12
+		 />
+	</>
+	<toe name=pz.gp.hq des="Panzer Group # HQ" size=XXXX badge=hq2 hq >
+		<equip 
+			general=1
+			sroff=15
+			jroff=25
+			svc=180
+			kubel=16
+			sd305=20
+		 />
+		<section toe=pz.gp.med.reg pattern=*/>
+		<section toe=pz.gp.sup.reg pattern=*/>
+		<section toe=mp.bn pattern=*/>
+		<section toe=mcycle.sec.bn pattern=*/>
+		<section toe=pz.gp.qtrmast.bn pattern=*/>
+		<section toe=pz.gp.rep.bn pattern=*/>
+		<section toe=post.co pattern=*/>
+	</>
+	<toe name=army.hq des="# Army HQ" size=XXXX badge=hq2 hq carriers=horse>
+		<equip 
+			general=1
+			sroff=15
+			jroff=25
+			svc=180
+			kubel=16
+			sd305=20
+		 />
+		<section toe=med.hosp.reg pattern=*/>
+		<section toe=med.reg pattern=*/>
+		<section toe=army.sup.reg pattern=*/>
+		<section toe=army.sec pattern=*/>
+		<section toe=qtrmast.bn pattern=*/>
+		<section toe=rep.bn pattern=*/>
+		<section toe=post.co pattern=*/>
+		<section toe=vet.bn pattern=*/>
+	</>
+	<toe name=lw.corps.hq des="@ LW Corps HQ" toe=corps.hq />
+	<toe name=mtn.corps.hq des="@ Mountain Corps HQ" toe=corps.hq />
+	<toe name=pz.corps.hq des="@ Panzer Corps HQ" toe=corps.hq />
+	<toe name=res.corps.hq des="@ Reserve Corps HQ" toe=corps.hq />
+	<toe name=wk.hq uidpat=wk des="WK @ HQ" toe=corps.hq/>
+	<toe name=corps.hq des="@ Corps HQ" size=XXX badge=hq4 hq carriers=horse>
+		<equip 
+			general=1
+			sroff=3
+			jroff=13
+			svc=43
+			doctor=1
+			medic=4
+			kubel=2
+			mcar=2
+			hcar=1
+			omnibus=2
+			sd305=12
+			rifle=11
+			lmg-42=2
+		 />
+	</>
+	<toe name=sm.div.hq badge=hq size=XX hq carriers=horse>
+		<equip 
+			general=1
+			sroff=8
+			jroff=15
+			svc=122
+			kubel=10
+			sd305=8
+		 />
+		<section hq.map.sec=* />
+		<section hq.sec.plat=* />
+		<section sig.co=*/>
+		<section div.sup=*/>
+	</>
+	<toe name=div.hq badge=hq size=XX hq carriers=horse des="# HQ">
+		<equip 
+			general=1
+			sroff=8
+			jroff=15
+			svc=122
+			kubel=10
+			sd305=8
+		 />
+		<section hq.map.sec=* />
+		<section hq.sec.plat=* />
+		<section sig.bn=*/>
+		<section div.sup=*/>
+	</>
+	<toe name=mot.div.hq badge=hq size=XX hq carriers=horse des="# HQ">
+		<equip 
+			general=1
+			sroff=8
+			jroff=15
+			svc=122
+			kubel=10
+			sd305=8
+		 />
+		<section hq.map.sec=* />
+		<section hq.sec.plat=* />
+		<section sig.bn=*/>
+		<section mot.div.sup=*/>
+	</>
+	<toe name=pz.div.hq badge=hq size=XX hq carriers=horse des="# HQ">
+		<equip 
+			general=1
+			sroff=8
+			jroff=15
+			svc=122
+			kubel=10
+			sd305=8
+		 />
+		<section hq.map.sec=* />
+		<section hq.sec.plat=* />
+		<section sig.bn=*/>
+		<section pz.div.sup=*/>
+	</>
+	<toe name=mot.bg.hq badge=hq size=X hq des="# HQ">
+		<equip
+			sroff=2
+			jroff=5
+			kubel=2
+			mcycle=3
+			mcycle-sc=2
+			svc=164
+			sd305=15
+		 />
+		<section sig.pltn=* />
+	</>
+	<toe name=bg.hq badge=hq size=X des="# HQ" hq>
+		<equip
+			sroff=2
+			jroff=5
+			kubel=2
+			mcycle=3
+			mcycle-sc=2
+			svc=164
+			wagon=5
+		 />
+		<section sig.pltn=* />
+	</>
+	<toe name=mot.reg.hq badge=hq size="I I I" hq>
+		<equip
+			sroff=2
+			jroff=5
+			svc=164
+			sd305=13
+			kubel=3
+		 />
+		<section sig.pltn=* />
+	</>
+	<toe name=reg.hq badge=hq size="I I I" hq>
+		<equip
+			sroff=2
+			jroff=5
+			kubel=2
+			mcycle=3
+			mcycle-sc=2
+			svc=164
+			wagon=5
+		 />
+		<section sig.pltn=* />
+	</>
+	<toe name=art.reg.hq badge=hq size="I I I" hq des="# Artillery HQ">
+		<equip
+			sroff=2
+			jroff=5
+			scout=3
+			svc=38
+			truck=10
+		 />
+		<section sig.pltn=* />
+		<section art.sup.co=* />
+	</>
+	<toe name=mot.art.reg.hq badge=hq size="I I I" hq des="# Artillery HQ">
+		<equip
+			sroff=2
+			jroff=5
+			scout=3
+			svc=38
+			truck=10
+		 />
+		<section sig.pltn=* />
+		<section mot.sup.co=* />
+	</>
+	<toe name=mot.bn.hq badge=hq size="I I" carriers=2wd hq>
+		<equip
+			jroff=4
+			kubel=3
+			svc=14
+			sd305=9
+			radio=8
+			telephone=8
+			mcycle=6
+			mcycle-sc=3
+		 />
+	</>
+	<toe name=mot.recce.bn.hq badge=hq size="I I" carriers=2wd hq>
+		<equip
+			jroff=4
+			kubel=3
+			svc=14
+			radio=20
+			telephone=30
+			sd305=12
+			mcycle=6
+			mcycle-sc=3
+		 />
+	</>
+	<toe name=art.bn.hq badge=hq size="I I" carriers=2wd hq>
+		<equip
+			jroff=5
+			svc=194
+			kubel=3
+			mcycle=19
+			mcycle-sc=1-
+			radio=8
+			telephone=8
+			sd305=54
+			sdkfz6=3
+		 />
+	</>
+	<toe name=bn.hq badge=hq size="I I" hq>
+		<equip
+			jroff=5
+			svc=42
+			mount=12
+			wagon=7
+			mcycle=4
+			bike=12
+			radio=8
+			telephone=8
+			sd305=1
+			truck=2
+		 />
+	</>
+	<toe name=recce.bn.hq badge=hq size="I I" hq>
+		<equip
+			jroff=5
+			svc=42
+			mount=12
+			wagon=7
+			mcycle=4
+			bike=12
+			radio=20
+			telephone=30
+			sd305=6
+			truck=2
+		 />
+	</>
+	<toe name=pz.bn.hq badge=hq size="I I" hq>
+		<equip
+			jroff=4
+			radio=8
+			telephone=13
+			eng=48
+			sdkfz10=3
+			rifle=20
+			tankrepair=44
+			svc=41
+			kubel=3
+			sd305=13
+			mcycle=5
+			mcycle-sc=3
+		 />
+	</>
+
+		-- Higher Commands --
+
+	<toe name=ag uidpat=ag des="Army Group #" badge=army size=XXXXX>
+		<section ag.hq />
+	</>
+	<toe name=army uidpat=army des="# Army" badge=army size=XXXX >
+		<section army.hq />
+	</>
+	<toe name=pz.gp uidpat=pz.gp des="# Panzer Group" badge=arm size=XXXX >
+		<section pz.gp.hq >
+			<section sig.reg=* />
+		</>
+	</>
+	<toe name=pz.army uidpat=pz.army des="# Panzer Army" badge=arm size=XXXX >
+		<section army.hq >
+			<section sig.reg=* />
+		</>
+	</>
+	<toe name=sspk uidpat=sspk des="@ SS Panzer Corps" colors=SS badge=arm toe=pzk />
+	<toe name=pzk uidpat=pk des="@ Panzer Corps" badge=arm size=XXX >
+		<section pz.corps.hq />
+	</>
+	<toe name=ssak uidpat=ssak des="@ SS Corps" colors=SS toe=ak />
+	<toe name=lwk uidpat=lwk des="@ LW Corps" colors=LW toe=ak />
+	<toe name=fsk uidpat=fsk des="@ Airborne Corps" badge=para.inf toe=ak />
+	<toe name=cvk uidpat=ck des="@ Cavalry Corps" badge=cav toe=ak />
+	<toe name=resk uidpat=rk des="@ Reserve Corps" toe=ak />
+	<toe name=mtnk uidpat=gk des="@ Mountain Corps" badge=mtn toe=ak />
+	<toe name=motk uidpat=mk des="@ Corps (mot.)" badge=mot.inf toe=ak />
+	<toe name=ak uidpat=ak des="@ Corps" badge=inf size=XXX >
+		<section corps.hq />
+	</>
+
+		-- Armored units --
+
+	<toe name=pz.div uidpat=p des="# Panzer" badge=arm size=XX carriers=ftrack>
+		<section toe=pz.div.hq/>
+		<section toe=pz.reg pattern=*/>
+		<section toe=pg.reg quant=2 carriers=2wd />
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=pz.aufk.bn pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=lt.div uidpat=L des="# Light" badge=arm.cav size=XX carriers=ftrack>
+		<section toe=mot.div.hq/>
+		<section toe=lt.pz.bn pattern="@"/>
+		<section toe=cav.rifle.reg quant=2 carriers=2wd />
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=aufk.bn pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=ind.pz.bg uidpat=px badge=arm size=X des="# Panzer" carriers=ftrack>
+		<section toe=mot.bg.hq >
+			<section toe=mot.sup60.co />
+		</>
+		<section toe=med.pz.bn />
+		<section toe=pg.bn />
+		<section toe=arm.eng.co />
+	</>
+	<toe name=pz.bg uidpat=px badge=arm size=X des="# Panzer" carriers=ftrack>
+		<section toe=mot.bg.hq/>
+		<section toe=pz.reg quant=2/>
+	</>
+	<toe name=pz.reg uidpat=pr badge=arm size="I I I" des="# Panzer" carriers=ftrack>
+		<section toe=mot.reg.hq/>
+		<section toe=med.pz.bn pattern="@"/>
+		<section toe=lt.pz.bn pattern="@"/>
+	</>
+	<toe name=ss.pz.reg uidpat=sspr badge=arm size="I I I" des="# SS Panzer" colors=SS>
+		<section toe=mot.reg.hq/>
+		<section toe=ss.hvy.pz.bn pattern=@/>
+		<section toe=med.pz.bn pattern=@/>
+		<section toe=lt.pz.bn pattern=@/>
+	</>
+	<toe name=panther.bn.kursk des="# Panzer" badge=arm size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<equip pz5=2 />
+		</>
+		<section badge=arm size=I quant=4>
+			<equip
+				pz5=6
+			 />
+		</>
+	</>
+	<toe name=hvy.pz.bn uidpat=pb des="# Schwere Panzer" badge=hvy.arm size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<equip pz6e=3/>
+		</>
+		<section badge=hvy.arm size=I quant=3>
+			<equip
+				pz6e=17
+			 />
+		</>
+	</>
+	<toe name=ss.hvy.pz.bn badge=hvy.arm colors=SS size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+		</>
+		<section badge=hvy.arm size=I >
+			<equip
+				pz6e=9
+			 />
+		</>
+	</>
+	<toe name=ss.lah.pz.bn size="I I" colors=SS badge=arm carriers=ftrack des="# Panzer">
+		<section toe=pz.bn.hq>
+			<equip pz4g=3 />
+		</>
+		<section badge=arm size=I quant=2 carriers=ftrack>
+			<equip
+				pz4g=15
+			 />
+		</>
+	</>
+	<toe name=med.pz.bn uidpat=pb size="I I" badge=arm carriers=ftrack des="# Panzer">
+		<section toe=pz.bn.hq>
+			<equip pz4g=3 />
+		</>
+		<section badge=arm size=I quant=4 carriers=ftrack>
+			<equip
+				pz4g=15
+			 />
+		</>
+	</>
+	<toe name=lt.pz.bn size="I I" badge=arm des="# Panzer" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<equip pz3n=3 />
+		</>
+		<section toe=lt.pz.co quant=4/>
+	</>
+	<toe name=brummbar.bn des="# Panzer" badge=arm.art size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq/>
+		<section badge=arm.art size=I quant=2>
+			<equip
+				brummbar=23
+			 />
+		</>
+	</>
+
+		This is the AG Finland panzer battalion - mostly french tanks
+
+	<toe name=fin.pz.bn uidpat=pb des="# Panzer" badge=arm size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<equip  char35=2
+					h39=1 />
+		</>
+		<section badge=arm size=I quant=2>
+			<equip
+				char35=6
+				h39=16
+			 />
+		</>
+	</>
+	<toe name=nas.bn uidpat=atb des="# schw. Panzer Jaeger - Hornisse" badge=hvy.arm.at size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<section badge=hvy.arm.at size=p>
+				<equip nashorn=3 />
+			</>
+		</>
+		<section badge=hvy.arm.at size=I quant=3>
+			<equip
+				nashorn=14
+				lmg-42=16
+				sd305=12
+				rifle=110
+			 />
+		</>
+	</>
+	<toe name=ele.bn des="# Schwere Panzer Jaeger" badge=hvy.arm.at size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<section badge=hvy.arm.at size=p>
+				<equip elefant1=3 />
+			</>
+		</>
+		<section badge=hvy.arm.at size=I quant=3>
+			<equip
+				elefant1=14
+				lmg-42=14
+				sd305=10
+				rifle=110
+			 />
+		</>
+	</>
+	<toe name=pzjg38.bn des="# Panzer Jaeger (sp)" badge=arm.at size="I I" carriers=ftrack>
+		<section toe=pz.bn.hq>
+			<section badge=hvy.arm.at size=p>
+				<equip pzjg38=3 />
+			</>
+		</>
+		<section badge=arm.at size=I quant=3>
+			<equip
+				pzjg38=14
+				lmg-42=16
+				sd305=12
+				rifle=110
+			 />
+		</>
+	</>
+	<toe name=pg.stug.bn badge=ag size="I I" des="# Sturmgeschutzen" carriers=ftrack>
+		<section badge=hq size="I I" hq>
+			<equip
+				jroff=4
+				stug3g=3
+				radio=8
+				telephone=13
+				eng=48
+				sdkfz10=3
+				rifle=20
+				tankrepair=44
+				svc=41
+				sd305=15
+			 />
+		</>
+		<section badge=ag size=I quant=3>
+			<equip
+				jroff=3
+				stug3g=10
+				rifle=40
+				svc=14
+				sd305=4
+				kubel=1
+			 />
+		</>
+	</>
+	<toe name=stug.bg uidpat=stx des="# Sturmgeschutzen" badge=ag size=X carriers=ftrack>
+		<section badge=hq size="I I" hq>
+			<equip
+				jroff=4
+				radio=8
+				telephone=13
+				eng=48
+				sdkfz10=3
+				rifle=20
+				tankrepair=44
+				svc=41
+				sd305=15
+			 />
+		</>
+		<section toe=stug.co quant=3/>
+	</>
+	<toe name=lw.stug.bn uidpat=lwstb des="# Sturngeschutzen der. LW" colors=LW toe=stug.bn />
+	<toe name=stug.bn uidpat=stb des="# Sturmgeschutzen" badge=ag size="I I" carriers=ftrack>
+		<section badge=hq size="I I" hq>
+			<equip
+				jroff=4
+				radio=8
+				telephone=13
+				eng=48
+				sdkfz10=3
+				rifle=20
+				tankrepair=44
+				svc=41
+				sd305=15
+			 />
+		</>
+		<section toe=stug.co quant=3/>
+	</>
+	<toe name=lt.pz.co badge=arm size=I des="# Panzer" carriers=ftrack>
+		<equip
+			pz3n=15
+		 />
+	</>
+	<toe name=stug.co uidpat=stc des="# Sturmgeschutzen" badge=ag size=I carriers=ftrack>
+		<equip
+			jroff=3
+			stug3g=10
+			rifle=40
+			svc=14
+			sd305=4
+			kubel=1
+		 />
+	</>
+
+		-- Mobile Units --
+
+	<toe name=mot.div uidpat=m des="# Motorized" badge=mot.inf size=XX carriers=2wd>
+		<section toe=mot.div.hq/>
+		<section toe=mot.inf.reg quant=2/>
+		<section badge=art size="I I I" carriers=2wd pattern=*>
+			<section toe=art.reg.hq/>
+			<section toe=mot.art.bn quant=3 pattern=@/>
+			<section toe=hvy.art.bn pattern=@/>
+		</>
+		<section toe=mot.inf.recce.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=pg.div uidpat=pg des="# Panzergrenadier" badge=mech size=XX carriers=ftrack>
+		<section toe=mot.div.hq/>
+		<section toe=pg.reg quant=2/>
+		<section toe=lt.pz.bn pattern=*/>
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=pg.stug.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=ss.pz.div uidpat=ss des="# SS Panzer" colors=SS badge=arm size=XX carriers=ftrack>
+		<section toe=pz.div.hq/>
+		<section toe=ss.pz.reg/>
+		<section toe=ss.pg.reg quant=2/>
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mcycle.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=pg.stug.bn pattern=*/>
+		<section toe=flak.bn colors=SS pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=ss.mot.inf.div uidpat=ss des="# SS Motorized Infantry" colors=SS badge=mot.inf toe=ss.pg.div/>
+	<toe name=ss.pg.div uidpat=ss des="# SS Panzergrenadier" colors=SS badge=mech size=XX carriers=ftrack>
+		<section toe=mot.div.hq/>
+		<section toe=ss.pz.reg/>
+		<section toe=ss.mot.inf.reg quant=2/>
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mcycle.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=pg.stug.bn pattern=*/>
+		<section toe=flak.bn colors=SS pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=gd.pg.div des="# Panzergrenadier" badge=mech size=XX carriers=ftrack>
+		<section toe=mot.div.hq/>
+		<section badge=mech size="I I I" quant=2>
+			<section toe=mot.reg.hq/>
+			<section toe=ss.pg.bn quant=3 pattern=@/>
+			<section toe=flak.co pattern=%/>
+			<section toe=mot.inf.art.co pattern=%/>
+			<section toe=mot.at.co pattern=%/>
+		</>
+		<section badge=arm size="I I I" pattern=*>
+			<section toe=art.reg.hq/>
+			<section toe=ss.hvy.pz.bn pattern=@/>
+			<section toe=med.pz.bn pattern=@/>
+			<section toe=lt.pz.bn pattern=@/>
+		</>
+		<section toe=pg.stug.bn pattern=*/>
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mcycle.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=h.flak.bn pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=ss.mot.bg uidpat=ssmx des="# Motorized" badge=mot.inf size=X carriers=2wd>
+		<section toe=bg.hq />
+	</>
+	<toe name=rifle.bg uidpat=sx badge=mot.inf size=X des="# Rifle" carriers=2wd >
+		<section toe=mot.bg.hq/>
+		<section toe=rifle.reg quant=2 carriers=2wd/>
+	</>
+	<toe name=pg.bg uidpat=pgx badge=mech size=X des="# Panzergrenadier" carriers=2wd >
+		<section toe=mot.bg.hq/>
+		<section toe=pg.reg quant=2 carriers=2wd/>
+	</>
+	<toe name=mot.bg uidpat=mx des="# Motorized" badge=mot.inf size=X carriers=2wd>
+		<section toe=bg.hq/>
+		<section toe=mot.inf.reg />
+		<section toe=mot.eng.bn/>
+		<section toe=mot.at.bn/>
+		<section toe=mot.art.bn/>
+	</>
+	<toe name=gd.mot.reg uidpat=mr des="# Motorized" badge=mot.inf size="I I I" carriers=ftrack>
+		<section toe=mot.reg.hq />
+		<section badge=mot.inf size="I I" pattern=@ quant=3 >
+			<section toe=mot.inf.co pattern=% quant=3 />
+			<section toe=mot.mgun.co pattern=% />
+			<section toe=mot.hvy.co pattern=% />
+		</>
+		<section badge=mot.hvy size="I I" pattern=@ >
+			<section toe=mot.bn.hq/>
+			<section toe=flak.co pattern=% />
+			<section toe=mot.inf.art.co pattern=% />
+			<section toe=mot.at.co pattern=% />
+		</>
+	</>
+	<toe name=gd44.mot.reg uidpat=mr des="# Motorized" badge=mot.inf size="I I I" carriers=ftrack>
+		<section toe=mot.reg.hq />
+		<section toe=mot.inf.bn quant=3 />
+		<section toe=mot.inf.art.co pattern=% />
+		<section toe=mot.eng.co pattern=% />
+		<section toe=mot.at.co pattern=% />
+		<section toe=flak.co pattern=% />
+	</>
+	<toe name=ss.mot.inf.reg badge=mot.inf toe=ss.pg.reg des="# SS motorized Infantry"/>
+	<toe name=ss.pg.reg badge=mech size="I I I" des="# SS Panzer Grenadier" colors=SS>
+		<section toe=mot.reg.hq/>
+		<section toe=ss.pg.bn quant=3 pattern=@/>
+		<section toe=flak.co pattern=%/>
+		<section toe=mot.inf.art.co pattern=%/>
+		<section toe=mot.at.co pattern=%/>
+		<section toe=mcycle.co pattern=%/>
+	</>
+	<toe name=pg.reg badge=mech size="I I I" des="# Panzer Grenadier" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=pg.bn quant=3 pattern="@"/>
+		<section toe=mot.inf.art.co pattern=%/>
+	</>
+	<toe name=pz.pg.reg badge=mech size="I I I" des="# Panzer Grenadier" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=pg.bn quant=2 pattern="@"/>
+		<section toe=mot.inf.art.co pattern=%/>
+	</>
+	<toe name=rifle.reg uidpat=sr badge=mot.inf size="I I I" des="# Rifle" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=rifle.bn quant=2 pattern=@/>
+		<section toe=mot.inf.art.co pattern=%/>
+	</>
+	<toe name=cav.rifle.reg uidpat=ksr toe=mot.inf.reg des="# Cavalry Rifle" badge=mot.cav carriers=2wd/>
+	<toe name=mot.inf.reg uidpat=mr badge=mot.inf size="I I I" des="# Motorized" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=mot.inf.bn quant=3 pattern=@/>
+		<section toe=mot.inf.art.co pattern=%/>
+	</>
+	<toe name=ss.pol.mtn.reg uidpat=ssgr badge=mtn colors=SS toe=sec.reg des="# SS Police Mountain"/>
+	<toe name=sec.reg badge=sec size="I I I" carriers=2wd des="# Security">
+		<section toe=reg.hq/>
+		<section toe=sec.bn quant=3 pattern=@/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=sec4.reg badge=sec size="I I I" carriers=2wd des="# Security">
+		<section toe=reg.hq/>
+		<section toe=sec.bn quant=4 pattern=@/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=bdr.reg badge=bdr size="I I I" carriers=2wd des="# Border">
+		<section toe=reg.hq/>
+		<section toe=bdr.bn quant=3 pattern=@/>
+	</>
+	<toe name=rifle.bn des="# Rifle" toe=mot.inf.bn />
+	<toe name=mot.inf.bn badge=mot.inf size="I I" des="# Motorized Infantry" carriers=2wd>
+		<section toe=mot.bn.hq/>
+		<section toe=mot.inf.co quant=3 pattern=% />
+		<section toe=mot.mgun.co pattern=% />
+	</>
+	<toe name=mech.bn badge=mech size="I I" des="# Mechanized Infantry">
+		<section toe=mot.bn.hq/>
+		<section toe=mech.co quant=3 pattern=% />
+		<section toe=mot.mgun.co pattern=% />
+	</>
+	<toe name=pg.bn badge=mech size="I I" carriers=ftrack des="# Panzer Grenadier">
+		<section toe=mot.bn.hq/>
+		<section toe=mot.inf.co quant=3 pattern="%"/>
+		<section toe=mot.mgun.co pattern="%"/>
+	</>
+	<toe name=ss.pg.bn badge=mech size="I I" des="# SS Panzer Grenadier" carriers=ftrack>
+		<section toe=mot.bn.hq/>
+		<section toe=mot.inf.co quant=3 pattern="%"/>
+		<section toe=mot.hvy.co pattern="%"/>
+		<section toe=mot.mgun.co pattern="%"/>
+	</>
+	<toe name=krad.bn toe=mcycle.bn des="# Motorcycle"/>
+	<toe name=mcycle.bn badge=mcycle uidpat=mcb size="I I" carriers=motorcycle des="# Motorcycle">
+		<section toe=mot.recce.bn.hq/>
+		<section toe=mcycle.co quant=3/>
+	</>
+	<toe name=mot.hvy.bn badge=mot.hvy size="I I" des="# Motorized Heavy">
+		<section toe=mot.bn.hq/>
+		<section toe=mot.hvy.co quant=3 />
+	</>
+	<toe name=cav.hvy.bn badge=hvy size="I I" des="# Mounted Heavy">
+		<section toe=eng.co quant=2 />
+		<section toe=flak.co />
+	</>
+	<toe name=mech.co badge=mech size=I des="# Mechanized Infantry">
+		<equip
+			rifle=105 
+			sd250=10
+			lmg-42=9
+			hmg=2
+			50mtr-36=3
+		 />
+	</>
+	<toe name=mot.inf.co badge=mot.inf size=I carriers=2wd>
+		<equip rifle=105 
+				sd305=10/>
+		<equip lmg-42=9 />
+		<equip hmg=2 />
+		<equip 50mtr-36=3 />
+	</>
+	<toe name=mot.mgun.co badge=mot.mgun size=I carriers=2wd>
+		<equip rifle=123 />
+		<equip hmg=8 />
+		<equip 81mtr=6 
+			sd305=14 />
+	</>
+	<toe name=mot.hvy.co badge=mot.hvy size=I des="# Motorized Heavy">
+		<equip 
+			rifle=70
+			lmg-42=4
+			eng=32
+			75ig=2
+			81mtr=6
+			sd305=12
+		 />
+	</>
+	<toe name=mot.hvy.recon.co badge=mot.hvy size=I des="# Motorized Heavy">
+		<equip 
+			rifle=70
+			lmg-42=4
+			eng=32
+			75ig=2
+			37at=3
+			sd305=12
+		 />
+	</>
+	<toe name=mcycle.co badge=mcycle size=I carriers=motorcycle des="# Motorcycle">
+		<equip
+			50mtr-36=3
+			hmg=2
+			lmg-42=9
+			rifle=123
+			sd305=2
+			mcycle=110
+			mcycle-sc=15
+		 />
+	</>
+	<toe name=gun.recon.co badge=recon size=I carriers=2wd>
+		<equip 37at=3 />
+		<equip 75ig=2 />
+		<equip sdkfz234-2=2 />
+		<equip sd305=15 />
+		<equip rifle=120 />
+	</>
+	<toe name=recon.co badge=recon size=I des="# Aufklarung" carriers=2wd>
+		<equip
+			sdkfz234-2=2
+			lmg-42=7
+			37at=4
+			sd305=15
+			rifle=120
+		 />
+	</>
+
+		-- Infantry units --
+
+	<toe name=ski.div uidpat=ski des="# Skijager" badge=ski toe=inf.div />
+	<toe name=ss.inf.div uidpat=ssi des="# SS Volunteer Infantry" toe=inf.div colors=SS/>
+	<toe name=inf.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=inf.reg quant=3/>
+		<section toe=art.reg pattern=*/>
+		<section toe=inf.recce.bn pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=sm.inf.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=inf.reg quant=2/>
+		<section toe=sm.art.reg pattern=*/>
+		<section toe=inf.recce.bn pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=wave1.inf.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=wave1.inf.reg quant=3/>
+		<section toe=art.reg pattern=*/>
+		<section toe=inf.recce.bn pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=wave2.inf.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=wave1.inf.reg quant=3 />
+		<section toe=art.reg pattern=* />
+		<section toe=inf.recce.bn pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=wave3.inf.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=inf.reg quant=3/>
+		<section toe=art.reg pattern=*/>
+		<section toe=bike.co pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=mar.div uidpat=km badge=mar toe=inf.44.div des="# Marine"/>
+	<toe name=inf.44.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=inf.44.reg quant=3/>
+		<section toe=art.reg />
+		<section toe=schnelle.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=wave4.inf.div uidpat=i des="# Infantry" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=wave4.inf.reg quant=3/>
+		<section toe=wave4.art.reg />
+		<section toe=schnelle.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=gren.div uidpat=i des="# Grenadier" toe=vg.div />
+	<toe name=vg.div uidpat=i des="# Volks-Grenadier" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=vg.reg quant=3/>
+		<section toe=fus.bn pattern=* />
+		<section toe=wave4.art.reg />
+		<section toe=schnelle.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=sturm.div uidpat=i des="# Sturm" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=sturm.reg quant=3/>
+		<section toe=art.reg pattern=*/>
+		<section toe=mort.bn pattern=*/>
+		<section toe=stug.bn pattern=*/>
+		<section toe=sp.at.bn pattern=*/>
+		<section toe=h.flak.bn pattern=*/>
+	</>
+	<toe name=fall.div uidpat=fs des="# Fallschirm Jager" colors=LW badge=para.inf size=XX>
+		<section toe=div.hq/>
+		<section toe=fall.reg quant=3 />
+		<section toe=fs.art.reg pattern=*/>
+		<section toe=fs.flak.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=fs.eng.bn pattern=*/>
+	</>
+	<toe name=wlw.div uidpat=lw des="# (L)" colors=Wehrmacht toe=lw.div />
+	<toe name=lw.div uidpat=lw des="# LW Field" colors=LW badge=inf size=XX>
+		<section toe=sm.div.hq/>
+		<section toe=inf.reg quant=2/>
+		<section badge=art size="I I I" pattern=*>
+			<section toe=art.reg.hq/>
+			<section toe=art.bn quant=3 pattern=@/>
+		</>
+		<section toe=flak.bn pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.co pattern=*/>
+	</>
+	<toe name=lt.inf.div uidpat=i des="# Light" badge=inf size=XX>
+		<section toe=div.hq/>
+		<section toe=inf.reg quant=2/>
+		<section toe=lt.art.reg/>
+		<section toe=inf.recce.bn pattern=* />
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=jgr.div uidpat=i des="# Jaeger" badge=jgr size=XX>
+		<section toe=div.hq/>
+		<section toe=jgr.reg quant=2/>
+		<section toe=mtn.art.reg pattern=*/>
+		<section toe=inf.recce.bn pattern=*/>
+		<section toe=mot.at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=fort.div uidpat=i des="# Fortress" badge=stat size=XX>
+		<section toe=sm.div.hq/>
+		<section toe=fort.reg quant=2 />
+		<section toe=cst.art.reg />
+	</>
+	<toe name=stat.div uidpat=i des="# Static" badge=stat size=XX>
+		<section toe=sm.div.hq/>
+		<section badge=inf size="I I I" quant=2>
+			<section toe=reg.hq/>
+			<section toe=inf.bn quant=3 pattern=@/>
+			<section toe=at.pltn pattern=*/>
+		</>
+		<section toe=art.bn pattern=*/>
+		<section toe=at.co pattern=*/>
+		<section toe=eng.co pattern=*/>
+	</>
+	<toe name=sec.div uidpat=i des="# Security" badge=sec size=XX>
+		<section toe=sm.div.hq/>
+		<section toe=sec.reg quant=2/>
+		<section toe=art.bn pattern=*/>
+	</>
+	<toe name=ss.mtn.div uidpat=ssg des="# SS Mountain" toe=mtn.div colors=SS/>
+	<toe name=mtn.div uidpat=g des="# Mountain" badge=mtn size=XX>
+		<section toe=div.hq/>
+		<section toe=mtn.reg quant=2 />
+		<section toe=mtn.art.reg pattern=* />
+		<section toe=inf.recce.bn pattern=*/>
+		<section toe=at.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=res.pz.div uidpat=i des="# Reserve Panzer" badge=res.arm size=XX>
+		<section toe=sm.div.hq/>
+		<section badge=res.arm size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=ers.bn badge=res.arm quant=3 pattern=@/>
+		</>
+		<section badge=res.mot size="I I I" quant=2>
+			<section toe=reg.hq/>
+			<section toe=ers.bn badge=res.mot quant=3 pattern=@/>
+		</>
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mot.at.co pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=res.mot.div uidpat=i badge=res.mot size=XX des="# Reserve (mot.)">
+		<section toe=sm.div.hq/>
+		<section toe=ers.bn badge=res.arm />
+		<section badge=res.mot size="I I I" quant=2>
+			<section toe=reg.hq/>
+			<section toe=ers.bn badge=res.mot quant=3 pattern=@/>
+		</>
+		<section toe=mot.art.reg pattern=*/>
+		<section toe=mot.at.co pattern=*/>
+		<section toe=mot.eng.bn pattern=*/>
+	</>
+	<toe name=div des="#" toe=res.div/>
+	<toe name=zbv.div des="# zbV" toe=res.div/>
+	<toe name=res.mtn.div des="# Mountain Reserve" toe=res.div/>
+	<toe name=res.div uidpat=i des="# Reserve" badge=reserve size=XX>
+		<section toe=sm.div.hq/>
+		<section badge=reserve size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=ers.bn quant=3 pattern=@/>
+		</>
+		<section toe=art.reg pattern=*/>
+		<section toe=at.co pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=trn.div uidpat=i des="# Training" badge=training size=XX>
+		<section toe=sm.div.hq/>
+		<section badge=training size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=inf.bn badge=training quant=3 pattern=@/>
+			<section toe=at.pltn pattern=*/>
+		</>
+		<section toe=art.bn pattern=*/>
+		<section toe=eng.bn pattern=*/>
+	</>
+	<toe name=ss.inf.bg uidpat=ssix des="# Infantry" colors=SS badge=inf size=X>
+		<section toe=bg.hq/>
+		<section badge=inf size="I I I" quant=2>
+			<section toe=reg.hq/>
+			<section toe=inf.bn quant=3 pattern=@/>
+			<section toe=inf.art.co pattern=%/>
+		</>
+		<section toe=mcycle.co />
+		<section toe=at.co />
+		<section toe=flak.co />
+	</>
+	<toe name=inf.bg uidpat=ix des="# Infantry" badge=inf size=X>
+		<section toe=bg.hq/>
+		<section badge=inf size="I I I" quant=2>
+			<section toe=reg.hq/>
+			<section toe=inf.bn quant=3 pattern=@/>
+			<section toe=inf.art.co pattern=%/>
+		</>
+		<section toe=at.co />
+	</>
+	<toe name=res.bg uidpat=ix des="# Reserve" badge=reserve size=X>
+		<section toe=bg.hq />
+		<section badge=reserve size="I I I" quant=3>
+			<section toe=reg.hq/>
+			<section toe=ers.bn quant=2 pattern=@/>
+		</>
+	</>
+	<toe name=stat.bg uidpat=ix des="# Static" badge=stat size=X>
+		<section toe=bg.hq/>
+		<section badge=inf size="I I I" >
+			<section toe=reg.hq/>
+			<section toe=inf.bn quant=3 pattern=@/>
+			<section toe=at.pltn pattern=*/>
+		</>
+		<section toe=inf.bn quant=3 pattern=@/>
+		<section toe=lt.pz.co pattern=*/>
+	</>
+	<toe name=ski.bg uidpat=skix des="# Skijager" badge=ski size=X>
+		<section toe=bg.hq/>
+		<section toe=ski.reg quant=2/>
+		<section toe=ski.hvy.bn pattern=*/>
+	</>
+	<toe name=ski.reg uidpat=skir badge=ski size="I I I" des="# Skijager">
+		<section toe=reg.hq/>
+		<section toe=ski.bn quant=2 pattern=@/>
+	</>
+	<toe name=ski3.reg uidpat=skir badge=ski size="I I I" des="# Skijager">
+		<section toe=reg.hq/>
+		<section toe=ski.bn quant=3 pattern=@/>
+	</>
+	<toe name=inf.reg uidpat=ir badge=inf size="I I I" des="# Infantry">
+		<section toe=reg.hq/>
+		<section toe=inf.bn quant=3 pattern=@/>
+		<section toe=inf.art.co pattern=%/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=wave1.inf.reg uidpat=ir badge=inf size="I I I" des="# Infantry">
+		<section toe=reg.hq/>
+		<section toe=wave1.inf.bn quant=3 pattern=@/>
+		<section toe=inf.art.co pattern=% />
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=wave4.inf.reg uidpat=ir badge=inf size="I I I" des="# Infantry">
+		<section toe=reg.hq/>
+		<section toe=inf.bn quant=2 pattern=@/>
+		<section toe=inf.art.co pattern=%/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=sturm.reg badge=inf size="I I I" des="# Sturm">
+		<section toe=reg.hq/>
+		<section toe=sturm.bn quant=2 pattern=@/>
+		<section toe=hvy.co pattern=%/>
+		<section toe=eng.co pattern=%/>
+	</>
+	<toe name=div.gruppe uidpat=i toe=inf.44.reg des="Division Gruppe #"/>
+	<toe name=vg.reg uidpat=ir toe=inf.44.reg des="# Grenadier"/>
+	<toe name=inf.44.reg uidpat=ir badge=inf size="I I I" des="# Grenadier">
+		<section toe=reg.hq/>
+		<section toe=inf.bn quant=2 pattern=@/>
+		<section toe=inf.art.co pattern=%/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=gren.reg uidpat=ir des="# Grenadier" toe=ss.vg.reg />
+	<toe name=ss.vg.reg uidpat=ssir badge=inf size="I I I" des="# SS Volunteer Grenadier">
+		<section toe=reg.hq/>
+		<section toe=inf.bn quant=3 pattern=@/>
+		<section toe=inf.art.co pattern=%/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=mar.reg uidpat=kmr badge=mar size="I I I" des="# Marine Infantry">
+		<section toe=reg.hq/>
+		<section toe=mar.bn quant=2 pattern=@/>
+		<section toe=inf.art.co pattern=%/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=ss.mtn.reg uidpat=ssgr colors=SS toe=mtn.reg des="# SS Mountain"/>
+	<toe name=mtn.reg uidpat=gr badge=mtn size="I I I" des="# Mountain">
+		<section toe=reg.hq/>
+		<section toe=mtn.bn quant=3 pattern=@/>
+		<section toe=at.co pattern=%/>
+	</>
+	<toe name=fall.reg badge=para.inf size="I I I" des="# Fallschirm Jager">
+		<section toe=reg.hq/>
+		<section toe=para.bn quant=3 pattern=@/>
+		<section toe=hvy.co badge=hvy.para pattern=%/>
+	</>
+	<toe name=ss.inf.reg badge=inf size="I I I" des="# SS Infantry" colors=SS>
+		<section toe=reg.hq/>
+		<section toe=inf.bn quant=3 pattern=@/>
+		<section toe=inf.art.co pattern=%/>
+	</>
+	<toe name=aufk.reg badge=recon des="# Aufklarung" size="I I I" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=aufk.bn quant=2 pattern=@/>
+	</>
+	<toe name=jgr.reg badge=jgr size="I I I" des="# Jaeger">
+		<section toe=reg.hq/>
+		<section toe=jgr.bn quant=3 pattern=@/>
+		<section toe=mot.at.co pattern=%/>
+	</>
+	<toe name=fort.reg badge=stat size="I I I" des="# Fortress">
+		<section toe=reg.hq />
+		<section toe=fort.bn quant=3 />
+	</>
+	<toe name=fus.reg uidpat=kfr badge=inf.rec size="I I I" des="# Corps Fusilier">
+		<section toe=reg.hq/>
+		<section toe=fus.bn quant=2 pattern=@/>
+		<section toe=mot.at.co pattern=%/>
+	</>
+	<toe name=vg.bn des="# Grenadier" toe=inf.bn/>
+	<toe name=divs.bn des="# Division" toe=inf.bn/>
+	<toe name=fort.bn des="# Fortress" badge=stat toe=inf.bn/>
+	<toe name=pun.bn des="@ Punishment" toe=inf.bn/>
+	<toe name=inf.bn badge=inf size="I I" des="# Infantry">
+		<section toe=bn.hq/>
+		<section toe=inf.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=fus.bn badge=inf.rec size="I I" des="# Fusilier">
+		<section toe=bn.hq/>
+		<section toe=bike.co />
+		<section toe=cav.co quant=2 pattern=% />
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=mar.bn badge=mar size="I I">
+		<section toe=bn.hq/>
+		<section toe=mar.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=jgr.bn uidpat=jb des="# Jaeger" badge=jgr size="I I">
+		<section toe=bn.hq/>
+		<section toe=jgr.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%/>
+		<section toe=hvy.co pattern=%/>
+	</>
+	<toe name=ski.bn des="# Skijaeger" badge=ski size="I I">
+		<section toe=bn.hq/>
+		<section toe=ski.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%/>
+		<section toe=hvy.co pattern=%/>
+	</>
+	<toe name=ski.hvy.bn badge=hvy size="I I" pattern=* des="# Heavy Ski">
+		<section toe=bn.hq />
+		<section toe=inf.art.co />
+		<section toe=flak.co />
+	</>
+	<toe name=inf3.bn des="# Infantry" toe=wach.bn />
+	<toe name=wach.bn badge=inf size="I I" des="# Wach">
+		<section toe=bn.hq/>
+		<section toe=inf.co quant=3 pattern=%/>
+	</>
+	<toe name=mtn.bn des="# Mountain" badge=mtn size="I I">
+		<section toe=bn.hq/>
+		<section toe=mtn.co quant=3 pattern=%/>
+		<section toe=hvy.co pattern=%/>
+		<section badge=mtn.art size=I pattern=%>
+			<equip
+				lmg-42=4
+				eng=32
+				radio=18
+				telephone=24
+				75Gebg=2
+				svc=30
+				wagon=2
+			 />
+		</>
+	</>
+	<toe name=wave1.inf.bn badge=inf size="I I">
+		<section toe=bn.hq/>
+		<section toe=inf.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%>
+			<equip 
+				50at=2
+				rifle=100
+			 />
+		</>
+	</>
+	<toe name=para.bn badge=para.inf size="I I">
+		<section toe=bn.hq/>
+		<section toe=inf.co quant=3 badge=para.inf pattern=%/>
+		<section toe=mgun.co badge=hvy.para pattern=%/>
+	</>
+	<toe name=schnelle.bg uidpat=ix badge=bike size=X des="# Schnelle">
+		<section toe=bg.hq/>
+	</>
+	<toe name=schnelle.bn badge=mot.inf size="I I" carriers=2wd des="# Schnelle">
+		<section toe=mot.recce.bn.hq/>
+		<section badge=mot.at size=I quant=2 carriers=2wd>
+			<equip 50at=6 />
+			<equip 37at=4 />
+			<equip lmg-42=8 />
+			<equip rifle=90
+				sd305=17 />
+		</>
+		<section badge=arm.at size=I carriers=2wd>
+			<equip 75at=9 />
+			<equip lmg-42=8/>
+			<equip rifle=105
+				sd251=20 />
+		</>
+		<section toe=bike.co />
+	</>
+	<toe name=mgun.bn uidpat=mgb badge=mgun size="I I" des="# Machinegun" carriers=2wd>
+		<section toe=mot.bn.hq/>
+		<section toe=mcycle.co />
+		<section toe=mot.mgun.co quant=3 />
+		<section toe=mot.at.co />
+	</>
+	<toe name=pz.aufk.bn des="# Panzer Aufklarung" toe=aufk.bn/>
+	<toe name=aufk.bn des="# Aufklarung" size="I I" badge=recon>
+		<section toe=mot.recce.bn.hq/>
+		<section toe=mot.hvy.recon.co />
+		<section toe=mcycle.co />
+		<section toe=recon.co />
+	</>
+	<toe name=mot.inf.recce.bn badge=inf.rec des="# Aufklarung" size="I I" carriers=2wd>
+		<section toe=mot.recce.bn.hq/>
+		<section badge=mot.inf size=I  carriers=2wd>
+			<equip lmg-42=9 />
+			<equip hmg=2 />
+			<equip rifle=110 
+					sd305=13/>
+		</>
+		<section toe=mcycle.co />
+		<section toe=gun.recon.co />
+	</>
+	<toe name=inf.recce.bn badge=inf.rec size="I I" des="# Aufklarung" carriers=horse>
+		<section toe=recce.bn.hq/>
+		<section badge=cav size=I  carriers=horse>
+			<equip 
+				lmg-42=9 
+				hmg=2 
+				rifle=110 
+				wagon=3
+				mount=128
+			 />
+		</>
+		<section toe=bike.co />
+		<section badge=recon size=I carriers=2wd>
+			<equip 37at=3 />
+			<equip 75ig=2 />
+			<equip sdkfz234-2=2 />
+			<equip sd305=10 />
+			<equip rifle=120 />
+		</>
+	</>
+	<toe name=bike.bn badge=bike size="I I" des="# Bicycle">
+		<section toe=bn.hq/>
+		<section toe=bike.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=% />
+	</>
+	<toe name=sturm.bn uidpat=stmb badge=inf size="I I" des="# Sturm">
+		<section toe=bn.hq/>
+		<section toe=sturm.co quant=3/>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=ers.bn badge=reserve size="I I">
+		<section toe=bn.hq/>
+		<section toe=ers.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=ausb.bn badge=training size="I I">
+		<section toe=bn.hq/>
+		<section toe=ausb.co quant=3 pattern=%/>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=gren.co des="# Genadier" toe=inf.co />
+	<toe name=inf.co badge=inf size=I des="# Infantry">
+		KStN 131c 1/2/1941 Infantry company
+		Note: KStN 131c lists 128 Karabiner (rifle) but this includes
+		rifles belonging to crews of other weapons.  Total personnel
+		for the company totals 4 officers + 187 enlisted men.
+		<equip 
+			jroff=4
+			rifle=124
+			smg=16
+			lmg-42=12
+			atr-20=3
+			50mtr-36=3
+			wagon=8
+		 />
+	</>
+	<toe name=inf.co.37a badge=inf size=I des="# Infantry">
+		KStN 131a 11/2/1937 Infantry company
+		Total personnel 4 officers + 161 enlisted men.
+		KStN 131a lists 127 rifles.  10 svc personnel have been
+		added to make up the 161 total enlisted personnel.  These
+		men will battle-promote to rifle or lmg as appropriate.
+		<equip 
+			jroff=4
+			rifle=127
+			lmg=9
+			wagon=5
+			sd305=1
+			svc=10
+		 />
+	</>
+	<toe name=inf.co.37b badge=inf size=I des="# Infantry">
+		KStN 131b 11/2/1937 Infantry company
+		Total personnel 4 officers + 184 enlisted men.
+		KStN 131b lists 144 rifles, which includes rifles held
+		by crewmen of other weapons.
+		<equip 
+			jroff=4
+			rifle=140
+			lmg=9
+			hmg=2
+			50mtr-36=3
+			wagon=6
+			sd305=1
+		 />
+	</>
+	<toe name=wave3.inf.co badge=inf size=I>
+		<equip 
+			jroff=1
+			rifle=123
+			smg=16
+			lmg-42=12
+			atr-20=3
+			50mtr-36=1
+			wagon=6
+		 />
+	</>
+	<toe name=mar.co badge=mar size=I>
+		<equip 
+			jroff=1
+			rifle=123
+			smg=16
+			lmg-42=12
+			atr-20=3
+			50mtr-36=3
+			wagon=8
+		 />
+	</>
+	<toe name=pz.aufk.co badge=recon toe=bike.co des="# Panzer Aufklarung" />
+	<toe name=aufk.co badge=inf.rec toe=bike.co des="# Aufklarung" />
+	<toe name=fus.co badge=inf.rec toe=bike.co des="# Fusilier"/>
+	<toe name=bike.co badge=bike size=I des="# Bicycle">
+		<equip 
+			jroff=1
+			lmg-42=9
+			hmg=2
+			50mtr-36=3
+			rifle=103
+			bike=118
+			wagon=6
+		 />
+	</>
+	<toe name=hvy.co badge=hvy size=I des="# Heavy">
+		<equip 
+			jroff=1
+			rifle=70
+			lmg-42=4
+			eng=32
+			75ig=2
+			81mtr=6
+			wagon=8
+		 />
+	</>
+	<toe name=sturm.co badge=inf size=I>
+		KStN 131g 1/4/1943
+		4 officers + 305 enlisted men
+		KStN lists 186 rifles which includes crewman
+		for other weapons.
+		<equip
+			jroff=4
+
+			lmg-42=22
+			hmg=2
+			50mtr-36=2
+			smg=24
+			75at=6
+			rifle=143
+			wagon=29
+			truck=12
+			sd305=1
+			mcycle=6
+			mcycle-sc=2
+			bike=12
+		 />
+	</>
+	<toe name=jgr.co badge=jgr size=I>
+		<equip
+			jroff=2
+			rifle=95
+			lmg-42=12
+			atr-20=3
+			81mtr=2
+			wagon=3
+		 />
+	</>
+	<toe name=jgr.co.43 badge=jgr size=I>
+		KStN 131a 12/1/1943
+		2 officers + 139 enlisted men.
+		KStN lists 44 rifles, including crewmen
+		for other weapons.
+		<equip
+			jroff=2
+			smg=83
+			rifle=21
+			lmg-42=10
+			wagon=15
+		 />
+	</>
+	<toe name=ski.co badge=ski size=I>
+		<equip
+			jroff=1
+			rifle=95
+			lmg-42=12
+			atr-20=3
+			81mtr=2
+			wagon=3
+			ski=120
+		 />
+	</>
+	<toe name=mtn.co badge=mtn size=I>
+		KStN 132d 11/1/1941
+		4 officers + 295 enlisted men.
+		KStN lists 219 rifles, including crewmen
+		of other weapons.
+		<equip
+			jroff=4
+			rifle=170
+			smg=16
+			lmg-42=12
+			atr-20=3
+			50mtr-36=3
+			81mtr=2
+			
+			pack=56
+			sd305=4
+			mcycle=1
+			mcycle-sc=1
+		 />
+	</>
+	<toe name=mgun.co badge=mgun size=I >
+		<equip 
+			jroff=1
+			rifle=123
+			hmg=12
+			81mtr=6
+			wagon=23
+		 />
+	</>
+	<toe name=ers.co badge=reserve size=I>
+		<equip rifle=105 />
+		<equip lmg-42=9 />
+		<equip hmg=2 />
+		<equip 50mtr-36=3 
+			wagon=6/>
+	</>
+	<toe name=ausb.co badge=training size=I>
+		<equip rifle=105 />
+		<equip lmg-42=9 />
+		<equip hmg=2 />
+		<equip 50mtr-36=3 
+			wagon=6/>
+	</>
+
+		-- Cavalry TOEs --
+
+	<toe name=cav.div uidpat=c des="# Cavalry" badge=cav size=XX carriers=horse>
+		<section toe=div.hq/>
+		<section badge=cav size="I I I" quant=3>
+		</>
+		<section badge=cav.art size="I I I">
+		</>
+		<section badge=bike size="I I">
+			<section toe=mot.bn.hq/>
+			<section toe=bike.co quant=3/>
+			<section toe=hvy.co>
+				<equip
+					37at=3
+					horses=3
+				 />
+			</>
+		</>
+		<section toe=mot.at.bn/>
+		<section toe=mot.eng.bn/>
+	</>
+	<toe name=cav.bg uidpat=cx des="# Cavalry" badge=cav size=X>
+		<section toe=bg.hq/>
+		<section toe=reiter.reg quant=2/>
+		<section toe=art.reg />
+		<section toe=mot.at.bn />
+		<section toe=aufk.bn />
+		<section toe=mot.eng.bn />
+	</>
+	<toe name=ss.cav.reg des="# SS Volunteer Cavalry" colors=freiSS toe=reiter.reg />
+	<toe name=reiter.reg des="# Reiter" badge=cav size="I I I">
+		<section toe=reg.hq/>
+		<section toe=cav.bn quant=2 pattern=@/>
+		<section toe=hvy.co pattern=%/>
+	</>
+	<toe name=cav.reg des="# Cavalry" badge=cav size="I I I">
+		<section toe=reg.hq/>
+		<section toe=cav.co quant=5 pattern=%/>
+	</>
+	<toe name=inf.legion des="# Legion" badge=inf size="I I I" colors=Cossack>
+		<section toe=reg.hq/>
+		<section toe=inf.bn quant=4 pattern=@/>
+	</>
+	<toe name=cossack.reg des="# Cossack Cavalry" badge=cav size="I I I" colors=Cossack carriers=horse>
+		<section toe=reg.hq/>
+		<section toe=cav.bn quant=2 pattern=@/>
+		<section toe=hvy.co pattern=%/>
+	</>
+	<toe name=cav.bn badge=cav size="I I" des="# Cavalry">
+		<section toe=bn.hq/>
+		<section toe=cav.co quant=4 pattern=%/>
+	</>
+	<toe name=cav.co badge=cav size=I carriers=horse des="# Cavalry">
+		<equip
+				lmg-42=13
+				rifle=106
+				mount=132
+		 />			
+	</>
+
+		-- Flak TOEs --
+
+	<toe name=flak.div uidpat=f badge=aa size=XX carriers=2wd des="# Flak" colors=LW>
+		<section toe=mot.div.hq/>
+	</>
+	<toe name=early.flak.bg uidpat=fx badge=aa size=X carriers=2wd colors=LW des="@ Flak">
+		<section toe=mot.bg.hq/>
+	</>
+	<toe name=flak.bg uidpat=fx badge=aa size=X carriers=2wd colors=LW des="# Flak">
+		<section toe=mot.bg.hq/>
+	</>
+	<toe name=flak.reg uidpat=fr badge=aa size="I I I" carriers=2wd colors=LW des="# Flak">
+		<section toe=mot.reg.hq/>
+	</>
+	<toe name=fall.flak.reg uidpat=fr badge=aa size="I I I" colors=LW des="# Fallschirmjager Flak">
+		<section toe=mot.reg.hq/>
+		<section toe=fs.flak.bn quant=3 pattern=@/>
+	</>
+	<toe name=sp.flak.bn badge=aa size="I I" des="# Flak (sp)" carriers=2wd colors=LW>
+		<section toe=mot.bn.hq>
+			<section toe=mot.flak.sup.co/>
+		</>
+		<section toe=hvy.flak.co quant=2/>
+		<section toe=flak.co quant=3 />
+	</>
+	<toe name=hvy.flak.bn uidpat=fb des="# Schw. Flak" badge=hvy.aa colors=LW>
+		<section toe=mot.bn.hq>
+			<section toe=mot.flak.sup.co/>
+		</>
+		<section toe=hvy.flak.co quant=4/>
+	</>
+	<toe name=ss.flak.bn uidpat=ssfb toe=flak.bn des="# SS Flak" colors=SS />
+	<toe name=fs.flak.bn uidpat=fsfb toe=flak.bn des="# Fallschirmjager Flak" />
+	<toe name=h.flak.bn uidpat=hfb colors=Wehrmacht toe=flak.bn des="# Army Flak" />
+	<toe name=flak.bn uidpat=fb badge=aa size="I I" des="# Flak" carriers=2wd colors=LW>
+		<section toe=mot.bn.hq>
+			<section toe=mot.flak.sup.co/>
+		</>
+		<section toe=hvy.flak.co quant=2/>
+		<section toe=flak.co quant=3 />
+	</>
+	<toe name=lt.flak.bn uidpat=fb badge=aa size="I I" des="# Lt. Flak" carriers=2wd colors=LW>
+		<section toe=mot.bn.hq>
+			<section toe=mot.flak.sup.co/>
+		</>
+		<section toe=flak.co quant=34 />
+	</>
+
+	<toe name=hvy.flak.co badge=hvy.aa size=I des="# schw. Flak"carriers=2wd>
+		<equip
+			88aa=4
+			20aa38=3
+			lmg-42=2
+			sdkfz7=4
+			truck=3
+			rifle=20
+		 />
+	</>
+	<toe name=flak.co uidpat=fc badge=aa size=I des="# Flak" carriers=2wd>
+		<equip
+			20aa38=12
+			lmg-42=2
+			truck=14
+			rifle=20
+		 />
+	</>
+
+		-- Anti-Tank TOEs --
+
+	<toe name=lw.at.bn uidpat=lwatb des="# LW Panzer Jaeger" toe=at.bn colors=LW />
+	<toe name=at.bn uidpat=atb badge=at size="I I" des="# Panzer Jaeger">
+		<section toe=bn.hq/>
+		<section toe=at.co quant=3/>
+		<section badge=hvy.mgun size=I>
+			<equip 
+					20aa38=12
+					lmg-42=2
+					rifle=40 
+					horses=12 />
+		</>
+	</>
+	<toe name=sp.at.bn badge=arm.at size="I I" carriers=ftrack des="# Panzer Jaeger (sp)">
+		<section toe=mot.bn.hq/>
+		<section toe=sp.at.co quant=2/>
+	</>
+	<toe name=mot.at.bn badge=mot.at size="I I" des="# Panzer Jaeger" carriers=2wd>
+		<section toe=mot.bn.hq />
+		<section toe=mot.at.co quant=3/>
+		<section badge=hvy.mgun size=I carriers=2wd>
+			<equip 
+					20aa38=12
+					lmg-42=2
+					rifle=40
+					truck=12
+			 />
+		</>
+	</>
+	<toe name=wave3.at.co badge=at size=I>
+		<equip 
+			37at=12
+			lmg-42=4
+			rifle=80
+		 />
+	</>
+	<toe name=at.co badge=at size=I des="# Panzer Jaeger">
+			<equip 
+				37at=6
+				50at=6
+				lmg-42=4
+				rifle=74
+				horses=6
+			 />
+	</>
+	<toe name=sp.at.co badge=arm.at size=I carriers=ftrack>
+		<equip
+			marder2=13
+			lmg-42=13
+			rifle=70
+			sd305=9
+		 />
+	</>
+	<toe name=mot.at.co badge=mot.at size=I des="# Panzer Jaeger" carriers=2wd>
+			<equip 
+				37at=6
+				50at=6
+				lmg-42=4
+				rifle=80
+				sd305=10
+			 />
+	</>
+	<toe name=at.pltn badge=at size=p>
+		<equip 
+			37at=2
+			50at=2
+			lmg-42=1
+			rifle=24
+			horses=2
+		 />
+	</>
+
+		-- Artillery TOEs --
+
+	<toe name=lw.art.reg uidpat=lwar colors=LW badge=art size="I I I" des="# Artillery" >
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=3 pattern=@/>
+		<section toe=flak.bn pattern=@/>
+	</>
+	<toe name=lw.sm.art.reg uidpat=lwar colors=LW toe=art.reg badge=art size="I I I" des="# Artillery" >
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=2 pattern=@/>
+		<section toe=flak.bn pattern=@/>
+	</>
+	<toe name=km.art.reg uidpat=kmar colors=KrMar toe=art.reg />
+	<toe name=art.reg uidpat=ar badge=art size="I I I" des="# Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=3 pattern=@/>
+		<section toe=hvy.art.bn pattern=@/>
+	</>
+	<toe name=wave4.art.reg uidpat=ar badge=art size="I I I" des="# Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=3 pattern=@/>
+		<section toe=hvy.art.bn quant=2 pattern=@/>
+	</>
+	<toe name=lt.art.reg uidpat=ar badge=art size="I I I" des="# Artillery" pattern=*>
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=2 pattern=@/>
+		<section toe=mtn.art.bn pattern=@/>
+		<section toe=hvy.art.bn pattern=@/>
+	</>
+	<toe name=cav.art.reg uidpat=cvar badge=cav.art des="# Horse Artillery" toe=sm.art.reg />
+	<toe name=sm.art.reg uidpat=ar badge=art size="I I I" des="# Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=2 pattern=@/>
+		<section toe=hvy.art.bn pattern=@/>
+	</>
+	<toe name=bdr.art.reg uidpat=bar badge=art size="I I I" des="# Border Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=art.bn quant=3 pattern=@/>
+	</>
+	<toe name=lwc.art.reg uidpat=lwcar des="# LW Corps Artillery" toe=fs.art.reg />
+	<toe name=fs.art.reg uidpat=fsar des="# Fallschirmjager Artillery" badge=para.art size="I I I" colors=LW >
+		<section toe=mot.art.reg.hq/>
+		<section toe=fs.art.bn pattern=@ quant=3/>
+	</>
+	<toe name=ss.art.reg uidpat=ssar colors=SS toe=mot.art.reg />
+	<toe name=mot.art.reg uidpat=ar badge=mot.art size="I I I" des="# Artillery">
+		<section toe=mot.art.reg.hq/>
+		<section toe=sp.art.bn pattern=@/>
+		<section toe=mot.art.bn pattern=@/>
+		<section toe=hvy.art.bn pattern=@/>
+	</>
+	<toe name=rocket.reg uidpat=rkr badge=rocket size="I I I" des="# Nebelwerfer" carriers=2wd>
+		<section badge=hq size="I I I" hq>
+			<equip
+				sroff=1
+				jroff=4
+				smg=2
+				svc=6
+				kubel=4
+				omnibus=1
+			 />
+		</>
+		<section toe=rocket.bn quant=3 pattern=@/>
+	</>
+	<toe name=mtn.art.reg uidpat=gar badge=mtn.art size="I I I" des="# Mountain Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=mtn.art.bn quant=3 pattern=@/>
+		<section toe=hvy.art.bn pattern=@/>
+	</>
+	<toe name=jgr.art.reg uidpat=ar badge=mtn.art size="I I I" des="# Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=mtn.art.bn quant=2 pattern=@/>
+		<section toe=hvy.art.bn pattern=@/>
+	</>
+	<toe name=cst.art.reg uidpat=car badge=c.art size="I I I" des="# Coastal Artillery">
+		<section toe=art.reg.hq/>
+		<section toe=cst.art.bn quant=3 pattern=@/>
+	</>
+	<toe name=art.bn uidpat=ab badge=art size="I I" carriers=2wd des="# Light Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=art.co quant=3 pattern=%/>
+	</>
+	<toe name=fs.art.bn uidpat=fsab des="# Fallschirmjager Artillery" toe=mot.art.bn colors=LW />
+	<toe name=mot.art.bn uidpat=ab badge=mot.art size="I I" des="# Light Artillery" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=mot.art.co quant=3 pattern=%/>
+	</>
+	<toe name=sp.art.bn uidpat=ab badge=arm.art size="I I" des="# Artillery" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=wespe.co quant=2 pattern=%/>
+		<section toe=hummel.co pattern=%/>
+	</>
+	<toe name=hummel.bn uidpat=ab badge=arm.art size="I I" des="# Artillery" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=hummel.co quant=3 pattern=%/>
+	</>
+	<toe name=cst.art.bn uidpat=cab badge=c.art size="I I" carriers=2wd des="# Coastal Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=cst.art.co quant=4 pattern=%/>
+	</>
+	<toe name=hvy.art.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=fh150.co quant=3 pattern=%/>
+	</>
+	<toe name=hvy.art1.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=fh150.co quant=2 pattern=%/>
+		<section toe=kan105.co pattern=%/>
+	</>
+	<toe name=hvy.art2.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=150k18.co quant=2 pattern=%/>
+		<section toe=kan210.co pattern=%/>
+	</>
+	<toe name=sk100.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=sk100.co quant=3 pattern=%/>
+	</>
+	<toe name=kan105.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=kan105.co quant=3 pattern=%/>
+	</>
+	<toe name=150k18.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=150k18.co quant=3 pattern=%/>
+	</>
+	<toe name=kan170.bn uidpat=ab badge=hvy.art size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=kan170.co quant=3 pattern=%/>
+	</>
+	<toe name=kan210.bn uidpat=ab badge=hvy.mort size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=kan210.co quant=3 pattern=%/>
+	</>
+	<toe name=kan240.bn uidpat=ab badge=hvy.mort size="I I" carriers=2wd des="# Heavy Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=kan240.co quant=3 pattern=%/>
+	</>
+	<toe name=mtn.art.bn uidpat=gab badge=mtn.art size="I I" carriers=2wd des="# Mountain Artillery">
+		<section toe=art.bn.hq/>
+		<section toe=mtn.art.co quant=3 pattern=%/>
+	</>
+	<toe name=rocket.bn uidpat=rkb badge=rocket size="I I" des="# Nebelwerfer" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=rocket.co quant=3 pattern=%/>
+	</>
+	<toe name=rocket.210.bn uidpat=rkb badge=rocket size="I I" des="# Heavy Nebelwerfer" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=rocket.210.co quant=3 pattern=%/>
+	</>
+	<toe name=rocket.280.bn uidpat=rkb badge=rocket size="I I" des="# Heavy Nebelwerfer" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=rocket.280.co quant=3 pattern=%/>
+	</>
+	<toe name=fs.mort.bn uidpat=fsmb des="# Fallschirmjager Mortar" colors=LW toe=mort.bn />
+	<toe name=hvy.mort.bn badge=hvy.mort des="# Heavy Mortar" toe=mort.bn />
+	<toe name=mort.bn uidpat=mb badge=mort size="I I" des="# Mortar" carriers=2wd>
+		<section toe=art.bn.hq/>
+		<section toe=mort.co quant=3 carriers=2wd pattern=%/>
+	</>
+	<toe name=inf.art.co badge=inf.art size=I >
+		<equip rifle=138 />
+		<equip 150ig=2 />
+		<equip 75ig=6 
+				sdkfz7=2
+				sd305=10/>
+	</>
+	<toe name=lt.inf.art.co badge=inf.art size=I >
+		<equip
+			rifle=138
+			75ig=4 
+			sd305=18
+		 />
+	</>
+	<toe name=hvy.inf.art.co badge=inf.art size=I >
+		<equip 
+			rifle=138
+			150ig=4 
+			sdkfz7=4
+			sd305=14
+		 />
+	</>
+	<toe name=mot.inf.art.co badge=mot.art size=I des="# Artillery" carriers=htrack >
+		<equip rifle=138 />
+		<equip 150ig=2 />
+		<equip 75ig=6 
+				sdkfz7=2
+				sd305=11/>
+	</>
+	<toe name=art.co badge=art size=I carriers=2wd des="# Light Artillery">
+		<equip 105fh=4
+			sdkfz7=4
+			lmg-42=4
+			sd305=3
+			rifle=6
+			svc=14
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=wespe.co badge=arm.art size=I>
+		<equip wespe=6
+			lmg-42=4
+			sd305=6
+			rifle=10
+			svc=24
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=hummel.co badge=arm.art size=I>
+		<equip hummel=6
+			lmg-42=4
+			sd305=6
+			rifle=10
+			svc=24
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=rocket.co badge=rocket size=I>
+		KStN 614 (actually using 615 and substituting werfer types)
+		<equip
+			jroff=4
+			150nbw=6
+			lmg-42=6
+			smg=11
+			rifle=6
+			svc=18
+			50at=1
+			radio=6
+			telephone=14
+			kubel=6
+			maultier=6
+			sdkfz11=7
+			sd305=10
+		 />
+	</>
+	<toe name=rocket.210.co badge=rocket size=I>
+		KStN 614 (actually using 615 and substituting werfer types)
+		<equip
+			jroff=4
+			210nbw=6
+			lmg-42=6
+			smg=11
+			rifle=6
+			svc=18
+			50at=1
+			radio=6
+			telephone=14
+			kubel=6
+			maultier=6
+			sdkfz11=7
+			sd305=10
+		 />
+	</>
+	<toe name=rocket.280.co badge=rocket size=I>
+		KStN 615
+		<equip
+			jroff=4
+			280nbw=6
+			lmg-42=6
+			smg=11
+			rifle=6
+			svc=18
+			50at=1
+			radio=6
+			telephone=14
+			kubel=6
+			maultier=6
+			sdkfz11=7
+			sd305=10
+		 />
+	</>
+	<toe name=rocket.280.sfl.co badge=rocket size=I>
+		KStN 615
+		<equip
+			jroff=4
+			280nbw-mot=6
+			lmg-42=6
+			smg=11
+			rifle=6
+			svc=18
+			50at=1
+			radio=6
+			telephone=14
+			kubel=6
+			maultier=6
+			sdkfz11=1
+			sd305=10
+		 />
+	</>
+	<toe name=mot.art.co badge=mot.art size=I>
+		<equip 105fh=4
+			lmg-42=4
+			sd305=6
+			sdkfz7=4
+			rifle=10
+			svc=24
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=150k18.co badge=hvy.art size=I carriers=2wd des="# Heavy Artillery">
+		<equip 150k18=4
+			lmg-42=4
+			sdkfz7=4
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=cst.art.co badge=c.art size=I carriers=2wd des="# Coastal Artillery">
+		<equip 150fh=4
+			lmg-42=4
+			sdkfz7=4
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=fh150.co uidpat=ac badge=hvy.art size=I carriers=2wd des="# Heavy Artillery">
+		<equip 150fh=4
+			lmg-42=4
+			sdkfz7=4
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=sk100.co badge=hvy.art size=I carriers=2wd>
+		<equip 100sk=4
+			lmg-42=4
+			sdkfz7=4
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=kan105.co badge=hvy.art size=I carriers=2wd>
+		<equip 105kan=4
+			lmg-42=4
+			sdkfz7=4
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=kan150.co badge=hvy.art size=I carriers=2wd des="# Heavy Artillery">
+		<equip 
+			150k18=3
+			lmg-42=4
+			sdkfz8=3
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=kan170.co badge=hvy.art size=I carriers=2wd des="# Heavy Artillery">
+		<equip 
+			170kan=3
+			lmg-42=4
+			sdkfz8=3
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=kan210.co badge=hvy.art size=I carriers=2wd des="# Heavy Artillery">
+		<equip 210kan=3
+			lmg-42=4
+			sdkfz8=3
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=kan240.co badge=hvy.art size=I carriers=2wd des="# Heavy Artillery">
+		<equip 
+			240kan=2
+			sdkfz9=2
+			lmg-42=4
+			sd305=4
+			rifle=10
+			svc=19
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=mtn.art.co badge=mtn.art size=I des="# Mountain Artillery" carriers=2wd>
+		<equip 
+			105Gebh=4
+			sdkfz7=4
+			lmg-42=4
+			sd305=5
+			rifle=10
+			svc=14
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=mort.co badge=mort size=I carriers=2wd>
+		<equip
+			120mtr-42=12
+			lmg-42=3
+			sd305=15
+			rifle=10
+			svc=14
+			kubel=6
+			radio=6
+			telephone=14
+		 />
+	</>
+	<toe name=gun.trn uidpat=rail des="# Railgun" badge=rail.art size=I carriers=rail note="OOB must add the actual gun mounted">
+		<equip	hmg=8 
+				20aa30=2 
+				q20aa=2
+				rifle=50 
+				train=1/>
+	</>
+	<toe name=armd.trn uidpat=trn des="# Armored Train" badge=rail.art size=I carriers=rail >
+		<equip	hmg=8 
+				20aa30=2 
+				q20aa=2
+				rifle=50 
+				train=1/>
+	</>
+
+		-- Engineer TOEs ---
+
+	<toe name=rail.eng.reg uidpat=rr badge=const size="I I I" des="# Rail Engineer" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=rail.eng.bn quant=2 pattern=@ />
+	</>
+	<toe name=rail.eng.bn uidpat=rb badge=const size="I I" des="# Rail Engineer" carriers=2wd>
+		<section toe=mot.bn.hq/>
+		<section badge=const size=I pattern=% quant=3>
+			<equip
+				railrepair=150 />
+		</>
+	</>
+	<toe name=arm.eng.bn uidpat=eb badge=arm.eng size="I I" carriers=2wd des="# Panzer Pioneer ">
+		<section toe=mot.bn.hq/>
+		<section toe=arm.eng.co />
+		<section toe=mot.eng.co quant=2/>
+		<section toe=bridge.co/>
+	</>
+	<toe name=fs.eng.bn uidpat=fseb toe=mot.eng.bn des="# Fallschirmjager Pioneer" colors=LW />
+	<toe name=mot.eng.bn uidpat=eb badge=mot.eng size="I I" carriers=2wd des="# Pioneer (mot.)">
+		<section toe=mot.bn.hq/>
+		<section toe=mot.eng.co quant=3/>
+		<section toe=bridge.co/>
+	</>
+	<toe name=lw.eng.bn uidpat=lweb colors=LW toe=eng.bn />
+	<toe name=eng.bn uidpat=eb badge=eng size="I I" des="# Pioneer">
+		<section toe=mot.bn.hq/>
+		<section toe=eng.co quant=2/>
+		<section toe=mot.eng.co/>
+		<section toe=bridge.co/>
+	</>
+	<toe name=landing.bn uidpat=Lb badge=amph.eng size="I I" des="# Landing Pioneer">
+		<section toe=mot.bn.hq/>
+		<section toe=eng.co quant />
+		<section toe=mot.eng.co/>
+		<section toe=bridge.co quant=2/>
+	</>
+	<toe name=bridge.bn uidpat=bb badge=bridge size="I I" des="# Bridging" carriers=2wd>
+		<section toe=mot.bn.hq/>
+		<section toe=bridge.co quant=3/>
+	</>
+	<toe name=eng.co uidpat=ec badge=eng size=I des="# Pioneer">
+		<equip 
+			lmg-42=9
+			flame=3
+			atr-20=3
+			wagon=1
+			eng=140
+			scout=1
+			sd305=3
+		 />
+	</>
+	<toe name=arm.eng.co badge=arm.eng size=I des="# Pioneer" carriers=2wd>
+		<equip 
+			lmg-42=9
+			flame=3
+			atr-20=3
+			eng=140
+			scout=1
+			sws=13
+		 />
+	</>
+	<toe name=mot.eng.co badge=mot.eng size=I des="# Pioneer" carriers=2wd>
+		<equip 
+			lmg-42=9
+			flame=3
+			atr-20=3
+			eng=140
+			scout=1
+			sd305=13
+		 />
+	</>
+	<toe name=bridge.co badge=bridge size=I carriers=2wd des="# Bridging">
+		<equip 
+			bridge=2
+			boat=7
+		 />
+	</>
+
+		-- Signals TOEs
+
+	<toe name=sig.reg uidpat=nr badge=signal size="I I I" des="# Signals" carriers=2wd>
+		<section toe=mot.reg.hq/>
+		<section toe=sig.bn quant=3/>
+	</>
+	<toe name=lw.sig.bn uidpat=fsnrb toe=sig.bn />
+	<toe name=sig.bn uidpat=nrb badge=signal size="I I" des="# Signals" carriers=2wd>
+		<equip
+			rifle=20
+			radio=136
+			telephone=173
+			svc=50
+			sd305=34
+		 />
+	</>
+	<toe name=sig.co uidpat=nrc badge=signal size=I carriers=2wd des="# Signals">
+		<equip
+			rifle=6
+			radio=45
+			telephone=58
+			svc=17
+			sd305=12
+		 />
+	</>
+	<toe name=sig.pltn badge=signal size=p carriers=2wd des="# Signals">
+		<equip
+			radio=20
+			telephone=30
+			sd305=5
+		 />
+	</>
+
+		-- Supply and Support Units --
+
+	<toe name=army.sup.reg badge=depot size="I I I" des="# Supply">
+		<section toe=mot.reg.hq />
+		<section toe=hvy.veh.bn />
+		<section badge=veh size="I I" quant=2>
+			<section toe=mot.bn.hq/>
+			<section toe=lg.veh.co quant=4/>
+		</>
+		<section toe=sup.bn quant=2/>
+		<section toe=lg.veh.co quant=10/>
+		<section toe=parts.co quant=2/>
+		<section toe=tire.plat quant=2 />
+		<section toe=park.co quant=3 />
+		<section toe=t-rep.plat pattern=*/>
+		<section toe=eng.eqp.plat pattern=*/>
+		<section toe=mot.rep.co pattern=*/>
+		<section toe=ammo.co pattern=*/>
+	</>
+	<toe name=pz.gp.sup.reg badge=depot size="I I I" des="# Army Supply">
+		<section toe=mot.reg.hq />
+		<section toe=lg.veh.co quant=5/>
+		<section toe=rep.plat/>
+		<section toe=lg.veh.bn quant=3 />
+		<section toe=mot.sup.bn />
+		<section toe=mot.sup.co quant=2/>
+		<section toe=park.co />
+		<section toe=ammo.co/>
+	</>
+	<toe name=div.sup badge=svc size="I I" des="# Support">
+		<section toe=sup.co pattern=* />
+		<section toe=rep.co pattern=* />
+		<section adm.sec=* />
+		<section toe=med.co pattern=* />
+		<section toe=vet.co pattern=* />
+		<section toe=div.post pattern=* />
+	</>
+	<toe name=mot.div.sup badge=svc size="I I" des="# Support">
+		<section toe=mot.sup.co pattern=*/>
+		<section toe=mot.rep.co pattern=* />
+		<section mot.adm.sec=* />
+		<section mot.med.co=*/>
+		<section mot.div.post=*/>
+	</>
+	<toe name=pz.div.sup badge=svc size="I I" des="# Support">
+		<section mot.sup.co=*/>
+		<section tk.rep.co=* />
+		<section mot.adm.sec=* />
+		<section mot.med.co=*/>
+		<section mot.div.post=*/>
+	</>
+	<toe name=port uidpat=.port colors=KrMar badge=depot size="I I" des="Port of #" toe=sup.depot />
+	<toe name=sup.depot uidpat=.sup badge=depot size="I I" des="# Supply Depot">
+		<section toe=bn.hq/>
+		<section badge=admin size=I quant=3>
+			<equip
+				svc=150
+			 />
+		</>
+	</>
+	<toe name=mot.adm.sec badge=admin carriers=2wd des="# Administrative">
+		<equip
+			svc=237
+			sd305=16
+		 />
+	</>
+	<toe name=adm.sec badge=admin carriers=2wd des="# Administrative">
+		<equip
+			svc=237
+			wagon=48
+		 />
+	</>
+	<toe name=mot.sup.bn badge=sup size="I I" note="180 ton">
+		<section toe=mot.bn.hq/>
+		<section toe=mot.sup.co quant=3/>
+	</>
+	<toe name=sup.bn badge=sup size="I I" note="180 ton">
+		<section toe=mot.bn.hq/>
+		<section toe=sup.co quant=3/>
+	</>
+	<toe name=sup.co badge=sup size=I des="# Supply">
+		<equip
+			svc=308
+			wagon=36
+			sd305=98
+			mcycle=12
+			mcycle-sc=23
+		 />
+	</>
+	<toe name=mot.sup.co badge=sup size=I carriers=2wd des="# Supply">
+		<equip
+			svc=308
+			sd305=134
+			mcycle=12
+			mcycle-sc=23
+		 />
+	</>
+	<toe name=mot.sup60.co badge=sup size=I carriers=2wd des="# Supply" >
+		<equip
+			svc=40
+			sd305=40
+			mcycle=4
+		 />
+	</>
+	<toe name=art.sup.co badge=sup size=I des="# Supply">
+		<equip
+			svc=308
+			wagon=36
+			sd305=98
+			mcycle=12
+			mcycle-sc=23
+		 />
+	</>
+	<toe name=mot.flak.sup.co badge=sup size=I carriers=2wd>
+		<equip
+			svc=138
+			sd305=24
+		 />
+	</>
+	<toe name=sup.plat badge=sup size=p>
+		<equip
+			svc=25
+			wagon=6
+			sd305=3
+			mcycle=2
+			mcycle-sc=1
+			bike=3
+		 />
+	</>
+	<toe name=mot.div.post badge=post des="# Field Post">
+		<equip
+			svc=18
+			sd305=2
+		 />
+	</>
+	<toe name=div.post badge=post des="# Field Post">
+		<equip
+			svc=18
+			wagon=4
+		 />
+	</>
+
+		- Medical Units -
+
+	<toe name=med.hosp.reg badge=med size="I I I" des="# Military Hospital">
+		<section toe=mot.reg.hq/>
+		<section toe=mot.fld.hosp quant=2 />
+		<section toe=mot.fld.hosp quant=2 />
+		<section toe=mot.evac.bn quant=2 />
+	</>
+	<toe name=mot.evac.bn badge=med size="I I" des="# Casualty Transport">
+		<section toe=mot.bn.hq/>
+		<section toe=amb.co quant=3/>
+	</>
+	<toe name=med.reg badge=med size="I I I" des="# Medical">
+		<section toe=mot.reg.hq/>
+		<section toe=mot.med.co quant=2 />
+		<section toe=mot.fld.hosp quant=5 />
+		<section toe=amb.plat quant=5/>
+	</>
+	<toe name=pz.gp.med.reg badge=med size="I I I" des="# Medical">
+		<section toe=mot.reg.hq/>
+		<section toe=mot.fld.hosp quant=5 />
+		<section toe=amb.co/>
+		<section toe=amb.plat quant=3/>
+	</>
+	<toe name=med.co badge=med size=I des="# Medical">
+		<equip
+			doctor=17
+			medic=398
+			wagon=17
+			sd305=27
+			mcycle=3
+			mcycle-sc=5
+		 />
+	</>
+	<toe name=mot.med.co badge=med size=I carriers=2wd des="# Medical">
+		<equip
+			doctor=12
+			medic=398
+			sd305=50
+			mcycle=4
+			mcycle-sc=8
+		 />
+	</>
+	<toe name=mot.fld.hosp badge=med size=I des="# Field Hospital" carriers=2wd>
+		<equip
+			doctor=17
+			medic=360
+			svc=20
+			sd305=47
+			mcycle=4
+			mcycle-sc=8
+		 />
+	</>
+	<toe name=amb.co badge=med size=I des="# Ambulance">
+		<equip
+			medic=108
+			sd305=12
+		 />
+	</>
+	<toe name=amb.plat badge=med size=p des="# Ambulance">
+		<equip
+			medic=36
+			sd305=4
+		 />
+	</>
+	<toe name=ver.co badge=vet size=I des="# Veterinary" >
+		<equip
+			svc=156
+			wagon=32
+		 />
+	</>
+	<toe name=rep.bn badge=rep size="I I" des="# Technical">
+		<section toe=mot.rep.co quant=3/>
+	</>
+	<toe name=pz.gp.rep.bn badge=rep size="I I" des="# Technical">
+		<section toe=mot.rep.co quant=5/>
+	</>
+	<toe name=tk.rep.co badge=rep size=I carriers=2wd des="# Technical">
+		<equip
+			svc=137
+			tankrepair=50
+			sd305=14
+		 />
+	</>
+	<toe name=mot.rep.co badge=rep size=I des="# Technical">
+		<equip
+			svc=137
+			sd305=10
+		 />
+	</>
+	<toe name=rep.co badge=rep size=I des="# Technical">
+		<equip
+			svc=137
+			wagon=28
+		 />
+	</>
+	<toe name=army.sec badge=sec size=X des="# Koruck">
+		<section badge=pow size="I I">
+			<section toe=bn.hq/>
+			<section badge=pow size=I quant=3>
+				<equip
+					lmg-42=6
+					rifle=102
+				 />
+			</>
+		</>
+		<section toe=wach.bn quant=2 />
+		<section toe=sec.bn quant=3 />
+		<section toe=mp.bn quant=2 />
+		<section toe=mp.co />
+	</>
+	<toe name=sec.bn uidpat=sb badge=sec size="I I" des="# Security">
+		<section toe=bn.hq/>
+		<section badge=sec size=I quant=3 pattern=%>
+			<equip
+				lmg-42=9
+				rifle=102
+			 />
+		</>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=bdr.bn uidpat=bb badge=bdr size="I I" des="# Border" >
+		<section toe=bn.hq/>
+		<section badge=bdr size=I quant=3 pattern=%>
+			<equip
+				lmg-42=9
+				rifle=102
+			 />
+		</>
+		<section toe=mgun.co pattern=%/>
+	</>
+	<toe name=mcycle.sec.bn badge=sec size="I I" des="# Security">
+		<section toe=mot.bn.hq/>
+		<section badge=sec size=I quant=3 pattern=%>
+			<equip
+				lmg-42=9
+				rifle=102
+				mcycle=110
+				mcycle-sc=10
+			 />
+		</>
+	</>
+	<toe name=mp.bn badge=mp size="I I" des="# Military Police">
+		<section toe=mot.bn.hq/>
+		<section toe=mp.co quant=3 />
+	</>
+	<toe name=mp.co badge=mp size=I>
+		<equip
+			lmg-42=6
+			rifle=110
+			sd305=9
+		 />
+	</>
+	<toe name=mp.plat badge=mp size=p>
+		<equip
+			lmg-42=2
+			rifle=37
+			sd305=3
+		 />
+	</>
+	<toe name=hq.sec.plat badge=sec size=p des="# Security">
+		<equip
+			lmg-42=2
+			smg=5
+			rifle=24
+			sd305=3
+		 />
+	</>
+	<toe name=hq.map.sec badge=map des="# Mapping">
+		<equip
+			svc=8
+			sd305=1
+		 />
+	</>
+	<toe name=hvy.veh.bn badge=veh size="I I" des="# Heavy Transport">
+		<section toe=mot.bn.hq />
+		<section toe=hvy.veh.co quant=10 />
+		<section toe=rep.plat/>
+	</>
+	<toe name=lg.veh.bn badge=veh size="I I" des="# Large Transport">
+		<section toe=mot.bn.hq />
+		<section toe=lg.veh.co quant=4 />
+	</>
+	<toe name=qtrmast.bn badge=admin size="I I" des="# Quartermaster">
+		<section toe=rations.co />
+		<section toe=clothing.co />
+		<section toe=bakery.co quant=3/>
+		<section toe=butcher.co quant=3/>
+	</>
+	<toe name=pz.gp.qtrmast.bn badge=admin size="I I" des="# Quartermaster">
+		<section toe=rations.co quant=2/>
+		<section toe=clothing.co />
+		<section toe=bakery.co />
+		<section toe=butcher.co />
+	</>
+	<toe name=parts.co des="# Spare Parts" toe=butcher.co/>
+	<toe name=park.co des="# Park" toe=butcher.co/>
+	<toe name=rations.co des="# Rations" toe=butcher.co/>
+	<toe name=clothing.co des="# Clothing" toe=butcher.co/>
+	<toe name=bakery.co des="# Bakery" toe=butcher.co/>
+	<toe name=butcher.co badge=admin size=I des="# Butcher">
+		<equip 
+			svc=125
+			sd305=10
+		 />
+	</>
+	<toe name=ammo.co badge=ammo size=I des="# Ammunition">
+		<equip 
+			svc=125
+			sd305=10
+		 />
+	</>
+	<toe name=hvy.veh.co badge=veh size=I des="# Heavy Transport">
+		<equip
+			sd305=156
+		 />
+	</>
+	<toe name=vlg.veh.co badge=veh size=I des="# Very Large Transport">
+		<equip
+			sd305=75
+		 />
+	</>
+	<toe name=lg.veh.co badge=veh size=I des="# Large Transport">
+		<equip
+			sd305=37
+		 />
+	</>
+	<toe name=sm.veh.co badge=veh size=I des="# Small Transport">
+		<equip
+			sd305=19
+		 />
+	</>
+	<toe name=lg.hrs.veh.co badge=hrs.veh size=I des="# Large Horse Transport">
+		<equip
+			wagon=60
+		 />
+	</>
+	<toe name=sm.hrs.veh.co badge=hrs.veh size=I des="# Small Horse Transport">
+		<equip
+			wagon=34
+		 />
+	</>
+	<toe name=sm.mtn.veh.co badge=hrs.veh size=I des="# Mountain Transport">
+		<equip
+			wagon=30
+		 />
+	</>
+	<toe name=post.co badge=post size=I des="# Field Post">
+		<section toe=post.plat quant=6/>
+	</>
+	<toe name=eng.eqp.plat des="# Engineer Equipment" toe=tire.plat/>
+	<toe name=tire.plat badge=admin size=p des="# Tires">
+		<equip 
+			svc=41
+			sd305=3
+		 />
+	</>
+	<toe name=rep.plat des="# Repair" toe=t-rep.plat/>
+	<toe name=t-rep.plat badge=rep size=p des="# Tire Repair">
+		<equip
+			svc=45
+			sd305=4
+		 />
+	</>
+	<toe name=post.plat badge=post size=p des="# Field Post">
+		<equip
+			svc=34
+			sd305=3
+		 />
+	</>
+	<toe name=vet.bn badge=vet size="I I" des="# Veterinary">
+		<section toe=vet.co quant=3>
+			<equip
+				svc=110
+				wagon=10
+			 />
+		</>
+		<section toe=vet.exam.pltn quant=2>
+			<equip
+				svc=40
+			 />
+		</>
+		<section toe=vet.amb.pltn quant=5>
+			<equip
+				svc=35
+				sd305=5
+			 />
+		</>
+	</>
+	<toe name=vet.co badge=vet size=I des="# Veterinary" >
+		<equip
+			svc=110
+			wagon=10
+		 />
+	</>
+	<toe name=vet.exam.pltn badge=vet size=p des="# Examination" >
+		<equip
+			svc=40
+		 />
+	</>
+	<toe name=vet.amb.pltn badge=vet size=p des="# Ambulance" >
+		<equip
+			svc=35
+			sd305=5
+		 />
+	</>
+
+		Luftwaffe TOEs
+
+	<toe name=luftgau badge=admin des="Luftgau @" colors=LW>
+		<equip
+			svc=100
+		 />
+	</>
+	<toe name=bf109g.stab badge=ftr size=p des="Stab #" colors=LW>
+		<equip
+			bf109g=4
+		 />
+	</>
+	<toe name=bf110.stab badge=ftr size=p des="Stab #" colors=LW>
+		<equip
+			bf110=4
+		 />
+	</>
+	<toe name=bf110n.stab badge=ftr size=p des="Stab #" colors=LW>
+		<equip
+			bf110n=4
+		 />
+	</>
+	<toe name=do217.stab badge=ftr size=p des="Stab #" colors=LW>
+		<equip
+			do217=4
+		 />
+	</>
+	<toe name=fw190a.stab badge=ftr size=p des="Stab #" colors=LW>
+		<equip
+			fw190a=4
+		 />
+	</>
+	<toe name=ju88c.stab badge=ftr size=p des="Stab #" colors=LW>
+		<equip
+			ju88c=4
+		 />
+	</>
+	<toe name=ju87d.stab badge=la.bmb size=p des="Stab #" colors=LW>
+		<equip
+			ju87d=4
+		 />
+	</>
+	<toe name=bf109g.gr badge=ftr size="I I" des="Gruppe @" colors=LW>
+		<section toe=bf109g.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				bf109g=12
+			 />
+		</>
+	</>
+	<toe name=bf109g.st badge=ftr size=I des="Staffel #" colors=LW>
+		<equip
+			bf109g=12
+		 />
+	</>
+	<toe name=bf110.gr badge=ftr size="I I" des="Gruppe @" colors=LW>
+		<section toe=bf110.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				bf110=12
+			 />
+		</>
+	</>
+	<toe name=bf110n.gr badge=ftr size="I I" des="Gruppe @" colors=LW>
+		<section toe=bf110n.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				bf110n=12
+			 />
+		</>
+	</>
+	<toe name=do217.gr badge=ftr size="I I" des="Gruppe @" colors=LW>
+		<section toe=do217.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				do217=12
+			 />
+		</>
+	</>
+	<toe name=fw190a.gr badge=ftr size="I I" des="Gruppe @" colors=LW>
+		<section toe=fw190a.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				fw190a=12
+			 />
+		</>
+	</>
+	<toe name=ju88c.gr badge=ftr size="I I" des="Gruppe @" colors=LW>
+		<section toe=ju88c.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				ju88c=12
+			 />
+		</>
+	</>
+	<toe name=ju87d.gr badge=la.bmb size="I I" des="Gruppe @" colors=LW>
+		<section toe=ju87d.stab hq/>
+		<section badge=ftr size=I quant=3>
+			<equip
+				ju87d=12
+			 />
+		</>
+	</>
+
+	<toe name=cargo500 badge=freighter size=I>
+		<equip
+			cargo500=1
+		 />
+	</>
+	<toe name=cargo1000 badge=freighter size=I>
+		<equip
+			cargo1000=1
+		 />
+	</>
+	<toe name=sup.train badge=sup.train size=I>
+		<equip
+			train=1
+		 />
+	</>
+</TOEs>

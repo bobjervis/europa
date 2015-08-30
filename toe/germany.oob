@@ -1,0 +1,6357 @@
+<OOB combatant=Germany >
+	 - German armed forces OOB - includes all units where nation=Germany
+			- Wehrmacht
+			- Waffen SS
+			- Luftwaffe
+			- Kriegsmarine
+	<unit name="Higher Commands" colors=Wehrmacht>
+		<unit uid=okw size=GHQ name=OKW abbreviation=OKW >
+			<unit uid=okw.hq okw="OKW HQ" />
+		</>
+		<unit uid=okh size=XXXXXX name=OKH />
+		<unit uid=ag.a ag=A start=10/26/39 end=6/22/41 >
+			<hq>
+				<unit sig.reg=570 />
+			</hq>
+		</unit>
+		<unit uid=ag.a ag=A start=4/24/42 end=3/30/44 >
+			<hq>
+				<unit sig.reg=530 />
+			</hq>
+		</unit>
+		<unit uid=ag.b ag=B start=10/12/39 end=6/22/41 >
+			<hq>
+				<unit sig.reg=537 />
+			</hq>
+		</unit>
+		<unit uid=ag.b ag=B start=7/9/42 >
+			<hq>
+				<unit sig.reg=605 />
+			</hq>
+		</unit>
+		<unit uid=ag.c ag=C start=8/26/39 end=6/22/41 >
+			<hq>
+				<unit sig.reg=639 />
+			</hq>
+		</unit>
+		<unit uid=ag.c ag=C start=11/26/43 >
+			<hq>
+				<unit sig.reg=598 />
+			</hq>
+		</unit>
+		<unit uid=ag.center ag=Center abbreviation=AGC start=6/22/41 end=1/25/45 >
+			<hq>
+				<unit sig.reg=537 />
+			</hq>
+		</unit>
+		<unit uid=ag.center ag=Center abbreviation=AGC start=1/25/45 >
+			<hq>
+				<unit sig.reg=558 />
+			</hq>
+		</unit>
+		<unit uid=ag.d ag=D start=10/26/40 end=9/10/44 >
+			<hq>
+				<unit sig.reg=603 />
+			</hq>
+		</unit>
+		<unit uid=ag.don ag=Don start=11/21/42 end=2/12/43 >
+			<hq>
+				<unit sig.reg=558 />
+			</hq>
+		</unit>
+		<unit uid=ag.e ag=E start=1/1/43 >
+			<hq>
+				<unit sig.reg=521 start=1/23/43 end=8/12/43 />
+				<unit sig.reg=518 start=8/12/43 />
+			</hq>
+		</unit>
+		<unit uid=ag.f ag=F start=8/12/43 >
+			<hq>
+				<unit sig.reg=521 />
+			</hq>
+		</unit>
+		<unit uid=ag.g ag=G start=4/28/44 >
+			<hq>
+				<unit sig.reg=606 />
+			</hq>
+		</unit>
+		<unit uid=ag.h ag=H start=11/11/44 >
+			<hq>
+				<unit sig.reg=607 />
+			</hq>
+		</unit>
+		<unit uid=ag.kurland ag=Kurland abbreviation=AGK start=1/25/45 >
+			<hq>
+				<unit sig.reg=639 />
+			</hq>
+		</unit>
+		<unit uid=ag.north ag=North abbreviation=AGN start=8/26/39 end=10/12/39 >
+			<hq>
+				<unit sig.reg=537 />
+			</hq>
+		</unit>
+		<unit uid=ag.north ag=North abbreviation=AGN start=6/22/41 end=1/25/45 >
+			<hq>
+				<unit sig.reg=639 />
+			</hq>
+		</unit>
+		<unit uid=ag.north ag=North abbreviation=AGN start=1/25/45 >
+			<hq>
+				<unit sig.reg=537 />
+			</hq>
+		</unit>
+		<unit uid=ag.nukraine ag="North Ukraine" abbreviation=AGNU start=3/30/44 end=9/23/44 >
+			<hq>
+				<unit sig.reg=558 />
+			</hq>
+		</unit>
+		<unit uid=ag.ostmark ag=Ostmark abbreviation=AGO start=5/1/45 >
+			<hq>
+				<unit sig.reg=530 />
+			</hq>
+		</unit>
+		<unit uid=ag.south ag=South abbreviation=AGS start=8/16/39 end=10/26/39 >
+			<hq>
+				<unit sig.reg=570 />
+			</hq>
+		</unit>
+		<unit uid=ag.south ag=South abbreviation=AGS start=6/22/41 end=7/9/42 >
+			<hq>
+				<unit sig.reg=570 />
+			</hq>
+		</unit>
+		<unit uid=ag.south ag=South abbreviation=AGS start=2/12/43 end=3/30/44 >
+			<hq>
+				<unit sig.reg=558 />
+			</hq>
+		</unit>
+		<unit uid=ag.south ag=South abbreviation=AGS start=9/23/44 end=5/1/45 >
+			<hq>
+				<unit sig.reg=530 />
+			</hq>
+		</unit>
+		<unit uid=ag.sukraine ag="South Ukraine" abbreviation=AGSU start=3/30/44 end=9/23/44 >
+			<hq>
+				<unit sig.reg=530 />
+			</hq>
+		</unit>
+		<unit uid=ag.weichsel ag=Weichsel abbreviation=AGW start=1/24/45 >
+			<hq>
+				<unit sig.reg=500 />
+			</hq>
+		</unit>
+		<unit army=1 start=8/26/39 >
+			<hq>
+				<unit sig.reg=596 end=1/1/40 />
+				<unit sig.reg=512 start=1/1/40 />
+			</hq>
+		</unit>
+		<unit army=2 start=10/20/39 >
+			<hq>
+				<unit sig.reg=563 start=11/4/39 />
+			</hq>
+		</unit>
+		<unit army=3 start=8/22/39 end=10/21/39 >
+			<hq>
+				<unit sig.reg=501 />
+			</hq>
+		</unit>
+		<unit army=4 start=8/1/39 >
+			<hq>
+				<unit sig.reg=589 />
+			</hq>
+		</unit>
+		<unit army=5 start=8/25/39 end=11/4/39 >
+			<hq>
+				<unit sig.reg=563 />
+			</hq>
+		</unit>
+		<unit army=6 start=10/10/39 >
+			<hq>
+				<unit sig.reg=549 />
+			</hq>
+		</unit>
+		<unit army=7 start=8/25/39 >
+			<hq>
+				<unit sig.reg=558 end=10/5/40 />
+				<unit sig.reg=531 start=10/5/40 />
+			</hq>
+		</unit>
+		<unit army=8 start=8/1/39 end=10/20/39 >
+			<hq>
+				<unit sig.reg=511 />
+			</hq>
+		</unit>
+		<unit army=8 start=8/22/43 >
+			<hq>
+				<unit sig.reg=570 />
+			</hq>
+		</unit>
+		<unit army=9 start=5/15/40 >
+			<hq>
+				<unit sig.reg=511 />
+			</hq>
+		</unit>
+		<unit army=10 start=8/26/39 end=10/10/39 >
+			<hq>
+				<unit sig.reg=549 />
+			</hq>
+		</unit>
+		<unit army=10 start=8/15/43 >
+			<hq>
+				<unit sig.reg=508 />
+			</hq>
+		</unit>
+		<unit army=11 start=10/5/40 end=11/21/42 >
+			<hq>
+				<unit sig.reg=558 />
+			</hq>
+		</unit>
+		<unit army=11 start=1/28/45 >
+			<hq >
+				<unit sig.reg=11 />
+			</hq>
+		</unit>
+		<unit army=12 start=10/13/39 end=1/23/43 >
+			<hq>
+				<unit sig.reg=521 />
+			</hq>
+		</unit>
+		<unit army=12 start=4/10/45 >
+			<hq>
+				<unit sig.reg=521? note="identity not confirmed in the sources"/>
+			</hq>
+		</unit>
+		<unit army=14 start=8/1/39 end=10/13/39 >
+			<hq>
+				<unit sig.reg=521 />
+			</hq>
+		</unit>
+		<unit army=14 start=11/5/43 >
+			<hq>
+				<unit sig.reg=524 />
+			</hq>
+		</unit>
+		<unit army=15 start=1/15/41 >
+			<hq>
+				<unit sig.reg=509 />
+			</hq>
+		</unit>
+		<unit army=16 start=10/21/39 >
+			<hq>
+				<unit sig.reg=501 />
+			</hq>
+		</unit>
+		<unit army=17 start=12/20/40 >
+			<hq>
+				<unit sig.reg=596 />
+			</hq>
+		</unit>
+		<unit army=18 start=11/4/39 >
+			<hq>
+				<unit sig.reg=520 />
+			</hq>
+		</unit>
+		<unit army=19 start=8/26/43 >
+			<hq>
+				<unit sig.reg=532 />
+			</hq>
+		</unit>
+		<unit uid=20army name="20th Mountain Army" badge=mtn size=XXXX start=6/22/42 >
+			<unit uid=20army.hq army.hq=20 >
+				<unit sig.reg=550 />
+			</unit>
+		</unit>
+		<unit army=21 start=4/27/45 >
+			<hq>
+				<unit sig.reg=? note="identity not confirmed in sources"/>
+			</hq>
+		</unit>
+		<unit army=25 start=11/10/44 >
+			<hq>
+				<unit sig.reg=519 />
+			</hq>
+		</unit>
+		<unit uid=norway abbreviation=N army=Norway start=12/19/40 >
+			<hq>
+				<unit sig.reg=635 />
+			</hq>
+		</unit>
+		<unit pz.gp=1 abbreviation=1pz start=11/16/40 end=10/5/41 />
+		<unit pz.gp=2 abbreviation=2pz start=11/16/40 end=10/5/41 />
+		<unit pz.gp=3 abbreviation=3pz start=11/16/40 end=1/1/42 />
+		<unit pz.gp=4 abbreviation=4pz start=2/17/41 end=1/1/42 />
+		<unit pz.army=1 abbreviation=1pz start=10/5/41 />
+		<unit pz.army=2 abbreviation=2pz start=10/5/41 />
+		<unit pz.army=3 abbreviation=3pz start=1/1/42 />
+		<unit pz.army=4 abbreviation=4pz start=1/1/42 />
+		<unit pz.army=5 abbreviation=5pz start=12/8/42 end=6/30/43 />
+		<unit pz.army=5 abbreviation=5pz start=1/24/44 />
+		<unit uid=1fs.army name="1st Airborne Army" badge=para size=XXXX colors=LW start=5/1/44>
+			<unit army.hq=1 uid=1fs.army.hq >
+				<unit sig.reg=1 />
+			</unit>
+		</unit>
+		<unit uid=6pz.army abbreviation=6pz name="6th SS Panzer Army" badge=arm size=XXXX colors=SS start=9/24/44>
+			<unit army.hq=6 uid=6pz.army.hq >
+				<unit sig.reg=6 />
+			</unit>
+		</unit>
+		<unit cvk=1 start=5/25/44 >
+			<hq >
+				<unit sig.bn=478 />
+			</>
+		</unit>
+		<unit ak=1 >
+			<hq>
+				<unit sig.bn=41 />
+			</>
+		</unit>
+		<unit ak=2 >
+			<hq>
+				<unit sig.bn=402 />
+			</>
+		</unit>
+		<unit ak=3 end=3/21/41 />
+		<unit motk=3 abbreviation=3m start=3/21/41 end=6/21/42 >
+			<hq>
+				<unit sig.bn=43 />
+			</>
+		</unit>
+		<unit pzk=3 abbreviation=3p start=6/21/42 >
+			<hq>
+				<unit sig.bn=43 />
+			</>
+		</unit>
+		<unit ak=4 end=9/27/44 >
+			<hq>
+				<unit sig.bn=44 />
+			</>
+		</unit>
+		<unit pzk=4 abbreviation=4p start=10/10/44 >
+			<hq>
+				<unit sig.bn=44 />
+			</>
+		</unit>
+		<unit ak=5 end=7/24/44 >
+			<hq>
+				<unit sig.bn=45 />
+			</>
+		</unit>
+		<unit ak=5 start=1/26/45 >
+			<hq>
+				<unit sig.bn=405 />
+			</hq>
+		</unit>
+		<unit ak=6 >
+			<hq>
+				<unit sig.bn=46 />
+			</>
+		</unit>
+		<unit ak=7 end=9/27/44 >
+			<hq>
+				<unit sig.bn=47 />
+			</>
+		</unit>
+		<unit pzk=7 abbreviation=7p start=12/18/44 >
+			<hq>
+				<unit sig.bn=47 />
+			</>
+		</unit>
+		<unit ak=8 >
+			<hq>
+				<unit sig.bn=48 />
+			</>
+		</unit>
+		<unit ak=9 >
+			<hq>
+				<unit sig.bn=49 />
+			</>
+		</unit>
+		<unit ak=10 start=10/15/35 >
+			<hq>
+				<unit sig.bn=50 />
+				<unit sec.bn=410 start=9/1/42 />
+				<unit mgun.bn=410 start=1/1/45 />
+			</>
+		</unit>
+		<unit ak=11 start=10/1/36 >
+			<hq>
+				<unit sig.bn=51 />
+			</>
+		</unit>
+		<unit ak=12 start=10/1/36 end=8/21/44 >
+			<hq>
+				<unit sig.bn=52 />
+			</>
+		</unit>
+		<unit ak=12 start=4/1/45 />
+		<unit ak=13 start=10/1/37 end=8/5/44 >
+			<hq>
+				<unit sig.bn=53 />
+			</>
+		</unit>
+		<unit ak=13 start=1/19/45 >
+			<hq>
+				<unit sig.bn=413 />
+			</>
+		</unit>
+		<unit motk=14 abbreviation=14m start=4/1/38 end=6/21/42 >
+			<hq>
+				<unit sig.bn=60 />
+			</>
+		</unit>
+		<unit pzk=14 abbreviation=14p start=6/21/42 >
+			<hq>
+				<unit sig.bn=60 />
+			</>
+		</unit>
+		<unit motk=15 abbreviation=15m start=10/10/38 end=11/16/40 >
+			<hq>
+				<unit sig.bn=61 />
+			</>
+		</unit>
+		<unit mtnk=15 abbreviation=15m start=8/12/43 >
+			<hq>
+				<unit sig.bn=415 />
+			</>
+		</unit>
+		<unit motk=16 abbreviation=16m start=2/1/38 end=2/17/41 >
+			<hq>
+				<unit sig.bn=62 />
+			</>
+		</unit>
+		<unit ak=16 start=10/30/44 >
+			<hq>
+				<unit sig.bn=1416 />
+			</>
+		</unit>
+		<unit ak=17 start=4/1/38 >
+			<hq>
+				<unit sig.bn=66 />
+			</>
+		</unit>
+		<unit ak=18 start=4/1/38 end=11/1/40 >
+			<hq>
+				<unit sig.bn=70 />
+			</>
+		</unit>
+		<unit mtnk=18 abbreviation=18m start=11/1/40 >
+			<hq>
+				<unit sig.bn=418 />
+			</>
+		</unit>
+		<unit ak=19 start=7/1/39 end=11/16/40 >
+			<hq>
+				<unit sig.bn=80 />
+			</>
+		</unit>
+		<unit mtnk=19 abbreviation=19m start=11/10/42 >
+			<hq>
+				<unit sig.bn=463 end=1/1/44 />
+				<unit sig.bn=419 start=1/1/44 />
+			</>
+		</unit>
+		<unit ak=20 start=10/17/40  >
+			<hq>
+				<unit sig.bn=420 />
+			</>
+		</unit>
+		<unit ak=21 start=8/10/39 end=1/1/41 >
+			<hq>
+				<unit sig.bn=463 />
+			</>
+		</unit>
+		<unit mtnk=21 abbreviation=21m start=8/12/43 >
+			<hq>
+				<unit sig.bn=421 />
+			</>
+		</unit>
+		<unit motk=22 abbreviation=22m start=8/26/39 end=11/16/40 >
+			<hq>
+				<unit sig.bn=422 />
+			</>
+		</unit>
+		<unit mtnk=22 abbreviation=22m start=8/20/43 >
+			<hq>
+				<unit sig.bn=422 />
+			</>
+		</unit>
+		<unit ak=23 start=8/26/39 >
+			<hq>
+				<unit sig.bn=423 />
+			</>
+		</unit>
+		<unit ak=24 start=9/17/39 end=11/16/40 >
+			<hq>
+				<unit sig.bn=424 />
+			</>
+		</unit>
+		<unit motk=24 abbreviation=24m start=11/16/40 end=6/21/42 >
+			<hq>
+				<unit sig.bn=424 />
+			</>
+		</>
+		<unit pzk=24 abbreviation=24p start=6/21/42 >
+			<hq>
+				<unit sig.bn=424 />
+				<unit hvy.pz.bn=424 start=11/27/44 />
+				<unit fus.reg=424 start=11/27/44 />
+				<unit *mot.art.reg=424 start=11/27/44 >
+					<unit mot.art.bn=I/424 />
+					<unit mot.art.bn=II/424 />
+				</unit>
+				<unit arm.eng.bn=424 start=11/27/44 />
+			</>
+		</unit>
+		<unit ak=25 start=8/26/39  >
+			<hq>
+				<unit sig.bn=425 />
+			</>
+		</unit>
+		<unit ak=26 start=8/22/39 >
+			<hq>
+				<unit sig.bn=426 />
+			</>
+		</unit>
+		<unit ak=27 start=8/26/39 >
+			<hq>
+				<unit sig.bn=427 />
+			</>
+		</unit>
+		<unit ak=28 start=5/20/40 >
+			<hq>
+				<unit sig.bn=428 />
+			</>
+		</unit>
+		<unit ak=29 start=5/20/40 >
+			<hq>
+				<unit sig.bn=429 />
+			</>
+		</unit>
+		<unit ak=30 start=8/26/39 end=9/27/44 >
+			<hq>
+				<unit sig.bn=430 />
+			</>
+		</unit>
+		<unit ak=30 name="z.b.V. XXX Corps" start=10/20/44 >
+			<hq>
+				<unit sig.bn=430 />
+			</>
+		</unit>
+		<unit ak=31 name="z.b.V. XXXI Corps" start=11/7/39 end=5/27/42 >
+			<hq>
+				<unit sig.bn=431 />
+			</>
+		</unit>
+		<unit ak=32 name="z.b.V. XXXII Corps" start=10/15/39 end=5/27/42 >
+			<hq>
+				<unit sig.bn=432 />
+			</>
+		</unit>
+		<unit ak=32 start=3/1/45 />
+		<unit ak=33 start=10/18/39 >
+			<hq>
+				<unit sig.bn=433 />
+			</>
+		</unit>
+		<unit ak=34 name="z.b.V. XXXIV Corps" start=10/23/39 end=1/31/42 >
+			<hq>
+				<unit sig.bn=434 />
+			</>
+		</unit>
+		<unit ak=35 start=10/15/39 end=8/21/44 >
+			<hq>
+				<unit sig.bn=435 />
+			</>
+		</unit>
+		<unit ak=36 name="z.b.V. XXXVI Corps" start=10/19/39 end=11/18/41 >
+			<hq>
+				<unit sig.bn=436 />
+			</>
+		</unit>
+		<unit mtnk=36 abbreviation=36m start=11/18/41 >
+			<hq>
+				<unit sig.bn=436 />
+			</>
+		</unit>
+		<unit ak=37 name="z.b.V. XXXVII Corps" start=10/23/39 end=5/27/42 >
+			<hq>
+				<unit sig.bn=437 />
+			</>
+		</unit>
+		<unit ak=38 start=1/27/40 end=1/1/45 >
+			<hq>
+				<unit sig.bn=438 />
+			</>
+		</unit>
+		<unit pzk=38 abbreviation=38p start=1/1/45>
+			<hq>
+				<unit sig.bn=438 />
+			</>
+		</unit>
+		<unit motk=39 abbreviation=39m start=1/27/40 end=7/9/42 >
+			<hq>
+				<unit sig.bn=439 />
+			</>
+		</>
+		<unit pzk=39 abbreviation=39p start=7/9/42 >
+			<hq>
+				<unit sig.bn=439 />
+			</>
+		</unit>
+		<unit motk=40 abbreviation=40m start=1/26/40 end=7/9/42 >
+			<hq>
+				<unit sig.bn=440 />
+			</>
+		</>
+		<unit pzk=40 abbreviation=40p start=7/9/42 >
+			<hq>
+				<unit sig.bn=440 />
+			</>
+		</unit>
+		<unit motk=41 abbreviation=41m start=2/24/40 end=7/10/42 >
+			<hq>
+				<unit sig.bn=441 />
+			</>
+		</>
+		<unit pzk=41 abbreviation=41p start=7/10/42 >
+			<hq>
+				<unit sig.bn=441 />
+			</>
+		</unit>
+		<unit ak=42 start=1/29/40 >
+			<hq>
+				<unit sig.bn=442 />
+			</>
+			<unit mgun.bn=442 start=4/1/44 />
+		</unit>
+		<unit ak=43 start=4/15/40 >
+			<hq>
+				<unit sig.bn=443 />
+			</>
+		</unit>
+		<unit ak=44 start=4/15/40 end=9/27/44 >
+			<hq>
+				<unit sig.bn=444 />
+			</>
+		</unit>
+		<unit ak=45 name="z.b.V. XXXXV Corps" start=3/8/40 end=5/27/42 >
+			<hq>
+				<unit sig.bn=445 />
+			</>
+		</unit>
+		<unit ak=46 start=6/20/40 end=7/1/40 >
+			<hq>
+				<unit sig.bn=446 />
+			</>
+		</unit>
+		<unit motk=46 abbreviation=46m start=10/25/40 end=6/14/42 >
+			<hq>
+				<unit sig.bn=446 />
+			</>
+		</unit>
+		<unit pzk=46 abbreviation=46p start=6/14/42 >
+			<hq>
+				<unit sig.bn=446 />
+			</>
+			<unit mgun.bn=446 start=1/1/45 />
+		</unit>
+		<unit ak=47 start=6/20/40 end=7/1/40 >
+			<hq>
+				<unit sig.bn=447 />
+			</>
+		</unit>
+		<unit motk=47 abbreviation=47m start=11/25/40 end=6/21/42 >
+			<hq>
+				<unit sig.bn=447 />
+			</>
+		</unit>
+		<unit pzk=47 abbreviation=47p start=6/21/42 >
+			<hq>
+				<unit sig.bn=447 />
+			</>
+		</unit>
+		<unit ak=48 start=6/20/40 end=7/1/40 >
+			<hq>
+				<unit sig.bn=448 />
+			</>
+		</unit>
+		<unit motk=48 abbreviation=48m start=12/14/40 end=6/21/42 >
+			<hq>
+				<unit sig.bn=448 />
+			</>
+		</unit>
+		<unit pzk=48 abbreviation=48p start=6/21/42 >
+			<hq>
+				<unit sig.bn=448 />
+			</>
+		</unit>
+		<unit mtnk=49 abbreviation=49m start=10/25/40 >
+			<hq>
+				<unit sig.bn=449 />
+			</>
+		</unit>
+		<unit ak=50 start=10/8/40 >
+			<hq>
+				<unit sig.bn=450 />
+			</>
+		</unit>
+		<unit ak=51 start=11/25/40 end=3/1/43 >
+			<hq>
+				<unit sig.bn=451 />
+			</>
+		</unit>
+		<unit mtnk=51 abbreviation=51m start=9/12/43 >
+			<hq>
+				<unit sig.bn=451 />
+			</>
+		</unit>
+		<unit ak=52 start=10/25/40 >
+			<hq>
+				<unit sig.bn=452 />
+			</>
+		</unit>
+		<unit ak=53 start=2/15/41 >
+			<hq>
+				<unit sig.bn=453 />
+			</>
+		</unit>
+		<unit ak=54 start=6/1/41 end=4/1/44 >
+			<hq>
+				<unit sig.bn=454 />
+			</>
+		</unit>
+		<unit ak=55 start=6/1/41 >
+			<hq>
+				<unit sig.bn=455 />
+			</>
+		</unit>
+		<unit motk=56 abbreviation=56m start=2/15/41 end=6/21/42 >
+			<hq>
+				<unit sig.bn=456 />
+			</>
+		</unit>
+		<unit pzk=56 abbreviation=56p start=6/21/42 >
+			<hq>
+				<unit sig.bn=456 />
+			</>
+		</unit>
+		<unit motk=57 abbreviation=57m start=2/15/41 end=6/21/42 >
+			<hq>
+				<unit sig.bn=457 />
+			</>
+		</unit>
+		<unit pzk=57 abbreviation=57p start=6/21/42 >
+			<hq>
+				<unit sig.bn=457 />
+			</>
+		</unit>
+		<unit pzk=58 abbreviation=58p start=7/28/43 >
+			<hq>
+				<unit sig.bn=458 />
+			</>
+		</unit>
+		<unit ak=59 start=10/10/40 >
+			<hq>
+				<unit sig.bn=459 />
+			</>
+		</unit>
+		<unit ak=60 name="z.b.V. LX Corps" start=10/15/40 end=5/27/42 >
+			<hq>
+				<unit sig.bn=460 />
+			</>
+		</unit>
+		<unit resk=61 abbreviation=61r start=9/2/42 end=2/21/44 >
+			<hq>
+				<unit sig.bn=461 note="identity not confirmed in sources"/>
+			</>
+		</unit>
+		<unit resk=62 abbreviation=62r start=9/15/42 end=8/18/44 >
+			<hq>
+				<unit sig.bn=462 note="identity not confirmed in sources" />
+			</>
+		</unit>
+		<unit ak=63 start=11/14/44 >
+			<hq>
+				<unit sig.bn=LXIII />
+			</>
+		</unit>
+		<unit resk=64 abbreviation=64r start=9/24/42 end=8/5/44 >
+			<hq>
+				<unit sig.bn=464 />
+			</>
+		</unit>
+		<unit ak=64 start=8/5/44 >
+			<hq>
+				<unit sig.bn=464 />
+			</>
+		</unit>
+		<unit ak=65 name="z.b.V. LXV Corps" start=5/21/41 end=3/1/42 >
+			<hq>
+				<unit sig.bn=465 note="identity not confirmed in sources" />
+			</>
+		</unit>
+		<unit ak=65 name="LXV Corps z.b.V." start=11/28/43 end=10/20/44 >
+			<hq>
+				<unit sig.bn=465 />
+			</>
+		</unit>
+		<unit resk=66 abbreviation=66r start=9/21/42 end=8/5/44 >
+			<hq>
+				<unit sig.bn=1066 />
+			</>
+		</unit>
+		<unit ak=66 start=8/5/44 >
+			<hq>
+				<unit sig.bn=466 />
+			</>
+		</unit>
+		<unit resk=67 abbreviation=67r start=9/24/42 end=1/20/44 >
+			<hq>
+				<unit sig.bn=467 />
+			</>
+		</unit>
+		<unit ak=67 start=1/20/44 >
+			<hq>
+				<unit sig.bn=467 />
+			</>
+		</unit>
+		<unit ak=68 start=4/9/43 >
+			<hq>
+				<unit sig.bn=468 />
+			</>
+		</unit>
+		<unit resk=69 abbreviation=69r start=7/8/43 end=1/20/44 >
+			<hq>
+				<unit sig.co=469 />
+			</>
+		</unit>
+		<unit ak=69 start=1/20/44 >
+			<hq>
+				<unit sig.bn=469 />
+			</>
+		</unit>
+		<unit ak=70 start=5/4/41 >
+			<hq>
+				<unit sig.co=470 />
+			</>
+		</unit>
+		<unit ak=71 start=3/1/42 >
+			<hq>
+				<unit sig.bn=480 />
+			</>
+		</unit>
+		<unit ak=72 start=2/13/44 >
+			<hq>
+				<unit sig.bn=472 />
+			</>
+		</unit>
+		<unit ak=73 start=11/25/44 >
+			<hq>
+				<unit sig.bn=473 />
+			</>
+		</unit>
+		<unit ak=74 start=7/26/43 >
+			<hq>
+				<unit sig.bn=474 />
+			</>
+		</unit>
+		<unit ak=75 start=12/15/43 >
+			<hq>
+				<unit sig.bn=475 />
+			</>
+		</unit>
+		<unit pzk=76 abbreviation=76p start=6/29/43>
+			<hq>
+				<unit sig.bn=476 />
+			</>
+		</unit>
+		<unit ak=78 start=3/6/44 end=5/25/44 >
+			<hq>
+				<unit sig.bn=478 />
+			</>
+		</unit>
+		<unit ak=80 start=5/27/42 >
+			<hq>
+				<unit sig.bn=431 end=11/19/42 />
+				<unit sig.bn=486 start=11/19/42 />
+			</>
+		</unit>
+		<unit ak=81 start=5/27/42 >
+			<hq>
+				<unit sig.bn=432 />
+			</>
+		</unit>
+		<unit ak=82 start=5/27/42 >
+			<hq>
+				<unit sig.bn=437 />
+			</>
+		</unit>
+		<unit ak=83 start=5/27/42 end=8/26/43 >
+			<hq>
+				<unit sig.bn=445 />
+			</>
+		</unit>
+		<unit ak=84 start=5/27/42 end=11/2/44 >
+			<hq>
+				<unit sig.bn=460 />
+			</>
+		</unit>
+		<unit ak=85 start=10/1/43 >
+			<hq>
+				<unit sig.bn=485 />
+			</>
+		</unit>
+		<unit ak=86 start=11/19/42 >
+			<hq>
+				<unit sig.bn=431 />
+			</>
+		</unit>
+		<unit ak=87 start=11/5/42 >
+			<hq>
+				<unit sig.bn=487 />
+			</>
+		</unit>
+		<unit ak=88 start=6/8/42 >
+			<hq>
+				<unit sig.bn=488 />
+			</>
+		</unit>
+		<unit ak=89 start=8/2/42 >
+			<hq>
+				<unit sig.bn=489 />
+			</>
+		</unit>
+		<unit ak=90 start=11/17/42 end=12/18/42 >
+			<hq>
+				<unit sig.bn=490 note="identity not confirmed in sources" />
+			</>
+		</unit>
+		<unit ak=91 name="LXXXXI Corps z.b.V." start=8/7/44 >
+			<hq>
+				<unit sig.bn=491 />
+			</>
+		</unit>
+		<unit ak=97 name="LXXXXVII Corps z.b.V." start=9/28/44 >
+			<hq>
+				<unit sig.bn=497 />
+			</>
+		</unit>
+		<unit ak=101 start=2/1/45 >
+			<hq>
+				<unit sig.bn=501? note="identity not confirmed in sources" />
+			</>
+		</unit>
+		<unit pzk=GD name="Grossdeutschland Panzer" start=9/28/44 >
+			<hq>
+				<unit sig.bn=500 />
+			</>
+			<unit fus.reg=GD start=12/20/1944 />
+			<unit hvy.pz.bn=GD start=12/20/1944 />
+			<unit *mot.art.reg=500 start=12/20/1944 >
+				<unit mot.art.bn=I/500 />
+				<unit mot.art.bn=II/500 />
+			</>
+			<unit mot.eng.bn=500 />
+		</unit>
+		<unit fsk=1 colors=LW start=1/1/44 >
+			<hq>
+				<unit lw.sig.bn=1 />
+			</>
+			<unit aufk.bn=11 />
+			<unit lwc.art.reg=1 end=6/1/44 />
+			<unit fs.art.reg=11 start=6/1/44 end=3/1/45 />
+			<unit lw.stug.bn=1 end=6/1/44 />
+			<unit stug.bg=11 start=6/1/44 />
+			<unit flak.reg=11 />
+			<unit mgun.bn=1 />
+		</unit>
+		<unit fsk=2 colors=LW start=1/1/44 >
+			<hq>
+				<unit lw.sig.bn=2 />
+			</>
+			<unit aufk.bn=2 end=6/1/44 />
+			<unit aufk.bn=12 start=6/1/44 />
+			<unit lwc.art.reg=2 end=6/1/44 />
+			<unit fs.art.reg=12 start=6/1/44 />
+			<unit stug.bn=2 />
+			<unit flak.reg=2 end=6/1/44 />
+			<unit flak.reg=12 start=6/1/44 />
+			<unit mgun.bn=2 start=2/1/44 />
+		</unit>
+		<unit lwk=2 end=1/1/44 >
+			<hq>
+				<unit lw.sig.bn=2 />
+			</>
+		</unit>
+		<unit lwk=3 >
+			<hq>
+				<unit lw.sig.bn=3 />
+			</>
+		</unit>
+		<unit lwk=4 start=7/1/44 end=11/19/44 >
+			<hq>
+				<unit lw.sig.bn=4 />
+			</>
+		</unit>
+		<unit sspk=1 start=11/1/43>
+			<hq>
+				<unit sig.bn=101/>
+			</>
+			<unit hvy.pz.bn=101 />
+			<unit mot.art.bn=101 />
+		</unit>
+		<unit sspk=2 start=7/1/42>
+			<hq>
+				<unit sig.bn=102/>
+			</>
+			<unit hvy.pz.bn=102 start=10/22/1943 />
+			<unit rocket.bn=102 start=10/22/1943 />
+		</unit>
+		<unit sspk=3 start=4/15/43>
+			<hq>
+				<unit sig.bn=103/>
+			</>
+			<unit hvy.pz.bn=103 />
+			<unit rocket.bn=103 />
+		</unit>
+		<unit sspk=4 colors=SS start=6/30/44 >
+			<hq>
+				<unit sig.bn=104/>
+			</>
+			<unit rocket.bn=104 />
+		</unit>
+		<unit ssak=5 uid=5ssgk name="V SS Mountain Corps" badge=mtn start=7/1/43 >
+			<hq>
+				<unit sig.bn=105/>
+			</>
+			<unit aufk.bn=105 />
+			<unit med.pz.bn=105 />
+			<unit stug.bn=105 />
+			<unit art.bn=105 />
+			<unit ss.flak.bn=105 colors=SS />
+			<unit rocket.bn=105 />
+			<unit sturm.bn=V start=4/1/45 />
+			<unit stug.bn=Skanderbeg start=4/1/45 />
+		</unit>
+		<unit ssak=6 name="VI SS (Latvian) Corps" colors=freiSS start=10/8/43 >
+			<hq>
+				<unit sig.bn=106/>
+			</>
+			<unit flak.co=106 />
+			<unit eng.co=106 />
+		</unit>
+		<unit ssak=9 uid=9ssgk name="IX SS Mountain Corps" badge=mtn start=7/1/44 >
+			<hq>
+				<unit sig.bn=109/>
+			</>
+		</unit>
+		<unit ssak=10 start=1/1/45 >
+			<hq>
+				<unit sig.bn=110/>
+			</>
+		</unit>
+		<unit ssak=11 start=7/24/44 >
+			<hq>
+				<unit sig.bn=111/>
+			</>
+		</unit>
+		<unit ssak=12 start=8/1/44 >
+			<hq>
+				<unit sig.bn=112/>
+			</>
+		</unit>
+		<unit ssak=13 start=8/1/44 >
+			<hq>
+				<unit sig.bn=113/>
+			</>
+		</unit>
+		<unit ssak=14 start=11/1/44 end=1/1/45 >
+			<hq>
+				<unit sig.bn=114/>
+			</>
+		</unit>
+		<unit ssak=15 uid=15sscosk name="XV SS Cossack Cavalry Corps" badge=cav colors=cossSS start=2/1/45 >
+			<hq>
+				<unit sig.bn=115/>
+			</>
+		</unit>
+		<unit ssak=18 start=12/1/44 >
+			<hq>
+				<unit sig.bn=499 colors=Wehrmacht/>
+			</>
+		</unit>
+	</unit>
+	<unit name=Army colors=Wehrmacht>
+		<unit uid=gd *mot.inf.reg=GD name="Grossdeutschland" start=10/1/39 end=3/12/42 >
+			<hq>
+				<unit sig.co=19./GD start=9/27/1940 />
+			</hq>
+			<unit mot.inf.bn=I/GD />
+			<unit mot.inf.bn=II/GD />
+			<unit mot.inf.bn=III/GD start=10/16/1939 />
+			<unit badge=hvy size="I I" name=IV/GD start=4/10/1940 >
+				<unit lt.inf.art.co=13./GD />
+				<unit at.co=14./GD />
+				<unit hvy.inf.art.co=15./GD />
+			</>
+			<unit mot.art.bn=400 start=9/15/1940 />
+			<unit stug.co=16./GD start=4/10/1940 />
+			<unit mcycle.co=17./GD start=7/1/1940 />
+			<unit eng.co=18./GD start=9/27/1940 />
+			<unit flak.co=20./GD start=9/27/1940 />
+		</>
+		<unit uid=gd *mot.div=GD name="Grossdeutschland" start=3/12/1942 end=5/19/1943 >
+			<unit med.pz.bn=GD end=1/13/43 />
+			<unit pz.reg=GD start=1/13/43 />
+			<unit gd.mot.reg="GD 1" end=10/1/1942 />
+			<unit gd.mot.reg="GD 2" end=10/1/1942 />
+			<unit gd.mot.reg=Gr/GD start=10/1/1942/>
+			<unit gd.mot.reg=Fus/GD start=10/1/1942 />
+			<unit mot.art.reg=GD >
+				<unit mot.art.bn=IV/GD start=1/14/43 />
+			</>
+			<unit stug.bn=GD />
+			<unit mcycle.bn=GD end=1/14/1943 />
+			<unit pz.aufk.bn=GD start=1/14/1943 />
+			<unit mot.at.bn=GD />
+			<unit h.flak.bn=GD />
+			<unit mot.eng.bn=GD />
+		</>
+		<unit uid=gd *pg.div=GD name="Grossdeutschland" start=5/19/1943 >
+			<unit pz.reg=GD >
+				<unit hvy.pz.bn=III/GD start=7/1/1943 end=12/20/1944 />
+			</>
+			<unit gd.mot.reg=Gr/GD end=8/1/1944 />
+			<unit gd.mot.reg=Fus/GD end=8/1/1944 />
+			<unit gd44.mot.reg=Gr/GD start=8/1/1944 end=12/20/1944 />
+			<unit gd44.mot.reg=Fus/GD start=8/1/1944 end=12/20/1944 />
+			<unit badge=mech size="I I I" name=Grenadier start=12/20/1944 >
+				<unit mot.reg.hq=Gr/GD />
+				<unit mech.bn=I/Gr/GD />
+				<unit mot.inf.bn=II/Gr/GD />
+				<unit hummel.co=9./Gr/GD />
+				<unit mot.eng.co=10./Gr/GD />
+			</>
+			<unit badge=mech size="I I I" name=Fusilier start=12/20/1944 >
+				<unit mot.reg.hq=Fus/GD />
+				<unit mot.inf.bn=I/Fus/GD />
+				<unit mot.inf.bn=II/Fus/GD />
+				<unit hummel.co=9./Fus/GD />
+				<unit mot.eng.co=10./Fus/GD />
+			</>
+			<unit mot.art.reg=GD >
+				<unit mot.art.bn=IV/GD end=12/20/1944 />
+				<unit rocket.co=GD />
+			</>
+			<unit pz.aufk.bn=GD />
+			<unit mot.at.bn=GD />
+			<unit h.flak.bn=GD />
+			<unit mot.eng.bn=GD />
+		</>
+		<unit *pz.div=1>
+			<unit *pz.bg=1 start=10/15/35 end=10/20/40>
+				<unit pz.reg=1 />
+				<unit pz.reg=2 />
+			</unit>
+			<unit pz.reg=1 start=10/20/40 />
+			<unit *rifle.bg=1 start=10/15/35 end=11/6/40>
+				<unit rifle.reg=1>
+					<unit rifle.bn=III/1 start=10/30/39 end=10/20/40/>
+				</unit>
+				<unit krad.bn=1/>
+			</unit>
+			<unit rifle.reg=1 start=11/6/40 end=7/11/42 />
+			<unit rifle.reg=113 start=11/6/40 end=7/11/42 />
+			<unit pz.pg.reg=1 start=7/11/42 />
+			<unit pz.pg.reg=113 start=7/11/42 />
+			<unit *mot.art.reg=73>
+				<unit mot.art.bn=I/73/>
+				<unit mot.art.bn=II/73/>
+				<unit mot.art.bn=III/73 start=2/15/41/>
+			</unit>
+			<unit mot.at.bn=37 />
+			<unit krad.bn=1 start=11/6/40 end=3/1/43 />
+			<unit aufk.bn=4 end=7/1/42 />
+			<unit pz.aufk.bn=1 start=3/1/43 />
+			<unit arm.eng.bn=37 />
+		</unit>
+		<unit *pz.div=2>
+			<unit *pz.bg=2 start=10/1/35 end=8/10/40>
+				<unit pz.reg=3 />
+				<unit pz.reg=4 />
+			</unit>
+			<unit *pz.reg=3 start=8/10/40 >
+				<unit med.pz.bn=I/3 end=1/1/42 />
+				<unit med.pz.bn=I/3 start=3/25/43 />
+				<unit lt.pz.bn=II/3 />
+			</unit>
+			<unit *rifle.bg=2 start=10/15/35 end=8/10/40>
+				<unit rifle.reg=2>
+					<unit rifle.bn=III/2 start=11/1/39 />
+				</unit>
+				<unit krad.bn=2/>
+			</unit>
+			<unit rifle.reg=2 start=8/10/40 end=7/5/42 />
+			<unit rifle.reg=304 start=8/10/40 end=7/5/42 />
+			<unit pz.pg.reg=2 start=7/5/42 />
+			<unit pz.pg.reg=304 start=7/5/42 />
+			<unit *mot.art.reg=74>
+				<unit mot.art.bn=I/74/>
+				<unit mot.art.bn=I/110 end=8/10/40/>
+				<unit mot.art.bn=II/74 start=8/10/40/>
+				<unit mot.art.bn=III/74 start=8/10/40/>
+			</unit>
+			<unit krad.bn=2 start=8/10/40 end=3/25/43 />
+			<unit aufk.bn=5 end=1/1/42 />
+			<unit pz.aufk.bn=2 start=3/25/43 />
+			<unit mot.at.bn=38 />
+			<unit h.flak.bn=273 start=1/1/43 />
+			<unit arm.eng.bn=38 />
+		</unit>
+		<unit *pz.div=3>
+			<unit *pz.bg=3 start=10/15/35 end=2/18/41>
+				<unit pz.reg=5 />
+				<unit pz.reg=6 />
+			</unit>
+			<unit *pz.bg=5 start=2/18/41 end=2/21/42>
+				<unit pz.reg=6>
+					<unit lt.pz.bn=III/6 />
+				</unit>
+			</unit>
+			<unit pz.reg=6 start=2/21/42>
+				<unit lt.pz.bn=III/6 end=1/1/43 />
+			</unit>
+			<unit *rifle.bg=3 start=10/15/35 end=1/1/42>
+				<unit rifle.reg=3/>
+				<unit rifle.reg=394 start=11/1/39/>
+				<unit krad.bn=3/>
+			</unit>
+			<unit rifle.reg=3 start=1/1/42 end=7/5/42 />
+			<unit rifle.reg=394 start=1/1/42 end=7/5/42 />
+			<unit pz.pg.reg=3 start=7/5/42 />
+			<unit pz.pg.reg=394 start=7/5/42 />
+			<unit *mot.art.reg=75>
+				<unit mot.art.bn=I/75 start=10/15/35 end=1/1/41/>
+				<unit mot.art.bn=I/75 start=1/1/42/>
+				<unit mot.art.bn=II/75/>
+				<unit mot.art.bn=III/75 start=3/1/41/>
+				<unit h.flak.bn=IV/75 start=1/1/42 end=1/1/43 />
+			</unit>
+			<unit mot.at.bn=39 end=1/1/41 />
+			<unit mot.at.bn=543 start=1/1/41 />
+			<unit krad.bn=3 start=1/1/42 end=1/1/43/>
+			<unit aufk.bn=3 end=1/1/41/>
+			<unit aufk.bn=1 start=2/1/41 end=1/1/43 />
+			<unit pz.aufk.bn=3 start=1/1/43 />
+			<unit h.flak.bn=314 start=1/1/43 />
+			<unit arm.eng.bn=39 />
+		</unit>
+		<unit *pz.div=4 start=10/11/38 >
+			<unit *pz.bg=5 end=2/18/41>
+				<unit pz.reg=35 />
+				<unit pz.reg=36 end=11/11/40 />
+			</unit>
+			<unit *pz.reg=35 start=2/18/41>
+				<unit med.pz.bn=I/35 />
+				<unit lt.pz.bn=II/35 end=1/1/42 />
+				<unit lt.pz.bn=II/35 start=11/14/43 />
+			</unit>
+			<unit *rifle.bg=4 end=11/7/42 >
+				<unit rifle.reg=12 end=10/7/42/>
+				<unit pz.pg.reg=12 start=10/7/42 />
+				<unit mot.inf.reg=33 start=10/18/39 end=4/1/40 />
+				<unit rifle.reg=33 start=4/1/40 end=7/5/42 />
+				<unit pz.pg.reg=33 start=7/5/42 />
+				<unit krad.bn=34 start=1/21/41 />
+			</unit>
+			<unit pz.pg.reg=12 start=11/7/42 />
+			<unit pz.pg.reg=33 start=11/7/42 />
+			<unit *mot.art.reg=103>
+				<unit mot.art.bn=I/103 />
+				<unit mot.art.bn=II/103 />
+				<unit mot.art.bn=III/103 start=1/21/41 />
+			</unit>
+			<unit mot.at.bn=49 />
+			<unit aufk.bn=7 end=5/5/42 />
+			<unit krad.bn=34 start=11/7/42 end=6/7/43 />
+			<unit pz.aufk.bn=4 start=6/7/43 />
+			<unit h.flak.bn=290 start=1/1/43 />
+			<unit arm.eng.bn=79 />
+		</unit>
+		<unit *pz.div=5 start=11/24/38 >
+			<unit *pz.bg=8 end=9/4/40>
+				<unit pz.reg=15 />
+				<unit pz.reg=31 />
+			</unit>
+			<unit pz.reg=31 start=9/4/40 >
+				<unit lt.pz.bn="III/31 it." start=11/1/43 end=9/1/44 />
+			</unit>
+			<unit *rifle.bg=5 end=11/1/42 >
+				<unit rifle.reg=13 end=7/5/42 />
+				<unit rifle.reg=14 end=7/5/42 />
+				<unit pz.pg.reg=13 start=7/5/42 />
+				<unit pz.pg.reg=14 start=7/5/42 />
+				<unit krad.bn=55 start=8/10/40 />
+			</unit>
+			<unit pz.pg.reg=13 start=11/1/42 />
+			<unit pz.pg.reg=14 start=11/1/42 />
+			<unit *mot.art.reg=116>
+				<unit mot.art.bn=I/116 />
+				<unit mot.art.bn=II/116 />
+				<unit mot.art.bn=III/116 start=8/10/40 />
+			</unit>
+			<unit mot.at.bn=53 />
+			<unit aufk.bn=8 end=9/15/41 />
+			<unit krad.bn=55 start=11/1/42 end=3/24/43 />
+			<unit pz.aufk.bn=5 start=3/24/43 />
+			<unit h.flak.bn=228 start=1/1/42 />
+			<unit arm.eng.bn=89 />
+		</unit>
+		<unit *pz.div=6 start=10/18/39 >
+			<unit pz.reg=11>
+				<unit med.pz.bn=65 start=8/1/40 end=3/6/42 />
+			</unit>
+			<unit med.pz.bn=65 end=8/1/40 />
+			<unit *rifle.bg=6 end=2/1/43 >
+				<unit rifle.reg=4>
+					<unit rifle.bn=III/4 end=8/1/40 />
+				</unit>
+				<unit rifle.reg=114 start=8/1/40 />
+				<unit krad.bn=6 end=8/1/40 />
+			</unit>
+			<unit pz.pg.reg=4 start=2/1/43 />
+			<unit pz.pg.reg=114 start=2/1/43 />
+			<unit *mot.art.reg=76>
+				<unit mot.art.bn=I/76 />
+				<unit mot.art.bn=II/76/>
+				<unit mot.art.bn=III/76 start=8/1/40/>
+			</unit>
+			<unit mot.at.bn=41 />
+			<unit krad.bn=6 start=8/1/40 end=3/6/42 />
+			<unit pz.aufk.bn=6 start=3/6/42 />
+			<unit h.flak.bn=298 start=2/1/43 />
+			<unit arm.eng.bn=57 />
+		</unit>
+		<unit *pz.div=7 start=10/18/39 >
+			<unit pz.reg=25>
+				<unit med.pz.bn=III/25 start=2/19/41 end=3/25/42 />
+			</unit>
+			<unit med.pz.bn=66 end=2/19/41 />
+			<unit *rifle.bg=7 end=11/1/42 >
+				<unit rifle.reg=6 />
+				<unit rifle.reg=7 />
+				<unit krad.bn=7 />
+			</unit>
+			<unit pz.pg.reg=6 start=11/1/42/>
+			<unit pz.pg.reg=7 start=11/1/42/>
+			<unit *mot.art.reg=78>
+				<unit mot.art.bn=I/78 />
+				<unit mot.art.bn=II/78/>
+				<unit mot.art.bn=III/78 start=1/2/41 />
+				<unit rocket.280.co=10/78 />
+				<unit rocket.280.co=11/78 />
+			</unit>
+			<unit mot.at.bn=42 />
+			<unit pz.aufk.bn=7 start=11/1/42/>
+			<unit h.flak.bn=296 start=2/1/43 />
+			<unit mot.eng.bn=58 />
+		</unit>
+		<unit *pz.div=8 start=10/16/39 >
+			<unit *pz.reg=10 end=9/16/42 >
+				<unit med.pz.bn=I/10 />
+				<unit lt.pz.bn=II/10 end=5/8/42 />
+				<unit med.pz.bn=III/10 start=1/1/41 />
+			</unit>
+			<unit med.pz.bn=I/10 start=9/16/42 end=12/1/44/>
+			<unit med.pz.bn=67 end=1/1/41 />
+			<unit pz.reg=10 start=12/1/44 />
+			<unit *rifle.bg=8 end=11/1/42 >
+				<unit rifle.reg=8 />
+				<unit rifle.reg=28 start=1/1/41 />
+				<unit krad.bn=8 />
+			</unit>
+			<unit pz.pg.reg=8 start=11/1/42 end=12/1/44 />
+			<unit pz.pg.reg=28 start=11/1/42 />
+			<unit pz.pg.reg=98 start=12/1/44 />
+			<unit *mot.art.reg=80>
+				<unit mot.art.bn=I/80 />
+				<unit mot.art.bn=II/80 />
+				<unit hvy.art.bn=III/80 start=1/1/41 />
+			</unit>
+			<unit mot.at.bn=43 />
+			<unit pz.aufk.bn=8 start=11/1/42 />
+			<unit h.flak.bn=286 start=2/1/43 />
+			<unit mot.eng.bn=59 />
+		</unit>
+		<unit *pz.div=9 start=10/16/39 >
+			<unit *pz.reg=33 >
+				<unit lt.pz.bn=I/33 />
+				<unit lt.pz.bn=II/33 end=4/23/43 />
+				<unit med.pz.bn=II/33 start=1/3/44 />
+				<unit med.pz.bn=III/33 start=1/1/42 end=4/23/43 />
+			</unit>
+			<unit *rifle.bg=9 end=12/15/42 >
+				<unit rifle.reg=10 />
+				<unit rifle.reg=11 />
+				<unit krad.bn=59 />
+			</unit>
+			<unit pz.pg.reg=10 start=12/15/42 />
+			<unit pz.pg.reg=11 start=12/15/42 />
+			<unit krad.bn=59 start=12/15/42 end=4/13/43 />
+			<unit *mot.art.reg=102>
+				<unit mot.art.bn=I/102 />
+				<unit mot.art.bn=II/102 />
+				<unit mot.art.bn=III/102 start=9/1/40 />
+			</unit>
+			<unit mot.at.bn=50 />
+			<unit pz.aufk.bn=9 />
+			<unit h.flak.bn=287 start=4/20/43 />
+			<unit mot.eng.bn=86 />
+		</unit>
+		<unit *pz.div=10 start=4/1/39 >
+			<unit pz.reg=8 start=9/1/39 end=10/15/39 />
+			<unit *pz.bg=4 start=10/15/39 end=1/1/42 >
+				<unit pz.reg=7 />
+				<unit pz.reg=8 end=1/18/41 />
+			</unit>
+			<unit *pz.reg=7 start=1/1/42 >
+				<unit med.pz.bn=I/7 />
+				<unit lt.pz.bn=II/7 />
+				<unit lt.pz.bn=III/7 end=9/16/42 />
+			</unit>
+			<unit mot.inf.reg=86 start=9/1/39 end=4/1/40 />
+			<unit *rifle.bg=10 start=4/1/40 end=2/1/43 >
+				<unit rifle.reg=69 />
+				<unit rifle.reg=86 />
+				<unit krad.bn=10 start=3/1/41 />
+			</unit>
+			<unit mot.art.bn=II/29 start=9/1/39 end=10/28/39 />
+			<unit *mot.art.reg=90 start=10/28/39 >
+				<unit mot.art.bn=I/90 />
+				<unit mot.art.bn=II/90 />
+				<unit mot.art.bn=III/90 start=1/18/41 />
+				<unit h.flak.bn=IV/90 start=1/1/42 end=4/20/43 />
+			</unit>
+			<unit mot.at.bn=90 />
+			<unit krad.bn=10 start=2/1/43 end=3/1/43 />
+			<unit aufk.bn=90 end=3/1/43 />
+			<unit pz.aufk.bn=10 start=3/1/43 />
+			<unit h.flak.bn=302 start=4/20/43 />
+			<unit mot.eng.bn=49 />
+		</unit>
+		<unit *pz.div=11 start=8/1/40 >
+			<unit pz.reg=15 start=9/4/40 >
+				<unit lt.pz.bn=III/15 start=1/1/42 end=11/14/43 />
+			</unit>
+			<unit *rifle.bg=11 end=1/1/43 >
+				<unit rifle.reg=110 />
+				<unit rifle.reg=111 />
+				<unit krad.bn=61 start=9/4/40 />
+			</unit>
+			<unit pz.pg.reg=110 start=1/1/43 />
+			<unit pz.pg.reg=111 start=1/1/43 />
+			<unit mot.art.reg=119 >
+				<unit h.flak.bn=IV/119 start=1/1/42 end=4/20/43 />
+			</unit>
+			<unit mot.at.bn=61 />
+			<unit aufk.bn=231 end=12/1/41 />
+			<unit krad.bn=61 start=1/1/43 end=4/27/43 />
+			<unit pz.aufk.bn=11 start=4/27/43 />
+			<unit h.flak.bn=277 start=4/20/43 />
+			<unit mot.eng.bn=209 />
+		</unit>
+		<unit *pz.div=12 start=10/5/40 >
+			<unit pz.reg=29 >
+				<unit lt.pz.bn=III/29 end=5/15/42 />
+			</unit>
+			<unit *rifle.bg=12 end=11/22/42 >
+				<unit rifle.reg=5 />
+				<unit rifle.reg=25 />
+				<unit krad.bn=22 />
+			</unit>
+			<unit pz.pg.reg=5 start=11/22/42 />
+			<unit pz.pg.reg=25 start=11/22/42 />
+			<unit mot.art.reg=2 />
+			<unit mot.at.bn=2 />
+			<unit aufk.bn=2 end=5/1/42 />
+			<unit krad.bn=22 start=11/22/42 end=4/29/43 />
+			<unit pz.aufk.bn=12 start=4/29/43 />
+			<unit h.flak.bn=303 start=1/1/42 />
+			<unit mot.eng.bn=32 />
+		</unit>
+		<unit *pz.div=13 start=10/11/40 >
+			<unit pz.reg=4 >
+				<unit lt.pz.bn=III/4 start=5/15/42 end=12/1/43 />
+				<unit lt.pz.bn=III/4 start=1/1/45 />
+			</unit>
+			<unit *rifle.bg=13 end=11/1/42 >
+				<unit rifle.reg=66 />
+				<unit rifle.reg=93 />
+				<unit krad.bn=43 />
+			</unit>
+			<unit pz.pg.reg=66 start=11/1/42 />
+			<unit pz.pg.reg=93 start=11/1/42 />
+			<unit mot.art.reg=13 >
+				<unit h.flak.bn=IV/13 start=1/1/42  end=1/1/43/>
+			</unit>
+			<unit mot.at.bn=13 />
+			<unit aufk.bn=13 end=4/10/42 />
+			<unit krad.bn=43 start=11/1/42 end=4/1/43 />
+			<unit pz.aufk.bn=13 start=4/1/43 />
+			<unit h.flak.bn=271 start=1/1/43 />
+			<unit mot.eng.bn=4 />
+		</unit>
+		<unit *pz.div=14 start=8/15/40 >
+			<unit *pz.reg=36 start=11/11/40 >
+				<unit med.pz.bn=I/36 />
+				<unit lt.pz.bn=II/36 end=1/4/42 />
+				<unit lt.pz.bn=II/36 start=6/2/42 end=11/1/44 />
+				<unit lt.pz.bn=III/36 start=6/2/42 />
+			</unit>
+			<unit *rifle.bg=14 end=11/15/42 >
+				<unit rifle.reg=103 />
+				<unit rifle.reg=108 />
+				<unit krad.bn=64 />
+			</unit>
+			<unit pz.pg.reg=103 start=11/15/42 />
+			<unit pz.pg.reg=108 start=11/15/42 />
+			<unit mot.art.reg=4 >
+				<unit h.flak.bn=IV/4 start=1/1/42  end=2/17/43/>
+			</unit>
+			<unit mot.at.bn=14 />
+			<unit aufk.bn=40 end=5/5/42 />
+			<unit krad.bn=64 start=11/15/42 end=2/17/43 />
+			<unit pz.aufk.bn=14 start=2/17/43 />
+			<unit h.flak.bn=276 start=2/17/43 />
+			<unit mot.eng.bn=13 />
+		</unit>
+		<unit *pz.div=15 start=11/1/40 end=6/1/43 >
+			<unit *pz.reg=8 start=1/18/41 >
+				<unit med.pz.bn=I/8 />
+				<unit lt.pz.bn=II/8 />
+				<unit lt.pz.bn=III/8 start=2/26/43 />
+			</unit>
+			<unit *rifle.bg=15 end=1/1/43 >
+				<unit rifle.reg=104 end=9/1/41 />
+				<unit rifle.reg=115 >
+					<unit rifle.bn=III/115 start=4/1/42 />
+				</unit>
+			</unit>
+			<unit krad.bn=15 end=9/1/41/>
+			<unit pz.pg.reg=115 start=1/1/43>
+				<unit pg.bn=III/115 />
+			</unit>
+			<unit mot.art.reg=33 start=11/11/40 />
+			<unit mot.at.bn=33 />
+			<unit aufk.bn=33 end=4/29/43 />
+			<unit pz.aufk.bn=15 start=4/29/43 />
+			<unit mot.eng.bn=33 start=11/11/40 />
+		</unit>
+		<unit *pz.div=16 start=11/1/40 >
+			<unit *pz.reg=2 >
+				<unit med.pz.bn=I/2 />
+				<unit lt.pz.bn=II/2 />
+				<unit lt.pz.bn=III/2 start=1/1/42 />
+			</unit>
+			<unit *rifle.bg=16 end=11/1/42 >
+				<unit rifle.reg=64 />
+				<unit rifle.reg=79 />
+				<unit krad.bn=16 />
+			</unit>
+			<unit pz.pg.reg=64 start=11/1/42 />
+			<unit pz.pg.reg=79 start=11/1/42 />
+			<unit mot.art.reg=16 >
+				<unit h.flak.bn=IV/16 start=1/1/42 end=4/26/43/>
+			</unit>
+			<unit mot.at.bn=16 />
+			<unit aufk.bn=16 end=8/1/42 />
+			<unit krad.bn=16 start=11/1/42 end=4/1/43 />
+			<unit pz.aufk.bn=16 start=4/1/43 />
+			<unit h.flak.bn=274 start=4/26/43 />
+			<unit mot.eng.bn=16 />
+		</unit>
+		<unit *pz.div=17 start=11/1/40 >
+			<unit *pz.reg=39 >
+				<unit med.pz.bn=I/39 />
+				<unit lt.pz.bn=II/39 end=6/1/42 />
+				<unit lt.pz.bn=II/39 start=2/1/45 />
+				<unit lt.pz.bn=III/39 start=6/1/41 end=8/16/41 />
+			</unit>
+			<unit *rifle.bg=17 end=11/1/42 >
+				<unit rifle.reg=40 />
+				<unit rifle.reg=63 />
+				<unit krad.bn=17 />
+			</unit>
+			<unit pz.pg.reg=40 start=11/1/42 />
+			<unit pz.pg.reg=63 start=11/1/42 />
+			<unit mot.art.reg=27 />
+			<unit mot.at.bn=27 />
+			<unit krad.bn=27 end=4/1/43 />
+			<unit pz.aufk.bn=17 start=4/1/43 />
+			<unit h.flak.bn=297 start=4/26/43 />
+			<unit mot.eng.bn=27 />
+		</unit>
+		<unit *pz.div=18 start=10/26/40 end=10/1/43 >
+			<unit pz.reg=18 end=6/15/42 >
+				<unit lt.pz.bn=III/18 start=3/1/41 />
+			</unit>
+			<unit pz.reg=28 end=3/1/41 />
+			<unit lt.pz.bn=18 start=6/15/42 />
+			<unit *rifle.bg=18 end=1/1/43 >
+				<unit rifle.reg=52 />
+				<unit rifle.reg=101 />
+				<unit krad.bn=18 />
+			</unit>
+			<unit pz.pg.reg=52 start=1/1/43 />
+			<unit pz.pg.reg=101 start=1/1/43 />
+			<unit mot.art.reg=88 >
+				<unit flak.co=10/88 start=6/15/42 />
+			</unit>
+			<unit mot.at.bn=88 />
+			<unit aufk.bn=88 end=4/29/43 />
+			<unit krad.bn=18 start=1/1/43 end=4/29/43 />
+			<unit pz.aufk.bn=18 start=4/29/43 />
+			<unit mot.eng.bn=98 />
+		</unit>
+		<unit *pz.div=19 start=11/1/40 end=10/1/43 >
+			<unit *pz.reg=27 >
+				<unit med.pz.bn=I/27 />
+				<unit lt.pz.bn=II/27 end=3/31/42 />
+				<unit lt.pz.bn=II/27 start=10/1/43 />
+				<unit lt.pz.bn=III/27 end=8/10/41 />
+			</unit>
+			<unit *rifle.bg=19 end=10/28/42 >
+				<unit rifle.reg=73 />
+				<unit rifle.reg=74 />
+				<unit krad.bn=19 />
+			</unit>
+			<unit pz.pg.reg=73 start=10/28/42 />
+			<unit pz.pg.reg=74 start=10/28/42 />
+			<unit mot.art.reg=19 />
+			<unit mot.at.bn=19 />
+			<unit aufk.bn=19 end=4/29/43 />
+			<unit krad.bn=19 start=10/28/42 end=4/29/43 />
+			<unit pz.aufk.bn=19 start=4/29/43 />
+			<unit h.flak.bn=272 start=4/29/43 />
+			<unit mot.eng.bn=19 />
+		</unit>
+		<unit *pz.div=20 start=10/15/40 >
+			<unit *pz.reg=21 end=4/26/43 >
+				<unit med.pz.bn=I/21 />
+				<unit lt.pz.bn=II/21 />
+				<unit lt.pz.bn=III/21 />
+			</unit>
+			<unit lt.pz.bn=21 start=4/26/43 end=10/1/44 />
+			<unit pz.reg=21 start=10/1/44 />
+			<unit *rifle.bg=20 end=1/1/43 >
+				<unit rifle.reg=59 />
+				<unit rifle.reg=112 />
+				<unit krad.bn=20 />
+			</unit>
+			<unit pz.pg.reg=59 start=1/1/43 />
+			<unit pz.pg.reg=112 start=1/1/43 />
+			<unit mot.art.reg=92 />
+			<unit mot.at.bn=92 />
+			<unit aufk.bn=92 end=7/1/42 />
+			<unit krad.bn=20 start=1/1/43 end=4/1/43 />
+			<unit pz.aufk.bn=20 start=4/1/43 />
+			<unit mot.eng.bn=92 />
+		</unit>
+		<unit *pz.div=21 start=8/1/41 end=6/1/43 >
+			<unit pz.reg=5 />
+			<unit rifle.reg=104 start=9/1/41 >
+				<unit rifle.bn=III/104 start=4/1/42 />
+			</unit>
+			<unit krad.bn=15 start=9/1/41 end=4/1/42 />
+			<unit mot.art.reg=155 >
+				<unit h.flak.bn=IV/155 start=1/1/43 />
+			</unit>
+			<unit mot.at.bn=39 />
+			<unit aufk.bn=3 end=2/26/43 />
+			<unit pz.aufk.bn=580 start=2/26/43 />
+			<unit mot.eng.bn=200 end=2/26/43 />
+			<unit arm.eng.bn=220 start=2/26/43 />
+		</unit>
+		<unit *pz.div=21 start=7/15/43 >
+			<unit pz.reg=100 />
+			<unit pz.pg.reg=125 />
+			<unit pz.pg.reg=192 />
+			<unit mot.art.reg=155 />
+			<unit mot.at.bn=200 />
+			<unit pz.aufk.bn=21 />
+			<unit h.flak.bn=305 start=4/29/43 />
+			<unit mot.eng.bn=220 />
+		</unit>
+		<unit *pz.div=22 start=9/25/41 end=2/9/43 >
+			<unit pz.reg=204 >
+				<unit lt.pz.bn=III/204 start=4/12/42 end=9/5/42 />
+			</unit>
+			<unit rifle.reg=129 end=7/3/42 />
+			<unit rifle.reg=140 end=7/3/42 />
+			<unit pz.pg.reg=129 start=7/3/42 />
+			<unit pz.pg.reg=140 start=7/3/42 end=9/5/42 />
+			<unit krad.bn=24 />
+			<unit mot.art.reg=140 >
+				<unit h.flak.bn=IV/140 start=6/25/42 />
+			</unit>
+			<unit mot.at.bn=140 />
+			<unit aufk.bn=140 />
+			<unit arm.eng.bn=50 />
+		</unit>
+		<unit *pz.div=23 start=9/21/41  >
+			<unit pz.reg=201 end=8/16/43 >
+				<unit lt.pz.bn=III/201 end=3/5/43 />
+			</unit>
+			<unit pz.reg=23 start=8/16/43 />
+			<unit *rifle.bg=23 end=11/1/42 >
+				<unit rifle.reg=126 />
+				<unit rifle.reg=128 />
+			</unit>
+			<unit pz.pg.reg=126 start=11/1/42 />
+			<unit pz.pg.reg=128 start=11/1/42 />
+			<unit krad.bn=23 end=4/22/43/>
+			<unit mot.art.reg=128 >
+				<unit h.flak.bn=IV/128 start=6/1/42 end=5/1/43 />
+			</unit>
+			<unit mot.at.bn=128 />
+			<unit aufk.bn=128 end=4/22/43 />
+			<unit pz.aufk.bn=23 start=4/22/43 />
+			<unit h.flak.bn=278 start=5/1/43 />
+			<unit mot.eng.bn=51 />
+		</unit>
+		<unit *pz.div=24 start=11/28/41 >
+			<unit pz.reg=24 />
+			<unit *rifle.bg=24 end=3/1/43 >
+				<unit rifle.reg=21 />
+				<unit rifle.reg=26 />
+				<unit krad.bn=4 />
+			</unit>
+			<unit pz.pg.reg=21 start=4/1/43 />
+			<unit pz.pg.reg=26 start=4/1/43 />
+			<unit mot.art.reg=89 >
+				<unit h.flak.bn=IV/89 start=6/1/42 end=3/1/43 />
+			</unit>
+			<unit mot.at.bn=40 />
+			<unit aufk.bn=40 end=3/1/43 />
+			<unit pz.aufk.bn=24 start=4/1/43 />
+			<unit h.flak.bn=283 start=4/1/43 />
+			<unit mot.eng.bn=40 />
+		</unit>
+		<unit *pz.div=25 start=2/25/42 >
+			<unit pz.reg=9 />
+			<unit pz.pg.reg=146 />
+			<unit pz.pg.reg=147 />
+			<unit krad.bn=87 start=11/9/42 end=4/7/43 />
+			<unit mot.art.reg=91 />
+			<unit mot.at.bn=87 start=3/20/43 />
+			<unit pz.aufk.bn=25 start=4/7/43 />
+			<unit h.flak.bn=279 />
+			<unit mot.eng.bn=87 start=1/1/43 />
+		</unit>
+		<unit *pz.div=26 start=9/14/42 >
+			<unit pz.reg=26 />
+			<unit *pg.bg=26 end=11/10/42 >
+				<unit pz.pg.reg=9 />
+				<unit pz.pg.reg=67 />
+				<unit krad.bn=26 />
+			</unit>
+			<unit pz.pg.reg=9 start=11/10/42 />
+			<unit pz.pg.reg=67 start=11/10/42 />
+			<unit krad.bn=26 start=11/10/42 />
+			<unit mot.art.reg=93 />
+			<unit mot.at.bn=93 end=7/23/43 />
+			<unit mot.at.bn=51 end=10/17/44 />
+			<unit pz.aufk.bn=25 start=4/7/43 />
+			<unit h.flak.bn=304 />
+			<unit mot.eng.bn=93 />
+		</unit>
+		<unit *pz.div=27 start=10/1/42 end=2/15/43 >
+			<unit lt.pz.bn=127 />
+			<unit pz.pg.reg=140 />
+			<unit *mot.art.reg=127 >
+				<unit mot.art.bn=I/127 />
+				<unit mot.art.bn=II/127 />
+			</unit>
+			<unit mot.at.bn=127 />
+   			<unit arm.eng.bn=127 />
+		</unit>
+		<unit *pz.div=116 start=3/28/44 >
+			<unit pz.reg=16 />
+			<unit pz.pg.reg=60 />
+			<unit pz.pg.reg=156 />
+			<unit mot.art.reg=146 />
+			<unit mot.at.bn=228 />
+			<unit pz.aufk.bn=116 />
+			<unit h.flak.bn=281 />
+			<unit mot.eng.bn=675 />
+		</unit>
+		<unit pz.div=233 start=4/1/45 />
+		<unit *lt.div=1 start=11/10/38 end=10/18/39 >
+			<unit med.pz.bn=65 />
+			<unit rifle.reg=4 />
+			<unit krad.bn=6 />
+			<unit *mot.art.reg=76>
+				<unit mot.art.bn=I/76 />
+				<unit mot.art.bn=II/76/>
+			</unit>
+			<unit mot.at.bn=41 />
+			<unit aufk.bn=6 />
+			<unit mot.eng.bn=57 />
+		</unit>
+		<unit *lt.div=2 start=11/10/38 end=10/18/39 >
+			<unit med.pz.bn=66 />
+			<unit rifle.reg=6 />
+			<unit rifle.reg=7 />
+			<unit aufk.reg=7 />
+			<unit *mot.art.reg=78>
+				<unit mot.art.bn=I/78 />
+				<unit mot.art.bn=II/78/>
+			</unit>
+			<unit mot.at.bn=42 />
+			<unit aufk.bn=58 />
+			<unit mot.eng.bn=58 />
+		</unit>
+		<unit *lt.div=3 start=11/10/38 end=10/16/39 >
+			<unit med.pz.bn=67 />
+			<unit cav.rifle.reg=8 />
+			<unit cav.rifle.reg=9 />
+			<unit aufk.reg=8 />
+			<unit *mot.art.reg=80>
+				<unit mot.art.bn=I/80 />
+				<unit mot.art.bn=II/80 />
+			</unit>
+			<unit mot.at.bn=43 />
+			<unit aufk.bn=59 />
+			<unit mot.eng.bn=59 />
+		</unit>
+		<unit *lt.div=4 start=4/1/38 end=10/16/39 >
+			<unit med.pz.bn=33 />
+			<unit cav.rifle.reg=10 />
+			<unit cav.rifle.reg=11 />
+			<unit aufk.reg=9 />
+			<unit *mot.art.reg=102>
+				<unit mot.art.bn=I/102 />
+				<unit mot.art.bn=II/102 />
+			</unit>
+			<unit mot.at.bn=50 />
+			<unit aufk.bn=60 />
+			<unit mot.eng.bn=86 />
+		</unit>
+		<unit *lt.div=5 start=2/18/41 end=8/1/41 >
+			<unit pz.reg=5 />
+			<unit *inf.reg=zbv200 >
+				<unit mgun.bn=2 />
+				<unit mgun.bn=8 />
+			</unit>
+			<unit aufk.bn=3 />
+			<unit mot.art.bn=I/75 />
+			<unit mot.at.bn=39 />
+			<unit mot.at.bn=605 />
+			<unit h.flak.bn=606/>
+		</unit>
+		<unit *wave1.inf.div=1 >
+			<unit wave1.inf.reg=1 />
+			<unit wave1.inf.reg=22 />
+			<unit wave1.inf.reg=43 />
+			<unit *art.reg=1>
+				<unit art.bn=I/1 />
+				<unit art.bn=II/1 />
+				<unit art.bn=III/1 />
+				<unit hvy.art.bn=I/37 />
+			</unit>
+			<unit inf.recce.bn=1/>
+			<unit at.bn=1/>
+			<unit eng.bn=1/>
+		</unit>
+		<unit *mot.div=2 end=10/5/40 >
+			<unit mot.inf.reg=5 />
+			<unit mot.inf.reg=25 />
+			<unit mot.inf.reg=92 end=10/15/39 />
+			<unit krad.bn=22 start=10/15/39 />
+			<unit *mot.art.reg=2>
+				<unit mot.art.bn=I/2 />
+				<unit mot.art.bn=II/2 />
+				<unit mot.art.bn=III/2 />
+				<unit hvy.art.bn=I/38 />
+			</unit>
+			<unit mot.at.bn=2 />
+			<unit mot.inf.recce.bn=2 />
+			<unit mot.eng.bn=32 />
+		</unit>
+		<unit *wave1.inf.div=3 end=10/27/40 >
+			<unit wave1.inf.reg=8 />
+			<unit wave1.inf.reg=29 />
+			<unit wave1.inf.reg=50 />
+			<unit *art.reg=3>
+				<unit art.bn=I/3 />
+				<unit art.bn=II/3 />
+				<unit art.bn=III/3 />
+				<unit hvy.art.bn=I/39 />
+			</unit>
+			<unit inf.recce.bn=3/>
+			<unit at.bn=3/>
+			<unit eng.bn=3/>
+		</unit>
+		<unit *mot.div=3 start=10/27/40 end=6/23/43 >
+			<unit mot.inf.reg=8 />
+			<unit mot.inf.reg=29 />
+			<unit krad.bn=53 end=3/15/42 />
+			<unit *mot.art.reg=3>
+				<unit mot.art.bn=I/3 />
+				<unit mot.art.bn=II/3 />
+				<unit mot.art.bn=III/3 />
+				<unit mot.art.bn=IV/3 start=8/1/42 />
+			</unit>
+			<unit mot.at.bn=3 />
+			<unit mot.inf.recce.bn=53 />
+			<unit mot.eng.bn=3 />
+		</unit>
+		<unit *pg.div=3 start=6/23/43 >
+			<unit lt.pz.bn=103 />
+			<unit mot.inf.reg=8 end=12/1/44 />
+			<unit pg.reg=8 start=12/1/44 />
+			<unit pg.reg=29 />
+			<unit aufk.bn=103 />
+			<unit pg.stug.bn=3 />
+			<unit *mot.art.reg=3>
+				<unit mot.art.bn=I/3 />
+				<unit mot.art.bn=II/3 />
+				<unit mot.art.bn=III/3 />
+			</unit>
+			<unit mot.at.bn=3 />
+			<unit h.flak.bn=312 />
+			<unit mot.eng.bn=3 />
+		</unit>
+		<unit *wave1.inf.div=4 end=8/15/40 >
+			<unit wave1.inf.reg=10 />
+			<unit wave1.inf.reg=52 />
+			<unit wave1.inf.reg=103 />
+			<unit *art.reg=4>
+				<unit art.bn=I/4 />
+				<unit art.bn=II/4 />
+				<unit art.bn=III/4 />
+				<unit hvy.art.bn=I/40 />
+			</unit>
+			<unit inf.recce.bn=4/>
+			<unit at.bn=4/>
+			<unit eng.bn=13 />
+		</unit>
+		<unit *wave1.inf.div=5 end=12/1/41 >
+			<unit wave1.inf.reg=14 />
+			<unit wave1.inf.reg=56 />
+			<unit wave1.inf.reg=75 />
+			<unit *art.reg=5>
+				<unit art.bn=I/5 />
+				<unit art.bn=II/5 />
+				<unit art.bn=III/5 />
+				<unit hvy.art.bn=I/41 />
+			</unit>
+			<unit inf.recce.bn=5/>
+			<unit at.bn=5/>
+			<unit eng.bn=5/>
+		</unit>
+		<unit *lt.inf.div=5 start=12/1/41 end=7/6/42>
+			<unit inf.reg=56 />
+			<unit inf.reg=75 />
+			<unit lt.art.reg=5 />
+			<unit inf.recce.bn=5/>
+			<unit mot.at.bn=5/>
+			<unit eng.bn=5/>
+		</unit>
+		<unit *jgr.div=5 start=7/6/42 >
+			<unit jgr.reg=56 />
+			<unit jgr.reg=75 />
+			<unit mtn.art.reg=5 />
+			<unit inf.recce.bn=5/>
+			<unit mot.at.bn=5/>
+			<unit eng.bn=5/>
+		</unit>
+		<unit *wave1.inf.div=6 end=10/2/43 >
+			<unit wave1.inf.reg=18 />
+			<unit wave1.inf.reg=37 />
+			<unit wave1.inf.reg=58 />
+			<unit *art.reg=6>
+				<unit art.bn=I/6 />
+				<unit art.bn=II/6 />
+				<unit art.bn=III/6 />
+				<unit hvy.art.bn=I/42 />
+			</unit>
+			<unit inf.recce.bn=6/>
+			<unit at.bn=6/>
+			<unit eng.bn=6/>
+		</unit>
+		<unit *inf.44.div=6 start=10/2/43 >
+			<unit inf.44.reg=18 />
+			<unit inf.44.reg=37 />
+			<unit inf.44.reg=58 />
+			<unit fus.bn=6 />
+			<unit *art.reg=6>
+				<unit art.bn=I/6 />
+				<unit art.bn=II/6 />
+				<unit art.bn=III/6 />
+				<unit hvy.art.bn=I/42 />
+			</unit>
+			<unit inf.recce.bn=6/>
+			<unit at.bn=6/>
+			<unit eng.bn=6/>
+		</unit>
+		<unit *wave1.inf.div=7 end=10/2/43 >
+			<unit wave1.inf.reg=19 />
+			<unit wave1.inf.reg=61 />
+			<unit wave1.inf.reg=62 />
+			<unit *art.reg=7>
+				<unit art.bn=I/7 />
+				<unit art.bn=II/7 />
+				<unit art.bn=III/7 />
+				<unit hvy.art.bn=I/43 />
+			</unit>
+			<unit inf.recce.bn=7/>
+			<unit at.bn=7/>
+			<unit eng.bn=7/>
+		</unit>
+		<unit *inf.44.div=7 start=10/2/43 >
+			<unit inf.44.reg=19 />
+			<unit inf.44.reg=61 />
+			<unit inf.44.reg=62 />
+			<unit fus.bn=7 />
+			<unit *art.reg=7>
+				<unit art.bn=I/7 />
+				<unit art.bn=II/7 />
+				<unit art.bn=III/7 />
+				<unit hvy.art.bn=I/43 />
+			</unit>
+			<unit inf.recce.bn=7/>
+			<unit at.bn=7/>
+			<unit eng.bn=7/>
+		</unit>
+		<unit *wave1.inf.div=8 end=12/1/41 >
+			<unit wave1.inf.reg=28 />
+			<unit wave1.inf.reg=38 />
+			<unit wave1.inf.reg=84 />
+			<unit *art.reg=8>
+				<unit art.bn=I/8 />
+				<unit art.bn=II/8 />
+				<unit art.bn=III/8 />
+				<unit hvy.art.bn=I/44 />
+			</unit>
+			<unit inf.recce.bn=8/>
+			<unit at.bn=8/>
+			<unit eng.bn=8/>
+		</unit>
+		<unit *lt.inf.div=8 start=12/1/41 end=6/30/42>
+			<unit inf.reg=28 />
+			<unit inf.reg=38 />
+			<unit lt.art.reg=8 />
+			<unit inf.recce.bn=8/>
+			<unit mot.at.bn=8/>
+			<unit eng.bn=8/>
+		</unit>
+		<unit *jgr.div=8 start=6/30/42 >
+			<unit jgr.reg=28 />
+			<unit jgr.reg=38 />
+			<unit mtn.art.reg=8 />
+			<unit inf.recce.bn=8/>
+			<unit mot.at.bn=8/>
+			<unit eng.bn=8/>
+		</unit>
+		<unit *wave1.inf.div=9 end=8/1/44 >
+			<unit wave1.inf.reg=36 end=10/23/43 />
+			<unit wave1.inf.reg=57 end=10/23/43 />
+			<unit wave1.inf.reg=116 end=10/23/43 />
+			<unit inf.44.reg=36 start=10/23/43 />
+			<unit inf.44.reg=57 start=10/23/43 />
+			<unit inf.44.reg=116 start=10/23/43 />
+			<unit fus.bn=9 start=10/23/43 />
+			<unit *art.reg=9>
+				<unit art.bn=I/9 />
+				<unit art.bn=II/9 />
+				<unit art.bn=III/9 />
+				<unit hvy.art.bn=I/45 end=5/19/42 />
+				<unit hvy.art.bn=IV/9 start=5/19/42 />
+			</unit>
+			<unit inf.recce.bn=9/>
+			<unit at.bn=9/>
+			<unit eng.bn=9/>
+		</unit>
+		<unit *vg.div=9 start=10/13/44 >
+			<unit vg.reg=36  />
+			<unit vg.reg=57  />
+			<unit vg.reg=116  />
+			<unit fus.co=9 end=1/1/45 />
+			<unit fus.bn=9 start=1/1/45 />
+			<unit art.reg=9 />
+			<unit at.bn=9/>
+			<unit eng.bn=9/>
+		</unit>
+		<unit *wave1.inf.div=10 end=11/15/40 >
+			<unit wave1.inf.reg=20 />
+			<unit wave1.inf.reg=41 />
+			<unit wave1.inf.reg=85 />
+			<unit *art.reg=10>
+				<unit art.bn=I/10 />
+				<unit art.bn=II/10 />
+				<unit art.bn=III/10 />
+				<unit hvy.art.bn=I/46 />
+			</unit>
+			<unit inf.recce.bn=10/>
+			<unit at.bn=10/>
+			<unit eng.bn=10/>
+		</unit>
+		<unit *mot.div=10 start=11/15/40 end=6/13/43 >
+			<unit mot.inf.reg=20 />
+			<unit mot.inf.reg=41 />
+			<unit krad.bn=40  />
+			<unit *mot.art.reg=10>
+				<unit mot.art.bn=I/10 />
+				<unit mot.art.bn=II/10 />
+				<unit mot.art.bn=III/10 />
+			</unit>
+			<unit mot.at.bn=10 />
+			<unit mot.inf.recce.bn=10 />
+			<unit mot.eng.bn=10 />
+		</unit>
+		<unit *pg.div=10 start=6/13/43 >
+			<unit lt.pz.bn=7 />
+			<unit pg.reg=20 />
+			<unit pg.reg=31 />
+			<unit aufk.bn=110 />
+			<unit *mot.art.reg=10>
+				<unit mot.art.bn=I/10 />
+				<unit mot.art.bn=II/10 />
+				<unit mot.art.bn=III/10 />
+			</unit>
+			<unit mot.at.bn=10 />
+			<unit mot.inf.recce.bn=10 />
+			<unit h.flak.bn=275 />
+			<unit mot.eng.bn=10 />
+		</unit>
+		<unit *wave1.inf.div=11 end=10/2/43 >
+			<unit wave1.inf.reg=2 />
+			<unit wave1.inf.reg=23 />
+			<unit wave1.inf.reg=44 />
+			<unit *art.reg=11>
+				<unit art.bn=I/11 />
+				<unit art.bn=II/11 />
+				<unit art.bn=III/11 />
+				<unit hvy.art.bn=I/47 />
+			</unit>
+			<unit inf.recce.bn=11/>
+			<unit at.bn=11/>
+			<unit eng.bn=11/>
+		</unit>
+		<unit *inf.44.div=11 start=10/2/43 >
+			<unit inf.44.reg=2 />
+			<unit inf.44.reg=23 />
+			<unit inf.44.reg=44 />
+			<unit fus.bn=11 />
+			<unit *art.reg=11>
+				<unit art.bn=I/11 />
+				<unit art.bn=II/11 />
+				<unit art.bn=III/11 />
+				<unit hvy.art.bn=I/47 />
+			</unit>
+			<unit inf.recce.bn=11/>
+			<unit at.bn=11/>
+			<unit eng.bn=11/>
+		</unit>
+		<unit *wave1.inf.div=12 end=10/2/43 >
+			<unit wave1.inf.reg=27 />
+			<unit wave1.inf.reg=48 />
+			<unit wave1.inf.reg=89 />
+			<unit *art.reg=12>
+				<unit art.bn=I/12 />
+				<unit art.bn=II/12 />
+				<unit art.bn=III/12 />
+				<unit hvy.art.bn=I/48 />
+			</unit>
+			<unit inf.recce.bn=12/>
+			<unit at.bn=12/>
+			<unit eng.bn=12/>
+		</unit>
+		<unit *inf.44.div=12 start=10/2/43 end=10/8/44>
+			<unit inf.44.reg=27 />
+			<unit inf.44.reg=48 />
+			<unit inf.44.reg=89 />
+			<unit fus.bn=12 />
+			<unit *art.reg=12>
+				<unit art.bn=I/12 />
+				<unit art.bn=II/12 />
+				<unit art.bn=III/12 />
+				<unit hvy.art.bn=I/48 />
+			</unit>
+			<unit inf.recce.bn=12/>
+			<unit at.bn=12/>
+			<unit eng.bn=12/>
+		</unit>
+		<unit *vg.div=12 start=10/8/44>
+			<unit vg.reg=27 />
+			<unit vg.reg=48 />
+			<unit vg.reg=89 />
+			<unit fus.bn=12 />
+			<unit *art.reg=12>
+				<unit art.bn=I/12 />
+				<unit art.bn=II/12 />
+				<unit art.bn=III/12 />
+				<unit hvy.art.bn=I/48 />
+			</unit>
+			<unit inf.recce.bn=12/>
+			<unit at.bn=12/>
+			<unit eng.bn=12/>
+		</unit>
+		<unit *mot.div=13 end=10/11/40 >
+			<unit mot.inf.reg=33 end=10/18/39 />
+			<unit mot.inf.reg=66 />
+			<unit mot.inf.reg=93 />
+			<unit krad.bn=40  />
+			<unit *mot.art.reg=13 end=4/1/40 >
+				<unit mot.art.bn=I/13 />
+				<unit mot.art.bn=II/13 />
+				<unit mot.art.bn=III/13 />
+				<unit hvy.art.bn=I/49 />
+			</unit>
+			<unit mot.art.reg=13 start=4/1/40 />
+			<unit mot.at.bn=13 />
+			<unit mot.inf.recce.bn=13 />
+			<unit mot.eng.bn=4 />
+		</unit>
+		<unit *wave1.inf.div=14 end=10/15/40 >
+			<unit wave1.inf.reg=11 />
+			<unit wave1.inf.reg=53 />
+			<unit wave1.inf.reg=101 />
+			<unit *art.reg=14>
+				<unit art.bn=I/14 />
+				<unit art.bn=II/14 />
+				<unit art.bn=III/14 />
+				<unit hvy.art.bn=I/50 />
+			</unit>
+			<unit inf.recce.bn=14/>
+			<unit at.bn=14/>
+			<unit eng.bn=14/>
+		</unit>
+		<unit *mot.div=14 start=10/15/40 end=6/30/43 >
+			<unit mot.inf.reg=11 />
+			<unit mot.inf.reg=53 />
+			<unit krad.bn=54 end=1/1/43 />
+			<unit aufk.bn=114 start=1/1/43 />
+			<unit *mot.art.reg=14>
+				<unit mot.art.bn=I/14 />
+				<unit mot.art.bn=II/14 />
+				<unit hvy.art.bn=III/14 />
+			</unit>
+			<unit mot.inf.recce.bn=14/>
+			<unit mot.at.bn=14/>
+			<unit mot.eng.bn=14/>
+		</unit>
+		<unit *inf.44.div=14 start=6/30/43>
+			<unit inf.44.reg=11 />
+			<unit inf.44.reg=53 />
+			<unit inf.44.reg=101 />
+			<unit fus.bn=14 />
+			<unit art.reg=14/>
+			<unit inf.recce.bn=14/>
+			<unit at.bn=14/>
+			<unit eng.bn=14/>
+		</unit>
+		<unit *wave1.inf.div=15 end=10/2/43 >
+			<unit wave1.inf.reg=81 />
+			<unit wave1.inf.reg=88 />
+			<unit wave1.inf.reg=106 />
+			<unit *art.reg=51 end=2/1/41 >
+				<unit art.bn=I/15 />
+				<unit art.bn=II/15 />
+				<unit art.bn=III/15 />
+				<unit hvy.art.bn=I/51 />
+			</unit>
+			<unit *art.reg=15 start=2/1/41 >
+				<unit art.bn=I/15 />
+				<unit art.bn=II/15 />
+				<unit art.bn=III/15 />
+				<unit hvy.art.bn=I/51 />
+			</unit>
+			<unit inf.recce.bn=15/>
+			<unit at.bn=15/>
+			<unit eng.bn=15/>
+		</unit>
+		<unit *inf.44.div=15 start=10/2/43>
+			<unit inf.44.reg=81 />
+			<unit inf.44.reg=88 />
+			<unit inf.44.reg=106 />
+			<unit fus.bn=15 />
+			<unit *art.reg=15  >
+				<unit art.bn=I/15 />
+				<unit art.bn=II/15 />
+				<unit art.bn=III/15 />
+				<unit hvy.art.bn=I/51 end=10/4/44/>
+				<unit hvy.art.bn=IV/15 start=10/4/44 />
+			</unit>
+			<unit at.bn=15/>
+			<unit eng.bn=15/>
+		</unit>
+		<unit *pg.div=15 start=7/15/43 >
+			<unit lt.pz.bn=215 />
+			<unit pg.reg=104 />
+			<unit pg.reg=115 />
+			<unit pg.reg=129 end=4/14/44 />
+			<unit pg.bn=Reggio />
+			<unit *mot.art.reg=33>
+				<unit mot.art.bn=I/33 />
+				<unit mot.art.bn=II/33 end=1/1/44 />
+				<unit hvy.art.bn=II/33 start=1/1/44 />
+				<unit mot.art.bn=III/33 />
+				<unit hvy.art.bn=IV/33 end=1/1/44 />
+			</unit>
+			<unit mot.at.bn=33 />
+			<unit pz.aufk.bn=115 start=1/1/44 />
+			<unit h.flak.bn=315 />
+			<unit mot.eng.bn=33 />
+		</unit>
+		<unit *wave1.inf.div=16 end=11/1/40 >
+			<unit wave1.inf.reg=60 />
+			<unit wave1.inf.reg=64 />
+			<unit wave1.inf.reg=79 />
+			<unit *art.reg=16 >
+				<unit art.bn=I/16 />
+				<unit art.bn=II/16 />
+				<unit art.bn=III/16 />
+				<unit hvy.art.bn=I/52 />
+			</unit>
+			<unit inf.recce.bn=16/>
+			<unit at.bn=16/>
+			<unit eng.bn=16/>
+		</unit>
+		<unit *mot.div=16 start=11/20/40 end=6/23/43 >
+			<unit lt.pz.bn=116 start=1/1/42 />
+			<unit mot.inf.reg=60 />
+			<unit mot.inf.reg=156 />
+			<unit krad.bn=165 />
+			<unit *mot.art.reg=146>
+				<unit mot.art.bn=I/146 />
+				<unit mot.art.bn=II/146 />
+				<unit hvy.art.bn=III/146 />
+				<unit h.flak.bn=IV/146 start=1/1/42 />
+			</unit>
+			<unit mot.inf.recce.bn=341/>
+			<unit mot.at.bn=228/>
+			<unit mot.eng.bn=675/>
+		</unit>
+		<unit *pg.div=16 start=6/23/43 end=3/28/44 >
+			<unit lt.pz.bn=116 />
+			<unit pg.reg=60 />
+			<unit pg.reg=156 />
+			<unit mot.art.reg=146 />
+			<unit pz.aufk.bn=116 />
+			<unit mot.inf.recce.bn=341/>
+			<unit mot.at.bn=228/>
+			<unit h.flak.bn=281 />
+			<unit mot.eng.bn=675/>
+		</unit>
+		<unit *vg.div=16 start=8/4/44>
+			<unit vg.reg=221 />
+			<unit vg.reg=223 />
+			<unit vg.reg=225 />
+			<unit fus.bn=1316 />
+			<unit art.reg=1316/>
+			<unit inf.recce.bn=1316/>
+			<unit at.bn=1316/>
+			<unit eng.bn=1316/>
+		</unit>
+		<unit *wave1.inf.div=17 >
+			<unit wave1.inf.reg=21 end=10/2/43 />
+			<unit wave1.inf.reg=55 end=10/2/43 />
+			<unit wave1.inf.reg=95 end=10/2/43 />
+			<unit inf.44.reg=21 start=10/2/43 end=2/1/45 />
+			<unit inf.44.reg=55 start=10/2/43 end=2/1/45 />
+			<unit inf.44.reg=95 start=10/2/43 />
+			<unit fus.bn=17 start=9/16/43 />
+			<unit *art.reg=17 >
+				<unit art.bn=I/17 />
+				<unit art.bn=II/17 />
+				<unit art.bn=III/17 />
+				<unit hvy.art.bn=I/53 />
+			</unit>
+			<unit inf.recce.bn=17 end=9/16/43 />
+			<unit at.bn=17/>
+			<unit eng.bn=17/>
+		</unit>
+		<unit *wave1.inf.div=18 end=11/1/40 >
+			<unit wave1.inf.reg=30 />
+			<unit wave1.inf.reg=51 />
+			<unit wave1.inf.reg=54 />
+			<unit *art.reg=18 >
+				<unit art.bn=I/18 />
+				<unit art.bn=II/18 />
+				<unit art.bn=III/18 />
+				<unit hvy.art.bn=I/54 />
+			</unit>
+			<unit inf.recce.bn=18 />
+			<unit at.bn=18/>
+			<unit eng.bn=18/>
+		</unit>
+		<unit *mot.div=18 start=11/1/40 end=6/23/43 >
+			<unit mot.inf.reg=30 />
+			<unit mot.inf.reg=51 />
+			<unit krad.bn=38 />
+			<unit *mot.art.reg=18>
+				<unit mot.art.bn=I/18 />
+				<unit mot.art.bn=II/18 />
+				<unit hvy.art.bn=III/18 />
+			</unit>
+			<unit mot.inf.recce.bn=18/>
+			<unit mot.at.bn=18/>
+			<unit mot.eng.bn=18/>
+		</unit>
+		<unit *pg.div=18 start=6/23/43 end=7/28/44 >
+			<unit lt.pz.bn=118 />
+			<unit pg.reg=30 />
+			<unit pg.reg=51 />
+			<unit mot.art.reg=18 />
+			<unit pz.aufk.bn=118 />
+			<unit mot.inf.recce.bn=18/>
+			<unit mot.at.bn=18/>
+			<unit mot.eng.bn=18 />
+		</unit>
+		<unit uid=18pg name="Kampfgruppe 18th Panzergrenadier" start=7/28/44 badge=kg size=XX>
+			<unit lt.pz.bn=118 />
+			<unit *pg.reg=30 >
+				<unit pg.bn=I/30 />
+				<unit bike.bn=II/30 />
+			</unit>
+			<unit mot.art.bn=18 />
+			<unit mot.at.bn=18/>
+			<unit mot.eng.co=18 />
+		</unit>
+		<unit *vg.div=18 start=9/2/44>
+			<unit vg.reg=293 />
+			<unit vg.reg=294 />
+			<unit vg.reg=295 />
+			<unit art.reg=1818/>
+			<unit inf.recce.bn=1818/>
+			<unit at.bn=1818/>
+			<unit eng.bn=1818/>
+		</unit>
+		<unit *wave1.inf.div=19 end=11/1/40 >
+			<unit wave1.inf.reg=59 />
+			<unit wave1.inf.reg=73 />
+			<unit wave1.inf.reg=74 />
+			<unit *art.reg=19 >
+				<unit art.bn=I/19 />
+				<unit art.bn=II/19 />
+				<unit art.bn=III/19 />
+				<unit hvy.art.bn=I/55 />
+			</unit>
+			<unit inf.recce.bn=19 />
+			<unit at.bn=19/>
+			<unit eng.bn=19/>
+		</unit>
+		<unit *vg.div=19 start=8/8/44>
+			<unit vg.reg=59 />
+			<unit vg.reg=73 />
+			<unit vg.reg=74 />
+			<unit art.reg=719 />
+			<unit inf.recce.bn=119/>
+			<unit at.bn=119/>
+			<unit eng.bn=119/>
+		</unit>
+		<unit *mot.div=20 end=7/23/43 >
+			<unit mot.inf.reg=69 end=10/27/39 />
+			<unit mot.inf.reg=76 />
+			<unit mot.inf.reg=90 />
+			<unit krad.bn=30 start=10/5/40 />
+			<unit *mot.art.reg=20>
+				<unit mot.art.bn=I/20 />
+				<unit mot.art.bn=II/20 />
+				<unit mot.art.bn=III/20 />
+				<unit hvy.art.bn=I/56 />
+			</unit>
+			<unit mot.inf.recce.bn=20/>
+			<unit mot.at.bn=20/>
+			<unit mot.eng.bn=20/>
+		</unit>
+		<unit *pg.div=20 start=7/23/43 >
+			<unit lt.pz.bn=8 />
+			<unit pg.reg=76 />
+			<unit pg.reg=90 />
+			<unit mot.art.reg=20 />
+			<unit pz.aufk.bn=120 />
+			<unit mot.at.bn=20/>
+			<unit h.flak.bn=284 />
+			<unit mot.eng.bn=20 />
+		</unit>
+		<unit *wave1.inf.div=21 >
+			<unit wave1.inf.reg=3 end=10/2/43 />
+			<unit wave1.inf.reg=24 end=10/2/43 />
+			<unit wave1.inf.reg=45 end=10/2/43 />
+			<unit inf.44.reg=3 start=10/2/43 />
+			<unit inf.44.reg=24 start=10/2/43 />
+			<unit inf.44.reg=45 start=10/2/43 />
+			<unit fus.bn=21 start=10/2/43 />
+			<unit *art.reg=21 >
+				<unit art.bn=I/21 />
+				<unit art.bn=II/21 />
+				<unit art.bn=III/21 />
+				<unit hvy.art.bn=I/57 />
+			</unit>
+			<unit inf.recce.bn=21 end=10/2/43 />
+			<unit at.bn=21 />
+			<unit eng.bn=21 />
+		</unit>
+		<unit *wave1.inf.div=22 end=3/1/45 >
+			<unit wave1.inf.reg=16 />
+			<unit wave1.inf.reg=47 end=10/1/42 />
+			<unit wave1.inf.reg=47 start=2/1/44 />
+			<unit wave1.inf.reg=65 />
+			<unit *art.reg=22 >
+				<unit art.bn=I/22 />
+				<unit art.bn=II/22 end=9/24/42 />
+				<unit art.bn=II/22 start=11/1/43 />
+				<unit art.bn=III/22 />
+				<unit hvy.art.bn=IV/22 start=8/8/43 />
+				<unit hvy.art.bn=I/58 end=7/29/42 />
+			</unit>
+			<unit inf.recce.bn=22 end=4/1/43 />
+			<unit pz.aufk.bn=122 start=4/1/43 />
+			<unit at.bn=22 />
+			<unit eng.bn=22 />
+		</unit>
+		<unit *vg.div=22 start=3/1/45 >
+			<unit gren.reg=16 />
+			<unit gren.reg=47 />
+			<unit gren.reg=65 />
+			<unit art.reg=22 />
+			<unit pz.aufk.bn=122 />
+			<unit at.bn=22 />
+			<unit h.flak.bn=22 />
+			<unit eng.bn=22 />
+		</unit>
+		<unit *wave1.inf.div=23 end=9/10/42 >
+			<unit wave1.inf.reg=9 />
+			<unit wave1.inf.reg=67 />
+			<unit wave1.inf.reg=68 />
+			<unit *art.reg=23 >
+				<unit art.bn=I/23 />
+				<unit art.bn=II/23 />
+				<unit art.bn=III/23 />
+				<unit hvy.art.bn=I/59 />
+			</unit>
+			<unit inf.recce.bn=23 />
+			<unit at.bn=23 />
+			<unit eng.bn=23 />
+		</unit>
+		<unit *inf.div=23 start=10/23/42 >
+			<unit gren.reg=9 end=9/12/43 />
+			<unit gren.reg=67 end=9/12/43 />
+			<unit gren.reg=68 end=9/12/43 />
+			<unit vg.reg=9 start=9/12/43 end=8/28/44 />
+			<unit vg.reg=9 start=1/1/45 />
+			<unit vg.reg=67 start=9/12/43 />
+			<unit vg.reg=68 start=9/12/43 />
+			<unit fus.bn=23 start=9/12/43 />
+			<unit art.reg=23 />
+			<unit inf.recce.bn=23 />
+			<unit at.bn=23 />
+			<unit eng.bn=23 />
+		</unit>
+		<unit *wave1.inf.div=24  >
+			<unit wave1.inf.reg=31 end=9/1/43 />
+			<unit wave1.inf.reg=32 end=9/1/43 />
+			<unit wave1.inf.reg=102 end=9/1/43 />
+			<unit inf.44.reg=31 start=9/1/43 />
+			<unit inf.44.reg=32 start=9/1/43 />
+			<unit inf.44.reg=102 start=9/1/43 />
+			<unit *art.reg=24 >
+				<unit art.bn=I/24 />
+				<unit art.bn=II/24 />
+				<unit art.bn=III/24 />
+				<unit hvy.art.bn=I/60 />
+			</unit>
+			<unit inf.recce.bn=24 end=9/1/43 />
+			<unit fus.bn=24 start=9/1/43 />
+			<unit at.bn=24 />
+			<unit eng.bn=24 />
+		</unit>
+		<unit *wave1.inf.div=25 start=4/1/36 end=11/15/40 >
+			<unit wave1.inf.reg=13 />
+			<unit wave1.inf.reg=35 />
+			<unit wave1.inf.reg=119 />
+			<unit *art.reg=25 >
+				<unit art.bn=I/25 />
+				<unit art.bn=II/25 />
+				<unit art.bn=III/25 />
+				<unit hvy.art.bn=I/61 />
+			</unit>
+			<unit inf.recce.bn=25 />
+			<unit at.bn=25 />
+			<unit eng.bn=25 />
+		</unit>
+		<unit *mot.div=25 start=11/15/40 end=6/23/43 >
+			<unit mot.inf.reg=35 />
+			<unit mot.inf.reg=119 />
+			<unit krad.bn=25 />
+			<unit mot.art.reg=25/>
+			<unit mot.inf.recce.bn=25/>
+			<unit mot.at.bn=25/>
+			<unit h.flak.bn=284 />
+			<unit mot.eng.bn=25/>
+		</unit>
+		<unit *pg.div=25 start=6/23/43 >
+			<unit lt.pz.bn=5 />
+			<unit pg.reg=35 />
+			<unit pg.reg=119 />
+			<unit mot.art.reg=25/>
+			<unit mot.inf.recce.bn=25/>
+			<unit pz.aufk.bn=25 />
+			<unit mot.at.bn=25/>
+			<unit h.flak.bn=292 />
+			<unit mot.eng.bn=25/>
+		</unit>
+		<unit *wave1.inf.div=26 start=4/1/36 end=9/10/44 >
+			<unit wave1.inf.reg=39 end=11/12/42 />
+			<unit fus.reg=39 start=11/12/42 />
+			<unit wave1.inf.reg=77 end=10/1/43 />
+			<unit wave1.inf.reg=78 end=10/1/43 />
+			<unit vg.reg=77 start=10/1/43 />
+			<unit vg.reg=78 start=10/1/43 />
+			<unit fus.bn=26 start=10/1/43 />
+			<unit *art.reg=26 >
+				<unit art.bn=I/26 />
+				<unit art.bn=II/26 />
+				<unit art.bn=III/26 />
+				<unit hvy.art.bn=IV/26 start=10/1/43 />
+				<unit hvy.art.bn=I/62 end=10/1/43 />
+			</unit>
+			<unit inf.recce.bn=26 end=10/1/43 />
+			<unit at.bn=26 />
+			<unit eng.bn=26 />
+		</unit>
+		<unit *vg.div=26 start=9/10/44 >
+			<unit fus.reg=39 />
+			<unit vg.reg=77 />
+			<unit vg.reg=78 />
+			<unit fus.co=26 />
+			<unit art.reg=26 />
+			<unit at.bn=26 />
+			<unit eng.bn=26 />
+		</unit>
+		<unit *wave1.inf.div=27 start=10/1/36 end=11/1/40 >
+			<unit wave1.inf.reg=40 />
+			<unit wave1.inf.reg=63 />
+			<unit wave1.inf.reg=91 />
+			<unit *art.reg=27 >
+				<unit art.bn=I/27 />
+				<unit art.bn=II/27 />
+				<unit art.bn=III/27 />
+				<unit hvy.art.bn=I/63 />
+			</unit>
+			<unit inf.recce.bn=27 />
+			<unit at.bn=27 />
+			<unit eng.bn=27 />
+		</unit>
+		<unit *wave1.inf.div=28 end=12/1/41 >
+			<unit wave1.inf.reg=7 />
+			<unit wave1.inf.reg=49 />
+			<unit wave1.inf.reg=83 />
+			<unit *art.reg=28>
+				<unit art.bn=I/28 />
+				<unit art.bn=II/28 />
+				<unit art.bn=III/28 />
+				<unit hvy.art.bn=I/64 />
+			</unit>
+			<unit inf.recce.bn=28 />
+			<unit at.bn=28 />
+			<unit eng.bn=28 />
+		</unit>
+		<unit *lt.inf.div=28 start=12/1/41 end=7/1/42>
+			<unit inf.reg=49 />
+			<unit inf.reg=83 />
+			<unit lt.art.reg=28 />
+			<unit inf.recce.bn=28/>
+			<unit mot.at.bn=28/>
+			<unit eng.bn=28 />
+		</unit>
+		<unit *jgr.div=28 start=7/1/42 >
+			<unit jgr.reg=49 />
+			<unit jgr.reg=83 />
+			<unit mtn.art.reg=28 />
+			<unit inf.recce.bn=28 />
+			<unit mot.at.bn=28 />
+			<unit eng.bn=28 />
+		</unit>
+		<unit *mot.div=29 start=10/1/36 end=6/23/43 >
+			<unit mot.inf.reg=15 />
+			<unit mot.inf.reg=71 />
+			<unit mot.inf.reg=86 end=9/1/39 />
+			<unit krad.bn=29 start=2/25/41 />
+			<unit mot.art.reg=29 >
+				<unit h.flak.bn=IV/29 start=3/10/42 />
+			</unit>
+			<unit mot.inf.recce.bn=29 end=7/1/41 />
+			<unit mot.at.bn=29/>
+			<unit mot.eng.bn=29/>
+		</unit>
+		<unit *pg.div=29 start=6/23/43 >
+			<unit lt.pz.bn=129 />
+			<unit pg.reg=15 />
+			<unit pg.reg=71 />
+			<unit mot.art.reg=29/>
+			<unit pz.aufk.bn=29 />
+			<unit mot.at.bn=29/>
+			<unit h.flak.bn=313 />
+			<unit mot.eng.bn=29/>
+		</unit>
+		<unit *wave1.inf.div=30  >
+			<unit wave1.inf.reg=6 end=11/3/43 />
+			<unit wave1.inf.reg=26 end=11/3/43 />
+			<unit wave1.inf.reg=46 end=11/3/43 />
+			<unit inf.44.reg=6 start=11/3/43 />
+			<unit inf.44.reg=26 start=11/3/43 />
+			<unit inf.44.reg=46 start=11/3/43 />
+			<unit *art.reg=30 >
+				<unit art.bn=I/30 />
+				<unit art.bn=II/30 />
+				<unit art.bn=III/30 />
+				<unit hvy.art.bn=I/66 />
+			</unit>
+			<unit inf.recce.bn=30 end=11/3/43 />
+			<unit fus.bn=30 start=11/3/43 />
+			<unit at.bn=30 />
+			<unit eng.bn=30 />
+		</unit>
+		<unit *wave1.inf.div=31 end=7/18/44 >
+			<unit wave1.inf.reg=12 end=5/1/44 />
+			<unit wave1.inf.reg=17 end=5/1/44 />
+			<unit wave1.inf.reg=82 end=5/1/44 />
+			<unit inf.44.reg=12 start=5/1/44 />
+			<unit inf.44.reg=17 start=5/1/44 />
+			<unit inf.44.reg=82 start=5/1/44 />
+			<unit *art.reg=31 >
+				<unit art.bn=I/31 />
+				<unit art.bn=II/31 />
+				<unit art.bn=III/31 />
+				<unit hvy.art.bn=I/67 />
+			</unit>
+			<unit inf.recce.bn=31 end=5/1/44 />
+			<unit fus.bn=31 start=5/1/44 />
+			<unit at.bn=31 />
+			<unit eng.bn=31 />
+		</unit>
+		<unit *vg.div=31 start=7/21/44 >
+			<unit vg.reg=12 />
+			<unit vg.reg=17 />
+			<unit vg.reg=82 />
+			<unit art.reg=31 />
+			<unit fus.bn=31 />
+			<unit at.bn=31 />
+			<unit eng.bn=31 />
+		</unit>
+		<unit *wave1.inf.div=32 >
+			<unit wave1.inf.reg=4 end=9/1/43 />
+			<unit wave1.inf.reg=94 end=9/1/43 />
+			<unit wave1.inf.reg=96 end=9/1/43 />
+			<unit inf.44.reg=4 start=9/1/43 />
+			<unit inf.44.reg=94 start=9/1/43 />
+			<unit inf.44.reg=96 start=9/1/43 />
+			<unit *art.reg=32 >
+				<unit art.bn=I/32 />
+				<unit art.bn=II/32 />
+				<unit art.bn=III/32 />
+				<unit hvy.art.bn=I/68 />
+			</unit>
+			<unit inf.recce.bn=32 end=9/1/43 />
+			<unit fus.bn=32 start=9/1/43 end=9/1/44 />
+			<unit at.bn=32 />
+			<unit eng.bn=32? />
+		</unit>
+		<unit *wave1.inf.div=33 start=4/1/36 end=11/11/40 >
+			<unit wave1.inf.reg=104 />
+			<unit wave1.inf.reg=110 />
+			<unit wave1.inf.reg=115 />
+			<unit *art.reg=33 >
+				<unit art.bn=I/33 />
+				<unit art.bn=II/33 />
+				<unit art.bn=III/33 />
+				<unit hvy.art.bn=I/69 />
+			</unit>
+			<unit inf.recce.bn=33 />
+			<unit at.bn=33 />
+			<unit eng.bn=33 />
+		</unit>
+		<unit *wave1.inf.div=34 >
+			<unit wave1.inf.reg=80 end=11/5/41 />
+			<unit wave1.inf.reg=105 end=9/19/39 />
+			<unit wave1.inf.reg=107 end=12/1/41 />
+			<unit wave1.inf.reg=253 start=8/25/39 end=12/1/41 />
+			<unit inf.44.reg=80 start=11/5/41 />
+			<unit inf.44.reg=107 start=12/1/41 />
+			<unit inf.44.reg=253 start=12/1/41 />
+			<unit *art.reg=34 >
+				<unit art.bn=I/34 />
+				<unit art.bn=II/34 />
+				<unit art.bn=III/34 />
+				<unit hvy.art.bn=I/70 />
+			</unit>
+			<unit inf.recce.bn=34 end=9/1/43 />
+			<unit fus.bn=34 start=9/1/43 />
+			<unit at.bn=34 />
+			<unit eng.bn=34 />
+		</unit>
+		<unit *wave1.inf.div=35 >
+			<unit wave1.inf.reg=34 end=11/1/43 />
+			<unit wave1.inf.reg=109 end=11/1/43 />
+			<unit wave1.inf.reg=111 end=11/1/43 />
+			<unit inf.44.reg=34 start=11/1/43 />
+			<unit inf.44.reg=109 start=11/1/43 />
+			<unit inf.44.reg=111 start=11/1/43 />
+			<unit *art.reg=35 >
+				<unit art.bn=I/35 />
+				<unit art.bn=II/35 />
+				<unit art.bn=III/35 />
+				<unit hvy.art.bn=IV/35 start=9/29/44 />
+				<unit hvy.art.bn=I/71 end=9/29/44 />
+			</unit>
+			<unit inf.recce.bn=35 end=11/1/43 />
+			<unit fus.bn=35 start=11/1/43 />
+			<unit at.bn=35 />
+			<unit eng.bn=35 />
+		</unit>
+		<unit *wave1.inf.div=36 start=10/1/36 end=11/1/40 >
+			<unit wave1.inf.reg=70 />
+			<unit wave1.inf.reg=87 />
+			<unit wave1.inf.reg=118 />
+			<unit *art.reg=36 >
+				<unit art.bn=I/36 />
+				<unit art.bn=II/36 />
+				<unit art.bn=III/36 />
+				<unit hvy.art.bn=I/72 />
+			</unit>
+			<unit inf.recce.bn=36 />
+			<unit at.bn=36 />
+			<unit eng.bn=36 />
+		</unit>
+		<unit *mot.div=36 start=11/1/40 end=6/1/43 >
+			<unit mot.inf.reg=87 />
+			<unit mot.inf.reg=118 />
+			<unit krad.bn=36 />
+			<unit *mot.art.reg=36>
+				<unit mot.art.bn=I/36 />
+				<unit mot.art.bn=II/36 />
+				<unit mot.art.bn=III/36 />
+			</unit>
+			<unit mot.at.bn=36 />
+			<unit mot.inf.recce.bn=36 />
+			<unit mot.eng.bn=36 />
+		</unit>
+		<unit *inf.44.div=36 start=6/1/43 end=10/9/44 >
+			<unit inf.44.reg=87 />
+			<unit inf.44.reg=118 />
+			<unit inf.44.reg="Div.Gruppe 268" abbreviation=268/>
+			<unit art.reg=268 />
+			<unit fus.bn=36 />
+			<unit at.bn=36 />
+			<unit eng.bn=36 />
+		</unit>
+		<unit *vg.div=36 start=10/9/44 >
+			<unit vg.reg=87 />
+			<unit vg.reg=118 />
+			<unit vg.reg=165 />
+			<unit art.reg=268 />
+			<unit fus.co=36 />
+			<unit at.bn=36 />
+			<unit flak.co=36 />
+			<unit eng.co=36 />
+		</unit>
+		<unit *inf.div=38 start=7/8/42 end=10/23/43 >
+			<unit inf.reg=108 />
+			<unit inf.reg=112 />
+			<unit sm.art.reg=138 />
+			<unit inf.recce.bn=138 />
+			<unit at.bn=138 />
+			<unit eng.bn=138 />
+		</unit>
+		<unit *inf.div=39 start=7/10/42 end=10/23/43 >
+			<unit inf.reg=113 />
+			<unit inf.reg=114 />
+			<unit sm.art.reg=139 />
+			<unit inf.recce.bn=139 />
+			<unit at.bn=139 />
+			<unit eng.bn=139 />
+		</unit>
+		<unit *fort.div=41 start=12/11/43 end=1/1/45 >
+			<unit fort.reg=938 />
+			<unit fort.reg=965 />
+			<unit fort.bn=1012 />
+			<unit *cst.art.reg=919 >
+				<unit cst.art.bn=819 />
+				<unit cst.art.bn=820 />
+			</unit>
+			<unit h.flak.bn=309 />
+		</unit>
+		<unit *inf.44.div=41 start=1/1/45 >
+			<unit inf.44.reg=1230 />
+			<unit inf.44.reg=1231 />
+			<unit inf.44.reg=1232 />
+			<unit fus.bn=41 />
+			<unit art.reg=141 />
+			<unit at.bn=141 />
+			<unit eng.bn=141 />
+		</unit>
+		<unit *jgr.div=42 start=12/22/43 >
+			<unit jgr.reg=25 />
+			<unit jgr.reg=40 />
+			<unit mtn.art.reg=142 />
+			<unit inf.recce.bn=142 />
+			<unit mot.at.bn=142 />
+			<unit eng.bn=142 />
+		</unit>
+		<unit *wave1.inf.div=44 start=4/1/38 end=6/1/43 >
+			<unit wave1.inf.reg=131 />
+			<unit wave1.inf.reg=132 />
+			<unit wave1.inf.reg=134 />
+			<unit *art.reg=96 >
+				<unit art.bn=I/96 />
+				<unit art.bn=II/96 />
+				<unit art.bn=III/96 />
+				<unit hvy.art.bn=I/97 />
+			</unit>
+			<unit inf.recce.bn=44 />
+			<unit at.bn=46 />
+			<unit eng.bn=80 />
+		</unit>
+		<unit name="Reichsgrenadier Hoch- und Deutschmeister" uid=44i abbreviation=HuD badge=inf size=XX start=6/1/43 >
+			<unit div.hq="Reichsgrenadier Hoch- und Deutschmeister" />
+			<unit inf.reg="Hoch- und Deutschmeister" abbreviation=HuD start=6/1/43 end=8/28/44 />
+			<unit inf.reg=131 end=8/28/44 />
+			<unit inf.reg=132 end=8/28/44 />
+			<unit inf.reg=134 end=6/1/43 />
+			<unit inf.44.reg="Hoch- und Deutschmeister" abbreviation=HuD start=8/28/44 />
+			<unit inf.44.reg=131 start=8/28/44 />
+			<unit inf.44.reg=132 start=8/28/44 />
+			<unit mort.bn=44 start=8/28/44 />
+			<unit art.reg=96 />
+			<unit inf.recce.bn=44 end=8/28/44/>
+			<unit fus.bn=44 start=8/28/44 />
+			<unit at.bn=46 />
+			<unit eng.bn=80 />
+		</unit>
+		<unit *wave1.inf.div=45 start=4/1/38 end=7/18/44 >
+			<unit wave1.inf.reg=130 end=6/17/43 />
+			<unit wave1.inf.reg=133 end=5/1/44 />
+			<unit wave1.inf.reg=135 end=5/1/44 />
+			<unit inf.44.reg=130 start=5/1/44 />
+			<unit inf.44.reg=133 start=5/1/44 />
+			<unit inf.44.reg=135 start=5/1/44 />
+			<unit *art.reg=98 >
+				<unit art.bn=I/98 />
+				<unit art.bn=II/98 />
+				<unit art.bn=III/98 />
+				<unit hvy.art.bn=I/99 />
+			</unit>
+			<unit inf.recce.bn=45 end=10/2/43 />
+			<unit fus.bn=45 start=10/2/43 />
+			<unit at.bn=45 />
+			<unit eng.bn=81 />
+		</unit>
+		<unit *vg.div=45 start=7/18/44 >
+			<unit vg.reg=130 />
+			<unit vg.reg=133 />
+			<unit vg.reg=135 />
+			<unit art.reg=98 />
+			<unit fus.bn=45 />
+			<unit at.bn=45 />
+			<unit eng.bn=81 />
+		</unit>
+		<unit *wave1.inf.div=46 start=11/24/38 end=3/1/45 >
+			<unit wave1.inf.reg=42 end=10/1/43 />
+			<unit wave1.inf.reg=72 end=10/1/43 />
+			<unit wave1.inf.reg=97 end=10/1/43 />
+			<unit inf.44.reg=42 start=10/1/43 />
+			<unit inf.44.reg=72 start=10/1/43 />
+			<unit inf.44.reg=97 start=10/1/43 />
+			<unit sm.art.reg=115 />
+			<unit inf.recce.bn=46 end=1/1/44 />
+			<unit fus.bn=46 start=1/1/44 />
+			<unit at.bn=52 />
+			<unit eng.bn=88 />
+		</unit>
+		<unit *vg.div=46 start=3/1/45 >
+			<unit vg.reg=42 />
+			<unit vg.reg=72 />
+			<unit vg.reg=97 />
+			<unit sm.art.reg=115 />
+			<unit fus.bn=46 />
+			<unit at.bn=52 />
+			<unit eng.bn=88 />
+		</unit>
+		<unit *inf.div=47 start=2/1/44 end=9/17/44 >
+			<unit inf.44.reg=103 />
+			<unit inf.44.reg=104 />
+			<unit inf.44.reg=115 />
+			<unit sm.art.reg=147 />
+			<unit fus.bn=147 />
+			<unit at.bn=147 />
+			<unit eng.bn=147 />
+		</unit>
+		<unit *vg.div=47 start=9/17/44 >
+			<unit vg.reg=103 />
+			<unit vg.reg=104 />
+			<unit vg.reg=115 />
+			<unit art.reg=147 />
+			<unit fus.bn=147 />
+			<unit at.bn=147 />
+			<unit eng.bn=147 />
+		</unit>
+		<unit *inf.div=48 start=2/1/44 end=12/20/44 >
+			<unit inf.44.reg=126 />
+			<unit inf.44.reg=127 />
+			<unit inf.44.reg=128 />
+			<unit sm.art.reg=148 />
+			<unit fus.bn=148 />
+			<unit at.bn=148 />
+			<unit eng.bn=148 />
+		</unit>
+		<unit *vg.div=48 start=12/20/44 >
+			<unit vg.reg=126 />
+			<unit vg.reg=127 />
+			<unit vg.reg=128 />
+			<unit sm.art.reg=148 />
+			<unit fus.bn=148 />
+			<unit at.bn=148 />
+			<unit eng.bn=148 />
+		</unit>
+		<unit *inf.div=49 start=2/1/44  >
+			<unit inf.44.reg=148 />
+			<unit inf.44.reg=149 />
+			<unit inf.44.reg=150 />
+			<unit sm.art.reg=149 />
+			<unit fus.bn=149 />
+			<unit at.bn=149 />
+			<unit eng.bn=149 />
+		</unit>
+		<unit *inf.div=50 start=8/26/39 >
+			<unit *inf.reg=121 end=10/24/39 >
+				<unit inf3.bn=I/121 />
+				<unit inf3.bn=II/121 />
+				<unit inf3.bn=III/121 />
+			</unit>
+			<unit *inf.reg=122 end=10/24/39 >
+				<unit inf3.bn=I/122 />
+				<unit inf3.bn=II/122 />
+				<unit inf3.bn=III/122 />
+			</unit>
+			<unit *inf.reg=123 end=10/24/39 >
+				<unit inf3.bn=I/123 />
+				<unit inf3.bn=II/123 />
+				<unit inf3.bn=III/123 />
+			</unit>
+			<unit inf.reg=121 start=10/24/39 end=6/3/44 />
+			<unit inf.reg=122 start=10/24/39 end=6/3/44 />
+			<unit inf.reg=123 start=10/24/39 end=6/3/44 />
+			<unit inf.44.reg=121 start=6/3/44 />
+			<unit inf.44.reg=122 start=6/3/44 />
+			<unit inf.44.reg=123 start=6/3/44 />
+			<unit hvy.art.bn=101 end=10/24/39 />
+			<unit *art.reg=150 start=10/24/39 >
+				<unit art.bn=I/150 />
+				<unit art.bn=II/150 />
+				<unit art.bn=III/150 />
+				<unit hvy.art.bn=IV/150 start=9/5/40 />
+			</unit>
+			<unit bike.co=150 start=4/1/30 end=1/1/41 />
+			<unit inf.recce.bn=150 start=1/1/41 end=6/3/44 />
+			<unit fus.bn=150 start=6/3/44 />
+			<unit at.bn=150 />
+			<unit eng.bn=71 end=6/3/44 />
+			<unit eng.bn=150 start=6/3/44 />
+		</unit>
+		<unit *wave2.inf.div=52 start=8/26/39 end=12/3/43 >
+			<unit wave1.inf.reg=163 end=3/31/42 />
+			<unit wave1.inf.reg=181 end=3/31/42 />
+			<unit wave1.inf.reg=205 end=3/31/42 />
+			<unit inf.44.reg=163 start=3/31/42 end=4/15/43 />
+			<unit inf.44.reg=181 start=3/31/42 end=4/15/43 />
+			<unit inf.44.reg=205 start=3/31/42 end=4/15/43 />
+			<unit inf.reg=163 start=4/15/43 />
+			<unit inf.reg=181 start=4/15/43 />
+			<unit art.reg=152 />
+			<unit inf.recce.bn=152 end=4/26/43 />
+			<unit *divs.bn=152 start=4/26/43 end=7/26/43 >
+				<unit aufk.co=1/152 />
+				<unit aufk.co=2/152 />
+				<unit gren.co=3/152 />
+				<unit hvy.co=4/152 />
+			</unit>
+			<unit fus.bn=52 start=7/26/43 />
+			<unit at.bn=152 />
+			<unit eng.bn=152 />
+		</unit>
+		<unit *trn.div=52 start=12/3/43 end=4/12/44 >
+			<unit vg.reg=565 />
+			<unit vg.reg=566 />
+			<unit vg.reg=567 />
+		</unit>
+		<unit *sec.div=52 start=4/12/44 end=4/1/45 >
+			<unit sec4.reg=57 />
+			<unit sec4.reg=88 />
+		</unit>
+		<unit *wave2.inf.div=56 start=8/26/39 end=11/2/43 >
+			<unit wave1.inf.reg=171 />
+			<unit wave1.inf.reg=192 />
+			<unit wave1.inf.reg=234 />
+			<unit art.reg=156 />
+			<unit inf.recce.bn=156 />
+			<unit at.bn=156 />
+			<unit eng.bn=156 />
+		</unit>
+		<unit *inf.44.div=56 start=9/10/44 >
+			<unit inf.44.reg=171 />
+			<unit inf.44.reg=192 />
+			<unit inf.44.reg=234 />
+			<unit fus.bn=56 />
+			<unit art.reg=156 />
+			<unit at.bn=156 />
+			<unit eng.bn=156 />
+		</unit>
+		<unit *wave2.inf.div=57 start=8/26/39 end=8/3/44 >
+			<unit wave1.inf.reg=164 start=2/1/42 end=3/1/44/>
+			<unit wave1.inf.reg=179 end=2/1/42 />
+			<unit wave1.inf.reg=199 end=3/1/44/>
+			<unit wave1.inf.reg=217 end=3/1/44/>
+			<unit inf.44.reg=164 start=3/1/44/>
+			<unit inf.44.reg=199 start=3/1/44/>
+			<unit inf.44.reg=217 start=3/1/44/>
+			<unit art.reg=157 />
+			<unit inf.recce.bn=157 end=3/1/44 />
+			<unit fus.bn=57 start=3/1/44 />
+			<unit at.bn=157 />
+			<unit eng.bn=157 />
+		</unit>
+		<unit *wave2.inf.div=58 start=8/26/39 end=8/3/44 >
+			<unit wave1.inf.reg=154 end=7/1/42/>
+			<unit wave1.inf.reg=209 end=7/1/42/>
+			<unit wave1.inf.reg=220 end=7/1/42/>
+			<unit inf.44.reg=154 start=7/1/42/>
+			<unit inf.44.reg=209 start=7/1/42/>
+			<unit inf.44.reg=220 start=7/1/42/>
+			<unit art.reg=158 />
+			<unit inf.recce.bn=158 end=11/3/43 />
+			<unit fus.bn=58 start=11/3/43 />
+			<unit at.bn=158 />
+			<unit eng.bn=158 />
+		</unit>
+		<unit *inf.44.div=59 start=6/26/44 >
+			<unit inf.44.reg=1034 />
+			<unit inf.44.reg=1035 />
+			<unit inf.44.reg=1036 />
+			<unit fus.bn=59 />
+			<unit art.reg=159 />
+			<unit at.bn=159 />
+			<unit eng.bn=159 />
+		</unit>
+		<unit *inf.div=60 start=10/15/39 end=7/18/40 >
+			<unit inf.reg=92 />
+			<unit inf.reg=243 />
+			<unit inf.reg=244 />
+			<unit art.reg=160 />
+			<unit inf.recce.bn=160 />
+			<unit at.bn=160 />
+			<unit eng.bn=160 />
+		</unit>
+		<unit *mot.div=60 start=7/18/40 end=3/1/43 >
+			<unit lt.pz.bn=160 start=6/15/42 />
+			<unit mot.inf.reg=92 />
+			<unit mot.inf.reg=120 />
+			<unit krad.bn=160 />
+			<unit mot.art.reg=160 >
+				<unit h.flak.bn=IV/160 />
+			</unit>
+			<unit mot.at.bn=160 />
+			<unit mot.inf.recce.bn=160 />
+			<unit mot.eng.bn=160 />
+		</unit>
+		<unit *wave2.inf.div=61 start=8/8/39 end=10/1/44 >
+			<unit wave1.inf.reg=151 end=7/1/42/>
+			<unit wave1.inf.reg=162 end=7/1/42/>
+			<unit wave1.inf.reg=176 end=7/1/42/>
+			<unit inf.44.reg=151 start=7/1/42/>
+			<unit inf.44.reg=162 start=7/1/42/>
+			<unit inf.44.reg=176 start=7/1/42/>
+			<unit art.reg=161 />
+			<unit inf.recce.bn=161 end=7/1/42 />
+			<unit fus.bn=61 start=10/1/43 />
+			<unit at.bn=161 end=8/9/42 />
+			<unit schnelle.bn=161 start=8/9/42 end=10/1/43 />
+			<unit eng.bn=161 />
+		</unit>
+		<unit *vg.div=61 start=10/1/44 >
+			<unit vg.reg=151 />
+			<unit vg.reg=162 />
+			<unit vg.reg=176 />
+			<unit art.reg=161 />
+			<unit fus.bn=61 />
+			<unit eng.bn=161 />
+		</unit>
+		<unit *wave2.inf.div=62 start=8/26/39 end=3/13/44 >
+			<unit wave1.inf.reg=164 end=2/1/42/>
+			<unit wave1.inf.reg=179 start=2/1/42 end=11/2/43/>
+			<unit wave1.inf.reg=183 end=5/4/43/>
+			<unit wave1.inf.reg=190 end=5/4/43/>
+			<unit inf.reg=354 start=5/4/43 end=11/2/43/>
+			<unit inf.44.reg=179 start=11/2/43/>
+			<unit inf.44.reg=354 start=11/2/43/>
+			<unit div.gruppe=38 start=11/2/43/>
+			<unit art.reg=162 />
+			<unit inf.recce.bn=162 end=12/9/43 />
+			<unit fus.bn=62 start=12/9/43 />
+			<unit at.bn=162 />
+			<unit eng.bn=162 />
+		</unit>
+		<unit *vg.div=62 start=9/22/44 >
+			<unit vg.reg=112 />
+			<unit vg.reg=179 />
+			<unit vg.reg=415 />
+			<unit art.reg=162 />
+			<unit fus.bn=62 />
+			<unit at.bn=162 />
+			<unit eng.bn=162 />
+		</unit>
+		<unit *inf.44.div=64 start=6/26/44 >
+			<unit inf.44.reg=1037 />
+			<unit inf.44.reg=1038 />
+			<unit inf.44.reg=1039 />
+			<unit fus.bn=64 />
+			<unit sm.art.reg=164 />
+			<unit at.co=164 />
+			<unit eng.bn=164 />
+		</unit>
+		<unit *inf.div=65 start=7/7/42 >
+			<unit inf.reg=145 end=10/27/43 />
+			<unit inf.reg=146 end=10/27/43 />
+			<unit inf.44.reg=145 start=10/27/43/>
+			<unit inf.44.reg=146 start=10/27/43/>
+			<unit inf.44.reg=147 start=10/27/43/>
+			<unit sm.art.reg=165 end=10/27/43/>
+			<unit art.reg=165 start=10/27/43/>
+			<unit inf.recce.bn=165 end=10/27/43 />
+			<unit fus.bn=65 start=10/27/43 />
+			<unit at.bn=165 />
+			<unit eng.bn=165 />
+		</unit>
+		<unit *wave2.inf.div=68 start=8/26/39 >
+			<unit wave1.inf.reg=169 end=11/1/43/>
+			<unit wave1.inf.reg=188 end=11/1/43/>
+			<unit wave1.inf.reg=196 end=11/1/43/>
+			<unit inf.44.reg=169 start=11/1/43/>
+			<unit inf.44.reg=188 start=11/1/43/>
+			<unit inf.44.reg=196 start=11/1/43/>
+			<unit art.reg=168 />
+			<unit inf.recce.bn=168 end=11/1/43 />
+			<unit fus.bn=68 start=11/1/43 />
+			<unit at.bn=168 />
+			<unit eng.bn=168 />
+		</unit>
+		<unit *wave2.inf.div=69 start=8/26/39 >
+			<unit wave1.inf.reg=159 end=11/3/43/>
+			<unit wave1.inf.reg=193 end=11/3/43/>
+			<unit wave1.inf.reg=236 end=11/3/43/>
+			<unit inf.44.reg=159 start=11/3/43/>
+			<unit inf.44.reg=193 start=11/3/43/>
+			<unit inf.44.reg=236 start=11/3/43/>
+			<unit art.reg=169 />
+			<unit inf.recce.bn=169 end=11/3/43 />
+			<unit fus.bn=69 start=11/3/43 />
+			<unit at.bn=169 />
+			<unit eng.bn=169 />
+		</unit>
+		<unit *inf.44.div=70 start=7/17/44 >
+			<unit inf.44.reg=1018 />
+			<unit inf.44.reg=1019 />
+			<unit inf.44.reg=1020 />
+			<unit fus.bn=70 />
+			<unit sm.art.reg=170 />
+			<unit at.bn=170 />
+			<unit eng.bn=170 />
+		</unit>
+		<unit *wave2.inf.div=71 start=8/26/39 >
+			<unit wave1.inf.reg=191 end=7/1/43/>
+			<unit wave1.inf.reg=194 end=11/1/43/>
+			<unit wave1.inf.reg=211 end=11/1/43/>
+			<unit inf.44.reg=191 start=7/1/43/>
+			<unit inf.44.reg=194 start=11/1/43/>
+			<unit inf.44.reg=211 start=11/1/43/>
+			<unit art.reg=171 />
+			<unit inf.recce.bn=171 />
+			<unit at.bn=171 />
+			<unit eng.bn=171 />
+		</unit>
+		<unit *inf.div=72 start=9/19/39 >
+			<unit inf.reg=105 end=3/2/44 />
+			<unit inf.reg=124 end=11/1/42 />
+			<unit inf.reg=266 end=11/1/42 />
+			<unit inf.44.reg=105 start=3/2/44 />
+			<unit inf.44.reg=124 start=11/1/42 />
+			<unit inf.44.reg=266 start=11/1/42 />
+			<unit art.reg=706 end=4/20/40 />
+			<unit art.reg=172 start=4/20/40 />
+			<unit bike.bn=72 start=5/15/42 end=4/5/44/>
+			<unit fus.bn=72 start=4/5/44 />
+			<unit at.bn=72 end=3/2/44 />
+			<unit at.bn=172 start=3/2/44 />
+			<unit eng.bn=72 end=3/2/44 />
+			<unit eng.bn=172 start=3/2/44 />
+		</unit>
+		<unit *wave2.inf.div=73 start=8/26/39 >
+			<unit wave1.inf.reg=170 end=10/2/43/>
+			<unit wave1.inf.reg=186 end=10/2/43/>
+			<unit wave1.inf.reg=213 end=10/2/43/>
+			<unit inf.44.reg=170 start=10/2/43/>
+			<unit inf.44.reg=186 start=10/2/43/>
+			<unit inf.44.reg=213 start=10/2/43/>
+			<unit art.reg=173 />
+			<unit inf.recce.bn=173 end=10/1/43 />
+			<unit fus.bn=73 start=10/1/43 />
+			<unit at.bn=173 />
+			<unit eng.bn=173 />
+		</unit>
+		<unit *wave2.inf.div=75 start=8/26/39 >
+			<unit wave1.inf.reg=172 end=10/2/43/>
+			<unit wave1.inf.reg=202 end=10/2/43/>
+			<unit wave1.inf.reg=222 end=10/2/43/>
+			<unit inf.44.reg=172 start=10/2/43/>
+			<unit inf.44.reg=202 start=10/2/43/>
+			<unit inf.44.reg=222 start=10/2/43/>
+			<unit art.reg=175 />
+			<unit inf.recce.bn=175 end=11/1/44 />
+			<unit fus.bn=75 start=11/1/44 />
+			<unit at.bn=175 />
+			<unit eng.bn=175 />
+		</unit>
+		<unit *wave2.inf.div=76 start=8/26/39 >
+			<unit wave1.inf.reg=178 end=11/1/43/>
+			<unit wave1.inf.reg=203 end=11/1/43/>
+			<unit wave1.inf.reg=230 end=11/1/43/>
+			<unit inf.44.reg=178 start=11/1/43/>
+			<unit inf.44.reg=203 start=11/1/43/>
+			<unit inf.44.reg=230 start=11/1/43/>
+			<unit art.reg=176 />
+			<unit inf.recce.bn=176 end=2/2/44 />
+			<unit fus.bn=76 start=2/2/44 />
+			<unit at.bn=176 end=12/31/44 />
+			<unit at.bn=76 start=12/31/44 />
+			<unit eng.bn=176 />
+		</unit>
+		<unit *inf.44.div=77 start=1/15/44 end=9/15/44 >
+			<unit gren.reg=1049 />
+			<unit gren.reg=1050 />
+			<unit sm.art.reg=177 />
+			<unit at.bn=177 />
+			<unit eng.bn=177 />
+		</unit>
+		<unit *wave2.inf.div=78 start=8/26/39 end=1/1/43 >
+			<unit inf.44.reg=14 start=12/10/41/>
+			<unit wave1.inf.reg=195 end=12/10/41/>
+			<unit wave1.inf.reg=215 end=12/10/41/>
+			<unit wave1.inf.reg=238 end=11/11/41 />
+			<unit inf.44.reg=195 start=12/10/41/>
+			<unit inf.44.reg=215 start=12/10/41/>
+			<unit art.reg=178 />
+			<unit inf.recce.bn=178 end=3/31/42 />
+			<unit at.bn=178 end=4/1/42 />
+			<unit schnelle.bn=178 start=4/1/42 />
+			<unit eng.bn=178 />
+		</unit>
+		<unit *sturm.div=78 start=1/1/43 end=7/18/44 >
+			<unit *sturm.reg=14 end=6/1/43 >
+				<unit vg.bn=Gren/14 />
+				<unit hvy.co=5/14 />
+				<unit eng.co=6/14 />
+				<unit art.bn=II/178 start=2/1/43 end=4/11/43 />
+			</unit>
+			<unit sturm.reg=14 start=6/1/43 />
+			<unit *sturm.reg=195 end=6/1/43 >
+				<unit vg.bn=Gren/195 />
+				<unit hvy.co=5/195 />
+				<unit eng.co=6/195 />
+				<unit art.bn=III/178 start=2/1/43 end=4/11/43 />
+			</unit>
+			<unit sturm.reg=195 start=6/1/43 />
+			<unit *sturm.reg=215 end=6/1/43 >
+				<unit vg.bn=Gren/215 />
+				<unit hvy.co=5/215 />
+				<unit eng.co=6/215 />
+				<unit art.bn=I/178 start=2/1/43 end=4/11/43 />
+			</unit>
+			<unit sturm.reg=215 start=6/1/43 />
+			<unit *art.reg=178 end=4/11/43 >
+				<unit stug.bn=189 />
+				<unit h.flak.bn=293 start=2/1/43 />
+				<unit rocket.bn=III/178 />
+			</unit>
+			<unit art.reg=178 start=4/11/43 />
+			<unit mort.bn=5 start=2/1/43 />
+			<unit at.bn=178 note="2 Kp. Sfl."/>
+			<unit stug.bn=189 start=4/11/43 />
+			<unit h.flak.bn=293 start=4/11/43 />
+			<unit eng.bn=178 />
+		</unit>
+		<unit *vg.div=78 start=7/18/44 note="entitled Volks-Sturm-Div 1.1.45" >
+			<unit vg.reg=14 />
+			<unit vg.reg=195 />
+			<unit vg.reg=215 />
+			<unit art.reg=178 />
+			<unit fus.bn=78 />
+			<unit at.bn=178 />
+			<unit eng.bn=178 />
+		</unit>
+		<unit *wave2.inf.div=79 start=8/26/39 end=10/27/44 >
+			<unit wave1.inf.reg=208 end=6/1/44/>
+			<unit wave1.inf.reg=212 end=6/1/44/>
+			<unit wave1.inf.reg=226 end=6/1/44 />
+			<unit inf.44.reg=208 start=6/1/44/>
+			<unit inf.44.reg=212 start=6/1/44/>
+			<unit inf.44.reg=226 start=6/1/44/>
+			<unit art.reg=179 />
+			<unit inf.recce.bn=179 end=11/1/43 />
+			<unit at.bn=179 />
+			<unit fus.bn=79 start=11/1/43 />
+			<unit eng.bn=179 />
+		</unit>
+		<unit *vg.div=79 start=10/27/44 >
+			<unit vg.reg=208 />
+			<unit vg.reg=212 />
+			<unit vg.reg=226 />
+			<unit art.reg=179 />
+			<unit fus.co=79 />
+			<unit at.bn=179 />
+			<unit eng.bn=179 />
+		</unit>
+		<unit *inf.div=81 start=5/28/42 >
+			<unit inf.reg=161 end=9/22/43 />
+			<unit inf.reg=174 end=9/22/43 />
+			<unit inf.reg=189 end=5/31/42 />
+			<unit inf.44.reg=161 start=9/22/43 />
+			<unit inf.44.reg=174 start=9/22/43 />
+			<unit inf.44.reg=189 start=9/22/43 />
+			<unit art.reg=181 />
+			<unit aufk.co=181 end=1/16/44 />
+			<unit fus.bn=81 start=1/16/44 />
+			<unit at.bn=181 />
+			<unit eng.bn=181 />
+		</unit>
+		<unit *inf.div=82 start=12/1/39 end=5/10/44 >
+			<unit inf.reg=158 />
+			<unit inf.reg=166 />
+			<unit inf.reg=168 />
+			<unit art.reg=182 />
+			<unit bike.co=182 end=3/1/44 />
+			<unit fus.bn=82 start=3/1/44 />
+			<unit at.bn=182 />
+			<unit eng.bn=182 />
+		</unit>
+		<unit *inf.div=83 start=12/1/39 >
+			<unit inf.reg=251 end=2/1/43 />
+			<unit inf.reg=257 end=2/1/43 />
+			<unit inf.reg=277 end=1/30/43 />
+			<unit inf.44.reg=251 start=2/1/44 />
+			<unit inf.44.reg=257 start=2/1/43 >
+				<unit vg.bn=277 start=2/1/43 end=2/1/44 />
+			</unit>
+			<unit inf.44.reg=277 start=2/1/44 />
+			<unit inf.44.reg=547 start=1/30/43 end=2/1/44>
+				<unit vg.bn=251 start=2/1/43 />
+			</unit>
+			<unit art.reg=183 />
+			<unit bike.co=183 end=7/13/43 />
+			<unit fus.bn=83 start=7/13/43 />
+			<unit at.bn=183 />
+			<unit eng.bn=183 />
+		</unit>
+		<unit *inf.44.div=84 start=2/2/44 >
+			<unit gren.reg=1051 end=10/7/44 />
+			<unit gren.reg=1052 end=10/7/44 />
+			<unit inf.44.reg=1051 start=10/7/44 />
+			<unit inf.44.reg=1052 start=10/7/44 />
+			<unit inf.44.reg=1062 start=10/7/44 />
+			<unit fus.bn=84 start=6/12/44 end=10/7/44 />
+			<unit sm.art.reg=184 end=10/7/44 />
+			<unit art.reg=184 start=10/7/44 />
+			<unit at.bn=184 />
+			<unit eng.bn=184 />
+		</unit>
+		<unit *inf.44.div=85 start=2/2/44 >
+			<unit gren.reg=1053 end=9/1/44 />
+			<unit gren.reg=1054 end=9/1/44 />
+			<unit inf.44.reg=1053 start=9/1/44 />
+			<unit inf.44.reg=1054 start=9/1/44 />
+			<unit inf.44.reg=1064 start=9/1/44 />
+			<unit fus.bn=85 start=3/29/45 />
+			<unit *art.reg=185>
+				<unit art.bn=I/185 />
+				<unit art.bn=II/185 />
+				<unit art.bn=III/185 start=6/1/44 />
+				<unit hvy.art.bn=IV/185 start=3/29/45 />
+			</unit>
+			<unit at.bn=185 start=11/1/44 />
+			<unit eng.bn=185 />
+		</unit>
+		<unit *wave2.inf.div=86 start=8/26/39 end=11/4/43 >
+			<unit wave1.inf.reg=167 end=3/24/43/>
+			<unit wave1.inf.reg=184 end=2/18/42/>
+			<unit wave1.inf.reg=216 end=3/24/43 />
+			<unit inf.44.reg=167 start=3/24/43/>
+			<unit inf.44.reg=184 start=2/18/42/>
+			<unit inf.44.reg=216 start=3/24/43/>
+			<unit art.reg=186 />
+			<unit inf.recce.bn=186 end=4/1/42 />
+			<unit at.bn=186 end=4/1/42 />
+			<unit schnelle.bn=186 start=4/1/42 end=4/1/43 />
+			<unit at.bn=186 start=4/1/43 />
+			<unit fus.bn=86 start=4/1/43 />
+			<unit eng.bn=186 />
+		</unit>
+		<unit *wave2.inf.div=87 start=8/26/39 >
+			<unit wave1.inf.reg=173 end=3/31/42/>
+			<unit wave1.inf.reg=185 end=3/31/42/>
+			<unit wave1.inf.reg=187 end=3/31/42 />
+			<unit inf.44.reg=173 start=3/31/42/>
+			<unit inf.44.reg=185 start=3/31/42/>
+			<unit inf.44.reg=187 start=3/31/42/>
+			<unit art.reg=187 />
+			<unit inf.recce.bn=187 end=8/17/42 />
+			<unit at.bn=187 end=5/1/42 />
+			<unit schnelle.bn=187 start=8/17/42 end=9/10/43 />
+			<unit at.bn=187 start=4/18/44 />
+			<unit fus.bn=87 start=9/10/43 />
+			<unit eng.bn=187 />
+		</unit>
+		<unit *inf.div=88 start=12/1/39 >
+			<unit inf.reg=245 end=11/2/43 />
+			<unit inf.reg=246 end=11/2/43 />
+			<unit inf.reg=248 end=11/2/43 />
+			<unit inf.44.reg=110 start=3/17/44 />
+			<unit inf.44.reg=245 start=11/2/43 />
+			<unit inf.44.reg=248 start=11/2/43 />
+			<unit div.gruppe=323 start=11/2/43 end=3/17/44 />
+			<unit ski.bn=88 start=1/1/43 end=11/2/43 />
+			<unit art.reg=188 />
+			<unit bike.co=188 end=1/1/43 />
+			<unit schnelle.bn=188 start=3/20/43 end=11/2/43 />
+			<unit fus.bn=88 start=11/2/43 />
+			<unit at.bn=188 end=3/20/43 />
+			<unit at.bn=188 start=11/2/43 />
+			<unit eng.bn=188 />
+		</unit>
+		<unit *inf.44.div=89 start=1/15/44 >
+			<unit gren.reg=1055 end=9/1/44 />
+			<unit gren.reg=1056 end=9/1/44 />
+			<unit inf.44.reg=1055 start=9/1/44 />
+			<unit inf.44.reg=1056 start=9/1/44 />
+			<unit inf.44.reg=1063 start=9/1/44 />
+			<unit fus.bn=189 start=6/1/44 />
+			<unit sm.art.reg=189/>
+			<unit at.bn=189 />
+			<unit eng.bn=189 />
+		</unit>
+		<unit name="90th Light Africa" uid=90m badge=mot.inf size=XX start=6/26/41 end=6/30/43 >
+			<unit mot.div.hq=90 />
+			<unit lt.pz.bn=190 start=4/1/42/>
+			<unit rifle.reg=155 end=4/1/42>
+				<unit rifle.bn=III/155 />
+			</unit>
+			<unit *mot.inf.reg=200 end=4/1/42 >
+				<unit mot.inf.bn=I/200 />
+				<unit mot.inf.bn=II/200 />
+				<unit mot.inf.art.co=11/200 />
+			</unit>
+			<unit *mot.inf.reg=361 end=4/1/42 >
+				<unit mot.inf.bn=I/361 />
+				<unit mot.inf.bn=II/361 />
+				<unit flak.co=361 end=4/1/42 />
+				<unit mot.inf.art.co=11/361 start=4/1/42 />
+			</unit>
+			<unit pz.pg.reg=155 start=4/1/42 />
+			<unit pz.pg.reg=200 start=4/1/42 />
+			<unit pz.pg.reg=361 start=4/1/42 />
+			<unit mot.art.bn=361 end=4/1/42 />
+			<unit *mot.art.reg=190 start=4/1/42 >
+				<unit mot.art.bn=I/190 />
+				<unit mot.art.bn=II/190 />
+			</unit>
+			<unit aufk.co=590 end=4/1/42 />
+			<unit pz.aufk.bn=190 start=4/1/42 />
+			<unit mot.at.bn=190 />
+			<unit mot.eng.bn=900 />
+		</unit>
+		<unit *pg.div=90 start=7/6/43 >
+			<unit lt.pz.bn=190 />
+			<unit pg.reg=155 end=10/23/43 />
+			<unit pg.reg=200 />
+			<unit pg.reg=361 />
+			<unit mot.art.reg=190/>
+			<unit stug.bn=242 />
+			<unit pz.aufk.bn=190 start=3/1/44 />
+			<unit mot.at.bn=190 start=10/23/43 end=4/1/45 />
+			<unit mot.at.bn=90 start=4/1/45 />
+			<unit mot.eng.bn=190/>
+		</unit>
+		<unit *inf.44.div=91 start=1/15/44 >
+			<unit gren.reg=1057 />
+			<unit gren.reg=1058 />
+			<unit sm.art.reg=191/>
+			<unit at.co=191 />
+			<unit flak.co=191 />
+			<unit eng.bn=191 />
+		</unit>
+		<unit *inf.44.div=92 start=1/15/44 >
+			<unit gren.reg=1059 />
+			<unit gren.reg=1060 />
+			<unit fus.bn=192 start=5/1/44 />
+			<unit sm.art.reg=192/>
+			<unit at.bn=192 start=3/26/44 />
+			<unit eng.bn=192 />
+		</unit>
+		<unit *inf.div=93 start=9/17/39 >
+			<unit inf.reg=270 end=9/22/43 />
+			<unit inf.reg=271 end=9/22/43 />
+			<unit inf.reg=272 end=9/22/43 />
+			<unit inf.44.reg=270 start=9/22/43 />
+			<unit inf.44.reg=272 start=9/22/43 />
+			<unit inf.44.reg=273 start=9/22/43 />
+			<unit art.reg=193 />
+			<unit bike.co=193 end=8/25/42 />
+			<unit schnelle.bn=193 start=8/25/42 end=4/25/43 />
+			<unit aufk.bn=193 start=6/1/43 end=12/1/43 />
+			<unit fus.bn=93 start=12/1/43 />
+			<unit at.bn=193 end=8/25/42 />
+			<unit at.bn=193 start=4/25/43 />
+			<unit eng.bn=193 />
+		</unit>
+		<unit *inf.div=94 start=9/17/39 >
+			<unit inf.reg=267 end=10/31/43 />
+			<unit inf.reg=274 end=10/31/43 />
+			<unit inf.reg=276 end=10/31/43 />
+			<unit inf.bn=turkest.I/94 start=11/6/42 />
+			<unit inf.44.reg=267 start=10/31/43 />
+			<unit inf.44.reg=274 start=10/31/43 />
+			<unit inf.44.reg=276 start=10/31/43 />
+			<unit art.reg=194 />
+			<unit bike.co=194 end=8/25/42 />
+			<unit aufk.bn=194 start=3/1/43 />
+			<unit fus.bn=94 start=12/1/43 />
+			<unit at.bn=194 />
+			<unit eng.bn=194 />
+		</unit>
+		<unit *inf.div=95 start=9/19/39 >
+			<unit inf.reg=278 end=11/1/43 />
+			<unit inf.reg=279 end=11/1/43 />
+			<unit inf.reg=280 end=11/1/43 />
+			<unit inf.44.reg=278 start=11/1/43 />
+			<unit inf.44.reg=279 start=11/1/43 />
+			<unit inf.44.reg=280 start=11/1/43 />
+			<unit art.reg=195 />
+			<unit bike.co=195 end=8/25/42 />
+			<unit fus.bn=95 start=9/1/43 />
+			<unit at.bn=195 />
+			<unit eng.bn=195 />
+		</unit>
+		<unit *inf.div=96 start=9/21/39 >
+			<unit inf.reg=283 end=5/31/42 />
+			<unit inf.reg=284 end=5/31/42 />
+			<unit inf.reg=287 end=5/31/42 />
+			<unit inf.44.reg=283 start=5/31/42 />
+			<unit inf.44.reg=284 start=5/31/42 />
+			<unit inf.44.reg=287 start=5/31/42 />
+			<unit art.reg=196 />
+			<unit bike.co=196 end=10/28/42 />
+			<unit schnelle.bn=196 start=10/28/42 end=10/1/44 />
+			<unit fus.bn=96 start=12/1/43 />
+			<unit at.bn=196 end=10/28/42 />
+			<unit at.bn=196 start=10/1/44 />
+			<unit eng.bn=196 />
+		</unit>
+		<unit *lt.inf.div=97 start=12/10/40 end=7/6/42>
+			<unit inf.reg=204 />
+			<unit inf.reg=207 />
+			<unit lt.art.reg=81 />
+			<unit inf.recce.bn=97 />
+			<unit mot.at.bn=97 />
+			<unit eng.bn=97 />
+		</unit>
+		<unit *jgr.div=97 start=7/6/42 >
+			<unit jgr.reg=204 />
+			<unit jgr.reg=207 />
+			<unit mtn.art.reg=81 />
+			<unit inf.recce.bn=97 />
+			<unit mot.at.bn=97 />
+			<unit eng.bn=97 />
+		</unit>
+		<unit *inf.div=98 start=9/18/39 >
+			<unit inf.reg=282 end=5/31/42 />
+			<unit inf.reg=289 end=5/31/42 />
+			<unit inf.reg=290 end=5/31/42 />
+			<unit inf.44.reg=282 start=5/31/42 end=2/14/43 />
+			<unit inf.44.reg=289 start=5/31/42 end=2/14/43 />
+			<unit inf.44.reg=290 start=5/31/42 end=2/14/43 />
+			<unit gren.reg=282 start=2/14/43 end=6/5/44 />
+			<unit gren.reg=290 start=2/14/43 end=6/5/44 />
+			<unit inf.44.reg=117 start=6/5/44 />
+			<unit inf.44.reg=289 start=6/5/44 />
+			<unit inf.44.reg=290 start=6/5/44 />
+			<unit art.reg=198 />
+			<unit divs.bn=98 start=2/14/43 end=7/26/43 />
+			<unit bike.co=198 end=8/18/42 />
+			<unit schnelle.bn=198 start=8/18/42 end=2/1/43 />
+			<unit fus.bn=98 start=7/26/43 />
+			<unit at.bn=198 end=8/18/42 />
+			<unit at.bn=198 start=2/1/43 />
+			<unit eng.bn=198 />
+		</unit>
+		<unit *lt.inf.div=99 start=11/16/40 end=10/22/41 >
+			<unit inf.reg=206 />
+			<unit inf.reg=218 />
+			<unit lt.art.reg=82 />
+			<unit inf.recce.bn=99 />
+			<unit mot.at.bn=99 />
+			<unit eng.bn=99 />
+		</unit>
+		<unit *lt.inf.div=100 start=12/10/40 end=7/6/42>
+			<unit inf.reg=54 />
+			<unit inf.reg=227 />
+			<unit lt.art.reg=83 />
+			<unit inf.recce.bn=100 />
+			<unit mot.at.bn=100 />
+			<unit eng.bn=100 />
+		</unit>
+		<unit *jgr.div=100 start=7/6/42 >
+			<unit jgr.reg=54 />
+			<unit jgr.reg=227 />
+			<unit *mtn.art.reg=83 >
+				<unit mtn.art.bn=I/83 />
+				<unit mtn.art.bn=II/83 end=10/13/43 />
+				<unit art.bn=II/83 start=10/13/43 />
+				<unit mtn.art.bn=III/83 end=10/13/43 />
+				<unit mot.art.bn=III/83 start=10/13/43 />
+				<unit hvy.art.bn=IV/83 end=10/13/43 />
+				<unit hvy.art.bn=IV/83 start=1/1/45 />
+			</unit>
+			<unit inf.recce.bn=100 />
+			<unit mot.at.bn=100 />
+			<unit eng.bn=100 />
+		</unit>
+		<unit *lt.inf.div=101 start=12/10/40 end=7/6/42>
+			<unit inf.reg=228 />
+			<unit inf.reg=229 />
+			<unit lt.art.reg=85 />
+			<unit inf.recce.bn=101 />
+			<unit mot.at.bn=101 />
+			<unit eng.bn=101 />
+		</unit>
+		<unit *jgr.div=101 start=7/6/42 >
+			<unit jgr.reg=228 />
+			<unit jgr.reg=229 />
+			<unit mtn.art.reg=85 />
+			<unit inf.recce.bn=101 />
+			<unit mot.at.bn=101 />
+			<unit eng.bn=101 />
+		</unit>
+		<unit *inf.div=102 start=12/15/40 >
+			<unit inf.reg=232 end=7/20/42 />
+			<unit inf.reg=233 end=7/20/42 />
+			<unit inf.reg=235 end=7/10/42 />
+			<unit inf.44.reg=84 start=6/1/42 />
+			<unit inf.44.reg=216 start=1/1/45 />
+			<unit inf.44.reg=232 start=7/20/42 />
+			<unit inf.44.reg=233 start=7/20/42 end=11/2/43 />
+			<unit div.gruppe=216 start=11/2/43 end=1/1/45 />
+			<unit art.reg=104 />
+			<unit at.bn=102 end=7/31/42 />
+			<unit schnelle.bn=102 start=7/31/42 end=9/6/43 />
+			<unit at.bn=102 start=9/6/43 />
+			<unit aufk.bn=102 end=7/31/42 />
+			<unit fus.bn=102 start=11/25/43 />
+			<unit eng.bn=102 />
+		</unit>
+		<unit *jgr.div=104 start=4/1/43 >
+			<unit jgr.reg=724 />
+			<unit jgr.reg=734 />
+			<unit jgr.art.reg=654 />
+			<unit inf.recce.bn=104 />
+			<unit mot.at.bn=104 />
+			<unit eng.bn=104 />
+		</unit>
+		<unit *inf.div=106 start=11/22/40 >
+			<unit inf.reg=239 end=11/2/43 />
+			<unit inf.reg=240 end=11/2/43 />
+			<unit inf.reg=241 end=5/12/41 />
+			<unit inf.44.reg=113 start=3/24/45 />
+			<unit inf.44.reg=239 start=11/2/43 />
+			<unit inf.44.reg=240 start=11/2/43 />
+			<unit inf.44.reg=241 start=5/12/42 end=11/2/43 />
+			<unit div.gruppe=39 start=11/2/43 end=10/9/44 />
+			<unit art.reg=107 />
+			<unit at.bn=106 />
+			<unit aufk.bn=106 end=11/2/43 />
+			<unit fus.bn=106 start=11/2/43 />
+			<unit eng.bn=106 />
+		</unit>
+		<unit *inf.div=110 start=12/10/40 >
+			<unit inf.reg=252 end=2/1/42 />
+			<unit inf.reg=254 end=5/24/42 />
+			<unit inf.reg=255 end=5/12/41 />
+			<unit inf.44.reg=252 start=2/1/42 end=11/2/43 />
+			<unit inf.44.reg=254 start=5/24/42 />
+			<unit inf.44.reg=255 start=5/12/42 />
+			<unit div.gruppe=321 start=11/2/43 />
+			<unit art.reg=120 />
+			<unit at.bn=110 />
+			<unit aufk.bn=110 end=7/26/43 />
+			<unit fus.bn=110 start=7/26/43 />
+			<unit eng.bn=110 />
+		</unit>
+		<unit *inf.div=111 start=11/6/40 end=6/1/44 >
+			<unit inf.reg=50 end=5/4/43 />
+			<unit inf.reg=70 end=5/4/43 />
+			<unit inf.reg=117 end=5/4/43 />
+			<unit inf.44.reg=50 start=5/4/43 />
+			<unit inf.44.reg=70 start=5/4/43 />
+			<unit inf.44.reg=117 start=5/4/43 />
+			<unit art.reg=117 />
+			<unit at.bn=111 />
+			<unit aufk.bn=117 end=10/1/43 />
+			<unit fus.bn=111 start=10/1/43 />
+			<unit eng.bn=111 />
+		</unit>
+		<unit *inf.div=112 start=12/10/40 end=11/2/43 >
+			<unit inf.reg=110 />
+			<unit inf.reg=256 />
+			<unit inf.reg=258 end=5/1/41 />
+			<unit inf.44.reg=258 start=5/1/41 />
+			<unit art.reg=86 />
+			<unit at.bn=112 />
+			<unit aufk.bn=120 end=7/26/43 />
+			<unit fus.bn=112 start=7/26/43 />
+			<unit eng.bn=112 />
+		</unit>
+		<unit *inf.div=113 start=12/10/40 end=11/2/43 >
+			<unit inf.reg=260 />
+			<unit inf.reg=261 />
+			<unit inf.reg=268 />
+			<unit art.reg=87 />
+			<unit at.bn=113 />
+			<unit aufk.bn=113 />
+			<unit eng.bn=113 />
+		</unit>
+		<unit *jgr.div=114 start=4/1/43 >
+			<unit jgr.reg=721 />
+			<unit jgr.reg=741 />
+			<unit jgr.art.reg=661 />
+			<unit inf.recce.bn=114 />
+			<unit mot.at.bn=114 />
+			<unit eng.bn=114 />
+		</unit>
+		<unit *jgr.div=117 start=4/1/43 >
+			<unit jgr.reg=737 />
+			<unit jgr.reg=749 />
+			<unit jgr.art.reg=670 />
+			<unit inf.recce.bn=116 />
+			<unit mot.at.bn=117 />
+			<unit eng.bn=117 />
+		</unit>
+		<unit *jgr.div=118 start=4/1/43 >
+			<unit jgr.reg=738 />
+			<unit jgr.reg=750 />
+			<unit jgr.art.reg=668 />
+			<unit inf.recce.bn=118 />
+			<unit mot.at.bn=118 />
+			<unit eng.bn=118 />
+		</unit>
+		<unit *inf.div=121 start=10/5/40 >
+			<unit inf.reg=405 end=7/15/42 />
+			<unit inf.reg=407 end=7/15/42 />
+			<unit inf.reg=408 end=7/15/42 />
+			<unit inf.44.reg=405 start=7/15/42 />
+			<unit inf.44.reg=407 start=7/15/42 />
+			<unit inf.44.reg=408 start=7/15/42 />
+			<unit art.reg=121 />
+			<unit at.bn=121 end=8/1/43 />
+			<unit aufk.bn=121 end=8/1/43 />
+			<unit schnelle.bn=121 start=8/1/43 end=9/15/43 />
+			<unit fus.bn=121 start=9/15/43 />
+			<unit eng.bn=121 />
+		</unit>
+		<unit *inf.div=122 start=10/7/40 >
+			<unit inf.reg=409 end=5/18/42 />
+			<unit inf.reg=410 end=5/18/42 />
+			<unit inf.reg=411 end=5/18/42 />
+			<unit inf.44.reg=409 start=5/18/42 />
+			<unit inf.44.reg=410 start=5/18/42 />
+			<unit inf.44.reg=411 start=5/18/42 />
+			<unit art.reg=122 />
+			<unit at.bn=122 end=6/21/42 />
+			<unit aufk.bn=122 end=8/6/42 />
+			<unit schnelle.bn=122 start=8/6/42 end=5/1/43 />
+			<unit at.bn=122 start=5/1/43 />
+			<unit aufk.bn=122 start=5/1/43 end=10/1/43 />
+			<unit fus.bn=122 start=10/1/43 />
+			<unit eng.bn=122 />
+		</unit>
+		<unit *inf.div=123 start=10/5/40 end=3/1/44 >
+			<unit inf.reg=415 />
+			<unit inf.reg=416 />
+			<unit inf.reg=418 />
+			<unit art.reg=123 />
+			<unit at.bn=123 end=9/1/43 />
+			<unit schnelle.bn=123 start=9/1/43 />
+			<unit aufk.bn=123 end=11/30/43 />
+			<unit fus.bn=123 start=11/30/43 />
+			<unit eng.bn=123 />
+		</unit>
+		<unit *inf.div=125 start=10/16/40 >
+			<unit inf.reg=419 end=12/1/43 />
+			<unit inf.44.reg=419 start=12/1/43 />
+			<unit inf.reg=420 end=6/1/42 />
+			<unit inf.44.reg=420 start=6/1/42 />
+			<unit inf.reg=421 end=12/1/43 />
+			<unit inf.44.reg=421 start=12/1/43 />
+			<unit art.reg=125 />
+			<unit at.bn=125 />
+			<unit aufk.bn=125 end=11/30/43 />
+			<unit fus.bn=125 start=11/30/43 />
+			<unit eng.bn=125 />
+		</unit>
+		<unit *inf.div=126 start=10/18/40 >
+			<unit inf.reg=422 end=1/1/43 />
+			<unit inf.reg=424 end=1/1/43 />
+			<unit inf.reg=426 end=1/1/43 />
+			<unit inf.44.reg=422 start=1/1/43 />
+			<unit inf.44.reg=424 start=1/1/43 />
+			<unit inf.44.reg=426 start=1/1/43 />
+			<unit art.reg=126 />
+			<unit at.bn=126 />
+			<unit aufk.bn=126 />
+			<unit fus.bn=126 start=10/10/43 />
+			<unit eng.bn=126 />
+		</unit>
+		<unit *inf.div=129 start=10/18/40 >
+			<unit inf.reg=427 end=1/1/44 />
+			<unit inf.44.reg=427 start=1/1/44 />
+			<unit inf.reg=428 end=2/20/42 />
+			<unit inf.44.reg=428 start=2/20/42 />
+			<unit inf.reg=430 end=12/28/41 />
+			<unit inf.44.reg=430 start=12/28/41 />
+			<unit art.reg=129 />
+			<unit at.bn=129 />
+			<unit aufk.bn=129 end=1/1/43 />
+			<unit fus.bn=129 start=7/26/43 />
+			<unit eng.bn=129 />
+		</unit>
+		<unit *inf.div=131 start=10/5/40 >
+			<unit inf.reg=431 end=5/1/44 />
+			<unit inf.reg=432 end=2/1/43 />
+			<unit inf.reg=434 end=5/1/44 />
+			<unit inf.44.reg=431 start=5/1/44 />
+			<unit inf.44.reg=432 start=5/1/44 />
+			<unit inf.44.reg=434 start=5/1/44 />
+			<unit divs.bn=131 start=2/1/43 end=7/26/43 />
+			<unit art.reg=131 />
+			<unit at.bn=131 />
+			<unit aufk.bn=131 />
+			<unit fus.bn=131 start=7/26/43 />
+			<unit eng.bn=131 />
+		</unit>
+		<unit *inf.div=132 start=10/5/40 >
+			<unit inf.reg=436 end=7/1/43 />
+			<unit inf.44.reg=436 start=7/1/43 />
+			<unit inf.reg=437 end=9/1/43 />
+			<unit inf.reg=438 end=9/1/43 />
+			<unit inf.44.reg=437 start=9/1/43 />
+			<unit inf.44.reg=438 start=9/1/43 />
+			<unit art.reg=132 />
+			<unit at.bn=132 />
+			<unit aufk.bn=132 end=11/1/43 />
+			<unit fus.bn=132 start=11/1/43 />
+			<unit eng.bn=132 />
+		</unit>
+		<unit *fort.div=133 start=1/21/44 >
+			<unit lt.pz.bn=212 />
+			<unit gren.reg=733 />
+			<unit gren.reg=746 />
+			<unit sm.art.reg=619 />
+		</unit>
+		<unit *inf.div=134 start=10/15/40 end=8/3/44 >
+			<unit inf.reg=439 />
+			<unit inf.reg=445 />
+			<unit inf.reg=446 />
+			<unit art.reg=134 />
+			<unit at.bn=134 />
+			<unit schnelle.bn=134 start=8/20/42 end=7/26/43 />
+			<unit aufk.bn=134 end=8/20/42 />
+			<unit fus.bn=134 start=7/26/43 />
+			<unit eng.bn=134 />
+		</unit>
+		<unit *inf.div=137 start=10/10/40 >
+			<unit inf.reg=447 end=6/1/42 />
+			<unit inf.44.reg=447 start=6/1/42 />
+			<unit inf.reg=448 end=6/1/42 />
+			<unit inf.44.reg=448 start=6/1/42 />
+			<unit inf.reg=449 end=3/28/43 />
+			<unit divs.bn=137 start=3/28/43 end=7/26/43 /> 
+			<unit art.reg=137 />
+			<unit at.bn=137 />
+			<unit aufk.bn=137 end=4/15/42 />
+			<unit fus.bn=137 start=7/26/43 />
+			<unit eng.bn=137 />
+		</unit>
+		<unit name="Division Gruppe Krautler" uid=krautler badge=inf size=XX abbreviation=K start=4/1/44 >
+			<unit div.hq=140 />
+			<unit mtn.reg=139 />
+			<unit jgr.bn=3 />
+			<unit *art.reg=931 >
+				<unit mtn.art.bn=124 />
+				<unit art.bn=424 />
+			</unit>
+			<unit eng.co=140 />
+		</unit>
+		<unit div=141 start=12/8/38 end=10/1/42 />
+		<unit res.div=141 start=10/1/42 end=2/19/44 />
+		<unit div=143 start=11/28/39 end=9/18/42 />
+		<unit res.div=143 start=9/18/42 end=2/18/44 />
+		<unit div=147 start=4/1/40  end=10/1/42 />
+		<unit res.div=147 start=10/1/42 end=2/4/44 />
+		<unit div=148 start=12/1/39 end=10/1/42 />
+		<unit res.div=148 start=10/1/42 end=10/5/44 />
+		<unit *inf.div=148 start=10/5/44 >
+			<unit inf.44.reg=281 />
+			<unit inf.44.reg=285 />
+			<unit inf.44.reg=286 />
+			<unit art.reg=1048 />
+			<unit at.bn=1048 />
+			<unit eng.bn=1048 />
+		</unit>
+		<unit *trn.div=149 start=3/12/45 >
+			<unit vg.reg=1301 />
+			<unit vg.reg=1302 />
+			<unit vg.reg=1303 />
+		</unit>
+		<unit *trn.div=150 start=3/12/45 >
+			<unit vg.reg=1304 />
+			<unit vg.reg=1305 />
+			<unit vg.reg=1306 />
+			<unit art.reg=1450 />
+		</unit>
+		<unit div=151 start=11/13/39 end=9/25/42 />
+		<unit res.div=151 start=9/25/42 end=2/9/44 />
+		<unit *trn.div=151 start=3/12/45 >
+			<unit vg.reg=1307 />
+			<unit vg.reg=1308 />
+			<unit vg.reg=1309 />
+			<unit art.reg=1451 />
+		</unit>
+		<unit div=152 start=8/26/39 end=1/16/45 />
+		<unit *trn.div=152 start=3/12/45 >
+			<unit vg.reg=1310 />
+			<unit vg.reg=1311 />
+			<unit vg.reg=1312 />
+			<unit art.reg=1452 />
+		</unit>
+		<unit div=153 start=8/26/39 end=9/11/42 />
+		<unit res.div=153 start=9/11/42 end=12/16/42 />
+		<unit trn.div=153 start=12/16/42 end=12/14/44 />
+		<unit *gren.div=153 start=12/14/44 >
+			<unit vg.reg=715 />
+			<unit vg.reg=716 />
+			<unit vg.reg=717 />
+			<unit fus.bn=153 />
+			<unit *art.reg=453>
+				<unit art.bn=I/453 />
+			</unit>
+			<unit eng.bn=153 start=2/1/45 />
+		</unit>
+		<unit div=154 start=11/10/39 end=9/15/42 />
+		<unit res.div=154 start=9/15/42 end=10/1/44 />
+		<unit trn.div=154 start=10/1/44 end=2/11/45 />
+		<unit *inf.div=154 start=2/11/45 >
+			<unit vg.reg=562 />
+			<unit vg.reg=563 />
+			<unit vg.reg=564 />
+			<unit name="1054th Heavy" badge=hvy size="I I">
+				<unit cav.co=1/1054 />
+				<unit cav.co=2/1054 />
+				<unit eng.co=3/1054 />
+				<unit bike.co=4/1054 />
+			</unit>
+			<unit art.bn=1054 />
+			<unit at.bn=1054 />
+			<unit eng.bn=1054 />
+		</unit>
+		<unit div=155 start=11/9/39 end=9/15/42 />
+		<unit res.mot.div=155 start=9/15/42 end=4/5/43 />
+		<unit res.pz.div=155 start=4/5/43 end=4/3/44 />
+		<unit trn.div=155 start=11/2/44 end=2/11/45 />
+		<unit *inf.div=155 start=2/11/45 >
+			<unit vg.reg=1227 />
+			<unit vg.reg=1228 />
+			<unit vg.reg=1229 />
+			<unit fus.bn=155 />
+			<unit art.bn=155 />
+			<unit eng.bn=155 />
+		</unit>
+		<unit div=156 start=11/15/39 end=10/5/42 />
+		<unit res.div=156 start=10/5/42 end=2/1/44 />
+		<unit trn.div=156 start=3/12/45 />
+		<unit div=157 start=11/9/39 end=10/1/42 />
+		<unit res.div=157 start=10/1/42 end=10/1/44 />
+		<unit div=158 start=11/10/39 end=10/1/42 />
+		<unit res.div=158 start=10/1/42 end=8/5/44 />
+		<unit trn.div=158 start=3/1/45 />
+		<unit div=159 start=11/9/39 end=10/1/42 />
+		<unit res.div=159 start=10/1/42 end=10/9/44 />
+		<unit *inf.div=159 start=10/9/44 >
+			<unit vg.reg=1209 />
+			<unit vg.reg=1210 />
+			<unit vg.reg=1211 />
+			<unit fus.co=159 end=1/1/45 />
+			<unit fus.bn=159 start=1/1/45 />
+			<unit art.reg=1059 />
+			<unit at.bn=1059 />
+			<unit eng.bn=1059 />
+		</unit>
+		<unit div=160 start=11/8/39 end=11/7/43 />
+		<unit res.div=160 start=11/7/43 end=3/9/45 />
+		<unit *inf.div=160 start=3/9/45 >
+			<unit gren.reg=657 />
+			<unit gren.reg=658 />
+			<unit gren.reg=659 />
+			<unit fus.co=160 />
+			<unit *art.reg=1060>
+				<unit art.bn=I/1060 />
+				<unit art.bn=II/1060 />
+			</unit>
+			<unit eng.bn=1060 />
+		</unit>
+		<unit *inf.div=161 start=12/1/1939 end=11/10/43 >
+			<unit inf.reg=336 />
+			<unit inf.reg=364 />
+			<unit inf.reg=371 start=12/28/39 />
+			<unit sm.art.reg=241 end=1/1/41 />
+			<unit art.reg=241 start=1/1/41 />
+			<unit at.bn=241 />
+			<unit eng.bn=241 start=1/8/40 />
+		</unit>
+		<unit *inf.div=161 start=7/27/44 >
+			<unit vg.reg=50 />
+			<unit vg.reg=371 />
+			<unit vg.reg=866 />
+			<unit art.reg=241 />
+			<unit at.bn=241 />
+			<unit eng.bn=241 />
+		</unit>
+		<unit *inf.div=162 start=12/1/39 end=5/18/42 >
+			<unit inf.reg=303 />
+			<unit inf.reg=314 />
+			<unit inf.reg=329 start=1/10/40 />
+			<unit sm.art.reg=236 end=1/1/41 />
+			<unit art.reg=236 start=1/1/41 />
+			<unit at.bn=236 />
+			<unit eng.bn=236 />
+		</unit>
+		<unit *inf.div="162nd (Turk.)" uid=162i start=5/21/43 >
+			<unit inf.reg=303 end=8/15/44 />
+			<unit inf.reg=314 end=8/15/44 />
+			<unit vg.reg=303 start=8/15/44 />
+			<unit vg.reg=314 start=8/15/44 />
+			<unit vg.reg=329 start=8/15/44 />
+			<unit divs.bn=162 end=8/15/44 />
+			<unit art.reg=236 />
+			<unit at.bn=236 />
+			<unit eng.bn=936 />
+		</unit>
+		<unit *inf.div=163 start=11/18/39 end=4/1/45 >
+			<unit inf.reg=307 />
+			<unit inf.reg=310 />
+			<unit inf.reg=324 start=1/1/40 />
+			<unit sm.art.reg=234 />
+			<unit at.bn=234 />
+			<unit eng.bn=234 />
+		</unit>
+		<unit *inf.div=164 start=11/27/39 end=1/10/42 >
+			<unit inf.reg=382 />
+			<unit inf.reg=433 />
+			<unit inf.reg=440 start=1/1/40 />
+			<unit art.reg=220 />
+			<unit at.bn=220 />
+			<unit eng.bn=220 />
+		</unit>
+		<unit name="164th Light Africa" uid=164m badge=mot.inf size=XX start=8/15/42 end=6/30/43 >
+			<unit mot.div.hq=164 />
+			<unit pg.reg=125 end=2/26/43 />
+			<unit pg.reg=382 end=2/26/43 />
+			<unit pg.reg=433 end=2/26/43 />
+			<unit pz.pg.reg=Africa start=2/26/43 />
+			<unit pz.pg.reg=382 start=2/26/43 />
+			<unit pz.pg.reg=433 start=2/26/43 />
+			<unit *mot.art.reg=220 >
+				<unit mot.art.bn=I/220 />
+				<unit hvy.art.bn=II/220 />
+			</unit>
+			<unit pz.aufk.bn=164 end=2/26/43 />
+			<unit aufk.bn=220 start=2/26/43 />
+			<unit mot.at.bn=220 />
+			<unit mot.eng.bn=220 end=2/26/43 />
+			<unit mot.eng.bn=200 start=2/26/43 />
+		</unit>
+		<unit div=165 start=11/10/39 end=10/4/42 />
+		<unit res.div=165 start=10/4/42 end=8/1/44 />
+		<unit div=166 start=11/15/39 end=10/26/43 />
+		<unit res.div=166 start=10/26/43 end=3/9/45 />
+		<unit *inf.div=166 start=3/9/45 >
+			<unit gren.reg=660 />
+			<unit gren.reg=661 />
+			<unit gren.reg=662 />
+			<unit sm.art.reg=1066/>
+			<unit eng.bn=1066 />
+		</unit>
+		<unit *inf.div=167 start=11/27/39 end=2/1/44 >
+			<unit inf.reg=315 end=9/27/43 />
+			<unit inf.reg=331 end=9/27/43 />
+			<unit inf.reg=339 start=1/12/40 end=9/27/43 />
+			<unit vg.reg=315 start=9/27/43 />
+			<unit vg.reg=331 start=9/27/43 />
+			<unit vg.reg=339 start=9/27/43 />
+			<unit fus.bn=167 start=9/27/43 />
+			<unit sm.art.reg=238 />
+			<unit inf.recce.bn=238 end=9/27/43 />
+			<unit at.bn=238 />
+			<unit eng.bn=238 />
+		</unit>
+		<unit *vg.div=167 start=10/31/44 >
+			<unit vg.reg=331 />
+			<unit vg.reg=339 />
+			<unit vg.reg=387 />
+			<unit art.reg=167 />
+			<unit fus.co=167 />
+			<unit at.bn=167 />
+			<unit eng.bn=167 />
+		</unit>
+		<unit *inf.div=168 start=12/1/39 >
+			<unit inf.reg=417 end=11/2/43 />
+			<unit inf.reg=429 end=11/2/43 />
+			<unit inf.reg=442 start=1/12/40 end=11/2/43 />
+			<unit vg.reg=385 start=7/27/44 />
+			<unit vg.reg=417 start=11/2/43 />
+			<unit vg.reg=442 start=11/2/43 />
+			<unit div.gruppe=223 start=11/2/43 end=7/27/44 />
+			<unit fus.bn=168 start=11/2/43 />
+			<unit sm.art.reg=248 end=11/2/43 >
+				<unit *rocket.bn=IV/248>
+					<unit rocket.co=1/IV/248 />
+					<unit rocket.co=2/IV/248 />
+				</>
+			</>
+			<unit art.reg=248 start=11/2/43 />
+			<unit inf.recce.bn=248 end=11/2/43 />
+			<unit at.bn=248 />
+			<unit eng.bn=248 />
+		</unit>
+		<unit *inf.div=169 start=11/28/39 >
+			<unit inf.reg=378 end=2/4/45 />
+			<unit inf.reg=379 end=2/4/45 />
+			<unit inf.reg=392 start=1/12/40 end=2/4/45 />
+			<unit vg.reg=378 start=2/4/45 />
+			<unit vg.reg=379 start=2/4/45 />
+			<unit vg.reg=392 start=2/4/45 />
+			<unit sm.art.reg=230 end=1/1/41 />
+			<unit art.reg=230 start=1/1/41 />
+			<unit at.bn=230 />
+			<unit eng.bn=230 />
+		</unit>
+		<unit *inf.div=170 start=12/1/39 >
+			<unit inf.reg=391 end=2/3/44 />
+			<unit inf.reg=399 end=2/3/44 />
+			<unit inf.reg=401 start=1/12/40 end=2/28/43 />
+			<unit vg.reg=391 start=2/3/44 />
+			<unit vg.reg=399 start=2/3/44 />
+			<unit vg.reg=401 start=2/28/43 />
+			<unit fus.bn=170 start=9/1/43 />
+			<unit sm.art.reg=240 end=12/11/40 />
+			<unit art.reg=240 start=12/11/40 />
+			<unit inf.recce.bn=240 end=9/1/43 />
+			<unit at.bn=240 />
+			<unit eng.bn=240 />
+		</unit>
+		<unit div=171 start=11/9/39 end=10/1/42 />
+		<unit res.div=171 start=10/1/42 end=2/1/44 />
+		<unit div=172 start=11/7/39 end=11/23/44 />
+		<unit res.div=172 start=11/23/44 end=1/25/45 />
+		<unit div=173 start=11/9/39 end=7/16/43 />
+		<unit res.div=173 start=7/16/43 end=4/1/44 />
+		<unit div=174 start=10/6/40 end=9/15/42 />
+		<unit res.div=174 start=9/15/42 end=7/27/44 />
+		<unit div=176 start=1/26/43 end=11/2/44 />
+		<unit *inf.44.div=176 start=11/2/44 >
+			<unit vg.reg=1218 />
+			<unit vg.reg=1219 />
+			<unit vg.reg=1220 />
+			<unit fus.bn=176 />
+			<unit art.reg=1176 />
+			<unit at.bn=176 start=12/31/44 />
+			<unit eng.bn=1176 />
+		</unit>
+		<unit div=177 start=11/4/39 />
+		<unit div=178 start=12/15/40 end=4/20/42 />
+		<unit res.mot.div=178 start=4/20/42 end=4/5/43 />
+		<unit res.pz.div=178 start=4/5/43 end=12/1/44 />
+		<unit div=179 start=1/5/40 end=4/27/42 />
+		<unit res.mot.div=179 start=4/27/42 end=4/5/43 />
+		<unit res.pz.div=179 start=4/5/43 end=5/1/44 />
+		<unit div=180 start=11/25/39 end=10/31/44 />
+		<unit *inf.44.div=180 start=10/31/44 >
+			<unit vg.reg=1221 />
+			<unit vg.reg=1222 />
+			<unit vg.reg=1223 />
+			<unit fus.bn=180 />
+			<unit sm.art.reg=880 />
+			<unit at.co=1180 end=2/8/45 />
+			<unit at.bn=180 start=2/8/45 />
+			<unit eng.bn=1180 />
+		</unit>
+		<unit *inf.div=181 start=12/1/39 >
+			<unit inf.reg=334 end=1/25/44 />
+			<unit vg.reg=334 start=1/25/44 />
+			<unit inf.reg=349 end=9/1/43 />
+			<unit inf.reg=359 start=1/12/40 />
+			<unit vg.reg=363 start=1/25/44 />
+			<unit fus.bn=181 start=1/25/44 />
+			<unit sm.art.reg=222 />
+			<unit inf.recce.bn=222 end=1/25/44 />
+			<unit at.bn=222 />
+			<unit eng.bn=222 />
+		</unit>
+		<unit div=182 start=11/7/39 end=7/11/42 />
+		<unit res.div=182 start=7/11/42 end=4/1/45 />
+		<unit *inf.div=182 start=4/1/45 >
+			<unit vg.reg=663 />
+			<unit vg.reg=664 />
+			<unit vg.reg=665 />
+			<unit sm.art.reg=1082 note="only btn I)"/>
+			<unit eng.co=1082 />
+		</unit>
+		<unit *inf.div=183 start=11/28/39 end=11/2/43 >
+			<unit inf.reg=330 />
+			<unit inf.reg=343 end=3/27/42 />
+			<unit inf.reg=351 />
+			<unit divs.bn=183 start=2/15/43 />
+			<unit sm.art.reg=219 end=12/13/40 />
+			<unit art.reg=219 start=12/13/40 />
+			<unit at.bn=219 />
+			<unit eng.bn=219 />
+		</unit>
+		<unit *vg.div=183 start=9/15/44 >
+			<unit vg.reg=330 />
+			<unit vg.reg=343 />
+			<unit vg.reg=351 />
+			<unit art.reg=219 />
+			<unit at.bn=219 />
+			<unit eng.bn=219 />
+		</unit>
+		<unit div=187 start=11/9/39 end=10/1/42 />
+		<unit res.div=187 start=10/1/42 end=12/22/43 note="converted to 42nd Jager Div" />
+		<unit div=188 start=11/5/39 end=10/8/43 />
+		<unit res.mtn.div=188 start=10/8/43 end=3/1/45 />
+		<unit res.div=189 start=12/6/42 end=10/8/44 />
+		<unit *inf.div=189 start=10/8/44 >
+			<unit vg.reg=1212 />
+			<unit vg.reg=1213 />
+			<unit vg.reg=1214 />
+			<unit fus.bn=1089 />
+			<unit art.reg=1089 />
+			<unit at.bn=1089 />
+			<unit eng.bn=1089 />
+		</unit>
+		<unit div=190 start=6/10/40 end=11/4/44 />
+		<unit *inf.div=190 start=11/4/44 >
+			<unit vg.reg=1224 />
+			<unit vg.reg=1225 />
+			<unit vg.reg=1226 />
+			<unit fus.bn=190 />
+			<unit art.reg=890 />
+			<unit at.bn=190 />
+			<unit eng.bn=1190 />
+		</unit>
+		<unit div=191 start=12/1/39 end=10/1/42 />
+		<unit res.div=191 start=10/1/42 end=2/1/44 note="reorg'ed to 49 inf div" />
+		<unit div=192 start=6/6/40 />
+		<unit div=193 start=11/29/39 />
+		<unit *inf.div=196 start=11/27/39 end=9/15/44 >
+			<unit inf.reg=340 />
+			<unit inf.reg=345 end=11/1/40 />
+			<unit inf.reg=362 start=1/10/40 />
+			<unit sm.art.reg=233 />
+			<unit aufk.bn=233 end=4/1/44 />
+			<unit at.bn=233 />
+			<unit eng.bn=233 />
+		</unit>
+		<unit *inf.div=197 start=12/1/39 end=7/22/44 >
+			<unit inf.reg=321 />
+			<unit inf.reg=332 />
+			<unit inf.reg=347 start=1/8/40 />
+			<unit divs.bn=229 start=5/1/43 end=9/1/43 />
+			<unit fus.bn=229 start=9/1/43 />
+			<unit sm.art.reg=229 />
+			<unit at.bn=229 />
+			<unit eng.bn=229 />
+		</unit>
+		<unit *inf.div=198 start=12/1/39 >
+			<unit inf.reg=305 end=9/11/43 />
+			<unit inf.reg=308 end=9/11/43 />
+			<unit inf.reg=326 start=1/17/40 end=9/11/43 />
+			<unit vg.reg=305 start=9/11/43 />
+			<unit vg.reg=308 start=9/11/43 />
+			<unit vg.reg=326 start=9/11/43 />
+			<unit sm.art.reg=235 />
+			<unit at.bn=235 />
+			<unit eng.bn=235 />
+		</unit>
+		<unit *inf.div=199 start=11/1/40 >
+			<unit inf.reg=341 end=6/1/42 />
+			<unit inf.reg=345 end=1/27/45 />
+			<unit inf.reg=357 end=1/27/45 />
+			<unit vg.reg=345 start=1/27/45 />
+			<unit vg.reg=357 start=1/27/45 />
+			<unit vg.reg=373 start=1/27/45 />
+			<unit fus.bn=199 start=1/30/44 />
+			<unit sm.art.reg=199 />
+			<unit at.bn=199 start=4/25/42 />
+			<unit eng.bn=199 />
+		</unit>
+		<unit sec.div=201 start=6/1/42 />
+		<unit sec.div=203 start=6/1/42 end=10/21/44 />
+		<unit inf.44.div=203 start=10/21/44 />
+		<unit wave3.inf.div=205 start=1/1/40 />
+		<unit wave3.inf.div=206 start=8/17/39 end=8/3/44 />
+		<unit wave3.inf.div=207 start=8/26/39 end=3/15/41 />
+		<unit sec.div=207 start=3/15/41 />
+		<unit wave3.inf.div=208 start=8/26/39 end=6/1/43 />
+		<unit inf.44.div=208 start=6/1/43 />
+		<unit wave3.inf.div=209 start=8/26/39 end=8/24/40 />
+		<unit stat.div=210 start=7/10/42 />
+		<unit wave3.inf.div=211 start=8/26/39 end=4/1/43 />
+		<unit inf.44.div=211 start=4/1/43 end=11/25/44 />
+		<unit vg.div=211 start=11/25/44 />
+		<unit wave3.inf.div=212 start=8/26/39 end=8/10/42 />
+		<unit inf.44.div=212 start=8/10/42 end=8/25/44 />
+		<unit vg.div=212 start=8/25/44 />
+		<unit wave3.inf.div=213 start=8/26/39 end=3/15/41 />
+		<unit sec.div=213 start=3/15/41 />
+		<unit wave3.inf.div=214 start=8/26/39 end=2/13/44 />
+		<unit inf.44.div=214 start=2/13/44 />
+		<unit wave3.inf.div=215 start=8/26/39 end=6/13/44 />
+		<unit inf.44.div=215 start=6/13/44 />
+		<unit wave3.inf.div=216 start=8/26/39 end=6/1/42 />
+		<unit inf.44.div=216 start=6/1/42 end=11/2/43 />
+		<unit wave3.inf.div=217 start=8/17/39 end=1/1/43 />
+		<unit inf.44.div=217 start=1/1/43 end=11/2/43 />
+		<unit wave3.inf.div=218 start=8/26/39 end=6/1/42 />
+		<unit inf.44.div=218 start=6/1/42 />
+		<unit inf.44.div=219 start=3/22/45 />
+		<unit wave3.inf.div=221 start=8/26/39 end=3/15/41 />
+		<unit sec.div=221 start=3/15/41 />
+		<unit wave3.inf.div=223 end=10/26/43 end=6/9/42 />
+		<unit inf.44.div=223 start=6/9/42 end=11/2/43 />
+		<unit wave3.inf.div=225 start=8/26/39 end=7/1/42 />
+		<unit inf.44.div=225 start=7/1/42 />
+		<unit inf.44.div=226 start=6/26/44 />
+		<unit wave3.inf.div=227 start=8/26/39 end=4/1/42 />
+		<unit inf.44.div=227 start=4/1/42 />
+		<unit wave3.inf.div=228 start=8/16/39 end=8/1/40 />
+		<unit stat.div=230 start=4/15/42 />
+		<unit wave3.inf.div=231 start=8/26/39 end=7/31/40 />
+		<unit inf.44.div=232 start=6/26/44 />
+		<unit res.mot.div=233 start=5/15/42 end=7/7/42 />
+		<unit res.div=233 start=7/7/42 end=4/5/43 name="233rd Panzer Grenadier" />
+		<unit res.pz.div=233 start=4/5/43 end=4/1/45 />
+		<unit inf.44.div=237 start=6/26/44 />
+		<unit wave3.inf.div=239 start=8/26/39 end=3/26/42 />
+		<unit inf.div=242 start=7/9/43 end=10/7/44 />
+		<unit inf.div=243 start=7/9/43 end=9/12/44 />
+		<unit inf.div=244 start=9/8/43 end=10/7/44 />
+		<unit inf.div=245 start=9/8/43  />
+		<unit wave3.inf.div=246 start=8/26/39 end=8/3/44 />
+		<unit vg.div=246 start=9/15/44 />
+		<unit inf.44.div=249 start=3/22/45 />
+		<unit inf.div=250 name="250th Spanish Blue" colors=Spanish start=7/20/41 end=10/20/43 />
+		<unit inf.div=251 start=8/26/39 end=11/2/43 />
+		<unit inf.div=252 start=8/26/39 end=2/25/43 />
+		<unit inf.44.div=252 start=2/25/43 />
+		<unit inf.div=253 start=8/26/39 end=6/1/42 />
+		<unit inf.44.div=253 start=6/1/42 />
+		<unit inf.div=254 start=8/26/39 end=1/1/43 />
+		<unit inf.44.div=254 start=1/1/43 />
+		<unit *inf.div=255 start=8/26/39 end=11/2/43 >
+			<unit inf.reg=455 end=7/1/42 />
+			<unit inf.reg=465 />
+			<unit inf.reg=475 />
+			<unit art.reg=255 />
+			<unit divs.bn=255 start=4/1/43 end=6/16/43 />
+			<unit aufk.bn=255 start=6/16/43 />
+			<unit schnelle.bn=255 start=12/1/42 end=4/1/43 />
+			<unit at.bn=255 end=12/1/42 />
+			<unit at.bn=255 start=4/1/43 />
+			<unit eng.bn=255 />
+		</>
+		<unit inf.div=256 start=8/26/39 end=4/11/43 />
+		<unit inf.44.div=256 start=4/11/43 end=7/21/44 />
+		<unit vg.div=256 start=9/17/44 />
+		<unit inf.div=257 start=8/26/39 end=1/1/43 />
+		<unit inf.44.div=257 start=1/1/43 end=10/9/44 />
+		<unit vg.div=257 start=10/13/44 />
+		<unit inf.div=258 start=8/26/39 end=2/1/43 />
+		<unit inf.44.div=258 start=2/1/43 end=10/9/44 />
+		<unit inf.div=260 start=8/26/39 end=7/1/42 />
+		<unit inf.44.div=260 start=7/1/42 end=8/7/44 />
+		<unit inf.div=262 start=8/26/39 end=3/1/43 />
+		<unit inf.44.div=262 start=3/1/43 end=11/2/43 />
+		<unit inf.div=263 start=8/26/39 end=7/1/42 />
+		<unit inf.44.div=263 start=7/1/42 />
+		<unit inf.div=264 start=5/20/43 end=12/5/44 />
+		<unit inf.44.div=264 start=1/27/45 />
+		<unit inf.44.div=265 start=5/20/43 />
+		<unit inf.div=266 start=5/20/43 end=9/29/44 />
+		<unit inf.div=267 start=8/26/39 end=5/1/42 />
+		<unit inf.44.div=267 start=5/1/42 end=8/3/44 />
+		<unit inf.div=268 start=8/26/39 end=5/1/42 />
+		<unit inf.44.div=268 start=5/1/42 end=11/2/43 />
+		<unit inf.div=269 start=8/26/39 end=12/2/42 />
+		<unit inf.44.div=269 start=12/2/42 />
+		<unit stat.div=270 start=4/21/42 />
+		<unit inf.44.div=271 start=11/17/43 end=9/1/44 />
+		<unit vg.div=271 start=9/17/44 />
+		<unit inf.44.div=272 start=11/17/43 end=9/1/44 />
+		<unit vg.div=272 start=9/17/44 />
+		<unit sm.inf.div=274 start=5/26/43 />
+		<unit inf.44.div=275 start=11/17/43 />
+		<unit inf.44.div=276 start=11/17/43 end=9/1/44 />
+		<unit vg.div=276 start=9/4/44 />
+		<unit inf.44.div=277 start=11/17/43 end=9/1/44 />
+		<unit vg.div=277 start=9/4/44 />
+		<unit inf.44.div=278 start=11/17/43 />
+		<unit stat.div=280 start=4/22/42 />
+		<unit sec.div=281 start=3/15/41 end=1/1/45 />
+		<unit inf.44.div=281 start=1/1/45 />
+		<unit inf.div=282 start=3/1/43 end=1/1/44 />
+		<unit inf.44.div=282 start=1/1/44 end=10/9/44 />
+		<unit sec.div=285 start=3/15/41 end=11/9/44 />
+		<unit inf.44.div=286 start=12/17/44 />
+		<unit sec.div=286 start=3/15/41 end=12/17/44 />
+		<unit inf.div=290 start=5/10/40 end=1/1/43 />
+		<unit inf.44.div=290 start=1/1/43 />
+		<unit inf.div=291 start=2/10/40 end=1/1/43 />
+		<unit inf.44.div=291 start=1/1/43 />
+		<unit inf.div=292 start=2/10/40 end=10/31/41 />
+		<unit inf.44.div=292 start=10/31/41 />
+		<unit inf.div=293 start=2/8/40 end=3/15/43 />
+		<unit inf.44.div=293 start=3/15/43 end=11/2/43 />
+		<unit inf.div=294 start=2/6/40 end=1/16/42 />
+		<unit inf.44.div=294 start=1/16/42 end=10/9/44 />
+		<unit inf.div=295 start=2/10/40 end=2/12/43 />
+		<unit sm.inf.div=295 start=2/12/43  />
+		<unit inf.div=296 start=2/5/40 end=6/1/43 />
+		<unit inf.44.div=296 start=6/1/43 end=8/3/44 />
+		<unit inf.div=297 start=1/31/40 end=2/17/43 />
+		<unit inf.44.div=297 start=4/7/43 />
+		<unit inf.div=298 start=2/6/40 end=6/1/42 />
+		<unit inf.44.div=298 start=6/1/42 />
+		<unit inf.div=299 start=2/9/40 end=5/22/43 />
+		<unit inf.44.div=299 start=5/22/43 />
+		<unit inf.div=302 start=11/12/40 end=12/1/43 />
+		<unit inf.44.div=302 start=12/1/43 />
+		<unit inf.44.div=303 start=1/31/45 />
+		<unit inf.div=304 start=11/15/40 end=2/20/43 />
+		<unit inf.44.div=304 start=2/20/43 />
+		<unit inf.div=305 start=12/15/40 end=2/17/43 />
+		<unit inf.44.div=305 start=2/17/43 />
+		<unit inf.div=306 start=11/15/40 end=11/2/43 />
+		<unit inf.44.div=306 start=11/2/43 />
+		<unit inf.44.div=309 start=2/1/45 />
+		<unit res.div=311 start=11/1/39 end=8/7/40 />
+		<unit inf.div=319 start=11/15/40  />
+		<unit *inf.div=320 start=12/2/40 end=10/9/44 >
+			<unit inf.reg=585 end=9/16/43 />
+			<unit inf.reg=586 end=9/16/43 />
+			<unit inf.reg=587 end=9/16/43 />
+			<unit inf.44.reg=585 start=9/16/43 />
+			<unit inf.44.reg=586 start=9/16/43 />
+			<unit inf.44.reg=587 start=9/16/43 />
+			<unit *art.reg=320 >
+				<unit *art.bn=I/320 >
+					<unit art.co=1/I/320 />
+					<unit art.co=2/I/320 />
+					<unit art.co=3/I/320 start=7/25/1942 />
+				</>
+				<unit *art.bn=II/320 >
+					<unit art.co=4/II/320 />
+					<unit art.co=5/II/320 />
+					<unit art.co=6/II/320 start=7/25/1942 />
+				</>
+				<unit *art.bn=III/320 >
+					<unit art.co=7/III/320 />
+					<unit art.co=8/III/320 />
+					<unit art.co=9/III/320 start=7/25/1942 />
+				</>
+				<unit hvy.art.bn=IV/320 start=4/1/1943 >
+					<unit kan150.co=13/IV/320 />
+				</>
+			</>
+			<unit fus.bn=320 start=9/16/43 />
+			<unit schnelle.bn=320 start=10/26/42 end=9/16/43 />
+			<unit at.bn=320 end=10/26/42 />
+			<unit at.bn=320 start=9/16/43 />
+			<unit eng.bn=320 />
+		</>
+		<unit *vg.div=320 start=10/27/44 >
+			<unit vg.reg=585 />
+			<unit vg.reg=586 />
+			<unit vg.reg=587 />
+			<unit art.reg=320 />
+			<unit fus.co=320 />
+			<unit at.bn=320 />
+			<unit eng.bn=320 />
+		</>
+		<unit inf.div=321 start=12/16/40 end=11/2/43 />
+		<unit inf.div=323 start=11/15/40 end=11/2/43 />
+		<unit inf.44.div=324 start=3/4/45 />
+		<unit inf.44.div=325 start=3/9/45 />
+		<unit inf.div=326 start=11/9/42 end=5/10/43 />
+		<unit stat.div=326 start=5/10/43 end=9/4/44 />
+		<unit vg.div=326 start=9/4/44 />
+		<unit inf.div=327 start=11/15/40 end=11/2/43 />
+		<unit inf.div=328 start=12/19/41 end=11/2/43 />
+		<unit inf.44.div=328 start=3/9/45 />
+		<unit inf.div=329 start=12/17/41 end=5/8/42 />
+		<unit inf.44.div=329 start=5/8/42 />
+		<unit inf.div=330 start=12/19/41 end=4/9/43 />
+		<unit sm.inf.div=330 start=4/9/43 end=11/2/43 />
+		<unit inf.div=331 start=12/15/41 end=3/17/43 />
+		<unit inf.44.div=331 start=3/17/43 />
+		<unit *inf.div=332 start=11/15/40 end=8/11/43 >
+			<unit inf.reg=676 />
+			<unit inf.reg=677 />
+			<unit inf.reg=678 />
+			<unit *art.reg=332 >
+				<unit *art.bn=I/332 >
+					<unit art.co=1/I/332 />
+					<unit art.co=2/I/332 />
+					<unit art.co=3/I/332 start=7/21/1942 />
+				</>
+				<unit *art.bn=II/332 >
+					<unit art.co=4/II/332 />
+					<unit art.co=5/II/332 />
+					<unit art.co=6/II/332 start=7/21/1942 />
+				</>
+				<unit *art.bn=III/332 >
+					<unit art.co=7/III/332 />
+					<unit art.co=8/III/332 />
+					<unit art.co=9/III/332 start=7/21/1942 />
+				</>
+				<unit hvy.art.bn=IV/332 start=11/1/1942 />
+			</>
+			<unit bike.bn=332 start=11/21/1942 end=4/24/1943 />
+			<unit aufk.bn=332 start=4/24/1943 />
+			<unit at.bn=332 />
+			<unit eng.bn=332 />
+		</>
+		<unit inf.div=333 start=11/15/40 end=11/2/43 />
+		<unit inf.div=334 start=11/25/42 end=11/30/43 />
+		<unit inf.44.div=334 start=11/30/43 />
+		<unit inf.div=335 start=11/20/40 end=11/1/43 />
+		<unit inf.44.div=335 start=11/1/43 />
+		<unit inf.div=336 start=12/15/40 end=11/1/43 />
+		<unit inf.44.div=336 start=11/1/43 />
+		<unit inf.div=337 start=11/16/40 end=11/2/43 />
+		<unit inf.44.div=337 start=11/2/43 end=8/7/44 />
+		<unit vg.div=337 start=9/15/44 />
+		<unit inf.44.div=338 start=11/9/42 />
+		<unit inf.div=339 start=12/15/40 end=7/1/42 />
+		<unit inf.44.div=339 start=7/1/42 end=11/2/43 />
+		<unit inf.div=340 start=11/16/40 end=11/2/43 />
+		<unit inf.44.div=340 start=11/2/43 end=8/13/44 />
+		<unit vg.div=340 start=9/15/44 />
+		<unit inf.div=342 start=11/19/40 end=11/2/43 />
+		<unit inf.44.div=342 start=11/2/43 />
+		<unit stat.div=343 start=10/1/42 end=10/14/44 />
+		<unit stat.div=344 start=9/25/42 end=11/3/44 />
+		<unit sm.inf.div=344 start=11/5/44 />
+		<unit stat.div=346 start=9/21/42 end=11/1/44 />
+		<unit inf.44.div=346 start=12/1/44 />
+		<unit stat.div=347 start=10/3/42 end=10/21/44 />
+		<unit inf.44.div=347 start=10/21/44 />
+		<unit stat.div=348 start=10/3/42 end=9/29/44 />
+		<unit inf.44.div=349 start=11/25/43 end=8/5/44 />
+		<unit vg.div=349 start=9/11/44 />
+		<unit inf.div=352 start=11/5/43 end=11/5/43 end=8/31/44 />
+		<unit vg.div=352 start=9/21/44 />
+		<unit inf.44.div=353 start=11/5/43 />
+		<unit inf.44.div=355 start=5/1/43 end=1/21/44 />
+		<unit inf.div=356 start=5/1/43 end=11/8/43 />
+		<unit inf.44.div=356 start=11/8/43 />
+		<unit inf.44.div=357 start=11/11/43 />
+		<unit inf.44.div=359 start=11/11/43 />
+		<unit inf.44.div=361 start=11/26/43 end=8/5/44 />
+		<unit vg.div=361 start=9/21/44 />
+		<unit inf.44.div=362 start=11/15/43 />
+		<unit inf.44.div=363 start=12/28/43 end=9/17/44 />
+		<unit vg.div=363 start=9/17/44 />
+		<unit inf.44.div=367 start=11/15/43 />
+		<unit sm.inf.div=369 start=8/21/42 name="369th (Kroat.) Infantry" />
+		<unit inf.div=370 start=2/17/42 end=12/1/43 />
+		<unit inf.44.div=370 start=12/1/43 />
+		<unit inf.div=371 start=2/17/42 end=2/17/43 />
+		<unit inf.div=371 start=2/17/43 />
+		<unit sm.inf.div=373 start=1/6/43 name="373rd (Kroat.) Infantry" />
+		<unit inf.div=376 start=3/21/42 end=11/25/43 />
+		<unit inf.44.div=376 start=11/25/43 end=10/9/44  />
+		<unit inf.div=377 start=3/21/42 end=2/25/43 />
+		<unit inf.div=381 start=9/8/42 end=2/26/43 />
+		<unit inf.div=382 start=9/9/42 end=2/25/43 />
+		<unit inf.div=383 start=1/26/42 end=9/30/43 />
+		<unit inf.44.div=383 start=9/30/43 end=8/3/44  />
+		<unit inf.div=384 start=1/10/42 end=8/21/43 />
+		<unit inf.44.div=384 start=8/21/43 end=10/9/44  />
+		<unit inf.div=385 start=1/10/42 end=3/30/43 />
+		<unit inf.div=387 start=2/1/42 end=3/13/44/>
+		<unit trn.div=388 start=9/9/42 end=5/19/44 />
+		<unit inf.div=389 start=1/27/42 end=7/1/44/>
+		<unit inf.44.div=389 start=7/1/44  />
+		<unit trn.div=390 start=9/4/42 end=7/18/44 />
+		<unit sec.div=390 start=7/18/44 />
+		<unit trn.div=391 start=8/31/42 end=3/23/44 />
+		<unit sec.div=391 start=3/23/44 />
+		<unit sm.inf.div=392 start=8/17/43 name="392nd (Kroat.) Infantry" />
+		<unit trn.div=401 start=9/25/42 />
+		<unit sec.div=403 start=3/15/41 end=5/31/43 />
+		<unit sm.inf.div=416 start=12/20/41 end=10/4/44 />
+		<unit inf.44.div=416 start=10/4/44 />
+		<unit sec.div=444 start=3/15/41 end=11/5/44 note="empty after 5/31/43" />
+		<unit sec.div=454 start=3/19/40 end=8/5/44 />
+		<unit trn.div=462 start=10/15/42 end=10/19/44 />
+		<unit inf.44.div=462 start=10/19/44 end=11/30/44 />
+		<unit trn.div=464 start=9/23/42 />
+		<unit div=465 start=9/29/42 />
+		<unit div=467 start=10/1/42 />
+		<unit div=471 start=9/28/42 />
+		<unit div=476 start=10/1/44 />
+		<unit div=480 start=11/1/44 />
+		<unit div=487 start=10/1/42 />
+		<unit div=490 start=11/1/44 />
+		<unit div=526 start=9/28/42 end=9/1/44 />
+		<unit res.div=526 start=9/1/44 />
+		<unit inf.44.div=541 start=7/7/44 end=10/9/44 />
+		<unit vg.div=541 start=10/9/44 />
+		<unit inf.44.div=542 start=7/8/44 end=10/9/44 />
+		<unit vg.div=542 start=10/9/44 />
+		<unit inf.44.div=544 start=7/10/44 end=10/9/44 />
+		<unit vg.div=544 start=10/9/44 />
+		<unit inf.44.div=545 start=7/10/44 end=10/9/44 />
+		<unit vg.div=545 start=10/9/44 />
+		<unit inf.44.div=547 start=7/11/44 end=10/9/44 />
+		<unit vg.div=547 start=10/9/44 />
+		<unit inf.44.div=548 start=7/11/44 end=10/9/44 />
+		<unit vg.div=548 start=10/9/44 />
+		<unit inf.44.div=549 start=7/11/44 end=10/9/44 />
+		<unit vg.div=549 start=10/9/44 />
+		<unit inf.44.div=551 start=7/11/44 end=10/9/44 />
+		<unit vg.div=551 start=10/9/44 />
+		<unit inf.44.div=553 start=7/11/44 end=10/9/44 />
+		<unit vg.div=553 start=10/9/44 />
+		<unit stat.div=554 start=2/15/40 end=8/13/40 />
+		<unit stat.div=555 start=2/15/40 end=8/31/40 />
+		<unit stat.div=556 start=2/11/40 end=8/13/40 />
+		<unit stat.div=557 start=2/15/40 end=8/31/40 />
+		<unit inf.44.div=558 start=7/11/44 end=10/9/44 />
+		<unit vg.div=558 start=10/9/44 />
+		<unit inf.44.div=559 start=7/11/44 end=10/9/44 />
+		<unit vg.div=559 start=10/9/44 />
+		<unit inf.44.div=560 start=8/1/44 end=10/9/44 />
+		<unit vg.div=560 start=10/9/44 />
+		<unit inf.44.div=561 start=7/27/44 end=10/9/44 />
+		<unit vg.div=561 start=10/9/44 />
+		<unit inf.44.div=562 start=7/27/44 end=10/9/44 />
+		<unit vg.div=562 start=10/9/44 />
+		<unit inf.44.div=563 start=8/17/44 end=10/9/44 />
+		<unit vg.div=563 start=10/9/44 />
+		<unit inf.44.div=600 start=12/1/44 name="600th (Russ.) Infantry" />
+		<unit stat.div=702 start=4/16/41 />
+		<unit sm.inf.div=704 start=4/15/41 end=4/1/43 />
+		<unit stat.div=707 start=5/2/41 />
+		<unit stat.div=708 start=5/2/41 end=8/25/44 />
+		<unit vg.div=708 start=8/25/44 end=2/3/45 />
+		<unit stat.div=709 start=5/2/41 end=7/26/44 />
+		<unit stat.div=710 start=5/2/41 />
+		<unit stat.div=711 start=5/1/41 />
+		<unit stat.div=712 start=5/5/41 />
+		<unit stat.div=713 start=5/2/41 end=1/15/42 />
+		<unit stat.div=714 start=5/1/41 end=2/15/43 />
+		<unit stat.div=715 start=5/8/41 />
+		<unit stat.div=716 start=5/2/41 end=11/1/44 />
+		<unit inf.44.div=716 start=11/1/44 />
+		<unit stat.div=717 start=4/11/41 end=2/15/43 />
+		<unit stat.div=718 start=4/30/41 end=2/15/43 />
+		<unit stat.div=719 start=5/3/41 />
+		<unit *pg.div=feldherrnhalle uid=feldherrnhalle start=6/23/43 end=11/27/44 >
+			<unit lt.pz.bn=FH />
+			<unit pg.reg=gFH name="FH Grenadier" />
+			<unit pg.reg=fFH name="FH Fusilier" />
+			<unit mot.art.reg=FH/>
+			<unit pz.aufk.bn=FH />
+			<unit mot.at.bn=FH/>
+			<unit h.flak.bn=282 end=7/17/43 />
+			<unit h.flak.bn=FH start=7/17/43 />
+			<unit mot.eng.bn=FH/>
+		</unit>
+		<unit uid=14LW *inf.div="14th Landwehr" end=1/1/40 note="upgraded to inf div 205">
+			<unit inf.reg="33rd Landwehr" />
+			<unit inf.reg="40th Landwehr" />
+			<unit inf.reg="59th Landwehr" />
+			<unit inf.reg="182nd Landwehr" />
+			<unit art.bn="14th Landwehr"/>
+		</unit>
+		<unit *ski.div=1 start=6/2/44 >
+			<unit ski3.reg=1 />
+			<unit ski3.reg=2 />
+			<unit ski.hvy.bn=1 />
+			<unit sm.art.reg=152 >
+				<unit rocket.bn=18 />
+			</unit>
+			<unit fus.bn=1 />
+			<unit at.bn=152 />
+			<unit eng.bn=85 />
+		</unit>
+		<unit *mtn.div=1 start=4/9/38>
+			<unit mtn.reg=98 />
+			<unit mtn.reg=99 />
+			<unit mtn.reg=100 end=11/3/40 />
+			<unit mtn.art.reg=79 />
+			<unit inf.recce.bn=54 />
+			<unit at.bn=44 />
+			<unit eng.bn=54 />
+		</unit>
+		<unit *mtn.div=2 start=4/1/38>
+			<unit mtn.reg=136 />
+			<unit mtn.reg=137 />
+			<unit mtn.art.reg=111 />
+			<unit inf.recce.bn=111 />
+			<unit at.bn=47 end=6/1/40 />
+			<unit at.bn=55 start=6/1/40 />
+			<unit eng.bn=82 />
+		</unit>
+		<unit *mtn.div=3 start=4/1/38>
+			<unit mtn.reg=138 />
+			<unit mtn.reg=139 end=1/14/42 />
+			<unit mtn.reg=144 start=3/2/42 />
+			<unit mtn.art.reg=112 />
+			<unit bike.bn=68 start=11/10/40 end=1/14/42 />
+			<unit bike.bn=95 start=1/14/42 />
+			<unit inf.recce.bn=112 />
+			<unit at.bn=48 end=1/14/42 />
+			<unit at.bn=95 start=1/14/42 />
+			<unit eng.bn=83 />
+		</unit>
+		<unit *mtn.div=4 start=10/23/40 >
+			<unit mtn.reg=13 />
+			<unit mtn.reg=91 />
+			<unit mtn.art.reg=94 />
+			<unit inf.recce.bn=94  />
+			<unit at.bn=94 />
+			<unit eng.bn=94 />
+		</unit>
+		<unit *mtn.div=5 start=10/25/40 >
+			<unit mtn.reg=85 />
+			<unit mtn.reg=100 start=11/3/40 />
+			<unit mtn.art.reg=95 />
+			<unit inf.recce.bn=95  end=1/14/42 />
+			<unit at.bn=95 end=1/14/42/>
+			<unit at.bn=85 start=1/27/44 />
+			<unit schnelle.bn=95 start=3/15/43 />
+			<unit inf.recce.bn=85 start=1/27/44 />
+			<unit eng.bn=95 />
+		</unit>
+		<unit *mtn.div=6 start=6/1/40 >
+			<unit mtn.reg=141 />
+			<unit mtn.reg=143 />
+			<unit mtn.art.reg=118 />
+			<unit inf.recce.bn=112 />
+			<unit at.bn=47 />
+			<unit eng.bn=91 />
+		</unit>
+		<unit *mtn.div=7 start=11/15/41 >
+			<unit mtn.reg=206 />
+			<unit mtn.reg=218 />
+			<unit mtn.art.reg=82 />
+			<unit inf.recce.bn=99 />
+			<unit at.bn=99 />
+			<unit eng.bn=99 />
+		</unit>
+		<unit *mtn.div=8 start=3/1/45 >
+			<unit mtn.reg=296 />
+			<unit mtn.reg=297 />
+			<unit mtn.art.reg=1057 />
+			<unit inf.recce.bn=1057 />
+			<unit at.bn=157 />
+			<unit eng.bn=1057 />
+		</unit>
+		<unit *mtn.div=157 start=10/1/44 end=3/1/45 >
+			<unit mtn.reg=296 />
+			<unit mtn.reg=297 />
+			<unit mtn.art.reg=1057 />
+			<unit inf.recce.bn=1057 />
+			<unit at.bn=1057 />
+			<unit eng.bn=1057 />
+		</unit>
+		<unit *mtn.div=188 start=3/1/45 >
+			<unit mtn.reg=901 />
+			<unit mtn.reg=902 />
+			<unit mtn.reg=903 />
+			<unit mtn.reg=904 />
+			<unit mtn.art.reg=1088 />
+			<unit eng.bn=1088 />
+		</unit>
+		<unit *wlw.div=1 start=11/1/43 >
+			<unit uid=1jr name="1st Jaeger" badge=jgr size="I I I">
+				<unit jgr.bn=I/1 />
+				<unit jgr.bn=II/1 />
+				<unit jgr.bn=III/1 />
+				<unit jgr.bn=IV/1 />
+			</unit>
+			<unit art.reg="1 (L)" />
+			<unit at.bn="1 (L)" />
+			<unit h.flak.bn="1 (L)"/>
+			<unit eng.co="1 (L)" />
+		</unit>
+		<unit *wlw.div=4 start=11/1/43 >
+			<unit inf.44.reg="49 (L)"/>
+			<unit inf.44.reg="50 (L)"/>
+			<unit inf.44.reg="51 (L)"/>
+			<unit fus.bn="4 (L)"/>
+			<unit art.reg="4 (L)"/>
+			<unit schnelle.bn="4 (L)" />
+			<unit eng.bn="4 (L)" />
+		</unit>
+		<unit *wlw.div=5 start=11/1/43 >
+			<unit jgr.reg="9 (L)"/>
+			<unit art.bn="5 (L)"/>
+			<unit at.bn="5 (L)" />
+			<unit eng.bn="5 (L)" />
+		</unit>
+		<unit *wlw.div=6 start=11/1/43 >
+			<unit jgr.reg="52 (L)"/>
+			<unit jgr.reg="53 (L)"/>
+			<unit jgr.reg="54 (L)"/>
+			<unit fus.bn="6 (L)"/>
+			<unit art.reg="6 (L)"/>
+			<unit at.bn="6 (L)" />
+			<unit eng.bn="6 (L)" />
+		</unit>
+		<unit *wlw.div=9 start=11/1/43 end=3/1/44 >
+			<unit jgr.reg="17 (L)"/>
+			<unit jgr.reg="18 (L)"/>
+			<unit fus.bn="9 (L)"/>
+			<unit art.reg="9 (L)"/>
+			<unit at.bn="9 (L)" />
+			<unit eng.bn="9 (L)" />
+		</unit>
+		<unit *wlw.div=10 start=11/1/43 end=2/3/44 >
+			<unit jgr.reg="19 (L)"/>
+			<unit jgr.reg="20 (L)"/>
+			<unit fus.bn="10 (L)"/>
+			<unit art.reg="10 (L)"/>
+			<unit at.bn="10 (L)" />
+			<unit eng.bn="10 (L)" />
+		</unit>
+		<unit *wlw.div=11 start=11/1/43 >
+			<unit jgr.reg="21 (L)"/>
+			<unit jgr.reg="22 (L)"/>
+			<unit *jgr.reg="111 (L)" start=4/1/45 />
+			<unit fus.bn="11 (L)"/>
+			<unit art.reg="11 (L)"/>
+			<unit at.bn="11 (L)" />
+			<unit eng.bn="11 (L)" />
+		</unit>
+		<unit *wlw.div=12 start=11/1/43 >
+			<unit jgr.reg="23 (L)"/>
+			<unit jgr.reg="24 (L)"/>
+			<unit *jgr.reg="25 (L)" start=4/1/44 />
+			<unit fus.bn="12 (L)"/>
+			<unit art.reg="12 (L)"/>
+			<unit at.bn="12 (L)" />
+			<unit eng.bn="12 (L)" />
+		</unit>
+		<unit *wlw.div=13 start=11/1/43 end=4/1/44>
+			<unit jgr.reg="25 (L)"/>
+			<unit jgr.reg="26 (L)"/>
+			<unit art.reg="13 (L)"/>
+			<unit at.bn="13 (L)" />
+			<unit eng.bn="13 (L)" />
+		</unit>
+		<unit *wlw.div=14 start=11/1/43 >
+			<unit jgr.reg="27 (L)"/>
+			<unit jgr.reg="28 (L)"/>
+			<unit fus.bn="14 (L)"/>
+			<unit *art.reg="14 (L)">
+				<unit art.bn=I/14 />
+				<unit art.bn=II/14 />
+			</unit>
+			<unit at.bn="14 (L)" />
+			<unit eng.bn="14 (L)" />
+		</unit>
+		<unit *wlw.div=16 start=11/1/43 end=8/4/44>
+			<unit jgr.reg="31 (L)"/>
+			<unit jgr.reg="32 (L)"/>
+			<unit jgr.reg="46 (L)"/>
+			<unit fus.bn="16 (L)"/>
+			<unit *art.reg="16 (L)">
+				<unit art.bn=I/16 />
+				<unit art.bn=II/16 />
+				<unit art.bn=III/16 end=6/1/44 />
+			</unit>
+			<unit at.bn="16 (L)" />
+			<unit eng.bn="16 (L)" />
+		</unit>
+		<unit *wlw.div=17 start=11/1/43 end=9/28/44>
+			<unit jgr.reg="33 (L)"/>
+			<unit jgr.reg="34 (L)"/>
+			<unit jgr.reg="47 (L)"/>
+			<unit fus.bn="17 (L)"/>
+			<unit *art.reg="17 (L)">
+				<unit art.bn="I/17 (L)" />
+				<unit art.bn="II/17 (L)" />
+				<unit art.bn="III/17 (L)" start=5/1/44 />
+			</unit>
+			<unit at.bn="17 (L)" />
+			<unit eng.bn="17 (L)" />
+		</unit>
+		<unit *wlw.div=18 start=11/1/43 end=9/2/44>
+			<unit jgr.reg="35 (L)"/>
+			<unit jgr.reg="36 (L)"/>
+			<unit jgr.reg="48 (L)"/>
+			<unit fus.bn="18 (L)"/>
+			<unit *art.reg="18 (L)">
+				<unit art.bn=I/18 />
+				<unit art.bn=II/18 />
+			</unit>
+			<unit at.bn="18 (L)" />
+			<unit eng.bn="18 (L)" />
+		</unit>
+		<unit *wlw.div=19 start=11/1/43 end=8/8/44>
+			<unit jgr.reg="37 (L)"/>
+			<unit jgr.reg="38 (L)"/>
+			<unit jgr.reg="45 (L)" />
+			<unit fus.bn="19 (L)"/>
+			<unit sm.art.reg="19 (L)"/>
+			<unit at.bn="19 (L)" />
+			<unit eng.bn="19 (L)" />
+		</unit>
+		<unit *wlw.div=20 start=11/1/43 end=11/28/44>
+			<unit jgr.reg="39 (L)"/>
+			<unit jgr.reg="40 (L)"/>
+			<unit fus.bn="20 (L)" start=6/1/44 />
+			<unit sm.art.reg="20 (L)"/>
+			<unit at.bn="20 (L)" />
+			<unit eng.bn="20 (L)" />
+		</unit>
+		<unit *wlw.div=21 start=11/1/43 >
+			<unit jgr.reg="41 (L)"/>
+			<unit jgr.reg="42 (L)"/>
+			<unit jgr.reg="43 (L)"/>
+			<unit fus.bn="21 (L)" />
+			<unit art.reg="21 (L)"/>
+			<unit at.bn="21 (L)" />
+			<unit eng.bn="21 (L)" />
+		</unit>
+		<unit *cav.div=1 start=10/25/39 end=11/28/41 >
+			<unit reiter.reg=1 />
+			<unit reiter.reg=2/>
+			<unit reiter.reg=22 />
+			<unit cav.reg=21 />
+			<unit bike.bn=1 />
+			<unit cav.art.reg=1 />
+			<unit at.bn=40 />
+			<unit eng.bn=40 />
+		</unit>
+		<unit *cav.div=3 start=2/1/45 >
+			<unit reiter.reg=31 />
+			<unit reiter.reg=32 />
+			<unit cav.bn=Cossack colors=Cossack />
+			<unit art.reg=869 />
+			<unit mot.at.bn=69 />
+			<unit mot.inf.recce.bn=69 />
+			<unit mot.eng.bn=69 />
+		</unit>
+		<unit *cav.div=4 start=2/1/45 >
+			<unit reiter.reg=5  />
+			<unit reiter.reg=41 />
+			<unit art.reg=870 />
+			<unit mot.at.bn=70 />
+			<unit mot.inf.recce.bn=70 />
+			<unit mot.eng.bn=70 />
+		</unit>
+		<unit uid=1cos name="1st Cossack" badge=cav size=XX colors=Cossack start=8/4/43 end=12/1/44 >
+			<unit div.hq=1/>
+			<unit uid=1cosb name="1st Cossack Don" badge=cav size=X>
+				<unit uid=1cosr cossack.reg=1 />
+				<unit uid=2cosr cossack.reg=2 />
+				<unit uid=3cosr cossack.reg=3 />
+				<unit uid=adon art.bn=Don end=11/1/44 />
+			</unit>
+			<unit uid=2cosb name="2nd Cossack Caucasus" badge=cav size=X>
+				<unit uid=4cosr cossack.reg=4 />
+				<unit uid=5cosr cossack.reg=5 />
+				<unit uid=6cosr cossack.reg=6 />
+				<unit uid=acau art.bn=Kuban end=11/1/44 />
+			</unit>
+			<unit *art.reg=55 start=11/1/44>
+				<unit art.bn=I/55 />
+				<unit art.bn=II/55 />
+			</> 
+			<unit aufk.bn=55 />
+			<unit eng.bn=55 />
+		</unit>
+		<unit uid=18a name="18th Artillery" badge=art size=XX start=10/1/43 end=4/15/44 >
+			<unit div.hq=18 />
+			<unit rifle.bn=18 />
+			<unit stug.co=741 />
+			<unit *mot.art.reg=88 >
+				<unit sp.art.bn=I/88 />
+				<unit mot.art.bn=II/88 />
+				<unit hvy.art1.bn=III/88 />
+			</unit>
+			<unit *mot.art.reg=288 >
+				<unit mot.art.bn=I/288 />
+				<unit hvy.art1.bn=II/288 />
+				<unit kan170.bn=III/288 />
+			</unit>
+			<unit *mot.art.reg=388 >
+				<unit mot.art.bn=I/388 />
+				<unit hvy.art1.bn=II/388 />
+				<unit kan210.bn=III/388 />
+			</unit>
+			<unit h.flak.bn=280 />
+		</unit>
+		<unit *ind.pz.bg=101 start=7/21/44 end=10/1/44 >
+			<unit med.pz.bn=2101 />
+			<unit pg.bn=2101 />
+			<unit arm.eng.co=2101 />
+		</unit>
+		<unit *ind.pz.bg=102 start=7/20/44 end=11/27/44 >
+			<unit med.pz.bn=2102 />
+			<unit pg.bn=2102 />
+			<unit arm.eng.co=2102 />
+		</unit>
+		<unit *ind.pz.bg=103 start=7/26/44 >
+			<unit med.pz.bn=2103 />
+			<unit pg.bn=2103 />
+			<unit arm.eng.co=2103 />
+		</unit>
+		<unit *ind.pz.bg=104 start=7/18/44 end=11/6/44 >
+			<unit med.pz.bn=2104 />
+			<unit pg.bn=2104 />
+			<unit arm.eng.co=2104 />
+		</unit>
+		<unit *ind.pz.bg=105 start=7/28/44 end=9/23/44 >
+			<unit med.pz.bn=2105 />
+			<unit pg.bn=2105 />
+			<unit arm.eng.co=2105 />
+		</unit>
+		<unit *ind.pz.bg=106 start=7/28/44 >
+			<unit med.pz.bn=2106 />
+			<unit pg.bn=2106 />
+			<unit arm.eng.co=2106 />
+		</unit>
+		<unit *ind.pz.bg=107 start=7/28/44 end=11/7/44 >
+			<unit med.pz.bn=2107 />
+			<unit pg.bn=2107 />
+			<unit arm.eng.co=2107 />
+		</unit>
+		<unit *ind.pz.bg=108 start=7/28/44 end=1/1/45 >
+			<unit med.pz.bn=2108 />
+			<unit pg.bn=2108 />
+			<unit arm.eng.co=2108 />
+		</unit>
+		<unit *ind.pz.bg=109 start=7/19/44 end=10/1/44 >
+			<unit med.pz.bn=2109 />
+			<unit pg.bn=2109 />
+			<unit arm.eng.co=2109 />
+		</unit>
+		<unit *ind.pz.bg=110 start=7/19/44 end=10/1/44 >
+			<unit med.pz.bn=2110 />
+			<unit pg.bn=2110 />
+			<unit arm.eng.co=2110 />
+		</unit>
+		<unit *ind.pz.bg=111 start=9/4/44 end=9/25/44 >
+			<unit med.pz.bn=2111 />
+			<unit pg.bn=2111 />
+			<unit arm.eng.co=2111 />
+		</unit>
+		<unit *ind.pz.bg=112 start=9/4/44 end=9/23/44 >
+			<unit med.pz.bn=2112 />
+			<unit pg.bn=2112 />
+			<unit arm.eng.co=2112 />
+		</unit>
+		<unit *ind.pz.bg=113 start=9/4/44 end=10/1/44 >
+			<unit med.pz.bn=2113 />
+			<unit pg.bn=2113 />
+			<unit stug.bn=2113 />
+			<unit pz.aufk.co=2113 />
+			<unit arm.eng.co=2113 />
+		</unit>
+		<unit *ski.bg=1 start=9/1/43 end=6/2/44 >
+			<unit ski.reg=1 />
+			<unit ski.reg=2 />
+			<unit ski.hvy.bn=1 />
+		</unit>
+		<unit *rifle.bg=11 start=12/1/39 end=8/1/40 >
+			<unit rifle.reg=110 />
+			<unit rifle.reg=111 />
+		</unit>
+		<unit *cav.bg=3 start=3/1/44 end=2/1/45 >
+			<unit cav.reg=Mitte abbreviation=M end=9/1/44 />
+			<unit reiter.reg=31 start=9/1/44 />
+			<unit reiter.reg=32 start=9/1/44 />
+			<unit cav.bn=Cossack colors=Cossack />
+			<unit cav.hvy.bn=3 end=9/1/44 />
+			<unit art.bn=Mitte abbreviation=M end=9/1/44 />
+			<unit art.reg=869 start=9/1/44 />
+			<unit stug.bn=177 end=6/10/44 />
+			<unit stug.bg=177 start=6/10/44 end=8/9/44 />
+			<unit mot.at.bn=69 start=8/9/44 />
+			<unit mot.inf.recce.bn=69 start=9/1/44 />
+			<unit mot.eng.bn=69 start=9/1/44 />
+		</unit>
+		<unit *cav.bg=4 start=5/29/44 end=2/1/45 >
+			<unit reiter.reg=5  />
+			<unit reiter.reg=41 />
+			<unit art.reg=870 />
+			<unit mot.at.bn=70 start=8/8/44/>
+			<unit mot.inf.recce.bn=70 />
+			<unit mot.eng.bn=70 />
+		</unit>
+		<unit uid=10rjx name="10th Bicycle Jaeger" badge=bike size=X start=1/1/45>
+			<unit bg.hq=10 />
+			<unit bike.bn=I/10 />
+			<unit bike.bn=II/10 />
+			<unit bike.bn=III/10 />
+		</unit>
+	</unit>
+	<unit name=Kriegsmarine colors=KrMar >
+		<unit *mar.div=1 start=2/1/45 >
+			<unit mar.reg=1 />
+			<unit mar.reg=2 />
+			<unit mar.reg=4 />
+			<unit fus.co=Fus end=4/1/45 />
+			<unit fus.bn=Fus start=4/1/45 />
+			<unit *km.art.reg=1 >
+				<unit uid=I/1kmar art.bn=I/1 />
+			</unit>
+			<unit uid=1kmatb at.bn=1 />
+			<unit uid=1kmeb eng.bn=1 start=4/1/45 />
+		</unit>
+		<unit *mar.div=2 start=3/1/45 >
+			<unit mar.reg=5 />
+			<unit mar.reg=6 />
+			<unit mar.reg=7 />
+			<unit fus.bn=Fus />
+			<unit km.art.reg=2 />
+			<unit uid=2kmatb at.bn=2 />
+			<unit uid=2kmeb eng.bn=2 start=4/1/45 />
+		</unit>
+		<unit *mar.div=3 start=4/1/45 >
+			<unit mar.reg=8 />
+			<unit mar.reg=9 />
+			<unit mar.reg=10 />
+			<unit fus.bn=Fus />
+			<unit km.art.reg=3 />
+			<unit uid=3kmatb at.bn=3 />
+			<unit uid=3keb eng.bn=3 />
+		</unit>
+	</unit>
+	<unit name=Luftwaffe colors=LW>
+		<unit uid=hg *pz.div=HG name="Hermann Goering Panzer" abbreviation=HG start=6/1/43 end=8/1/44 >
+			<unit *pz.reg=HG >
+				<unit med.pz.bn=I/HG />
+				<unit lt.pz.bn=II/HG />
+				<unit lt.pz.bn=III/HQ />
+			</unit>
+			<unit pz.pg.reg=1HG />
+			<unit pz.pg.reg=2HG />
+			<unit mot.art.reg=HG />
+			<unit pz.aufk.bn=HG />
+			<unit flak.reg=HG >
+				<unit sp.flak.bn=I/HG />
+				<unit flak.bn=II/HG />
+				<unit flak.bn=III/HG />
+			</>
+			<unit mot.eng.bn=HG />
+		</>
+		<unit *fall.div=1 start=5/1/43 >
+			<unit fall.reg=1 />
+			<unit fall.reg=3 />
+			<unit fall.reg=4 />
+			<unit *fs.art.reg=1  >
+				<unit fs.art.bn=I/1 />
+				<unit fs.art.bn=II/1 start=4/1/44 />
+				<unit fs.art.bn=III/1 />
+			</unit>
+			<unit mot.at.bn=1 />
+			<unit fs.flak.bn=1 />
+			<unit fs.eng.bn=1 />
+		</unit>
+		<unit *fall.div=2 start=2/1/43 >
+			<unit fall.reg=2 />
+			<unit fall.reg=6 end=2/1/44 />
+			<unit fall.reg=7 />
+			<unit fall.reg=21 start=12/1/44 />
+			<unit *fs.art.reg=2 >
+				<unit fs.art.bn=I/2 />
+				<unit fs.art.bn=II/2 start=12/1/44 />
+				<unit fs.art.bn=III/2 start=12/1/44/>
+			</unit>
+			<unit mot.at.bn=2 />
+			<unit fs.flak.bn=2 start=9/1/43 />
+			<unit mgun.bn=2 start=9/1/43 end=2/1/44 />
+			<unit fs.mort.bn=2 start=7/1/44 end=11/1/44 note="dates uncertain" />
+			<unit fs.eng.bn=2 />
+		</unit>
+		<unit *fall.div=3 start=2/1/44 >
+			<unit fall.reg=5 />
+			<unit fall.reg=8 />
+			<unit fall.reg=9 />
+			<unit fs.mort.bn=3 start=6/1/44 />
+			<unit *fs.art.reg=3  >
+				<unit fs.art.bn=I/3 />
+				<unit fs.art.bn=II/3 start=6/1/44 />
+				<unit fs.art.bn=III/3 start=6/1/44/>
+			</unit>
+			<unit mot.at.bn=3 />
+			<unit fs.eng.bn=3 />
+		</unit>
+		<unit *fall.div=4 start=2/1/44 >
+			<unit fall.reg=10 />
+			<unit fall.reg=11 />
+			<unit fall.reg=12 />
+			<unit fs.mort.bn=4 start=6/1/44 />
+			<unit *fs.art.reg=4  >
+				<unit fs.art.bn=I/4 />
+				<unit fs.art.bn=II/4 start=6/1/44 />
+				<unit fs.art.bn=III/4 start=6/1/44/>
+			</unit>
+			<unit mot.at.bn=4 />
+			<unit fs.flak.bn=4 />
+			<unit fs.eng.bn=4 />
+		</unit>
+		<unit *fall.div=5 start=3/2/44 >
+			<unit fall.reg=13 />
+			<unit fall.reg=14 />
+			<unit fall.reg=15 />
+			<unit fs.mort.bn=5 start=5/1/44 />
+			<unit *fs.art.reg=5  >
+				<unit fs.art.bn=I/5 />
+				<unit fs.art.bn=II/5 start=6/1/44 />
+				<unit fs.art.bn=III/5 start=6/1/44/>
+			</unit>
+			<unit mot.at.bn=5 />
+			<unit fs.flak.bn=5 />
+			<unit fs.eng.bn=5 />
+		</unit>
+		<unit *fall.div=6 start=6/1/44 >
+			<unit fall.reg=16 />
+			<unit fall.reg=17 />
+			<unit fall.reg=18 />
+			<unit fs.mort.bn=6 />
+			<unit *fs.art.reg=6  >
+				<unit fs.art.bn=I/6 />
+				<unit fs.art.bn=II/6 />
+				<unit fs.art.bn=III/6 />
+			</unit>
+			<unit mot.at.bn=6 />
+			<unit fs.flak.bn=6 />
+			<unit fs.eng.bn=6 />
+		</unit>
+		<unit *fall.div=7 start=10/9/44 >
+			<unit fall.reg=19 />
+			<unit fall.reg=20 />
+			<unit fall.reg=21 />
+			<unit fs.mort.bn=7 />
+			<unit *fs.art.reg=7 >
+				<unit fs.art.bn=I/7 />
+				<unit fs.art.bn=II/7 />
+				<unit fs.art.bn=III/7 />
+			</unit>
+			<unit mot.at.bn=7 />
+			<unit fs.flak.bn=7 />
+			<unit fs.eng.bn=7 />
+		</unit>
+		<unit *fall.div=8 start=10/25/44 >
+			<unit fall.reg=22 start=3/1/45 />
+			<unit fall.reg=24 start=4/1/45 />
+		</unit>
+		<unit *fall.div=9 start=12/1/44 >
+			<unit fall.reg=25 />
+			<unit fall.reg=26 />
+			<unit fall.reg=27 />
+			<unit mcycle.co=9 start=2/1/45 />
+			<unit fs.mort.bn=9 start=2/1/45 />
+			<unit *fs.art.reg=9 >
+				<unit fs.art.bn=I/9 />
+				<unit fs.art.bn=II/9 />
+				<unit fs.art.bn=III/9 />
+			</unit>
+			<unit mot.at.bn=9 />
+			<unit fs.flak.bn=9 />
+			<unit fs.eng.bn=9 />
+		</unit>
+		<unit *fall.div=10 start=3/1/45 >
+			<unit fall.reg=28 />
+			<unit fall.reg=29 />
+			<unit fall.reg=30 />
+			<unit *fs.art.reg=10 start=4/1/45 >
+				<unit fs.art.bn=I/10 />
+				<unit fs.art.bn=II/10 />
+				<unit fs.art.bn=III/10 />
+			</unit>
+			<unit mot.at.bn=10 start=4/1/45 />
+		</unit>
+		<unit *fall.div=11 start=3/1/45 >
+			<unit fall.reg=37 />
+			<unit fall.reg=38 />
+			<unit fall.reg=39 />
+			<unit *fs.art.reg=11  >
+				<unit fs.art.bn=I/11 />
+				<unit fs.art.bn=II/11 />
+				<unit fs.art.bn=III/11 />
+			</unit>
+			<unit mot.at.bn=11 />
+			<unit fs.eng.bn=11 />
+		</unit>
+		<unit *lw.div=1 start=11/1/42 end=11/1/43 >
+			<unit jgr.bn=I/1 />
+			<unit jgr.bn=II/1 />
+			<unit jgr.bn=III/1 />
+			<unit jgr.bn=IV/1 />
+			<unit art.bn=1 />
+			<unit bike.co=1 />
+			<unit lw.at.bn=1 />
+			<unit flak.bn=1 />
+			<unit eng.co=1 />
+		</unit>
+		<unit *lw.div=2 start=11/1/42 end=2/1/44 >
+			<unit jgr.bn=I/2 />
+			<unit jgr.bn=II/2 />
+			<unit jgr.bn=III/2 />
+			<unit jgr.bn=IV/2 />
+			<unit art.bn=2 />
+			<unit lw.at.bn=2 />
+			<unit flak.bn=2 />
+			<unit eng.co=2 />
+		</unit>
+		<unit *lw.div=3 start=11/1/42 end=1/22/44 >
+			<unit jgr.bn=I/3 />
+			<unit jgr.bn=II/3 />
+			<unit jgr.bn=III/3 />
+			<unit jgr.bn=IV/3 />
+			<unit art.bn=3 />
+			<unit lw.at.bn=3 />
+			<unit flak.bn=3 />
+			<unit eng.co=3 />
+		</unit>
+		<unit *lw.div=4 start=11/1/42 end=11/1/43 >
+			<unit jgr.bn=I/4 />
+			<unit jgr.bn=II/4 />
+			<unit jgr.bn=III/4 />
+			<unit jgr.bn=IV/4 />
+			<unit bike.co=4 />
+			<unit art.bn=4 />
+			<unit lw.at.bn=4 />
+			<unit flak.bn=4 />
+			<unit eng.co=4 />
+		</unit>
+		<unit *lw.div=5 start=10/1/42 end=11/1/43 >
+			<unit jgr.bn=I/5 />
+			<unit jgr.bn=II/5 />
+			<unit jgr.bn=III/5 />
+			<unit jgr.bn=IV/5 />
+			<unit art.bn=5 />
+			<unit lw.at.bn=5 />
+			<unit flak.bn=5 />
+			<unit eng.co=5 />
+		</unit>
+		<unit *lw.div=6 start=9/1/42 end=11/1/43 >
+			<unit jgr.bn=I/6 />
+			<unit jgr.bn=II/6 />
+			<unit jgr.bn=III/6 />
+			<unit jgr.bn=IV/6 />
+			<unit art.bn=6 />
+			<unit lw.at.bn=6 />
+			<unit flak.bn=6 />
+			<unit eng.co=6 />
+		</unit>
+		<unit *lw.div=7 start=9/1/42 end=12/12/43 >
+			<unit jgr.bn=I/7 />
+			<unit jgr.bn=II/7 />
+			<unit jgr.bn=III/7 />
+			<unit bike.co=7 />
+			<unit art.bn=7 />
+			<unit lw.at.bn=7 />
+			<unit flak.bn=7 />
+			<unit eng.co=7 />
+		</unit>
+		<unit *lw.div=8 start=10/29/42 end=12/12/43 >
+			<unit jgr.bn=I/8 />
+			<unit jgr.bn=II/8 />
+			<unit jgr.bn=III/8 />
+			<unit jgr.bn=IV/8 />
+			<unit art.bn=8 />
+			<unit lw.at.bn=8 />
+			<unit flak.bn=8 />
+			<unit eng.co=8 />
+		</unit>
+		<unit *lw.div=9 start=10/1/42 end=11/1/43 >
+			<unit jgr.reg=17 />
+			<unit jgr.reg=18 />
+			<unit lw.art.reg=9 />
+			<unit lw.at.bn=9 />
+			<unit eng.co=9 />
+		</unit>
+		<unit *lw.div=10 start=10/1/42 end=11/1/43 >
+			<unit jgr.reg=19 />
+			<unit jgr.reg=20 />
+			<unit lw.art.reg=10 />
+			<unit lw.at.bn=10 />
+			<unit eng.co=10 />
+		</unit>
+		<unit *lw.div=11 start=10/1/42 end=11/1/43 >
+			<unit jgr.reg=21 />
+			<unit jgr.reg=22 />
+			<unit lw.art.reg=11 />
+			<unit lw.at.bn=11 />
+			<unit eng.co=11 />
+		</unit>
+		<unit *lw.div=12 start=12/1/42 end=11/1/43 >
+			<unit jgr.reg=23 />
+			<unit jgr.reg=24 />
+			<unit lw.art.reg=12 />
+			<unit lw.at.bn=12 />
+			<unit bike.co=12 />
+			<unit lw.eng.bn=12 />
+		</unit>
+		<unit *lw.div=13 start=11/15/42 end=11/1/43 >
+			<unit jgr.reg=25 />
+			<unit jgr.reg=26 />
+			<unit lw.art.reg=13 />
+			<unit lw.at.bn=13 />
+			<unit bike.co=13 />
+			<unit lw.eng.bn=13 />
+		</unit>
+		<unit *lw.div=14 start=12/1/42 end=11/1/43 >
+			<unit jgr.reg=27 />
+			<unit jgr.reg=28 />
+			<unit lw.art.reg=14 />
+			<unit lw.at.bn=14 />
+			<unit bike.co=14 />
+			<unit lw.eng.bn=14 />
+		</unit>
+		<unit *lw.div=15 start=12/1/42 end=11/1/43 >
+			<unit jgr.reg=29 />
+			<unit jgr.reg=30 />
+			<unit lw.art.reg=15 />
+			<unit lw.at.bn=15 />
+			<unit bike.co=15 />
+			<unit lw.eng.bn=15 />
+		</unit>
+		<unit *lw.div=16 start=12/1/42 end=11/1/43 >
+			<unit jgr.reg=31 />
+			<unit jgr.reg=32 />
+			<unit lw.sm.art.reg=16 />
+			<unit lw.at.bn=16 />
+			<unit lw.eng.bn=16 />
+		</unit>
+		<unit *lw.div=17 start=12/1/42 end=11/1/43 >
+			<unit jgr.reg=33 />
+			<unit jgr.reg=34 />
+			<unit lw.sm.art.reg=17 />
+			<unit lw.at.bn=17 />
+			<unit recon.co=17 />
+			<unit lw.eng.bn=17 />
+		</unit>
+		<unit *lw.div=18 start=12/1/42 end=11/1/43 >
+			<unit jgr.reg=35 />
+			<unit jgr.reg=36 />
+			<unit lw.sm.art.reg=18 />
+			<unit lw.at.bn=18 />
+			<unit lw.eng.bn=18 />
+		</unit>
+		<unit *lw.div=19 start=3/1/43 end=11/1/43 >
+			<unit jgr.reg=37 />
+			<unit jgr.reg=38 />
+			<unit lw.art.reg=19 />
+			<unit lw.at.bn=19 />
+			<unit bike.co=19 />
+			<unit lw.eng.bn=19 />
+		</unit>
+		<unit *lw.div=20 start=3/8/43 end=11/1/43 >
+			<unit jgr.reg=39 />
+			<unit jgr.reg=40 />
+			<unit lw.art.reg=20 />
+			<unit lw.at.bn=20 />
+			<unit bike.co=20 />
+			<unit lw.eng.bn=20 />
+		</unit>
+		<unit *lw.div=21 start=12/12/42 end=11/1/43 >
+			<unit jgr.reg=41 />
+			<unit jgr.reg=42 />
+			<unit jgr.reg=43 start=2/1/43 />
+			<unit lw.art.reg=21 />
+			<unit lw.at.bn=21 />
+			<unit recon.co=21 />
+			<unit lw.eng.bn=21 />
+		</unit>
+	</unit>
+	<unit name="Waffen SS" colors=SS>
+		<unit uid=lah *ss.pg.div=LAH start=7/15/42 end=10/22/43 >
+			<unit ss.pz.reg=LAH />
+			<unit ss.mot.inf.reg=1 />
+			<unit ss.mot.inf.reg=2 />
+			<unit ss.art.reg=LAH />
+			<unit aufk.bn=LAH />
+			<unit mot.at.bn=LAH />
+			<unit pg.stug.bn=LAH />
+			<unit ss.flak.bn=LAH />
+			<unit mot.eng.bn=LAH />
+		</unit>
+		<unit uid=dr *ss.pg.div="Das Reich" abbreviation=DR start=9/11/42 end=10/22/43 >
+			<unit ss.pz.reg=2 />
+			<unit ss.mot.inf.reg=Deutschland abbreviation=D uid=Dssmr />
+			<unit ss.mot.inf.reg="Der Fuhrer" abbreviation=DF />
+			<unit ss.mot.inf.reg=Langemark abbreviation=L end=6/1/43 />
+			<unit ss.art.reg=DR />
+			<unit aufk.bn=DR />
+			<unit mot.at.bn=DR />
+			<unit pg.stug.bn=DR />
+			<unit ss.flak.bn=DR />
+			<unit mot.eng.bn=DR />
+		</unit>
+		<unit uid=tot *ss.pg.div=Totenkopf abbreviation=T start=11/9/42 end=10/22/43 >
+			<unit ss.pz.reg=3 />
+			<unit ss.pg.reg=1 />
+			<unit ss.pg.reg=3 />
+			<unit ss.art.reg=T />
+			<unit aufk.bn=T />
+			<unit mot.at.bn=T />
+			<unit pg.stug.bn=T />
+			<unit ss.flak.bn=T />
+			<unit mot.eng.bn=T />
+		</unit>
+		<unit uid=wik *ss.pg.div=Wiking abbreviation=W colors=freiSS start=11/9/42 end=10/22/43 >
+			<unit lt.pz.bn=W end=7/1/43 />
+			<unit ss.pz.reg=5 start=7/1/43 />
+			<unit ss.pg.reg=Germania />
+			<unit *ss.pg.reg=Nordland end=7/1/43 >
+				<unit ss.pg.bn=I/N />
+				<unit ss.pg.bn=II/N />
+				<unit flak.co=13 />
+				<unit mot.inf.art.co=14 />
+				<unit mot.at.co=15 />
+				<unit mcycle.co=16 />
+			</unit>
+			<unit ss.pg.reg=Westland />
+			<unit ss.pg.bn=Narva start=7/1/43 />
+			<unit ss.art.reg=5 />
+			<unit mcycle.bn=W />
+			<unit mot.at.bn=W />
+			<unit pg.stug.bn=W start=7/1/43 />
+			<unit ss.flak.bn=W colors=freiSS />
+			<unit mot.eng.bn=W />
+		</unit>
+		<unit uid=hohen *ss.pg.div=Hohenstauffen start=2/1/43 end=10/22/43 >
+			<unit ss.pz.reg=9 />
+			<unit ss.pg.reg=1H />
+			<unit ss.pg.reg=2H />
+			<unit ss.art.reg=Hohen />
+			<unit mcycle.bn=Hohen />
+			<unit mot.at.bn=Hohen />
+			<unit pg.stug.bn=Hohen />
+			<unit ss.flak.bn=Hohen />
+			<unit arm.eng.bn=Hohen />
+		</unit>
+		<unit uid=frund *ss.pg.div=Frundsberg start=2/1/43 end=10/22/43 >
+			<unit ss.pz.reg=10 />
+			<unit ss.pg.reg=1F />
+			<unit ss.pg.reg=2F />
+			<unit ss.art.reg=Frund />
+			<unit mcycle.bn=Frund />
+			<unit mot.at.bn=Frund />
+			<unit pg.stug.bn=Frund />
+			<unit ss.flak.bn=Frund />
+			<unit arm.eng.bn=Frund />
+		</unit>
+		<unit uid=nordland *ss.pg.div=Nordland colors=freiSS start=8/1/43 end=10/22/43 >
+			<unit lt.pz.bn=11 />
+			<unit ss.pg.reg=Norge />
+			<unit ss.pg.reg=Danmark />
+			<unit stug.bn=11 />
+			<unit ss.art.reg=11 />
+			<unit pz.aufk.bn=11 />
+			<unit ss.flak.bn=11 colors=freiSS />
+			<unit uid=11sseb mot.eng.bn=11 />
+		</unit>
+		<unit uid=hj *ss.pg.div=Hitlerjugend start=7/1/43 end=10/22/43 >
+			<unit ss.pg.reg=1HJ />
+			<unit ss.pg.reg=2HJ />
+			<unit ss.art.reg=HJ />
+			<unit mcycle.bn=HJ />
+			<unit mot.at.bn=HJ />
+			<unit pg.stug.bn=HJ />
+			<unit ss.flak.bn=HJ />
+			<unit arm.eng.bn=HJ />
+		</unit>
+		<unit uid=ssvt *ss.mot.inf.div=VT start=4/1/40 end=2/1/41 >
+			<unit uid=Dssmr ss.mot.inf.reg=Deutschland />
+			<unit uid=Gssmr ss.mot.inf.reg=Germania end=11/20/40 />
+			<unit uid=DFssmr ss.mot.inf.reg="Der Fuhrer" />
+			<unit *ss.art.reg=Standarte>
+				<unit mot.art.bn=I/VT />
+				<unit mot.art.bn=II/VT />
+				<unit mot.art.bn=III/VT />
+				<unit mot.art.bn=IV/VT start=12/1/40 />
+			</unit>
+			<unit mot.at.bn=SS-VT />
+			<unit aufk.bn=VT />
+			<unit ss.flak.bn=SS-VT />
+			<unit mot.eng.bn=VT />
+		</unit>
+		<unit uid=dr *ss.mot.inf.div="Das Reich" abbreviation=DR start=2/1/41 end=9/11/42 >
+			<unit ss.mot.inf.reg=Deutschland uid=Dssmr />
+			<unit ss.mot.inf.reg="Der Fuhrer" />
+			<unit ss.mot.inf.reg=11 />
+			<unit ss.art.reg=DR />
+			<unit mgun.bn=DR />
+			<unit krad.bn=DR />
+			<unit aufk.bn=DR />
+			<unit mot.at.bn=DR />			
+			<unit mot.eng.bn=DR />
+		</unit>
+		<unit uid=tot *ss.mot.inf.div=Totenkopf abbreviation=T start=10/16/39 end=11/9/42 >
+			<unit ss.mot.inf.reg=1 />
+			<unit ss.mot.inf.reg=2 end=3/6/42 />
+			<unit ss.mot.inf.reg=3 />
+			<unit *rifle.reg=Thule start=3/6/42 >
+				<unit rifle.bn=I/Thule />
+				<unit rifle.bn=II/Thule />
+			</unit>
+			<unit ss.art.reg=Tot />
+			<unit hvy.art.bn=Tot start=1/1/40 />
+			<unit aufk.bn=Tot />
+			<unit krad.bn=Tot start=3/6/42 />
+			<unit mot.at.bn=Tot />
+			<unit ss.flak.bn=Tot start=1/1/42 />
+			<unit mot.eng.bn=Tot />
+		</unit>
+		<unit uid=pol *ss.mot.inf.div=Polizei abbreviation=P start=10/1/39 end=12/1/43 >
+			<unit uid=1polr rifle.reg=1 />
+			<unit uid=2polr rifle.reg=2 />
+			<unit uid=3polr rifle.reg=3 />
+			<unit art.reg=300 end=5/6/40 />
+			<unit art.reg=Pol start=5/6/40 />
+			<unit mot.at.bn=Pol />
+			<unit bike.co=Pol end=4/28/40 />
+			<unit aufk.bn=Pol start=4/28/40 />
+			<unit mot.eng.bn=Pol />
+		</unit>
+		<unit uid=kpol *ss.mot.inf.div="Kampfgruppe Polizei" abbreviation=kP start=12/1/43 end=5/1/44 >
+			<unit uid=1polr rifle.reg=1 />
+			<unit uid=2polr rifle.reg=2 />
+			<unit uid=3polr rifle.reg=3 />
+			<unit art.reg=Pol />
+			<unit mot.at.bn=Pol />
+			<unit aufk.bn=Pol  />
+			<unit mot.eng.bn=Pol />
+		</unit>
+		<unit uid=wik *ss.mot.inf.div=Wiking abbreviation=W colors=freiSS start=11/20/40 end=11/9/42 >
+			<unit lt.pz.bn=W start=7/1/42 />
+			<unit ss.mot.inf.reg=Germania />
+			<unit ss.mot.inf.reg=Nordland />
+			<unit ss.mot.inf.reg=Westland />
+			<unit ss.art.reg=W />
+			<unit mgun.bn=W />
+			<unit aufk.bn=W />
+			<unit ss.flak.bn=W colors=freiSS />
+			<unit mot.at.bn=W />			
+			<unit mot.eng.bn=W />
+		</unit>
+		<unit uid=nord *ss.mot.inf.div=Nord start=9/1/41 end=1/15/42 >
+			<unit ss.mot.inf.reg=6 />
+			<unit ss.mot.inf.reg=7 />
+			<unit ss.mot.inf.reg=9 end=12/1/41 />
+			<unit aufk.bn=Nord />
+			<unit *art.reg=Nord >
+				<unit art.bn=I/Nord />
+				<unit art.bn=II/Nord />
+				<unit art.bn=III/Nord />
+			</unit>
+			<unit ss.flak.bn=Nord />
+			<unit mot.eng.bn=Nord />
+		</unit>
+		<unit uid=nord *ss.mtn.div=Nord start=1/15/42 end=10/22/43 >
+			<unit ss.mtn.reg=6 />
+			<unit ss.mtn.reg=7 />
+			<unit aufk.bn=Nord />
+			<unit *art.reg=Nord >
+				<unit art.bn=I/Nord />
+				<unit mtn.art.bn=II/Nord />
+				<unit mtn.art.bn=III/Nord />
+			</unit>
+			<unit ss.flak.bn=Nord />
+			<unit mot.eng.bn=Nord />
+		</unit>
+		<unit uid=eugen *ss.mtn.div="Prinz Eugen" abbreviation=E start=10/1/42 end=10/22/43 >
+			<unit lt.pz.co=Eug />
+			<unit ss.mtn.reg=1 />
+			<unit ss.mtn.reg=2 />
+			<unit *art.reg=Eug >
+				<unit art.bn=I/Eug />
+				<unit mtn.art.bn=II/Eug />
+				<unit mtn.art.bn=III/Eug />
+				<unit hvy.art.bn=IV/Eug start=12/1/42 />
+			</unit>
+			<unit aufk.bn=Eug start=1/1/43 />
+			<unit krad.bn=Eug start=1/1/43 end=7/1/43 />
+			<unit bike.bn=Eug />
+			<unit cav.bn=Eug />
+			<unit at.bn=Eug start=1/1/43 />
+			<unit ss.flak.bn=Eug />
+			<unit eng.bn=Eug />
+		</unit>
+		<unit uid=hand *ss.mtn.div=Handschar abbreviation=H colors=freiSS start=3/1/43 end=10/22/43 >
+			<unit uid=1ssfgr ss.mtn.reg=1 />
+			<unit uid=2ssfgr ss.mtn.reg=2 />
+			<unit *art.reg=Hand >
+				<unit art.bn=I/Hand />
+				<unit mtn.art.bn=II/Hand />
+				<unit mtn.art.bn=III/Hand />
+				<unit hvy.art.bn=IV/Hand />
+			</unit>
+			<unit at.bn=Hand />
+			<unit aufk.bn=Hand />
+			<unit cav.bn=Hand />
+			<unit ss.flak.bn=Hand colors=freiSS />
+			<unit eng.bn=Hand />
+		</unit>
+		<unit uid=sscav *cav.div=SS abbreviation=Cav start=9/1/42 end=10/22/43 >
+			<unit cav.reg=1 />
+			<unit cav.reg=2 />
+			<unit cav.reg=3 />
+			<unit bike.bn=Cav />
+			<unit *art.reg=Cav >
+				<unit art.bn=I/Cav />
+				<unit art.bn=II/Cav />
+			</unit>
+			<unit stug.co=Cav />
+			<unit mot.at.bn=Cav />
+			<unit ss.flak.bn=Cav />
+			<unit mot.eng.bn=Cav />
+		</unit>
+		<unit uid=lah *ss.pz.div=1 start=10/22/43 >
+			<unit ss.pz.reg=1 />
+			<unit ss.pg.reg=1 />
+			<unit ss.pg.reg=2 />
+			<unit ss.art.reg=1 />
+			<unit rocket.bn=1 start=9/1/44 />
+			<unit pz.aufk.bn=1 />
+			<unit mot.at.bn=1 />
+			<unit pg.stug.bn=1 />
+			<unit ss.flak.bn=1 />
+			<unit uid=1sseb arm.eng.bn=1 />
+		</unit>
+		<unit uid=dr *ss.pz.div=2 abbreviation=DR start=10/22/43 >
+			<unit ss.pz.reg=2 />
+			<unit ss.pg.reg=3 />
+			<unit ss.pg.reg=4 />
+			<unit ss.art.reg=2 />
+			<unit rocket.bn=2 start=9/1/44 />
+			<unit pz.aufk.bn=2 />
+			<unit mot.at.bn=2 />
+			<unit pg.stug.bn=2 />
+			<unit ss.flak.bn=2 />
+			<unit uid=2sseb arm.eng.bn=2 />
+		</unit>
+		<unit uid=tot *ss.pz.div=3 abbreviation=T start=10/22/43 >
+			<unit ss.pz.reg=3 />
+			<unit ss.pg.reg=5 />
+			<unit ss.pg.reg=6 />
+			<unit ss.art.reg=3 />
+			<unit pz.aufk.bn=3 />
+			<unit mot.at.bn=3 />
+			<unit pg.stug.bn=3 />
+			<unit ss.flak.bn=3 />
+			<unit uid=3sseb arm.eng.bn=3 />
+		</unit>
+		<unit uid=pol *ss.pg.div=4 abbreviation=P start=12/1/43 >
+			<unit pg.reg=7 />
+			<unit pg.reg=8 />
+			<unit ss.art.reg=4 />
+			<unit pz.aufk.bn=4 />
+			<unit mot.at.bn=4 />
+			<unit pg.stug.bn=4 />
+			<unit ss.flak.bn=4 />
+			<unit uid=4sseb mot.eng.bn=4 />
+		</unit>
+		<unit uid=wik *ss.pz.div=5 abbreviation=W colors=freiSS start=10/22/43 >
+			<unit ss.pz.reg=5 colors=freiSS />
+			<unit ss.pg.reg=9 colors=freiSS />
+			<unit ss.pg.reg=10 colors=freiSS />
+			<unit ss.art.reg=5 colors=freiSS />
+			<unit pz.aufk.bn=5 />
+			<unit mot.at.bn=5 />
+			<unit pg.stug.bn=5 />
+			<unit ss.flak.bn=5 colors=freiSS />
+			<unit uid=5sseb arm.eng.bn=5 />
+		</unit>
+		<unit uid=nord *ss.mtn.div=6 start=10/22/43 >
+			<unit ss.mtn.reg=11 />
+			<unit ss.mtn.reg=12 />
+			<unit rifle.bn=6 />
+			<unit aufk.bn=6 />
+			<unit uid=6ssar art.reg=6 />
+			<unit ss.flak.bn=6 />
+			<unit uid=6sseb mot.eng.bn=6 />
+		</unit>
+		<unit uid=eugen *ss.mtn.div=7 start=10/22/43 >
+			<unit lt.pz.co=7 />
+			<unit ss.mtn.reg=13 />
+			<unit ss.mtn.reg=14 />
+			<unit uid=7ssar *art.reg=7 >
+				<unit uid=I/7ssab art.bn=I/7 />
+				<unit mtn.art.bn=II/7 />
+				<unit mtn.art.bn=III/7 />
+				<unit hvy.art.bn=IV/7 />
+			</unit>
+			<unit bike.bn=7 />
+			<unit cav.bn=7 />
+			<unit uid=7ssatb at.bn=7 />
+			<unit ss.flak.bn=7 />
+			<unit uid=7sseb eng.bn=7 />
+		</unit>
+		<unit uid=sscav *cav.div="8th SS" start=10/22/43 >
+			<unit cav.reg=15 />
+			<unit cav.reg=16 />
+			<unit cav.reg=17 end=4/29/44 />
+			<unit cav.reg=18 start=11/1/43 />
+			<unit bike.bn=8 />
+			<unit *art.reg=8 >
+				<unit art.bn=I/8 />
+				<unit art.bn=II/8 />
+				<unit mot.art.bn=III/8 start=3/17/44 />
+			</unit>
+			<unit stug.co=8 end=3/17/44 />
+			<unit stug.bn=8 start=3/17/44 end=6/1/44 />
+			<unit mot.at.bn=8 />
+			<unit ss.flak.bn=8 />
+			<unit uid=8sseb mot.eng.bn=8 />
+		</unit>
+		<unit uid=hohen *ss.pz.div=9 start=10/22/43 >
+			<unit ss.pz.reg=9 />
+			<unit ss.pg.reg=19 />
+			<unit ss.pg.reg=20 />
+			<unit ss.art.reg=9 />
+			<unit mcycle.bn=9 />
+			<unit mot.at.bn=9 />
+			<unit pg.stug.bn=9 />
+			<unit ss.flak.bn=9 />
+			<unit uid=9sseb arm.eng.bn=9 />
+		</unit>
+		<unit uid=frund *ss.pz.div=10 start=10/22/43 >
+			<unit ss.pz.reg=10 />
+			<unit ss.pg.reg=21 />
+			<unit ss.pg.reg=22 />
+			<unit ss.art.reg=10 />
+			<unit pz.aufk.bn=10 />
+			<unit mot.at.bn=10 />
+			<unit pg.stug.bn=10 />
+			<unit ss.flak.bn=10 />
+			<unit uid=10sseb arm.eng.bn=10 />
+		</unit>
+		<unit uid=nordland *ss.pg.div=11 colors=freiSS start=10/22/43 >
+			<unit lt.pz.bn=11 />
+			<unit ss.pg.reg=23 colors=freiSS />
+			<unit ss.pg.reg=24 colors=freiSS />
+			<unit stug.bn=11 end=9/1/44 />
+			<unit ss.art.reg=11 colors=freiSS />
+			<unit mot.at.bn=11 start=9/1/44 />
+			<unit pz.aufk.bn=11 />
+			<unit ss.flak.bn=11 colors=freiSS />
+			<unit uid=11seb mot.eng.bn=11 />
+		</unit>
+		<unit uid=hj *ss.pz.div=12 start=10/22/43 >
+			<unit ss.pz.reg=12 />
+			<unit ss.pg.reg=25 />
+			<unit ss.pg.reg=26 />
+			<unit ss.art.reg=12 />
+			<unit pz.aufk.bn=12 />
+			<unit mot.at.bn=12 />
+			<unit pg.stug.bn=12 />
+			<unit ss.flak.bn=12 />
+			<unit uid=12sseb arm.eng.bn=12 />
+		</unit>
+		<unit uid=hand *ss.mtn.div=13 start=10/22/43 >
+			<unit ss.mtn.reg=27 />
+			<unit ss.mtn.reg=28 />
+			<unit uid=13ssar *art.reg=13 >
+				<unit art.bn=I/13 />
+				<unit mtn.art.bn=II/13 />
+				<unit mtn.art.bn=III/13 />
+				<unit hvy.art.bn=IV/13 />
+			</unit>
+			<unit cav.bn=13 />
+			<unit at.bn=13 />
+			<unit ss.flak.bn=13 colors=freiSS />
+			<unit uid=13sseb eng.bn=13 />
+		</unit>
+		<unit *ss.inf.div=14 colors=freiSS start=10/22/43 >
+			<unit ss.vg.reg=29 colors=freiSS />
+			<unit ss.vg.reg=30 colors=freiSS />
+			<unit ss.vg.reg=31 colors=freiSS />
+			<unit fus.bn=14 />
+			<unit uid=14ssar art.reg=14 />
+			<unit uid=14ssatb at.bn=14 />
+			<unit bike.bn=14 end=6/1/44 />
+			<unit ss.flak.bn=14 colors=freiSS end=8/7/44 />
+			<unit uid=14sseb eng.bn=14 />
+		</unit>
+		<unit *ss.inf.div=15 colors=freiSS start=10/22/43 >
+			<unit ss.vg.reg=32 colors=freiSS />
+			<unit ss.vg.reg=33 colors=freiSS />
+			<unit ss.vg.reg=34 colors=freiSS />
+			<unit fus.bn=15 />
+			<unit uid=15ssar art.reg=15 />
+			<unit uid=15ssatb at.bn=15 />
+			<unit uid=15sseb eng.bn=15 />
+		</unit>
+		<unit uid=reichsf *ss.pg.div=16 start=10/3/43 >
+			<unit lt.pz.bn=16 />
+			<unit ss.pg.reg=35 />
+			<unit ss.pg.reg=36 />
+			<unit stug.bn=16 end=2/1/45 />
+			<unit ss.art.reg=16 />
+			<unit mot.at.bn=16 start=2/1/45 />
+			<unit pz.aufk.bn=16 />
+			<unit ss.flak.bn=16 />
+			<unit uid=16sseb mot.eng.bn=16 />
+		</unit>
+		<unit *ss.pg.div=17 start=11/15/43 >
+			<unit lt.pz.bn=17 />
+			<unit ss.pg.reg=37 />
+			<unit ss.pg.reg=38 end=11/22/44 />
+			<unit stug.bn=17 end=6/1/44 />
+			<unit ss.art.reg=17 >
+				<unit mot.art.bn=IV/17 start=3/1/45 />
+			</unit>
+			<unit mot.at.bn=17 start=6/1/44 />
+			<unit pz.aufk.bn=17 />
+			<unit ss.flak.bn=17 colors=freiSS />
+			<unit uid=17sseb mot.eng.bn=17 />
+		</unit>
+		<unit *ss.pg.div=18 colors=freiSS start=1/25/44 >
+			<unit lt.pz.bn=18 colors=freiSS />
+			<unit ss.pg.reg=39 colors=freiSS />
+			<unit ss.pg.reg=40 colors=freiSS end=11/22/44 />
+			<unit ss.art.reg=18 colors=freiSS >
+				<unit mot.art.bn=IV/18 start=3/1/45 />
+			</unit>
+			<unit mot.at.bn=18 start=2/1/45 />
+			<unit pz.aufk.bn=18 />
+			<unit ss.flak.bn=18 colors=freiSS />
+			<unit uid=18sseb mot.eng.bn=18 />
+		</unit>
+		<unit *ss.inf.div=19 colors=freiSS start=7/1/44 >
+			<unit ss.vg.reg=42 colors=freiSS />
+			<unit ss.vg.reg=43 colors=freiSS />
+			<unit ss.vg.reg=44 colors=freiSS />
+			<unit fus.bn=19 />
+			<unit art.reg=19 />
+			<unit at.bn=19 />
+			<unit ss.flak.bn=19 colors=freiSS />
+			<unit uid=19sseb eng.bn=19 />
+		</unit>
+		<unit *ss.inf.div=20 colors=freiSS start=1/24/44 >
+			<unit ss.vg.reg=45 colors=freiSS />
+			<unit ss.vg.reg=46 colors=freiSS />
+			<unit ss.vg.reg=47 colors=freiSS />
+			<unit fus.bn=20 />
+			<unit uid=20ssar art.reg=20 />
+			<unit at.bn=20 />
+			<unit ss.flak.bn=20 colors=freiSS />
+			<unit uid=20sseb eng.bn=20 />
+		</unit>
+		<unit *ss.mtn.div=21 colors=freiSS start=5/1/44 >
+			<unit ss.mtn.reg=50 colors=freiSS />
+			<unit ss.mtn.reg=51 colors=freiSS />
+			<unit aufk.bn=21 />
+			<unit uid=21ssar art.reg=21 />
+			<unit uid=21ssatb at.bn=21 />
+			<unit uid=21sseb eng.bn=21 />
+		</unit>
+		<unit uid=22ss *cav.div="22nd SS" colors=freiSS start=4/29/44 >
+			<unit cav.reg=52 />
+			<unit cav.reg=53 />
+			<unit cav.reg=17 />
+			<unit bike.bn=8 />
+			<unit uid=22ssar *art.reg=22 >
+				<unit uid=I/22ssab art.bn=I/22 />
+				<unit uid=II/22ssab art.bn=II/22 />
+				<unit uid=III/22ssab mot.art.bn=III/22 />
+			</unit>
+			<unit stug.co=22 end=3/17/44 />
+			<unit stug.bn=22 start=3/17/44 end=6/1/44 />
+			<unit mot.at.bn=22 />
+			<unit ss.flak.bn=22 />
+			<unit uid=22sseb mot.eng.bn=22 />
+		</unit>
+		<unit *ss.mtn.div=23 colors=freiSS start=6/10/44 end=12/31/44 >
+			<unit ss.mtn.reg=55 colors=freiSS />
+			<unit ss.mtn.reg=56 colors=freiSS />
+			<unit aufk.bn=24 />
+			<unit uid=24ssar art.reg=24 />
+			<unit uid=24ssatb at.bn=24 />
+			<unit uid=24sseb eng.bn=24 />
+		</unit>
+		<unit *ss.inf.div=25 colors=freiSS start=11/2/44 >
+			<unit ss.vg.reg=61 colors=freiSS />
+			<unit ss.vg.reg=62 colors=freiSS />
+			<unit ss.vg.reg=63 colors=freiSS />
+			<unit fus.co=25 end=4/1/45 />
+			<unit fus.bn=25 start=4/1/45 />
+			<unit uid=25ssar art.reg=25 />
+			<unit uid=25ssatb at.bn=25 />
+			<unit uid=25sseb eng.bn=25 />
+		</unit>
+		<unit *ss.inf.div=26 colors=freiSS start=1/29/45 >
+			<unit ss.vg.reg=64 colors=freiSS />
+			<unit ss.vg.reg=65 colors=freiSS />
+			<unit ss.vg.reg=85 colors=freiSS />
+			<unit fus.bn=26 />
+			<unit uid=26ssar art.reg=26 />
+			<unit uid=26ssatb at.bn=26 />
+			<unit uid=26sseb eng.bn=26 />
+		</unit>
+		<unit *ss.inf.div=27 colors=freiSS start=10/18/44 >
+			<unit ss.vg.reg=66 colors=freiSS />
+			<unit ss.vg.reg=67 colors=freiSS />
+			<unit ss.vg.reg=68 colors=freiSS />
+			<unit uid=27ssar art.reg=27 />
+			<unit uid=27ssatb at.bn=27 />
+			<unit uid=27sseb eng.bn=27 />
+		</unit>
+		<unit *ss.inf.div=28 colors=freiSS start=10/19/44 >
+			<unit ss.vg.reg=69 colors=freiSS />
+			<unit ss.vg.reg=70 colors=freiSS />
+			<unit ss.vg.reg=71 colors=freiSS />
+			<unit art.reg=28 />
+			<unit at.bn=28 />
+			<unit uid=28sseb eng.bn=28 />
+		</unit>
+		<unit *ss.inf.div=31 colors=freiSS start=10/1/44 >
+			<unit ss.vg.reg=78 colors=freiSS />
+			<unit ss.vg.reg=79 colors=freiSS />
+			<unit ss.vg.reg=80 colors=freiSS />
+			<unit fus.bn=31 />
+			<unit uid=31ssar art.reg=31 />
+			<unit uid=31ssatb at.bn=31 />
+			<unit uid=31sseb eng.bn=31 />
+		</unit>
+		<unit *ss.inf.div=32 colors=freiSS start=1/30/45 >
+			<unit ss.vg.reg=86 colors=freiSS />
+			<unit ss.vg.reg=87 colors=freiSS />
+			<unit ss.vg.reg=88 start=3/26/45 colors=freiSS />
+			<unit fus.bn=32 />
+			<unit uid=32ssar art.reg=32 />
+			<unit uid=32ssatb at.bn=32 />
+			<unit ss.flak.bn=32 />
+			<unit uid=32sseb eng.bn=32 />
+		</unit>
+		<unit *ss.inf.div=33 colors=freiSS start=2/10/45 >
+			<unit ss.vg.reg=57 colors=freiSS />
+			<unit ss.vg.reg=58 colors=freiSS />
+			<unit art.bn=33 />
+			<unit at.bn=33 />
+			<unit uid=33sseb eng.co=33 />
+		</unit>
+		<unit *ss.inf.div=34 colors=freiSS start=2/1/45 >
+			<unit ss.vg.reg=83 colors=freiSS />
+			<unit ss.vg.reg=84 colors=freiSS />
+			<unit uid=34ssar art.reg=34 />
+			<unit uid=34ssatb at.bn=34 />
+			<unit uid=34sseb eng.co=34 />
+		</unit>
+		<unit *ss.inf.div=35 colors=freiSS start=2/1/45 >
+			<unit ss.vg.reg=89 colors=freiSS />
+			<unit ss.vg.reg=90 colors=freiSS />
+			<unit ss.vg.reg=91 colors=freiSS />
+			<unit fus.bn=35 />
+			<unit uid=35ssar art.reg=35 />
+			<unit uid=35ssatb at.bn=35 />
+			<unit uid=35sseb eng.bn=35 />
+		</unit>
+		<unit *ss.inf.div=36 colors=freiSS start=2/1/45 >
+			<unit ss.vg.reg=72 colors=freiSS />
+			<unit ss.vg.reg=73 colors=freiSS />
+			<unit hvy.co=36 />
+			<unit fus.co=36 />
+			<unit art.bn=36 />
+			<unit uid=36sseb eng.co=36 />
+		</unit>
+		<unit uid=37ss *cav.div="37th SS" colors=freiSS start=2/20/45 >
+			<unit ss.cav.reg=92 colors=freiSS />
+			<unit ss.cav.reg=93 colors=freiSS />
+			<unit art.bn=37 />
+			<unit uid=37sseb mot.eng.bn=37 />
+		</unit>
+		<unit uid=1cos name="1st Cossack" badge=cav size=XX colors=cossSS start=12/1/44 >
+			<unit div.hq=1/>
+			<unit uid=1cosr cossack.reg=1 colors=cossSS />
+			<unit uid=2cosr cossack.reg=2 colors=cossSS />
+			<unit uid=4cosr cossack.reg=4 colors=cossSS />
+			<unit art.bn=1 />
+			<unit uid=1cosatb at.bn=1 />
+			<unit uid=1coseb eng.bn=1 />
+		</unit>
+		<unit uid=2cos name="2nd Cossack" badge=cav size=XX colors=cossSS start=12/1/44 >
+			<unit div.hq=2/>
+			<unit uid=3cosr cossack.reg=3 colors=cossSS />
+			<unit uid=5cosr cossack.reg=5 colors=cossSS />
+			<unit uid=6cosr cossack.reg=6 colors=cossSS />
+			<unit art.bn=2 />
+			<unit uid=2cosatb at.bn=2 />
+			<unit uid=2coseb eng.bn=2 />
+		</unit>
+		<unit ss.mot.inf.reg=Deutschland abbreviation=D uid=Dssmr end=4/1/40 />
+		<unit ss.mot.inf.reg=Germania abbreviation=G uid=Gssmr end=4/1/40 />
+		<unit ss.mot.inf.reg="Def Fuhrer" abbreviation=DF uid=DFssmr end=4/1/40 />
+		<unit uid=lah *ss.mot.bg=LAH start=8/15/38 end=7/15/42 >
+			<unit ss.lah.pz.bn=LAH start=4/1/41 />
+			<unit mot.inf.bn=I/LAH />
+			<unit mot.inf.bn=II/LAH />
+			<unit mot.inf.bn=III/LAH />
+			<unit mot.inf.bn=IV/LAH />
+			<unit mot.hvy.co=LAH end=4/1/41 />
+			<unit mot.hvy.bn=LAH start=4/1/41 />
+			<unit mot.at.co=LAH />
+			<unit mcycle.co=LAH end=8/1/40 />
+			<unit aufk.bn=LAH start=8/1/40 />
+			<unit ss.flak.bn=LAH start=4/1/41 />
+			<unit mot.eng.bn=LAH start=8/1/40 />
+		</unit>
+		<unit uid=nord *ss.inf.bg="Kampfgruppe Nord" badge=kg start=2/28/41 end=9/1/41 >
+			<unit ss.mot.inf.reg=Kirkenes />
+			<unit *aufk.bn=Nord >
+				<unit mcycle.co=1/Nord />
+				<unit hvy.co=2/Nord />
+			</unit>
+			<unit *art.reg=Nord >
+				<unit art.co=5/Nord />
+				<unit art.co=6/Nord />
+				<unit mtn.art.co="7 Geb/Nord" />
+			</unit>
+			<unit ss.flak.bn=Nord />
+			<unit *mot.eng.bn=Nord >
+				<unit mot.eng.co=1/Nord />
+				<unit mot.eng.co=2/Nord />
+			</unit>
+		</unit>
+		<unit uid=sscav name=Cavalry badge=cav size=X start=1/1/41 end=9/1/42>
+			<unit bg.hq=Cav />
+			<unit cav.reg=1 />
+			<unit cav.reg=2 />
+		</unit>
+		<unit uid=reichsf name="Reichsfuhrer SS" abbreviation=Rf badge=mech size=X colors=SS start=7/1/43 end=10/3/43 >
+			<unit mot.bg.hq=Reichsfuhrer abbreviation=Rf />
+			<unit mot.inf.bn=RF/>
+			<unit mot.at.bn=RF/>
+			<unit stug.bn=RF/>
+			<unit ss.flak.bn=RF />
+		</unit>
+		<unit uid=1rss *ss.inf.bg=1 start=8/1/41 end=1/1/44 >
+			<unit ss.inf.reg=8 end=11/12/43 />
+			<unit ss.inf.reg=10 end=11/12/43 />
+			<unit mcycle.co=1 start=1/1/43 end=11/12/43 />
+			<unit at.co=1 start=1/1/43 end=11/12/43 />
+			<unit flak.co=1 start=1/1/43 end=11/12/43 />
+			<unit ss.inf.reg=39 start=11/12/43 />
+			<unit ss.inf.reg=40 start=11/12/43 />
+			<unit mcycle.co=51 start=11/12/43 />
+			<unit at.co=51 start=11/12/43 />
+			<unit flak.co=51 start=11/12/43 />
+		</unit>
+		<unit uid=2rss *ss.inf.bg=2 start=4/1/41 end=5/18/43 >
+			<unit ss.inf.reg=4 end=12/1/41 />
+			<unit ss.inf.reg=5 end=4/20/42 />
+			<unit ss.inf.reg=14 end=7/1/41 />
+			<unit inf.bn=Niederlande abbreviation=N start=1/1/42  />
+			<unit inf.bn=Flandern abbreviation=F start=1/1/42  />
+		</unit>
+		<unit uid=latss *ss.inf.bg=Latvian colors=freiSS start=5/18/43 end=10/22/43 >
+			<unit ss.inf.reg=1 colors=freiSS />
+			<unit ss.inf.reg=2 colors=freiSS />
+			<unit art.bn=I />
+			<unit ss.flak.bn=Latvian colors=freiSS />
+		</unit>
+		<unit uid=2latss *ss.inf.bg=2 colors=freiSS start=10/22/43 end=1/7/44 >
+			<unit ss.inf.reg=42 colors=freiSS />
+			<unit ss.inf.reg=43 colors=freiSS />
+			<unit art.bn=I />
+			<unit ss.flak.bn=Latvian colors=freiSS />
+		</unit>
+		<unit uid=3estss *ss.inf.bg=3 colors=freiSS start=10/22/43 end=1/7/44 >
+			<unit ss.inf.reg=45 colors=freiSS />
+			<unit ss.inf.reg=46 colors=freiSS />
+			<unit art.bn=53 />
+			<unit at.bn=53 />
+			<unit ss.flak.bn=53 colors=freiSS />
+		</unit>
+		<unit uid=4ss *ss.inf.bg=4 colors=freiSS start=10/23/43 end=2/10/45 >
+			<unit ss.inf.reg=48 colors=freiSS />
+			<unit ss.inf.reg=49 colors=freiSS />
+			<unit *art.reg=54 >
+				<unit art.bn=I/54 />
+				<unit art.bn=II/54 />
+				<unit art.bn=III/54 start=8/1/44 />
+			</unit>
+			<unit at.bn=54 />
+			<unit ss.flak.bn=54 colors=freiSS />
+			<unit uid=54sseb mot.eng.bn=54 />
+		</unit>
+		<unit uid=5ss *ss.inf.bg=5 colors=freiSS start=6/1/43 end=10/18/44 >
+			<unit ss.pg.bn=I/Wal />
+			<unit ss.pg.bn=II/Wal start=6/28/44 />
+			<unit mot.at.co=Wal />
+			<unit stug.co=Wal end=6/28/44 />
+			<unit stug.bn=Wal start=6/28/44 />
+			<unit flak.co=Wal />
+			<unit hvy.flak.co=Wal />
+		</unit>
+		<unit uid=lang *ss.inf.bg=Langemarck colors=freiSS start=6/1/43 end=10/23/43 >
+			<unit ss.pg.bn=I/Lan colors=freiSS />
+			<unit hvy.co=Lan />
+			<unit mot.at.co=Lan />
+			<unit stug.co=Lan />
+			<unit flak.co=Lan />
+			<unit hvy.flak.co=Lan />
+		</unit>
+		<unit uid=lang *ss.inf.bg=6 colors=freiSS start=10/23/43 end=10/18/44 >
+			<unit ss.pg.bn=I/Lan colors=freiSS />
+			<unit ss.pg.bn=II/Lan start=6/28/44 colors=freiSS />
+			<unit mot.at.co=Lan />
+			<unit stug.co=Lan end=6/28/44 />
+			<unit stug.bn=Lan start=6/28/44 />
+			<unit flak.co=Lan />
+			<unit hvy.flak.co=Lan />
+		</unit>
+	</unit>
+</OOB>

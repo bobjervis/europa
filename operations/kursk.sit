@@ -1,0 +1,6370 @@
+<situation start=7/5/43 theater=../reference/wwii.europe.theater >
+	<combatant name=Germany>
+		<unit fills=3 loads=1 tip=100 ref=okw commander=Hitler >
+			<unit ref=okh commander=Hitler >
+				<unit tip=200 ref=ag.north commander=v.Kuchler>
+					<hq>
+						<unit flak.div=2>
+							<unit flak.reg=41>
+								<unit flak.bn=645/>
+								<unit flak.bn=719/>
+								<unit flak.bn=833/>
+							</unit>
+							<unit flak.reg=43>
+								<unit flak.bn=127/>
+							</unit>
+							<unit flak.reg=182>
+								<unit flak.bn=341 />
+								<unit flak.bn=361 />
+								<unit flak.bn=517 />
+								<unit lt.flak.bn=766 />
+								<unit lt.flak.bn=834 />
+							</unit>
+							<unit flak.reg=136>
+							</unit>
+						</unit>
+						<unit flak.div=6>
+							<unit flak.reg=18>
+								<unit flak.bn=I/14/>
+								<unit flak.bn=II/36/>
+								<unit flak.bn=I/64/>
+							</unit>
+							<unit flak.reg=164>
+								<unit flak.bn=I/51/>
+							</unit>
+							<unit flak.reg=151>
+								<unit flak.bn=I/13/>
+								<unit flak.bn=92/>
+								<unit flak.bn=I/111/>
+							</unit>
+						</unit>
+						<unit flak.bn=II/11/>
+						<unit flak.bn=75/>
+					</hq>
+					<unit ref=16army>
+						<unit ref=10ak >
+							<unit ref=126i />
+							<unit ref=30i />
+							<unit ref=329i />
+							<unit ref=5i />
+							<unit jgr.bn=5/>
+							<unit rocket.reg=3/>
+						</unit>
+						<unit ref=2ak>
+							<unit ref=12i />
+							<unit ref=123i />
+							<unit ref=218i />
+							<unit ref=331i />
+							<unit ref=93i />
+							<unit stug.bn=184 />
+						</unit>
+						<unit uid=hoehne size=XXX badge=inf name="Hoehne (VIII)">
+							<unit uid=hoehne.hq corps.hq=Hoehne abbreviation=Ho />
+							<unit ref=122i />
+							<unit ref=21lw />
+							<unit ref=32i />
+							<unit jgr.bn=6 />
+						</unit>
+						<unit ref=223i />
+						<unit ref=8i />
+						<unit mort.bn=10/>
+						<unit kan105.bn=II/69/>
+					</unit>
+					<unit ref=18army>
+						<hq>
+							<unit flak.bn=I/3/>
+							<unit eng.bn=44/>
+						</hq>
+						<unit ref=1ak>
+							<unit ref=13lw/>
+							<unit ref=227i />
+						</unit>
+						<unit ref=26ak>
+							<unit ref=1i />
+							<unit ref=11i />
+							<unit ref=121i >
+								<unit hvy.art1.bn=II/37/>
+							</unit>
+							<unit ref=132i />
+							<unit ref=212i />
+							<unit ref=290i >
+								<unit art.bn=IV/216/>
+							</unit>
+							<unit ref=5g />
+							<unit ref=69i />
+							<unit stug.bn=226/>
+						</unit>
+						<unit ref=28ak>
+							<unit ref=12lw />
+							<unit ref=225i />
+							<unit ref=28i />
+							<unit ref=61i />
+							<unit ref=81i />
+							<unit ref=96i />
+						</unit>
+						<unit ref=38ak>
+							<unit ref=1lw/>
+							<unit ref=217i />
+							<unit ref=latss />
+						</unit>
+						<unit ref=3lwk>
+							<unit ref=10lw />
+							<unit ref=9lw />
+						</unit>
+						<unit ref=50ak>
+							<unit ref=170i />
+							<unit ref=215i >
+								<unit kan240.bn=II/84/>
+							</unit>
+							<unit ref=250i />
+						</unit>
+						<unit ref=54ak >
+							<unit ref=21i />
+							<unit ref=24i />
+							<unit ref=254i />
+							<unit ref=pol />
+							<unit ref=58i />
+						</unit>
+						<unit ref=23i />
+						<unit stug.bn=912 />
+						<unit hvy.art.bn=II/58 />
+						<unit hvy.art1.bn=I/106 />
+						<unit cst.art.bn=143/>
+					</unit>
+					<unit rail.eng.reg=4/>
+					<unit rail.eng.bn=15/>
+					<unit ref=18pg />
+					<unit kan105.bn=153/>
+					<unit ref=207i />
+					<unit ref=281i />
+					<unit ref=285i />
+				</unit>
+				<unit ref=ag.center commander=v.Kluge  visibility=10>
+					<hq>
+						<unit flak.bn=I/22/>
+						<unit flak.bn=I/29/>
+						<unit flak.bn=I/36/>
+						<unit flak.bn=II/49/>
+						<unit flak.bn=71/>
+					</hq>
+					<unit ref=2army commander=Weiss visibility=15>
+						<hq>
+							<unit flak.div=10>
+								<unit flak.reg=124>
+									<unit flak.bn=142/>
+									<unit flak.bn=84/>
+								</unit>
+							</unit>
+							<unit bridge.bn=156/>
+							<unit bridge.bn=162/>
+							<unit bridge.bn=168/>
+							<unit bridge.bn=175/>
+							<unit bridge.bn=198/>
+							<unit bridge.bn=33/>
+							<unit bridge.bn=34/>
+							<unit bridge.bn=442/>
+							<unit bridge.bn=534/>
+							<unit bridge.co=3/62/>
+							<unit bridge.bn=660/>
+							<unit bridge.bn=664/>
+							<unit bridge.bn=672/>
+							<unit bridge.bn=Auffr./>
+							<unit eng.bn=221/>
+						</hq>
+						<unit ref=13ak>
+							<hq>
+								<unit bridge.bn=39/>
+								<unit eng.bn=742/>
+							</hq>
+							<unit ref=327i >
+								<unit art.bn=855/>
+							</unit>
+							<unit ref=340i >
+								<unit fh150.co=625/>
+							</unit>
+							<unit ref=82i>
+								<unit art.bn=I/252/>
+							</unit>
+						</unit>
+						<unit ref=7ak>
+							<hq>
+								<unit bridge.bn=98/>
+								<unit eng.bn=215/>
+							</hq>
+							<unit ref=26i>
+								<unit hvy.art.bn=II/43/>
+							</unit>
+							<unit ref=68i />
+							<unit ref=75i >
+								<unit at.bn=16/>
+							</unit>
+							<unit ref=88i />
+							<unit stug.bn=202/>
+						</unit>
+						<unit at.bn=202/>
+						<unit at.bn=559/>
+						<unit at.bn=616/>
+						<unit stug.bn=201/>
+					</unit>
+					<unit ref=2pz.army tip=300 commander=Schmidt visibility=15>
+						<hq>
+							<unit flak.bn=I/11/>
+							<unit flak.bn=94/>
+						</hq>
+						<unit ref=35ak>
+							<unit ref=262i />
+							<unit ref=299i />
+							<unit ref=34i />
+							<unit ref=56i />
+						</unit>
+						<unit ref=53ak>
+							<unit ref=208i />
+							<unit ref=211i />
+							<unit ref=25pg />
+							<unit ref=293i />
+						</unit>
+						<unit ref=55ak>
+							<unit ref=110i />
+							<unit ref=134i />
+							<unit ref=296i />
+							<unit ref=339i />
+						</unit>
+						<unit ref=112i />
+						<unit ref=707i />
+						<unit jgr.bn=8/>
+						<unit kan105.bn=II/57/>
+					</unit>
+					<unit ref=3pz.army tip=200 commander=Reinhardt visibility=15>
+						<hq>
+							<unit flak.bn=83/>
+						</hq>
+						<unit ref=2lwk>
+							<unit ref=2lw/>
+							<unit ref=3lw/>
+							<unit ref=4lw/>
+							<unit ref=6lw/>
+						</unit>
+						<unit ref=43ak>
+							<unit ref=20m />
+							<unit ref=205i />
+						</unit>
+						<unit ref=59ak >
+							<unit ref=263i />
+							<unit ref=291i />
+						</unit>
+						<unit ref=6ak>
+							<unit ref=206i/>
+							<unit ref=330i />
+							<unit ref=87i />
+						</unit>
+						<unit jgr.bn=1/>
+						<unit jgr.bn=3/>
+						<unit jgr.bn=7/>
+						<unit ref=201i />
+						<unit art.bn=III/213/>
+						<unit hvy.art.bn=II/39/>
+						<unit kan105.bn=II/68/>
+					</unit>
+					<unit ref=4army commander=Heinrici visibility=15>
+						<hq>
+							<unit flak.bn=I/24/>
+							<unit flak.bn=I/26/>
+							<unit eng.bn=62/>
+						</hq>
+						<unit ref=12ak>
+							<unit ref=260i />
+							<unit ref=267i />
+							<unit ref=268i />
+						</unit>
+						<unit ref=27ak>
+							<unit ref=197i />
+							<unit ref=246i />
+							<unit ref=256i />
+							<unit ref=52i />
+						</unit>
+						<unit ref=39pk>
+							<unit ref=129i />
+							<unit ref=337i />
+							<unit ref=95i />
+						</unit>
+						<unit ref=56pk >
+							<hq>
+								<unit flak.reg=134>
+								</unit>
+							</hq>
+							<unit ref=131i />
+							<unit ref=14i />
+							<unit ref=321i />
+						</unit>
+						<unit ref=9ak>
+							<unit ref=252i />
+							<unit ref=342i />
+							<unit ref=35i />
+						</unit>
+						<unit ref=183i />
+						<unit ref=253i />
+						<unit jgr.bn=2/>
+						<unit jgr.bn=4/>
+						<unit stug.bn=190/>
+						<unit stug.bn=667/>
+						<unit kan105.bn=II/41/>
+						<unit hvy.art.bn=II/67/>
+						<unit hvy.art.bn=IV/109/>
+					</unit>
+					<unit ref=9army commander=Model visibility=15 posture=offensive>
+						<hq>
+							<unit bridge.co=1/430/>
+							<unit bridge.bn=535/>
+							<unit eng.bn=654/>
+							<unit eng.bn=751/>
+						</hq>
+						<unit ref=20ak posture=static>
+							<hq>
+								<unit eng.bn=512/>
+								<unit eng.bn=750/>
+								<unit bridge.bn=626/>
+							</hq>
+							<unit ref=137i />
+							<unit ref=251i />
+							<unit ref=45i >
+								<unit mot.art.bn=860/>
+							</unit>
+							<unit ref=72i />
+						</unit>
+						<unit ref=23ak>
+							<hq>
+								<unit eng.bn=746/>
+								<unit eng.bn="85th Mountain"/>
+								<unit bridge.bn=88/>
+							</hq>
+							<unit ref=216i />
+							<unit ref=383i />
+							<unit ref=78i >
+								<unit stug.bn=185/>
+								<unit fh150.co=1/653/>
+								<unit fh150.co=2/653/>
+								<unit kan170.co=1/817/>
+								<unit art.co=4/69/>
+								<unit mot.art.bn=422/>
+								<unit art.bn=426/>
+								<unit sk100.bn=709/>
+								<unit hvy.art.bn=848/>
+								<unit art.bn=851/>
+								<unit hvy.art.bn=859/>
+								<unit mot.art.bn=II/59/>
+								<unit hvy.art.bn=II/66/>
+							</unit>
+						</unit>
+						<unit ref=41pk>
+							<hq >
+								<unit eng.bn=42/>
+								<unit bridge.co=2/409/>
+								<unit bridge.bn=606/>
+							</hq>
+							<unit ref=18p />
+							<unit ref=292i >
+								<unit stug.bn=244/>
+								<unit 150k18.co=2/620/>
+								<unit art.bn=425/>
+								<unit art.bn=616/>
+							</unit>
+							<unit ref=86i>
+								<unit brummbar.bn=216/>
+								<unit stug.bn=177/>
+								<unit art.bn=427/>
+								<unit hvy.art.bn=604/>
+								<unit hvy.art1.bn=II/61/>
+								<unit mot.art.bn=II/64/>
+							</unit>
+							<unit uid=21px badge=arm size=X name="21st Panzer">
+								<unit stug.bn=909/>
+								<unit hvy.pz.bn=505/>
+							</unit>
+							<unit uid=656atr badge=hvy.arm.at size="I I I" name="656th Schwere Panzer Jaeger">
+								<unit ele.bn=653/>
+								<unit ele.bn=654/>
+							</unit>
+						</unit>
+						<unit ref=46pk>
+							<hq >
+								<unit eng.bn=443/>
+								<unit bridge.bn=29/>
+								<unit bridge.bn=752/>
+							</hq>
+							<unit ref=102i />
+							<unit ref=258i />
+							<unit ref=31i >
+								<unit kan210.co=3/637/>
+								<unit mot.art.bn=430/>
+								<unit sk100.bn=611/>
+							</unit>
+							<unit ref=7i >
+							  <unit rocket.reg=18/>
+							  <unit 150k18.co=3/620/>
+							  <unit art.bn=433/>
+							  <unit hvy.art.bn=II/47/>
+							</unit>
+							<unit uid=manteuffel badge=inf size=X abbreviation=GM name="Gruppe von Manteuffel">
+								<unit jgr.bn=9/>
+								<unit jgr.bn=10/>
+								<unit jgr.bn=11/>
+							</unit>
+						</unit>
+						<unit ref=47pk>
+							<hq>
+								<unit eng.bn="2nd Lehr"/>
+								<unit eng.bn=47/>
+								<unit bridge.co=2/420/>
+								<unit bridge.bn=47/>
+								<unit bridge.bn=845/>
+							</hq>
+							<unit ref=2p />
+							<unit ref=20p>
+								<unit stug.bn=245/>
+								<unit kan210.co=2/637/>
+								<unit rocket.reg=2/>
+								<unit kan210.co=1/637/>
+							</unit>
+							<unit ref=4p />
+							<unit ref=6i >
+								<unit stug.bn=904/>
+								<unit 150k18.co=1/620/>
+								<unit hvy.art.bn=II/63/>
+							</unit>
+							<unit ref=9p />
+						</unit>
+						<unit ref=10pg/>
+						<unit ref=12p/>
+						<unit jgr.bn=13/>
+						<unit mort.bn=18/>
+					</unit>
+					<unit ref=36i />
+					<unit ref=5p/>
+					<unit ref=8p/>
+					<unit ref=83i />
+					<unit ref=203i />
+					<unit ref=221i />
+					<unit ref=286i />
+					<unit stug.bn=270 />
+					<unit art.bn=II/213/>
+					<unit rail.eng.reg=1/>
+					<unit rail.eng.bn=139/>
+				</unit>
+				<unit ref=ag.south commander=v.Manstein>
+					<hq>
+						<unit eng.bn=50/>
+					</hq>
+					<unit ref=1pz.army commander=v.Mackensen>
+						<unit ref=24pk>
+							<unit ref=17p />
+							<unit ref=23p />
+							<unit ref=wik />
+						</unit>
+						<unit ref=30ak>
+							<unit ref=38i >
+								<unit mot.art.bn=II/140/>
+							</unit>
+							<unit ref=387i/>
+							<unit ref=62i />
+						</unit>
+						<unit ref=40pk>
+							<unit ref=257i />
+							<unit ref=333i />
+							<unit ref=46i />
+						</unit>
+						<unit ref=57pk>
+							<unit ref=15i />
+							<unit ref=198i >
+								<unit hvy.art1.bn=II/52/>
+							</unit>
+							<unit ref=328i />
+						</unit>
+						<unit stug.bn=209/>
+						<unit stug.bn=203/>
+						<unit stug.bn=232/>
+						<unit hvy.art1.bn=II/70/>
+						<unit kan240.bn=I/84/>
+						<unit mot.art.bn=I/127/>
+					</unit>
+					<unit ref=4pz.army commander=Hoth posture=offensive>
+						<hq loads=6315t >
+							<unit bridge.co=2/413/>
+							<unit bridge.bn=671/>
+						</hq>
+						<unit ref=2sspk>
+							<hq>
+								<unit colors=Wehrmacht rocket.210.bn="II/1st Lehr"/>
+								<unit colors=Wehrmacht art.bn=III/818/>
+								<unit colors=Wehrmacht mot.eng.bn=627/>
+								<unit colors=Wehrmacht mot.eng.bn=666/>
+								<unit colors=Wehrmacht mtn.art.co=132 />
+								<unit colors=Wehrmacht bridge.bn=11/>
+								<unit colors=Wehrmacht bridge.co=2/41/>
+								<unit colors=Wehrmacht bridge.bn=21/>
+								<unit colors=Wehrmacht bridge.bn=31/>
+								<unit colors=Wehrmacht bridge.bn=573/>
+								<unit colors=Wehrmacht bridge.bn=840/>
+							</hq>
+							<unit ref=lah loads=2816t >
+								<unit colors=Wehrmacht art.bn=861/>
+								<unit colors=Wehrmacht *rocket.reg=55>
+									<unit rocket.bn=I/55 >
+										<unit rocket.co=4/I/55 />
+									</>
+									<unit rocket.bn=II/55 />
+									<unit rocket.280.bn=III/55 >
+										<unit rocket.210.co=4/III/55 />
+									</>
+								</>
+							</unit>
+							<unit ref=dr loads=2225t >
+								<unit colors=Wehrmacht rocket.bn="III/1st Lehr"/>
+							</unit>
+							<unit ref=tot loads=1874t >
+								<unit rocket.bn="SS Corps"/>
+							</unit>
+						</unit>
+						<unit ref=48pk>
+							<hq >
+								<unit hummel.bn=III/101/>
+								<unit hvy.art.bn=842/>
+								<unit mot.art.bn=I/108/>
+								<unit flak.bn=616/>
+								<unit mot.eng.bn="1st Lehr"/>
+								<unit mot.eng.bn=48/>
+								<unit bridge.bn=22/>
+								<unit bridge.bn=609/>
+								<unit bridge.bn=639/>
+								<unit bridge.bn=640/>
+								<unit bridge.bn=641/>
+								<unit bridge.bn=642/>
+								<unit bridge.bn=643/>
+								<unit bridge.bn=644/>
+								<unit bridge.bn=645/>
+								<unit bridge.bn=646/>
+								<unit bridge.bn=647/>
+								<unit bridge.bn=648/>
+								<unit bridge.bn=649/>
+								<unit bridge.bn=676/>
+								<unit bridge.bn=841/>
+							</hq>
+							<unit ref=11p loads=1282t />
+							<unit ref=167i loads=1091t >
+								<unit rocket.bn="I/1st Lehr"/>
+							</unit>
+							<unit ref=3p loads=1222t />
+							<unit ref=gd loads=2190t />
+							<unit uid=10px badge=arm size=X name="10th Panzer" loads=300t >
+								<unit mot.reg.hq="39th Panzer"/>
+								<unit panther.bn.kursk=51/>
+								<unit panther.bn.kursk=52/>
+							</unit>
+							<unit stug.bn=911/>
+						</unit>
+						<unit ref=52ak >
+							<hq>
+								<unit eng.bn=74/>
+								<unit bridge.bn=23/>
+								<unit bridge.bn=80/>
+							</hq>
+							<unit ref=255i loads=824t />
+							<unit ref=332i loads=1132t >
+								<unit rocket.210.bn=I/1/>
+								<unit rocket.280.bn=III/1/>
+								<unit kan210.bn=III/109/>
+								<unit fh150.co=3/731/>
+							</unit>
+							<unit ref=57i loads=743t />
+						</unit>
+					</unit>
+					<unit ref=6army>
+						<hq>
+							<unit flak.bn=I/32/>
+							<unit flak.bn=147/>
+						</hq>
+						<unit ref=17ak>
+							<unit ref=294i />
+							<unit ref=302i />
+							<unit ref=306i />
+						</unit>
+						<unit ref=29ak >
+							<unit ref=111i />
+							<unit ref=15lw />
+							<unit ref=17i />
+							<unit ref=336i />
+						</unit>
+						<unit ref=4ak>
+							<unit ref=3g />
+							<unit ref=304i />
+							<unit ref=335i />
+						</unit>
+						<unit ref=16pg />
+						<unit stug.bn=243 />
+						<unit stug.bn=236 />
+						<unit stug.bn=210 />
+						<unit hvy.art.bn=II/40 />
+						<unit mot.art.bn=II/46 />
+					</unit>
+					<unit uid=kempf size=XXXX badge=army specialName name="Detachment Kempf" posture=offensive>
+						<unit uid=kempf.hq army.hq=Kempf abbreviation=K loads=17634t >
+							<unit sig.reg=570 />
+							<unit bridge.bn=603 />
+						</unit>
+						<unit ref=3pk>
+							<hq >
+								<unit kan210.bn=857/>
+								<unit kan105.bn=II/62/>
+								<unit hvy.art1.bn=II/71/>
+								<unit flak.reg=153>
+									<unit flak.bn=I/61/>
+									<unit flak.bn=II/43/>
+								</unit>
+								<unit flak.bn=91/>
+								<unit eng.bn=127/>
+								<unit eng.bn=601/>
+								<unit eng.bn=651/>
+								<unit eng.bn=674/>
+								<unit eng.bn=70/>
+								<unit bridge.co=1/505/>
+								<unit bridge.bn=110/>
+								<unit bridge.co=2/411/>
+								<unit bridge.bn="2nd SS"/>
+								<unit bridge.bn=602/>
+								<unit bridge.bn=842/>
+								<unit bridge.bn=843/>
+								<unit bridge.bn=9/>
+							</hq>
+							<unit ref=168i loads=1633t />
+							<unit ref=19p loads=1294t >
+								<unit rocket.bn=I/54/>
+								<unit rocket.bn=II/54/>
+							</unit>
+							<unit ref=6p loads=1803t >
+								<unit flak.reg=99>
+									<unit flak.bn=I/38/>
+									<unit flak.bn=II/38/>
+								</unit>
+								<unit rocket.bn=III/54>
+									<unit rocket.280.sfl.co=4/III/54 />
+								</>
+								<unit stug.bn=228/>
+							</unit>
+							<unit ref=7p loads=2021t />
+							<unit hvy.pz.bn=503/>
+						</unit>
+						<unit ref=42ak posture=static>
+							<hq >
+								<unit flak.bn=77/>
+								<unit flak.bn=125/>
+								<unit eng.bn="620th Mountain"/>
+							</hq>
+							<unit ref=161i>
+								<unit hvy.art.bn=II/800/>
+							</unit>
+							<unit ref=282i />
+							<unit ref=39i />
+							<unit nas.bn=560/>
+							<unit hvy.art1.bn=III/140/>
+						</unit>
+						<unit uid=raus badge=inf size=XXX name="Raus (XI)">
+							<unit uid=raus.hq corps.hq=Raus abbreviation=Ra>
+								<unit flak.div=15>
+									<unit flak.reg=4>
+									</unit>
+									<unit flak.reg=7>
+										<unit flak.bn=I/25/>
+									</unit>
+									<unit flak.reg=48>
+										<unit flak.bn=II/Lehr/>
+									</unit>
+								</unit>
+								<unit eng.bn=52/>
+								<unit bridge.bn=102/>
+								<unit bridge.bn=151/>
+								<unit bridge.co=2/407/>
+								<unit bridge.co=2/410/>
+								<unit bridge.co=2/60/>
+								<unit bridge.bn=20/>
+								<unit bridge.bn=297/>
+								<unit bridge.bn=610/>
+								<unit bridge.bn=666/>
+								<unit bridge.bn=7/>
+								<unit bridge.bn=8/>
+							</unit>
+							<unit ref=106i loads=3386t >
+								<unit note="105 mm How" mot.art.bn=II/54/>
+								<unit flak.bn=I/19/>
+								<unit flak.bn=I/7/>
+								<unit flak.bn=II/24/>
+								<unit rocket.280.bn=II/1/>
+								<unit rocket.bn=II/52/>
+								<unit stug.bn=905/>
+							</unit>
+							<unit ref=320i loads=3312t >
+								<unit flak.bn=I/33rd/>
+								<unit flak.bn=I/5/>
+								<unit flak.bn=II/241/>
+								<unit note="105mm how" art.bn=I/213/>
+								<unit note="105mm How" mot.art.bn=I/77/>
+								<unit rocket.bn=I/52/>
+								<unit rocket.bn=III/52/>
+								<unit stug.co=393/>
+							</unit>
+						</unit>
+					</unit>
+					<unit ref=2army combatant=Hungary commander=Jany >
+						<unit ref=7ac combatant=Hungary >
+							<unit ref=18i combatant=Hungary />
+							<unit lt.inf.div=21 combatant=Hungary />
+							<unit lt.inf.div=24 combatant=Hungary />
+							<unit lt.inf.div=25 combatant=Hungary />
+						</unit>
+						<unit ref=8ac combatant=Hungary >
+							<unit ref=1i combatant=Hungary />
+							<unit ref=5i combatant=Hungary />
+							<unit lt.inf.div=8 combatant=Hungary />
+							<unit ref=23i combatant=Hungary />
+							<unit lt.inf.div=201 combatant=Hungary />
+						</unit>
+					</>
+					<unit rail.eng.reg=2/>
+					<unit rail.eng.reg=3/>
+					<unit rail.eng.reg=5/>
+					<unit rail.eng.bn=111/>
+					<unit uid=sccr cossack.reg="3rd Reiter Sswodno" abbreviation=S />
+					<unit uid=dccr cossack.reg="Kalmuk Dr Doll" abbreviation=D />
+					<unit uid=kccr cossack.reg="Kalmuk 5th Kuban" abbreviation=K />
+					<unit mort.bn=9/>
+					<unit combatant=Romania inf.div=24/>
+					<unit art.bn=II/221/>
+					<unit ref=213i />
+					<unit ref=444i />
+					<unit ref=454i />
+				</unit>
+				<unit ref=ag.a commander=v.Kleist >
+					<unit ref=17army>
+						<hq>
+							<unit flak.div=17>
+								<unit flak.reg=12>
+									<unit flak.bn=I/49/>
+									<unit flak.bn=375/>
+								</unit>
+							</unit>
+							<unit eng.bn=46/>
+							<unit landing.bn=86/>
+						</hq>
+						<unit ref=44ak>
+							<unit ref=101i/>
+							<unit combatant=Romania inf.div=10/>
+							<unit ref=125i />
+							<unit ref=79i />
+							<unit ref=97i />
+							<unit ref=98i />
+							<unit kan105.bn=II/60/>
+						</unit>
+						<unit ref=49gk>
+							<unit ref=370i />
+							<unit combatant=Romania mtn.div=3/>
+							<unit ref=50i />
+						</unit>
+						<unit ref=5ak>
+							<unit combatant=Romania inf.div=19/>
+							<unit combatant=Romania mtn.div=1/>
+							<unit ref=4g/>
+							<unit combatant=Romania cav.div=6/>
+							<unit ref=73i />
+							<unit ref=9i />
+							<unit combatant=Romania cav.div=9/>
+						</unit>
+						<unit uid=pccr cossack.reg=Platow abbreviation=P />
+						<unit hvy.art.bn=II/42/>
+						<unit cst.art.bn=144/>
+						<unit stug.bn=249/>
+					</unit>
+					<unit uid=crimea size=XXXX badge=army name=Crimea>
+						<unit uid=crimea.hq abbreviation=Crm army.hq=Crimea>
+							<unit flak.div=9>
+								<unit flak.reg=27>
+									<unit flak.bn=137/>
+									<unit flak.bn=181/>
+									<unit flak.bn=190/>
+									<unit flak.bn=257/>
+									<unit flak.bn=293/>
+									<unit flak.bn=297/>
+									<unit flak.bn=505/>
+								</unit>
+								<unit flak.reg=42>
+									<unit flak.bn=I/4/>
+									<unit flak.bn=164/>
+									<unit flak.bn=86/>
+									<unit flak.bn=89/>
+								</unit>
+								<unit flak.reg=77>
+									<unit flak.bn=251/>
+									<unit flak.bn=541/>
+									<unit flak.bn=702/>
+									<unit flak.bn=739/>
+								</unit>
+								<unit flak.bn=99/>
+							</unit>
+							<unit eng.bn=73/>
+						</unit>
+						<unit uid=fast combatant=Slovakia abbreviation=F fast.div=Fast/>
+						<unit combatant=Romania mtn.div=2/>
+						<unit combatant=Romania mtn.div=4/>
+						<unit ref=153i />
+						<unit uid=bergman colors=Cossack abbreviation=B inf.reg="Bergmann (turk.)"/>
+						<unit cst.art.bn=145/>
+						<unit cst.art.bn=147/>
+						<unit cst.art.bn=148/>
+						<unit cst.art.bn=149/>
+					</unit>
+					<unit ref=13p />
+					<unit uid=kerch badge=inf size=XXX name=Kerch>
+						<unit uid=kerch.hq corps.hq=Kerch abbreviation=K />
+						<unit ref=5lw />
+						<unit stug.bn=191/>
+					</unit>
+				</unit>
+  				<unit ref=ag.d commander=v.Rundstedt >
+  					<hq>
+						<unit flak.div=11>
+							<unit flak.reg=45>
+								<unit flak.bn=261/>
+								<unit flak.bn=347/>
+								<unit flak.bn=353/>
+								<unit flak.bn=923/>
+								<unit flak.bn=308/>
+							</unit>
+							<unit flak.reg=69>
+								<unit flak.bn=365/>
+								<unit flak.bn=468/>
+								<unit flak.bn=597/>
+								<unit flak.bn=981/>
+							</unit>
+							<unit flak.reg=85>
+								<unit flak.bn=346/>
+								<unit flak.bn=497/>
+								<unit flak.bn=592/>
+								<unit flak.bn=731/>
+								<unit flak.bn=875/>
+							</unit>
+							<unit flak.reg=653>
+								<unit flak.bn=356/>
+								<unit flak.bn=391/>
+								<unit flak.bn=983/>
+							</unit>
+							<unit early.flak.bg=12>
+								<unit flak.reg=86>
+									<unit flak.bn=343/>
+									<unit flak.bn=595/>
+									<unit flak.bn=999/>
+								</unit>
+							</unit>
+						</unit>
+					</hq>
+					<unit ref=1army>
+						<hq>
+							<unit flak.bn=II/64/>
+							<unit flak.bn=195/>
+						</>
+						<unit ref=80ak>
+							<unit ref=158i />
+							<unit ref=708i />
+						</unit>
+						<unit ref=86ak>
+							<unit ref=344i />
+							<unit rocket.reg=56/>
+						</unit>
+						<unit ref=334i />
+						<unit ref=14p />
+						<unit ref=frund />
+						<unit stug.bn=200/>
+					</unit>
+					<unit ref=7army>
+						<hq>
+							<unit flak.div=13>
+								<unit flak.reg=15>
+									<unit flak.bn=196/>
+									<unit flak.bn=441/>
+									<unit flak.bn=596/>
+									<unit flak.bn=752/>
+									<unit flak.bn=805/>
+									<unit flak.bn=873/>
+								</unit>
+								<unit flak.reg=30>
+									<unit flak.bn=153/>
+									<unit flak.bn=298/>
+									<unit flak.bn=653/>
+									<unit flak.bn=835/>
+									<unit flak.bn=931/>
+									<unit flak.bn=996/>
+								</unit>
+								<unit flak.reg=100>
+									<unit flak.bn=152/>
+									<unit flak.bn=193/>
+									<unit flak.bn=321/>
+									<unit flak.bn=339/>
+									<unit flak.bn=535/>
+								</unit>
+								<unit flak.reg=117>
+								</unit>
+							</unit>
+							<unit flak.reg=59>
+								<unit flak.bn=344/>
+								<unit flak.bn=496/>
+								<unit flak.bn=538/>
+								<unit flak.bn=593/>
+								<unit flak.bn=744/>
+								<unit flak.bn=859/>
+								<unit flak.bn=997/>
+							</unit>
+						</hq>
+						<unit ref=25ak>
+							<unit ref=384i />
+						</unit>
+						<unit ref=84ak>
+							<unit ref=319i />
+							<unit ref=709i />
+							<unit ref=716i />
+						</unit>
+						<unit ref=87ak>
+							<unit ref=343i />
+							<unit ref=346i />
+						</unit>
+						<unit ref=76i />
+						<unit ref=94i />
+						<unit ref=113i />
+						<unit ref=371i />
+						<unit ref=389i />
+						<unit schnelle.bg=30>
+							<unit bike.bn=505/>
+							<unit bike.bn=507/>
+							<unit bike.bn=513/>
+							<unit bike.bn=517/>
+							<unit bike.bn=518/>
+						</unit>
+						<unit rocket.reg=51/>
+					</unit>
+					<unit ref=15army>
+						<hq>
+							<unit flak.div=16>
+								<unit flak.reg=8>
+									<unit flak.bn=591/>
+									<unit flak.bn=649/>
+									<unit flak.bn=668/>
+									<unit flak.bn=831/>
+									<unit flak.bn=847/>
+								</unit>
+								<unit flak.reg=37>
+									<unit flak.bn=II/22/>
+									<unit flak.bn=266/>
+									<unit flak.bn=402/>
+								</unit>
+								<unit flak.reg=95>
+									<unit flak.bn=295/>
+									<unit flak.bn=559/>
+									<unit flak.bn=594/>
+									<unit flak.bn=614/>
+									<unit flak.bn=691/>
+								</unit>
+								<unit flak.reg=129>
+									<unit flak.bn=252/>
+									<unit flak.bn=253/>
+									<unit flak.bn=415/>
+								</unit>
+								<unit flak.reg=132>
+									<unit flak.bn=291/>
+									<unit flak.bn=671/>
+									<unit flak.bn=677/>
+									<unit flak.bn=730/>
+									<unit flak.bn=765/>
+									<unit flak.bn=978/>
+									<unit flak.bn=993/>
+								</unit>
+								<unit flak.reg=431>
+									<unit flak.bn=284/>
+									<unit flak.bn=345/>
+									<unit flak.bn=680/>
+									<unit flak.bn=757/>
+									<unit flak.bn=956/>
+								</unit>
+								<unit flak.reg=656>
+									<unit flak.bn=417/>
+									<unit flak.bn=694/>
+									<unit flak.bn=716/>
+									<unit flak.bn=732/>
+									<unit flak.bn=773/>
+									<unit flak.bn=880/>
+									<unit flak.bn=957/>
+									<unit flak.bn=958/>
+								</unit>
+							</unit>
+							<unit early.flak.bg=19>
+								<unit flak.reg=111>
+									<unit flak.bn=428/>
+									<unit flak.bn=667/>
+									<unit flak.bn=764/>
+									<unit flak.bn=845/>
+									<unit flak.bn=959/>
+								</unit>
+							</unit>
+						</hq>
+						<unit ref=81ak>
+							<unit ref=348i />
+							<unit ref=711i />
+							<unit ref=17lw />
+						</unit>
+						<unit ref=82ak>
+							<unit ref=156i />
+							<unit ref=191i />
+							<unit ref=18lw />
+						</unit>
+						<unit ref=89ak>
+							<unit ref=171i />
+							<unit ref=712i />
+							<unit ref=19lw />
+						</unit>
+						<unit ref=44i />
+						<unit ref=65i />
+						<unit ref=305i />
+						<unit ref=24p />
+						<unit ref=hohen />
+					</unit>
+					<unit size=XXXX badge=army specialName name="Detachment Felber">
+						<unit army.hq=Felber abbreviation=Flb />
+						<unit ref=83ak>
+							<unit ref=326i />
+							<unit ref=356i />
+							<unit ref=715i />
+						</unit>
+						<unit ref=feldherrnhalle/>
+					</unit>
+					<unit size=XXXX name="Wehrmachtbefehlshaber Niederlande">
+						<unit ref=88ak>
+							<unit ref=347i />
+							<unit ref=719i />
+						</unit>
+						<unit ref=376i />
+					</unit>
+					<unit ref=64rk>
+						<unit ref=157i />
+						<unit ref=165i />
+					</unit>
+					<unit ref=155i />
+					<unit ref=179i />
+					<unit ref=182i />
+					<unit ref=189i />
+					<unit ref=26p />
+					<unit ref=1fs />
+					<unit ref=2fs />
+					<unit ref=264i />
+				</unit>
+				<unit ref=ag.e commander=Loehr>
+					<hq>
+						<unit flak.bn=II/12/>
+						<unit flak.bn=II/25/>
+						<unit eng.bn=41/>
+					</>
+					<unit size=XXX name=Kreta>
+						<unit uid=kreta stat.bg=Kreta/>
+						<unit ref=22i />
+						<unit uid=sienna combatant=Italy abbreviation=S inf.div=Sienna/>
+						<unit flak.reg=58>
+							<unit flak.bn=I/23/>
+							<unit flak.bn=73/>
+						</unit>
+					</unit>
+					<unit ref=68ak>
+						<unit ref=1p />
+						<unit ref=117i />
+					</unit>
+					<unit size=XXX name="South Greece">
+						<unit ref=104i />
+						<unit ref=11lw />
+						<unit flak.reg=201>
+							<unit flak.bn=131/>
+						</unit>
+					</unit>
+					<unit size=XXX name=Thessalonika>
+						<unit ref=1g />
+						<unit flak.reg=40>
+							<unit flak.bn=I/8/>
+							<unit flak.bn=I/9/>
+							<unit flak.bn=143/>
+						</unit>
+					</unit>
+					<unit size=XXX name=Serbia>
+						<unit uid=serbia corps.hq=Serbia/>
+						<unit ref=297i >
+							<unit note="105 mm How" mot.art.bn=II/109/>
+						</unit>
+						<unit combatant=Bulgaria inf.div=7/>
+						<unit combatant=Bulgaria inf.div=9/>
+						<unit combatant=Bulgaria inf.div=21/>
+					</unit>
+					<unit size=XXX name=Kroatia>
+						<unit ref=eugen />
+						<unit ref=100i />
+						<unit ref=114i />
+						<unit ref=118i />
+						<unit ref=369i />
+						<unit ref=373i/>
+						<unit med.pz.bn=I/202/>
+					</unit>
+					<unit ref=187i />
+					<unit uid=rhodes abbreviation=Rh sturm.div=Rhodes/>
+					<unit rail.eng.reg=8/>
+					<unit flak.reg=180/>
+				</unit>
+				<unit ref=norway commander=v.Falkenhorst >
+					<unit ref=33ak >
+						<unit ref=14lw />
+						<unit ref=181i />
+						<unit ref=702i />
+					</unit>
+					<unit ref=70ak >
+						<unit ref=214i />
+						<unit ref=269i />
+						<unit ref=280i />
+						<unit ref=710i />
+					</unit>
+					<unit ref=71ak >
+						<unit ref=199i />
+						<unit ref=230i />
+						<unit ref=270i />
+					</unit>
+					<unit ref=25p />
+					<unit ref=196i />
+					<unit ref=274i />
+					<unit fills=100 sup.depot=Trondheim>
+					</unit>
+					<unit fills=100 port=Oslo>
+					</unit>
+				</unit>
+				<unit ref=20army tip=400>
+					<unit ref=18gk >
+						<unit ref=nord />
+						<unit ref=7g >
+							<unit stug.co=741/>
+							<unit stug.co=742/>
+						</unit>
+						<unit ss.pol.mtn.reg=18 />
+						<unit mtn.reg=139/>
+					</unit>
+					<unit ref=19gk >
+						<unit ref=2g />
+						<unit ref=210i />
+						<unit ref=6g/>
+						<unit fills=100 colors=KrMar sup.depot=Kirkenes>
+						</unit>
+					</unit>
+					<unit ref=36gk >
+						<unit ref=163i />
+						<unit ref=169i />
+						<unit note="Mostly French tanks" fin.pz.bn=211/>
+					</unit>
+					<unit mgun.bn=4/>
+					<unit mgun.bn=14/>
+					<unit uid=10grktb rocket.bn="10th Mountain"/>
+					<unit rail.eng.bn=13 />
+					<unit mtn.art.bn=124/>
+				</unit>
+				<unit uid=sud size=XXXX badge=army name="Oberbefehlshaber Sud">
+					<unit army.hq="Ob Sud">
+						<unit hvy.flak.bn=163/>
+						<unit flak.bn=182/>
+						<unit flak.bn=192/>
+					</unit>
+					<unit ref=14pk>
+						<unit ref=16p/>
+						<unit ref=29pg />
+						<unit ref=3pg />
+						<unit ref=hg />
+					</unit>
+					<unit ref=reichsf />
+				</unit>
+				<unit size=XXXX name="Wehrmachtbefehlshaber Ukraine">
+					<unit ref=62rk>
+						<unit ref=143i />
+						<unit ref=147i />
+					</unit>
+				</unit>
+				<unit size=XXXX name="Wehrmachtbefehlshaber Ostland">
+					<unit ref=61rk >
+						<unit ref=141i />
+						<unit ref=151i />
+					</unit>
+				</unit>
+				<unit size=XXXX name="Wehrmachtbefehlshaber Danemark">
+					<unit ref=160i />
+					<unit ref=166i />
+					<unit size="I I I" badge=c.art name="180th Coastal Artillery">
+						<unit cst.art.bn=I/180/>
+						<unit cst.art.bn=II/180/>
+						<unit cst.art.bn=III/180/>
+					</unit>
+				</unit>
+				<unit size=XXXXX name=Heimat>
+					<unit commander=Fromm name="Replacement Army">
+						<unit commander=Weyer name="WK I">
+							<unit wk.hq=1/>
+							<unit fills=100 sup.depot=Konigsberg>
+							</unit>
+							<unit fills=100 sup.depot=Insterburg>
+							</unit>
+							<unit fills=100 sup.depot=Lotzen>
+							</unit>
+							<unit ref=401i />
+						</unit>
+						<unit commander=Fohrenbach name="WK II">
+							<unit wk.hq=2/>
+							<unit fills=100 sup.depot=Stettin>
+							</unit>
+							<unit fills=100 sup.depot=Gustrow>
+							</unit>
+						</unit>
+						<unit commander="v.Dalvig zu Lichtenfels" name="WK III">
+							<unit wk.hq=3>
+								<unit wach.bn="Gross Deutschland"/>
+							</unit>
+							<unit fills=100 sup.depot=Spandau>
+							</unit>
+							<unit fills=100 sup.depot=Potsdam>
+							</unit>
+							<unit fills=100 sup.depot=Berlin>
+							</unit>
+						</unit>
+						<unit commander=Wollwarth name="WK IV">
+							<unit wk.hq=4/>
+							<unit fills=100 sup.depot=Chemnitz>
+							</unit>
+							<unit fills=100 sup.depot=Naumburg>
+							</unit>
+							<unit fills=100 sup.depot=Dresden>
+							</unit>
+							<unit fills=100 sup.depot=Halle>
+							</unit>
+							<unit fills=100 sup.depot=Leipzig>
+							</unit>
+							<unit fills=100 sup.depot=Torgau>
+							</unit>
+							<unit ref=174i />
+						</unit>
+						<unit note="Off map" commander=Osswald name="WK V">
+							<unit wk.hq=5/>
+							<unit fills=100 sup.depot=Ulm>
+							</unit>
+							<unit fills=100 sup.depot=Aalen>
+							</unit>
+						</unit>
+						<unit note="Off map" commander=Wachenfeld name="WK VI">
+							<unit wk.hq=6/>
+							<unit fills=100 sup.depot=Unna>
+							</unit>
+							<unit fills=100 sup.depot=Minden>
+							</unit>
+							<unit fills=100 sup.depot=Munster>
+							</unit>
+							<unit ref=176i />
+						</unit>
+						<unit commander=Halm name="WK VII">
+							<unit wk.hq=7/>
+							<unit fills=100 sup.depot=Freilassing>
+							</unit>
+							<unit fills=100 sup.depot=Ingolstadt>
+							</unit>
+							<unit fills=100 sup.depot=Munchen>
+							</unit>
+						</unit>
+						<unit commander=Wachenfeld name="WK VIII">
+							<unit wk.hq=8/>
+							<unit fills=100 sup.depot=Breslau>
+							</unit>
+							<unit fills=100 sup.depot=Brieg>
+							</unit>
+							<unit fills=100 sup.depot=Kotzenau>
+							</unit>
+							<unit fills=100 sup.depot=Liegnitz>
+							</unit>
+							<unit fills=100 sup.depot=Oppeln>
+							</unit>
+							<unit ref=178i />
+						</unit>
+						<unit note="Off map" commander=Schiewindt name="WK IX">
+							<unit wk.hq=9/>
+							<unit fills=100 sup.depot=Kassel>
+							</unit>
+							<unit fills=100 sup.depot=Erfurt>
+							</unit>
+							<unit fills=100 sup.depot="Frankfurt am Main">
+							</unit>
+						</unit>
+						<unit note="Off map" commander=Raschik name="WK X">
+							<unit wk.hq=10/>
+							<unit fills=100 sup.depot=Hamburg>
+							</unit>
+							<unit fills=100 sup.depot=Bremen>
+							</unit>
+							<unit fills=100 sup.depot=Rendsburg>
+							</unit>
+							<unit ref=180i />
+							<unit ref=190i />
+						</unit>
+						<unit note="Off map" commander=Muff name="WK XI">
+							<unit wk.hq=11/>
+							<unit fills=100 sup.depot=Hannover>
+							</unit>
+							<unit fills=100 sup.depot=Magdeburg>
+							</unit>
+						</unit>
+						<unit note="Off map" commander=Stepphuhn name="WK XII">
+							<unit wk.hq=12/>
+							<unit fills=100 sup.depot=Mainz>
+							</unit>
+							<unit ref=172i />
+						</unit>
+						<unit commander=Cochenhusen name="WK XIII">
+							<unit wk.hq=13/>
+							<unit fills=100 sup.depot=Amberg>
+							</unit>
+							<unit fills=100 sup.depot=Nurnberg>
+							</unit>
+							<unit fills=100 sup.depot=Bamberg>
+							</unit>
+							<unit ref=173i />
+						</unit>
+						<unit commander=Streccius name="WK XVII">
+							<unit wk.hq=17>
+								<unit wach.bn=Wien/>
+							</unit>
+							<unit fills=100 sup.depot=Linz>
+							</unit>
+							<unit fills=100 sup.depot=Wels>
+							</unit>
+							<unit fills=100 sup.depot=Wien>
+							</unit>
+						</unit>
+						<unit commander=Schaller-Kalide name="WK XVIII">
+							<unit wk.hq=18/>
+							<unit fills=100 sup.depot=Hall>
+							</unit>
+							<unit fills=100 sup.depot=Graz>
+							</unit>
+							<unit ref=188i />
+						</unit>
+						<unit commander=Bock name="WK XX">
+							<unit wk.hq=20/>
+							<unit fills=100 sup.depot=Graudenz>
+							</unit>
+							<unit fills=100 sup.depot=Danzig>
+							</unit>
+							<unit ref=152i />
+						</unit>
+						<unit commander=Petzel name="WK XXI">
+							<unit wk.hq=21/>
+							<unit fills=100 sup.depot=Posen>
+							</unit>
+							<unit ref=192i />
+						</unit>
+						<unit commander=Friderici name="Bohmen und Mahren">
+							<unit wk.hq=BM/>
+							<unit ref=177i />
+							<unit ref=193i />
+						</unit>
+						<unit name=Generalgovernment>
+							<unit uid=1cos name="Pannwitz Cossack Cavalry" badge=cav size=XX colors=Cossack >
+								<unit cossack.reg="Don 1"/>
+								<unit cossack.reg="Kuban 4"/>
+								<unit cossack.reg="Terek 6"/>
+								<unit sm.art.reg=Cossack/>
+							</unit>
+							<unit uid=am inf.legion=Armenian abbreviation=Am />
+							<unit uid=az inf.legion=Azerbaijani abbreviation=Az />
+							<unit uid=g inf.legion=Georgian abbreviation=G />
+							<unit uid=nc inf.legion="North Caucasian" abbreviation=NC />
+							<unit uid=t inf.legion=Turkestani abbreviation=T />
+							<unit uid=vt inf.legion=Volga-Tatarian abbreviation=VT/>
+							<unit ref=lang />
+						</unit>
+					</unit>
+					<unit ref=154i />
+				</unit>
+			</unit>
+			<unit name=OKL colors=LW >
+				<unit size=XXXX badge=air name="Luftflotte 1" note="Baltic: Ostrov">
+					<unit size=XX badge=air name="Fliegerfuhrer 1" note="Pleskau">
+					</>
+					<unit luftgau=26 note="Riga"/>
+				</>
+				<unit size=XXXX badge=air name="Luftflotte 2" note="Frascait (Rome)">
+					<unit size=XX badge=air name="2. Fliegerdivision" note="Montfris">
+					</>
+					<unit size=XX badge=air name="Fliegerfuhrer Sardinien" note="Bolotana">
+						<unit bf109g.gr=II/JG51 note="Casa Zeppera"/>
+						<unit bf109g.gr=III/JG77 note=Chilivani/Sardinia />
+					</>
+					<unit size=XX badge=air name="Jagdfliegerfuhrer Oberitalien" note="Bologna">
+						<unit bf110.gr=III/ZG26 note=Ciampino/Rome />
+					</>
+					<unit size=XXX badge=air name="II. Fliegerkorps" note="Sala Consilina">
+						<unit size=XX badge=air name="Jagdfliegerfuhrer Sizilien" note="Trapani">
+							<unit size="I I I" badge=ftr name=JG53 note=Comiso>
+								<unit bf109g.stab=JG53 />
+								<unit bf109g.gr=I/JG53 note="Vibo Valentia"/>
+								<unit bf109g.gr=II/JG53 note=Rammaca/>
+								<unit bf109g.gr=III/JG53 note=Torazzo />
+							</>
+							<unit bf109g.gr=II/JG27 note="San Vito dei Normanni"/>
+							<unit size="I I I" badge=ftr name=JG77 note=Trapani>
+								<unit bf109g.stab=JG77 />
+								<unit bf109g.gr=I/JG77 note="La Smala"/>
+								<unit bf109g.gr=II/JG77/>
+							</>
+						</>
+						<unit size="I I I" badge=ftr name=NJG2 note=Aquino>
+							<unit ju88c.stab=NJG2 />
+							<unit ju88c.gr=I/NJG2 />
+							<unit bf110n.gr=II/NJG2 />
+						</>
+					</>
+					<unit flak.bg=17 note="Northern Italy">
+					</>
+					<unit flak.bg=22 note="Messina">
+						<unit flak.reg=Messina >
+						</>
+						<unit flak.reg="Reggio-San Giovanni" >
+						</>
+					</>
+					<unit luftgau=28 note="Milano"/>
+				</>
+				<unit size=XXXX badge=air name="Luftflotte 3" note="Paris">
+					<unit size=XXX badge=air name="IX. Fliegerkorps" note="Beauvais">
+					</>
+					<unit size=XX badge=air name="Fliegerfuhrer Atlantik" note="Angers">
+					</>
+					<unit name="Hohere Jagdfliegerfuhrer West" note="Chantilly">
+						<unit size=XX badge=air name="Jagdfliegerfuhrer 2." note="La Touquet">
+							<unit size="I I I" badge=ftr name=JG26 note=Vendeville>
+								<unit fw190a.stab=JG26 />
+								<unit fw190a.gr=I/JG26 note=Rheine/>
+								<unit fw190a.gr=II/JG26 note=Vitry-en-Artois/>
+								<unit bf109g.gr=III/JG26 note=Nordholz/>
+							</>
+						</>
+						<unit size=XX badge=air name="Jagdfliegerfuhrer 3." note="Deauville">
+							<unit bf109g.gr=I/JG27 note=Marignane/>
+						</>
+						<unit size=XX badge=air name="Jagdfliegerfuhrer 4." note="Rennes">
+						</>
+						<unit size=XX badge=air name="Jagdfliegerfuhrer Paris" note="Paris">
+						</>
+					</>
+					<unit luftgau="Belgien-Nordfrankreich" note="Brussels"/>
+					<unit luftgau="Holland" note="Amsterdam"/>
+					<unit luftgau="Westfrankreich" note="Etampes"/>
+				</>
+				<unit size=XXXX badge=air name="Luftflotte 4" note="Southern Russia: Dniepropetrovsk">
+					<unit size=XXX badge=air name="I. Fliegerkorps" note="Simferopol">
+						<unit bf109g.gr=II/JG52 note=Anapa/>
+						<unit bf109g.gr=III/JG52 note=Ugrim/>
+						<unit bf109g.st=13.(slow.)/JG52 note=Grammatikovo(?)/>
+						<unit bf109g.st=15.(kroat.)/JG52 note=Anapa/>
+					</>
+					<unit size=XXX badge=air name="IV. Fliegerkorps" note="Sal'sk/Kirovograd">
+					</>
+					<unit size=XXX badge=air name="VIII. Fliegerkorps" note="Mikoyanovka">
+						<unit bf109g.gr=II/JG3 note=Kharkov-Rogany/>
+						<unit bf109g.gr=III/JG3 note=Bessonovka/>
+						<unit bf109g.gr=I/JG52 note=Bessonovka/>
+						<unit size="I I I" badge=la.bmb name=StG2 note=Kharkov>
+							<unit ju87d.stab=StG2 />
+							<unit ju87d.gr=I/StG2 />
+							<unit ju87d.gr=II/StG2 />
+							<unit ju87d.gr=III/StG2 />
+						</>
+					</>
+					<unit size=XXX badge=air name="Rumanische Fliegerkorps" note="?">
+					</>
+					<unit size=XX badge=air name="Seefliegerfuhrer Black Sea" note="Simferopol">
+					</>
+					<unit size=XX badge=air name="Jagdfliegerfuhrer Rumanien" note="Otopeni">
+						<unit bf109g.gr=I/JG4 note=Mizil />
+						<unit bf110n.gr=IV/NJG6 note=Otopeni/>
+					</>
+					<unit flak.div=5>
+						<unit flak.reg=190 note=Ploesti>
+						</>
+						<unit flak.reg=202 note=Costanza>
+						</>
+					</>
+					<unit luftgau=25 note="Dniepropetrovsk"/>
+				</>
+				<unit size=XXXX badge=air name="Luftflotte 5" note="Norway and Finland: Oslo">
+					<unit size=XX badge=air name="Fliegerfuhrer Nord (Ost)" note="Kirkenes">
+						<unit size="I I I" badge=ftr name=JG5 note=Petsamo>
+							<unit bf109g.stab=JG5 />
+							<unit bf109g.gr=II/JG5 note=Alakurtti/>
+							<unit bf109g.gr=III/JG5 />
+						</>
+					</>
+					<unit size=XX badge=air name="Fliegerfuhrer Nord (West)" note="Trondheim">
+						<unit bf109g.gr=IV/JG5 />
+					</>
+					<unit size=XX badge=air name="Fliegerfuhrer Lofoten" note="Bardufoss">
+					</>
+					<unit size=XX badge=air name="Jagdfliegerfuhrer Norwegen" note="Stavanger">
+						<unit bf109g.gr=I/JG5 />
+					</>
+					<unit flak.bg=13>
+						<unit flak.reg=142>
+							<unit flak.bn=II/46/>
+							<unit flak.bn=I/47/>
+						</>
+						<unit flak.reg=181>
+							<unit flak.bn=72/>
+						</>
+						<unit flak.reg=229>
+							<unit flak.bn=171/>
+						</>
+					</>
+					<unit flak.bg=14>
+						<unit flak.reg=83 note=Lofoten>
+						</>
+						<unit flak.reg=92 note=Stavanger>
+						</>
+						<unit flak.reg=152 note=Trondheim>
+						</>
+						<unit flak.reg=162 note=Oslo>
+						</>
+					</>
+					<unit luftgau=Finnland note="Rovaniemi"/>
+					<unit luftgau=Norwegen note="Oslo"/>
+				</>
+				<unit size=XXXX badge=air name="Luftflotte 6" note="Smolensk">
+					<unit size=XX badge=air name="1. Fliegerdivision" note="Orel">
+						<unit fw190a.gr=I/JG51 note=Orel/>
+						<unit bf109g.gr=III/JG51 note=Orel/>
+						<unit bf109g.gr=IV/JG51 note=Orel/>
+						<unit fw190a.gr=I/JG54 note=Orel/>
+						<unit fw190a.gr=II/JG54 note=Orel/>
+						<unit bf110.gr=I/ZG1 note=Leda-Ost/>
+						<unit size="I I I" badge=la.bmb name=StG1 note=Orel>
+							<unit ju87d.stab=StG1 note=Orel/>
+							<unit ju87d.gr=I/StG1 note=Orel/>
+							<unit ju87d.gr=II/StG1 note=Orel/>
+							<unit ju87d.gr=III/StG1 note=Orel/>
+						</>
+					</>
+					<unit size=XX badge=air name="4. Fliegerdivision" note="Smolensk">
+					</>
+					<unit luftgau=27 note="Smolensk">
+					</>
+					<unit flak.div=12>
+						<unit flak.reg=21>
+						</>
+						<unit flak.reg=34>
+						</>
+						<unit flak.reg=101>
+						</>
+					</>
+					<unit flak.div=18>
+						<unit flak.bg=10>
+							<unit flak.reg=6>
+								<unit flak.bn=I/141/>
+								<unit flak.bn=II/441/>
+								<unit flak.bn=741/>
+								<unit flak.bn=841/>
+							</>
+							<unit flak.reg=10>
+								<unit flak.bn=II/14/>
+								<unit flak.bn=76/>
+							</>
+							<unit flak.reg=35>
+							</>
+						</>
+						<unit flak.reg=125>
+							<unit flak.bn=II/4/>
+						</>
+						<unit flak.reg=133>
+							<unit flak.bn=II/23/>
+						</>
+						<unit flak.bn=74/>
+						<unit flak.bn=93/>
+						<unit flak.bn=II/26/>
+						<unit flak.bn=I/52/>
+					</>
+				</>
+				<unit size=XXXX badge=air name="Luftwaffenbefelhshaber Mitte" note="Berlin-Wannsee">
+					<unit size=XXX badge=air name="XII. Fliegerkorps" note="Zeist">
+						<unit size=XX badge=air name="1. Jagddivision" note="Deelen">
+							<unit size="I I I" badge=ftr name=JG1 note=Deelen>
+								<unit fw190a.stab=JG1 />
+								<unit fw190a.gr=I/JG1 />
+								<unit fw190a.gr=II/JG1 />
+								<unit fw190a.gr=III/JG1 />
+							</>
+							<unit bf109g.gr="JG25 (Nord ObdL)" note=Gardelegen/>
+							<unit bf109g.gr=III/JG54 note=Deelen/>
+							<unit bf109g.gr=IV/JG54 note=Jesau/>
+							<unit size="I I I" badge=ftr name=JG300 note=Deelen>
+								<unit fw190a.stab=JG300 />
+								<unit bf109g.gr=I/JG300 />
+								<unit fw190a.gr=II/JG300 />
+								<unit bf109g.gr=III/JG300 />
+							</>
+							<unit size="I I I" badge=ftr name=NJG1 note=Deelen>
+								<unit bf110n.stab=NJG1 />
+								<unit bf110n.gr=I/NJG1 />
+								<unit bf110n.gr=II/NJG1 />
+								<unit bf110n.gr=III/NJG1 />
+								<unit bf110n.gr=IV/NJG1 />
+							</>
+							<unit bf110n.gr=IV/NJG5 note="Half of the Gruppe were do217's"/>
+						</>
+						<unit size=XX badge=air name="2. Jagddivision" note="Stade">
+							<unit size="I I I" badge=ftr name=JG2 note=Beaumont-le-Roger>
+								<unit fw190a.stab=JG2 />
+								<unit fw190a.gr=I/JG2 />
+								<unit fw190a.gr=II/JG2 />
+								<unit fw190a.gr=III/JG2 />
+							</>
+							<unit size="I I I" badge=ftr name=JG11 note=Jever>
+								<unit bf109g.stab=JG11 />
+								<unit bf109g.gr=I/JG11 note=Husum/>
+								<unit bf109g.gr=II/JG11 note=Jever/>
+								<unit bf109g.gr=III/JG11 note=Oldenburg/>
+							</>
+							<unit size="I I I" badge=ftr name=NJG3 note=Stade>
+								<unit bf110n.stab=NJG3 />
+								<unit bf110n.gr=I/NJG3 />
+								<unit do217.gr=II/NJG3 note="Do217's were divided btwn I and II"/>
+								<unit bf110n.gr=III/NJG3 />
+								<unit ju88c.gr=IV/NJG3 />
+							</>
+						</>
+						<unit size=XX badge=air name="3. Jagddivision" note="Metz">
+							<unit size="I I I" badge=ftr name=NJG4 note=Metz>
+								<unit bf110n.stab=NJG4 />
+								<unit bf110n.gr=I/NJG4 />
+								<unit do217.gr=II/NJG4 note="Do217's were divided btwn I and II"/>
+								<unit bf110n.gr=III/NJG4 />
+								<unit bf110n.gr=IV/NJG4 />
+							</>
+						</>
+						<unit size=XX badge=air name="4. Jagddivision" note="Doberitz">
+							<unit size="I I I" badge=ftr name=JG3 note=Beaumont-le-Roger>
+								<unit bf109g.stab=JG3 />
+								<unit bf109g.gr=I/JG3 />
+							</>
+							<unit size="I I I" badge=ftr name=NJG5 note=Doberitz>
+								<unit bf110n.stab=NJG5 />
+								<unit bf110n.gr=I/NJG5 />
+								<unit bf110n.gr=II/NJG5/>
+								<unit bf110n.gr=III/NJG5 />
+							</>
+						</>
+						<unit size=XX badge=air name="5. Jagddivision" note="Schleissheim (Munich)">
+							<unit size="I I I" badge=ftr name=ZG101 note=Memmingen>
+								<unit bf110.stab=ZG101 />
+								<unit bf110.gr=I/ZG101 />
+								<unit bf110.gr=II/ZG101 note="Bad Aibling"/>
+							</>
+							<unit ju88c.gr=III/NJG2 />
+							<unit size="I I I" badge=ftr name=NJG101 note=Schleissheim>
+								<unit bf110n.stab=NJG101 />
+								<unit bf110n.gr=I/NJG101 note="half bf109T"/>
+								<unit do217.gr=II/NJG101 />
+								<unit bf110n.gr=III/NJG101 />
+								<unit bf110n.gr=IV/NJG101 />
+							</>
+						</>
+					</>
+					<unit luftgau=1 note="Konigsberg"/>
+					<unit luftgau=3 note="Berlin"/>
+					<unit luftgau=4 note="Munster"/>
+					<unit luftgau=7 note="Munich"/>
+					<unit luftgau=8 note="Krakow"/>
+					<unit luftgau=11 note="(includes Denmark)?"/>
+					<unit luftgau=12 note="?"/>
+					<unit luftgau=17 note="?"/>
+				</>
+				<unit size=XXXX badge=air name="Luftwaffenkommando Sudost" note="Greece?">
+					<unit size=XXX badge=air name="X. Fliegerkorps" note="Athens">
+						<unit size="I I I" badge=ftr name=JG27 note=Kalamaki>
+							<unit bf109g.stab=JG27 />
+							<unit bf109g.gr=III/JG27 note=Tanagra/>
+							<unit bf109g.gr=IV/JG27 note=Kalamaki/>
+						</>
+						<unit size=XX badge=air name="Fliegerfuhrer Kreta" note="Heraklion">
+						</>
+					</>
+					<unit luftgau=29 note="Athens"/>
+					<unit luftgau=30 note="Belgrade"/>
+				</>
+			</>
+			<unit name=OKM>
+				<unit port=Kiel/>
+				<unit port=Konigsberg/>
+				<unit port=Danzig/>
+				<unit port=Stettin/>
+				<unit port=Riga/>
+				<unit port=Tallinn/>
+			</unit>
+		</unit>
+	</combatant>
+	<combatant colors=Finnish name=Finland>
+		<unit fills=3 loads=2 tip=400 commander=Mannerheim name="Finnish Forces">
+			<unit ref=ghq />
+			<unit ref=14i />
+			<unit bdr.bn=6 />
+			<unit erp.bn=Olonets />
+			<unit erp.bn=4 />
+			<unit ref=laat />
+			<unit uid=turku size="I I" badge=aa name="Turku Air Defense">
+				<unit aa75s.co=60 />
+				<unit aa75s.co=61 />
+				<unit aa75s.co=62 />
+				<unit aa75sk.co=sk1 />
+				<unit aa75sk.co=sk2 />
+				<unit aa75sk.co=sk3 />
+				<unit aa75sk.co=sk4 />
+				<unit aa75sk.co=sk5 />
+			</unit>
+			<unit rail.art.1.co=1/>
+			<unit rail.art.2.co=2/>
+			<unit ref=3ak>
+				<unit ref=3i />
+				<unit bdr.bn=7 />
+				<unit bdr.bn=8 />
+			</unit>
+			<unit ref=kan commander=Ohquist >
+				<unit ref=2i />
+				<unit ref=10i />
+				<unit ref=15i />
+				<unit ref=18i />
+				<unit ref=19ix />
+				<unit ref=cx />
+				<unit art.bn=? />
+				<unit bdr.bn=1 />
+				<unit bdr.bn=2 />
+				<unit tribal.bn=3/>
+				<unit coast.reg=2 />
+			</unit>
+			<unit ref=maas commander=Laatikainen >
+				<unit ref=1i />
+				<unit ref=4i />
+				<unit ref=6i />
+				<unit ref=3ix />
+				<unit ref=12ix />
+				<unit inf.reg=101 />
+				<unit erp.bn=23 />
+				<unit bdr.bn=5 />
+			</unit>
+			<unit ref=olonets commander=Oesch >
+				<unit ref=5ak commander=Makinen >
+					<unit ref=7i />
+					<unit ref=11i />
+				</unit>
+				<unit ref=6ak commander="Lagus (acting)" >
+					<unit ref=p />
+					<unit ref=5i />
+					<unit ref=8i />
+					<unit ref=17i />
+					<unit bdr.bn=3 />
+				</unit>
+				<unit ref=15ix/>
+				<unit ref=aan >
+					<unit erp.bn=1 />
+					<unit erp.bn=2 />
+				</unit>
+			</unit>
+			<unit uid=1air size="I I I" badge=air name="1st Regiment">
+				<unit air.sqdn=12/>
+				<unit air.sqdn=32/>
+			</unit>
+			<unit uid=2air size="I I I" badge=ftr name="2nd Regiment">
+				<unit ftr.sqdn=16/>
+				<unit ftr.sqdn=28/>
+			</unit>
+			<unit uid=3air size="I I I" badge=ftr name="3rd Regiment">
+				<unit ftr.sqdn=24/>
+				<unit ftr.sqdn=26/>
+				<unit ftr.sqdn=34/>
+			</unit>
+			<unit uid=4air size="I I I" badge=air name="4th Regiment">
+				<unit air.sqdn=42/>
+				<unit air.sqdn=44/>
+				<unit air.sqdn=46/>
+				<unit air.sqdn=48/>
+			</unit>
+			<unit uid=5air size="I I I" badge=air name="5th Regiment">
+				<unit air.sqdn=6/>
+				<unit air.sqdn=30/>
+			</unit>
+		</unit>
+	</combatant>
+	<combatant fills=2 loads=1 colors=Bulgarian name=Bulgaria>
+		<unit tip=1 name=Bulgarian>
+			<unit uid=ghq size=XXXXX army.hq="Bulgarian Army HQ" abbreviation=HQ >
+				<unit badge=aa size="I I I" name="Air Defense">
+					<unit reg.hq="Air Defense"/>
+					<unit aa.bn=1/>
+					<unit aa.bn=2/>
+					<unit aa.bn=3/>
+					<unit aa.bn=4/>
+				</unit>
+				<unit rail.reg=B/>
+				<unit bridge.bn=B/>
+				<unit veh.bn=B/>
+				<unit sig.bn=B/>
+			</unit>
+			<unit army=1 >
+				<hq>
+					<unit eng.bn=1/>
+					<unit sig.bn=1/>
+				</>
+				<unit inf.div=1 />
+				<unit inf.div=11 />
+				<unit ind.art.reg=1/>
+				<unit at.reg=1 />
+			</unit>
+			<unit army=2 >
+				<hq>
+					<unit eng.bn=2/>
+					<unit sig.bn=2/>
+				</>
+				<unit inf.div=2/>
+				<unit inf.div=8/>
+				<unit inf.div=10/>
+				<unit ind.art.reg=2/>
+				<unit at.reg=2/>
+			</unit>
+			<unit army=3 >
+				<hq>
+					<unit eng.bn=3/>
+					<unit sig.bn=3/>
+				</>
+				<unit inf.div=3/>
+				<unit inf.div=4/>
+				<unit inf.div=12 />
+				<unit ind.art.reg=3/>
+				<unit at.reg=3/>
+			</unit>
+			<unit army=4 >
+				<hq>
+					<unit eng.bn=4/>
+					<unit sig.bn=4/>
+				</>
+				<unit inf.div=5/>
+				<unit inf.div=6/>
+				<unit ind.art.reg=4/>
+				<unit at.reg=4/>
+			</unit>
+			<unit army=5 >
+				<unit inf.div=14/>
+				<unit inf.div=15/>
+			</unit>
+			<unit cav.div=2/>
+			<unit inf.div=16/>
+			<unit inf.div=17/>
+			<unit uid=tx arm.bg=_ name=Armored/>
+			<unit bdr.bg=1/>
+			<unit bdr.bg=2/>
+			<unit bdr.bg=3/>
+			<unit bdr.bg=4/>
+		</unit>
+	</combatant>
+	<combatant colors=Romanian name=Romania>
+		<unit commander=Steflea name="General Headquarters">
+			<unit uid=ghq size=XXXXX badge=hq3 army.hq="General Headquarters" />
+			<unit ref=1army commander=Macici >
+			</>
+			<unit ref=3army commander=Dumitrescu >
+			</>
+			<unit ref=4army commander=Sanatescu>
+			</>
+				<unit ref=1ac commander=Boiteanu >
+				</>
+				<unit ref=2ac commander=Dascalescu >
+				</>
+				<unit ref=3ac commander=Schwab >
+				</>
+				<unit ref=4ac commander=Rozin >
+				</>
+				<unit ref=5ac commander=Niculescu >
+				</>
+		</>
+	</combatant>
+	<combatant colors=Hungarian name=Hungary>
+		<unit commander=Szombathelyi name=Honved >
+			<unit army.hq=Honved uid=honved size=XXXXX badge=hq3 />
+		</>
+	</combatant>
+	<combatant colors=Italian name=Italy>
+		<unit name=Italia>
+			<unit uid=sforzesca abbreviation=Sf inf.div=Sforzesca/>
+			<unit uid=sassari abbreviation=Sa inf.div=Sassari/>
+			<unit uid=granatieri abbreviation=GS inf.div="Granatieri di Sardegna"/>
+			<unit uid=taro abbreviation=T inf.div=Taro/>
+			<unit uid=piceno abbreviation=Pc inf.div=Piceno />
+			<unit uid=graie abbreviation=AG alpini.div="Alpi Graie" />
+			<unit uid=piave abbreviation=Pv mot.div=Piave/>
+			<unit uid=piacenza abbreviation=Pz smot.div=Piacenza />
+			<unit uid=rovigo abbreviation=Ro smot.div=Rovigo />
+			<unit uid=ravenna abbreviation=R inf.div=Ravenna note=reforming />
+			<unit uid=cosseria abbreviation=Co inf.div=Cosseriaa note=reforming />
+			<unit uid=murge abbreviation=Mu inf.div=Murge note=reforming />
+			<unit uid=tridentina abbreviation=Tr alpini.div=Tridentina note=reforming />
+			<unit uid=julia abbreviation=Ju alpini.div=Julia note=reforming />
+			<unit uid=cuneense abbreviation=Cn alpini.div=Cuneense note=reforming />
+			<unit uid=duca abbreviation=AD celere.div="Amedeo Duca d'Aosta" note=reforming />
+			<unit uid=pistoia abbreviation=Pt mot.div=Pistoia note=reforming/>
+			<unit uid=pasubio abbreviation=Pb smot.div=Pasubio note=reforming />
+			<unit uid=torino abbreviation=Tr smot.div=Torino note=reforming />
+			<unit uid=ariete abbreviation=Ar arm.div="Ariete II" note=reforming />
+			<unit uid=centauro abbreviation=Cn arm.div="Centauro II" note=reforming />
+		</>
+		<unit name=Sicilia>
+			<unit uid=livorno abbreviation=Li inf.div=Livorno/>
+			<unit uid=aosta abbreviation=Ao inf.div=Aosta/>
+			<unit uid=napoli abbreviation=Na inf.div=Napoli/>
+			<unit uid=assietta abbreviation=As mtn.div=assietta />
+			<unit uid=nembo abbreviation=Nm para.div=Nembo/>
+			<unit uid=mantova abbreviation=Mv smot.div=Mantova />
+		</>
+		<unit name=Croatia>
+			<unit uid=lombardia abbreviation=L inf.div=Lombardia/>
+			<unit uid=re abbreviation=R inf.div=Re/>
+			<unit uid=isonzo abbreviation=Is inf.div=Isonzo/>
+			<unit uid=bergamo abbreviation=Be inf.div=Bergamo/>
+			<unit uid=messina abbreviation=Me inf.div=Messina />
+			<unit uid=venezia abbreviation=V inf.div=Venezia />
+			<unit uid=alpi abbreviation=CA inf.div="Cacciatori delle Alpi" />
+			<unit uid=ferrara abbreviation=Fe inf.div=Ferrara />
+			<unit uid=arezzo abbreviation=Az inf.div=Arezzo />
+			<unit uid=perugia abbreviation=Pe inf.div=Perugia />
+			<unit uid=macerata abbreviation=Ma inf.div=Macerata />
+			<unit uid=emelia abbreviation=Em inf.div=Emelia />
+			<unit uid=zara abbreviation=Z inf.div=Zara />
+			<unit uid=veneto abbreviation=Ve inf.div=Veneto />
+			<unit uid=taurinense abbreviation=Ta alpini.div=Taurinense />
+			<unit uid=eugenio abbreviation=ES celere.div="Eugenio di Savoia" />
+		</>
+		<unit name=Albania>
+			<unit uid=marche abbreviation=M inf.div=Marche/>
+			<unit uid=puglie abbreviation=Pu inf.div=Puglie/>
+			<unit uid=firenze abbreviation=Fi inf.div=Firenze/>
+			<unit uid=parma abbreviation=Pa inf.div=Parma/>
+		</>
+		<unit name=Greece>
+			<unit name="11th Army">
+				<unit uid=brennero abbreviation=Br inf.div=Brennero />
+				<unit uid=pinerolo abbreviation=Pi inf.div=Pinerolo />
+				<unit uid=piemonte abbreviation=Pm inf.div=Piemonte />
+				<unit uid=acqui abbreviation=Aq inf.div=Acqui />
+				<unit uid=modena abbreviation=Mo inf.div=Modena />
+				<unit uid=casale abbreviation=Cs inf.div=Casale />
+				<unit uid=cagliari abbreviation=Cg inf.div=Cagliari />
+				<unit uid=forli abbreviation=F mtn.div=Forli />
+			</>
+		</>
+		<unit name=Aegean>
+			<unit uid=cuneo abbreviation=Cu inf.div=Cuneo/>
+			<unit uid=regina abbreviation=Rg inf.div=Regina/>
+		</>
+		<unit name=Sardinia>
+			<unit uid=sabauda abbreviation=Sb inf.div=Sabauda />
+			<unit uid=calabria abbreviation=Ca inf.div=Calabria />
+			<unit uid=cremona abbreviation=Cr inf.div=Cremona />
+			<unit uid=bardi abbreviation=Ba inf.div=Bardi />
+		</>
+		<unit name=France>
+			<unit uid=toscana abbreviation=LT inf.div="Lupi di Toscana"/>
+			<unit uid=friuli abbreviation=Fr inf.div=Friuli/>
+			<unit uid=legnano abbreviation=Le inf.div=Legnano/>
+			<unit uid=pusteria abbreviation=Ps alpini.div=Pusteria />
+			<unit uid=emanuele abbreviation=EF celere.div="Emanuele Filiberto Testa di Ferro" />
+		</>
+	</combatant>
+	<combatant colors=Slovakian name=Slovakia>
+	</combatant>
+	<combatant name="Soviet Union">
+		<unit fills=2 loads=1 tip=100 commander=Stalin ref=stavka>
+
+				- Karelian Front -
+
+			<unit tip=400 ref=Karelian.front >
+				<hq>
+					<unit aero.bn=28/>
+					<unit aa.bn=32/>
+					<unit sp.pur.eng.bg=1/>
+					<unit sap.bn=733/>
+					<unit armd.trn=27/>
+				</hq>
+				<unit ref=14army >
+					<hq>
+						<unit eng.bn=31/>
+						<unit aa.reg=156/>
+						<unit aa.bn=325/>
+						<unit aa.bn=487/>
+					</>
+					<unit ref=10gr >
+						<unit mort.reg=275/>
+					</unit>
+					<unit ref=14r >
+						<unit cannon.reg=1236/>
+					</unit>
+					<unit ski.bg=31/>
+					<unit naval.bg=72>
+						<unit mort.reg=297/>
+					</unit>
+					<unit rocket.reg=41/>
+				</unit>
+				<unit ref=19army >
+					<hq>
+						<unit eng.bn=279/>
+						<unit aa.reg=186/>
+						<unit aa.bn=261/>
+						<unit aa.bn=298/>
+					</hq>
+					<unit disable colors=NKVD nkvd.reg=101/>
+					<unit ref=104r/>
+					<unit ref=122r>
+						<unit mort.reg=566/>
+						<unit at.reg=438/>
+					</unit>
+					<unit tank.bn=377/>
+					<unit tank.bn=429/>
+					<unit naval.bg=77/>
+					<unit rocket.reg=53/>
+				</unit>
+				<unit ref=26army >
+					<hq>
+						<unit aero.bn=2/>
+						<unit aero.bn=3/>
+						<unit aero.bn=24/>
+						<unit aero.bn=25/>
+						<unit aa.reg=272/>
+						<unit aa.bn=48/>
+						<unit aa.bn=369/>
+						<unit eng.bn=170/>
+					</hq>
+					<unit ref=31rk >
+						<unit ref=45r>
+							<unit at.reg=444/>
+							<unit mort.reg=172/>
+						</unit>
+						<unit ref=205r>
+							<unit cannon.reg=471/>
+						</unit>
+						<unit naval.bg=85/>
+						<unit naval.bg=61/>
+					</unit>
+					<unit ref=27r>
+						<unit at.reg=441/>
+						<unit mort.reg=278/>
+					</unit>
+					<unit ref=54r/>
+					<unit tank.bn=374/>
+					<unit tank.bn=375/>
+					<unit mort.reg=565/>
+					<unit rocket.reg=52/>
+					<unit ski.bg=32/>
+				</unit>
+				<unit ref=32army >
+					<hq>
+						<unit aero.bn=21/>
+						<unit aero.bn=22/>
+						<unit aero.bn=26/>
+						<unit aa.reg=275/>
+						<unit aa.bn=208/>
+						<unit aa.bn=446/>
+						<unit eng.bn=261/>
+					</hq>
+					<unit ref=289r>
+						<unit at.reg=645/>
+						<unit mort.reg=298/>
+					</unit>
+					<unit ref=313r/>
+					<unit ref=367r>
+						<unit cannon.reg=1237/>
+					</unit>
+					<unit tank.bn=376/>
+					<unit naval.bg=65>
+						<unit mort.reg=280/>
+					</unit>
+					<unit naval.bg=80>
+						<unit mort.reg=173/>
+					</unit>
+					<unit ski.bg=33/>
+					<unit rocket.reg=63/>
+				</unit>
+				<unit ref=7air.army >
+					<hq>
+						<unit aa.reg=1598/>
+						<unit aa.reg=1599/>
+						<unit air.recon.sqd=118/>
+						<unit corr.air.sqd=42/>
+						<unit air.recon.sqd=108/>
+						<unit trans.air.reg=679/>
+					</>
+					<unit mix.air.div=258/>
+					<unit mix.air.div=260/>
+					<unit mix.air.div=261/>
+					<unit ftr.air.reg=152/>
+					<unit ftr.air.reg=195/>
+				</unit>
+			</unit>
+
+				- 7th Independent Army -
+
+			<unit ref=7army >
+				<hq>
+					<unit aero.bn=14/>
+					<unit aero.bn=16/>
+					<unit aa.reg=1650/>
+					<unit aa.bn=54/>
+					<unit aa.bn=268/>
+					<unit aa.bn=616/>
+					<unit gds.sap.bn=1/>
+					<unit eng.bn=18/>
+				</>
+				<unit tank.bn=363/>
+				<unit tank.bn=431/>
+				<unit naval.bg=70/>
+				<unit naval.bg=3>
+					<unit at.reg=460/>
+				</unit>
+				<unit ref=4rk >
+					<unit ref=272r/>
+					<unit ref=368r/>
+					<unit naval.bg=69/>
+				</unit>
+				<unit ref=21r>
+					<unit mort.reg=530/>
+				</unit>
+				<unit ref=67r>
+					<unit at.bn=354/>
+				</unit>
+				<unit ref=114r>
+					<unit at.reg=514/>
+				</unit>
+				<unit rocket.reg=46/>
+				<unit rocket.reg=64/>
+				<unit fort.area=162/>
+			</unit>
+
+				- Leningrad Front - 
+
+			<unit tip=400 ref=Leningrad.front>
+				<hq>
+					<unit aero.bn=5/>
+					<unit aero.bn=17/>
+					<unit aero.bn=39/>
+					<unit aero.bn=42/>
+					<unit aa.reg=785/>
+					<unit aa.reg=803/>
+					<unit aa.bn=15/>
+					<unit sp.pur.eng.bg=2/>
+					<unit eng.bg=52/>
+					<unit bridge.bg=3/>
+					<unit bridge.reg=5/>
+					<unit eng.bn=106/>
+					<unit eng.bn=267/>
+					<unit gds.bridge.bn=1/>
+					<unit bridge.bn=21/>
+					<unit bridge.bn=42/>
+				</>
+				<unit ref=2shock>
+					<hq>
+						<unit badge=aa size=XX name="43rd Anti-Aircraft">
+							<unit aa.reg=464/>
+							<unit aa.reg=635/>
+							<unit aa.reg=1463/>
+							<unit aa.reg=1464/>
+							<unit aa.bn=108/>
+						</unit>
+						<unit eng.bn=770/>
+						<unit sap.bn=734/>
+					</hq>
+					<unit ref=43rk >
+						<unit ref=11r/>
+						<unit ref=128r/>
+						<unit ref=314r/>
+						<unit cannon.reg=21/>
+						<unit at.reg=884/>
+						<unit mort.reg=104/>
+						<unit gds.mort.reg=230/>
+						<unit rocket.reg=30/>
+						<unit gds.shh.bg=21/>
+						<unit tank.reg=98/>
+					</unit>
+					<unit ref=86r>
+						<unit cannon.reg=28/>
+						<unit at.reg=882/>
+						<unit mort.reg=504/>
+						<unit shg.bn=400/>
+						<unit cannon.reg=311/>
+					</unit>
+					<unit ref=376r>
+						<unit mort.reg=193/>
+						<unit mort.reg=144/>
+						<unit tank.bn=86/>
+					</unit>
+					<unit rifle.bg=55>
+						<unit rocket.reg=20/>
+						<unit cannon.reg=561/>
+						<unit cannon.reg=1106/>
+					</unit>
+					<unit rifle.bg=123>
+						<unit how.reg=754/>
+						<unit mort.reg=122/>
+					</unit>
+					<unit naval.bg=73>
+						<unit tank.bn=116/>
+						<unit mort.reg=281/>
+					</unit>
+					<unit fort.area=16/>
+				</unit>
+				<unit ref=23army>
+					<hq>
+						<unit armd.trn=14/>
+						<unit aa.bn=618/>
+						<unit eng.bn=234/>
+						<unit eng.bn=363/>
+					</>
+					<unit note="Quiet sector, under strength" ref=10r>
+						<unit cannon.reg=336/>
+					</unit>
+					<unit ref=142r>
+						<unit how.reg=599/>
+						<unit at.reg=883/>
+					</unit>
+					<unit ref=201r>
+						<unit at.reg=94/>
+						<unit mort.reg=276/>
+					</unit>
+					<unit ref=92r>
+						<unit cannon.reg=260/>
+					</unit>
+					<unit fort.area=17>
+						<unit mort.reg=174/>
+					</unit>
+					<unit fort.area=22/>
+				</unit>
+				<unit ref=42army>
+					<hq>
+						<unit size=XX badge=aa name="7th Anti-Aircraft">
+							<unit aa.div.hq=7/>
+							<unit aa.reg=465/>
+							<unit aa.reg=474/>
+							<unit aa.reg=602/>
+							<unit aa.reg=632/>
+						</unit>
+						<unit armd.trn=72/>
+						<unit aa.reg=631/>
+						<unit aa.bn=72/>
+						<unit eng.bn=54/>
+						<unit eng.bn=585/>
+					</>
+					<unit ref=56r>
+						<unit at.reg=304/>
+						<unit gds.cannon.reg=14/>
+						<unit ac.bn=2/>
+					</unit>
+					<unit ref=85r>
+						<unit at.reg=705/>
+						<unit mort.reg=534/>
+						<unit su.reg=1439/>
+					</unit>
+					<unit ref=109r>
+						<unit at.reg=509/>
+						<unit cannon.reg=73/>
+						<unit note=KVs gds.hvy.tank.reg=49/>
+					</unit>
+					<unit ref=125r>
+						<unit at.reg=760/>
+						<unit cannon.reg=1486/>
+						<unit rocket.reg=320/>
+						<unit tank.bg=1/>
+					</unit>
+					<unit ref=189r>
+						<unit at.reg=384/>
+						<unit mort.reg=533/>
+					</unit>
+					<unit ref=18a >
+						<unit how.bg=38/>
+						<unit cannon.bg=51/>
+						<unit la.bg=65/>
+						<unit mort.bg=15/>
+					</unit>
+					<unit fort.area=79>
+						<unit shh.reg=324/>
+						<unit gds.cannon.reg=12/>
+					</unit>
+				</unit>
+				<unit ref=55army>
+					<hq>
+						<unit armd.trn=71/>
+						<unit aa.reg=970/>
+						<unit aa.bn=71/>
+						<unit aa.bn=613/>
+						<unit aa.bn=758/>
+						<unit eng.bn=325/>
+						<unit eng.bn=367/>
+					</>
+					<unit ref=13r>
+						<unit rocket.reg=322/>
+						<unit cannon.reg=126/>
+					</unit>
+					<unit ref=46r>
+						<unit tank.bg=152/>
+					</unit>
+					<unit ref=72r>
+						<unit mort.reg=134/>
+						<unit at.bn=301/>
+						<unit ac.bn=1/>
+					</unit>
+					<unit ref=131r>
+						<unit mort.reg=175/>
+						<unit rocket.reg=321/>
+					</unit>
+					<unit ref=196r>
+						<unit at.reg=690/>
+						<unit mort.reg=127/>
+					</unit>
+					<unit ref=224r>
+						<unit at.reg=289/>
+					</unit>
+					<unit ref=28a>
+						<unit la.bg=79/>
+						<unit how.bg=80/>
+						<unit cannon.bg=81/>
+						<unit mort.bg=42/>
+						<unit obs.bn=28/>
+					</unit>
+					<unit fort.area=14/>
+				</unit>
+				<unit ref=67army>
+					<hq>
+						<unit aa.reg=988/>
+						<unit aa.bn=73/>
+						<unit eng.bn=53/>
+						<unit eng.bn=447/>
+					</>
+					<unit ref=30grk >
+						<unit ref=45gr/>
+						<unit ref=63gr/>
+						<unit ref=64gr/>
+						<unit tank.bg=220/>
+						<unit shg.bn=409/>
+					</unit>
+					<unit ref=43r/>
+					<unit ref=90r>
+						<unit gds.hvy.tank.reg=31/>
+					</unit>
+					<unit ref=120r/>
+					<unit ref=123r>
+						<unit note=T-34/76s gds.tank.bg=30/>
+					</unit>
+					<unit ref=124r/>
+					<unit ref=268r/>
+				</unit>
+				<unit tip=400 ref=cog>
+					<hq>
+						<unit aa.bn=92/>
+						<unit aa.bn=116/>
+						<unit eng.bn=295/>
+					</>
+					<unit ref=48r>
+						<unit ac.bn=4/>
+						<unit shg.bn=190/>
+					</unit>
+					<unit ref=98r>
+						<unit mgun.bn=73/>
+						<unit shg.bn=196/>
+					</unit>
+					<unit ref=168r>
+						<unit mgun.bn=338/>
+						<unit tank.bn=287/>
+						<unit how.reg=519/>
+						<unit shg.bn=197/>
+					</unit>
+					<unit rifle.bg=50>
+						<unit mort.reg=184/>
+					</unit>
+					<unit naval.bg=48/>
+					<unit naval.bg=71/>
+				</unit>
+				<unit mar.reg=6/>
+				<unit mgun.bn=123/>
+				<unit mgun.bn=124/>
+				<unit mgun.bn=129/>
+				<unit mgun.bn=130/>
+				<unit mgun.bn=131/>
+				<unit mgun.bn=132/>
+				<unit mgun.bn=136/>
+				<unit tank.bg=222/>
+				<unit gds.hvy.tank.reg=46/>
+				<unit hvy.tank.reg=260/>
+				<unit hvy.tank.reg=261/>
+				<unit ac.bn=3/>
+				<unit rocket.bg=5/>
+				<unit rocket.bg=6/>
+				<unit rocket.reg=38/>
+				<unit rocket.reg=318/>
+				<unit rail.bg=1/>
+				<unit air.army=13>
+					<hq>
+						<unit corr.air.sqd=12/>
+						<unit corr.air.sqd=49/>
+						<unit air.recon.reg=13/>
+					</>
+					<unit bmb.air.div=276/>
+					<unit att.air.div=277/>
+					<unit ftr.air.div=240/>
+					<unit ftr.air.div=275/>
+				</unit>
+			</unit>
+			<unit ref=Volkhov.front >
+				<hq>
+					<unit aero.bn=34/>
+					<unit aero.bn=53/>
+					<unit aa.reg=707/>
+					<unit gds.aa.bn=11/>
+					<unit aa.bn=168/>
+					<unit aa.bn=461/>
+					<unit eng.bg=1/>
+					<unit gds.sp.pur.eng.bg=2/>
+					<unit gds.eng.bn=2/>
+					<unit eng.bn=40/>
+					<unit eng.bn=135/>
+					<unit sap.bn=539/>
+					<unit bridge.bn=34/>
+					<unit bridge.bn=36/>
+					<unit bridge.bn=38/>
+					<unit bridge.bn=159/>
+				</>
+				<unit ref=4army>
+					<hq>
+						<unit armd.trn=32/>
+						<unit aa.reg=1469/>
+						<unit bridge.bn=55/>
+					</>
+					<unit ref=288r>
+						<unit cannon.reg=1097/>
+					</unit>
+					<unit ref=44r>
+						<unit cannon.reg=1096/>
+					</unit>
+					<unit rifle.bg=53>
+						<unit mort.reg=192/>
+						<unit mgun.bn=206/>
+					</unit>
+					<unit rifle.bg=24/>
+				</unit>
+				<unit ref=8army>
+					<hq>
+						<unit size=XX badge=aa name="41st Anti-Aircraft">
+							<unit aa.div.hq=41/>
+							<unit aa.reg=244/>
+							<unit aa.reg=245/>
+							<unit aa.reg=463/>
+						</unit>
+						<unit size=XX badge=aa name="45th Anti-Aircraft">
+							<unit aa.div.hq=45/>
+							<unit aa.reg=737/>
+							<unit aa.reg=1465/>
+							<unit aa.reg=1466/>
+						</unit>
+						<unit aero.bn=32/>
+						<unit aero.bn=44/>
+						<unit armd.trn=50/>
+						<unit armd.trn=4/>
+						<unit aa.bn=177/>
+						<unit aa.bn=213/>
+						<unit eng.bn=112/>
+					</>
+					<unit ref=6rk/>
+					<unit ref=18r>
+						<unit mort.reg=500/>
+					</unit>
+					<unit ref=265r>
+						<unit tank.bg=185/>
+						<unit gds.hvy.tank.reg=32/>
+					</unit>
+					<unit ref=286r>
+						<unit gds.cannon.reg=71/>
+						<unit shh.reg=1197/>
+					</unit>
+					<unit ref=364r>
+						<unit tank.reg=25/>
+						<unit ac.bn=49/>
+					</unit>
+					<unit ref=372r>
+						<unit cannon.reg=70/>
+						<unit note=KVs gds.hvy.tank.reg=50/>
+					</unit>
+					<unit ref=374r>
+						<unit ac.bn=47/>
+						<unit gds.cannon.reg=223/>
+					</unit>
+					<unit ref=379r>
+						<unit shh.reg=430/>
+						<unit tank.bn=502/>
+					</unit>
+					<unit ref=382r>
+						<unit rocket.reg=319/>
+						<unit note=KVs gds.hvy.tank.reg=35/>
+					</unit>
+					<unit ref=2a>
+						<unit gds.how.bg=10/>
+						<unit cannon.bg=7/>
+						<unit la.bg=20/>
+						<unit mort.bg=5/>
+						<unit obs.bn=2/>
+					</unit>
+					<unit rifle.bg=1/>
+					<unit rifle.bg=22>
+						<unit tank.bn=107/>
+					</unit>
+					<unit rifle.bg=58>
+						<unit rocket.reg=29/>
+					</unit>
+				</unit>
+				<unit ref=54army>
+					<hq>
+						<unit aa.reg=634/>
+						<unit eng.bn=364/>
+					</>
+					<unit ref=80r>
+						<unit ac.bn=48/>
+					</unit>
+					<unit ref=115r>
+						<unit tank.bg=124/>
+					</unit>
+					<unit ref=177r>
+						<unit gds.cannon.reg=13/>
+					</unit>
+					<unit ref=198r>
+						<unit mort.reg=499/>
+					</unit>
+					<unit ref=281r/>
+					<unit ref=285r/>
+					<unit ref=311r/>
+					<unit rifle.bg=14/>
+				</unit>
+				<unit ref=59army>
+					<hq>
+						<unit armd.trn=48/>
+						<unit aa.reg=1468/>
+						<unit aa.reg=1469/>
+						<unit eng.bn=109/>
+						<unit eng.bn=771/>
+						<unit bridge.bn=32/>
+					</>
+					<unit ref=7rk>
+						<unit ref=225r/>
+						<unit ref=229r/>
+						<unit mort.reg=505/>
+					</unit>
+					<unit ref=2r>
+						<unit rocket.reg=28/>
+					</unit>
+					<unit ref=65r>
+						<unit mort.reg=506/>
+					</unit>
+					<unit ref=191r>
+						<unit cannon.reg=448/>
+					</unit>
+					<unit ref=310r/>
+					<unit ref=377r>
+						<unit cannon.reg=367/>
+					</unit>
+					<unit fort.area=2/>
+					<unit fort.area=150/>
+					<unit tank.bg=29/>
+				</unit>
+				<unit ref=165r>
+					<unit tank.bn=500/>
+				</unit>
+				<unit ref=239r>
+					<unit su.reg=1434/>
+				</unit>
+				<unit ref=256r>
+					<unit shom.bn=315/>
+					<unit tank.bn=503/>
+				</unit>
+				<unit ref=378r>
+					<unit gds.cannon.reg=8/>
+					<unit mort.reg=194/>
+				</unit>
+				<unit gds.tank.bg=7/>
+				<unit tank.bg=16/>
+				<unit tank.bg=122/>
+				<unit gds.hvy.tank.reg=33/>
+				<unit su.reg=1433/>
+				<unit tank.bn=501/>
+				<unit tank.bn=507/>
+				<unit shom.bn=317/>
+				<unit mort.bg=30/>
+				<unit rocket.bg=7/>
+				<unit rocket.bg=10/>
+				<unit rocket.bg=12/>
+				<unit rail.bg=2/>
+				<unit ref=14air.army>
+					<hq>
+						<unit aa.reg=1606/>
+						<unit aa.reg=1607/>
+						<unit corr.air.sqd=44/>
+						<unit air.recon.sqd=8/>
+						<unit trans.air.reg=844/>
+					</>
+					<unit bmb.air.div=280/>
+					<unit att.air.div=281/>
+					<unit ftr.air.reg=845/>
+				</unit>
+			</unit>
+			<unit tip=200 ref=Northwestern.front>
+				<hq>
+					<unit size=XX badge=aa name="42nd Anti-Aircraft">
+						<unit aa.div.hq=42/>
+						<unit aa.reg=620/>
+						<unit aa.reg=709/>
+						<unit aa.reg=714/>
+					</unit>
+					<unit size=XX badge=aa name="47th Anti-Aircraft">
+						<unit aa.div.hq=47/>
+						<unit aa.reg=1585/>
+						<unit aa.reg=1586/>
+						<unit aa.reg=1591/>
+						<unit aa.reg=1592/>
+					</unit>
+					<unit aero.bn=11/>
+					<unit aero.bn=18/>
+					<unit aero.bn=19/>
+					<unit aero.bn=35/>
+					<unit aero.bn=36/>
+					<unit aero.bn=57/>
+					<unit aero.bn=66/>
+					<unit aa.bn=246/>
+					<unit aa.bn=250/>
+					<unit sp.pur.eng.bg=41/>
+					<unit eng.bn=222/>
+					<unit eng.bn=223/>
+				</>
+				<unit ref=1shock>
+					<hq>
+						<unit aa.reg=1473/>
+						<unit aa.bn=29/>
+						<unit eng.bn=2/>
+						<unit eng.bn=28/>
+						<unit eng.bn=134/>
+						<unit bridge.bn=67/>
+						<unit bridge.bn=92/>
+					</>
+					<unit ref=23gr>
+						<unit mort.reg=274/>
+					</unit>
+					<unit ref=188r>
+						<unit at.reg=1186/>
+						<unit mort.reg=490/>
+					</unit>
+					<unit ref=282r>
+						<unit tank.reg=27/>
+						<unit cannon.reg=701/>
+					</unit>
+					<unit ref=391r>
+						<unit tank.reg=37/>
+						<unit rocket.reg=42/>
+					</unit>
+					<unit rifle.bg=33>
+						<unit tank.reg=226/>
+						<unit mort.reg=110/>
+					</unit>
+				</unit>
+				<unit ref=22army>
+					<hq>
+						<unit aa.reg=582/>
+						<unit aa.reg=1472/>
+						<unit aa.bn=397/>
+						<unit eng.bn=352/>
+						<unit eng.bn=903/>
+					</>
+					<unit ref=44rk>
+						<unit gds.naval.bg=11/>
+						<unit gds.naval.bg=15/>
+						<unit rifle.bg=32/>
+						<unit rifle.bg=46/>
+						<unit tank.bg=81/>
+						<unit how.reg=385/>
+						<unit at.reg=1040/>
+						<unit mort.reg=561/>
+						<unit rocket.reg=24/>
+					</unit>
+					<unit ref=8gr>
+						<unit gds.cannon.reg=166/>
+						<unit mort.reg=268/>
+						<unit rocket.bn=106/>
+					</unit>
+					<unit ref=33r>
+						<unit tank.bn=515/>
+						<unit cannon.reg=440/>
+						<unit mort.reg=563/>
+						<unit at.bg=18/>
+					</unit>
+					<unit ref=117r>
+						<unit tank.bn=170/>
+						<unit gds.cannon.reg=164/>
+						<unit mort.reg=562/>
+						<unit rocket.bn=43/>
+					</unit>
+					<unit rifle.bg=54>
+						<unit shh.reg=1198/>
+					</unit>
+				</unit>
+				<unit ref=34army>
+					<hq>
+						<unit size=XX badge=aa name="44th Anti-Aircraft">
+							<unit aa.div.hq=44/>
+							<unit aa.reg=508/>
+							<unit aa.reg=708/>
+							<unit aa.reg=710/>
+							<unit aa.reg=1274/>
+						</unit>
+						<unit armd.trn=29/>
+						<unit armd.trn=35/>
+						<unit aa.reg=729/>
+						<unit aa.bn=239/>
+						<unit aa.bn=242/>
+						<unit aa.bn=467/>
+						<unit eng.bg=13/>
+						<unit eng.bn=50/>
+						<unit eng.bn=238/>
+						<unit eng.bn=1391/>
+						<unit bridge.bn=50/>
+						<unit bridge.bn=54/>
+						<unit bridge.bn=58/>
+						<unit bridge.bn=86/>
+					</>
+					<unit ref=12grk>
+						<unit corps.hq="12th Guards"/>
+						<unit ref=1p/>
+						<unit ref=10p/>
+						<unit ref=200r/>
+						<unit gds.hvy.tank.reg=3/>
+						<unit mort.bg=32/>
+						<unit tank.bg=60/>
+					</unit>
+					<unit ref=37r>
+						<unit at.reg=641/>
+						<unit tank.bn=514/>
+						<unit how.reg=989/>
+					</unit>
+					<unit ref=171r>
+						<unit tank.reg=38/>
+						<unit tank.reg=239/>
+						<unit cannon.reg=151/>
+						<unit mort.reg=482/>
+					</unit>
+					<unit ref=182r>
+						<unit tank.reg=227/>
+						<unit cannon.reg=1235/>
+						<unit at.reg=578/>
+						<unit rocket.reg=22/>
+					</unit>
+					<unit ref=245r>
+						<unit tank.reg=65/>
+						<unit how.reg=395/>
+						<unit tank.bn=150/>
+					</unit>
+					<unit ref=370r>
+						<unit tank.reg=32/>
+						<unit gds.cannon.reg=11/>
+						<unit rocket.reg=70/>
+						<unit rocket.reg=27/>
+					</unit>
+					<unit ref=26a>
+						<unit cannon.bg=72/>
+						<unit la.bg=75/>
+						<unit how.bg=77/>
+						<unit mort.bg=24/>
+						<unit obs.bn=26/>
+					</unit>
+					<unit ref=27a>
+						<unit cannon.bg=76/>
+						<unit la.bg=78/>
+						<unit how.bg=74/>
+						<unit obs.bn=27/>
+					</unit>
+					<unit rifle.bg=127>
+						<unit tank.reg=249/>
+						<unit shh.reg=1199/>
+					</unit>
+					<unit rifle.bg=144/>
+					<unit rifle.bg=151>
+						<unit rocket.reg=26/>
+					</unit>
+				</unit>
+				<unit ref=14grk>
+					<unit ref=7gr/>
+					<unit ref=53gr/>
+					<unit colors=Soviet rifle.bg=137/>
+					<unit mort.reg=283/>
+				</unit>
+				<unit ref=43gr/>
+				<unit ref=26r>
+					<unit gds.art.reg=37/>
+					<unit mgun.bn=365/>
+				</unit>
+				<unit rail.bg=3/>
+				<unit ref=6air.army>
+					<hq>
+						<unit aa.reg=1596/>
+						<unit aa.reg=1597/>
+						<unit aa.reg=1608/>
+						<unit corr.air.sqd=25/>
+						<unit corr.air.sqd=1/>
+						<unit trans.air.reg=699/>
+						<unit air.recon.reg=72/>
+					</>
+					<unit bmb.air.reg=58/>
+					<unit gds.att.air.div=3/>
+					<unit gds.ftr.air.div=5/>
+					<unit ngt.air.div=242/>
+				</unit>
+			</unit>
+			<unit tip=200 ref=Kalinin.front>
+				<hq>
+					<unit size=XX badge=aa name="46th Anti-Aircraft">
+						<unit aa.div.hq=46/>
+						<unit aa.reg=609/>
+						<unit aa.reg=617/>
+						<unit aa.reg=618/>
+						<unit aa.reg=717/>
+					</unit>
+					<unit aa.reg=246/>
+					<unit aa.reg=601/>
+					<unit aa.reg=1625/>
+					<unit aa.bn=12/>
+					<unit aa.bn=183/>
+					<unit aa.bn=221/>
+					<unit aa.bn=622/>
+					<unit eng.bg=2/>
+					<unit sp.pur.eng.bg=5/>
+					<unit eng.bg=16/>
+					<unit eng.bg=56/>
+					<unit gds.eng.bn=4/>
+					<unit eng.bn=114/>
+					<unit eng.bn=210/>
+					<unit eng.bn=249/>
+					<unit eng.bn=348/>
+					<unit bridge.bn=57/>
+					<unit bridge.bn=60/>
+					<unit bridge.bn=63/>
+					<unit bridge.bn=93/>
+					<unit bridge.bn=94/>
+				</>
+				<unit ref=3shock>
+					<hq>
+						<unit armd.trn=57/>
+						<unit armd.trn=62/>
+						<unit aa.reg=243/>
+						<unit aa.reg=1622/>
+						<unit eng.bn=225/>
+						<unit eng.bn=289/>
+					</>
+					<unit ref=5grk>
+						<unit ref=19gr/>
+						<unit ref=46gr/>
+						<unit ref=32r/>
+						<unit rifle.bg=145/>
+						<unit gds.art.reg=41/>
+						<unit rocket.bn=240/>
+					</unit>
+					<unit ref=21gr>
+						<unit mort.reg=550/>
+					</unit>
+					<unit ref=28r>
+						<unit cannon.reg=1094/>
+					</unit>
+					<unit ref=357r>
+						<unit tank.bg=78/>
+					</unit>
+					<unit ref=381r>
+						<unit cannon.reg=1190/>
+					</unit>
+					<unit rifle.bg=23>
+						<unit gds.mort.reg=203/>
+						<unit how.reg=827/>
+					</unit>
+					<unit rifle.bg=31/>
+					<unit rifle.bg=100>
+						<unit cannon.reg=455/>
+						<unit gds.at.reg=163/>
+						<unit rocket.bn=205/>
+					</unit>
+					<unit mech.bg=46/>
+				</unit>
+				<unit ref=4shock>
+					<hq>
+						<unit aa.reg=1623/>
+						<unit aa.reg=1624/>
+						<unit eng.bn=290/>
+						<unit sap.bn=736/>
+					</>
+					<unit ref=47r>
+						<unit dest.bg=26/>
+						<unit cannon.reg=488/>
+					</unit>
+					<unit ref=332r>
+						<unit tank.bn=171/>
+						<unit how.reg=64/>
+						<unit at.reg=765/>
+					</unit>
+					<unit ref=334r>
+						<unit how.reg=1224/>
+						<unit at.reg=569/>
+					</unit>
+					<unit ref=358r>
+						<unit tank.reg=236/>
+						<unit mort.reg=408/>
+					</unit>
+					<unit ref=360r>
+						<unit gds.cannon.reg=10/>
+					</unit>
+					<unit rifle.bg=101>
+						<unit tank.reg=143/>
+						<unit rocket.reg=99/>
+					</unit>
+				</unit>
+				<unit ref=39army>
+					<hq>
+						<unit aa.reg=621/>
+						<unit aa.bn=490/>
+						<unit eng.bn=17/>
+						<unit eng.bn=228/>
+						<unit eng.bn=251/>
+						<unit eng.bn=293/>
+						<unit bridge.bn=122/>
+						<unit bridge.bn=125/>
+					</>
+					<unit ref=134r>
+						<unit mort.reg=555/>
+					</unit>
+					<unit ref=158r>
+						<unit mort.reg=554/>
+					</unit>
+					<unit ref=178r>
+						<unit how.reg=480/>
+					</unit>
+					<unit ref=185r>
+						<unit cannon.reg=545/>
+						<unit rocket.reg=34/>
+					</unit>
+					<unit ref=234r>
+						<unit how.reg=472/>
+					</unit>
+					<unit rifle.bg=124>
+						<unit gds.cannon.reg=106/>
+						<unit at.reg=610/>
+					</unit>
+					<unit gds.tank.bg=28/>
+				</unit>
+				<unit ref=43army>
+					<hq>
+						<unit aa.reg=225/>
+						<unit aa.reg=1626/>
+						<unit eng.bn=273/>
+						<unit eng.bn=312/>
+						<unit bridge.bn=106/>
+					</>
+					<unit ref=145r>
+						<unit cannon.reg=1098/>
+						<unit at.reg=759/>
+					</unit>
+					<unit ref=179r>
+						<unit rocket.bn=47/>
+					</unit>
+					<unit ref=262r>
+						<unit how.reg=376/>
+					</unit>
+					<unit ref=306r>
+						<unit tank.reg=105/>
+						<unit how.reg=283/>
+					</unit>
+					<unit rifle.bg=114>
+						<unit cannon.reg=43/>
+						<unit mort.reg=118/>
+					</unit>
+				</unit>
+				<unit ref=2grk>
+					<unit ref=9gr/>
+					<unit ref=17gr/>
+					<unit ref=91gr/>
+					<unit at.reg=587/>
+					<unit mort.reg=552/>
+					<unit mort.reg=557/>
+					<unit art.reg=85/>
+					<unit gds.art.reg=38/>
+					<unit tank.reg=221/>
+				</unit>
+				<unit ref=8rk>
+					<unit ref=249r/>
+					<unit ref=7r/>
+					<unit mort.reg=556/>
+					<unit mort.reg=551/>
+				</unit>
+				<unit fort.area=155>
+					<unit mort.reg=559/>
+				</unit>
+				<unit mech.bg=47/>
+				<unit at.bg=4/>
+				<unit at.bg=17/>
+				<unit mort.bg=31/>
+				<unit rail.bg=4/>
+				<unit ref=3air.army>
+					<hq>
+						<unit aa.reg=1556/>
+						<unit aa.reg=1557/>
+						<unit aa.reg=1558/>
+						<unit air.recon.reg=11/>
+						<unit corr.air.sqd=36/>
+					</>
+					<unit att.air.div=211/>
+					<unit gds.att.air.reg=6/>
+					<unit ftr.air.reg=21/>
+					<unit lt.bmb.air.reg=279/>
+					<unit lt.bmb.air.reg=373/>
+				</unit>
+			</unit>
+			<unit ref=Western.front>
+				<hq>
+					<unit aero.bn=7/>
+					<unit aero.bn=37/>
+					<unit aero.bn=38/>
+					<unit aero.bn=40/>
+					<unit aa.reg=1272/>
+					<unit aa.reg=1281/>
+					<unit aa.bn=324/>
+					<unit eng.bg=11/>
+					<unit eng.bg=12/>
+					<unit eng.bn=6/>
+					<unit eng.bn=113/>
+					<unit eng.bn=122/>
+					<unit eng.bn=129/>
+					<unit eng.bn=133/>
+					<unit eng.bn=229/>
+					<unit eng.bn=230/>
+					<unit sap.bn=537/>
+					<unit sap.bn=738/>
+					<unit bridge.bn=9/>
+					<unit bridge.bn=51/>
+					<unit bridge.bn=62/>
+					<unit bridge.bn=87/>
+					<unit bridge.bn=88/>
+					<unit bridge.bn=89/>
+					<unit bridge.bn=90/>
+					<unit bridge.bn=91/>
+					<unit bridge.bn=99/>
+				</>
+				<unit ref=10garmy>
+					<hq>
+						<unit colors=Soviet eng.bn=263/>
+						<unit colors=Soviet eng.bn=369/>
+					</>
+					<unit ref=7grk>
+						<unit ref=29gr/>
+					</unit>
+					<unit ref=15grk>
+						<unit ref=30gr/>
+						<unit ref=85gr/>
+						<unit colors=Soviet tank.reg=119/>
+					</unit>
+					<unit ref=19grk>
+						<unit ref=22gr/>
+						<unit ref=56gr/>
+						<unit ref=65gr/>
+						<unit gds.art.reg=83/>
+					</unit>
+				</unit>
+				<unit tip=300 ref=11garmy posture=offensive>
+					<hq>
+						<unit colors=Soviet size=XX badge=aa name="14th Anti-Aircraft">
+							<unit aa.div.hq=14/>
+							<unit aa.reg=525/>
+							<unit aa.reg=715/>
+							<unit aa.reg=718/>
+							<unit aa.reg=721/>
+						</unit>
+						<unit colors=Soviet size=XX badge=aa name="17th Anti-Aircraft">
+							<unit aa.div.hq=17/>
+							<unit aa.reg=500/>
+							<unit aa.reg=1267/>
+							<unit aa.reg=1276/>
+							<unit aa.reg=1279/>
+						</unit>
+						<unit colors=Soviet size=XX badge=aa name="48th Anti-Aircraft">
+							<unit aa.div.hq=48/>
+							<unit gds.aa.reg=231/>
+							<unit aa.reg=50/>
+							<unit aa.reg=1277/>
+							<unit aa.reg=1278/>
+						</unit>
+						<unit colors=Soviet aa.reg=716/>
+						<unit colors=Soviet aa.reg=739/>
+						<unit colors=Soviet aa.reg=1280/>
+						<unit colors=Soviet aa.reg=1484/>
+						<unit colors=Soviet aa.bn=4/>
+						<unit colors=Soviet aa.bn=614/>
+						<unit gds.eng.bn=6/>
+						<unit colors=Soviet eng.bn=84/>
+						<unit colors=Soviet eng.bn=226/>
+						<unit colors=Soviet eng.bn=243/>
+						<unit colors=Soviet eng.bn=367/>
+						<unit colors=Soviet bridge.bn=61/>
+					</>
+					<unit ref=8grk>
+						<unit ref=11gr/>
+						<unit ref=26gr/>
+						<unit ref=83gr/>
+						<unit gds.tank.bg=43/>
+						<unit gds.cannon.reg=74/>
+						<unit colors=Soviet cannon.reg=761/>
+						<unit colors=Soviet cannon.reg=1165/>
+						<unit gds.how.reg=16/>
+						<unit gds.cannon.reg=1/>
+						<unit colors=Soviet cannon.reg=537/>
+						<unit rocket.bg=25/>
+						<unit gds.hvy.tank.reg=4/>
+						<unit gds.how.reg=15/>
+					</unit>
+					<unit ref=16grk>
+						<unit ref=1gr/>
+						<unit ref=16gr/>
+						<unit ref=31gr/>
+						<unit colors=Soviet ref=169r/>
+						<unit gds.hvy.tank.reg=2/>
+						<unit gds.cannon.reg=75/>
+						<unit colors=Soviet cannon.reg=39/>
+						<unit colors=Soviet mort.reg=546/>
+						<unit rocket.bg=24/>
+						<unit gds.cannon.reg=17/>
+						<unit gds.tank.bg=29/>
+					</unit>
+					<unit ref=36grk>
+						<unit ref=5gr/>
+						<unit ref=18gr/>
+						<unit ref=84gr/>
+						<unit gds.cannon.reg=2/>
+						<unit colors=Soviet cannon.reg=995/>
+						<unit colors=Soviet cannon.reg=1093/>
+						<unit colors=Soviet how.reg=128/>
+						<unit colors=Soviet mort.reg=545/>
+						<unit gds.tank.bg=10/>
+						<unit colors=Soviet how.reg=364/>
+					</unit>
+					<unit uid=8bak colors=Soviet size=XXX badge=art name="8th Breakthrough Artillery">
+						<unit colors=Soviet badge=art size=XX name="3rd Breakthrough Artillery">
+							<unit la.bg=15/>
+							<unit how.bg=1/>
+							<unit cannon.bg=5/>
+							<unit shh.bg=117/>
+							<unit pen.mort.bg=7/>
+							<unit obs.bn=3/>
+						</unit>
+						<unit colors=Soviet badge=art size=XX name="6th Breakthrough Artillery">
+							<unit la.bg=21/>
+							<unit how.bg=18/>
+							<unit cannon.bg=10/>
+							<unit shh.bg=119/>
+							<unit pen.mort.bg=2/>
+							<unit obs.bn=6/>
+						</unit>
+					</unit>
+					<unit ref=14a>
+						<unit la.bg=54/>
+						<unit how.bg=43/>
+						<unit cannon.bg=48/>
+						<unit mort.bg=9/>
+					</unit>
+					<unit ref=108r>
+						<unit colors=Soviet su.reg=1453/>
+						<unit gds.art.reg=56/>
+						<unit colors=Soviet how.reg=360/>
+						<unit gds.at.reg=5/>
+					</unit>
+					<unit ref=217r>
+						<unit colors=Soviet tank.bg=213/>
+						<unit colors=Soviet cannon.reg=403/>
+					</unit>
+				</unit>
+				<unit ref=5army>
+					<hq>
+						<unit aa.reg=1479/>
+						<unit eng.bn=296/>
+						<unit eng.bn=297/>
+					</>
+					<unit ref=207r>
+						<unit at.reg=696/>
+					</unit>
+					<unit ref=208r>
+						<unit tank.bg=153/>
+					</unit>
+					<unit ref=312r>
+						<unit mort.reg=537/>
+					</unit>
+					<unit ref=352r>
+						<unit gds.cannon.reg=66/>
+						<unit rocket.bn=41/>
+					</unit>
+				</unit>
+				<unit tip=300 ref=10army>
+					<hq>
+						<unit armd.trn=1/>
+						<unit aa.reg=1268/>
+						<unit eng.bn=303/>
+						<unit eng.bn=345/>
+						<unit eng.bn=368/>
+					</>
+					<unit ref=139r>
+						<unit at.reg=520/>
+						<unit cannon.reg=188/>
+					</unit>
+					<unit ref=247r>
+						<unit cannon.reg=564/>
+						<unit at.reg=992/>
+					</unit>
+					<unit ref=290r>
+						<unit cannon.reg=572/>
+					</unit>
+					<unit ref=330r>
+						<unit rocket.bn=2/>
+					</unit>
+					<unit ref=385r>
+						<unit mort.reg=544/>
+					</unit>
+				</unit>
+				<unit ref=20army>
+					<hq>
+						<unit aa.reg=1265/>
+						<unit aa.reg=1270/>
+						<unit aa.bn=64/>
+						<unit eng.bn=291/>
+						<unit eng.bn=301/>
+						<unit eng.bn=302/>
+					</>
+					<unit fort.area=152/>
+					<unit fort.area=154>
+						<unit mort.reg=535/>
+					</unit>
+					<unit gds.at.bg=1/>
+				</unit>
+				<unit ref=31army>
+					<hq>
+						<unit colors=Soviet size=XX badge=aa name="49th Anti-Aircraft">
+							<unit aa.div.hq=49/>
+							<unit aa.reg=245/>
+							<unit aa.reg=1271/>
+						</unit>
+						<unit aero.bn=6/>
+						<unit aero.bn=20/>
+						<unit aa.reg=240/>
+						<unit aa.reg=341/>
+						<unit aa.reg=1269/>
+						<unit aa.reg=1478/>
+						<unit eng.bn=72/>
+					</>
+					<unit ref=36rk>
+						<unit ref=215r/>
+						<unit ref=274r/>
+						<unit ref=359r/>
+						<unit cannon.reg=392/>
+						<unit at.reg=529/>
+						<unit mort.reg=536/>
+						<unit rocket.bn=28/>
+					</unit>
+					<unit ref=45rk>
+						<unit ref=88r/>
+						<unit ref=220r/>
+						<unit ref=331r/>
+						<unit cannon.reg=542/>
+						<unit at.reg=873/>
+					</unit>
+					<unit ref=82r>
+						<unit cannon.reg=644/>
+					</unit>
+					<unit ref=133r>
+						<unit mort.reg=549/>
+						<unit rocket.bn=201/>
+					</unit>
+					<unit ref=251r>
+						<unit cannon.reg=646/>
+						<unit gds.tank.bg=42/>
+					</unit>
+					<unit gds.mcycle.reg=2/>
+				</unit>
+				<unit ref=33army>
+					<hq>
+						<unit aa.reg=1266/>
+						<unit aa.reg=1480/>
+						<unit eng.bn=298/>
+						<unit eng.bn=321/>
+					</>
+					<unit ref=42r>
+						<unit gds.art.reg=55/>
+						<unit rocket.bn=40/>
+					</unit>
+					<unit ref=144r>
+						<unit cannon.reg=557/>
+					</unit>
+					<unit ref=160r>
+						<unit rocket.bn=35/>
+					</unit>
+					<unit ref=164r>
+						<unit tank.bg=256/>
+						<unit gds.at.reg=2/>
+					</unit>
+					<unit ref=222r>
+						<unit tank.bn=520/>
+						<unit cannon.reg=517/>
+						<unit mort.reg=538/>
+					</unit>
+				</unit>
+				<unit ref=49army>
+					<hq>
+						<unit armd.trn=6/>
+						<unit armd.trn=52/>
+						<unit aa.reg=1273/>
+						<unit aa.reg=1481/>
+						<unit eng.bn=305/>
+						<unit eng.bn=306/>
+					</>
+					<unit ref=58r>
+						<unit rocket.reg=317/>
+					</unit>
+					<unit ref=146r>
+						<unit tank.bn=138/>
+						<unit how.reg=49/>
+						<unit mort.reg=540/>
+					</unit>
+					<unit ref=277r>
+						<unit cannon.reg=570/>
+						<unit at.reg=593/>
+					</unit>
+					<unit ref=338r/>
+					<unit ref=344r>
+						<unit cannon.reg=1099/>
+						<unit at.bg=3/>
+						<unit hvy.su.reg=1537/>
+					</unit>
+					<unit gds.tank.bg=23/>
+				</unit>
+				<unit tip=300 ref=50army>
+					<hq>
+						<unit armd.trn=21/>
+						<unit armd.trn=43/>
+						<unit aa.reg=1275/>
+						<unit aa.reg=1482/>
+						<unit aa.reg=1483/>
+						<unit eng.bn=307/>
+						<unit eng.bn=309/>
+					</>
+					<unit ref=38rk>
+						<unit ref=17r/>
+						<unit ref=326r/>
+						<unit ref=413r/>
+						<unit cannon.reg=447/>
+						<unit at.reg=600/>
+						<unit mort.reg=541/>
+					</unit>
+					<unit ref=49r>
+						<unit hvy.su.reg=1536/>
+						<unit cannon.reg=523/>
+						<unit mort.reg=542/>
+					</unit>
+					<unit ref=64r>
+						<unit cannon.reg=1091/>
+					</unit>
+					<unit ref=212r>
+						<unit rocket.reg=54/>
+					</unit>
+					<unit ref=324r>
+						<unit tank.bg=196/>
+					</unit>
+				</unit>
+				<unit ref=371r>
+					<unit at.reg=758/>
+					<unit tank.reg=248/>
+				</unit>
+				<unit ref=1tk>
+					<unit note="3 tank bns" tank.bg=89/>
+					<unit note="3 tank bns" tank.bg=117/>
+					<unit note="3 tank bns" tank.bg=159/>
+					<unit motor.bg=44/>
+					<unit su.reg=1437/>
+					<unit rocket.bn=11/>
+				</unit>
+				<unit ref=5tk>
+					<unit note="1942 shtat" tank.bg=24/>
+					<unit note="1942 shtat" tank.bg=41/>
+					<unit note="1942 shtat" tank.bg=70/>
+					<unit motor.bg=5/>
+					<unit su.reg=1435/>
+					<unit mort.reg=277/>
+					<unit note="12 85mm AT" at.bn=731/>
+					<unit note="16 37mm AA" aa.reg=1708/>
+					<unit mot.sap.bn=188/>
+					<unit rocket.reg=307/>
+					<unit tank.reg=233/>
+				</unit>
+				<unit rifle.bg=36>
+					<unit tank.reg=161/>
+				</unit>
+				<unit gds.tank.bg=2/>
+				<unit tank.bg=94/>
+				<unit tank.bg=120/>
+				<unit tank.bg=187/>
+				<unit gds.tank.reg=56/>
+				<unit rail.bg=5/>
+				<unit ref=1air.army>
+					<hq>
+						<unit aa.reg=1550/>
+						<unit aa.reg=1551/>
+						<unit aa.reg=1552/>
+						<unit aa.reg=1553/>
+						<unit aa.reg=1554/>
+						<unit corr.air.sqd=65/>
+						<unit air.recon.reg=10/>
+						<unit trans.air.reg=713/>
+					</>
+					<unit name="2nd Assault Air Corps">
+						<unit att.air.div=231/>
+						<unit att.air.div=232/>
+					</unit>
+					<unit name="2nd Fighter Air Corps">
+						<unit gds.ftr.air.div=7/>
+					</unit>
+					<unit name="8th Fighter Air Corps">
+						<unit ftr.air.div=215/>
+						<unit ftr.air.div=323/>
+					</unit>
+					<unit bmb.air.div=204/>
+					<unit att.air.div=224/>
+					<unit att.air.div=233/>
+					<unit att.air.div=311/>
+					<unit ftr.air.div=309/>
+					<unit ftr.air.div=303/>
+					<unit ngt.air.div=213/>
+				</unit>
+			</unit>
+			<unit ref=Bryansk.front>
+				<hq>
+					<unit armd.trn=54/>
+					<unit aa.reg=1477/>
+					<unit aa.bn=386/>
+					<unit sp.pur.eng.bg=8/>
+					<unit eng.bg=57/>
+					<unit sap.bn=131/>
+					<unit eng.bn=231/>
+					<unit eng.bn=740/>
+					<unit bridge.bn=48/>
+					<unit bridge.bn=53/>
+					<unit bridge.bn=131/>
+					<unit bridge.bn=136/>
+				</>
+				<unit tip=300 ref=3army>
+					<hq>
+						<unit colors=Soviet size=XX badge=aa name="24th Anti-Aircraft">
+							<unit aa.div.hq=24/>
+							<unit aa.reg=1045/>
+							<unit aa.reg=1337/>
+							<unit aa.reg=1343/>
+							<unit aa.reg=1349/>
+						</unit>
+						<unit aa.reg=1284/>
+						<unit eng.bn=348/>
+					</>
+					<unit ref=235r/>
+					<unit ref=269r>
+						<unit tank.reg=114/>
+						<unit mort.reg=475/>
+					</unit>
+					<unit ref=283r>
+						<unit cannon.reg=420/>
+					</unit>
+					<unit ref=308r>
+						<unit hvy.su.reg=1538/>
+					</unit>
+					<unit ref=342r>
+						<unit at.reg=584/>
+					</unit>
+					<unit ref=380r>
+						<unit tank.reg=82/>
+					</unit>
+					<unit ref=20ba>
+						<unit la.bg=34/>
+						<unit how.bg=60/>
+						<unit cannon.bg=53/>
+						<unit hh.bg=93/>
+						<unit shh.bg=102/>
+						<unit pen.mort.bg=20/>
+						<unit obs.bn=20/>
+					</unit>
+				</unit>
+				<unit tip=300 ref=61army>
+					<hq>
+						<unit colors=Soviet size=XX badge=aa name="13th Anti-Aircraft">
+							<unit aa.div.hq=13/>
+							<unit aa.reg=1065/>
+							<unit aa.reg=1173/>
+							<unit aa.reg=1175/>
+							<unit aa.reg=1218/>
+						</unit>
+						<unit armd.trn=31/>
+						<unit armd.trn=45/>
+						<unit aa.reg=1282/>
+						<unit eng.bn=310/>
+						<unit eng.bn=344/>
+					</>
+					<unit ref=9grk>
+						<unit ref=12gr/>
+						<unit ref=76gr/>
+						<unit ref=77gr/>
+						<unit gds.cannon.reg=60/>
+						<unit note="16 76mm ZIS-3" colors=Soviet dest.bg=12/>
+					</unit>
+					<unit ref=97r>
+						<unit cannon.reg=554/>
+					</unit>
+					<unit ref=110r>
+						<unit at.reg=533/>
+					</unit>
+					<unit ref=336r>
+						<unit colors=Soviet tank.reg=36/>
+						<unit gds.cannon.reg=67/>
+					</unit>
+					<unit ref=356r>
+						<unit su.reg=1539/>
+					</unit>
+					<unit ref=415r>
+						<unit tank.bg=68/>
+						<unit mort.reg=547/>
+					</unit>
+				</unit>
+				<unit tip=200 ref=63army>
+					<hq>
+						<unit size=XX badge=aa name="28th Anti-Aircraft">
+							<unit aa.div.hq=28/>
+							<unit aa.reg=1355/>
+							<unit aa.reg=1359/>
+							<unit aa.reg=1365/>
+							<unit aa.reg=1371/>
+						</unit>
+						<unit eng.bn=356/>
+					</>
+					<unit ref=5r/>
+					<unit ref=41r>
+						<unit at.reg=1071/>
+					</unit>
+					<unit ref=129r>
+						<unit tank.reg=231/>
+					</unit>
+					<unit ref=250r>
+						<unit su.reg=1452/>
+					</unit>
+					<unit ref=287r>
+						<unit at.reg=1311/>
+					</unit>
+					<unit ref=348r/>
+					<unit ref=397r>
+						<unit mort.reg=286/>
+					</unit>
+				</unit>
+				<unit ref=25rk>
+					<unit ref=186r/>
+					<unit ref=238r/>
+					<unit ref=362r/>
+					<unit su.reg=1445/>
+					<unit su.reg=1444/>
+					<unit mort.bg=13/>
+					<unit rocket.reg=85/>
+					<unit rocket.reg=312/>
+					<unit rocket.reg=313/>
+					<unit rocket.reg=93/>
+				</unit>
+				<unit ref=1gtk>
+					<unit note=2bns gds.tank.bg=15/>
+					<unit note=2bns gds.tank.bg=16/>
+					<unit note=2bns gds.tank.bg=17/>
+					<unit gds.hvy.tank.reg=34/>
+					<unit gds.motor.bg=1/>
+					<unit note="16 37mm AA" gds.aa.reg=80/>
+					<unit colors=Soviet mort.reg=455/>
+					<unit colors=Soviet lt.at.reg=1001/>
+					<unit colors=Soviet note="12 85mm AT" at.bn=732/>
+					<unit colors=Soviet mcycle.bn=65/>
+					<unit colors=Soviet rep.bn=174/>
+					<unit colors=Soviet cannon.bg=44/>
+				</unit>
+				<unit ref=2bak>
+					<unit ref=13ba>
+						<unit la.bg=42/>
+						<unit how.bg=47/>
+						<unit hh.bg=88/>
+						<unit hh.bg=91/>
+						<unit shh.bg=101/>
+						<unit pen.mort.bg=17/>
+					</unit>
+					<unit ref=15ba>
+						<unit la.bg=69/>
+						<unit how.bg=35/>
+						<unit colors=Soviet hh.bg=85/>
+						<unit colors=Soviet hh.bg=87/>
+						<unit colors=Soviet shh.bg=106/>
+						<unit colors=Soviet pen.mort.bg=18/>
+					</unit>
+					<unit note="2,5,6GMB; M-30 300mm, 4 rails per launcher" colors=Guards size=XX badge=rocket name="3rd Guards Mortar">
+						<unit art.div.hq="3rd Guards"/>
+						<unit rocket.bg=15/>
+						<unit rocket.bg=18/>
+						<unit rocket.bg=19/>
+						<unit obs.bn=3/>
+					</unit>
+				</unit>
+				<unit ref=7bak>
+					<unit ref=16ba>
+						<unit la.bg=49/>
+						<unit how.bg=52/>
+						<unit cannon.bg=61/>
+						<unit hh.bg=90/>
+						<unit shh.bg=109/>
+						<unit pen.mort.bg=14/>
+					</unit>
+					<unit ref=17ba>
+						<unit la.bg=37/>
+						<unit how.bg=50/>
+						<unit cannon.bg=39/>
+						<unit hh.bg=92/>
+						<unit shh.bg=108/>
+						<unit pen.mort.bg=22/>
+					</unit>
+					<unit note="2,5,6GMB; M-30 300mm, 4 rails per launcher" colors=Guards size=XX badge=rocket name="2nd Guards Mortar">
+						<unit art.div.hq="2nd Guards"/>
+						<unit rocket.bg=3/>
+						<unit rocket.bg=17/>
+						<unit rocket.bg=26/>
+						<unit obs.bn=2/>
+					</unit>
+				</unit>
+				<unit gds.tank.reg=11/>
+				<unit gds.tank.reg=12/>
+				<unit gds.tank.reg=13/>
+				<unit gds.tank.reg=26/>
+				<unit tank.reg=253/>
+				<unit su.reg=1535/>
+				<unit mcycle.bn=55/>
+				<unit at.bg=12/>
+				<unit rocket.bg=8/>
+				<unit rocket.reg=310/>
+				<unit rocket.reg=311/>
+				<unit rocket.bn=10/>
+				<unit rail.bg=6/>
+				<unit ref=15air.army>
+					<hq>
+						<unit gds.air.recon.reg=99/>
+					</>
+					<unit name="3rd Assault Air Corps">
+						<unit att.air.div=307/>
+						<unit att.air.div=308/>
+					</unit>
+					<unit name="1st Guards Fighter Air Corps">
+						<unit gds.ftr.air.div=3/>
+						<unit gds.ftr.air.div=4/>
+					</unit>
+					<unit bmb.air.div=113/>
+					<unit att.air.div=225/>
+					<unit ftr.air.div=234/>
+					<unit ftr.air.div=315/>
+					<unit ngt.air.div=284/>
+				</unit>
+			</unit>
+			<unit ref=Central.front posture=defensive>
+				<hq>
+					<unit armd.trn=40/>
+					<unit badge=aa size=XX name="10th Anti-Aircraft">
+						<unit aa.div.hq=10/>
+						<unit aa.reg=802/>
+						<unit aa.reg=975/>
+						<unit aa.reg=984/>
+						<unit aa.reg=994/>
+					</unit>
+					<unit aa.reg=997/>
+					<unit aa.reg=325/>
+					<unit aa.reg=1259/>
+					<unit aa.reg=1263/>
+					<unit gds.aa.bn=13/>
+					<unit aa.bn=27/>
+					<unit aa.bn=31/>
+					<unit gds.sp.pur.eng.bg=1/>
+					<unit eng.bg=6/>
+					<unit eng.bn=120/>
+					<unit eng.bn=257/>
+					<unit bridge.bn=9/>
+					<unit bridge.bn=49/>
+					<unit bridge.bn=50/>
+					<unit bridge.bn=104/>
+				</>
+				<unit ref=13army>
+					<hq>
+						<unit badge=aa size=XX name="1st Anti-Aircraft">
+							<unit aa.div.hq=1/>
+							<unit aa.reg=1042/>
+							<unit aa.reg=1068/>
+							<unit aa.reg=1085/>
+							<unit aa.reg=1090/>
+						</unit>
+						<unit badge=aa size=XX name="25th Anti-Aircraft">
+							<unit aa.div.hq=25/>
+							<unit aa.reg=1067/>
+							<unit aa.reg=1356/>
+							<unit aa.reg=1362/>
+							<unit aa.reg=1368/>
+						</unit>
+						<unit aa.reg=1287/>
+						<unit eng.bn=275/>
+					</>
+					<unit ref=17grk>
+						<unit ref=6gr/>
+						<unit ref=70gr/>
+						<unit ref=75gr/>
+						<unit colors=Soviet tank.reg=237/>
+					</unit>
+					<unit ref=18grk>
+						<unit ref=2p />
+						<unit ref=3p />
+						<unit ref=4p />
+						<unit gds.cannon.reg=19/>
+						<unit rocket.reg=65/>
+						<unit rocket.reg=86/>
+					</unit>
+					<unit ref=15rk>
+						<unit ref=8r/>
+						<unit ref=74r/>
+						<unit ref=148r/>
+					</unit>
+					<unit ref=29rk>
+						<unit ref=15r>
+							<unit tank.reg=43/>
+						</unit>
+						<unit ref=81r>
+							<unit at.reg=874/>
+						</unit>
+						<unit ref=307r>
+							<unit rocket.reg=324/>
+						</unit>
+					</unit>
+					<unit ref=4bak>
+						<unit ref=5ba>
+							<unit la.bg=16/>
+							<unit how.bg=9/>
+							<unit cannon.bg=24/>
+							<unit colors=Soviet hh.bg=86/>
+							<unit colors=Soviet shh.bg=100/>
+							<unit colors=Soviet pen.mort.bg=1/>
+						</unit>
+						<unit ref=12ba>
+							<unit la.bg=46/>
+							<unit how.bg=32/>
+							<unit cannon.bg=41/>
+							<unit colors=Soviet hh.bg=89/>
+							<unit colors=Soviet shh.bg=104/>
+							<unit colors=Soviet pen.mort.bg=11/>
+						</unit>
+						<unit ref=5gma>
+							<unit rocket.bg=16/>
+							<unit rocket.bg=22/>
+							<unit rocket.bg=23/>
+							<unit obs.bn=5/>
+						</unit>
+					</unit>
+					<unit tank.bg=129/>
+					<unit gds.hvy.tank.reg=27/>
+					<unit gds.hvy.tank.reg=30/>
+					<unit tank.reg=58/>
+					<unit su.reg=1442/>
+					<unit mort.reg=476/>
+					<unit mort.reg=477/>
+					<unit rocket.reg=6/>
+					<unit rocket.reg=37/>
+				</unit>
+				<unit ref=48army>
+					<hq>
+						<unit armd.trn=37/>
+						<unit badge=aa size=XX name="16th Anti-Aircraft">
+							<unit aa.div.hq=16/>
+							<unit aa.reg=728/>
+							<unit aa.reg=1283/>
+							<unit aa.reg=1285/>
+							<unit aa.reg=1286/>
+						</unit>
+						<unit aa.reg=461/>
+						<unit aa.bn=615/>
+						<unit eng.bn=313/>
+					</>
+					<unit ref=42rk>
+						<unit ref=16r/>
+						<unit ref=202r/>
+						<unit ref=399r/>
+						<unit tank.reg=299/>
+						<unit cannon.reg=1168/>
+						<unit mort.reg=479/>
+					</unit>
+					<unit ref=73r>
+						<unit tank.reg=45/>
+						<unit gds.at.reg=220/>
+						<unit note=76mm su.reg=1455/>
+					</unit>
+					<unit ref=137r/>
+					<unit ref=143r>
+						<unit tank.reg=193/>
+					</unit>
+					<unit ref=170r>
+						<unit note=76mm su.reg=1454/>
+						<unit note=152mm su.reg=1540/>
+						<unit note="60 AT; 3 AT Rgts" at.bg=2/>
+					</unit>
+				</unit>
+				<unit ref=60army posture=static>
+					<hq>
+						<unit aa.reg=217/>
+						<unit eng.bg=59/>
+						<unit eng.bn=317/>
+						<unit gds.aa.reg=221/>
+					</>
+					<unit ref=24rk>
+						<unit ref=112r/>
+						<unit rifle.bg=42/>
+						<unit rifle.bg=129/>
+						<unit rocket.reg=98/>
+					</unit>
+					<unit ref=30rk>
+						<unit ref=121r/>
+						<unit ref=141r/>
+						<unit ref=322r/>
+						<unit at.reg=1178/>
+						<unit mort.reg=138/>
+					</unit>
+					<unit ref=55r>
+						<unit rocket.bn=286/>
+						<unit mort.reg=497/>
+					</unit>
+					<unit rifle.bg=248>
+						<unit cannon.reg=1156/>
+						<unit mort.reg=128/>
+					</unit>
+					<unit tank.bg=150/>
+				</unit>
+				<unit ref=65army posture=static>
+					<hq>
+						<unit aa.reg=235/>
+						<unit eng.bg=14/>
+						<unit eng.bn=321/>
+					</>
+					<unit ref=18rk>
+						<unit ref=69r/>
+						<unit ref=149r/>
+						<unit ref=246r/>
+						<unit tank.reg=84/>
+						<unit gds.mort.reg=143/>
+					</unit>
+					<unit ref=27rk>
+						<unit ref=60r/>
+						<unit ref=193r/>
+						<unit rifle.bg=115/>
+						<unit gds.tank.reg=29/>
+						<unit at.reg=543/>
+						<unit rocket.reg=94/>
+					</unit>
+					<unit ref=37gr>
+						<unit mort.reg=218/>
+					</unit>
+					<unit ref=181r>
+						<unit tank.reg=255/>
+					</unit>
+					<unit ref=194r>
+						<unit at.reg=120/>
+					</unit>
+					<unit ref=354r>
+						<unit tank.reg=40/>
+						<unit mort.reg=478/>
+					</unit>
+				</unit>
+				<unit ref=70army>
+					<hq>
+						<unit badge=aa size=XX name="12th Anti-Aircraft">
+							<unit aa.div.hq=12/>
+							<unit aa.reg=836/>
+							<unit aa.reg=977/>
+							<unit aa.reg=990/>
+						</unit>
+						<unit aa.reg=581/>
+						<unit eng.bn=169/>
+						<unit eng.bn=371/>
+						<unit eng.bn=386/>
+					</>
+					<unit ref=28rk>
+						<unit ref=132r/>
+						<unit ref=211r/>
+						<unit ref=280r>
+							<unit tank.reg=251/>
+						</unit>
+					</unit>
+					<unit ref=102r/>
+					<unit ref=106r>
+						<unit mort.reg=136/>
+					</unit>
+					<unit ref=140r>
+						<unit at.reg=378/>
+					</unit>
+					<unit ref=162r/>
+					<unit ref=175r>
+						<unit tank.reg=259/>
+						<unit tank.reg=240/>
+					</unit>
+					<unit ref=1ga>
+						<unit gds.cannon.bg=1/>
+						<unit gds.la.bg=3/>
+						<unit gds.how.bg=2/>
+					</unit>
+					<unit dest.bg=3/>
+				</unit>
+				<unit ref=2tank.army>
+					<hq>
+						<unit eng.bn=357/>
+					</>
+					<unit ref=3tk>
+						<unit tank.bg=50/>
+						<unit tank.bg=51/>
+						<unit tank.bg=103/>
+						<unit motor.bg=57/>
+						<unit note="16 37mm AA" aa.reg=121/>
+						<unit mort.reg=234/>
+						<unit lt.at.reg=881/>
+						<unit note="12 85mm AT" at.bn=728/>
+						<unit mcycle.bn=74/>
+						<unit rocket.bn=126/>
+						<unit mot.sap.bn=90/>
+					</unit>
+					<unit ref=16tk>
+						<unit tank.bg=107/>
+						<unit tank.bg=109/>
+						<unit tank.bg=164/>
+						<unit motor.bg=15/>
+						<unit su.reg=1441/>
+						<unit mort.reg=226/>
+						<unit lt.at.reg=614/>
+						<unit note="12 85mm AT" at.bn=729/>
+						<unit mcycle.bn=51/>
+						<unit rocket.bn=89/>
+						<unit mot.sap.bn=205/>
+					</unit>
+					<unit gds.tank.bg=11/>
+					<unit mcycle.bn=87/>
+				</unit>
+				<unit ref=2d >
+					<unit dest.bg=4/>
+				</unit>
+				<unit fort.area=115/>
+				<unit fort.area=119/>
+				<unit fort.area=161/>
+				<unit dest.bg=14/>
+				<unit ref=9tk>
+					<unit tank.bg=23/>
+					<unit tank.bg=95/>
+					<unit tank.bg=108/>
+					<unit motor.bg=8/>
+					<unit note="12 85mm AT" at.bn=730/>
+					<unit rocket.bn=133/>
+				</unit>
+				<unit ref=19tk>
+					<unit tank.bg=79/>
+					<unit tank.bg=101/>
+					<unit tank.bg=202/>
+					<unit motor.bg=26/>
+				</unit>
+				<unit su.reg=1541/>
+				<unit cannon.bg=68/>
+				<unit at.bg=1/>
+				<unit at.bg=13/>
+				<unit at.reg=130/>
+				<unit at.reg=563/>
+				<unit mort.bg=21/>
+				<unit rocket.reg=84/>
+				<unit rocket.reg=92/>
+				<unit rocket.reg=323/>
+				<unit rail.bg=7/>
+				<unit ref=16air.army>
+					<hq>
+						<unit aa.reg=1610/>
+						<unit aa.reg=1611/>
+						<unit aa.reg=1612/>
+						<unit corr.air.sqd=14/>
+						<unit air.recon.reg=16/>
+					</>
+					<unit name="3rd Bomber Air Corps">
+						<unit bmb.air.div=241/>
+						<unit bmb.air.div=301/>
+					</unit>
+					<unit name="6th Mixed Air Corps">
+						<unit bmb.air.div=221/>
+						<unit ftr.air.div=282/>
+					</unit>
+					<unit name="6th Fighter Air Corps">
+						<unit ftr.air.div=273/>
+						<unit ftr.air.div=279/>
+					</unit>
+					<unit gds.att.air.div=2/>
+					<unit att.air.div=299/>
+					<unit gds.ftr.air.div=1/>
+					<unit ftr.air.div=283/>
+					<unit ftr.air.div=286/>
+					<unit ngt.air.div=271/>
+				</unit>
+			</unit>
+			<unit ref=Voronezh.front posture=defensive>
+				<hq>
+					<unit gds.aa.bn=22/>
+					<unit colors=Soviet eng.bg=4/>
+					<unit colors=Soviet eng.bg=5/>
+					<unit bridge.bg=6/>
+					<unit colors=Soviet sp.pur.eng.bg="42nd (Spetznaz)"/>
+					<unit bridge.bn=6/>
+					<unit bridge.bn=20/>
+				</>
+				<unit ref=6garmy>
+					<hq loads=1392t >
+						<unit colors=Soviet armd.trn=60/>
+						<unit colors=Soviet badge=aa size=XX name="26th Anti-Aircraft">
+							<unit aa.div.hq=26/>
+							<unit aa.reg=1352/>
+							<unit aa.reg=1357/>
+							<unit aa.reg=1363/>
+							<unit aa.reg=1369/>
+						</unit>
+						<unit colors=Soviet aa.reg=1487/>
+						<unit colors=Soviet eng.bn=205/>
+						<unit colors=Soviet eng.bn=540/>
+					</>
+					<unit ref=22grk>
+						<unit ref=67gr loads=529t >
+							<unit colors=Soviet atr.bn=135 />
+							<unit colors=Soviet at.reg=611/>
+							<unit colors=Soviet flame.co=156 />
+							<unit colors=Soviet tank.reg=245/>
+							<unit colors=Soviet su.reg=1440/>
+						</unit>
+						<unit  ref=71gr loads=581t >
+							<unit colors=Soviet at.bg=27/>
+							<unit colors=Soviet atr.bn=134 />
+							<unit colors=Soviet at.reg=1666/>
+							<unit colors=Soviet at.reg=868/>
+							<unit colors=Soviet at.reg=493/>
+							<unit rocket.reg=314/>
+							<unit colors=Soviet mort.reg=295/>
+						</unit>
+						<unit ref=90gr loads=354t />
+						<unit colors=Soviet at.reg=496/>
+					</unit>
+					<unit ref=23grk>
+						<unit ref=51gr loads=338t />
+						<unit ref=52gr loads=638t >
+							<unit colors=Soviet tank.reg=230/>
+							<unit colors=Soviet at.reg=1008/>
+							<unit colors=Soviet atr.bn=133 />
+							<unit rocket.reg=316/>
+							<unit colors=Soviet lt.at.reg=538/>
+							<unit colors=Soviet flame.co=75 />
+							<unit colors=Soviet flame.co=95 />
+						</unit>
+						<unit colors=Soviet ref=375r loads=924t >
+							<unit tank.bg=96/>
+							<unit cannon.bg=27/>
+							<unit atr.bn=137 />
+							<unit at.reg=694/>
+							<unit at.reg=1667/>
+							<unit at.reg=1240/>
+							<unit rocket.reg=16/>
+							<unit flame.co=88 />
+							<unit flame.co=192 />
+						</unit>
+					</unit>
+					<unit ref=89gr loads=338t />
+					<unit colors=Soviet at.bg=28/>
+					<unit colors=Soviet cannon.bg=33/>
+					<unit colors=Soviet cannon.reg=628/>
+					<unit colors=Soviet mort.reg=263/>
+					<unit rocket.reg=5/>
+				</unit>
+				<unit ref=7garmy>
+					<hq loads=1822t >
+						<unit colors=Soviet badge=aa size=XX name="5th Anti-Aircraft">
+							<unit aa.div.hq=5/>
+							<unit aa.reg=670/>
+							<unit aa.reg=743/>
+							<unit aa.reg=1119/>
+							<unit aa.reg=1181/>
+						</unit>
+						<unit gds.aa.reg=162/>
+						<unit gds.aa.reg=258/>
+						<unit colors=Soviet eng.bg=60/>
+						<unit colors=Soviet eng.bn=175/>
+						<unit colors=Soviet eng.bn=329/>
+						<unit colors=Soviet armd.trn=34/>
+						<unit colors=Soviet armd.trn=38/>
+					</>
+					<unit ref=24grk>
+						<unit ref=15gr loads=194t />
+						<unit ref=36gr loads=270t >
+							<unit colors=Soviet tank.reg=148/>
+							<unit colors=Soviet at.reg=1669/>
+						</unit>
+						<unit ref=72gr loads=234t >
+							<unit gds.atr.bn=1/>
+						</unit>
+						<unit colors=Soviet hvy.su.reg=1529/>
+						<unit gds.cannon.reg=109/>
+						<unit gds.at.reg=115/>
+					</unit>
+					<unit ref=25grk>
+						<unit ref=73gr loads=240t >
+							<unit gds.tank.bg=201/>
+							<unit colors=Soviet at.bg=30/>
+							<unit rocket.reg=309/>
+						</unit>
+						<unit ref=78gr loads=201t >
+							<unit gds.atr.bn=4/>
+						</unit>
+						<unit ref=81gr loads=465t >
+							<unit gds.atr.bn=2/>
+							<unit colors=Soviet tank.reg=262/>
+							<unit colors=Soviet mort.reg=290/>
+							<unit rocket.reg=97/>
+							<unit rocket.reg=315/>
+						</unit>
+						<unit colors=Soviet tank.reg=167/>
+						<unit colors=Soviet su.reg=1438/>
+						<unit gds.cannon.reg=161/>
+						<unit gds.cannon.reg=265/>
+						<unit gds.at.reg=114/>
+					</unit>
+					<unit colors=Soviet ref=213r loads=228t >
+						<unit gds.tank.bg=27/>
+					</>
+					<unit at.reg=1670/>
+				</unit>
+				<unit ref=38army posture=static>
+					<hq>
+						<unit aa.reg=981/>
+						<unit aa.reg=1288/>
+						<unit eng.bn=235/>
+						<unit eng.bn=268/>
+						<unit bridge.bn=108/>
+						<unit sap.bn=1505/>
+					</>
+					<unit ref=50rk>
+						<unit ref=167r>
+							<unit tank.bg=180/>
+							<unit rocket.reg=441/>
+							<unit at.reg=483/>
+						</unit>
+						<unit ref=232r>
+							<unit at.reg=222/>
+							<unit mort.reg=491/>
+						</unit>
+						<unit ref=340r>
+							<unit gds.how.reg=111/>
+							<unit at.reg=1660/>
+						</unit>
+					</unit>
+					<unit ref=51rk>
+						<unit ref=180r>
+							<unit at.bg=29/>
+							<unit rocket.reg=66/>
+						</>
+						<unit ref=240r>
+							<unit gds.cannon.reg=112/>
+							<unit mort.reg=492/>
+						</>
+					</unit>
+					<unit ref=204r loads=199t />
+				</unit>
+				<unit ref=40army>
+					<hq loads=1079t >
+						<unit badge=aa size=XX name="9th Anti-Aircraft">
+							<unit aa.div.hq=9/>
+							<unit aa.reg=800/>
+							<unit aa.reg=974/>
+							<unit aa.reg=993/>
+						</unit>
+						<unit aa.reg=1488/>
+						<unit eng.bn=14/>
+					</>
+					<unit ref=47rk>
+						<unit ref=100r loads=752t />
+						<unit ref=161r loads=276t />
+						<unit ref=206r loads=281t >
+							<unit atr.bn=122 />
+						</unit>
+						<unit ref=237r loads=268t >
+							<unit at.reg=1244/>
+							<unit gds.at.reg=12 />
+						</unit>
+					</unit>
+					<unit ref=52rk>
+						<unit ref=219r loads=288t />
+						<unit ref=309r loads=247t />
+					</unit>
+					<unit ref=184r loads=308t />
+					<unit tank.bg=192/>
+					<unit tank.bg=86 />
+					<unit how.bg=29/>
+					<unit cannon.bg=36/>
+					<unit gds.cannon.reg=76/>
+					<unit at.bg=32/>
+					<unit tank.reg=59/>
+					<unit hvy.tank.reg=60/>
+					<unit at.bg=14/>
+					<unit lt.at.reg=1689 note=(SP)/>
+					<unit su.reg=1461/>
+					<unit at.reg=12/>
+					<unit mort.reg=493/>
+					<unit mort.reg=494/>
+					<unit mtn.mort.reg=10/>
+					<unit mtn.mort.reg=9/>
+				</unit>
+				<unit ref=69army>
+					<hq loads=137t >
+						<unit gds.aa.reg=225/>
+						<unit aa.bn=322/>
+						<unit colors=Soviet eng.bn=328/>
+					</>
+					<unit ref=48rk>
+						<unit ref=107r loads=363t >
+							<unit atr.bn=123 />
+							<unit atr.bn=130 />
+							<unit mort.reg=496/>
+						</unit>
+						<unit ref=183r loads=284t />
+						<unit ref=305r loads=290t >
+							<unit at.reg=1658/>
+						</>
+					</unit>
+					<unit ref=49rk>
+						<unit ref=111r loads=291t />
+						<unit ref=270r loads=271t />
+					</unit>
+					<unit colors=Soviet at.bg=31/>
+				</unit>
+				<unit ref=1tank.army>
+					<hq loads=187t >
+						<unit colors=Soviet badge=aa size=XX name="8th Anti-Aircraft">
+							<unit aa.div.hq=8/>
+							<unit aa.reg=797/>
+							<unit aa.reg=848/>
+							<unit aa.reg=978/>
+							<unit aa.reg=1063/>
+						</unit>
+						<unit colors=Soviet eng.bn=71/>
+						<unit colors=Soviet eng.bn=267/>
+					</>
+					<unit ref=3mk loads=943t >
+						<hq>
+							<unit aa.reg=1707/>
+						</>
+						<unit gds.tank.bg=1/>
+						<unit tank.bg=49/>
+						<unit mech.bg=1/>
+						<unit mech.bg=3/>
+						<unit mech.bg=10/>
+						<unit mort.reg=265/>
+						<unit rocket.bn=405/>
+						<unit at.reg=35/>
+						<unit mcycle.bn=58/>
+						<unit ac.bn=34/>
+					</unit>
+					<unit ref=6tk loads=469t >
+						<hq>
+							<unit sig.bn=351/>
+						</>
+						<unit tank.bg=22/>
+						<unit tank.bg=112/>
+						<unit tank.bg=200/>
+						<unit motor.bg=6/>
+						<unit mort.reg=270/>
+						<unit rocket.bn=129/>
+						<unit mcycle.bn=85/>
+						<unit mot.sap.bn=85/>
+						<unit ac.bn=40/>
+					</unit>
+					<unit ref=31tk loads=254t >
+						<unit tank.bg=100/>
+						<unit tank.bg=237/>
+						<unit tank.bg=242/>
+						<unit colors=Soviet atr.bn=210/>
+						<unit ac.bn=31/>
+					</unit>
+					<unit ref=2gtk loads=1033t >
+						<hq>
+							<unit gds.sig.bn=1/>
+							<unit colors=Soviet aa.reg=1695/>
+						</>
+						<unit gds.tank.bg=4/>
+						<unit gds.tank.bg=25/>
+						<unit gds.tank.bg=26/>
+						<unit gds.motor.bg=4/>
+						<unit gds.hvy.tank.reg=47/>
+						<unit colors=Soviet mort.reg=273/>
+						<unit colors=Soviet at.bn=755/>
+						<unit colors=Soviet lt.at.reg=1500/>
+						<unit colors=Soviet mcycle.bn=79/>
+						<unit colors=Soviet ac.bn=19/>
+						<unit colors=Soviet sap.bn=51/>
+						<unit colors=Soviet lt.at.reg=1076/>
+						<unit colors=Soviet lt.at.reg=1510/>
+					</unit>
+					<unit ref=5gtk loads=663t >
+						<hq>
+							<unit gds.sig.bn=4/>
+							<unit colors=Soviet rep.bn=49/>
+							<unit colors=Soviet rep.bn=95/>
+							<unit colors=Soviet aa.reg=1696/>
+						</>
+						<unit gds.tank.bg=20/>
+						<unit gds.tank.bg=21/>
+						<unit gds.tank.bg=22/>
+						<unit gds.motor.bg=6/>
+						<unit gds.hvy.tank.reg=48/>
+						<unit colors=Soviet mort.reg=454/>
+						<unit colors=Soviet lt.at.reg=1499/>
+						<unit colors=Soviet mcycle.bn=80/>
+						<unit colors=Soviet ac.bn=23/>
+						<unit colors=Soviet sap.bn=60/>
+					</unit>
+					<unit rocket.reg=36/>
+					<unit mort.reg=146 />
+				</unit>
+				<unit ref=35grk>
+					<unit ref=92gr loads=306t />
+					<unit ref=93gr loads=306t /> * in 35grk
+					<unit ref=94gr loads=306t/>
+				</unit>
+				<unit rocket.reg=80/>
+				<unit colors=Soviet hvy.tank.bn=I/203 note="10 KV-2's"/>
+				<unit mort.reg=469/>
+				<unit rocket.reg=79/>
+				<unit at.reg=869/>
+				<unit gds.at.reg=4/>
+				<unit at.reg=1661/>
+				<unit at.reg=1664/>
+				<unit at.reg=1663/>
+				<unit shh.reg=522/>
+				<unit how.reg=1528/>
+				<unit shh.reg=1148/>
+				<unit rail.bg=8/>
+				<unit ref=2air.army>
+					<hq>
+						<unit aa.reg=1554/>
+						<unit aa.reg=1555/>
+						<unit aa.reg=1605/>
+						<unit corr.air.sqd=331/>
+						<unit air.recon.reg=50/>
+					</>
+					<unit name="1st Bomber Air Corps">
+						<unit gds.bmb.air.div=1/>
+						<unit bmb.air.div=293/>
+					</unit>
+					<unit name="1st Assault Air Corps">
+						<unit att.air.div=266/>
+						<unit att.air.div=292/>
+					</unit>
+					<unit name="4th Fighter Air Corps">
+						<unit ftr.air.div=294/>
+						<unit ftr.air.div=302/>
+					</unit>
+					<unit name="5th Fighter Air Corps">
+						<unit gds.ftr.air.div=8/>
+						<unit ftr.air.div=205/>
+					</unit>
+					<unit att.air.div=291/>
+					<unit ftr.air.div=203/>
+					<unit ngt.air.div=208/>
+					<unit lt.bmb.air.reg=385/>
+					<unit lt.bmb.air.reg=454/>
+				</unit>
+			</unit>
+			<unit ref=Southwest.front>
+				<hq>
+					<unit colors=Soviet badge=aa size=XX name="3rd Anti-Aircraft">
+						<unit aa.div.hq=3/>
+						<unit aa.reg=1084/>
+						<unit aa.reg=1089/>
+						<unit aa.reg=1114/>
+						<unit aa.reg=1118/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="4th Anti-Aircraft">
+						<unit aa.div.hq=4/>
+						<unit gds.aa.reg=253/>
+						<unit gds.aa.reg=254/>
+						<unit aa.reg=606/>
+						<unit aa.reg=658/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="22nd Anti-Aircraft">
+						<unit aa.div.hq=22/>
+						<unit aa.reg=1335/>
+						<unit aa.reg=1344/>
+						<unit aa.reg=1347/>
+						<unit aa.reg=1353/>
+					</unit>
+					<unit aa.reg=247/>
+					<unit aa.reg=303/>
+					<unit aa.reg=470/>
+					<unit aa.reg=1474/>
+					<unit eng.bg=15/>
+					<unit sp.pur.eng.bg=44/>
+					<unit eng.bg=51/>
+					<unit bridge.bg=4/>
+					<unit bridge.bg=5/>
+					<unit bridge.reg=8/>
+				</>
+				<unit ref=1garmy>
+					<hq>
+						<unit toe=aa.reg colors=Soviet des=579/>
+						<unit toe=aa.reg colors=Soviet des=580/>
+						<unit toe=aa.bn colors=Soviet des=139/>
+						<unit toe=eng.bg colors=Soviet des=62/>
+						<unit toe=eng.bn colors=Soviet des=351/>
+						<unit toe=eng.bn colors=Soviet des=358/>
+					</>
+					<unit ref=6grk>
+						<unit ref=57gr/>
+						<unit ref=53r/>
+						<unit colors=Soviet ref=195r/>
+						<unit gds.art.reg=42/>
+						<unit toe=at.reg colors=Soviet des=536/>
+					</unit>
+					<unit ref=33rk>
+						<unit ref=230r/>
+						<unit ref=50r/>
+						<unit ref=243r/>
+						<unit rifle.bg=253/>
+						<unit at.reg=174/>
+						<unit mort.reg=525/>
+					</unit>
+					<unit ref=44gr>
+						<unit mcycle.bn=16/>
+					</unit>
+					<unit ref=60gr>
+						<unit cannon.reg=518/>
+						<unit rocket.reg=35/>
+					</unit>
+					<unit ref=7a>
+						<unit how.bg=25/>
+						<unit cannon.bg=17/>
+						<unit mort.bg=3/>
+						<unit obs.bn=7/>
+					</unit>
+					<unit rocket.reg=301/>
+				</unit>
+				<unit ref=3garmy>
+					<hq>
+						<unit colors=Soviet aa.reg=586/>
+						<unit colors=Soviet aa.reg=626/>
+						<unit colors=Soviet aa.reg=1257/>
+						<unit colors=Soviet aa.bn=60/>
+						<unit colors=Soviet eng.bn=322/>
+					</>
+					<unit ref=34grk>
+						<unit ref=47gr/>
+						<unit ref=61gr/>
+						<unit ref=59gr/>
+					</unit>
+					<unit colors=Soviet mcycle.bn=54/>
+					<unit colors=Soviet cannon.bg=30/>
+					<unit colors=Soviet how.reg=152/>
+					<unit colors=Soviet at.reg=179/>
+					<unit rocket.reg=58/>
+					<unit ref=32rk>
+						<unit colors=Soviet ref=259r/>
+						<unit colors=Soviet ref=266r/>
+						<unit colors=Soviet ref=279r/>
+						<unit colors=Soviet tank.reg=243/>
+						<unit toe=cannon.reg colors=Soviet des=312/>
+						<unit colors=Soviet at.reg=1312/>
+						<unit colors=Soviet mort.reg=23/>
+						<unit colors=Soviet cannon.reg=1232/>
+						<unit rocket.reg=100/>
+					</unit>
+					<unit ref=78r>
+						<unit gds.cannon.reg=222/>
+						<unit colors=Soviet at.reg=534/>
+						<unit colors=Soviet tank.reg=52/>
+					</unit>
+					<unit gds.motor.bg=5>
+						<unit colors=Soviet mcycle.bn=50/>
+					</unit>
+					<unit colors=Soviet tank.bg=11/>
+				</unit>
+				<unit ref=8garmy commander=Chuikov>
+					<hq>
+						<unit colors=Soviet aa.reg=878/>
+						<unit colors=Soviet eng.bn=326/>
+						<unit colors=Soviet eng.bn=327/>
+					</>
+					<unit ref=28grk>
+						<unit ref=39gr/>
+						<unit ref=79gr/>
+						<unit ref=88gr/>
+						<unit gds.hvy.tank.reg=5/>
+						<unit colors=Soviet cannon.reg=99/>
+						<unit rocket.reg=302/>
+					</unit>
+					<unit ref=29grk>
+						<unit ref=27gr/>
+						<unit ref=74gr/>
+						<unit ref=82gr/>
+						<unit colors=Soviet tank.reg=224/>
+						<unit colors=Soviet at.reg=184/>
+						<unit colors=Soviet mort.reg=141/>
+						<unit gds.hvy.tank.reg=9/>
+					</unit>
+				</unit>
+				<unit ref=6army>
+					<hq>
+						<unit aa.reg=241/>
+						<unit aa.reg=1290/>
+						<unit aa.bn=126/>
+						<unit eng.bn=350/>
+						<unit eng.bn=370/>
+					</>
+					<unit ref=4grk>
+						<unit ref=20gr/>
+						<unit ref=35gr/>
+						<unit colors=Soviet ref=228r/>
+						<unit colors=Soviet ref=263r/>
+						<unit at.reg=1176/>
+						<unit rocket.reg=87/>
+					</unit>
+					<unit ref=26grk>
+						<unit colors=Soviet ref=6r/>
+						<unit ref=41gr/>
+						<unit ref=62gr/>
+						<unit gds.art.reg=40/>
+						<unit at.reg=33/>
+						<unit rocket.reg=75/>
+					</unit>
+					<unit ref=34rk>
+						<unit ref=152r/>
+						<unit ref=267r/>
+						<unit colors=Soviet tank.reg=212/>
+						<unit at.reg=1249/>
+						<unit mort.reg=524/>
+					</unit>
+					<unit ref=25gr>
+						<unit gds.cannon.reg=170/>
+						<unit rocket.bn=115/>
+					</unit>
+					<unit ref=38gr/>
+					<unit ref=11a>
+						<unit la.bg=31/>
+						<unit how.bg=40/>
+						<unit cannon.bg=45/>
+						<unit obs.bn=11/>
+					</unit>
+					<unit colors=Soviet tank.bg=115/>
+				</unit>
+				<unit ref=12army>
+					<hq>
+						<unit aa.reg=1587/>
+						<unit eng.bn=181/>
+						<unit eng.bn=269/>
+					</>
+					<unit ref=172r>
+						<unit mcycle.bn=56/>
+					</unit>
+					<unit ref=203r>
+						<unit at.reg=1248/>
+					</unit>
+					<unit ref=244r>
+						<unit gds.cannon.reg=103/>
+					</unit>
+					<unit ref=333r>
+						<unit colors=Soviet tank.reg=141/>
+						<unit mort.reg=531/>
+					</unit>
+					<unit ref=350r/>
+				</unit>
+				<unit ref=46army>
+					<hq>
+						<unit aa.reg=1654/>
+						<unit eng.bn=68/>
+						<unit eng.bn=273/>
+					</>
+					<unit ref=31r>
+						<unit mort.reg=462/>
+					</unit>
+					<unit ref=223r/>
+					<unit ref=236r/>
+					<unit ref=353r/>
+					<unit ref=394r>
+						<unit at.reg=437/>
+					</unit>
+					<unit ref=409r/>
+				</unit>
+				<unit ref=57army>
+					<hq>
+						<unit aa.reg=71/>
+						<unit aa.bn=227/>
+					</>
+					<unit ref=27grk>
+						<unit ref=14gr/>
+						<unit ref=48gr/>
+						<unit ref=58gr/>
+					</unit>
+					<unit ref=19r>
+						<unit colors=Soviet tank.reg=179/>
+						<unit gds.cannon.bg=9/>
+						<unit gds.mort.reg=45/>
+					</unit>
+					<unit ref=24r>
+						<unit colors=Soviet tank.reg=173/>
+						<unit cannon.reg=1110/>
+					</unit>
+					<unit ref=52r>
+						<unit la.bg=26/>
+						<unit colors=Soviet lt.at.reg=595/>
+						<unit colors=Soviet mort.reg=523/>
+					</unit>
+					<unit ref=113r>
+						<unit colors=Soviet lt.at.reg=374/>
+						<unit dest.bg=1/>
+					</unit>
+					<unit ref=303r>
+						<unit gds.mort.reg=303/>
+					</unit>
+				</unit>
+				<unit rifle.bg=104>
+					<unit rocket.reg=62/>
+				</unit>
+				<unit ref=1gck>
+					<unit gds.cav.div=1/>
+					<unit gds.cav.div=2/>
+					<unit gds.cav.div=7/>
+					<unit gds.at.reg=143/>
+					<unit gds.mort.reg=1/>
+					<unit colors=Soviet aa.reg=319/>
+					<unit gds.at.bn=1/>
+					<unit mort.bn=49/>
+					<unit rocket.bn=406/>
+				</unit>
+				<unit ref=1gmk>
+					<unit gds.mech.bg=1/>
+					<unit gds.mech.bg=2/>
+					<unit gds.mech.bg=3/>
+					<unit note="3Bns, each 8 76mm + 4 122mm how" gds.art.reg=116/>
+					<unit colors=Soviet mort.reg=267/>
+					<unit rocket.bn=407/>
+					<unit colors=Soviet lt.at.reg=1504/>
+					<unit colors=Soviet aa.reg=1699/>
+					<unit colors=Soviet mcycle.bn=84/>
+					<unit gds.sap.bn=54/>
+					<unit gds.sig.bn=75/>
+					<unit gds.med.bn=48/>
+					<unit colors=Soviet rep.bn=40/>
+					<unit colors=Soviet rep.bn=101/>
+					<unit rocket.reg=61/>
+				</unit>
+				<unit ref=2tk loads=332t >
+					<unit tank.bg=26/>
+					<unit tank.bg=99/>
+					<unit tank.bg=169/>
+					<unit motor.bg=58/>
+					<unit note="16 37mm AA" aa.reg=1698/>
+					<unit mort.reg=269/>
+					<unit rocket.bn=307/>
+					<unit lt.at.reg=48/>
+					<unit lt.at.reg=1502/>
+					<unit mcycle.bn=83/>
+					<unit mot.sap.bn=74/>
+					<unit sig.bn=804/>
+				</unit>
+				<unit ref=23tk>
+					<unit tank.bg=135/>
+					<unit tank.bg=3/>
+					<unit tank.bg=39/>
+					<unit motor.bg=56/>
+					<unit colors=Soviet su.reg=1443/>
+					<unit lt.at.reg=1501/>
+					<unit mort.reg=457/>
+					<unit aa.reg=1697/>
+					<unit rocket.bn=442/>
+					<unit mcycle.bn=82/>
+					<unit gds.tank.reg=10/>
+				</unit>
+				<unit ref=9a>
+					<unit how.bg=23/>
+					<unit mort.bg=10/>
+					<unit obs.bn=9/>
+				</unit>
+				<unit gds.tank.bg=9>
+					<unit smg.bn=10/>
+				</unit>
+				<unit gds.mcycle.reg=3/>
+				<unit la.bg=11/>
+				<unit at.bg=9/>
+				<unit at.bg=10/>
+				<unit at.bg=11/>
+				<unit rail.bg=9/>
+				<unit ref=17air.army>
+					<hq>
+						<unit air.recon.reg=39/>
+					</>
+					<unit name="1st Mixed Air Corps">
+						<unit gds.att.air.div=5/>
+						<unit ftr.air.div=288/>
+					</unit>
+					<unit name="3rd Mixed Air Corps">
+						<unit att.air.div=290/>
+						<unit ftr.air.div=207/>
+					</unit>
+					<unit name="9th Mixed Air Corps">
+						<unit att.air.div=305/>
+						<unit ftr.air.div=295/>
+					</unit>
+					<unit bmb.air.div=244/>
+					<unit att.air.div=306/>
+					<unit ngt.air.div=262/>
+				</unit>
+			</unit>
+			<unit ref=Southern.front>
+				<hq>
+					<unit armd.trn=46/>
+					<unit aa.reg=1069/>
+					<unit aa.reg=223/>
+					<unit aa.reg=416/>
+					<unit aa.reg=459/>
+					<unit aa.reg=622/>
+					<unit eng.bg=7/>
+					<unit eng.bg=9/>
+				</>
+				<unit ref=2garmy>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="18th Anti-Aircraft">
+							<unit aa.div.hq=18/>
+							<unit gds.aa.reg=160/>
+							<unit gds.aa.reg=166/>
+							<unit aa.reg=297/>
+							<unit aa.reg=1262/>
+						</unit>
+						<unit colors=Soviet aa.reg=1530/>
+						<unit colors=Soviet eng.bg=63/>
+						<unit colors=Soviet eng.bn=355/>
+					</>
+					<unit ref=1grk>
+						<unit ref=24gr/>
+						<unit ref=33gr/>
+						<unit ref=86gr/>
+						<unit colors=Soviet cannon.reg=1095/>
+					</unit>
+					<unit ref=13grk>
+						<unit ref=3gr/>
+						<unit ref=49gr/>
+						<unit ref=87gr/>
+						<unit colors=Soviet mort.reg=483/>
+					</unit>
+					<unit ref=2gmk>
+						<unit gds.tank.bg=37/>
+						<unit note=23gtr gds.mech.bg=4/>
+						<unit note=24gtr gds.mech.bg=5/>
+						<unit note=25gtr gds.mech.bg=6/>
+						<unit disable note="added in August" colors=Soviet hvy.su.reg=1543/>
+						<unit rocket.bn=408/>
+						<unit mcycle.bn=99/>
+						<unit gds.sap.bn=45/>
+						<unit gds.sig.bn=76/>
+						<unit gds.med.bn=56/>
+					</unit>
+				</unit>
+				<unit ref=5shock>
+					<hq>
+						<unit armd.trn=28/>
+						<unit aa.reg=1617/>
+						<unit eng.bn=827/>
+					</>
+					<unit ref=31grk>
+						<unit ref=4gr/>
+						<unit ref=34gr/>
+						<unit ref=40gr/>
+						<unit gds.how.reg=85/>
+					</unit>
+					<unit ref=96gr/>
+					<unit ref=126r>
+						<unit gds.tank.reg=22/>
+						<unit cannon.reg=506/>
+						<unit at.reg=1255/>
+					</unit>
+					<unit ref=127r>
+						<unit cannon.reg=1162/>
+						<unit gds.dest.bg=1/>
+					</unit>
+					<unit ref=221r>
+						<unit how.reg=331/>
+						<unit at.reg=507/>
+					</unit>
+					<unit ref=315r>
+						<unit mort.reg=489/>
+					</unit>
+				</unit>
+				<unit ref=28army>
+					<hq>
+						<unit aa.reg=1485/>
+						<unit eng.bn=57/>
+						<unit eng.bn=130/>
+					</>
+					<unit ref=55rk>
+						<unit ref=118r/>
+						<unit ref=271r/>
+						<unit mort.reg=488/>
+						<unit at.reg=521/>
+						<unit gds.cannon.reg=110/>
+						<unit tank.bg=140/>
+					</unit>
+					<unit gds.fort.area=1/>
+					<unit fort.area=78/>
+					<unit fort.area=116/>
+				</unit>
+				<unit ref=44army>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="2nd Anti-Aircraft">
+							<unit aa.div.hq=2/>
+							<unit aa.reg=1086/>
+							<unit aa.reg=1113/>
+							<unit aa.reg=1117/>
+						</unit>
+						<unit armd.trn=30/>
+						<unit aa.reg=607/>
+						<unit gds.eng.bn=5/>
+					</>
+					<unit ref=37rk>
+						<unit ref=130r/>
+						<unit ref=248r/>
+						<unit ref=387r/>
+						<unit at.reg=491/>
+						<unit mort.bg=19/>
+						<unit rocket.reg=133/>
+					</unit>
+					<unit ref=151r>
+						<unit gds.tank.bg=32/>
+						<unit at.reg=530/>
+					</unit>
+					<unit ref=320r>
+						<unit how.reg=274/>
+					</unit>
+					<unit ref=347r>
+						<unit cannon.reg=1101/>
+						<unit at.reg=1250/>
+					</unit>
+					<unit ref=416r>
+						<unit at.reg=747/>
+					</unit>
+					<unit gds.tank.bg=33/>
+				</unit>
+				<unit ref=51army>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="15th Anti-Aircraft">
+							<unit aa.div.hq=15/>
+							<unit aa.reg=281/>
+							<unit aa.reg=342/>
+							<unit aa.reg=723/>
+							<unit aa.reg=1264/>
+						</unit>
+						<unit armd.trn=33/>
+						<unit gds.aa.reg=77/>
+						<unit eng.bn=258/>
+						<unit eng.bn=275/>
+						<unit bridge.bn=121/>
+					</>
+					<unit ref=3grk>
+						<unit ref=50gr/>
+						<unit ref=54gr/>
+						<unit colors=Soviet ref=91r/>
+						<unit cannon.reg=1105/>
+						<unit gds.at.reg=113/>
+						<unit at.reg=14/>
+					</unit>
+					<unit ref=54rk>
+						<unit ref=87r/>
+						<unit ref=99r/>
+						<unit ref=302r/>
+						<unit at.reg=764/>
+						<unit at.reg=1246/>
+						<unit mort.reg=125 />
+					</unit>
+					<unit ref=346r>
+						<unit at.reg=13/>
+					</unit>
+					<unit ref=2ga>
+						<unit gds.la.bg=4/>
+						<unit gds.how.bg=5/>
+						<unit gds.cannon.bg=6/>
+						<unit colors=Soviet cannon.bg=114/>
+						<unit colors=Soviet obs.bn=2/>
+					</unit>
+					<unit gds.tank.bg=6/>
+				</unit>
+				<unit ref=4gmk>
+					<unit note="2bns; mix of 1942 shtat and 1943" gds.tank.bg=36/>
+					<unit note=38gtr gds.mech.bg=13/>
+					<unit note=39gtr gds.mech.bg=14/>
+					<unit note=37gtr gds.mech.bg=15/>
+					<unit rocket.bn=348/>
+					<unit colors=Soviet note="16 37mm AA" aa.reg=591/>
+					<unit colors=Soviet mcycle.bn=62/>
+					<unit colors=Soviet mot.sap.bn=138/>
+					<unit gds.sig.bn=46/>
+					<unit colors=Soviet rep.bn=181/>
+					<unit rocket.reg=19/>
+				</unit>
+				<unit gds.ac.bn=5/>
+				<unit at.bg=8/>
+				<unit at.bg=15/>
+				<unit rocket.reg=2/>
+				<unit rocket.reg=4/>
+				<unit rocket.reg=21/>
+				<unit rocket.reg=23/>
+				<unit rocket.reg=48/>
+				<unit rocket.reg=51/>
+				<unit rail.bg=10/>
+				<unit ref=8air.army>
+					<hq>
+						<unit aa.reg=1600/>
+						<unit aa.reg=1601/>
+						<unit aa.reg=1602/>
+						<unit aa.reg=1603/>
+						<unit trans.air.reg=678/>
+						<unit air.recon.reg=8/>
+					</>
+					<unit name="10th Mixed Air Corps">
+						<unit att.air.div=289/>
+					</unit>
+					<unit bmb.air.div=270/>
+					<unit gds.att.air.div=1/>
+					<unit gds.ftr.air.div=6/>
+					<unit gds.ngt.air.div=2/>
+					<unit lt.bmb.air.reg=406/>
+				</unit>
+			</unit>
+			<unit ref=nc.front>
+				<hq>
+					<unit aa.reg=1333/>
+					<unit gds.aa.reg=210/>
+					<unit aa.reg=249/>
+					<unit aa.reg=253/>
+					<unit aa.reg=763/>
+					<unit aa.bn=14/>
+					<unit aa.bn=17/>
+					<unit aa.bn=57/>
+					<unit aa.bn=179/>
+					<unit aa.bn=364/>
+					<unit aa.bn=508/>
+					<unit aa.bn=540/>
+					<unit sp.pur.eng.bg=13/>
+					<unit eng.bn=9/>
+					<unit eng.bn=97/>
+					<unit eng.bn=123/>
+					<unit eng.bn=333/>
+					<unit bridge.bn=19/>
+					<unit bridge.bn=35/>
+					<unit bridge.bn=37/>
+					<unit bridge.bn=54/>
+				</>
+				<unit ref=9army>
+					<hq>
+						<unit aa.reg=740/>
+						<unit aa.reg=1260/>
+						<unit aa.bn=504/>
+						<unit eng.bn=121/>
+						<unit eng.bn=336/>
+						<unit bridge.bn=97/>
+					</>
+					<unit ref=9rk>
+						<unit rifle.bg=34/>
+						<unit colors=Soviet rifle.bg=43/>
+						<unit rifle.bg=157/>
+						<unit rifle.bg=256/>
+						<unit disable note="Formed Jun-Aug '43" ref=301r/>
+						<unit art.reg=960/>
+						<unit cannon.reg=268/>
+						<unit at.reg=489/>
+					</unit>
+					<unit ref=11rk>
+						<unit rifle.bg=19/>
+						<unit rifle.bg=57/>
+						<unit rifle.bg=84/>
+						<unit rifle.bg=131/>
+						<unit art.reg=807/>
+						<unit at.reg=1187/>
+						<unit mort.reg=132/>
+					</unit>
+					<unit ref=276r>
+						<unit mtn.mort.reg=195/>
+						<unit mort.bn=12/>
+					</unit>
+					<unit ref=351r>
+						<unit cannon.reg=547/>
+						<unit mort.reg=253/>
+					</unit>
+				</unit>
+				<unit ref=18army>
+					<hq>
+						<unit aa.reg=574/>
+						<unit aa.reg=1258/>
+						<unit aa.bn=21/>
+						<unit aa.bn=30/>
+						<unit eng.bn=50/>
+						<unit eng.bn=174/>
+						<unit eng.bn=332/>
+						<unit eng.bn=338/>
+					</>
+					<unit ref=20rk>
+						<unit gds.rifle.bg=8/>
+						<unit naval.bg=83/>
+						<unit naval.bg=255/>
+						<unit tank.bn=132/>
+						<unit how.reg=81/>
+						<unit at.reg=490/>
+					</unit>
+					<unit ref=176r>
+						<unit cannon.reg=1167/>
+					</unit>
+					<unit ref=318r>
+						<unit cannon.reg=1169/>
+						<unit gds.at.reg=108/>
+					</unit>
+					<unit naval.bg=81>
+						<unit gds.cannon.reg=69/>
+					</unit>
+					<unit rifle.bg=107/>
+					<unit shh.reg=350/>
+				</unit>
+				<unit ref=37army>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="19th Anti-Aircraft">
+							<unit aa.div.hq=19/>
+							<unit aa.reg=1332/>
+							<unit aa.reg=1338/>
+							<unit aa.reg=1344/>
+							<unit aa.reg=1350/>
+						</unit>
+						<unit aa.reg=772/>
+						<unit eng.bn=112/>
+						<unit eng.bn=116/>
+					</>
+					<unit ref=11grk>
+						<unit ref=2gr/>
+						<unit ref=32gr/>
+						<unit ref=55gr/>
+						<unit cannon.reg=647/>
+					</unit>
+					<unit ref=389r/>
+					<unit ref=395r>
+						<unit gds.art.reg=98/>
+					</unit>
+					<unit ref=417r>
+						<unit how.reg=1231/>
+					</unit>
+					<unit ref=20g>
+						<unit rocket.bn=52/>
+					</unit>
+					<unit cannon.bg=62/>
+					<unit shh.reg=136/>
+					<unit mort.bg=29/>
+				</unit>
+				<unit ref=56army>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="20th Anti-Aircraft">
+							<unit aa.div.hq=20/>
+							<unit aa.reg=879/>
+							<unit aa.reg=1339/>
+							<unit aa.reg=1345/>
+						</unit>
+						<unit aa.reg=257/>
+						<unit aa.reg=1351/>
+						<unit eng.bn=8/>
+						<unit eng.bn=16/>
+					</>
+					<unit ref=10grk>
+						<unit gds.rifle.bg=5/>
+						<unit gds.rifle.bg=6/>
+						<unit gds.rifle.bg=7/>
+						<unit gds.rifle.bg=9/>
+						<unit gds.rifle.bg=10/>
+						<unit su.reg=1448/>
+						<unit art.reg=1014/>
+						<unit gds.cannon.reg=4/>
+						<unit at.reg=34/>
+						<unit mort.reg=569/>
+						<unit rocket.bn=51/>
+						<unit shh.reg=1147/>
+					</unit>
+					<unit ref=3gk>
+						<unit ref=9g/>
+						<unit ref=83g/>
+						<unit ref=242g/>
+						<unit mtn.mort.reg=197/>
+						<unit how.reg=1195/>
+					</unit>
+					<unit ref=10rk>
+						<unit ref=216r/>
+						<unit ref=328r/>
+						<unit naval.bg=62/>
+						<unit gds.art.reg=92/>
+						<unit at.reg=29/>
+						<unit mort.reg=260/>
+					</unit>
+					<unit gds.rifle.bg=4>
+						<unit cannon.reg=880/>
+					</unit>
+					<unit naval.bg=60/>
+				</unit>
+				<unit ref=58army>
+					<hq>
+						<unit armd.trn=8/>
+						<unit armd.trn=12/>
+						<unit armd.trn=66/>
+						<unit aa.reg=594/>
+						<unit eng.bn=170/>
+					</>
+					<unit ref=77r>
+						<unit mort.reg=256/>
+					</unit>
+					<unit ref=89r>
+						<unit at.reg=22/>
+					</unit>
+					<unit ref=295r/>
+					<unit ref=414r>
+						<unit at.reg=1174/>
+					</unit>
+				</unit>
+				<unit ref=16rk>
+					<unit ref=61r/>
+					<unit ref=317r/>
+					<unit ref=383r/>
+					<unit rocket.reg=43/>
+					<unit rocket.reg=44/>
+					<unit mtn.mort.reg=196/>
+					<unit tank.reg=244/>
+					<unit tank.reg=257/>
+					<unit cannon.reg=337/>
+					<unit rocket.bg=1/>
+				</unit>
+				<unit ref=22rk>
+					<unit ref=339r/>
+					<unit cannon.reg=377/>
+					<unit rocket.reg=25/>
+					<unit tank.reg=258/>
+					<unit rocket.reg=50/>
+					<unit rocket.reg=8/>
+					<unit rocket.reg=305/>
+					<unit tank.bn=75/>
+				</unit>
+				<unit ref=4gck>
+					<unit gds.cav.div=9/>
+					<unit note="no tanks; Kuban cossacks" gds.cav.div=10/>
+					<unit note="no tanks" colors=Soviet cav.div=30/>
+					<unit gds.at.reg=152/>
+					<unit colors=Soviet aa.reg=255/>
+					<unit gds.at.bn=4/>
+					<unit rocket.bn=68/>
+					<unit rocket.reg=67/>
+					<unit gds.hvy.tank.reg=6/>
+					<unit rocket.reg=49/>
+				</unit>
+				<unit gds.tank.bg=5/>
+				<unit tank.bg=63/>
+				<unit tank.reg=85/>
+				<unit su.reg=1449/>
+				<unit at.bg=6/>
+				<unit at.bg=7/>
+				<unit at.bg=16/>
+				<unit rail.bg=11/>
+				<unit ref=4air.army>
+					<hq>
+						<unit aa.reg=1559/>
+						<unit aa.reg=1560/>
+						<unit aa.reg=1561/>
+						<unit aa.reg=1562/>
+						<unit aa.reg=1609/>
+						<unit corr.air.sqd=23/>
+					</>
+					<unit name="2nd Bomber Air Corps">
+						<unit bmb.air.div=223/>
+						<unit bmb.air.div=285/>
+					</unit>
+					<unit name="2nd Mixed Air Corps">
+						<unit att.air.div=206/>
+						<unit att.air.div=214/>
+						<unit ftr.air.div=201/>
+					</unit>
+					<unit bmb.air.div=219/>
+					<unit att.air.div=230/>
+					<unit gds.ftr.air.div=9/>
+					<unit ftr.air.div=229/>
+					<unit ftr.air.div=235/>
+					<unit ftr.air.div=236/>
+					<unit ngt.air.div=132/>
+					<unit ngt.air.div=218/>
+					<unit gds.att.air.reg=7/>
+					<unit gds.att.air.reg=13/>
+					<unit att.air.reg=765/>
+					<unit ftr.air.reg=269/>
+					<unit air.recon.reg=366/>
+				</unit>
+			</unit>
+			<unit size=XXXXXX name="STAVKA Reserve">
+				<unit uid=stavka.res.hq res.hq="STAVKA Reserve">
+					<unit armd.trn=22/>
+					<unit armd.trn=59/>
+					<unit bridge.bn=56/>
+					<unit bridge.bn=85/>
+				</unit>
+				<unit ref=Steppe.front posture=defensive>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="11th Anti-Aircraft">
+							<unit aa.div.hq=11/>
+							<unit aa.reg=804/>
+							<unit aa.reg=976/>
+							<unit aa.reg=987/>
+							<unit aa.reg=996/>
+						</unit>
+						<unit colors=Soviet eng.bg=8/>
+						<unit sp.pur.eng.bg=27/>
+						<unit bridge.bn=7/>
+						<unit bridge.bn=19/>
+						<unit bridge.bn=40/>
+						<unit eng.bn=246/>
+						<unit eng.bn=247/>
+						<unit eng.bn=248/>
+						<unit eng.bn=250/>
+						<unit eng.bn=284/>
+					</>
+					<unit ref=4garmy>
+						<hq>
+							<unit colors=Soviet badge=aa size=XX name="27th Anti-Aircraft">
+								<unit aa.div.hq=27/>
+								<unit aa.reg=1354/>
+								<unit aa.reg=1358/>
+								<unit aa.reg=1364/>
+								<unit aa.reg=1170/>
+							</unit>
+							<unit colors=Soviet eng.bn=48/>
+						</>
+						<unit ref=20grk>
+							<unit ref=5gp/>
+							<unit ref=7gp/>
+							<unit ref=8gp/>
+							<unit colors=Soviet at.reg=452/>
+							<unit colors=Soviet mort.reg=466/>
+						</unit>
+						<unit ref=21grk>
+							<unit ref=68gr/>
+							<unit ref=69gr/>
+							<unit ref=80gr/>
+							<unit colors=Soviet at.reg=1317/>
+							<unit rocket.reg=96/>
+						</unit>
+						<unit ref=3gtk>
+							<unit note=2bns gds.tank.bg=18/>
+							<unit note=2bns gds.tank.bg=19/>
+							<unit gds.motor.bg=2/>
+							<unit colors=Soviet su.reg=1436/>
+							<unit colors=Soviet note="16 37mm AA" aa.reg=1701/>
+							<unit rocket.bn=324/>
+							<unit colors=Soviet mort.reg=266/>
+							<unit colors=Soviet lt.at.reg=1496/>
+							<unit colors=Soviet note="12 85mm AT" at.bn=749/>
+							<unit colors=Soviet mcycle.bn=73/>
+						</unit>
+					</unit>
+					<unit ref=5garmy>
+						<hq loads=402t >
+							<unit colors=Soviet badge=aa size=XX name="29th Anti-Aircraft">
+								<unit aa.div.hq=29/>
+								<unit aa.reg=1360/>
+								<unit aa.reg=1366/>
+								<unit aa.reg=1372/>
+								<unit aa.reg=1374/>
+							</unit>
+							<unit colors=Soviet eng.bn=256/>
+							<unit colors=Soviet eng.bn=431/>
+						</>
+						<unit ref=32grk>
+							<unit ref=13gr loads=194t />
+							<unit ref=66gr loads=204t />
+							<unit ref=6gp/>
+						</unit>
+						<unit ref=33grk>
+							<unit ref=95gr loads=266t />
+							<unit ref=97gr loads=291t />
+							<unit ref=42gr loads=186t />
+							<unit ref=9gp/>
+						</unit>
+						<unit ref=10tk loads=611t >
+							<unit tank.bg=178/>
+							<unit tank.bg=183/>
+							<unit tank.bg=186/>
+							<unit motor.bg=11/>
+							<unit su.reg=1450/>
+							<unit mort.reg=287/>
+							<unit lt.at.reg=727/>
+							<unit aa.reg=1693/>
+							<unit mcycle.bn=77/>
+							<unit ac.bn=30/>
+							<unit rocket.bn=128/>
+						</unit>
+						<unit rocket.reg=308/>
+						<unit colors=Soviet mort.bg=12/>
+					</unit>
+					<unit ref=27army>
+						<hq>
+							<unit colors=Soviet badge=aa size=XX name="23rd Anti-Aircraft">
+								<unit aa.div.hq=23/>
+								<unit aa.reg=1064/>
+								<unit aa.reg=1342/>
+								<unit aa.reg=1336/>
+								<unit aa.reg=1348/>
+							</unit>
+							<unit eng.bn=25/>
+							<unit eng.bn=38/>
+						</>
+						<unit ref=71r>
+							<unit colors=Soviet at.reg=680/>
+						</unit>
+						<unit ref=147r>
+							<unit toe=tank.reg colors=Soviet des=39/>
+						</unit>
+						<unit ref=155r>
+							<unit colors=Soviet mort.reg=480/>
+						</unit>
+						<unit ref=163r>
+							<unit rocket.reg=47/>
+						</unit>
+						<unit ref=166r/>
+						<unit ref=241r>
+							<unit colors=Soviet at.reg=1070/>
+						</unit>
+						<unit tank.bg=93/>
+					</unit>
+					<unit ref=47army>
+						<hq>
+							<unit colors=Soviet badge=aa size=XX name="21st Anti-Aircraft">
+								<unit aa.div.hq=21/>
+								<unit aa.reg=1044/>
+								<unit aa.reg=1334/>
+								<unit aa.reg=1340/>
+								<unit aa.reg=1346/>
+							</unit>
+							<unit eng.bn=91/>
+						</>
+						<unit ref=21rk>
+							<unit colors=Soviet ref=23r/>
+							<unit colors=Soviet ref=218r/>
+							<unit colors=Soviet ref=337r/>
+							<unit colors=Soviet at.reg=269/>
+							<unit rocket.reg=83/>
+						</unit>
+						<unit ref=23rk>
+							<unit colors=Soviet ref=29r/>
+							<unit colors=Soviet ref=30r/>
+							<unit colors=Soviet ref=38r/>
+							<unit colors=Soviet mort.reg=460/>
+							<unit colors=Soviet at.reg=1593/>
+						</unit>
+					</unit>
+					<unit ref=53army>
+						<hq>
+							<unit colors=Soviet badge=aa size=XX name="30th Anti-Aircraft">
+								<unit aa.div.hq=30/>
+								<unit aa.reg=1361/>
+								<unit aa.reg=1367/>
+								<unit aa.reg=1373/>
+								<unit aa.reg=1375/>
+							</unit>
+							<unit colors=Soviet eng.bn=11/>
+							<unit colors=Soviet eng.bn=17/>
+						</>
+						<unit ref=28gr>
+							<unit toe=tank.reg colors=Soviet des=34/>
+						</unit>
+						<unit ref=84r>
+							<unit colors=Soviet lt.at.reg=232/>
+						</unit>
+						<unit ref=116r>
+							<unit toe=tank.reg colors=Soviet des=35/>
+						</unit>
+						<unit ref=214r>
+							<unit rocket.reg=89/>
+						</unit>
+						<unit ref=233r>
+							<unit colors=Soviet mort.reg=461/>
+						</unit>
+						<unit ref=252r/>
+						<unit ref=299r>
+							<unit colors=Soviet lt.at.reg=1316/>
+						</unit>
+					</unit>
+					<unit ref=5gtank.army>
+						<hq loads=368t >
+							<unit colors=Soviet badge=aa size=XX name="6th Anti-Aircraft">
+								<unit aa.div.hq=6/>
+								<unit aa.reg=146/>
+								<unit aa.reg=366/>
+								<unit aa.reg=516/>
+								<unit aa.reg=1062/>
+							</unit>
+							<unit colors=Soviet eng.bn=377/>
+						</>
+						<unit ref=5gmk loads=478t >
+							<hq>
+								<unit colors=Soviet sig.bn=388/>
+								<unit colors=Soviet med.bn=46/>
+								<unit colors=Soviet rep.bn=86/>
+							</>
+							<unit gds.tank.bg=24/>
+							<unit gds.mech.bg=10/>
+							<unit gds.mech.bg=11/>
+							<unit gds.mech.bg=12/>
+							<unit colors=Soviet su.reg=1447/>
+							<unit colors=Soviet note="120mm Mtr" mort.reg=285/>
+							<unit rocket.bn=409/>
+							<unit gds.at.reg=104/>
+							<unit colors=Soviet note="12 85mm AT" at.bn=737/>
+							<unit gds.mcycle.bn=2/>
+							<unit gds.ac.bn=4/>
+							<unit colors=Soviet how.reg=678/>
+						</unit>
+						<unit ref=29tk loads=420t >
+							<unit tank.bg=25/>
+							<unit tank.bg=31/>
+							<unit tank.bg=32/>
+							<unit motor.bg=53/>
+							<unit su.reg=1446/>
+							<unit mort.reg=271/>
+							<unit lt.at.reg=108/>
+							<unit colors=Soviet note="12 85mm AT" at.bn=747/>
+							<unit mcycle.bn=75/>
+							<unit ac.bn=38/>
+							<unit colors=Soviet mot.sap.bn=193/>
+						</unit>
+						<unit uid=trufanov abbreviation=Tr name="Trufanov's Detachment" badge=mech size=X>
+							<unit gds.mcycle.reg=1 />
+							<unit gds.tank.reg=53 />
+							<unit lt.at.reg=689 />
+						</>
+						<unit rocket.reg=76/>
+						<unit colors=Soviet hvy.su.reg=1549/>
+					</unit>
+					<unit ref=35rk>
+					</unit>
+					<unit ref=3gck>
+						<unit colors=Soviet cav.div=32/>
+						<unit note="No tanks, Don Cossacks" gds.cav.div=5/>
+						<unit gds.cav.div=6/>
+						<unit gds.at.reg=144/>
+						<unit note="12 85mm AT" gds.at.bn=3/>
+						<unit rocket.bn=64/>
+						<unit colors=Soviet note="16 37mm AA" aa.reg=1731/>
+					</unit>
+					<unit ref=5gck>
+						<unit colors=Soviet cav.div=63/>
+						<unit gds.cav.div=11/>
+						<unit gds.cav.div=12/>
+						<unit gds.at.reg=150/>
+						<unit note="12 85mm AT" gds.at.bn=5/>
+						<unit rocket.bn=72/>
+						<unit colors=Soviet note="16 37mm AA" aa.reg=585/>
+					</unit>
+					<unit ref=7gck>
+						<unit note=114tr gds.cav.div=14/>
+						<unit note=57tr gds.cav.div=15/>
+						<unit gds.cav.div=16/>
+						<unit gds.at.reg=145/>
+						<unit note="12 85mm AT" gds.at.bn=7/>
+						<unit rocket.bn=57/>
+						<unit colors=Soviet note="16 37mm AA" aa.reg=1733/>
+					</unit>
+					<unit ref=4gtk>
+						<unit note=2bns gds.tank.bg=12/>
+						<unit note=2bns gds.tank.bg=13/>
+						<unit note=2bns gds.tank.bg=14/>
+						<unit gds.motor.bg=3/>
+						<unit colors=Soviet su.reg=1451/>
+						<unit note="16 37mm AA" gds.aa.reg=120/>
+						<unit colors=Soviet mort.reg=264/>
+						<unit colors=Soviet lt.at.reg=756/>
+						<unit colors=Soviet note="12 85mm AT" at.bn=752/>
+						<unit colors=Soviet mcycle.bn=76/>
+						<unit colors=Soviet mot.sap.bn=106/>
+						<unit colors=Soviet sig.bn=413/>
+						<unit colors=Soviet rep.bn=85/>
+						<unit colors=Soviet rep.bn=92/>
+					</unit>
+					<unit ref=3gmk>
+						<unit gds.tank.bg=35/>
+						<unit gds.mech.bg=7/>
+						<unit gds.mech.bg=8/>
+						<unit gds.mech.bg=9/>
+						<unit colors=Soviet hvy.su.reg=1831/>
+						<unit colors=Soviet mort.reg=129/>
+						<unit rocket.bn=334/>
+						<unit colors=Soviet note="12 85mm AT" at.bn=743/>
+						<unit colors=Soviet note="16 37mm AA" aa.reg=1705/>
+						<unit gds.mcycle.bn=1/>
+						<unit gds.sap.bn=62/>
+						<unit gds.sig.bn=11/>
+						<unit colors=Soviet med.bn=554/>
+						<unit colors=Soviet rep.bn=79/>
+					</unit>
+					<unit ref=1mk>
+						<unit tank.bg=219/>
+						<unit mech.bg=19/>
+						<unit mech.bg=35/>
+						<unit mech.bg=37/>
+						<unit note="16 37mm AA" aa.reg=1382/>
+						<unit note="120mm Mtr" mort.reg=294/>
+						<unit at.reg=75/>
+						<unit note="includes 22 US m3a1's" mcycle.bn=57/>
+					</unit>
+					<unit ref=2mk>
+						<unit tank.bg=33/>
+						<unit mech.bg=18/>
+						<unit mech.bg=34/>
+						<unit mech.bg=43/>
+						<unit note="16 37mm AA" aa.reg=1706/>
+						<unit mort.reg=468/>
+						<unit rocket.bn=410/>
+						<unit at.reg=79/>
+						<unit note="12 85mm AT" at.bn=734/>
+						<unit mcycle.bn=68/>
+					</unit>
+					<unit ref=5air.army>
+						<unit name="7th Mixed Air Corps">
+							<unit bmb.air.div=202/>
+							<unit ftr.air.div=287/>
+						</unit>
+						<unit name="8th Mixed Air Corps">
+							<unit gds.att.air.div=4/>
+							<unit att.air.div=264/>
+							<unit ftr.air.div=256/>
+						</unit>
+						<unit name="3rd Fighter Air Corps">
+							<unit ftr.air.div=265/>
+							<unit ftr.air.div=278/>
+						</unit>
+						<unit name="7th Fighter Air Corps">
+							<unit ftr.air.div=259/>
+							<unit ftr.air.div=304/>
+						</unit>
+						<unit gds.ftr.air.reg=69/>
+						<unit air.recon.reg=511/>
+					</unit>
+				</unit>
+				<unit ref=11army>
+					<hq>
+						<unit colors=Soviet badge=aa size=XX name="31st Anti-Aircraft">
+							<unit aa.div.hq=31/>
+							<unit aa.reg=1376/>
+							<unit aa.reg=1380/>
+							<unit aa.reg=1386/>
+							<unit aa.reg=1392/>
+						</unit>
+						<unit eng.bn=202/>
+						<unit eng.bn=277/>
+					</>
+					<unit ref=53rk>
+						<unit ref=135r/>
+						<unit ref=197r/>
+						<unit ref=369r/>
+						<unit at.reg=1179/>
+					</unit>
+					<unit ref=4r/>
+					<unit ref=96r>
+						<unit rocket.reg=90/>
+					</unit>
+					<unit ref=260r>
+						<unit tank.reg=225/>
+						<unit mort.reg=481/>
+					</unit>
+					<unit ref=273r/>
+					<unit ref=323r>
+						<unit at.reg=1321/>
+					</unit>
+				</unit>
+				<unit ref=52army>
+					<hq>
+						<unit eng.bn=366/>
+					</>
+					<unit ref=93r>
+						<unit rocket.reg=17/>
+					</unit>
+					<unit ref=136r/>
+					<unit ref=138r/>
+					<unit ref=253r/>
+					<unit ref=254r/>
+					<unit ref=294r/>
+					<unit ref=373r/>
+				</unit>
+				<unit ref=68army>
+					<hq>
+						<unit aa.reg=726/>
+						<unit eng.bn=122/>
+						<unit eng.bn=175/>
+					</>
+					<unit ref=153r>
+						<unit gds.cannon.reg=211/>
+					</unit>
+					<unit ref=154r/>
+					<unit ref=156r>
+						<unit at.reg=1427/>
+					</unit>
+					<unit ref=157r/>
+					<unit ref=159r/>
+					<unit ref=192r/>
+					<unit ref=199r>
+						<unit rocket.reg=77/>
+					</unit>
+				</unit>
+				<unit ref=3res.army>
+					<hq>
+						<unit eng.bn=260/>
+					</>
+					<unit ref=51r>
+						<unit at.reg=649/>
+					</unit>
+					<unit ref=62r>
+						<unit at.reg=1072/>
+					</unit>
+					<unit ref=63r/>
+					<unit ref=70r/>
+					<unit ref=76r/>
+					<unit ref=95r/>
+					<unit ref=119r/>
+					<unit ref=174r/>
+				</unit>
+				<unit ref=3gtank.army>
+					<hq>
+						<unit colors=Soviet eng.bn=182/>
+					</>
+					<unit ref=12tk>
+						<unit note="full strength" tank.bg=106/>
+						<unit note="full strength" tank.bg=30/>
+						<unit note="full strength" tank.bg=97/>
+						<unit motor.bg=13/>
+						<unit su.reg=1417/>
+						<unit note="16 37mm AA" aa.reg=1703/>
+						<unit mort.reg=272/>
+						<unit lt.at.reg=1498/>
+						<unit note="12 85mm AT" at.bn=757/>
+						<unit mcycle.bn=66/>
+						<unit colors=Soviet mcycle.reg=50/>
+					</unit>
+					<unit ref=15tk>
+						<unit tank.bg=88/>
+						<unit tank.bg=113/>
+						<unit tank.bg=195/>
+						<unit motor.bg=52/>
+						<unit su.reg=1418/>
+						<unit note="16 37mm AA" aa.reg=1704/>
+						<unit mort.reg=467/>
+						<unit lt.at.reg=1503/>
+						<unit note="12 85mm AT" at.bn=733/>
+						<unit ac.bn=89/>
+					</unit>
+					<unit tank.bg=91/>
+				</unit>
+				<unit gds.air.bg=1/>
+				<unit gds.air.bg=2/>
+				<unit gds.air.bg=3/>
+				<unit gds.air.bg=4/>
+				<unit gds.air.bg=5/>
+				<unit gds.air.bg=6/>
+				<unit gds.air.bg=7/>
+				<unit gds.air.bg=8/>
+				<unit gds.air.bg=9/>
+				<unit gds.air.bg=10/>
+				<unit gds.air.bg=11/>
+				<unit gds.air.bg=12/>
+				<unit gds.air.bg=13/>
+				<unit gds.air.bg=14/>
+				<unit gds.air.bg=15/>
+				<unit gds.air.bg=16/>
+				<unit gds.air.bg=17/>
+				<unit gds.air.bg=18/>
+				<unit gds.air.bg=19/>
+				<unit gds.air.bg=20/>
+				<unit ref=2gck>
+					<unit colors=Soviet cav.div=20/>
+					<unit note="No tanks, Don Cossacks" gds.cav.div=3/>
+					<unit gds.cav.div=4/>
+					<unit gds.at.reg=149/>
+					<unit note="12 85mm AT" gds.at.bn=2/>
+					<unit gds.mort.bn=60/>
+					<unit colors=Soviet note="16 37mm AA" aa.reg=1730/>
+				</unit>
+				<unit ref=6gck>
+					<unit note=154tr colors=Soviet cav.div=8/>
+					<unit note=250tr gds.cav.div=13/>
+					<unit gds.cav.div=8/>
+					<unit gds.at.reg=142/>
+					<unit colors=Soviet aa.reg=1732/>
+					<unit gds.at.bn=6/>
+					<unit gds.mort.bn=47/>
+				</unit>
+				<unit ref=5mk>
+					<unit tank.bg=233/>
+					<unit mech.bg=2/>
+					<unit mech.bg=45/>
+					<unit mech.bg=9/>
+					<unit note="16 37mm AA" aa.reg=1700/>
+					<unit mort.reg=458/>
+					<unit at.reg=1228/>
+					<unit note="12 85mm AT" at.bn=745/>
+					<unit mcycle.bn=64/>
+				</unit>
+				<unit ref=18tk loads=457t >
+					<hq>
+						<unit sig.bn=419/>
+					</>
+					<unit tank.bg=110/>
+					<unit tank.bg=170/>
+					<unit tank.bg=181/>
+					<unit motor.bg=32/>
+					<unit gds.hvy.tank.reg=36/>
+					<unit mort.reg=292/>
+					<unit lt.at.reg=1000/>
+					<unit colors=Soviet note="12 85mm AT" at.bn=736/>
+					<unit aa.reg=1694/>
+					<unit mcycle.bn=78/>
+					<unit ac.bn=29/>
+					<unit mot.sap.bn=115/>
+				</unit>
+				<unit ref=25tk>
+					<unit note="1942 shtat" tank.bg=111/>
+					<unit note="1942 shtat" tank.bg=162/>
+					<unit note="1942 shtat" tank.bg=175/>
+					<unit motor.bg=20/>
+					<unit note="16 37mm AA" aa.reg=1702/>
+					<unit mort.reg=459/>
+					<unit lt.at.reg=1497/>
+					<unit note="12 85mm AT" at.bn=746/>
+					<unit mcycle.bn=53/>
+				</unit>
+				<unit ref=23a>
+					<unit how.bg=58/>
+					<unit colors=Soviet hh.bg=96/>
+					<unit colors=Soviet mort.bg=28/>
+					<unit obs.bn=23/>
+				</unit>
+				<unit ref=1gma>
+					<unit rocket.bg=2/>
+					<unit obs.bn=1/>
+				</unit>
+				<unit tank.reg=126/>
+				<unit tank.reg=127/>
+				<unit su.reg=1547/>
+				<unit su.reg=1548/>
+				<unit mcycle.bn=86/>
+				<unit mcycle.bn=89/>
+				<unit shh.reg=137/>
+				<unit shh.reg=1150/>
+				<unit at.bn=753/>
+				<unit at.bn=754/>
+				<unit at.bn=756/>
+				<unit att.air.div=227/>
+				<unit ftr.air.div=269/>
+				<unit ftr.air.div=322/>
+			</unit>
+			<unit ref=Transcaucasus.front>
+				<hq>
+					<unit armd.trn=11/>
+					<unit armd.trn=15/>
+					<unit armd.trn=19/>
+					<unit armd.trn=36/>
+					<unit armd.trn=41/>
+					<unit armd.trn=42/>
+					<unit aa.reg=1561/>
+					<unit aa.reg=1562/>
+					<unit aa.reg=1653/>
+					<unit aa.bn=481/>
+					<unit eng.bg=4/>
+					<unit sap.bn=321/>
+					<unit eng.bn=337/>
+					<unit bridge.bn=21/>
+					<unit bridge.bn=22/>
+					<unit bridge.bn=98/>
+				</>
+				<unit ref=45army>
+					<hq>
+						<unit armd.trn=65/>
+						<unit eng.bn=10/>
+					</>
+					<unit ref=261r>
+						<unit gds.art.reg=39/>
+						<unit at.reg=140/>
+					</unit>
+					<unit ref=349r>
+						<unit mort.bn=18/>
+					</unit>
+					<unit fort.area=55>
+						<unit mort.reg=20/>
+					</unit>
+					<unit fort.area=69>
+						<unit at.reg=233/>
+					</unit>
+					<unit tank.bg=226/>
+					<unit tank.bg=227/>
+				</unit>
+				<unit size=XXXX name="Iran Garrison">
+					<unit ref=75r />
+					<unit ref=15ck>
+						<unit cav.div=1/>
+						<unit cav.div=23/>
+					</unit>
+					<unit rifle.bg=90/>
+					<unit at.reg=1595/>
+					<unit at.bn=15/>
+					<unit mort.bn=17/>
+				</unit>
+				<unit ref=12rk>
+					<unit ref=392r/>
+					<unit ref=406r>
+						<unit art.reg=1677/>
+					</unit>
+				</unit>
+				<unit ref=13rk>
+					<unit ref=402r/>
+					<unit rifle.bg=94/>
+					<unit rifle.bg=133/>
+				</unit>
+				<unit fort.area=51/>
+				<unit fort.area=151>
+					<unit shh.reg=1023/>
+				</unit>
+				<unit tank.bg=230/>
+				<unit tank.reg=271/>
+				<unit shh.reg=526/>
+				<unit mort.bg=44/>
+			</unit>
+			<unit size=XXXX name="Moscow Defense Zone">
+				<unit uid=mdf.hq spec.hq="Moscow Defense Zone">
+					<unit aa.reg=1639/>
+					<unit aa.bn=577/>
+					<unit aa.bn=578/>
+					<unit eng.bn=162/>
+					<unit eng.bn=340/>
+					<unit eng.bn=341/>
+					<unit eng.bn=693/>
+				</unit>
+				<unit fort.area=54>
+					<unit cannon.reg=1638/>
+					<unit at.reg=1073/>
+					<unit at.reg=1646/>
+					<unit shg.bn=406/>
+				</unit>
+				<unit fort.area=77>
+					<unit at.reg=1643/>
+				</unit>
+				<unit fort.area=91>
+					<unit at.reg=1642/>
+				</unit>
+				<unit fort.area=118>
+					<unit at.reg=408/>
+					<unit at.reg=1645/>
+				</unit>
+				<unit fort.area=153>
+					<unit at.reg=1644/>
+				</unit>
+				<unit fort.area=156>
+					<unit at.reg=562/>
+				</unit>
+				<unit fort.area=157>
+					<unit how.reg=1074/>
+					<unit at.reg=1160/>
+					<unit shg.bn=402/>
+				</unit>
+				<unit fort.area=159>
+					<unit at.reg=1075/>
+				</unit>
+				<unit fort.area=160>
+					<unit at.reg=1161/>
+				</unit>
+				<unit mcycle.bn=81/>
+				<unit shh.bg=105/>
+				<unit shh.bg=112/>
+				<unit shh.bg=113/>
+			</unit>
+			<unit ref=Moscow.dis>
+				<hq>
+					<unit aero.bn=12/>
+					<unit aero.bn=33/>
+					<unit aero.bn=41/>
+					<unit aero.bn=56/>
+					<unit armd.trn=7/>
+					<unit armd.trn=16/>
+					<unit armd.trn=23/>
+					<unit armd.trn=24/>
+					<unit armd.trn=26/>
+					<unit armd.trn=39/>
+					<unit armd.trn=44/>
+					<unit armd.trn=51/>
+					<unit armd.trn=53/>
+					<unit armd.trn=56/>
+					<unit armd.trn=61/>
+					<unit armd.trn=79/>
+					<unit colors=Soviet badge=aa size=XX name="32nd Anti-Aircraft">
+						<unit aa.div.hq=32/>
+						<unit aa.reg=1377/>
+						<unit aa.reg=1381/>
+						<unit aa.reg=1387/>
+						<unit aa.reg=1393/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="33rd Anti-Aircraft">
+						<unit aa.div.hq=33/>
+						<unit aa.reg=1378/>
+						<unit aa.reg=1382/>
+						<unit aa.reg=1388/>
+						<unit aa.reg=1394/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="34th Anti-Aircraft">
+						<unit aa.div.hq=34/>
+						<unit aa.reg=1379/>
+						<unit aa.reg=1383/>
+						<unit aa.reg=1389/>
+						<unit aa.reg=1395/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="35th Anti-Aircraft">
+						<unit aa.div.hq=35/>
+						<unit aa.reg=1384/>
+						<unit aa.reg=1390/>
+						<unit aa.reg=1396/>
+						<unit aa.reg=1398/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="36th Anti-Aircraft">
+						<unit aa.div.hq=36/>
+						<unit aa.reg=1385/>
+						<unit aa.reg=1391/>
+						<unit aa.reg=1397/>
+						<unit aa.reg=1399/>
+					</unit>
+					<unit aa.reg=1707/>
+					<unit aa.reg=1708/>
+					<unit aa.reg=1709/>
+					<unit aa.reg=1710/>
+					<unit aa.reg=1712/>
+					<unit aa.reg=1713/>
+					<unit aa.reg=1714/>
+					<unit aa.reg=1715/>
+					<unit aa.reg=1716/>
+					<unit aa.reg=1717/>
+					<unit aa.reg=1718/>
+					<unit aa.reg=1719/>
+					<unit aa.reg=1720/>
+					<unit aa.reg=1721/>
+					<unit aa.bn=67/>
+					<unit aa.bn=141/>
+					<unit aslt.eng.bg=1/>
+					<unit aslt.eng.bg=2/>
+					<unit aslt.eng.bg=3/>
+					<unit aslt.eng.bg=4/>
+					<unit aslt.eng.bg=5/>
+					<unit aslt.eng.bg=6/>
+					<unit aslt.eng.bg=7/>
+					<unit aslt.eng.bg=8/>
+					<unit aslt.eng.bg=9/>
+					<unit aslt.eng.bg=10/>
+					<unit aslt.eng.bg=11/>
+					<unit aslt.eng.bg=12/>
+					<unit aslt.eng.bg=13/>
+					<unit aslt.eng.bg=14/>
+					<unit aslt.eng.bg=15/>
+					<unit eng.bn=61/>
+					<unit eng.bn=88/>
+					<unit eng.bn=132/>
+					<unit eng.bn=233/>
+					<unit eng.bn=245/>
+					<unit sap.bn=737/>
+					<unit sap.bn=742/>
+					<unit bridge.bn=124/>
+				</>
+				<unit ref=4tank.army>
+					<hq>
+						<unit mot.eng.bn=88/>
+						<unit sig.bn=118/>
+					</>
+					<unit ref=6gmk>
+						<unit gds.mech.bg=16/>
+						<unit gds.mech.bg=17/>
+						<unit colors=Soviet mech.bg=49/>
+						<unit colors=Soviet tank.reg=29/>
+						<unit colors=Soviet tank.reg=56/>
+						<unit gds.su.reg=1/>
+						<unit gds.at.reg=51/>
+						<unit colors=Soviet note="12 85mm AT" at.bn=740/>
+						<unit colors=Soviet mort.reg=240/>
+						<unit gds.at.bn=31/>
+						<unit gds.sap.bn=22/>
+						<unit gds.sig.bn=33/>
+						<unit colors=Soviet rep.bn=95/>
+						<unit colors=Soviet hvy.su.reg=1545/>
+					</unit>
+					<unit ref=11tk>
+						<unit note="2bns t34s" tank.bg=20/>
+						<unit note="2bns t34s" tank.bg=36/>
+						<unit note="2bns t34s" tank.bg=65/>
+						<unit motor.bg=12/>
+						<unit su.reg=1493/>
+						<unit lt.at.reg=1507/>
+						<unit note="12 85mm AT" at.bn=738/>
+						<unit mort.reg=243/>
+						<unit note="16 37mm AA" aa.reg=1388/>
+						<unit ac.bn=51/>
+					</unit>
+					<unit ref=30tk>
+						<unit note="full strength" tank.bg=197/>
+						<unit note="full strength" tank.bg=243/>
+						<unit note="full strength" tank.bg=244/>
+						<unit motor.bg=30/>
+						<unit su.reg=1621/>
+						<unit mcycle.bn=88/>
+						<unit lt.at.reg=1513/>
+						<unit mort.reg=299/>
+						<unit aa.reg=219/>
+						<unit at.bn=742/>
+						<unit rocket.bn=248/>
+					</unit>
+					<unit mcycle.reg=51/>
+				</unit>
+				<unit ref=7mk>
+					<unit note=58tr mech.bg=16/>
+					<unit note=84tr mech.bg=63/>
+					<unit note=177tr mech.bg=64/>
+				</unit>
+				<unit ref=8mk>
+					<unit note=41tr mech.bg=66/>
+					<unit note=83tr mech.bg=67/>
+					<unit note=139tr mech.bg=68/>
+				</unit>
+				<unit ref=20tk>
+					<unit note="1942 shtat" tank.bg=155/>
+					<unit note="full strength" gds.tank.bg=8/>
+					<unit note="1942 shtat" tank.bg=80/>
+					<unit gds.motor.bg=7/>
+					<unit su.reg=1419/>
+					<unit note="16 37mm AA" aa.reg=1711/>
+					<unit mort.reg=291/>
+					<unit note="12 85mm AT" at.bn=735/>
+					<unit mot.sap.bn=206/>
+					<unit sig.bn=710/>
+				</unit>
+				<unit uid=1wx rifle.bg="1st Women's"/>
+				<unit gds.tank.bg=31/>
+				<unit gds.tank.bg=34/>
+				<unit tank.bg=83/>
+				<unit tank.bg=92/>
+				<unit tank.bg=118/>
+				<unit tank.bg=144/>
+				<unit tank.bg=149/>
+				<unit tank.bg=151/>
+				<unit tank.bg=154/>
+				<unit tank.bg=177/>
+				<unit tank.bg=184/>
+				<unit tank.bg=232/>
+				<unit tank.bg=238/>
+				<unit gds.hvy.tank.reg=1/>
+				<unit gds.hvy.tank.reg=7/>
+				<unit gds.hvy.tank.reg=8/>
+				<unit gds.hvy.tank.reg=14/>
+				<unit gds.hvy.tank.reg=28/>
+				<unit tank.reg=41/>
+				<unit tank.reg=42/>
+				<unit tank.reg=53/>
+				<unit tank.reg=54/>
+				<unit tank.reg=57/>
+				<unit tank.reg=128/>
+				<unit tank.reg=134/>
+				<unit tank.reg=136/>
+				<unit tank.reg=139/>
+				<unit tank.reg=160/>
+				<unit tank.reg=166/>
+				<unit tank.reg=184/>
+				<unit tank.reg=189/>
+				<unit tank.reg=198/>
+				<unit tank.reg=223/>
+				<unit mcycle.reg=52/>
+				<unit su.reg=991/>
+				<unit su.reg=999/>
+				<unit su.reg=1219/>
+				<unit su.reg=1416/>
+				<unit su.reg=1456/>
+				<unit su.reg=1457/>
+				<unit su.reg=1458/>
+				<unit su.reg=1459/>
+				<unit su.reg=1460/>
+				<unit su.reg=1462/>
+				<unit su.reg=1494/>
+				<unit su.reg=1495/>
+				<unit hvy.su.reg=1542/>
+				<unit hvy.su.reg=1543/>
+				<unit hvy.su.reg=1544/>
+				<unit hvy.su.reg=1546/>
+				<unit tank.bn=51/>
+				<unit tank.bn=62/>
+				<unit tank.bn=510/>
+				<unit tank.bn=511/>
+				<unit tank.bn=512/>
+				<unit tank.bn=513/>
+				<unit tank.bn=516/>
+				<unit tank.bn=517/>
+				<unit tank.bn=519/>
+				<unit tank.bn=565/>
+				<unit mcycle.bn=90/>
+				<unit mcycle.bn=91/>
+				<unit mcycle.bn=92/>
+				<unit mcycle.bn=93/>
+				<unit mcycle.bn=94/>
+				<unit mcycle.bn=95/>
+				<unit mcycle.bn=96/>
+				<unit mcycle.bn=97/>
+				<unit mcycle.bn=98/>
+				<unit ref=5bak>
+					<unit colors=Guards badge=art size=XX name="3rd Guards Breakthrough Artillery">
+						<unit art.div.hq=3/>
+						<unit gds.la.bg=7/>
+						<unit gds.how.bg=8/>
+						<unit gds.cannon.bg=22/>
+						<unit colors=Soviet hh.bg=99/>
+						<unit colors=Soviet shh.bg=107/>
+						<unit colors=Soviet pen.mort.bg=43/>
+						<unit obs.bn=3/>
+					</unit>
+					<unit colors=Guards badge=art size=XX name="5th Guards Breakthrough Artillery">
+						<unit art.div.hq=5/>
+						<unit colors=Soviet la.bg=71/>
+						<unit colors=Soviet how.bg=67/>
+						<unit gds.cannon.bg=17/>
+						<unit colors=Soviet hh.bg=95/>
+						<unit gds.shh.bg=18/>
+						<unit colors=Soviet pen.mort.bg=27/>
+						<unit obs.bn=5/>
+					</unit>
+					<unit note="2,5,6GMB; M-30 300mm, 4 rails per launcher" colors=Guards size=XX badge=rocket name="7th Guards Mortar">
+						<unit art.div.hq="7th Guards"/>
+						<unit rocket.bg=4/>
+						<unit rocket.bg=9/>
+						<unit rocket.bg=11/>
+						<unit obs.bn=7/>
+					</unit>
+				</unit>
+				<unit ref=21ba>
+					<unit cannon.bg=64/>
+					<unit la.bg=66/>
+					<unit how.bg=55/>
+					<unit mort.bg=25/>
+					<unit hh.bg=94/>
+					<unit shh.bg=103/>
+				</unit>
+				<unit ref=22a>
+					<unit cannon.bg=59/>
+					<unit cannon.bg=56/>
+					<unit hh.bg=97/>
+					<unit hh.bg=98/>
+					<unit gds.shh.bg=20/>
+				</unit>
+				<unit ref=4gma>
+					<unit rocket.bg=20/>
+					<unit rocket.bg=21/>
+				</unit>
+				<unit ref=6gma>
+					<unit rocket.bg=13/>
+					<unit rocket.bg=14/>
+				</unit>
+				<unit rocket.bg=27/>
+				<unit rocket.reg=3/>
+				<unit rocket.reg=7/>
+				<unit rocket.reg=9/>
+				<unit rocket.reg=10/>
+				<unit rocket.reg=11/>
+				<unit rocket.reg=12/>
+				<unit rocket.reg=18/>
+				<unit rocket.reg=39/>
+				<unit rocket.reg=56/>
+				<unit rocket.reg=57/>
+				<unit rocket.reg=72/>
+				<unit rocket.reg=88/>
+				<unit rocket.reg=91/>
+				<unit rocket.reg=326/>
+				<unit rocket.reg=328/>
+				<unit art.reg=8/>
+				<unit art.reg=116/>
+				<unit art.reg=129/>
+				<unit art.reg=154/>
+				<unit art.reg=1157/>
+				<unit art.reg=1517/>
+				<unit art.reg=1518/>
+				<unit art.reg=1519/>
+				<unit art.reg=1520/>
+				<unit art.reg=1521/>
+				<unit art.reg=1522/>
+				<unit at.bg=19/>
+				<unit at.bg=20/>
+				<unit at.reg=1506/>
+				<unit at.reg=1508/>
+				<unit at.reg=1509/>
+				<unit at.reg=1511/>
+				<unit at.reg=1512/>
+				<unit at.reg=1514/>
+				<unit at.reg=1515/>
+				<unit at.reg=1723/>
+				<unit at.reg=1724/>
+				<unit at.reg=1725/>
+				<unit at.reg=1726/>
+				<unit at.reg=1727/>
+				<unit at.reg=1728/>
+				<unit at.reg=1729/>
+				<unit shg.bn=32/>
+				<unit shg.bn=40/>
+				<unit shg.bn=226/>
+				<unit shg.bn=245/>
+				<unit shg.bn=329/>
+				<unit shg.bn=331/>
+				<unit at.bn=739/>
+				<unit at.bn=741/>
+				<unit at.bn=744/>
+				<unit at.bn=748/>
+				<unit at.bn=750/>
+				<unit at.bn=751/>
+				<unit mort.bg=33/>
+				<unit mort.reg=108/>
+			</unit>
+			<unit ref=Archangelsk.dis >
+				<hq>
+					<unit aero.bn=9/>
+					<unit aero.bn=10/>
+					<unit aero.bn=13/>
+					<unit aero.bn=23/>
+					<unit aero.bn=27/>
+					<unit aero.bn=45/>
+					<unit aero.bn=47/>
+					<unit aero.bn=50/>
+					<unit aero.bn=51/>
+					<unit aero.bn=54/>
+					<unit aero.bn=55/>
+					<unit aero.bn=58/>
+					<unit aero.bn=59/>
+					<unit aero.bn=60/>
+					<unit aero.bn=61/>
+					<unit aero.bn=64/>
+					<unit aero.bn=67/>
+				</>
+				<unit ref=25r>
+					<unit smg.bn=24/>
+					<unit smg.bn=25/>
+					<unit smg.bn=26/>
+					<unit cannon.reg=310/>
+					<unit cannon.reg=1234/>
+				</unit>
+			</unit>
+			<unit ref=Volga.dis>
+				<hq>
+					<unit colors=Soviet badge=aa size=XX name="38th Anti-Aircraft">
+						<unit aa.div.hq=38/>
+						<unit aa.reg=1401/>
+						<unit aa.reg=1405/>
+						<unit aa.reg=1409/>
+						<unit aa.reg=1413/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="39th Anti-Aircraft">
+						<unit aa.div.hq=39/>
+						<unit aa.reg=1406/>
+						<unit aa.reg=1410/>
+						<unit aa.reg=1414/>
+						<unit aa.reg=1526/>
+					</unit>
+					<unit colors=Soviet badge=aa size=XX name="40th Anti-Aircraft">
+						<unit aa.div.hq=40/>
+						<unit aa.reg=1407/>
+						<unit aa.reg=1411/>
+						<unit aa.reg=1415/>
+						<unit aa.reg=1527/>
+					</unit>
+					<unit aero.bn=48/>
+					<unit aero.bn=49/>
+					<unit aero.bn=52/>
+					<unit armd.trn=25/>
+					<unit eng.bn=376/>
+					<unit sap.bn=147/>
+					<unit sap.bn=216/>
+				</>
+				<unit ref=9mk>
+					<unit note=53tr mech.bg=69/>
+					<unit note=47gtr mech.bg=70/>
+					<unit note=74tr mech.bg=71/>
+				</unit>
+				<unit smg.bn=41/>
+				<unit smg.bn=42/>
+				<unit smg.bn=43/>
+				<unit smg.bn=44/>
+				<unit smg.bn=45/>
+				<unit smg.bn=48/>
+				<unit smg.bn=49/>
+				<unit smg.bn=50/>
+				<unit smg.bn=51/>
+				<unit smg.bn=52/>
+				<unit gds.tank.bg=41/>
+				<unit tank.bg=2/>
+				<unit tank.bg=10/>
+				<unit tank.bg=14/>
+				<unit tank.bg=15/>
+				<unit tank.bg=116/>
+				<unit tank.bg=207/>
+				<unit tank.bg=254/>
+				<unit tank.reg=51/>
+				<unit tank.reg=61/>
+				<unit tank.reg=104/>
+				<unit tank.reg=154/>
+				<unit tank.reg=250/>
+				<unit tank.bn=126/>
+				<unit tank.bn=249/>
+				<unit tank.bn=258/>
+				<unit tank.bn=563/>
+				<unit tank.bn=564/>
+				<unit tank.bn=608/>
+				<unit at.reg=484/>
+				<unit rocket.reg=327/>
+			</unit>
+			<unit ref=Stalingrad.dis>
+				<unit smg.bn=46/>
+				<unit smg.bn=47/>
+				<unit at.bg=5/>
+			</unit>
+			<unit size=XXXX name="Independent Forces in Iran">
+				<unit ref=58rk>
+					<unit ref=68g/>
+					<unit mtn.cav.div=39/>
+					<unit rifle.bg=89/>
+				</unit>
+			</unit>
+		</unit>
+	</combatant>
+</>

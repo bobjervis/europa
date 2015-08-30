@@ -1,0 +1,21 @@
+<OOB combatant=Romania >
+	<unit name="Higher Commands" colors=Romanian >
+		<unit army=1 start=3/25/1941 />
+		<unit army=3 start=3/25/1941 end=8/29/1944 />
+		<unit army=4 start=6/20/1940 />
+		<unit corps=1 start=6/1/1940 end=12/1/1944 />
+		<unit corps=2 start=1/1/1941 />
+		<unit corps=3 start=3/4/1940 end=2/22/1944 />
+		<unit corps=4 start=2/1/1941 />
+		<unit corps=5 start=3/25/1941 end=9/18/1944 />
+		<unit corps=6 start=1/1/1940 />
+		<unit corps=7 start=3/21/1941 />
+		<unit corps=10 start=2/1/1940 end=7/18/1941 />
+		<unit corps=11 start=2/1/1941 end=12/15/1941 />
+		<unit uid=mtnc corps=Mountain badge=mtn abbreviation=Mt start=6/3/1941 end=10/15/1944 />
+		<unit uid=cavc corps=Cavalry badge=cav abbreviation=Cv start=1/10/1941 end=10/31/1944 />
+		<unit uid=motc corps=Motorized badge=mech abbreviation=Mo start=11/1/1943 end=10/14/1944 />
+	</>
+	<unit name=Army colors=Romanian >
+	</>
+</OOB>
